@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f5f6f8;
+  --foreground: #2d3748;
+  
+  /* Songpa Newsroom Design Tokens (Inspired) */
+  --news-orange: #F25C05;
+  --news-indigo: #1D428A;
+  --news-gray-light: #F5F6F8;
+  --news-gray-dark: #4a5568;
+  
+  /* Clean Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-card: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-news-orange: var(--news-orange);
+  --color-news-indigo: var(--news-indigo);
+  --shadow-card: var(--shadow-card);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Pretendard", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom Utilities for News Layout */
+.news-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.news-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-sticky {
+  position: sticky;
+  top: 2rem;
+}
