@@ -26,8 +26,10 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: "Pretendard", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  font-family: var(--font-noto-sans-kr), "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", ui-sans-serif, system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
+  word-break: keep-all;
+  overflow-wrap: break-word;
 }
 
 /* Custom Utilities for News Layout */
