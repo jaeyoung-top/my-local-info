@@ -23,7 +23,8 @@ export default function Home() {
       <div className="bg-[#F25C05] text-white py-2 px-6 shadow-sm">
         <div className="max-w-6xl mx-auto flex justify-between items-center text-sm font-bold">
           <div className="flex gap-6">
-            <span className="cursor-pointer hover:underline">홈</span>
+            <Link href="/" className="cursor-pointer hover:underline">홈</Link>
+            <Link href="/blog" className="cursor-pointer hover:underline">블로그</Link>
             <span className="cursor-pointer hover:underline">송파소식지</span>
             <span className="cursor-pointer hover:underline">구정안내</span>
           </div>
