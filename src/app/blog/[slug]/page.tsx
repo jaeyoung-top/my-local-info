@@ -1,6 +1,5 @@
 import Link from 'next/link';
-import ReactMarkdown from 'react-markdown';
-import remarkGfm from 'remark-gfm';
+import { marked } from 'marked';
 import { getPostData, getAllPostSlugs } from '../../../lib/posts';
 
 interface Params {
@@ -27,6 +26,9 @@ export default async function BlogPost({ params }: Params) {
       </div>
     );
   }
+
+  // Markdown을 HTML로 변환 (빌드 시점에 실행됨)
+  const htmlContent = marked.parse(postData.content);
 
   return (
     <div className="min-h-screen bg-[#FFF9F2] text-[#334155] font-sans selection:bg-[#F25C05] selection:text-white pb-20">
@@ -56,13 +58,10 @@ export default async function BlogPost({ params }: Params) {
           </header>
           
           <div className="bg-white rounded-t-[36px] px-8 md:px-[60px] py-[50px] md:py-[64px]">
-            <div className="blog-article max-w-none text-[#475569] leading-[1.9] tracking-[-0.012em] text-[16px] md:text-[17px]">
-              <ReactMarkdown 
-                remarkPlugins={[remarkGfm]}
-              >
-                {postData.content}
-              </ReactMarkdown>
-            </div>
+            <div 
+              className="blog-article max-w-none text-[#475569]"
+              dangerouslySetInnerHTML={{ __html: htmlContent }}
+            />
           </div>
         </article>
       </main>
