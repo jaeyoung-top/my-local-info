@@ -10,6 +10,7 @@ const notoSansKr = Noto_Sans_KR({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://my-local-info-48r.pages.dev"),
   title: "송파구 생활 정보 알리미",
   description: "우리 동네의 생생한 행사, 축제 및 지원금 소식을 전해드립니다.",
 };
