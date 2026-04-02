@@ -103,6 +103,10 @@ ${JSON.stringify(targetItem, null, 2)}`;
     if (!jsonMatch) throw new Error('AI 응답에서 유효한 JSON 형식을 찾을 수 없습니다.');
     
     const processedItem = JSON.parse(jsonMatch[0]);
+    // id를 항상 문자열로 변환하여 TypeScript 오류 방지
+    if (processedItem.id) {
+      processedItem.id = String(processedItem.id);
+    }
 
     // 4단계: 기존 데이터에 추가
     // category에 따라 적절한 배열에 추가
