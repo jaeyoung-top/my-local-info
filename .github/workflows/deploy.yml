@@ -30,6 +30,7 @@ jobs:
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: |
           node scripts/fetch-public-data.js
+          node scripts/crawl-songpa-news.js
           node scripts/generate-blog-post.js
         env:
           PUBLIC_DATA_API_KEY: ${{ secrets.PUBLIC_DATA_API_KEY }}
