@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Header from '@/components/Header';
 import { getSortedPostsData } from '../../lib/posts';
 
 export default function BlogList() {
@@ -6,17 +6,7 @@ export default function BlogList() {
 
   return (
     <div className="min-h-screen bg-[#f5f6f8] text-[#2d3748] font-sans">
-      <div className="bg-[#F25C05] text-white py-2 px-6 shadow-sm">
-        <div className="max-w-6xl mx-auto flex justify-between items-center text-sm font-bold">
-          <div className="flex gap-6">
-            <Link href="/" className="cursor-pointer hover:underline">홈</Link>
-            <Link href="/blog" className="cursor-pointer underline">블로그</Link>
-            <Link href="/about" className="cursor-pointer hover:underline">소개</Link>
-            <span className="cursor-pointer hover:underline">공공포털</span>
-            <span className="cursor-pointer hover:underline">구정안내</span>
-          </div>
-        </div>
-      </div>
+      <Header />
 
       <main className="max-w-6xl mx-auto px-6 py-12">
         <h1 className="text-4xl font-black text-[#1D428A] mb-8 border-b-4 border-[#1D428A] inline-block pb-2">송파 이야기 블로그</h1>

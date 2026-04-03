@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Header from "@/components/Header";
 import data from "../../../public/data/local-info.json";
 import NewsCard, { InfoItem } from "@/components/NewsCard";
 
@@ -9,17 +9,7 @@ export default function EventsPage() {
   return (
     <div className="min-h-screen bg-[#f5f6f8] text-[#2d3748] font-sans">
       {/* 검색/메뉴 바 */}
-      <div className="bg-[#1D428A] text-white py-2 px-6 shadow-sm">
-        <div className="max-w-6xl mx-auto flex justify-between items-center text-sm font-bold">
-          <div className="flex gap-6">
-            <Link href="/" className="cursor-pointer hover:underline">홈</Link>
-            <Link href="/blog" className="cursor-pointer hover:underline">블로그</Link>
-            <Link href="/events" className="cursor-pointer underline">행사/축제</Link>
-            <Link href="/benefits" className="cursor-pointer hover:underline">지원금/혜택</Link>
-            <Link href="/about" className="cursor-pointer hover:underline">소개</Link>
-          </div>
-        </div>
-      </div>
+      <Header color="blue" />
 
       <header className="bg-white border-b border-gray-200 py-12 px-6 mb-8">
         <div className="max-w-6xl mx-auto flex flex-col gap-2">

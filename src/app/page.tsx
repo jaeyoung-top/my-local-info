@@ -1,11 +1,11 @@
 'use client';
 
 import Image from "next/image";
-import Link from "next/link";
 import { useState } from "react";
 import data from "../../public/data/local-info.json";
 import NewsCard, { InfoItem } from "@/components/NewsCard";
 import AdBanner from "@/components/AdBanner";
+import Header from "@/components/Header";
 
 export default function Home() {
   const { events, benefits, lastUpdated } = data;
@@ -72,28 +72,11 @@ export default function Home() {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }}
         />
       ))}
-      {/* 1. 최상단 오렌지색 검색/메뉴 바 */}
-      <div className="bg-[#F25C05] text-white py-2 px-6 shadow-sm">
-        <div className="max-w-6xl mx-auto flex justify-between items-center text-sm font-bold">
-          <div className="flex gap-6">
-            <Link href="/" className="cursor-pointer hover:underline">홈</Link>
-            <Link href="/blog" className="cursor-pointer hover:underline">블로그</Link>
-            <Link href="/about" className="cursor-pointer hover:underline">소개</Link>
-          </div>
-          <div className="flex items-center gap-2">
-            <div className="bg-white/20 px-3 py-1 rounded flex items-center gap-2">
-              <input 
-                type="text" 
-                placeholder="전체 검색" 
-                className="bg-transparent border-none text-white text-xs focus:outline-none placeholder:text-white/70 w-24 md:w-32"
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-              />
-              <span className="text-base leading-none">🔍</span>
-            </div>
-          </div>
-        </div>
-      </div>
+      <Header 
+        showSearch={true} 
+        searchQuery={searchQuery} 
+        setSearchQuery={setSearchQuery} 
+      />
 
       {/* 2. 로고 및 메인 헤더 영역 (세련된 큰 배너 스타일) */}
       <header className="relative bg-gradient-to-r from-[#1D428A] via-[#1a3668] to-[#F25C05] py-20 px-6 overflow-hidden shadow-inner mb-6">
