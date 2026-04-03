@@ -1,21 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
 import data from "../../public/data/local-info.json";
-
-interface InfoItem {
-  id: string;
-  name: string;
-  category: string;
-  startDate: string;
-  endDate: string;
-  location: string;
-  target: string;
-  summary: string;
-  link: string;
-}
+import NewsCard, { InfoItem } from "@/components/NewsCard";
 
 export default function Home() {
   const { events, benefits, lastUpdated } = data;
+  const currentDate = new Date();
+  const currentYear = currentDate.getFullYear();
+  const currentMonth = currentDate.getMonth() + 1;
+  const monthString = currentMonth.toString().padStart(2, '0');
 
   return (
     <div className="min-h-screen bg-[#f5f6f8] text-[#2d3748] font-sans">
@@ -52,11 +45,11 @@ export default function Home() {
               송파<span className="text-[#F25C05] drop-shadow-lg">소식</span>
             </h1>
             <p className="text-white/95 text-lg md:text-xl mt-2 font-medium drop-shadow break-keep text-center md:text-left">
-              우리 동네의 오늘을 전합니다, 2026년 4월 특별호
+              우리 동네의 오늘을 전합니다, {currentYear}년 {currentMonth}월 특별호
             </p>
           </div>
           <div className="hidden md:flex flex-col items-end border-l-4 border-[#F25C05] pl-8 space-y-3">
-            <p className="text-white font-black text-5xl drop-shadow-sm tracking-tighter">2026. 04</p>
+            <p className="text-white font-black text-5xl drop-shadow-sm tracking-tighter">{currentYear}. {monthString}</p>
             <p className="text-[#F25C05] font-black bg-white px-4 py-1.5 rounded-md text-sm shadow-lg tracking-wider">VOL. 42</p>
           </div>
         </div>
@@ -95,9 +88,14 @@ export default function Home() {
                     <div className="text-sm font-medium text-white/90 line-clamp-2 drop-shadow">
                       송파, 축제의 현장으로 여러분을 초대합니다. 석촌호수에서 펼쳐지는 봄의 향연을 만나보세요.
                     </div>
-                    <button className="w-full relative overflow-hidden py-3 bg-white/20 hover:bg-[#F25C05] backdrop-blur-sm border border-white/30 transition-all rounded-lg font-black text-sm uppercase group-hover:border-[#F25C05] group-hover:shadow-[0_0_15px_rgba(242,92,5,0.5)]">
+                    <a 
+                      href="https://songpa.newstool.co.kr/list.php?eid=9011"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block w-full text-center relative overflow-hidden py-3 bg-white/20 hover:bg-[#F25C05] backdrop-blur-sm border border-white/30 transition-all rounded-lg font-black text-sm uppercase group-hover:border-[#F25C05] group-hover:shadow-[0_0_15px_rgba(242,92,5,0.5)]"
+                    >
                       E-BOOK 보기 ➔
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -105,12 +103,16 @@ export default function Home() {
               {/* 카테고리 퀵 서비스 */}
               <div className="mt-10 space-y-4">
                 <h4 className="text-[#1D428A] font-black text-sm border-b-2 border-[#1D428A] pb-2">QUICK CATEGORY</h4>
-                <div className="grid grid-cols-2 gap-2">
-                  {['전체', '행사/축제', '지원금', '교육/강좌', '알림사항'].map((cat) => (
-                    <button key={cat} className="px-3 py-2 bg-white border border-gray-200 rounded text-xs font-bold text-gray-600 hover:border-[#1D428A] hover:text-[#1D428A] transition-all">
-                      {cat}
-                    </button>
-                  ))}
+                <div className="grid grid-cols-1 gap-3">
+                  <Link href="/events" className="px-4 py-3 bg-white border border-gray-200 rounded text-sm font-bold text-gray-600 hover:border-[#1D428A] hover:text-white hover:bg-[#1D428A] flex justify-between items-center transition-all shadow-sm">
+                    {currentMonth}월 주요행사 <span>➔</span>
+                  </Link>
+                  <Link href="/benefits" className="px-4 py-3 bg-white border border-gray-200 rounded text-sm font-bold text-gray-600 hover:border-[#F25C05] hover:text-white hover:bg-[#F25C05] flex justify-between items-center transition-all shadow-sm">
+                    지원금 및 생활 혜택 <span>➔</span>
+                  </Link>
+                  <Link href="/blog" className="px-4 py-3 bg-white border border-gray-200 rounded text-sm font-bold text-gray-600 hover:border-[#1a3668] hover:text-white hover:bg-[#1a3668] flex justify-between items-center transition-all shadow-sm">
+                    블로그 소식 <span>➔</span>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -167,70 +169,3 @@ export default function Home() {
   );
 }
 
-function NewsCard({ item, color }: { item: InfoItem & { image?: string }; color: 'indigo' | 'orange' }) {
-  const isPeriod = item.startDate !== item.endDate;
-  const brandColor = color === 'indigo' ? '#1D428A' : '#F25C05';
-  
-  return (
-    <Link 
-      href={`/info/${item.id}`}
-      className={`news-card block overflow-hidden group transition-all duration-300 ${color === 'orange' ? 'border-2 border-[#F25C05] shadow-[0_5px_15px_rgba(242,92,5,0.15)] rounded-2xl cursor-pointer hover:shadow-xl' : 'border border-gray-100 rounded-xl cursor-pointer hover:border-[#1D428A] hover:shadow-lg'}`}
-    >
-      <div className="flex flex-col sm:flex-row items-stretch min-h-[240px]">
-        {/* 이미지 영역: 실제 이미지 또는 플레이스홀더 */}
-        <div className="sm:w-1/3 bg-gray-100 relative aspect-video sm:aspect-auto shrink-0 overflow-hidden border-b sm:border-b-0 sm:border-r border-gray-100">
-          {item.image ? (
-            <Image 
-              src={item.image} 
-              alt={item.name} 
-              fill
-              className="object-cover group-hover:scale-110 transition-transform duration-700"
-            />
-          ) : (
-            <div className="w-full h-full flex items-center justify-center bg-slate-200">
-               <span className="text-5xl opacity-40 group-hover:scale-125 transition-transform duration-500">
-                {color === 'indigo' ? '🎫' : '💡'}
-              </span>
-            </div>
-          )}
-          {/* 카테고리 뱃지 (이미지 위에 오버레이) */}
-          <div 
-            className="absolute top-4 left-4 text-[10px] font-black uppercase tracking-wider px-2 py-1 rounded text-white shadow-lg"
-            style={{ backgroundColor: brandColor }}
-          >
-            {item.category}
-          </div>
-        </div>
-
-        {/* 텍스트 정보 영역 */}
-        <div className="sm:w-2/3 p-6 sm:p-8 flex flex-col justify-between space-y-4">
-          <div className="space-y-3">
-            <div className="flex items-center gap-2">
-              <span className="text-gray-400 text-[10px] font-bold tracking-widest uppercase">Release Date: {item.startDate}</span>
-            </div>
-            <h3 className="text-2xl font-bold text-gray-800 group-hover:text-[#F25C05] transition-colors leading-tight break-keep">
-              {item.name}
-            </h3>
-            <p className="text-gray-500 text-sm leading-relaxed line-clamp-2 md:line-clamp-3 break-keep font-medium">
-              {item.summary}
-            </p>
-          </div>
-
-          <div className="flex items-center justify-between pt-4 border-t border-gray-50">
-            <div className="flex flex-col text-[10px] font-bold text-gray-400">
-               <span className="flex items-center gap-1 mb-1">📍 {item.location}</span>
-               {item.target && (
-                 <span className={`${color === 'orange' ? 'bg-[#F25C05] text-white px-3 py-1.5 rounded-lg text-[11px] mt-1 inline-block font-black shadow-sm' : 'text-[#1D428A]/60 mt-0.5'}`}>
-                   {color === 'orange' ? `🎯 지원 대상: ${item.target}` : `TARGET: ${item.target}`}
-                 </span>
-               )}
-            </div>
-            <div className="inline-flex items-center justify-center w-10 h-10 rounded-full border border-gray-200 text-gray-400 group-hover:border-[#F25C05] group-hover:text-[#F25C05] group-hover:bg-[#F25C05]/5 transition-all">
-              <span className="text-lg">➔</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </Link>
-  );
-}
