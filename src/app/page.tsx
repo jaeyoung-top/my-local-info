@@ -1,15 +1,31 @@
+'use client';
+
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
 import data from "../../public/data/local-info.json";
 import NewsCard, { InfoItem } from "@/components/NewsCard";
 import AdBanner from "@/components/AdBanner";
 
 export default function Home() {
   const { events, benefits, lastUpdated } = data;
+  const [searchQuery, setSearchQuery] = useState("");
+  
   const currentDate = new Date();
   const currentYear = currentDate.getFullYear();
   const currentMonth = currentDate.getMonth() + 1;
   const monthString = currentMonth.toString().padStart(2, '0');
+
+  // 검색어에 따른 필터링 로직
+  const filteredEvents = events.filter((item: InfoItem) => 
+    item.name.toLowerCase().includes(searchQuery.toLowerCase()) || 
+    item.summary.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+
+  const filteredBenefits = benefits.filter((item: InfoItem) => 
+    item.name.toLowerCase().includes(searchQuery.toLowerCase()) || 
+    item.summary.toLowerCase().includes(searchQuery.toLowerCase())
+  );
 
   const eventJsonLd = events.map((event: InfoItem) => ({
     "@context": "https://schema.org",
@@ -63,13 +79,17 @@ export default function Home() {
             <Link href="/" className="cursor-pointer hover:underline">홈</Link>
             <Link href="/blog" className="cursor-pointer hover:underline">블로그</Link>
             <Link href="/about" className="cursor-pointer hover:underline">소개</Link>
-            <span className="cursor-pointer hover:underline">공공포털</span>
-            <span className="cursor-pointer hover:underline">구정안내</span>
           </div>
           <div className="flex items-center gap-2">
             <div className="bg-white/20 px-3 py-1 rounded flex items-center gap-2">
-              <span className="text-xs">전체 검색</span>
-              <span className="text-lg leading-none">🔍</span>
+              <input 
+                type="text" 
+                placeholder="전체 검색" 
+                className="bg-transparent border-none text-white text-xs focus:outline-none placeholder:text-white/70 w-24 md:w-32"
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+              />
+              <span className="text-base leading-none">🔍</span>
             </div>
           </div>
         </div>
@@ -172,9 +192,13 @@ export default function Home() {
                 <h2 className="text-2xl font-black text-[#1D428A]">이번 달 주요 행사</h2>
               </div>
               <div className="grid gap-4">
-                {events.map((event: InfoItem) => (
-                  <NewsCard key={event.id} item={event} color="indigo" />
-                ))}
+                {filteredEvents.length > 0 ? (
+                  filteredEvents.map((event: InfoItem) => (
+                    <NewsCard key={event.id} item={event} color="indigo" />
+                  ))
+                ) : (
+                  <p className="text-gray-400 text-sm py-4">검색 결과가 없습니다.</p>
+                )}
               </div>
             </section>
 
@@ -188,9 +212,13 @@ export default function Home() {
                 <h2 className="text-2xl font-black text-[#F25C05]">지원금 및 생활 혜택</h2>
               </div>
               <div className="grid gap-4">
-                {benefits.map((benefit: InfoItem) => (
-                  <NewsCard key={benefit.id} item={benefit} color="orange" />
-                ))}
+                {filteredBenefits.length > 0 ? (
+                  filteredBenefits.map((benefit: InfoItem) => (
+                    <NewsCard key={benefit.id} item={benefit} color="orange" />
+                  ))
+                ) : (
+                  <p className="text-gray-400 text-sm py-4">검색 결과가 없습니다.</p>
+                )}
               </div>
             </section>
           </div>
