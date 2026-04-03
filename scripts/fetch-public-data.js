@@ -51,13 +51,24 @@ async function main() {
       filtered = services;
     }
 
-    // 2단계: 기존 데이터와 비교 (name 기준)
+    // 2단계: 기존 데이터와 비교 (이름 기준, 띄어쓰기 무시 및 포함 여부 확인)
+    const normalizeString = (str) => String(str || '').replace(/\s+/g, '').toLowerCase();
+
     const existingNames = new Set([
-      ...localData.events.map(e => e.name),
-      ...localData.benefits.map(b => b.name)
+      ...localData.events.map(e => normalizeString(e.name)),
+      ...localData.benefits.map(b => normalizeString(b.name))
     ]);
 
-    const newItems = filtered.filter(item => !existingNames.has(item.svcNm));
+    const newItems = filtered.filter(item => {
+      const normalizedItemName = normalizeString(item.svcNm);
+      // 기존 이름 중 하나라도 포함되거나 반대인 경우 중복으로 간주
+      for (const existingName of existingNames) {
+        if (existingName.includes(normalizedItemName) || normalizedItemName.includes(existingName)) {
+          return false;
+        }
+      }
+      return true;
+    });
 
     if (newItems.length === 0) {
       console.log('새로운 데이터가 없습니다');
@@ -70,9 +81,16 @@ async function main() {
 
     // 3단계: Gemini AI로 새 항목 1개만 가공
     const geminiPrompt = `아래 공공데이터 1건을 분석해서 JSON 객체로 변환해줘. 형식:
-{id: 숫자, name: 서비스명, category: '행사' 또는 '혜택', startDate: 'YYYY-MM-DD', endDate: 'YYYY-MM-DD', location: 장소 또는 기관명, target: 지원대상, summary: 한줄요약, link: 상세URL}
+{id: 숫자, name: 서비스명, category: '행사' 또는 '혜택', startDate: 'YYYY-MM-DD', endDate: 'YYYY-MM-DD', location: 장소 또는 기관명, target: 지원대상, summary: 한줄요약, link: 상세URL, image: 이미지URL}
 category는 내용을 보고 행사/축제면 '행사', 지원금/서비스면 '혜택'으로 판단해.
 startDate가 없으면 오늘 날짜(${today}), endDate가 없으면 '상시'로 넣어.
+image 필드에는 다음 중 내용과 가장 잘 어울리는 이미지 URL 하나를 골라서 반드시 넣어줘:
+1. https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?q=80&w=1000&auto=format&fit=crop (봉사, 혜택, 따뜻함)
+2. https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?q=80&w=2070&auto=format&fit=crop (동물, 복지)
+3. https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?q=80&w=2070&auto=format&fit=crop (교육, 도서관)
+4. https://images.unsplash.com/photo-1543362906-acfc16c67564?q=80&w=1000&auto=format&fit=crop (공연, 피크닉, 벚꽃)
+5. https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?q=80&w=2038&auto=format&fit=crop (어린이, 학교, 교육, 지원금)
+6. https://images.unsplash.com/photo-1516627145497-ae6968895b74?q=80&w=2000&auto=format&fit=crop (놀이, 축제, 어린이)
 반드시 JSON 객체만 출력해. 다른 텍스트 없이.
 
 데이터 원본:
