@@ -21,7 +21,7 @@ export default function AboutPage() {
           <span className="text-[#F25C05] font-black text-sm tracking-widest uppercase mb-4 inline-block">About Songpa INFO</span>
           <h1 className="text-4xl md:text-5xl font-black text-gray-900 mb-6 drop-shadow-sm">서비스 소개</h1>
           <p className="text-xl text-gray-500 font-medium leading-relaxed break-keep">
-            송파INFO는 우리 동네의 활기찬 소식과 흩어져 있는 유용한 공공 혜택을 한눈에 모아보는 **생활 정보 큐레이션 서비스**입니다.
+            송파INFO는 우리 동네의 활기찬 소식과 흩어져 있는 유용한 공공 혜택을 한눈에 모아보는 <strong>생활 정보 큐레이션 서비스</strong>입니다.
           </p>
         </div>
       </header>
@@ -62,7 +62,7 @@ export default function AboutPage() {
                AI 기술 활용 방식
             </h2>
             <p className="text-gray-600 leading-8 break-keep">
-              송파INFO는 수많은 공공데이터 중 주민들에게 꼭 필요한 핵심만을 요약하고, 친숙한 블로그 형태로 전달하기 위해 **Gemini AI 기술**을 활용하고 있습니다. AI는 정보를 분석하고 읽기 쉽게 가공하는 역할을 수행하며, 모든 글은 공공데이터 원문의 팩트를 기반으로 생성됩니다.
+              송파INFO는 수많은 공공데이터 중 주민들에게 꼭 필요한 핵심만을 요약하고, 친숙한 블로그 형태로 전달하기 위해 <strong>Gemini AI 기술</strong>을 활용하고 있습니다. AI는 정보를 분석하고 읽기 쉽게 가공하는 역할을 수행하며, 모든 글은 공공데이터 원문의 팩트를 기반으로 생성됩니다.
             </p>
           </section>
         </div>

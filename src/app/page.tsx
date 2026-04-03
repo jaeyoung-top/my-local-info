@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import data from "../../public/data/local-info.json";
 import NewsCard, { InfoItem } from "@/components/NewsCard";
+import AdBanner from "@/components/AdBanner";
 
 export default function Home() {
   const { events, benefits, lastUpdated } = data;
@@ -176,6 +177,9 @@ export default function Home() {
                 ))}
               </div>
             </section>
+
+            {/* 중간 광고 광고 배너 */}
+            <AdBanner />
 
             {/* 섹션 2: 나를 위한 지원금/혜택 */}
             <section className="space-y-6 pt-6">

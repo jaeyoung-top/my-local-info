@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import { marked } from 'marked';
 import { getPostData, getAllPostSlugs } from '../../../lib/posts';
+import AdBanner from '@/components/AdBanner';
+import CoupangBanner from '@/components/CoupangBanner';
 
 interface Params {
   params: Promise<{
@@ -106,6 +108,10 @@ export default async function BlogPost({ params }: Params) {
               className="blog-article max-w-none text-[#475569]"
               dangerouslySetInnerHTML={{ __html: htmlContent }}
             />
+            
+            {/* 본문 하단 광고 */}
+            <AdBanner />
+            <CoupangBanner />
             
             {/* E-E-A-T Footer */}
             <div className="mt-16 pt-8 border-t border-gray-100 text-sm text-gray-400 space-y-4">
