@@ -15,6 +15,7 @@ export default function BenefitsPage() {
             <Link href="/blog" className="cursor-pointer hover:underline">블로그</Link>
             <Link href="/events" className="cursor-pointer hover:underline">행사/축제</Link>
             <Link href="/benefits" className="cursor-pointer underline">지원금/혜택</Link>
+            <Link href="/about" className="cursor-pointer hover:underline">소개</Link>
           </div>
         </div>
       </div>

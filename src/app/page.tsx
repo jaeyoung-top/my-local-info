@@ -10,14 +10,58 @@ export default function Home() {
   const currentMonth = currentDate.getMonth() + 1;
   const monthString = currentMonth.toString().padStart(2, '0');
 
+  const eventJsonLd = events.map((event: InfoItem) => ({
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": event.name,
+    "startDate": event.startDate,
+    "endDate": event.endDate || event.startDate,
+    "location": {
+      "@type": "Place",
+      "name": event.location,
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "송파구",
+        "addressRegion": "서울특별시"
+      }
+    },
+    "description": event.summary
+  }));
+
+  const benefitJsonLd = benefits.map((benefit: InfoItem) => ({
+    "@context": "https://schema.org",
+    "@type": "GovernmentService",
+    "name": benefit.name,
+    "description": `${benefit.summary} (지원 대상: ${benefit.target})`,
+    "provider": {
+      "@type": "GovernmentOrganization",
+      "name": "송파구청"
+    }
+  }));
+
   return (
     <div className="min-h-screen bg-[#f5f6f8] text-[#2d3748] font-sans">
+      {eventJsonLd.map((ld, i) => (
+        <script
+          key={`event-ld-${i}`}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }}
+        />
+      ))}
+      {benefitJsonLd.map((ld, i) => (
+        <script
+          key={`benefit-ld-${i}`}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }}
+        />
+      ))}
       {/* 1. 최상단 오렌지색 검색/메뉴 바 */}
       <div className="bg-[#F25C05] text-white py-2 px-6 shadow-sm">
         <div className="max-w-6xl mx-auto flex justify-between items-center text-sm font-bold">
           <div className="flex gap-6">
             <Link href="/" className="cursor-pointer hover:underline">홈</Link>
             <Link href="/blog" className="cursor-pointer hover:underline">블로그</Link>
+            <Link href="/about" className="cursor-pointer hover:underline">소개</Link>
             <span className="cursor-pointer hover:underline">공공포털</span>
             <span className="cursor-pointer hover:underline">구정안내</span>
           </div>

@@ -11,6 +11,7 @@ export interface PostData {
   summary: string;
   category?: string;
   tags?: string[];
+  source?: string;
   content: string;
 }
 
@@ -40,6 +41,7 @@ export function getSortedPostsData(): Omit<PostData, 'content'>[] {
       summary: matterResult.data.summary || '',
       category: matterResult.data.category,
       tags: matterResult.data.tags,
+      source: matterResult.data.source,
     };
   });
 
@@ -74,6 +76,7 @@ export function getPostData(slug: string): PostData | null {
     summary: matterResult.data.summary || '',
     category: matterResult.data.category,
     tags: matterResult.data.tags,
+    source: matterResult.data.source,
     content: matterResult.content,
   };
 }

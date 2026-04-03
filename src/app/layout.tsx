@@ -11,8 +11,16 @@ const notoSansKr = Noto_Sans_KR({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://my-local-info-48r.pages.dev"),
-  title: "송파구 생활 정보 알리미",
-  description: "우리 동네의 생생한 행사, 축제 및 지원금 소식을 전해드립니다.",
+  title: "송파구 생활 정보 | 행사·혜택·지원금 안내",
+  description: "송파구 & 서울 주민을 위한 지역 행사, 축제, 지원금, 혜택 정보를 매일 업데이트합니다.",
+  openGraph: {
+    title: "송파구 생활 정보 | 행사·혜택·지원금 안내",
+    description: "송파구 & 서울 주민을 위한 지역 행사, 축제, 지원금, 혜택 정보를 매일 업데이트합니다.",
+    url: "https://my-local-info-48r.pages.dev",
+    siteName: "송파구 생활 정보",
+    locale: "ko_KR",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
@@ -20,11 +28,48 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "송파구 생활 정보",
+    "url": "https://my-local-info-48r.pages.dev",
+    "description": "송파구 & 서울 주민을 위한 지역 행사, 축제, 지원금, 혜택 정보"
+  };
+
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "홈",
+        "item": "https://my-local-info-48r.pages.dev"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "블로그",
+        "item": "https://my-local-info-48r.pages.dev/blog"
+      }
+    ]
+  };
+
   return (
     <html
       lang="ko"
       className={`${notoSansKr.variable} h-full antialiased`}
     >
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+        />
+      </head>
       <body className="min-h-full flex flex-col font-[var(--font-noto-sans-kr)]">{children}</body>
     </html>
   );

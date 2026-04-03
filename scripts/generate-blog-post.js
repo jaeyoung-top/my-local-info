@@ -72,6 +72,7 @@ date: ${today}
 summary: (한 줄 요약)
 category: 정보
 tags: [태그1, 태그2, 태그3]
+source: ${targetItem.link || ''}
 ---
 
 (본문: 800자 이상, 친근한 블로그 톤, 추천 이유 3가지 포함, 신청 방법 안내)
