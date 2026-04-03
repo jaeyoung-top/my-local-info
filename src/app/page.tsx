@@ -18,7 +18,7 @@ export default function Home() {
           <div className="flex gap-6">
             <Link href="/" className="cursor-pointer hover:underline">홈</Link>
             <Link href="/blog" className="cursor-pointer hover:underline">블로그</Link>
-            <span className="cursor-pointer hover:underline">송파소식지</span>
+            <span className="cursor-pointer hover:underline">공공포털</span>
             <span className="cursor-pointer hover:underline">구정안내</span>
           </div>
           <div className="flex items-center gap-2">
@@ -39,18 +39,17 @@ export default function Home() {
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-6 justify-between relative z-10">
           <div className="flex flex-col items-center md:items-start text-white">
             <p className="text-white/90 font-bold tracking-widest text-xs uppercase mb-4 bg-white/10 inline-block px-4 py-1.5 rounded-full border border-white/20 backdrop-blur-sm">
-              Songpa News & Life Information
+              Songpa Local Information
             </p>
             <h1 className="text-white text-5xl md:text-7xl font-black tracking-tighter mb-3 drop-shadow-md">
-              송파<span className="text-[#F25C05] drop-shadow-lg">소식</span>
+              송파<span className="text-[#F25C05] drop-shadow-lg">INFO</span>
             </h1>
             <p className="text-white/95 text-lg md:text-xl mt-2 font-medium drop-shadow break-keep text-center md:text-left">
-              우리 동네의 오늘을 전합니다, {currentYear}년 {currentMonth}월 특별호
+              우리 동네 이벤트부터 지원금까지 유용한 공공정보를 모았습니다
             </p>
           </div>
           <div className="hidden md:flex flex-col items-end border-l-4 border-[#F25C05] pl-8 space-y-3">
             <p className="text-white font-black text-5xl drop-shadow-sm tracking-tighter">{currentYear}. {monthString}</p>
-            <p className="text-[#F25C05] font-black bg-white px-4 py-1.5 rounded-md text-sm shadow-lg tracking-wider">VOL. 42</p>
           </div>
         </div>
       </header>
@@ -77,9 +76,9 @@ export default function Home() {
                 <div className="relative z-10 p-6 flex flex-col justify-between h-full text-white">
                   <div>
                     <span className="bg-[#F25C05] text-white text-[10px] font-black px-2 py-1 rounded inline-block mb-3">
-                      특집
+                      추천
                     </span>
-                    <p className="text-white/80 font-bold text-xs tracking-wider mb-2">VOL. 2026.04</p>
+                    <p className="text-white/80 font-bold text-xs tracking-wider mb-2">{currentYear}.{monthString}</p>
                     <h3 className="text-3xl font-black leading-tight break-keep drop-shadow-md">
                       아름다운 봄,<br/>벚꽃이야기<br/>호수벚꽃축제
                     </h3>
@@ -154,7 +153,7 @@ export default function Home() {
       <footer className="bg-white border-t border-gray-200 mt-20 py-12 px-6">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
           <div className="space-y-3">
-            <h2 className="text-2xl font-black text-[#1D428A]">송파<span className="text-[#F25C05]">소식</span></h2>
+            <h2 className="text-2xl font-black text-[#1D428A]">송파<span className="text-[#F25C05]">INFO</span></h2>
             <p className="text-gray-400 text-sm">서울특별시 송파구 올림픽로 326 (신천동) 송파구청 홍보담당관</p>
             <p className="text-gray-400 text-xs">데이터 출처: 공공데이터포털 | 시스템 업데이트: {lastUpdated}</p>
           </div>
