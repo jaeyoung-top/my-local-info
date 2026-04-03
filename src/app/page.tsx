@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
+import Link from "next/link";
 import data from "../../public/data/local-info.json";
 import NewsCard, { InfoItem } from "@/components/NewsCard";
 import AdBanner from "@/components/AdBanner";

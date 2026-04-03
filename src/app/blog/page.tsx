@@ -1,4 +1,5 @@
 import Header from '@/components/Header';
+import Link from 'next/link';
 import { getSortedPostsData } from '../../lib/posts';
 
 export default function BlogList() {
