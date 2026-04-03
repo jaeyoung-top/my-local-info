@@ -202,7 +202,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
           <div className="space-y-3">
             <h2 className="text-2xl font-black text-[#1D428A]">송파<span className="text-[#F25C05]">INFO</span></h2>
-            <p className="text-gray-400 text-sm">서울특별시 송파구 올림픽로 326 (신천동) 송파구청 홍보담당관</p>
+            <p className="text-gray-500 text-sm font-medium">송파구 소식을 정성껏 모아 전달하는 개인 운영 생활 정보 서비스입니다.</p>
             <p className="text-gray-400 text-xs">데이터 출처: 공공데이터포털 | 시스템 업데이트: {lastUpdated}</p>
           </div>
           <div className="flex gap-4">
