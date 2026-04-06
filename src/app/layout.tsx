@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Noto_Sans_KR } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 
 const notoSansKr = Noto_Sans_KR({
@@ -8,6 +9,33 @@ const notoSansKr = Noto_Sans_KR({
   weight: ["400", "500", "700", "900"],
   preload: false,
 });
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "송파구 생활 정보",
+  "url": "https://my-local-info-48r.pages.dev",
+  "description": "송파구 & 서울 주민을 위한 지역 행사, 축제, 지원금, 혜택 정보"
+};
+
+const breadcrumbJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "홈",
+      "item": "https://my-local-info-48r.pages.dev"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "블로그",
+      "item": "https://my-local-info-48r.pages.dev/blog"
+    }
+  ]
+};
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://my-local-info-48r.pages.dev"),
@@ -28,33 +56,6 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "송파구 생활 정보",
-    "url": "https://my-local-info-48r.pages.dev",
-    "description": "송파구 & 서울 주민을 위한 지역 행사, 축제, 지원금, 혜택 정보"
-  };
-
-  const breadcrumbJsonLd = {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "홈",
-        "item": "https://my-local-info-48r.pages.dev"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "블로그",
-        "item": "https://my-local-info-48r.pages.dev/blog"
-      }
-    ]
-  };
-
   return (
     <html
       lang="ko"
@@ -70,27 +71,28 @@ export default function RootLayout({
         )}
         {process.env.NEXT_PUBLIC_GA_ID && process.env.NEXT_PUBLIC_GA_ID !== "나중에_입력" && (
           <>
-            <script
+            <Script
               async
               src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID}`}
+              strategy="afterInteractive"
             />
-            <script
-              dangerouslySetInnerHTML={{
-                __html: `
-                  window.dataLayer = window.dataLayer || [];
-                  function gtag(){dataLayer.push(arguments);}
-                  gtag('js', new Date());
-                  gtag('config', '${process.env.NEXT_PUBLIC_GA_ID}');
-                `,
-              }}
-            />
+            <Script id="google-analytics" strategy="afterInteractive">
+              {`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', '${process.env.NEXT_PUBLIC_GA_ID}');
+              `}
+            </Script>
           </>
         )}
-        <script
+        <Script
+          id="json-ld-website"
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
-        <script
+        <Script
+          id="json-ld-breadcrumb"
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
         />

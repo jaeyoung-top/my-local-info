@@ -7,6 +7,7 @@ import data from "../../public/data/local-info.json";
 import NewsCard, { InfoItem } from "@/components/NewsCard";
 import AdBanner from "@/components/AdBanner";
 import Header from "@/components/Header";
+import Script from "next/script";
 
 export default function Home() {
   const { events, benefits, lastUpdated } = data;
@@ -60,14 +61,16 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-[#f5f6f8] text-[#2d3748] font-sans">
       {eventJsonLd.map((ld, i) => (
-        <script
+        <Script
+          id={`event-ld-${i}`}
           key={`event-ld-${i}`}
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }}
         />
       ))}
       {benefitJsonLd.map((ld, i) => (
-        <script
+        <Script
+          id={`benefit-ld-${i}`}
           key={`benefit-ld-${i}`}
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }}
@@ -114,9 +117,10 @@ export default function Home() {
               <div className="relative rounded-xl overflow-hidden shadow-lg aspect-[3/4] flex flex-col justify-between group cursor-pointer">
                 {/* 배경 이미지 */}
                 <Image 
-                  src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?q=80&w=1000&auto=format&fit=crop"
+                  src="https://images.unsplash.com/photo-1522383225653-ed111181a951?q=80&w=1000&auto=format&fit=crop"
                   alt="Current Issue Cover"
                   fill
+                  priority
                   className="object-cover group-hover:scale-105 transition-transform duration-700"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#1D428A]/90 via-[#1D428A]/40 to-black/30"></div>
