@@ -220,9 +220,20 @@ export default function Home() {
             <h2 className="text-2xl font-black text-[#1D428A]">송파<span className="text-[#F25C05]">INFO</span></h2>
             <p className="text-gray-500 text-sm font-medium">송파구 소식을 정성껏 모아 전달하는 개인 운영 생활 정보 서비스입니다.</p>
             <p className="text-gray-400 text-xs">데이터 출처: 공공데이터포털 | 시스템 업데이트: {lastUpdated}</p>
-            <div className="mt-2 text-xs">
-              <a href="https://hits.seeyoufarm.com">
-                <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fsongpa-info.com&count_bg=%23F25C05&title_bg=%231D428A&icon=&icon_color=%23E7E7E7&title=%EB%B0%A9%EB%AC%B8%EC%9E%90&edge_flat=false" alt="방문자 카운터" />
+            <div className="mt-3">
+              <a
+                href="https://hits.seeyoufarm.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-0 rounded overflow-hidden text-xs font-bold shadow-sm"
+              >
+                <span className="bg-[#1D428A] text-white px-2.5 py-1">방문자</span>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fsongpa-info.com&count_bg=%23F25C05&title_bg=%231D428A&icon=&icon_color=%23E7E7E7&title=%EB%B0%A9%EB%AC%B8%EC%9E%90&edge_flat=false"
+                  alt="방문자 카운터"
+                  style={{ height: '24px', display: 'block' }}
+                />
               </a>
             </div>
           </div>

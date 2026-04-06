@@ -26,8 +26,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Fetch and Generate (Schedule or Manual only)
-        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+      - name: Fetch and Generate
         run: |
           node scripts/fetch-public-data.js
           node scripts/crawl-songpa-news.js
@@ -37,7 +36,6 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
       - name: Commit and Push changes
-        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
