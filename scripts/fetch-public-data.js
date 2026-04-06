@@ -104,20 +104,9 @@ async function main() {
 
   // 4단계: Gemini AI로 새 항목 가공
   const geminiPrompt = `아래 공공데이터 1건을 분석해서 JSON 객체로 변환해줘. 형식:
-{"id": "숫자6자리", "name": "서비스명(짧고 명확하게)", "category": "혜택", "startDate": "YYYY-MM-DD", "endDate": "YYYY-MM-DD 또는 상시", "location": "장소 또는 기관명", "target": "지원대상(간략히)", "summary": "한줄요약(50자 이내)", "link": "상세URL", "image": "이미지URL"}
+{"id": "숫자6자리", "name": "서비스명(짧고 명확하게)", "category": "혜택", "startDate": "YYYY-MM-DD", "endDate": "YYYY-MM-DD 또는 상시", "location": "장소 또는 기관명", "target": "지원대상(간략히)", "summary": "한줄요약(50자 이내)", "link": "상세URL"}
 
 startDate가 없으면 오늘 날짜(${today}), endDate가 없으면 '상시'로 넣어.
-image 필드에는 다음 중 내용과 가장 잘 어울리는 이미지 URL 하나를 골라서 반드시 넣어줘:
-1. https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?q=80&w=1000&auto=format&fit=crop (봉사, 혜택, 따뜻함)
-2. https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?q=80&w=2070&auto=format&fit=crop (동물, 복지)
-3. https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?q=80&w=2070&auto=format&fit=crop (교육, 도서관)
-4. https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?q=80&w=2038&auto=format&fit=crop (어린이, 학교, 교육)
-5. https://images.unsplash.com/photo-1551836022-d0bc15250ff5?q=80&w=1000&auto=format&fit=crop (일자리, 상담, 사무실)
-6. https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=1000&auto=format&fit=crop (기부, 나눔, 따뜻한 손길)
-7. https://images.unsplash.com/photo-1532012197267-da84d127e765?q=80&w=1000&auto=format&fit=crop (청년, 활기찬 대학생)
-8. https://images.unsplash.com/photo-1525026198548-4baa812f1183?q=80&w=1000&auto=format&fit=crop (노인 복지, 어르신 돌봄)
-9. https://images.unsplash.com/photo-1559027615-cd4628902d4a?q=80&w=1000&auto=format&fit=crop (의료, 건강, 병원)
-10. https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=1000&auto=format&fit=crop (학업, 학생)
 반드시 JSON 객체만 출력해. 다른 텍스트 없이.
 
 데이터 원본:
@@ -148,6 +137,41 @@ ${JSON.stringify(targetItem, null, 2)}`;
 
     const processedItem = JSON.parse(jsonMatch[0]);
     processedItem.id = String(processedItem.id || Date.now());
+
+    // 중복 방지를 위한 랜덤 이미지 배정
+    const imagePool = [
+      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?q=80&w=1000&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?q=80&w=2070&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?q=80&w=2070&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?q=80&w=2038&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1551836022-d0bc15250ff5?q=80&w=1000&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=1000&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1532012197267-da84d127e765?q=80&w=1000&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1525026198548-4baa812f1183?q=80&w=1000&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1559027615-cd4628902d4a?q=80&w=1000&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=1000&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1543362906-acfc16c67564?q=80&w=1000&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1516627145497-ae6968895b74?q=80&w=2000&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1506157786151-b8491531f063?q=80&w=1000&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=1000&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?q=80&w=1000&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1472289065668-ce650ac443d2?q=80&w=1000&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1519750157634-b6d493a0f77c?q=80&w=1000&auto=format&fit=crop"
+    ];
+    
+    // 현재 사용 중인 이미지 추출
+    const currentlyUsedImages = new Set([
+      ...localData.events.map(e => e.image),
+      ...localData.benefits.map(b => b.image)
+    ]);
+    
+    // 안 쓰인 이미지 중에서 하나 선택 (없으면 전체 랜덤)
+    const availableImages = imagePool.filter(img => !currentlyUsedImages.has(img));
+    if (availableImages.length > 0) {
+      processedItem.image = availableImages[Math.floor(Math.random() * availableImages.length)];
+    } else {
+      processedItem.image = imagePool[Math.floor(Math.random() * imagePool.length)];
+    }
 
     // 5단계: 혜택 배열에 추가
     localData.benefits.push(processedItem);
