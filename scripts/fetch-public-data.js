@@ -104,9 +104,12 @@ async function main() {
 
   // 4단계: Gemini AI로 새 항목 가공
   const geminiPrompt = `아래 공공데이터 1건을 분석해서 JSON 객체로 변환해줘. 형식:
-{"id": "숫자6자리", "name": "서비스명(짧고 명확하게)", "category": "혜택", "startDate": "YYYY-MM-DD", "endDate": "YYYY-MM-DD 또는 상시", "location": "장소 또는 기관명", "target": "지원대상(간략히)", "summary": "한줄요약(50자 이내)", "link": "상세URL"}
+{"id": "숫자6자리", "name": "서비스명(짧고 명확하게)", "category": "혜택", "startDate": "YYYY-MM-DD", "endDate": "YYYY-MM-DD 또는 상시", "location": "장소 또는 기관명", "target": "지원대상(간략히)", "summary": "한줄요약(50자 이내)", "link": "상세URL", "imageTheme": "분류"}
 
 startDate가 없으면 오늘 날짜(${today}), endDate가 없으면 '상시'로 넣어.
+imageTheme 필드에는 다음 중 이 혜택에 가장 어울리는 주제 하나를 골라서 반드시 영문으로 적어줘:
+[education (교육/도서관), health (의료/건강), finance (지원금/세금/수당), children (보육/육아/어린이), senior (노인복지/어르신), job (일자리/창업/상담), environment (환경/자연/청소), culture (문화/공연/체육), admin (일반행정)]
+
 반드시 JSON 객체만 출력해. 다른 텍스트 없이.
 
 데이터 원본:
@@ -137,29 +140,22 @@ ${JSON.stringify(targetItem, null, 2)}`;
 
     const processedItem = JSON.parse(jsonMatch[0]);
     processedItem.id = String(processedItem.id || Date.now());
+    const themePools = {
+      education: ["https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=800&q=80", "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=800&q=80", "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&q=80"],
+      health: ["https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=800&q=80", "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=800&q=80", "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?w=800&q=80"],
+      finance: ["https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&q=80", "https://images.unsplash.com/photo-1579621970588-a35d0e7ab9b6?w=800&q=80", "https://images.unsplash.com/photo-1565514020179-026b92b84bb6?w=800&q=80"],
+      children: ["https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&q=80", "https://images.unsplash.com/photo-1516627145497-ae6968895b74?w=800&q=80", "https://images.unsplash.com/photo-1519340333755-56e9c1d04579?w=800&q=80"],
+      senior: ["https://images.unsplash.com/photo-1525026198548-4baa812f1183?w=800&q=80", "https://images.unsplash.com/photo-1516307365426-bea591f05011?w=800&q=80", "https://images.unsplash.com/photo-1511296684614-2e94eb687be6?w=800&q=80"],
+      job: ["https://images.unsplash.com/photo-1551836022-d0bc15250ff5?w=800&q=80", "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=800&q=80", "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800&q=80"],
+      environment: ["https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=800&q=80", "https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?w=800&q=80", "https://images.unsplash.com/photo-1472289065668-ce650ac443d2?w=800&q=80"],
+      culture: ["https://images.unsplash.com/photo-1543362906-acfc16c67564?w=800&q=80", "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=800&q=80", "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=800&q=80"],
+      admin: ["https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80", "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&q=80", "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80"]
+    };
 
-    // 중복 방지를 위한 랜덤 이미지 배정
-    const imagePool = [
-      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?q=80&w=1000&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?q=80&w=2070&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?q=80&w=2070&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?q=80&w=2038&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1551836022-d0bc15250ff5?q=80&w=1000&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=1000&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1532012197267-da84d127e765?q=80&w=1000&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1525026198548-4baa812f1183?q=80&w=1000&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1559027615-cd4628902d4a?q=80&w=1000&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=1000&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1543362906-acfc16c67564?q=80&w=1000&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1516627145497-ae6968895b74?q=80&w=2000&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1506157786151-b8491531f063?q=80&w=1000&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=1000&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?q=80&w=1000&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1472289065668-ce650ac443d2?q=80&w=1000&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1519750157634-b6d493a0f77c?q=80&w=1000&auto=format&fit=crop"
-    ];
+    const theme = processedItem.imageTheme && themePools[processedItem.imageTheme] ? processedItem.imageTheme : 'admin';
+    const imagePool = themePools[theme];
     
-    // 현재 사용 중인 이미지 추출
+    // 현재 쓰이고 있는 이미지들
     const currentlyUsedImages = new Set([
       ...localData.events.map(e => e.image),
       ...localData.benefits.map(b => b.image)
