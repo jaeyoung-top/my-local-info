@@ -25,9 +25,9 @@ async function main() {
     return;
   }
 
-  // 1단계: 공공데이터포털 API에서 데이터 가져오기 (여러 페이지)
+  // 1단계: 공공데이터포털 API에서 데이터 가져오기 (더 많은 페이지 탐색)
   let allServices = [];
-  for (let page = 1; page <= 5; page++) {
+  for (let page = 1; page <= 10; page++) {
     const publicDataUrl = `https://api.odcloud.kr/api/gov24/v3/serviceList?page=${page}&perPage=20&returnType=JSON&serviceKey=${encodeURIComponent(PUBLIC_DATA_API_KEY)}`;
     try {
       const response = await fetch(publicDataUrl);
@@ -49,27 +49,39 @@ async function main() {
     return;
   }
 
-  // 2단계: 서울/송파 관련 필터링 (한국어 필드명 사용)
-  const filterByKeyword = (items, keyword) => items.filter(item =>
-    (item['서비스명'] || '').includes(keyword) ||
-    (item['소관기관명'] || '').includes(keyword) ||
-    (item['지원대상'] || '').includes(keyword) ||
-    (item['서비스목적요약'] || '').includes(keyword)
-  );
+  // 2단계: 서울/송파 관련 필터링 및 제외 키워드 처리
+  const excludeKeywords = ['어업', '해양', '수산', '선박', '어선', '귀어', '농업', '농지'];
+  
+  const filterByKeyword = (items, keyword) => items.filter(item => {
+    const text = (
+      (item['서비스명'] || '') + 
+      (item['소관기관명'] || '') + 
+      (item['지원대상'] || '') + 
+      (item['서비스목적요약'] || '')
+    );
+    
+    // 키워드 포함 확인
+    const hasKeyword = text.includes(keyword);
+    // 제외 키워드 포함 확인
+    const hasExclude = excludeKeywords.some(ex => text.includes(ex));
+    
+    return hasKeyword && !hasExclude;
+  });
 
   let filtered = filterByKeyword(allServices, '송파');
   if (filtered.length === 0) {
     filtered = filterByKeyword(allServices, '서울');
   }
   if (filtered.length === 0) {
-    // 서울 없으면 전국 단위 복지서비스 중 일부 사용
-    filtered = allServices.filter(item =>
-      (item['소관기관유형'] || '').includes('지방') ||
-      (item['소관기관유형'] || '').includes('자치')
-    );
+    filtered = filterByKeyword(allServices, '경기');
   }
   if (filtered.length === 0) {
-    filtered = allServices;
+    // 필터링된 결과가 없으면 일반적인 복지/행정 서비스 중 제외 키워드 없는 것 사용
+    filtered = allServices.filter(item => {
+      const text = (item['서비스명'] || '') + (item['지원대상'] || '');
+      return !excludeKeywords.some(ex => text.includes(ex)) && 
+             ((item['소관기관유형'] || '').includes('지방') || (item['소관기관유형'] || '').includes('자치'));
+    });
   }
 
   console.log(`필터링 후 ${filtered.length}개 항목`);

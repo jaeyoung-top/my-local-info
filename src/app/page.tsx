@@ -10,7 +10,7 @@ import Header from "@/components/Header";
 import Script from "next/script";
 
 export default function Home() {
-  const { events, benefits, lastUpdated } = data;
+  const { events, benefits, aiSupport, lastUpdated } = data;
   const [searchQuery, setSearchQuery] = useState("");
   
   const currentDate = new Date();
@@ -25,6 +25,11 @@ export default function Home() {
   );
 
   const filteredBenefits = benefits.filter((item: InfoItem) => 
+    item.name.toLowerCase().includes(searchQuery.toLowerCase()) || 
+    item.summary.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+
+  const filteredAiSupport = (aiSupport || []).filter((item: InfoItem) => 
     item.name.toLowerCase().includes(searchQuery.toLowerCase()) || 
     item.summary.toLowerCase().includes(searchQuery.toLowerCase())
   );
@@ -203,6 +208,23 @@ export default function Home() {
                 {filteredBenefits.length > 0 ? (
                   filteredBenefits.map((benefit: InfoItem) => (
                     <NewsCard key={benefit.id} item={benefit} color="orange" />
+                  ))
+                ) : (
+                  <p className="text-gray-400 text-sm py-4">검색 결과가 없습니다.</p>
+                )}
+              </div>
+            </section>
+
+            {/* 섹션 3: 미래를 준비하는 AI 관련 지원 */}
+            <section className="space-y-6 pt-6">
+              <div className="flex items-center gap-3 border-b-4 border-[#2D3748] pb-3">
+                <span className="bg-[#2D3748] text-white text-xs font-black px-3 py-1 rounded">TECH</span>
+                <h2 className="text-2xl font-black text-[#2D3748]">AI 관련 지원 프로그램</h2>
+              </div>
+              <div className="grid gap-4">
+                {filteredAiSupport.length > 0 ? (
+                  filteredAiSupport.map((ai: InfoItem) => (
+                    <NewsCard key={ai.id} item={ai} color="indigo" />
                   ))
                 ) : (
                   <p className="text-gray-400 text-sm py-4">검색 결과가 없습니다.</p>

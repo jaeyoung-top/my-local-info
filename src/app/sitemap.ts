@@ -4,7 +4,7 @@ import { getAllPostSlugs } from '../lib/posts';
 export const dynamic = 'force-static';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://my-local-info-48r.pages.dev';
+  const baseUrl = 'https://songpa-info.com';
 
   const routes = [
     {

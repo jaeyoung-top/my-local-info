@@ -14,7 +14,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   "name": "송파구 생활 정보",
-  "url": "https://my-local-info-48r.pages.dev",
+  "url": "https://songpa-info.com",
   "description": "송파구 & 서울 주민을 위한 지역 행사, 축제, 지원금, 혜택 정보"
 };
 
@@ -26,25 +26,25 @@ const breadcrumbJsonLd = {
       "@type": "ListItem",
       "position": 1,
       "name": "홈",
-      "item": "https://my-local-info-48r.pages.dev"
+      "item": "https://songpa-info.com"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "블로그",
-      "item": "https://my-local-info-48r.pages.dev/blog"
+      "item": "https://songpa-info.com/blog"
     }
   ]
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://my-local-info-48r.pages.dev"),
+  metadataBase: new URL("https://songpa-info.com"),
   title: "송파구 생활 정보 | 행사·혜택·지원금 안내",
   description: "송파구 & 서울 주민을 위한 지역 행사, 축제, 지원금, 혜택 정보를 매일 업데이트합니다.",
   openGraph: {
     title: "송파구 생활 정보 | 행사·혜택·지원금 안내",
     description: "송파구 & 서울 주민을 위한 지역 행사, 축제, 지원금, 혜택 정보를 매일 업데이트합니다.",
-    url: "https://my-local-info-48r.pages.dev",
+    url: "https://songpa-info.com",
     siteName: "송파구 생활 정보",
     locale: "ko_KR",
     type: "website",
