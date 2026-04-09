@@ -34,19 +34,19 @@ export default function CoupangBanner() {
   }, []);
 
   return (
-    <div className="w-full flex justify-center my-12">
-      <div className="w-full max-w-4xl px-4 flex justify-center">
-        <div className="w-full overflow-hidden flex justify-center items-center min-h-[140px] bg-white rounded-2xl border border-gray-100 shadow-sm p-4">
+    <div className="w-full flex flex-col items-center justify-center my-12">
+      <div className="w-full max-w-4xl px-4">
+        <div className="w-full overflow-hidden flex justify-center items-center min-h-[140px] bg-white rounded-2xl border border-gray-100 shadow-sm p-4 relative">
           <div 
             id="coupang-banner-container" 
-            className="w-full flex justify-center items-center scale-95 md:scale-100"
+            className="w-full flex justify-center items-center scale-90 md:scale-100 min-h-[120px]"
           >
             {/* 배너가 여기에 하나만 렌더링됩니다. */}
             <div className="text-gray-300 text-xs animate-pulse font-medium">배너 로드 중...</div>
           </div>
         </div>
       </div>
-      <p className="text-[10px] text-gray-400 mt-3 text-center opacity-80">
+      <p className="text-[10px] text-gray-400 mt-4 text-center opacity-80">
         "이 사이트에는 쿠팡 광고 배너가 포함되어 있습니다"
       </p>
     </div>
