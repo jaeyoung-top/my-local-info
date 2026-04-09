@@ -110,7 +110,7 @@ image 필드에는 아래 중 가장 분위기가 맞는 이미지의 전체 URL
 기사 원본 텍스트:
 ${rawDataText}`;
 
-    const geminiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${GEMINI_API_KEY}`;
+    const geminiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_API_KEY}`;
     
     // 타임아웃을 피하기 위한 간단한 타임아웃 설정이 필요하면 좋을 수 있으나 생략 가능
     const geminiResponse = await fetch(geminiUrl, {
