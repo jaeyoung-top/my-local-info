@@ -2,10 +2,10 @@
 
 import { useEffect } from 'react';
 
-const ADSENSE_ID = process.env.NEXT_PUBLIC_ADSENSE_ID;
+const ADSENSE_ID = process.env.NEXT_PUBLIC_ADSENSE_ID || "ca-pub-4233694153840183";
 
 export default function AdBanner() {
-  // 환경변수가 없거나 초기값인 경우 렌더링하지 않음
+  // 환경변수가 없거나 초기값인 경우 렌더링하지 않음 (이제 강제로 렌더링)
   if (!ADSENSE_ID || ADSENSE_ID === "나중에_입력") {
     return null;
   }
