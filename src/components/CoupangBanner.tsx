@@ -1,6 +1,6 @@
 'use client';
 
-const COUPANG_PARTNER_ID = process.env.NEXT_PUBLIC_COUPANG_PARTNER_ID;
+const COUPANG_PARTNER_ID = process.env.NEXT_PUBLIC_COUPANG_PARTNER_ID || "AF3039195";
 
 export default function CoupangBanner() {
   // 환경변수가 없거나 초기값인 경우 렌더링하지 않음
