@@ -5,13 +5,8 @@ import { useEffect } from 'react';
 const ADSENSE_ID = process.env.NEXT_PUBLIC_ADSENSE_ID || "ca-pub-4233694153840183";
 
 export default function AdBanner() {
-  // 환경변수가 없거나 초기값인 경우 렌더링하지 않음 (이제 강제로 렌더링)
-  if (!ADSENSE_ID || ADSENSE_ID === "나중에_입력") {
-    return null;
-  }
-
   useEffect(() => {
-    // 광고 요소가 실제로 화면에 보이고 너비가 생길 때까지 조금 기다렸다가 호출합니다.
+    // 구글 애드센스 초기화
     const timer = setTimeout(() => {
       try {
         // @ts-ignore
@@ -20,17 +15,19 @@ export default function AdBanner() {
           window.adsbygoogle.push({});
         }
       } catch (err) {
-        // 이 에러는 주로 광고가 아직 화면에 그려지지 않았을 때 발생하므로, 콘솔에 출력만 하고 운영에는 영향을 주지 않습니다.
-        console.warn('AdSense notice (expected in some cases):', err);
+        console.warn('AdSense notice:', err);
       }
-    }, 500); // 0.5초 정도 여유를 줍니다.
+    }, 500);
 
     return () => clearTimeout(timer);
   }, []);
 
+  if (!ADSENSE_ID || ADSENSE_ID === "나중에_입력") {
+    return null;
+  }
+
   return (
-    <div className="w-full overflow-hidden my-8 flex justify-center min-h-[100px]">
-      {/* 구글 애드센스 광고 단위 코드 */}
+    <div className="w-full overflow-hidden flex justify-center min-h-[100px] my-8 bg-gray-50 rounded-xl p-2 border border-dashed border-gray-200">
       <ins
         className="adsbygoogle"
         style={{ display: 'block' }}

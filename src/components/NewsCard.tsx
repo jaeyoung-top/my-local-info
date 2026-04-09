@@ -19,7 +19,7 @@ export default function NewsCard({ item, color }: { item: InfoItem; color: 'indi
   
   return (
     <Link 
-      href={`/info/${item.id}`}
+      href={`/blog/${item.id}`}
       className={`news-card block overflow-hidden group transition-all duration-300 ${color === 'orange' ? 'border-2 border-[#F25C05] shadow-[0_5px_15px_rgba(242,92,5,0.15)] rounded-2xl cursor-pointer hover:shadow-xl' : 'border border-gray-100 rounded-xl cursor-pointer hover:border-[#1D428A] hover:shadow-lg'}`}
     >
       <div className="flex flex-col sm:flex-row items-stretch min-h-[240px]">
