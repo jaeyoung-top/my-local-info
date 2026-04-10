@@ -78,8 +78,15 @@ export default function CoupangBanner({ bannerId = 'default', tags = [] }: Coupa
     return "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=500&q=80";
   };
 
-  // 태그가 없으면 기본 추천 키워드 사용
-  const displayTags = tags && tags.length > 0 ? tags : ['베스트셀러', '오늘의특가', '생활용품', '인기선물'];
+  // 1. 쇼핑 검색에 적합하지 않은 추상적 키워드 필터링
+  const nonShoppableWords = ['행사', '지원', '추천', '소식', '정보', '송파구', '오늘의추천', '안내', '혜택', '모집'];
+  const shoppableTags = tags ? tags.filter(tag => !nonShoppableWords.some(word => tag.includes(word))) : [];
+
+  // 2. 검색하기 좋은 쿠팡 인기 베스트 키워드 모음 (태그가 없을 경우 대체용)
+  const defaultPopularTags = ['베스트셀러', '로켓프레시', '생필품특가', '가전디지털', '홈인테리어', '주방용품'];
+
+  // 3. 만약 남은 쇼핑 태그가 없다면 쿠팡 베스트 키워드 사용
+  const displayTags = shoppableTags.length > 0 ? shoppableTags : defaultPopularTags;
 
   return (
     <div className="w-full flex flex-col items-center justify-center my-12">
