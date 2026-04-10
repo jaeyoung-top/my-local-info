@@ -5,7 +5,7 @@ import { useState } from "react";
 import Link from "next/link";
 import data from "../../public/data/local-info.json";
 import NewsCard, { InfoItem } from "@/components/NewsCard";
-import AdBanner from "@/components/AdBanner";
+import CoupangBanner from "@/components/CoupangBanner";
 import Header from "@/components/Header";
 import Script from "next/script";
 
@@ -172,12 +172,20 @@ export default function Home() {
                   </Link>
                 </div>
               </div>
+
+              {/* 사이드바 쿠팡 배너 */}
+              <div className="mt-10">
+                <CoupangBanner bannerId="side-banner" />
+              </div>
             </div>
           </aside>
 
           {/* 우측 본문 리스트 영역: 3/4 영역 */}
           <div className="lg:w-3/4 space-y-12">
             
+            {/* 메인 상단 배너 */}
+            <CoupangBanner bannerId="home-top" />
+
             {/* 섹션 1: 이번 달 주요 행사 */}
             <section className="space-y-6">
               <div className="flex items-center gap-3 border-b-4 border-[#1D428A] pb-3">
@@ -196,7 +204,7 @@ export default function Home() {
             </section>
 
             {/* 중간 광고 광고 배너 */}
-            <AdBanner />
+            <CoupangBanner bannerId="home-mid" />
 
             {/* 섹션 2: 나를 위한 지원금/혜택 */}
             <section className="space-y-6 pt-6">
@@ -231,6 +239,9 @@ export default function Home() {
                 )}
               </div>
             </section>
+
+            {/* 메인 하단 배너 */}
+            <CoupangBanner bannerId="home-bottom" />
           </div>
         </div>
       </main>

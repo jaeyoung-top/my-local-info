@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { marked } from 'marked';
 import { getPostData, getAllPostSlugs } from '../../../lib/posts';
-import AdBanner from '@/components/AdBanner';
+
 import CoupangBanner from '@/components/CoupangBanner';
 
 interface Params {
@@ -103,15 +103,17 @@ export default async function BlogPost({ params }: Params) {
             </div>
           </header>
           
+          {/* 본문 상단 쿠팡 배너 */}
+          <CoupangBanner bannerId="blog-top" />
+
           <div className="bg-white rounded-t-[36px] px-8 md:px-[60px] py-[50px] md:py-[64px]">
             <div 
               className="blog-article max-w-none text-[#475569]"
               dangerouslySetInnerHTML={{ __html: htmlContent }}
             />
             
-            {/* 본문 하단 광고 */}
-            <AdBanner />
-            <CoupangBanner />
+            {/* 본문 하단 쿠팡 배너 */}
+            <CoupangBanner bannerId="blog-bottom" />
             
             {/* E-E-A-T Footer */}
             <div className="mt-16 pt-8 border-t border-gray-100 text-sm text-gray-400 space-y-4">
