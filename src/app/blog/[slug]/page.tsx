@@ -109,8 +109,8 @@ export default async function BlogPost({ params }: Params) {
               dangerouslySetInnerHTML={{ __html: htmlContent }}
             />
             
-            {/* 본문 하단 쿠팡 배너 */}
-            <CoupangBanner bannerId="blog-bottom" />
+            {/* 본문 하단 쿠팡 배너 (연관 태그 포함) */}
+            <CoupangBanner bannerId="blog-bottom" tags={postData.tags} />
             
             {/* E-E-A-T Footer */}
             <div className="mt-16 pt-8 border-t border-gray-100 text-sm text-gray-400 space-y-4">

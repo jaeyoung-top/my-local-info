@@ -4,10 +4,12 @@ import { useEffect } from 'react';
 
 interface CoupangBannerProps {
   bannerId?: string;
+  tags?: string[];
 }
 
-export default function CoupangBanner({ bannerId = 'default' }: CoupangBannerProps) {
+export default function CoupangBanner({ bannerId = 'default', tags = [] }: CoupangBannerProps) {
   const containerId = `coupang-container-${bannerId}`;
+  const COUPANG_ID = 'AF3039195';
 
   useEffect(() => {
     // 이 변수는 컴포넌트가 사라질 때 실행을 중단하기 위한 취소 신호
@@ -74,13 +76,35 @@ export default function CoupangBanner({ bannerId = 'default' }: CoupangBannerPro
   return (
     <div className="w-full flex flex-col items-center justify-center my-8">
       <div className="w-full max-w-4xl px-4">
-        <div className="w-full overflow-hidden flex justify-center items-center min-h-[140px] bg-white rounded-2xl border border-gray-100 shadow-sm p-4">
+        <div className="w-full overflow-hidden flex flex-col justify-center items-center min-h-[140px] bg-white rounded-2xl border border-gray-100 shadow-sm p-4">
           <div
             id={containerId}
             className="w-full flex justify-center items-center min-h-[120px]"
           >
             <div className="text-gray-300 text-xs animate-pulse font-medium">배너 로드 중...</div>
           </div>
+
+          {/* 연관 태그 버튼 섹션 */}
+          {tags && tags.length > 0 && (
+            <div className="mt-6 w-full pt-4 border-t border-gray-50">
+              <p className="text-[11px] text-gray-400 mb-3 flex items-center gap-1 font-bold">
+                <span className="text-[#F25C05]">🔥</span> 이 글과 관련된 추천 상품 검색
+              </p>
+              <div className="flex flex-wrap gap-2">
+                {tags.map((tag, idx) => (
+                  <a
+                    key={idx}
+                    href={`https://www.coupang.com/np/search?q=${encodeURIComponent(tag)}&channel=partner&lptag=${COUPANG_ID}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-gray-50 hover:bg-[#FFF0E6] text-gray-500 hover:text-[#F25C05] text-[12px] font-bold px-3 py-1.5 rounded-full border border-gray-100 transition-all shadow-sm"
+                  >
+                    #{tag}
+                  </a>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
       </div>
       <p className="text-[10px] text-gray-400 mt-2 text-center opacity-80">
