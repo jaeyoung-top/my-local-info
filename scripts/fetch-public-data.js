@@ -62,8 +62,8 @@ async function main() {
     );
     
     // 키워드 포함 확인 (AI 키워드 포함 시 우선순위)
-    const aiKeywords = ['인공지능', 'AI', '빅데이터', '디지털전환', 'SW'];
-    const hasAiKeyword = aiKeywords.some(kw => text.includes(kw));
+    const aiKeywords = ['인공지능', 'AI', '빅데이터', '디지털전환', 'SW', '교육', '강의', '아카데미', '인재양성'];
+    const hasAiKeyword = aiKeywords.some(kw => text.includes(kw)) && (text.includes('인공지능') || text.includes('AI'));
     
     const hasKeyword = text.includes(keyword) || (keyword === '송파' && hasAiKeyword);
     // 제외 키워드 포함 확인

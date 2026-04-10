@@ -27,9 +27,9 @@ async function generatePost(item, isDaily = false) {
        Data: ${JSON.stringify(item, null, 2)}
        Format:
        ---
-       title: [오늘의 추천] ${item.name} - ${item.summary}
+       title: "[오늘의 추천] ${item.name} - ${item.summary}"
        date: ${today}
-       summary: ${item.summary} (오늘의 추천 정보입니다)
+       summary: "${item.summary} (오늘의 추천 정보입니다)"
        category: ${item.category}
        tags: [오늘의추천, ${item.category}, 송파구]
        source: ${item.link || ''}
@@ -107,8 +107,18 @@ async function main() {
 
   if (!hasTodayPost && dailyTargets.length > 0) {
     console.log('--- 오늘의 추천 정보 생성 (매일 업로드 보장) ---');
-    // 랜덤하게 하나 골라서 생성
-    const randomItem = dailyTargets[Math.floor(Math.random() * dailyTargets.length)];
+    
+    // AI 교육 관련 아이템 우선 찾기
+    const eduKeywords = ['교육', '강의', '스킬업', '아카데미', '인재', '클래스', '학습'];
+    const eduItems = dailyTargets.filter(item => 
+      eduKeywords.some(kw => (item.name + item.summary).includes(kw))
+    );
+    
+    // 교육 아이템이 있으면 우선순위로, 없으면 전체 중 랜덤하게 하나 골라서 생성
+    const randomItem = eduItems.length > 0 
+      ? eduItems[Math.floor(Math.random() * eduItems.length)]
+      : dailyTargets[Math.floor(Math.random() * dailyTargets.length)];
+      
     await generatePost(randomItem, true);
   } else {
     console.log('✅ 오늘 이미 새로운 글이 게시되었습니다.');
