@@ -103,9 +103,6 @@ export default async function BlogPost({ params }: Params) {
             </div>
           </header>
           
-          {/* 본문 상단 쿠팡 배너 */}
-          <CoupangBanner bannerId="blog-top" />
-
           <div className="bg-white rounded-t-[36px] px-8 md:px-[60px] py-[50px] md:py-[64px]">
             <div 
               className="blog-article max-w-none text-[#475569]"

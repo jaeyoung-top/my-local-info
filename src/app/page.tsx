@@ -172,20 +172,12 @@ export default function Home() {
                   </Link>
                 </div>
               </div>
-
-              {/* 사이드바 쿠팡 배너 */}
-              <div className="mt-10">
-                <CoupangBanner bannerId="side-banner" />
-              </div>
             </div>
           </aside>
 
           {/* 우측 본문 리스트 영역: 3/4 영역 */}
           <div className="lg:w-3/4 space-y-12">
             
-            {/* 메인 상단 배너 */}
-            <CoupangBanner bannerId="home-top" />
-
             {/* 섹션 1: 이번 달 주요 행사 */}
             <section className="space-y-6">
               <div className="flex items-center gap-3 border-b-4 border-[#1D428A] pb-3">

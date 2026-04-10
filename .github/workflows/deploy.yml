@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 22 * * *' # 매일 한국시간 오전 7시 (UTC 22시)
+    - cron: '0 0 * * *' # 매일 한국시간 오전 9시 (UTC 00시)
   workflow_dispatch:
 
 permissions:
