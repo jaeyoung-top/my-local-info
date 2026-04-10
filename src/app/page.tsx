@@ -232,8 +232,6 @@ export default function Home() {
               </div>
             </section>
 
-            {/* 메인 하단 배너 */}
-            <CoupangBanner bannerId="home-bottom" />
           </div>
         </div>
       </main>
