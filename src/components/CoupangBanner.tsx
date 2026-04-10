@@ -1,61 +1,91 @@
 'use client';
 
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 
 interface CoupangBannerProps {
-  // 페이지에서 여러 개 배너를 쓸 때 충돌 방지를 위한 고유 ID
+  // 페이지에서 여러 배너가 겹치지 않게 구별하는 고유 이름
   bannerId?: string;
 }
 
+// 쿠팡 스크립트는 페이지 전체에서 딱 1개만 불러옵니다.
+const SCRIPT_ID = 'coupang-partner-script-global';
+
+// 스크립트 로드 완료를 기다리는 콜백 목록 (여러 배너가 한꺼번에 등록)
+let pendingCallbacks: (() => void)[] = [];
+let isScriptLoaded = false;
+
+function loadCoupangScript(onReady: () => void) {
+  // 이미 스크립트가 다 로드된 상태라면 바로 실행
+  if (isScriptLoaded) {
+    onReady();
+    return;
+  }
+
+  // 아직 로드 중이면 콜백 목록에만 추가
+  pendingCallbacks.push(onReady);
+
+  // 이미 script 태그가 페이지에 있으면 중복 추가 안 함
+  if (document.getElementById(SCRIPT_ID)) {
+    return;
+  }
+
+  // 처음 한 번만 script 태그를 만들어서 추가
+  const script = document.createElement('script');
+  script.id = SCRIPT_ID;
+  script.src = 'https://ads-partners.coupang.com/g.js';
+  script.async = true;
+  script.onload = () => {
+    isScriptLoaded = true;
+    // 기다리던 모든 배너에게 "이제 시작해도 돼!" 알림
+    pendingCallbacks.forEach((cb) => cb());
+    pendingCallbacks = [];
+  };
+  document.body.appendChild(script);
+}
+
 export default function CoupangBanner({ bannerId = 'default' }: CoupangBannerProps) {
-  const containerId = `coupang-banner-container-${bannerId}`;
-  const scriptId = `coupang-js-${bannerId}`;
+  const containerId = `coupang-container-${bannerId}`;
+  // 이미 이 배너 칸이 초기화됐는지 기억하는 표시
+  const isInitialized = useRef(false);
 
   useEffect(() => {
-    // 기존 스크립트가 있다면 제거 후 새로 생성 (페이지 이동 시 중복 방지)
-    const existingScript = document.getElementById(scriptId);
-    if (existingScript) {
-      existingScript.remove();
-    }
+    // 이미 초기화된 배너는 다시 초기화하지 않음 (중복 방지)
+    if (isInitialized.current) return;
 
-    const script = document.createElement('script');
-    script.id = scriptId;
-    script.src = 'https://ads-partners.coupang.com/g.js';
-    script.async = true;
-    script.onload = () => {
+    const initBanner = () => {
       // @ts-ignore
-      if (window.PartnersCoupang) {
-        // 기존에 생성된 배너가 있다면 컨테이너를 비웁니다.
-        const container = document.getElementById(containerId);
-        if (container) {
-          container.innerHTML = '';
-        }
+      if (!window.PartnersCoupang) return;
 
-        // @ts-ignore
-        new window.PartnersCoupang.G({
-          id: 856456,
-          containerId: containerId
-        });
-      }
+      const container = document.getElementById(containerId);
+      if (!container) return;
+
+      // 배너 칸을 깨끗하게 비운 뒤 새 배너를 그림
+      container.innerHTML = '';
+      isInitialized.current = true;
+
+      // @ts-ignore
+      new window.PartnersCoupang.G({
+        id: 856456,
+        containerId: containerId,
+      });
     };
-    document.body.appendChild(script);
 
-    // 컴포넌트가 사라질 때 스크립트를 정리합니다.
+    loadCoupangScript(initBanner);
+
+    // 이 배너 컴포넌트가 페이지에서 사라질 때 초기화 상태를 리셋
     return () => {
-      const s = document.getElementById(scriptId);
-      if (s) s.remove();
+      isInitialized.current = false;
     };
-  }, [containerId, scriptId]);
+  }, [containerId]);
 
   return (
     <div className="w-full flex flex-col items-center justify-center my-8">
       <div className="w-full max-w-4xl px-4">
-        <div className="w-full overflow-hidden flex justify-center items-center min-h-[140px] bg-white rounded-2xl border border-gray-100 shadow-sm p-4 relative">
+        <div className="w-full overflow-hidden flex justify-center items-center min-h-[140px] bg-white rounded-2xl border border-gray-100 shadow-sm p-4">
           <div
             id={containerId}
-            className="w-full flex justify-center items-center scale-90 md:scale-100 min-h-[120px]"
+            className="w-full flex justify-center items-center min-h-[120px]"
           >
-            {/* 배너가 여기에 렌더링됩니다. */}
             <div className="text-gray-300 text-xs animate-pulse font-medium">배너 로드 중...</div>
           </div>
         </div>
