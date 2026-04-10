@@ -78,6 +78,9 @@ export default function CoupangBanner({ bannerId = 'default', tags = [] }: Coupa
     return "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=500&q=80";
   };
 
+  // 태그가 없으면 기본 추천 키워드 사용
+  const displayTags = tags && tags.length > 0 ? tags : ['베스트셀러', '오늘의특가', '생활용품', '인기선물'];
+
   return (
     <div className="w-full flex flex-col items-center justify-center my-12">
       <div className="w-full max-w-4xl px-4">
@@ -93,65 +96,63 @@ export default function CoupangBanner({ bannerId = 'default', tags = [] }: Coupa
           </div>
 
           {/* 하단: 맞춤형 상품 쇼케이스 (진짜 상점 느낌) */}
-          {tags && tags.length > 0 && (
-            <div className="p-8">
-              <div className="flex items-center justify-between mb-6">
-                <h3 className="text-[17px] font-black text-gray-800 flex items-center gap-2">
-                  <span className="flex items-center justify-center w-6 h-6 bg-[#F25C05] text-white rounded-full text-[10px] animate-bounce">PICK</span>
-                  이 글과 관련된 추천 상품
-                </h3>
-                <span className="text-[11px] text-gray-400 font-bold uppercase tracking-widest">Sponsored by Coupang</span>
-              </div>
+          <div className="p-8 pb-6 bg-[#FCF8F3]/50">
+            <div className="flex flex-col md:flex-row md:items-center justify-between mb-6 gap-2">
+              <h3 className="text-[17px] font-black text-[#111827] flex items-center gap-2">
+                <span className="flex items-center justify-center w-6 h-6 bg-[#F25C05] text-white rounded-full text-[10px] animate-bounce shadow-sm">PICK</span>
+                {tags && tags.length > 0 ? '이 글과 관련된 추천 상품' : '오늘의 핫딜 추천 상품'}
+              </h3>
+              <span className="text-[11px] text-gray-400 font-bold uppercase tracking-widest px-2 py-1 bg-white rounded-md border border-gray-100">Sponsored by Coupang</span>
+            </div>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                {tags.slice(0, 3).map((tag, idx) => (
-                  <a
-                    key={idx}
-                    href={`https://www.coupang.com/np/search?q=${encodeURIComponent(tag)}&channel=partner&lptag=${COUPANG_ID}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="group bg-white border border-gray-100 rounded-2xl overflow-hidden hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
-                  >
-                    <div className="aspect-[16/10] overflow-hidden bg-gray-100 relative">
-                      <img 
-                        src={getProductImage(tag)} 
-                        alt={tag} 
-                        className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                      />
-                      <div className="absolute inset-0 bg-black/5 group-hover:bg-transparent transition-colors"></div>
-                    </div>
-                    <div className="p-4">
-                      <div className="text-[10px] text-[#F25C05] font-black mb-1 uppercase tracking-tight">Coupang Selection</div>
-                      <h4 className="text-sm font-bold text-gray-800 mb-3 truncate leading-tight">
-                        {tag} 관련 최저가 보러가기
-                      </h4>
-                      <div className="flex items-center justify-between">
-                        <span className="text-[11px] text-gray-400 font-medium">쿠팡에서 검색</span>
-                        <div className="w-6 h-6 bg-gray-50 rounded-full flex items-center justify-center group-hover:bg-[#F25C05] transition-colors">
-                          <span className="text-[10px] text-gray-400 group-hover:text-white transition-colors">→</span>
-                        </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+              {displayTags.slice(0, 4).map((tag, idx) => (
+                <a
+                  key={idx}
+                  href={`https://www.coupang.com/np/search?q=${encodeURIComponent(tag)}&channel=partner&lptag=${COUPANG_ID}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group bg-white border border-gray-100 rounded-2xl overflow-hidden hover:shadow-[0_8px_30px_rgba(242,92,5,0.12)] hover:-translate-y-1 hover:border-[#F25C05]/30 transition-all duration-300"
+                >
+                  <div className="aspect-[4/3] overflow-hidden bg-gray-50 relative">
+                    <img 
+                      src={getProductImage(tag)} 
+                      alt={tag} 
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-out"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  </div>
+                  <div className="p-4 bg-white">
+                    <div className="text-[10px] text-[#F25C05] font-black mb-1.5 uppercase tracking-wide">Coupang Pick</div>
+                    <h4 className="text-[13px] font-bold text-gray-800 mb-3 truncate leading-tight group-hover:text-[#F25C05] transition-colors">
+                      {tag} 최저가 확인
+                    </h4>
+                    <div className="flex items-center justify-between border-t border-gray-50 pt-3">
+                      <span className="text-[11px] text-gray-400 font-medium group-hover:text-gray-600 transition-colors">쿠팡에서 검색</span>
+                      <div className="w-6 h-6 bg-gray-50 rounded-full flex items-center justify-center group-hover:bg-[#F25C05] transition-colors shadow-sm">
+                        <span className="text-[10px] text-gray-400 group-hover:text-white transition-colors block translate-x-[1px]">➔</span>
                       </div>
                     </div>
-                  </a>
-                ))}
-              </div>
-
-              {/* 하단 태그 클라우드 */}
-              <div className="mt-8 flex flex-wrap gap-2 pt-6 border-t border-gray-50">
-                {tags.map((tag, idx) => (
-                  <a
-                    key={idx}
-                    href={`https://www.coupang.com/np/search?q=${encodeURIComponent(tag)}&channel=partner&lptag=${COUPANG_ID}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-[11px] font-bold text-gray-400 hover:text-[#F25C05] bg-gray-50/50 px-3 py-1 rounded-full transition-colors"
-                  >
-                    #{tag}
-                  </a>
-                ))}
-              </div>
+                  </div>
+                </a>
+              ))}
             </div>
-          )}
+
+            {/* 하단 태그 클라우드 */}
+            <div className="mt-6 flex flex-wrap gap-2 pt-5 border-t border-gray-100/60">
+              {displayTags.map((tag, idx) => (
+                <a
+                  key={idx}
+                  href={`https://www.coupang.com/np/search?q=${encodeURIComponent(tag)}&channel=partner&lptag=${COUPANG_ID}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[11px] font-bold text-gray-500 hover:text-white hover:bg-[#F25C05] bg-white border border-gray-100 px-3 py-1.5 rounded-full transition-all shadow-sm"
+                >
+                  #{tag}
+                </a>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
       <p className="text-[10px] text-gray-400 mt-4 text-center opacity-60 font-medium italic">
