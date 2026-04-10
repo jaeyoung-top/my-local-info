@@ -57,11 +57,15 @@ async function main() {
       (item['서비스명'] || '') + 
       (item['소관기관명'] || '') + 
       (item['지원대상'] || '') + 
-      (item['서비스목적요약'] || '')
+      (item['서비스목적요약'] || '') +
+      (item['서비스명'] || '')
     );
     
-    // 키워드 포함 확인
-    const hasKeyword = text.includes(keyword);
+    // 키워드 포함 확인 (AI 키워드 포함 시 우선순위)
+    const aiKeywords = ['인공지능', 'AI', '빅데이터', '디지털전환', 'SW'];
+    const hasAiKeyword = aiKeywords.some(kw => text.includes(kw));
+    
+    const hasKeyword = text.includes(keyword) || (keyword === '송파' && hasAiKeyword);
     // 제외 키워드 포함 확인
     const hasExclude = excludeKeywords.some(ex => text.includes(ex));
     
@@ -89,14 +93,16 @@ async function main() {
   // 3단계: 기존 데이터와 비교 (이름 기준 중복 제거)
   const normalizeString = (str) => String(str || '').replace(/\s+/g, '').toLowerCase();
 
-  const existingNames = new Set([
-    ...localData.events.map(e => normalizeString(e.name)),
-    ...localData.benefits.map(b => normalizeString(b.name))
-  ]);
-
   const newItems = filtered.filter(item => {
     const normalizedItemName = normalizeString(item['서비스명']);
     if (!normalizedItemName || normalizedItemName.length < 2) return false;
+    
+    const existingNames = new Set([
+      ...localData.events.map(e => normalizeString(e.name)),
+      ...localData.benefits.map(b => normalizeString(b.name)),
+      ...(localData.aiSupport || []).map(a => normalizeString(a.name))
+    ]);
+
     for (const existingName of existingNames) {
       if (existingName.includes(normalizedItemName) || normalizedItemName.includes(existingName)) {
         return false;
@@ -116,7 +122,7 @@ async function main() {
 
   // 4단계: Gemini AI로 새 항목 가공
   const geminiPrompt = `아래 공공데이터 1건을 분석해서 JSON 객체로 변환해줘. 형식:
-{"id": "숫자6자리", "name": "서비스명(짧고 명확하게)", "category": "혜택", "startDate": "YYYY-MM-DD", "endDate": "YYYY-MM-DD 또는 상시", "location": "장소 또는 기관명", "target": "지원대상(간략히)", "summary": "한줄요약(50자 이내)", "link": "상세URL", "imageTheme": "분류"}
+{"id": "숫자6자리", "name": "서비스명(짧고 명확하게)", "category": "혜택 또는 AI지원", "startDate": "YYYY-MM-DD", "endDate": "YYYY-MM-DD 또는 상시", "location": "장소 또는 기관명", "target": "지원대상(간략히)", "summary": "한줄요약(50자 이내)", "link": "상세URL", "imageTheme": "분류"}
 
 startDate가 없으면 오늘 날짜(${today}), endDate가 없으면 '상시'로 넣어.
 imageTheme 필드에는 다음 중 이 혜택에 가장 어울리는 주제 하나를 골라서 반드시 영문으로 적어줘:
@@ -181,8 +187,13 @@ ${JSON.stringify(targetItem, null, 2)}`;
       processedItem.image = imagePool[Math.floor(Math.random() * imagePool.length)];
     }
 
-    // 5단계: 혜택 배열에 추가
-    localData.benefits.push(processedItem);
+    // 5단계: 카테고리에 따라 혜택 또는 AI지원 배열에 추가
+    if (processedItem.category === 'AI지원') {
+      localData.aiSupport = localData.aiSupport || [];
+      localData.aiSupport.push(processedItem);
+    } else {
+      localData.benefits.push(processedItem);
+    }
     localData.lastUpdated = today;
 
     fs.writeFileSync(dataPath, JSON.stringify(localData, null, 2), 'utf8');

@@ -27,6 +27,7 @@ export default function Header({
           <Link href="/blog" className={`cursor-pointer hover:underline ${pathname.startsWith('/blog') ? 'underline' : ''}`}>블로그</Link>
           <Link href="/events" className={`cursor-pointer hover:underline ${pathname === '/events' ? 'underline' : ''}`}>행사/축제</Link>
           <Link href="/benefits" className={`cursor-pointer hover:underline ${pathname === '/benefits' ? 'underline' : ''}`}>지원금/혜택</Link>
+          <Link href="/ai-support" className={`cursor-pointer hover:underline ${pathname === '/ai-support' ? 'underline' : ''}`}>AI지원프로그램</Link>
           <Link href="/about" className={`cursor-pointer hover:underline ${pathname === '/about' ? 'underline' : ''}`}>소개</Link>
         </div>
         
