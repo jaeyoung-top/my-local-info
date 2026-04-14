@@ -7,6 +7,7 @@ import data from "../../public/data/local-info.json";
 import { InfoItem } from "@/components/NewsCard";
 import CoupangBanner from "@/components/CoupangBanner";
 import Header from "@/components/Header";
+import VisitorCounter from "@/components/VisitorCounter";
 import Script from "next/script";
 
 // 인라인 카드 컴포넌트 (홈페이지 전용, 심플 카드)
@@ -164,6 +165,7 @@ export default function Home() {
               </div>
             ))}
           </div>
+          <VisitorCounter />
         </div>
       </header>
 
@@ -215,7 +217,7 @@ export default function Home() {
 
         {/* 쿠팡 배너 */}
         <div className="mt-12">
-          <CoupangBanner bannerId="home-mid" />
+          <CoupangBanner />
         </div>
 
         {/* 블로그 바로가기 */}
