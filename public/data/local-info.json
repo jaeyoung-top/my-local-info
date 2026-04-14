@@ -1,6 +1,18 @@
 {
   "events": [
     {
+      "id": "crawler-1776134555476-695",
+      "name": "2026년 4월 송파 문화 캘린더 (송파탈춤 페스티벌 등)",
+      "category": "행사",
+      "startDate": "2026-04-01",
+      "endDate": "상시",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "2026년 4월, 송파구에서 열리는 송파탈춤 페스티벌 등 다채로운 문화 행사 정보를 담은 캘린더입니다.",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9011&aid=17503",
+      "image": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=1000&auto=format&fit=crop"
+    },
+    {
       "id": "crawler-1775703731573-917",
       "name": "2026년 4월 문화 캘린더",
       "category": "행사",
@@ -122,6 +134,71 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200005017",
       "imageTheme": "finance",
       "image": "https://images.unsplash.com/photo-1565514020179-026b92b84bb6?w=800&q=80"
+    },
+    {
+      "id": "116010000001",
+      "name": "주택금융공사 월세자금보증",
+      "category": "혜택",
+      "startDate": "2026-04-14",
+      "endDate": "상시",
+      "location": "한국주택금융공사",
+      "target": "월세대출 대상자 (소득 및 계약조건 충족)",
+      "summary": "일정요건의 월세대출 대상자에게 월세자금보증을 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/116010000001",
+      "imageTheme": "finance",
+      "image": "https://images.unsplash.com/photo-1579621970588-a35d0e7ab9b6?w=800&q=80"
+    },
+    {
+      "id": "000004",
+      "name": "북한이탈주민 자산형성 지원 (미래행복통장)",
+      "category": "혜택",
+      "startDate": "2026-04-14",
+      "endDate": "상시",
+      "location": "통일부",
+      "target": "북한이탈주민 (만 18세 이상, 경제활동 중)",
+      "summary": "북한이탈주민 대상으로 저축액에 정부가 동일 금액 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/125000000004",
+      "imageTheme": "finance",
+      "image": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&q=80"
+    },
+    {
+      "id": "125000000014",
+      "name": "북한이탈주민 정착금 지원",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "상시",
+      "location": "북한이탈주민정착지원사무소(하나원)",
+      "target": "통일부 장관의 보호결정을 받은 북한이탈주민",
+      "summary": "북한이탈주민에게 정착금 지원(세대별 차등지급)",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/125000000014",
+      "imageTheme": "finance",
+      "image": "https://images.unsplash.com/photo-1565514020179-026b92b84bb6?w=800&q=80"
+    },
+    {
+      "id": "125000000015",
+      "name": "북한이탈주민 정착금 가산금 지원",
+      "category": "혜택",
+      "startDate": "2026-04-14",
+      "endDate": "상시",
+      "location": "통일부",
+      "target": "북한이탈주민",
+      "summary": "일정조건에 해당하는 북한이탈주민에게 가산금 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/125000000015",
+      "imageTheme": "finance",
+      "image": "https://images.unsplash.com/photo-1565514020179-026b92b84bb6?w=800&q=80"
+    },
+    {
+      "id": "000002",
+      "name": "법률홈닥터 무료 법률서비스",
+      "category": "혜택",
+      "startDate": "2026-04-14",
+      "endDate": "상시",
+      "location": "법무부",
+      "target": "취약계층",
+      "summary": "취약계층에게 찾아가는 무료 법률상담 및 지원 서비스 제공",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000002",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -162,5 +239,5 @@
       "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-04-09"
+  "lastUpdated": "2026-04-14"
 }
