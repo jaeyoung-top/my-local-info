@@ -553,6 +553,71 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/129000000015",
       "imageTheme": "job",
       "image": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800&q=80"
+    },
+    {
+      "id": "127000",
+      "name": "귀화/국적회복 수수료 면제",
+      "category": "혜택",
+      "startDate": "2026-04-14",
+      "endDate": "상시",
+      "location": "지방출입국·외국인관서",
+      "target": "특별공로자, 사할린동포 배우자, 재난지역 피해자, 장애인 등 국적 취득 신청자",
+      "summary": "귀화/국적회복 허가 및 증명서 발급 수수료 면제",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000023",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "범죄피해자 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-04-14",
+      "endDate": "상시",
+      "location": "법무부",
+      "target": "성폭력·아동학대 등 범죄 피해 아동 및 장애인",
+      "summary": "범죄 피해 아동 및 장애인의 수사·재판상 의사소통을 중개·지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1516627145497-ae6968895b74?w=800&q=80"
+    },
+    {
+      "id": "128000000003",
+      "name": "범죄피해자에 대한 경제적 지원",
+      "category": "혜택",
+      "startDate": "2026-04-14",
+      "endDate": "상시",
+      "location": "대검찰청",
+      "target": "범죄 피해자 본인 및 가족",
+      "summary": "범죄피해자 및 가족에게 치료비, 생계비 등 경제적 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/128000000003",
+      "imageTheme": "finance",
+      "image": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&q=80"
+    },
+    {
+      "id": "129000000032",
+      "name": "군무원 채용시험 응시수수료 면제",
+      "category": "혜택",
+      "startDate": "2026-04-14",
+      "endDate": "상시",
+      "location": "국방부",
+      "target": "수급자, 차상위계층, 한부모지원대상자, 장애인연금수급자, 2자녀 이상 가정",
+      "summary": "군무원 채용시험 응시수수료 면제 대상 확대",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/129000000032",
+      "imageTheme": "job",
+      "image": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=800&q=80"
+    },
+    {
+      "id": "131200000004",
+      "name": "장애인차량취득세및자동차세감면",
+      "category": "혜택",
+      "startDate": "2026-04-14",
+      "endDate": "2027-12-31",
+      "location": "시·군·구청",
+      "target": "장애인 및 그 가족이 보철용·생업용 차량 취득 시",
+      "summary": "장애인 보철·생업용 자동차 취득세 및 자동차세 감면",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/131200000004",
+      "imageTheme": "finance",
+      "image": "https://images.unsplash.com/photo-1579621970588-a35d0e7ab9b6?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -771,6 +836,66 @@
       "summary": "인공지능, 소프트웨어 등 ICT 핵심기술 연구개발을 위한 자금 및 기술 지원.",
       "link": "https://www.nipa.kr/main/main.html",
       "image": "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-14-1",
+      "name": "글로벌 SaaS 육성 프로젝트 (GSAP)",
+      "category": "AI지원",
+      "startDate": "2026-03-01",
+      "endDate": "2026-11-30",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "국내 SaaS 개발 중소·중견기업",
+      "summary": "국내 SaaS 기업의 해외 시장 진출 및 글로벌 경쟁력 강화를 지원합니다.",
+      "link": "https://www.nipa.kr/main/selectBbsNttList.do?key=100&bbsNo=38",
+      "image": "https://images.unsplash.com/photo-1488229297570-58520851e868?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-14-2",
+      "name": "초거대 AI 기반 서비스 개발 지원 사업",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "2026-12-31",
+      "location": "과학기술정보통신부 (정보통신산업진흥원 주관)",
+      "target": "초거대 AI 모델 활용 신규 서비스 개발 기업",
+      "summary": "초거대 AI 모델 기반 혁신적인 서비스 개발 및 상용화를 지원합니다.",
+      "link": "https://www.nipa.kr/main/selectBbsNttList.do?key=100&bbsNo=38",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-14-3",
+      "name": "예비창업패키지 (AI·빅데이터 특화분야)",
+      "category": "AI지원",
+      "startDate": "2026-02-01",
+      "endDate": "2026-06-30",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "AI·빅데이터 분야 혁신 아이템 보유 예비 창업가",
+      "summary": "AI·빅데이터 기술 창업 사업화 자금, 교육, 멘토링 등을 지원합니다.",
+      "link": "https://www.k-startup.go.kr/web/contents/bizinfo-annc.do",
+      "image": "https://images.unsplash.com/photo-1488229297570-58520851e868?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-14-4",
+      "name": "제조데이터 분석 및 활용 지원사업",
+      "category": "AI지원",
+      "startDate": "2026-03-01",
+      "endDate": "2026-10-31",
+      "location": "중소벤처기업부",
+      "target": "스마트공장 도입 중소·중견기업 (데이터 활용)",
+      "summary": "스마트공장 제조데이터의 분석 및 활용을 통해 생산성 향상을 지원합니다.",
+      "link": "https://bizinfo.go.kr/web/lay1/bbs/S1T122C128/AS/74/list.do",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-14-5",
+      "name": "정보통신기술(ICT) 이노베이션 바우처 지원사업",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "2026-08-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "ICT 솔루션 도입 희망 중소·중견기업",
+      "summary": "중소·중견기업의 ICT 솔루션 도입 바우처 제공, 디지털 전환 지원.",
+      "link": "https://www.nipa.kr/main/selectBbsNttList.do?key=100&bbsNo=38",
+      "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
     }
   ],
   "lastUpdated": "2026-04-14"
