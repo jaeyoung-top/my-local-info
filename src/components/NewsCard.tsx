@@ -22,9 +22,9 @@ export default function NewsCard({ item, color }: { item: InfoItem; color: 'indi
       href={`/blog/${item.id}`}
       className={`news-card block overflow-hidden group transition-all duration-300 ${color === 'orange' ? 'border-2 border-[#F25C05] shadow-[0_5px_15px_rgba(242,92,5,0.15)] rounded-2xl cursor-pointer hover:shadow-xl' : 'border border-gray-100 rounded-xl cursor-pointer hover:border-[#1D428A] hover:shadow-lg'}`}
     >
-      <div className="flex flex-col sm:flex-row items-stretch min-h-[240px]">
+      <div className="flex flex-col h-full items-stretch min-h-[320px]">
         {/* 이미지 영역: 실제 이미지 또는 플레이스홀더 */}
-        <div className="sm:w-1/3 bg-gray-100 relative aspect-video sm:aspect-auto shrink-0 overflow-hidden border-b sm:border-b-0 sm:border-r border-gray-100">
+        <div className="w-full h-48 sm:h-52 bg-gray-100 relative shrink-0 overflow-hidden border-b border-gray-100">
           {item.image ? (
             <Image 
               src={item.image} 
@@ -49,7 +49,7 @@ export default function NewsCard({ item, color }: { item: InfoItem; color: 'indi
         </div>
 
         {/* 텍스트 정보 영역 */}
-        <div className="sm:w-2/3 p-6 sm:p-8 flex flex-col justify-between space-y-4">
+        <div className="w-full flex-grow p-6 sm:p-8 flex flex-col justify-between space-y-4">
           <div className="space-y-3">
             <div className="flex items-center gap-2">
               <span className="text-gray-400 text-[10px] font-bold tracking-widest uppercase">Release Date: {item.startDate}</span>

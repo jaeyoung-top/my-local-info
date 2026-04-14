@@ -12,7 +12,7 @@ export default function BlogList() {
       <main className="max-w-6xl mx-auto px-6 py-12">
         <h1 className="text-4xl font-black text-[#1D428A] mb-8 border-b-4 border-[#1D428A] inline-block pb-2">송파 이야기 블로그</h1>
         
-        <div className="grid gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {allPostsData.length === 0 ? (
             <p className="text-gray-500">아직 등록된 게시글이 없습니다.</p>
           ) : (

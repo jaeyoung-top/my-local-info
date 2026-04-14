@@ -184,13 +184,13 @@ export default function Home() {
                 <span className="bg-[#1D428A] text-white text-xs font-black px-3 py-1 rounded">HOT</span>
                 <h2 className="text-2xl font-black text-[#1D428A]">이번 달 주요 행사</h2>
               </div>
-              <div className="grid gap-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-6">
                 {filteredEvents.length > 0 ? (
                   filteredEvents.map((event: InfoItem) => (
                     <NewsCard key={event.id} item={event} color="indigo" />
                   ))
                 ) : (
-                  <p className="text-gray-400 text-sm py-4">검색 결과가 없습니다.</p>
+                  <p className="text-gray-400 text-sm py-4 col-span-full">검색 결과가 없습니다.</p>
                 )}
               </div>
             </section>
@@ -204,13 +204,13 @@ export default function Home() {
                 <span className="bg-[#F25C05] text-white text-xs font-black px-3 py-1 rounded">NEWS</span>
                 <h2 className="text-2xl font-black text-[#F25C05]">지원금 및 생활 혜택</h2>
               </div>
-              <div className="grid gap-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-6">
                 {filteredBenefits.length > 0 ? (
                   filteredBenefits.map((benefit: InfoItem) => (
                     <NewsCard key={benefit.id} item={benefit} color="orange" />
                   ))
                 ) : (
-                  <p className="text-gray-400 text-sm py-4">검색 결과가 없습니다.</p>
+                  <p className="text-gray-400 text-sm py-4 col-span-full">검색 결과가 없습니다.</p>
                 )}
               </div>
             </section>
@@ -221,13 +221,13 @@ export default function Home() {
                 <span className="bg-[#2D3748] text-white text-xs font-black px-3 py-1 rounded">TECH</span>
                 <h2 className="text-2xl font-black text-[#2D3748]">AI 관련 지원 프로그램</h2>
               </div>
-              <div className="grid gap-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-6">
                 {filteredAiSupport.length > 0 ? (
                   filteredAiSupport.map((ai: InfoItem) => (
                     <NewsCard key={ai.id} item={ai} color="indigo" />
                   ))
                 ) : (
-                  <p className="text-gray-400 text-sm py-4">검색 결과가 없습니다.</p>
+                  <p className="text-gray-400 text-sm py-4 col-span-full">검색 결과가 없습니다.</p>
                 )}
               </div>
             </section>
