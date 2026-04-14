@@ -618,6 +618,71 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/131200000004",
       "imageTheme": "finance",
       "image": "https://images.unsplash.com/photo-1579621970588-a35d0e7ab9b6?w=800&q=80"
+    },
+    {
+      "id": "127000",
+      "name": "귀화·국적회복 수수료 면제",
+      "category": "혜택",
+      "startDate": "2026-04-14",
+      "endDate": "상시",
+      "location": "지방출입국‧외국인관서",
+      "target": "특별공로자, 재난피해자, 장애인 등 국적업무 수수료 면제 대상",
+      "summary": "귀화·국적회복 및 증명서 발급 신청 수수료 면제",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000023",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80"
+    },
+    {
+      "id": "000025",
+      "name": "범죄 피해 아동 및 장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-04-14",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원",
+      "target": "범죄 피해 아동(만 19세 미만) 및 의사소통 어려운 장애인",
+      "summary": "범죄 피해 아동 및 장애인의 수사·재판 시 진술 중개 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1516627145497-ae6968895b74?w=800&q=80"
+    },
+    {
+      "id": "131200",
+      "name": "노인복지시설 지방세 감면",
+      "category": "혜택",
+      "startDate": "2026-04-14",
+      "endDate": "2026-12-31",
+      "location": "시·군·구청",
+      "target": "노인복지시설 설치·운영 법인/단체",
+      "summary": "노인복지시설 설치ㆍ운영을 위한 부동산 취득세·재산세 감면",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/131200000005",
+      "imageTheme": "senior",
+      "image": "https://images.unsplash.com/photo-1511296684614-2e94eb687be6?w=800&q=80"
+    },
+    {
+      "id": "131200000006",
+      "name": "국가유공자 등 대부금 취득 부동산 취득세 감면",
+      "category": "혜택",
+      "startDate": "2026-04-14",
+      "endDate": "2026-12-31",
+      "location": "시·군·구청",
+      "target": "국가유공자 등 대부금으로 부동산 취득하는 자",
+      "summary": "국가유공자 등 대부금으로 취득하는 부동산 취득세 감면",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/131200000006",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80"
+    },
+    {
+      "id": "131200000011",
+      "name": "국가유공자 단체 지방세 감면",
+      "category": "혜택",
+      "startDate": "2026-04-14",
+      "endDate": "2026-12-31",
+      "location": "시·군·구청",
+      "target": "국가유공자 및 특수임무유공자 관련 단체",
+      "summary": "국가유공자 단체가 취득 및 소유한 부동산에 대해 지방세 면제",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/131200000011",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -896,6 +961,66 @@
       "summary": "중소·중견기업의 ICT 솔루션 도입 바우처 제공, 디지털 전환 지원.",
       "link": "https://www.nipa.kr/main/selectBbsNttList.do?key=100&bbsNo=38",
       "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-14-1",
+      "name": "인공지능 그랜드 챌린지",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "2026-10-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI 기술 개발 기업, 연구기관, 대학 등 팀",
+      "summary": "AI 난제 해결을 위한 도전형 R&D 경쟁 및 기술 개발 지원.",
+      "link": "https://www.nipa.kr/",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-14-2",
+      "name": "창업도약패키지 (AI·디지털 특화)",
+      "category": "AI지원",
+      "startDate": "2026-03-01",
+      "endDate": "2026-04-15",
+      "location": "K-Startup (창업진흥원)",
+      "target": "창업 3~7년 이내 도약기 기업",
+      "summary": "AI·디지털 기반 스타트업의 스케일업을 위한 사업화 자금 및 맞춤형 지원.",
+      "link": "https://www.k-startup.go.kr/",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-14-3",
+      "name": "AI 반도체 고급인재 양성 사업",
+      "category": "AI지원",
+      "startDate": "2026-01-01",
+      "endDate": "상시",
+      "location": "과학기술정보통신부",
+      "target": "대학(원)생, 기업 재직자 등 AI 반도체 분야 인력",
+      "summary": "AI 반도체 설계, 소자, SW 분야의 전문 인력 양성을 위한 교육 및 훈련 지원.",
+      "link": "https://www.msit.go.kr/web/msitMain/main.do",
+      "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-14-4",
+      "name": "서울 AI 허브 AI 스케일업 지원",
+      "category": "AI지원",
+      "startDate": "2026-03-15",
+      "endDate": "2026-04-30",
+      "location": "서울 AI 허브",
+      "target": "AI 기술 기반 스케일업 단계 스타트업",
+      "summary": "AI 서비스 상용화 및 글로벌 진출을 위한 멘토링, 투자 연계, 인프라 지원.",
+      "link": "https://seoulaihub.kr/",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-14-5",
+      "name": "창업성장기술개발사업 (디딤돌)",
+      "category": "AI지원",
+      "startDate": "2026-02-01",
+      "endDate": "2026-03-31",
+      "location": "중소벤처기업부 (중소기업기술정보진흥원)",
+      "target": "창업 7년 이내 중소기업 (기술 기반)",
+      "summary": "유망 기술 창업기업의 R&D 비용 지원 및 기술 사업화 촉진.",
+      "link": "https://www.bizinfo.go.kr/web/main/bizMain.do",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80"
     }
   ],
   "lastUpdated": "2026-04-14"
