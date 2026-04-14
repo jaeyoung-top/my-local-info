@@ -586,6 +586,66 @@
       "summary": "데이터 구매·가공 비용 및 데이터 활용 서비스 개발을 지원합니다.",
       "link": "https://www.kdata.or.kr/datavoucher/index.do",
       "image": "https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-14-1",
+      "name": "AI 학습용 데이터 구축 지원 사업",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "2026-05-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI 서비스 개발 기업, 연구기관",
+      "summary": "AI 모델 개발에 필요한 고품질 학습용 데이터 구축 지원.",
+      "link": "https://www.nipa.kr/main/main.html",
+      "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-14-2",
+      "name": "팁스(TIPS) 프로그램 (AI·디지털 분야)",
+      "category": "AI지원",
+      "startDate": "상시",
+      "endDate": "상시",
+      "location": "중소벤처기업부 / 창업진흥원",
+      "target": "혁신적인 AI/DT 기술 기반 스타트업",
+      "summary": "민간 투자 연계형 기술 창업 지원, R&D 및 사업화 자금 제공.",
+      "link": "https://www.k-startup.go.kr/web/contents/tips.do",
+      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-14-3",
+      "name": "차세대 AI 반도체 핵심기술 개발사업",
+      "category": "AI지원",
+      "startDate": "2026-03-01",
+      "endDate": "2026-12-31",
+      "location": "과학기술정보통신부",
+      "target": "AI 반도체 기술 기업, 연구기관, 대학",
+      "summary": "고성능/저전력 AI 반도체 원천기술 및 상용화 기술 개발 지원.",
+      "link": "https://www.msit.go.kr/web/main/main.do",
+      "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-14-4",
+      "name": "중소기업 기술혁신개발사업 (디지털 전환)",
+      "category": "AI지원",
+      "startDate": "2026-03-01",
+      "endDate": "2026-04-15",
+      "location": "중소벤처기업부",
+      "target": "디지털 전환 기술 개발 중소기업",
+      "summary": "중소기업의 디지털 전환 관련 신기술 및 제품 개발 R&D 지원.",
+      "link": "https://www.bizinfo.go.kr/web/main/bizinfo-main.do",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-14-5",
+      "name": "서울 AI 허브 PoC 지원사업",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "2026-05-15",
+      "location": "서울 AI 허브",
+      "target": "AI 기술 기반 스타트업 및 중소기업",
+      "summary": "AI 기술의 시장 적용 및 사업화를 위한 개념 증명(PoC) 비용 지원.",
+      "link": "https://www.seoulaihub.kr/",
+      "image": "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=800&q=80"
     }
   ],
   "lastUpdated": "2026-04-14"
