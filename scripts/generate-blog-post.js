@@ -2,51 +2,44 @@ const fs = require('fs');
 const path = require('path');
 require('dotenv').config({ path: '.env.local' });
 
-async function generatePost(item, isDaily = false) {
+/**
+ * 하나의 항목으로 블로그 포스트를 생성합니다.
+ * - 항목 ID로 파일명을 만들어 이미 생성된 것이면 건너뜁니다.
+ * - "오늘의 추천" 방식의 재포장은 완전히 제거합니다.
+ */
+async function generatePost(item) {
   const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
   const postsDir = path.join(process.cwd(), 'src', 'content', 'posts');
   const today = new Date().toISOString().split('T')[0];
-  
-  // 일반 파일명: id.md
-  // 데일리 파일명: yyyy-mm-dd-daily-category-id.md
-  const fileName = isDaily 
-    ? `${today}-daily-${item.category === 'AI지원' ? 'ai' : 'benefit'}-${item.id}.md`
-    : `${item.id}.md`;
-  
+
+  // 파일명은 항목 ID 기반으로 고정 (중복 방지)
+  const fileName = `${item.id}.md`;
   const savePath = path.join(postsDir, fileName);
 
   if (fs.existsSync(savePath)) {
+    console.log(`[SKIP] ${item.name} - 이미 포스트가 존재합니다.`);
     return false;
   }
 
-  console.log(`[${item.id}] ${isDaily ? '오늘의 추천' : '신규 정보'} 블로그 포스트 생성 중...`);
+  console.log(`[생성 중] ${item.name} (${item.id})`);
 
-  const prompt = isDaily
-    ? `Write a Korean blog post titled "[오늘의 추천 정보] ${item.name}". 
-       Re-introduce this service in a fresh way for today (${today}).
-       Data: ${JSON.stringify(item, null, 2)}
-       Format:
-       ---
-       title: "[오늘의 추천] ${item.name} - ${item.summary}"
-       date: ${today}
-       summary: "${item.summary} (오늘의 추천 정보입니다)"
-       category: ${item.category}
-       tags: [오늘의추천, ${item.category}, 송파구]
-       source: ${item.link || ''}
-       ---
-       (Write 800+ characters in Korean, friendly blog tone, why this is recommended today)`
-    : `아래 공공/지역서비스 정보를 바탕으로 블로그 글을 작성해줘.
-       정보: ${JSON.stringify(item, null, 2)}
-       아래 형식으로 출력해줘:
-       ---
-       title: (친근하고 흥미로운 제목)
-       date: ${today}
-       summary: (한 줄 요약)
-       category: ${item.category}
-       tags: [${item.category}, 지원, 추천]
-       source: ${item.link || ''}
-       ---
-       (본문: 800자 이상, 안내하는 블로그 톤, 추천 이유 3가지 포함, 신청 방법 및 상세안내 포함)`;
+  const prompt = `아래 공공/지역서비스 정보를 바탕으로 블로그 글을 작성해줘.
+정보: ${JSON.stringify(item, null, 2)}
+
+아래 형식으로 출력해줘 (앞뒤에 다른 텍스트 없이, YAML frontmatter 포함해서 그대로):
+---
+title: "(친근하고 흥미로운 제목, 쌍따옴표로 감싸줘)"
+date: ${today}
+summary: "(한 줄 요약, 쌍따옴표로 감싸줘)"
+category: "${item.category}"
+tags: [${item.category}, 지원, 추천, 송파구]
+source: "${item.link || ''}"
+---
+
+(본문: 800자 이상, 친근한 안내 블로그 톤, 아래 내용을 포함해줘)
+1. 이 서비스가 왜 필요한지 (일상적인 언어로)
+2. 신청 대상 및 방법
+3. 놓치면 안 되는 핵심 포인트 3가지`;
 
   const geminiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_API_KEY}`;
 
@@ -64,64 +57,47 @@ async function generatePost(item, isDaily = false) {
     const aiText = result.candidates[0].content.parts[0].text;
 
     fs.writeFileSync(savePath, aiText.trim(), 'utf8');
-    console.log(`✅ [${fileName}] 생성 완료!`);
+    console.log(`✅ 완료: ${fileName}`);
     return true;
   } catch (err) {
-    console.error(`❌ [${item.id}] 생성 오류:`, err.message);
+    console.error(`❌ 실패 [${item.id}]:`, err.message);
     return false;
   }
 }
 
 async function main() {
   const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
-  if (!GEMINI_API_KEY) return;
-
-  const dataPath = path.join(process.cwd(), 'public', 'data', 'local-info.json');
-  let localData = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
-
-  // 1. 송파소식 (이벤트) - 오직 새 소식만
-  console.log('--- 송파소식 점검 ---');
-  for (const item of localData.events) {
-    const created = await generatePost(item);
-    if (created) await new Promise(r => setTimeout(r, 2000));
+  if (!GEMINI_API_KEY) {
+    console.error('GEMINI_API_KEY 환경변수가 없습니다.');
+    return;
   }
 
-  // 2. 공공정보 & AI지원 - 새 소식 있으면 생성
-  console.log('--- 혜택 및 AI 신규 정보 점검 ---');
-  let newGenerated = 0;
-  const dailyTargets = [...localData.benefits, ...(localData.aiSupport || [])];
-  
-  for (const item of dailyTargets) {
+  const dataPath = path.join(process.cwd(), 'public', 'data', 'local-info.json');
+  const localData = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
+
+  // 모든 카테고리를 합쳐서 순서대로 처리
+  const allItems = [
+    ...localData.events,
+    ...localData.benefits,
+    ...(localData.aiSupport || [])
+  ];
+
+  console.log(`총 ${allItems.length}개 항목 확인 중...`);
+
+  let createdCount = 0;
+  for (const item of allItems) {
     const created = await generatePost(item);
     if (created) {
-      newGenerated++;
+      createdCount++;
+      // API 과부하 방지: 요청 사이 2초 대기
       await new Promise(r => setTimeout(r, 2000));
     }
   }
 
-  // 3. 매일 업로드 보장 (오늘 생성된 신규 혜택/AI 글이 없다면 기존 것 중 하나 강제 생성)
-  const today = new Date().toISOString().split('T')[0];
-  const postsDir = path.join(process.cwd(), 'src', 'content', 'posts');
-  const files = fs.readdirSync(postsDir);
-  const hasTodayPost = files.some(f => f.startsWith(today));
-
-  if (!hasTodayPost && dailyTargets.length > 0) {
-    console.log('--- 오늘의 추천 정보 생성 (매일 업로드 보장) ---');
-    
-    // AI 교육 관련 아이템 우선 찾기
-    const eduKeywords = ['교육', '강의', '스킬업', '아카데미', '인재', '클래스', '학습'];
-    const eduItems = dailyTargets.filter(item => 
-      eduKeywords.some(kw => (item.name + item.summary).includes(kw))
-    );
-    
-    // 교육 아이템이 있으면 우선순위로, 없으면 전체 중 랜덤하게 하나 골라서 생성
-    const randomItem = eduItems.length > 0 
-      ? eduItems[Math.floor(Math.random() * eduItems.length)]
-      : dailyTargets[Math.floor(Math.random() * dailyTargets.length)];
-      
-    await generatePost(randomItem, true);
+  if (createdCount === 0) {
+    console.log('✅ 모든 항목에 대한 포스트가 이미 존재합니다. 새로 생성된 글 없음.');
   } else {
-    console.log('✅ 오늘 이미 새로운 글이 게시되었습니다.');
+    console.log(`🎉 총 ${createdCount}개의 새 블로그 포스트 생성 완료!`);
   }
 }
 
