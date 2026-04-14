@@ -237,6 +237,66 @@
       "summary": "빅데이터 및 AI 솔루션 도입 비용을 바우처 형태로 지원하여 기업 경쟁력을 높여드립니다.",
       "link": "https://www.bizinfo.go.kr/",
       "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-14-1",
+      "name": "AI 바우처 지원사업",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "매년 운영",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI 솔루션 도입 희망 중소·중견기업",
+      "summary": "AI 솔루션 도입 및 활용 비용을 지원합니다.",
+      "link": "https://www.nipa.kr/main/selectBbsNttView.do?key=101&bbsNo=258&nttNo=24090",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-14-2",
+      "name": "혁신분야 창업패키지",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "매년 운영",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "AI, 데이터 등 혁신 기술 분야 창업기업",
+      "summary": "혁신 기술 기반 스타트업의 사업화 및 성장을 지원합니다.",
+      "link": "https://www.k-startup.go.kr/web/contents/biz_info_detail.do?schM=VIEW&schS=S&bizCd=20240313204901001",
+      "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-14-3",
+      "name": "서울 AI 허브 입주기업 모집 및 성장 지원",
+      "category": "AI지원",
+      "startDate": "상시",
+      "endDate": "상시",
+      "location": "서울 AI 허브",
+      "target": "AI 분야 유망 스타트업 및 예비창업가",
+      "summary": "AI 스타트업에게 사무 공간, 멘토링, 투자 연계 등을 제공합니다.",
+      "link": "https://seoulaihub.kr/business/apply",
+      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-14-4",
+      "name": "스마트공장 구축 및 고도화 지원사업",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "매년 운영",
+      "location": "중소벤처기업부, 스마트제조혁신추진단",
+      "target": "스마트공장 구축을 희망하는 중소·중견기업",
+      "summary": "스마트공장 시스템 구축 및 고도화 비용을 지원합니다.",
+      "link": "https://www.bizinfo.go.kr/web/lay1/bbs/S1T122C128/AS/79/view.do?pBLDATA_ID=PBL_000000000000096530&pBL_NO=20240318359",
+      "image": "https://images.unsplash.com/photo-1488229297570-58520851e868?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-14-5",
+      "name": "데이터바우처 지원사업",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "매년 운영",
+      "location": "한국데이터산업진흥원 (K-DATA), 과학기술정보통신부",
+      "target": "데이터 구매/가공 및 활용 희망 기업",
+      "summary": "데이터 구매·가공 비용 및 데이터 활용 서비스 개발을 지원합니다.",
+      "link": "https://www.kdata.or.kr/datavoucher/index.do",
+      "image": "https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?w=800&q=80"
     }
   ],
   "lastUpdated": "2026-04-14"

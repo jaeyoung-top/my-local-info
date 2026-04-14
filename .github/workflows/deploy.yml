@@ -29,6 +29,7 @@ jobs:
       - name: Fetch and Generate
         run: |
           node scripts/fetch-public-data.js
+          node scripts/fetch-ai-programs.js
           node scripts/crawl-songpa-news.js
           node scripts/generate-blog-post.js
         env:
