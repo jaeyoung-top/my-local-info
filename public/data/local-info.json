@@ -488,6 +488,71 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/129000000009",
       "imageTheme": "admin",
       "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&q=80"
+    },
+    {
+      "id": "127000",
+      "name": "국적업무 수수료 면제",
+      "category": "혜택",
+      "startDate": "2026-04-14",
+      "endDate": "상시",
+      "location": "지방출입국‧외국인관서",
+      "target": "국적 취득/회복 특별공로자 및 가족, 동포, 재난피해자, 장애인 등",
+      "summary": "귀화허가, 국적회복 허가 및 국적업무 증명서 발급 신청 수수료 면제",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000023",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&q=80"
+    },
+    {
+      "id": "127000",
+      "name": "범죄 피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-04-14",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원",
+      "target": "성폭력/아동학대/인신매매 피해 아동 및 장애인",
+      "summary": "범죄 피해 아동 및 장애인의 수사·재판 소통 중개 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&q=80"
+    },
+    {
+      "id": "128000000003",
+      "name": "범죄피해자 경제적 지원",
+      "category": "혜택",
+      "startDate": "2026-04-14",
+      "endDate": "상시",
+      "location": "검찰청 피해자지원실",
+      "target": "범죄 피해자 및 그 가족",
+      "summary": "범죄피해자 및 가족 등에게 치료비, 생계비 등 경제적 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/128000000003",
+      "imageTheme": "finance",
+      "image": "https://images.unsplash.com/photo-1579621970588-a35d0e7ab9b6?w=800&q=80"
+    },
+    {
+      "id": "129000000013",
+      "name": "전역예정군인 재취업 지원",
+      "category": "혜택",
+      "startDate": "2026-04-14",
+      "endDate": "상시",
+      "location": "국방전직교육원",
+      "target": "전역예정장병",
+      "summary": "전역예정장병 재취업을 위한 상담, 교육 및 취업 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/129000000013",
+      "imageTheme": "job",
+      "image": "https://images.unsplash.com/photo-1551836022-d0bc15250ff5?w=800&q=80"
+    },
+    {
+      "id": "000015",
+      "name": "전역예정장병 취업활동지원",
+      "category": "혜택",
+      "startDate": "2026-04-14",
+      "endDate": "상시",
+      "location": "국방부",
+      "target": "전역예정장병",
+      "summary": "전역예정장병의 사회적응 및 취업 준비를 위한 활동 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/129000000015",
+      "imageTheme": "job",
+      "image": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -645,6 +710,66 @@
       "target": "AI 기술 기반 스타트업 및 중소기업",
       "summary": "AI 기술의 시장 적용 및 사업화를 위한 개념 증명(PoC) 비용 지원.",
       "link": "https://www.seoulaihub.kr/",
+      "image": "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-14-1",
+      "name": "SW고성장클럽 200",
+      "category": "AI지원",
+      "startDate": "2026-03-XX",
+      "endDate": "2026-11-XX",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "SW 분야 우수 기술 기반 성장 잠재력 있는 중소·스타트업",
+      "summary": "SW기업의 글로벌 성장 및 스케일업을 위한 사업화 자금 및 맞춤형 멘토링 지원.",
+      "link": "https://www.nipa.kr/main/main.html",
+      "image": "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-14-2",
+      "name": "K-클라우드 프로젝트 (클라우드 서비스 개발 및 확산 지원)",
+      "category": "AI지원",
+      "startDate": "2026-03-XX",
+      "endDate": "2026-12-XX",
+      "location": "과학기술정보통신부, 정보통신산업진흥원 (NIPA)",
+      "target": "국산 클라우드 기반 서비스 개발 및 상용화 희망 기업",
+      "summary": "국산 클라우드 서비스 경쟁력 강화 및 산업 활성화를 위한 기술 개발 및 사업화 지원.",
+      "link": "https://www.nipa.kr/main/main.html",
+      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-14-3",
+      "name": "2026년 청년창업사관학교",
+      "category": "AI지원",
+      "startDate": "2026-01-XX",
+      "endDate": "2026-12-XX",
+      "location": "중소벤처기업진흥공단, 창업진흥원 (K-Startup)",
+      "target": "혁신적인 기술창업 아이템을 보유한 만 39세 이하 청년 창업기업 대표",
+      "summary": "청년 창업기업의 성공적인 사업화를 위한 사업화 자금, 교육, 멘토링 및 제작 지원.",
+      "link": "https://www.k-startup.go.kr",
+      "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-14-4",
+      "name": "인공지능 융합 확산 사업 (AI+X 프로젝트)",
+      "category": "AI지원",
+      "startDate": "2026-02-XX",
+      "endDate": "2026-12-XX",
+      "location": "과학기술정보통신부, 정보통신산업진흥원 (NIPA)",
+      "target": "AI 융합 솔루션 도입 및 활용을 희망하는 중소·중견기업 및 기관",
+      "summary": "산업 및 공공 분야에 AI 기술 융합을 통한 디지털 전환 촉진 및 생산성 향상 지원.",
+      "link": "https://www.nipa.kr/main/main.html",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-14-5",
+      "name": "정보통신산업기술개발사업 (AI·SW 분야 신규과제)",
+      "category": "AI지원",
+      "startDate": "2026-01-XX",
+      "endDate": "2026-12-XX",
+      "location": "과학기술정보통신부, 정보통신산업진흥원 (NIPA)",
+      "target": "AI, SW, ICT 핵심기술 개발을 추진하는 기업, 연구소, 대학",
+      "summary": "인공지능, 소프트웨어 등 ICT 핵심기술 연구개발을 위한 자금 및 기술 지원.",
+      "link": "https://www.nipa.kr/main/main.html",
       "image": "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=800&q=80"
     }
   ],
