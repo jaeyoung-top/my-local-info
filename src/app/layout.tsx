@@ -13,7 +13,7 @@ const notoSansKr = Noto_Sans_KR({
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "name": "송파구 생활 정보",
+  "name": "AI 송파 인포",
   "url": "https://songpa-info.com",
   "description": "송파구 & 서울 주민을 위한 지역 행사, 축제, 지원금, 혜택 정보"
 };
@@ -39,13 +39,13 @@ const breadcrumbJsonLd = {
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://songpa-info.com"),
-  title: "송파구 생활 정보 | 행사·혜택·지원금 안내",
+  title: "AI 송파 인포 | 행사·혜택·지원금 안내",
   description: "송파구 & 서울 주민을 위한 지역 행사, 축제, 지원금, 혜택 정보를 매일 업데이트합니다.",
   openGraph: {
-    title: "송파구 생활 정보 | 행사·혜택·지원금 안내",
+    title: "AI 송파 인포 | 행사·혜택·지원금 안내",
     description: "송파구 & 서울 주민을 위한 지역 행사, 축제, 지원금, 혜택 정보를 매일 업데이트합니다.",
     url: "https://songpa-info.com",
-    siteName: "송파구 생활 정보",
+    siteName: "AI 송파 인포",
     locale: "ko_KR",
     type: "website",
   },

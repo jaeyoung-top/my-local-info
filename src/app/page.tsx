@@ -86,8 +86,8 @@ export default function Home() {
   const filteredAiSupport = filterItems((aiSupport || []) as InfoItem[]);
 
   const tabs: { key: TabKey; label: string; emoji: string; color: string; count: number }[] = [
-    { key: 'events', label: '이번 달 행사', emoji: '🎪', color: '#1D428A', count: filteredEvents.length },
-    { key: 'benefits', label: '지원금·혜택', emoji: '💰', color: '#F25C05', count: filteredBenefits.length },
+    { key: 'events', label: '송파구 이번달행사', emoji: '🎪', color: '#1D428A', count: filteredEvents.length },
+    { key: 'benefits', label: '공공(전국)지원금·혜택', emoji: '💰', color: '#F25C05', count: filteredBenefits.length },
     { key: 'ai', label: 'AI 지원프로그램', emoji: '🤖', color: '#2D3748', count: filteredAiSupport.length },
   ];
 
@@ -142,10 +142,10 @@ export default function Home() {
 
         <div className="max-w-5xl mx-auto relative z-10 text-center">
           <p className="text-white/70 font-bold tracking-widest text-xs uppercase mb-4 inline-block px-4 py-1.5 rounded-full border border-white/20 bg-white/10 backdrop-blur-sm">
-            Songpa Local Information Portal
+            AI Songpa Info
           </p>
           <h1 className="text-white text-5xl md:text-7xl font-black tracking-tighter mb-4 drop-shadow-md">
-            송파<span className="text-[#F25C05]">INFO</span>
+            AI 송파 <span className="text-[#F25C05]">인포</span>
           </h1>
           <p className="text-white/80 text-base md:text-lg font-medium drop-shadow break-keep mb-8">
             우리 동네 행사·지원금·AI 프로그램을 한눈에 확인하세요
@@ -154,8 +154,8 @@ export default function Home() {
           {/* 통계 뱃지 */}
           <div className="flex flex-wrap justify-center gap-4">
             {[
-              { label: '이번 달 행사', value: events.length, color: '#1D428A' },
-              { label: '지원금·혜택', value: benefits.length, color: '#F25C05' },
+              { label: '송파구 이번달행사', value: events.length, color: '#1D428A' },
+              { label: '공공(전국)지원금·혜택', value: benefits.length, color: '#F25C05' },
               { label: 'AI 프로그램', value: (aiSupport || []).length, color: '#2D3748' },
             ].map((stat) => (
               <div key={stat.label} className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl px-6 py-3 text-white">
@@ -238,7 +238,7 @@ export default function Home() {
       <footer className="bg-white border-t border-gray-200 mt-20 py-12 px-6">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
           <div className="space-y-2">
-            <h2 className="text-2xl font-black text-[#1D428A]">송파<span className="text-[#F25C05]">INFO</span></h2>
+            <h2 className="text-2xl font-black text-[#1D428A]">AI 송파 <span className="text-[#F25C05]">인포</span></h2>
             <p className="text-gray-500 text-sm font-medium">송파구 소식을 정성껏 모아 전달하는 개인 운영 생활 정보 서비스입니다.</p>
             <p className="text-gray-400 text-xs">데이터 출처: 공공데이터포털 | 마지막 업데이트: {lastUpdated}</p>
           </div>
