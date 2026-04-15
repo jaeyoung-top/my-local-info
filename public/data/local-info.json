@@ -1,6 +1,18 @@
 {
   "events": [
     {
+      "id": "crawler-1776234160317-485",
+      "name": "2026. 4월 문화 캘린더, 송파탈춤 페스티벌",
+      "category": "행사",
+      "startDate": "2026-04-01",
+      "endDate": "2026-04-30",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "2026년 4월 송파구에서 열리는 송파탈춤 페스티벌을 포함한 다양한 문화 행사 일정을 담은 캘린더입니다.",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9011&aid=17503",
+      "image": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=1000&auto=format&fit=crop"
+    },
+    {
       "id": "gemini-2026-04-14-10",
       "name": "가락시장과 함께하는 농부의 장터",
       "category": "행사",
@@ -748,6 +760,71 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/131200000012",
       "imageTheme": "finance",
       "image": "https://images.unsplash.com/photo-1565514020179-026b92b84bb6?w=800&q=80"
+    },
+    {
+      "id": "127000000023",
+      "name": "귀화허가, 국적회복허가 신청 등 수수료 면제",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "상시",
+      "location": "법무부",
+      "target": "국적 관련 특별 공로자 및 그 가족, 재난피해자, 장애인, 외국국적동포 등",
+      "summary": "귀화, 국적회복 및 증명서 발급 신청 수수료 면제",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000023",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "범죄 피해 아동·장애인 진술조력 지원",
+      "category": "혜택",
+      "startDate": "2026-04-15",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청 등 수사기관이나 법원",
+      "target": "성폭력 등 범죄 피해 아동 및 장애인",
+      "summary": "범죄 피해 아동·장애인의 수사/재판 소통 중개 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1519340333755-56e9c1d04579?w=800&q=80"
+    },
+    {
+      "id": "131200",
+      "name": "국가유공자 부동산 취득세 감면",
+      "category": "혜택",
+      "startDate": "2026-04-15",
+      "endDate": "2026-12-31",
+      "location": "시·군·구청",
+      "target": "국가유공자 등이 대부금으로 부동산 취득",
+      "summary": "국가유공자 등이 대부금으로 부동산을 취득 시 취득세를 감면하는 혜택",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/131200000006",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&q=80"
+    },
+    {
+      "id": "131200000011",
+      "name": "국가유공자 단체 지방세 감면",
+      "category": "혜택",
+      "startDate": "2026-04-15",
+      "endDate": "2026-12-31",
+      "location": "시·군·구청",
+      "target": "국가유공자 등 단체 및 소유 부동산",
+      "summary": "국가유공자 단체가 취득 및 소유한 부동산에 대해 지방세 면제",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/131200000011",
+      "imageTheme": "finance",
+      "image": "https://images.unsplash.com/photo-1565514020179-026b92b84bb6?w=800&q=80"
+    },
+    {
+      "id": "000014",
+      "name": "국가유공자 차량취득세 및 자동차세 감면",
+      "category": "혜택",
+      "startDate": "2026-04-15",
+      "endDate": "2024-12-31",
+      "location": "시·군·구청",
+      "target": "국가유공자 등 보훈대상자 및 그 공동명의 차량 소유자",
+      "summary": "국가유공자 등이 취득하는 차량에 대한 취득세 및 자동차세 감면",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/131200000014",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -1146,7 +1223,67 @@
       "summary": "지역 중소기업의 디지털 전환 역량 강화를 위한 플랫폼 구축 및 훈련 과정 제공",
       "link": "https://www.hrd.go.kr/hrdp/ma/pmmao/index.do",
       "image": "https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-15-1",
+      "name": "AI 서비스 융합 분야 선도기술 개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-03-01",
+      "endDate": "2026-11-30",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI 융합 신기술 개발 기업/기관",
+      "summary": "AI 기반 혁신 서비스 및 기술 개발 R&D 과제 지원",
+      "link": "https://www.nipa.kr/main/biz/bizGuideView.do?menuKey=303",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-15-2",
+      "name": "서울 AI 허브 AI 특화 스타트업 챌린지",
+      "category": "AI지원",
+      "startDate": "2026-05-01",
+      "endDate": "2026-10-31",
+      "location": "서울 AI 허브",
+      "target": "AI 분야 유망 초기 스타트업",
+      "summary": "AI 창업기업 발굴, 기술 검증 및 투자 연계 지원",
+      "link": "https://seoulaihub.kr/program/challenge/",
+      "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-15-3",
+      "name": "초기창업패키지 (AI·빅데이터 특화 트랙)",
+      "category": "AI지원",
+      "startDate": "2026-02-15",
+      "endDate": "2026-08-31",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "업력 3년 이내 AI·빅데이터 스타트업",
+      "summary": "초기 창업기업 사업화 자금 및 교육, 멘토링 지원",
+      "link": "https://www.k-startup.go.kr/web/contents/bizpbanc-initpackage/view.do",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-15-4",
+      "name": "중소기업 데이터 활용 컨설팅 및 분석 플랫폼 지원",
+      "category": "AI지원",
+      "startDate": "2026-03-01",
+      "endDate": "2026-10-31",
+      "location": "중소벤처기업부 / 정보통신산업진흥원 (NIPA)",
+      "target": "데이터 기반 경영 혁신 희망 중소기업",
+      "summary": "데이터 분석 컨설팅 및 플랫폼 활용 지원으로 역량 강화",
+      "link": "https://www.nipa.kr/main/biz/bizGuideView.do?menuKey=315",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-15-5",
+      "name": "인공지능 윤리 및 신뢰성 확보 기술 개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-03-01",
+      "endDate": "2026-12-31",
+      "location": "과학기술정보통신부 / 정보통신산업진흥원 (NIPA)",
+      "target": "AI 윤리·신뢰성 기술 개발 기업/기관",
+      "summary": "AI 윤리 문제 해결 및 신뢰성 검증 기술 개발 R&D 지원",
+      "link": "https://www.nipa.kr/main/biz/bizGuideView.do?menuKey=303",
+      "image": "https://images.unsplash.com/photo-1488229297570-58520851e868?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-04-14"
+  "lastUpdated": "2026-04-15"
 }
