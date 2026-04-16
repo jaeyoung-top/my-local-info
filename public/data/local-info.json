@@ -825,6 +825,71 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/131200000014",
       "imageTheme": "admin",
       "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&q=80"
+    },
+    {
+      "id": "000023",
+      "name": "국적 취득/회복 및 증명서 발급 수수료 면제",
+      "category": "혜택",
+      "startDate": "2026-04-16",
+      "endDate": "상시",
+      "location": "지방출입국‧외국인관서",
+      "target": "특별공로자, 사할린동포, 특별재난지역 피해자, 장애인 등 국적 취득/회복 신청자",
+      "summary": "귀화/국적회복 허가 및 국적업무 증명서 발급 수수료 면제",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000023",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "성폭력, 아동학대 등 피해 아동 및 장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-04-16",
+      "endDate": "상시",
+      "location": "법무부",
+      "target": "성폭력, 아동학대 등 범죄 피해 아동 및 장애인",
+      "summary": "범죄 피해 아동 및 장애인의 수사/재판상 진술 중개 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&q=80"
+    },
+    {
+      "id": "131200000006",
+      "name": "국가유공자 부동산 취득세 감면",
+      "category": "혜택",
+      "startDate": "2026-04-16",
+      "endDate": "2026-12-31",
+      "location": "시·군·구청",
+      "target": "대부금으로 부동산을 취득하는 국가유공자 등",
+      "summary": "국가유공자 등이 대부금으로 취득하는 부동산 취득세 감면",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/131200000006",
+      "imageTheme": "finance",
+      "image": "https://images.unsplash.com/photo-1565514020179-026b92b84bb6?w=800&q=80"
+    },
+    {
+      "id": "131200",
+      "name": "국가유공자 단체 등에 대한 지방세 감면",
+      "category": "혜택",
+      "startDate": "2026-04-16",
+      "endDate": "2026-12-31",
+      "location": "시·군·구청",
+      "target": "국가유공자 단체 및 관련 단체",
+      "summary": "국가유공자 단체가 취득 및 소유한 부동산 지방세 면제",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/131200000011",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80"
+    },
+    {
+      "id": "000001",
+      "name": "외국인 범죄 예방교실 운영 지원",
+      "category": "혜택",
+      "startDate": "2026-04-16",
+      "endDate": "상시",
+      "location": "경찰청",
+      "target": "국내 체류 외국인",
+      "summary": "국내 체류 외국인에게 법규에 대한 상담 및 교육 프로그램 제공",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/132000000001",
+      "imageTheme": "education",
+      "image": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -1283,7 +1348,67 @@
       "summary": "AI 윤리 문제 해결 및 신뢰성 검증 기술 개발 R&D 지원",
       "link": "https://www.nipa.kr/main/biz/bizGuideView.do?menuKey=303",
       "image": "https://images.unsplash.com/photo-1488229297570-58520851e868?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-16-1",
+      "name": "SW컴퓨팅산업 원천기술개발사업",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "2026-12-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "SW·AI 원천기술 개발 기업 및 연구기관",
+      "summary": "미래 핵심 SW·컴퓨팅 기술 개발 및 상용화 지원",
+      "link": "https://www.nipa.kr/itRnd/selectItRndList.do",
+      "image": "https://images.unsplash.com/photo-1488229297570-58520851e868?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-16-2",
+      "name": "글로벌 창업사업화 지원사업",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "2026-12-31",
+      "location": "K-Startup 창업진흥원",
+      "target": "해외 진출 희망 창업기업 (AI/디지털 포함)",
+      "summary": "국내 창업기업의 글로벌 시장 진출 및 투자 유치 지원",
+      "link": "https://www.k-startup.go.kr/web/contents/global-startup.do",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-16-3",
+      "name": "서울 AI 허브 오픈이노베이션 프로그램",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "2026-10-31",
+      "location": "서울 AI 허브",
+      "target": "대기업-스타트업 협력 희망 AI 기업",
+      "summary": "대기업-스타트업 간 공동 기술 개발 및 협력 기회 제공",
+      "link": "https://seoulaihub.kr/program/open-innovation/",
+      "image": "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-16-4",
+      "name": "스마트서비스 로봇 활용 지원 사업",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "2026-12-31",
+      "location": "중소벤처기업부 / 중소기업기술정보진흥원",
+      "target": "중소기업 (제조·물류·서비스 로봇 도입)",
+      "summary": "로봇 도입을 통한 생산성 향상 및 디지털 전환 지원",
+      "link": "https://www.smtech.go.kr/front/ifg/no/ifgNoSearch.do?menuNo=SMT030303",
+      "image": "https://images.unsplash.com/photo-1488229297570-58520851e868?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-16-5",
+      "name": "디지털 선도기업 아카데미",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "2026-12-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "SW·AI 분야 취업 희망자 및 실무 인력",
+      "summary": "기업 맞춤형 디지털 신기술 교육 및 취업 연계 지원",
+      "link": "https://www.nipa.kr/biz/selectBizList.do?type=1&key=436",
+      "image": "https://images.unsplash.com/photo-1488229297570-58520851e868?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-04-15"
+  "lastUpdated": "2026-04-16"
 }
