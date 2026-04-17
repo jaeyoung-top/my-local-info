@@ -890,6 +890,71 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/132000000001",
       "imageTheme": "education",
       "image": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=800&q=80"
+    },
+    {
+      "id": "000023",
+      "name": "국적 취득 및 증명서 발급 수수료 면제",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "상시",
+      "location": "지방출입국‧외국인관서",
+      "target": "특별공로자, 사할린동포, 재난피해자, 장애인, 외국국적동포 등",
+      "summary": "귀화허가, 국적회복 허가 및 국적업무 증명서 발급 신청 수수료 면제",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000023",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80"
+    },
+    {
+      "id": "000025",
+      "name": "성폭력/아동학대/인신매매 피해 아동 및 장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-04-17",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원",
+      "target": "성폭력/아동학대/인신매매 등 범죄 피해 아동(만19세 미만) 및 장애인",
+      "summary": "만 19세 미만 아동, 의사소통이 어려운 장애인 범죄 피해자의 수사·재판상 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1516627145497-ae6968895b74?w=800&q=80"
+    },
+    {
+      "id": "000006",
+      "name": "국가유공자 등 대부금 부동산 취득세 감면",
+      "category": "혜택",
+      "startDate": "2026-04-17",
+      "endDate": "2026-12-31",
+      "location": "시·군·구청",
+      "target": "국가유공자 등 대부금으로 부동산 취득",
+      "summary": "국가유공자 등 대부금 취득 부동산 취득세 감면",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/131200000006",
+      "imageTheme": "finance",
+      "image": "https://images.unsplash.com/photo-1565514020179-026b92b84bb6?w=800&q=80"
+    },
+    {
+      "id": "132000",
+      "name": "다문화 가족 및 국내체류 외국인 운전면허교실 지원",
+      "category": "혜택",
+      "startDate": "2026-04-17",
+      "endDate": "상시",
+      "location": "경찰청",
+      "target": "이주여성, 외국인 근로자 등 국내체류 외국인",
+      "summary": "다문화 가족 및 국내체류 외국인 대상 운전면허교실 운영 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/132000000002",
+      "imageTheme": "education",
+      "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&q=80"
+    },
+    {
+      "id": "132000000003",
+      "name": "외국인 피해자 지원제도 안내·연계 서비스",
+      "category": "혜택",
+      "startDate": "2026-04-17",
+      "endDate": "상시",
+      "location": "경찰청",
+      "target": "국내 체류 외국인",
+      "summary": "국내 체류 외국인 대상 도움센터 운영 및 법률지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/132000000003",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -1408,7 +1473,67 @@
       "summary": "기업 맞춤형 디지털 신기술 교육 및 취업 연계 지원",
       "link": "https://www.nipa.kr/biz/selectBizList.do?type=1&key=436",
       "image": "https://images.unsplash.com/photo-1488229297570-58520851e868?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-17-1",
+      "name": "인공지능 융합 서비스 개발 및 실증 지원",
+      "category": "AI지원",
+      "startDate": "2026-04-17",
+      "endDate": "2026-10-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI 융합 서비스 개발 기업",
+      "summary": "AI 기반 신규 서비스 개발 및 시장 실증 자금 지원",
+      "link": "https://www.nipa.kr/main/mainPage.do?menu_nix=8u0c265G",
+      "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-17-2",
+      "name": "디지털 신기술 인재 양성 혁신공유대학",
+      "category": "AI지원",
+      "startDate": "2026-04-17",
+      "endDate": "상시",
+      "location": "과학기술정보통신부 / 교육부",
+      "target": "대학 컨소시엄 및 참여 학생",
+      "summary": "AI, 빅데이터 등 디지털 신기술 분야 인재 양성 허브 구축",
+      "link": "https://www.msit.go.kr/web/main/main.do",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-17-3",
+      "name": "K-Startup Grand Challenge 2026",
+      "category": "AI지원",
+      "startDate": "2026-04-17",
+      "endDate": "2026-06-30",
+      "location": "K-Startup (창업진흥원)",
+      "target": "해외 AI·SW 등 기술 기반 스타트업",
+      "summary": "해외 유망 스타트업 발굴 및 국내 정착, 사업화 지원",
+      "link": "https://www.k-startup.go.kr/common/k-startup-grand-challenge/main.do",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-17-4",
+      "name": "중소기업 스마트 서비스 솔루션 도입 지원",
+      "category": "AI지원",
+      "startDate": "2026-04-17",
+      "endDate": "2026-11-30",
+      "location": "중소벤처기업부 / 기업마당",
+      "target": "AI·디지털 솔루션 도입 희망 중소기업",
+      "summary": "중소기업의 AI/디지털 기반 스마트 솔루션 도입 비용 지원",
+      "link": "https://www.bizinfo.go.kr/web/main/index.do",
+      "image": "https://images.unsplash.com/photo-1488229297570-58520851e868?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-17-5",
+      "name": "서울 AI 허브 혁신기술 상용화 컨설팅 (AI 분야)",
+      "category": "AI지원",
+      "startDate": "2026-04-17",
+      "endDate": "상시",
+      "location": "서울 AI 허브",
+      "target": "AI 기술 상용화 희망 스타트업 및 중소기업",
+      "summary": "AI 기술 제품화 및 시장 진출 전략 컨설팅 지원",
+      "link": "https://seoulaihub.kr/",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-04-16"
+  "lastUpdated": "2026-04-17"
 }
