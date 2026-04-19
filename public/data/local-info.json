@@ -1020,6 +1020,71 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/132000000008",
       "imageTheme": "admin",
       "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&q=80"
+    },
+    {
+      "id": "127000",
+      "name": "귀화/국적회복 수수료 면제",
+      "category": "혜택",
+      "startDate": "2026-04-19",
+      "endDate": "상시",
+      "location": "지방출입국‧외국인관서",
+      "target": "국적 관련 수수료 면제 대상",
+      "summary": "귀화, 국적회복 허가 및 증명서 발급 신청 수수료 면제",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000023",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "범죄 피해 아동·장애인 진술조력 지원",
+      "category": "혜택",
+      "startDate": "2026-04-19",
+      "endDate": "상시",
+      "location": "법무부 및 수사·법원기관",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "범죄 피해 아동·장애인의 수사·재판상 의사소통 중개 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80"
+    },
+    {
+      "id": "131200000006",
+      "name": "국가유공자 등 부동산 취득세 감면",
+      "category": "혜택",
+      "startDate": "2026-04-19",
+      "endDate": "2026-12-31",
+      "location": "시·군·구청",
+      "target": "국가유공자 등이 대부금으로 부동산 취득 시",
+      "summary": "국가유공자 등이 대부금으로 취득하는 부동산 취득세 감면",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/131200000006",
+      "imageTheme": "finance",
+      "image": "https://images.unsplash.com/photo-1565514020179-026b92b84bb6?w=800&q=80"
+    },
+    {
+      "id": "132000000002",
+      "name": "다문화 외국인 운전면허교실",
+      "category": "혜택",
+      "startDate": "2026-04-19",
+      "endDate": "상시",
+      "location": "경찰청",
+      "target": "다문화 가족 및 국내 체류 외국인",
+      "summary": "다문화 가족 및 국내체류 외국인 대상으로 운전면허교실 운영 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/132000000002",
+      "imageTheme": "education",
+      "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&q=80"
+    },
+    {
+      "id": "134200",
+      "name": "교육급여",
+      "category": "혜택",
+      "startDate": "2026-04-19",
+      "endDate": "상시",
+      "location": "주민센터",
+      "target": "소득 인정액이 기준 중위소득 50% 이하인 초중고 학생",
+      "summary": "초중고 학생에게 교육활동지원비 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/134200000003",
+      "imageTheme": "education",
+      "image": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -1658,7 +1723,67 @@
       "summary": "AI 특화 스타트업의 후속 투자 유치 및 글로벌 시장 진출 지원",
       "link": "https://www.k-startup.go.kr/",
       "image": "https://images.unsplash.com/photo-1488229297570-58520851e868?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-19-1",
+      "name": "SW융합클러스터 2.0 사업",
+      "category": "AI지원",
+      "startDate": "2026-04-XX",
+      "endDate": "상시",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "지역 SW 기업, 스타트업, 대학, 연구기관",
+      "summary": "지역특화산업과 SW융합 신산업 육성 및 SW 생태계 조성",
+      "link": "https://www.nipa.kr/biz/bizView.nipa?menuId=NIPA030403&bizId=BP0000003058",
+      "image": "https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-19-2",
+      "name": "창업중심대학 사업",
+      "category": "AI지원",
+      "startDate": "2026-04-XX",
+      "endDate": "상시",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "예비창업자 및 7년 미만 창업기업",
+      "summary": "대학을 거점으로 창업기업의 성장단계별 사업화 및 인프라 지원",
+      "link": "https://www.k-startup.go.kr/web/contents/startup_univ.do",
+      "image": "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-19-3",
+      "name": "글로벌 강소기업 1000+ 프로젝트",
+      "category": "AI지원",
+      "startDate": "2026-04-XX",
+      "endDate": "상시",
+      "location": "중소벤처기업부 / 중소기업기술정보진흥원",
+      "target": "혁신성장 잠재력을 갖춘 수출 중소기업",
+      "summary": "수출 역량 강화 및 글로벌 경쟁력 확보를 위한 성장사다리 지원",
+      "link": "https://bizinfo.go.kr/web/lay1/bbs/S1T122C128/AS/74/view.do?pblancId=PBLN_000000000085805",
+      "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-19-4",
+      "name": "데이터 청년 캠퍼스",
+      "category": "AI지원",
+      "startDate": "2026-04-XX",
+      "endDate": "상시",
+      "location": "과학기술정보통신부 / 한국데이터산업진흥원",
+      "target": "데이터 분야 취업 희망 청년 (만 34세 이하)",
+      "summary": "산업현장 맞춤형 데이터 전문인력 양성 및 취업 연계 지원",
+      "link": "https://www.kdata.or.kr/education/program_view.html?idx=146",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-19-5",
+      "name": "K-디지털 트레이닝 (KDT)",
+      "category": "AI지원",
+      "startDate": "2026-04-XX",
+      "endDate": "상시",
+      "location": "고용노동부 / 직업능력심사평가원",
+      "target": "취업 희망 국민, 재직자 (일부 과정)",
+      "summary": "디지털 신기술 분야 실무 교육을 통해 핵심인재 양성 및 취업 지원",
+      "link": "https://www.hrd.go.kr/hrdp/front/comp/retrieveCompList.do?depth=2&depthParam=1",
+      "image": "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-04-18"
+  "lastUpdated": "2026-04-19"
 }
