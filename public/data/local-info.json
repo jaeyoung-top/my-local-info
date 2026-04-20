@@ -1085,6 +1085,71 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/134200000003",
       "imageTheme": "education",
       "image": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=800&q=80"
+    },
+    {
+      "id": "000023",
+      "name": "귀화/국적회복 수수료 면제",
+      "category": "혜택",
+      "startDate": "2026-04-20",
+      "endDate": "상시",
+      "location": "지방출입국‧외국인관서",
+      "target": "특별공로자, 사할린동포, 재난피해자, 장애인 등 특정 요건을 갖춘 외국인",
+      "summary": "귀화허가, 국적회복 허가 및 국적업무 증명서 발급 신청 수수료 면제",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000023",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80"
+    },
+    {
+      "id": "000025",
+      "name": "범죄피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-04-20",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청 등 수사기관이나 법원",
+      "target": "범죄 피해 아동(19세 미만), 장애인",
+      "summary": "아동·장애인 범죄 피해자의 수사·재판상 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1516627145497-ae6968895b74?w=800&q=80"
+    },
+    {
+      "id": "131200000006",
+      "name": "국가유공자 등 대부금 부동산 취득세 감면",
+      "category": "혜택",
+      "startDate": "2026-04-20",
+      "endDate": "2026-12-31",
+      "location": "시·군·구청",
+      "target": "국가유공자 등이 대부금으로 부동산을 취득하는 경우",
+      "summary": "국가유공자 등이 대부금으로 취득하는 부동산 취득세 감면",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/131200000006",
+      "imageTheme": "finance",
+      "image": "https://images.unsplash.com/photo-1579621970588-a35d0e7ab9b6?w=800&q=80"
+    },
+    {
+      "id": "132000",
+      "name": "운전면허교실 운영 지원",
+      "category": "혜택",
+      "startDate": "2026-04-20",
+      "endDate": "상시",
+      "location": "경찰청",
+      "target": "다문화 가족 및 국내체류 외국인",
+      "summary": "다문화 가족 및 국내체류 외국인 운전면허 취득 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/132000000002",
+      "imageTheme": "education",
+      "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&q=80"
+    },
+    {
+      "id": "134200000006",
+      "name": "국립특수학교 및 국립부설학교 특수학급 지원",
+      "category": "혜택",
+      "startDate": "2026-04-20",
+      "endDate": "상시",
+      "location": "국립특수학교, 국립대학부설유치원 및 학교",
+      "target": "국립특수학교, 국립대학부설유치원 및 학교 배치 특수교육대상자",
+      "summary": "방과후, 늘봄, 돌봄, 통학비 및 치료 등 교수학습 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/134200000006",
+      "imageTheme": "education",
+      "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -1783,7 +1848,67 @@
       "summary": "디지털 신기술 분야 실무 교육을 통해 핵심인재 양성 및 취업 지원",
       "link": "https://www.hrd.go.kr/hrdp/front/comp/retrieveCompList.do?depth=2&depthParam=1",
       "image": "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-20-1",
+      "name": "디지털 전환 혁신 선도 사업",
+      "category": "AI지원",
+      "startDate": "2026-03-01",
+      "endDate": "2026-11-30",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "국내 중소·중견기업",
+      "summary": "기업의 디지털 전환을 위한 혁신 서비스 개발 및 도입 지원",
+      "link": "https://www.nipa.kr",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-20-2",
+      "name": "서울 AI 허브 인공지능 전문인력 양성 과정",
+      "category": "AI지원",
+      "startDate": "2026-05-01",
+      "endDate": "2026-10-31",
+      "location": "서울 AI 허브",
+      "target": "AI 분야 취업 희망자 및 재직자",
+      "summary": "AI 핵심 기술 및 프로젝트 실습을 통한 전문 인력 양성",
+      "link": "https://www.seoulaihub.kr",
+      "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-20-3",
+      "name": "창업성장기술개발사업 (전략형 - AI/디지털)",
+      "category": "AI지원",
+      "startDate": "2026-03-01",
+      "endDate": "2026-12-31",
+      "location": "중소벤처기업부 / 창업진흥원",
+      "target": "AI/디지털 기술 기반 혁신 창업기업",
+      "summary": "AI/디지털 기술 창업기업의 기술 개발 및 성장을 지원",
+      "link": "https://www.k-startup.go.kr",
+      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-20-4",
+      "name": "중소기업 기술개발 혁신 바우처 (AI·디지털 특화)",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "2026-11-30",
+      "location": "중소벤처기업부",
+      "target": "기술개발 역량이 부족한 중소기업",
+      "summary": "AI/디지털 기술 개발 및 사업화를 위한 외부 전문기관 활용 지원",
+      "link": "https://www.bizinfo.go.kr",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-20-5",
+      "name": "빅데이터 플랫폼 및 센터 구축 지원 (데이터 기반 혁신)",
+      "category": "AI지원",
+      "startDate": "2026-03-01",
+      "endDate": "2026-11-30",
+      "location": "과학기술정보통신부 / 한국지능정보사회진흥원 (NIA)",
+      "target": "빅데이터 플랫폼 구축 및 데이터 활용 기관",
+      "summary": "데이터 수집, 분석, 유통을 위한 플랫폼 구축 및 활용 지원",
+      "link": "https://www.nia.or.kr",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-04-19"
+  "lastUpdated": "2026-04-20"
 }
