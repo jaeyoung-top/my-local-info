@@ -70,6 +70,8 @@ export default function Home() {
   const { events, benefits, aiSupport, lastUpdated } = data;
   const [searchQuery, setSearchQuery] = useState("");
   const [activeTab, setActiveTab] = useState<TabKey>('events');
+  const [currentPage, setCurrentPage] = useState(1);
+  const ITEMS_PER_PAGE = 8;
 
   const currentDate = new Date();
   const currentYear = currentDate.getFullYear();
@@ -92,14 +94,27 @@ export default function Home() {
     { key: 'ai', label: 'AI 지원프로그램', emoji: '🤖', color: '#2D3748', count: filteredAiSupport.length },
   ];
 
-  const currentItems =
+  const allCurrentItems =
     activeTab === 'events' ? filteredEvents :
     activeTab === 'benefits' ? filteredBenefits :
     filteredAiSupport;
 
+  const totalPages = Math.ceil(allCurrentItems.length / ITEMS_PER_PAGE);
+  const pageStart = (currentPage - 1) * ITEMS_PER_PAGE;
+  const currentItems = allCurrentItems.slice(pageStart, pageStart + ITEMS_PER_PAGE);
+
   const currentAccent =
     activeTab === 'events' ? 'blue' :
     activeTab === 'benefits' ? 'orange' : 'dark';
+
+  const accentHex =
+    activeTab === 'events' ? '#1D428A' :
+    activeTab === 'benefits' ? '#F25C05' : '#2D3748';
+
+  const switchTab = (key: TabKey) => {
+    setActiveTab(key);
+    setCurrentPage(1);
+  };
 
   const eventJsonLd = (events as InfoItem[]).map((event) => ({
     "@context": "https://schema.org",
@@ -133,7 +148,7 @@ export default function Home() {
       <Header
         showSearch={true}
         searchQuery={searchQuery}
-        setSearchQuery={setSearchQuery}
+        setSearchQuery={(q) => { setSearchQuery(q); setCurrentPage(1); }}
       />
 
       {/* 히어로 배너 */}
@@ -179,7 +194,7 @@ export default function Home() {
             return (
               <button
                 key={tab.key}
-                onClick={() => setActiveTab(tab.key)}
+                onClick={() => switchTab(tab.key)}
                 className={`flex-1 min-w-[120px] flex items-center justify-center gap-2 px-4 py-3 rounded-xl font-black text-sm transition-all duration-200 ${
                   isActive
                     ? 'text-white shadow-md'
@@ -202,12 +217,65 @@ export default function Home() {
         </div>
 
         {/* 카드 그리드 */}
-        {currentItems.length > 0 ? (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
-            {currentItems.map((item: InfoItem) => (
-              <InfoCard key={item.id} item={item} accent={currentAccent} />
-            ))}
-          </div>
+        {allCurrentItems.length > 0 ? (
+          <>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
+              {currentItems.map((item: InfoItem) => (
+                <InfoCard key={item.id} item={item} accent={currentAccent} />
+              ))}
+            </div>
+
+            {totalPages > 1 && (
+              <nav className="mt-10 flex flex-col items-center gap-3">
+                <div className="flex items-center gap-1.5 flex-wrap justify-center">
+                  <button
+                    onClick={() => setCurrentPage(p => Math.max(1, p - 1))}
+                    disabled={currentPage === 1}
+                    className="px-4 py-2.5 rounded-xl border-2 border-gray-200 font-bold text-sm text-gray-500 disabled:opacity-30 disabled:cursor-not-allowed hover:border-current hover:text-current transition-all"
+                    style={{ '--c': accentHex } as React.CSSProperties}
+                    onMouseEnter={e => { if (currentPage > 1) { (e.currentTarget as HTMLElement).style.borderColor = accentHex; (e.currentTarget as HTMLElement).style.color = accentHex; } }}
+                    onMouseLeave={e => { (e.currentTarget as HTMLElement).style.borderColor = ''; (e.currentTarget as HTMLElement).style.color = ''; }}
+                  >
+                    ← 이전
+                  </button>
+
+                  {Array.from({ length: totalPages }, (_, i) => i + 1).map((p) => {
+                    const show = p === 1 || p === totalPages || Math.abs(p - currentPage) <= 1;
+                    const isEllipsis = !show && (p === currentPage - 2 || p === currentPage + 2);
+                    if (!show && !isEllipsis) return null;
+                    if (isEllipsis) return <span key={p} className="w-8 text-center text-gray-400 font-bold select-none">…</span>;
+                    return (
+                      <button
+                        key={p}
+                        onClick={() => setCurrentPage(p)}
+                        className="w-10 h-10 rounded-xl font-black text-sm transition-all border-2"
+                        style={p === currentPage
+                          ? { backgroundColor: accentHex, color: '#fff', borderColor: accentHex, transform: 'scale(1.1)', boxShadow: '0 4px 12px rgba(0,0,0,0.15)' }
+                          : { borderColor: '#e5e7eb', color: '#6b7280' }}
+                        onMouseEnter={e => { if (p !== currentPage) { (e.currentTarget as HTMLElement).style.borderColor = accentHex; (e.currentTarget as HTMLElement).style.color = accentHex; } }}
+                        onMouseLeave={e => { if (p !== currentPage) { (e.currentTarget as HTMLElement).style.borderColor = '#e5e7eb'; (e.currentTarget as HTMLElement).style.color = '#6b7280'; } }}
+                      >
+                        {p}
+                      </button>
+                    );
+                  })}
+
+                  <button
+                    onClick={() => setCurrentPage(p => Math.min(totalPages, p + 1))}
+                    disabled={currentPage === totalPages}
+                    className="px-4 py-2.5 rounded-xl border-2 border-gray-200 font-bold text-sm text-gray-500 disabled:opacity-30 disabled:cursor-not-allowed transition-all"
+                    onMouseEnter={e => { if (currentPage < totalPages) { (e.currentTarget as HTMLElement).style.borderColor = accentHex; (e.currentTarget as HTMLElement).style.color = accentHex; } }}
+                    onMouseLeave={e => { (e.currentTarget as HTMLElement).style.borderColor = ''; (e.currentTarget as HTMLElement).style.color = ''; }}
+                  >
+                    다음 →
+                  </button>
+                </div>
+                <p className="text-gray-400 text-xs font-medium">
+                  {pageStart + 1}–{Math.min(pageStart + ITEMS_PER_PAGE, allCurrentItems.length)} / 전체 {allCurrentItems.length}개
+                </p>
+              </nav>
+            )}
+          </>
         ) : (
           <div className="text-center py-20 text-gray-400">
             <p className="text-4xl mb-4">🔍</p>
