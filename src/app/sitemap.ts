@@ -15,6 +15,26 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${baseUrl}/blog`,
       lastModified: new Date(),
     },
+    {
+      url: `${baseUrl}/events`,
+      lastModified: new Date(),
+    },
+    {
+      url: `${baseUrl}/benefits`,
+      lastModified: new Date(),
+    },
+    {
+      url: `${baseUrl}/ai-support`,
+      lastModified: new Date(),
+    },
+    {
+      url: `${baseUrl}/about`,
+      lastModified: new Date(),
+    },
+    {
+      url: `${baseUrl}/privacy`,
+      lastModified: new Date(),
+    },
   ];
 
   const postSlugs = getAllPostSlugs();

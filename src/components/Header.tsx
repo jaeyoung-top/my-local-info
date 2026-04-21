@@ -29,6 +29,7 @@ export default function Header({
           <Link href="/benefits" className={`cursor-pointer hover:underline ${pathname === '/benefits' ? 'underline' : ''}`}>공공(전국)지원금·혜택</Link>
           <Link href="/ai-support" className={`cursor-pointer hover:underline ${pathname === '/ai-support' ? 'underline' : ''}`}>AI지원프로그램</Link>
           <Link href="/about" className={`cursor-pointer hover:underline ${pathname === '/about' ? 'underline' : ''}`}>소개</Link>
+          <Link href="/privacy" className={`cursor-pointer hover:underline opacity-70 ${pathname === '/privacy' ? 'underline' : ''}`}>개인정보처리방침</Link>
         </div>
         
         {showSearch && setSearchQuery && (

@@ -244,10 +244,12 @@ export default function Home() {
             <p className="text-gray-500 text-sm font-medium">송파구 소식을 정성껏 모아 전달하는 개인 운영 생활 정보 서비스입니다.</p>
             <p className="text-gray-400 text-xs">데이터 출처: 공공데이터포털 | 마지막 업데이트: {lastUpdated}</p>
           </div>
-          <div className="flex gap-3">
+          <div className="flex gap-3 flex-wrap">
             <Link href="/blog" className="text-xs font-bold text-gray-400 hover:text-[#1D428A] transition-colors">블로그</Link>
             <span className="text-gray-200">|</span>
             <Link href="/about" className="text-xs font-bold text-gray-400 hover:text-[#1D428A] transition-colors">소개</Link>
+            <span className="text-gray-200">|</span>
+            <Link href="/privacy" className="text-xs font-bold text-gray-400 hover:text-[#1D428A] transition-colors">개인정보처리방침</Link>
           </div>
         </div>
       </footer>
