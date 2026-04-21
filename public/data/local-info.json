@@ -1,6 +1,18 @@
 {
   "events": [
     {
+      "id": "crawler-1776733544903-419",
+      "name": "2026년 4월 송파구 문화 캘린더",
+      "category": "행사",
+      "startDate": "2026-04-01",
+      "endDate": "상시",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "2026년 4월, 송파구에서 열리는 다양한 문화 행사 및 공연(송파탈춤 페스티벌 등) 정보.",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9011&aid=17503",
+      "image": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=1000&auto=format&fit=crop"
+    },
+    {
       "id": "crawler-1776234160317-485",
       "name": "2026. 4월 문화 캘린더, 송파탈춤 페스티벌",
       "category": "행사",
@@ -1150,6 +1162,71 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/134200000006",
       "imageTheme": "education",
       "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=800&q=80"
+    },
+    {
+      "id": "000023",
+      "name": "귀화·국적회복 및 증명서 발급 수수료 면제",
+      "category": "혜택",
+      "startDate": "2026-04-21",
+      "endDate": "상시",
+      "location": "지방출입국‧외국인관서",
+      "target": "특별공로자, 사할린동포, 재난피해자, 장애인, 외국국적동포 등",
+      "summary": "귀화, 국적회복 및 국적업무 증명서 발급 신청 수수료 면제",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000023",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80"
+    },
+    {
+      "id": "127000",
+      "name": "범죄피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청 등 수사기관이나 법원",
+      "target": "범죄 피해 아동 및 의사소통 어려운 장애인",
+      "summary": "범죄 피해 아동·장애인의 수사·재판상 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1516627145497-ae6968895b74?w=800&q=80"
+    },
+    {
+      "id": "131200",
+      "name": "국가유공자 부동산 취득세 감면",
+      "category": "혜택",
+      "startDate": "2026-04-21",
+      "endDate": "2026-12-31",
+      "location": "시·군·구청",
+      "target": "국가유공자 등이 대부금으로 부동산 취득 시",
+      "summary": "국가유공자 등이 대부금으로 취득하는 부동산에 대한 취득세 감면",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/131200000006",
+      "imageTheme": "finance",
+      "image": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&q=80"
+    },
+    {
+      "id": "134200",
+      "name": "대학원 학과 기반 교육연구단 연구장학금 등 지원",
+      "category": "혜택",
+      "startDate": "2026-04-21",
+      "endDate": "상시",
+      "location": "교육부",
+      "target": "대학원 학과 기반 교육연구단(팀)",
+      "summary": "대학원 사업단 소속 대학원생에 연구장학금, 활동지원비 등 지급",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/134200000007",
+      "imageTheme": "education",
+      "image": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=800&q=80"
+    },
+    {
+      "id": "134200000008",
+      "name": "글로벌 현장학습 프로그램 운영",
+      "category": "혜택",
+      "startDate": "2026-04-21",
+      "endDate": "상시",
+      "location": "교육부, 한국장학재단",
+      "target": "대학생 및 전문대학생 (일반대학 4학기, 전문대학 2학기 이상 수료자)",
+      "summary": "대학생에게 글로벌 현장학습을 위한 항공료, 보험료, 체재비 등을 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/134200000008",
+      "imageTheme": "education",
+      "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -1908,7 +1985,67 @@
       "summary": "데이터 수집, 분석, 유통을 위한 플랫폼 구축 및 활용 지원",
       "link": "https://www.nia.or.kr",
       "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-21-1",
+      "name": "메타버스 플래그십 프로젝트",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "2026-12-31",
+      "location": "정보통신산업진흥원 (NIPA) / 과학기술정보통신부",
+      "target": "메타버스 기술 개발 및 서비스 실증 기업/기관",
+      "summary": "메타버스 핵심기술 개발 및 실증 프로젝트 지원",
+      "link": "https://www.nipa.kr",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-21-2",
+      "name": "중소기업 상용화 기술개발사업 (AI/SW 분야)",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "2026-12-31",
+      "location": "중소벤처기업부 / 중소기업기술정보진흥원 (TIPA)",
+      "target": "기술 개발 성공 후 상용화를 희망하는 중소기업",
+      "summary": "AI·SW 등 유망 기술 분야의 상용화를 위한 기술 개발 자금 지원",
+      "link": "https://www.bizinfo.go.kr",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-21-3",
+      "name": "스케일업 팁스 (Scale-up TIPS)",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "상시",
+      "location": "창업진흥원 / 중소벤처기업부",
+      "target": "투자 유치액 20억 이상 성장 단계 스타트업 및 VC",
+      "summary": "성장 단계 스타트업의 R&D, 사업화 및 글로벌 진출 지원",
+      "link": "https://www.k-startup.go.kr",
+      "image": "https://images.unsplash.com/photo-1488229297570-58520851e868?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-21-4",
+      "name": "SW미래채움 사업",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "2026-12-31",
+      "location": "과학기술정보통신부 / 정보통신산업진흥원 (NIPA)",
+      "target": "전국 지역 주민, 초·중·고등학생, 미취업자 등",
+      "summary": "지역 기반 SW 교육 강화 및 디지털 인재 양성 지원",
+      "link": "https://swedu.nipa.kr",
+      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-21-5",
+      "name": "데이터댐 고도화 및 서비스 확산 사업",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "2026-12-31",
+      "location": "과학기술정보통신부 / 한국지능정보사회진흥원 (NIA)",
+      "target": "데이터 활용 신규 서비스 개발 기업, 연구기관, 대학 등",
+      "summary": "국가 데이터 인프라를 활용한 신규 서비스 개발 및 확산 지원",
+      "link": "https://www.nia.or.kr",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-04-20"
+  "lastUpdated": "2026-04-21"
 }
