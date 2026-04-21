@@ -1150,6 +1150,71 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/134200000006",
       "imageTheme": "education",
       "image": "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=800&q=80"
+    },
+    {
+      "id": "127000000023",
+      "name": "귀화·국적회복 수수료 면제",
+      "category": "혜택",
+      "startDate": "2026-04-21",
+      "endDate": "상시",
+      "location": "지방출입국‧외국인관서",
+      "target": "특별공로자, 재난피해자 등 특정 요건 해당 귀화·국적회복 신청자",
+      "summary": "귀화·국적회복 및 국적업무 증명서 발급 수수료 면제",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000023",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1568992687947-868a62a9f521?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "아동·장애인 범죄 피해자 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "상시",
+      "location": "법무부",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "범죄 피해 아동 및 장애인의 수사/재판 진술 조력 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1542744094-3a31f272c490?w=800&q=80"
+    },
+    {
+      "id": "000006",
+      "name": "국가유공자 등 부동산 취득세 감면",
+      "category": "혜택",
+      "startDate": "2026-04-21",
+      "endDate": "2026-12-31",
+      "location": "시·군·구청",
+      "target": "국가유공자 등 대부금으로 부동산을 취득하는 자",
+      "summary": "국가유공자 등이 대부금으로 취득하는 부동산 취득세 감면",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/131200000006",
+      "imageTheme": "finance",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80"
+    },
+    {
+      "id": "134200000007",
+      "name": "대학원 교육연구단 연구장학금 지원",
+      "category": "혜택",
+      "startDate": "2026-04-21",
+      "endDate": "상시",
+      "location": "교육부",
+      "target": "대학원 교육연구단(팀)",
+      "summary": "대학원 교육연구단 소속 대학원생 연구장학금 및 활동비 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/134200000007",
+      "imageTheme": "education",
+      "image": "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=800&q=80"
+    },
+    {
+      "id": "134200000008",
+      "name": "글로벌 현장학습 프로그램 운영",
+      "category": "혜택",
+      "startDate": "2026-04-21",
+      "endDate": "상시",
+      "location": "교육부",
+      "target": "대학생 및 전문대학생",
+      "summary": "대학생에게 글로벌 현장학습을 위한 항공료, 보험료, 체재비 등을 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/134200000008",
+      "imageTheme": "education",
+      "image": "https://images.unsplash.com/photo-1516321497487-e288fb19713f?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -1908,7 +1973,67 @@
       "summary": "데이터 수집, 분석, 유통을 위한 플랫폼 구축 및 활용 지원",
       "link": "https://www.nia.or.kr",
       "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-21-1",
+      "name": "클라우드 서비스 이용지원 사업",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "2026-11-30",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "중소·중견기업",
+      "summary": "기업의 클라우드 서비스 도입 및 활용 비용을 지원합니다.",
+      "link": "https://www.nipa.kr/main/main.do",
+      "image": "https://images.unsplash.com/photo-1488229297570-58520851e868?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-21-2",
+      "name": "기술창업투자 연계 지원 (AI·데이터)",
+      "category": "AI지원",
+      "startDate": "2026-04-15",
+      "endDate": "2026-12-31",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "AI·데이터 분야 유망 스타트업",
+      "summary": "AI·데이터 스타트업의 투자 유치 기회를 제공하고 연계합니다.",
+      "link": "https://www.k-startup.go.kr",
+      "image": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-21-3",
+      "name": "중소기업 디지털 역량강화 교육 및 컨설팅",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "상시",
+      "location": "중소벤처기업부",
+      "target": "중소기업 임직원 및 경영진",
+      "summary": "중소기업의 디지털 전환 이해도 및 활용 능력 향상을 지원합니다.",
+      "link": "https://www.bizinfo.go.kr/web/index.do",
+      "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-21-4",
+      "name": "AI 기반 사회문제 해결 프로젝트 지원",
+      "category": "AI지원",
+      "startDate": "2026-03-01",
+      "endDate": "2026-11-30",
+      "location": "과학기술정보통신부",
+      "target": "대학, 연구기관, 기업 컨소시엄",
+      "summary": "AI 기술로 재난, 환경, 복지 등 사회문제 해결 프로젝트 지원",
+      "link": "https://www.msit.go.kr/index.do",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-21-5",
+      "name": "서울 AI 허브 산학협력 AI 프로젝트 지원",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "2026-10-31",
+      "location": "서울 AI 허브",
+      "target": "서울시 소재 대학 연구실, AI 스타트업",
+      "summary": "AI 기술 공동 개발을 위한 산학협력 프로젝트 매칭 및 지원",
+      "link": "https://seoulaihub.kr/html/main",
+      "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-04-20"
+  "lastUpdated": "2026-04-21"
 }
