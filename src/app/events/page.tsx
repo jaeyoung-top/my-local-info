@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import data from "../../../public/data/local-info.json";
-import NewsCard, { InfoItem } from "@/components/NewsCard";
+import PaginatedList from "@/components/PaginatedList";
+import { InfoItem } from "@/components/NewsCard";
 
 export default function EventsPage() {
   const { events } = data;
@@ -8,7 +9,6 @@ export default function EventsPage() {
 
   return (
     <div className="min-h-screen bg-[#f5f6f8] text-[#2d3748] font-sans">
-      {/* 검색/메뉴 바 */}
       <Header color="blue" />
 
       <header className="bg-white border-b border-gray-200 py-12 px-6 mb-8">
@@ -20,16 +20,12 @@ export default function EventsPage() {
       </header>
 
       <main className="max-w-6xl mx-auto px-6 pb-20">
-        <div className="grid gap-6">
-          {events.map((event: InfoItem) => (
-            <NewsCard key={event.id} item={event} color="indigo" />
-          ))}
-          {events.length === 0 && (
-            <div className="text-center py-20 text-gray-400 font-medium">
-              이번 달 등록된 행사가 없습니다.
-            </div>
-          )}
-        </div>
+        <PaginatedList
+          items={events as InfoItem[]}
+          color="indigo"
+          itemsPerPage={6}
+          emptyMessage="이번 달 등록된 행사가 없습니다."
+        />
       </main>
     </div>
   );
