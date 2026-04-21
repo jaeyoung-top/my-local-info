@@ -1280,6 +1280,71 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/134200000010",
       "imageTheme": "education",
       "image": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=800&q=80"
+    },
+    {
+      "id": "000023",
+      "name": "국적업무 수수료 면제",
+      "category": "혜택",
+      "startDate": "2026-04-21",
+      "endDate": "상시",
+      "location": "지방출입국‧외국인관서",
+      "target": "특별공로자, 사할린동포, 재난피해자, 장애인, 외국국적동포 등",
+      "summary": "귀화·국적회복 및 증명서 발급 신청 수수료 면제",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000023",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80"
+    },
+    {
+      "id": "127000",
+      "name": "피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-04-21",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "만 19세 미만 아동, 의사소통 어려운 장애인 범죄 피해자 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
+    },
+    {
+      "id": "131200000006",
+      "name": "국가유공자 부동산 취득세 감면",
+      "category": "혜택",
+      "startDate": "2026-04-21",
+      "endDate": "2026-12-31",
+      "location": "시·군·구청",
+      "target": "대부금으로 부동산을 취득하는 국가유공자 및 보훈보상대상자 등",
+      "summary": "대부금으로 취득하는 국가유공자 등의 부동산 취득세 감면",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/131200000006",
+      "imageTheme": "finance",
+      "image": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&q=80"
+    },
+    {
+      "id": "134200000011",
+      "name": "인문100년장학금",
+      "category": "혜택",
+      "startDate": "2026-04-21",
+      "endDate": "상시",
+      "location": "한국장학재단",
+      "target": "대한민국 국적 인문사회계열 대학 재학생",
+      "summary": "대학 인문사회계열 재학생 등록금 및 생활비 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/134200000011",
+      "imageTheme": "education",
+      "image": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=800&q=80"
+    },
+    {
+      "id": "134200",
+      "name": "평생교육바우처 지원",
+      "category": "혜택",
+      "startDate": "2025-03-01",
+      "endDate": "2025-11-30",
+      "location": "교육부",
+      "target": "19세 이상 성인 중 기초생활보장 수급자, 차상위계층 등",
+      "summary": "저소득층에게 평생교육시설 강좌 수강 바우처 제공",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/134200000045",
+      "imageTheme": "education",
+      "image": "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -2158,6 +2223,66 @@
       "summary": "AI 기업의 투자 유치 및 인수합병(M&A) 전문 매칭 지원",
       "link": "https://www.seoulaihub.kr",
       "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-21-1",
+      "name": "오픈소스SW 개발 및 확산 지원 사업",
+      "category": "AI지원",
+      "startDate": "2026-03-01",
+      "endDate": "2026-11-30",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "오픈소스SW 개발 및 활용 기업, 개발자",
+      "summary": "오픈소스SW 개발, 활용 및 커뮤니티 활성화 지원",
+      "link": "https://www.nipa.kr/main/main.html",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-21-2",
+      "name": "정보보호 R&D 및 인력양성 지원 사업",
+      "category": "AI지원",
+      "startDate": "2026-02-15",
+      "endDate": "2026-12-15",
+      "location": "과학기술정보통신부 (한국인터넷진흥원 KISA)",
+      "target": "정보보호 기술 개발 기업, 전문 인력",
+      "summary": "정보보호 기술 개발 및 전문 인력 양성을 통한 디지털 안보 강화",
+      "link": "https://www.kisa.or.kr/main.do",
+      "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-21-3",
+      "name": "스마트상점 기술보급사업",
+      "category": "AI지원",
+      "startDate": "2026-03-01",
+      "endDate": "2026-10-31",
+      "location": "중소벤처기업부 (소상공인시장진흥공단)",
+      "target": "스마트기술 도입을 희망하는 소상공인",
+      "summary": "소상공인 점포에 AI, IoT 등 스마트 기술 도입 및 활용 지원",
+      "link": "https://www.semas.or.kr/web/SUP010/SMASUP010Mng.do",
+      "image": "https://images.unsplash.com/photo-1526378800651-c32d170fe6f8?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-21-4",
+      "name": "AI 기반 서울시 도시문제 해결 실증 지원",
+      "category": "AI지원",
+      "startDate": "2026-04-10",
+      "endDate": "2026-11-20",
+      "location": "서울특별시 (서울디지털재단)",
+      "target": "AI 기술 기반 솔루션 개발 기업 및 기관",
+      "summary": "인공지능 기술 기반의 도시문제 해결 솔루션 개발 및 실증 지원",
+      "link": "https://sdi.seoul.kr/",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-21-5",
+      "name": "창업성장기술개발사업 (첫걸음 과제)",
+      "category": "AI지원",
+      "startDate": "2026-03-15",
+      "endDate": "2026-09-30",
+      "location": "중소벤처기업부 (창업진흥원)",
+      "target": "창업 7년 이내 초기 기술창업기업",
+      "summary": "초기 창업기업의 기술개발 및 사업화 자금 지원 (AI·디지털 분야 포함)",
+      "link": "https://www.k-startup.go.kr/main.do",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
     }
   ],
   "lastUpdated": "2026-04-21"
