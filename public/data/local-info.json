@@ -1410,6 +1410,71 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/134200005001",
       "imageTheme": "education",
       "image": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&q=80"
+    },
+    {
+      "id": "000023",
+      "name": "귀화/국적회복 수수료 면제",
+      "category": "혜택",
+      "startDate": "2026-04-22",
+      "endDate": "상시",
+      "location": "지방출입국‧외국인관서",
+      "target": "특별공로자, 재난피해자, 장애인, 사할린동포 배우자, 재외동포 등 귀화 또는 국적회복 신청자",
+      "summary": "귀화허가, 국적회복 허가 및 국적업무 증명서 발급 신청 수수료 면제",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000023",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1521791055366-0d553872952f?w=800&q=80"
+    },
+    {
+      "id": "000025",
+      "name": "범죄 피해 아동/장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-04-22",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "만 19세 미만 아동, 의사소통이 어려운 장애인 범죄 피해자의 수사·재판상 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1560969184-10fe8719e047?w=800&q=80"
+    },
+    {
+      "id": "131200000006",
+      "name": "국가유공자 등 대부금 부동산 취득세 감면",
+      "category": "혜택",
+      "startDate": "2026-04-22",
+      "endDate": "2026-12-31",
+      "location": "시·군·구청",
+      "target": "국가유공자 및 보훈대상자 등으로 대부금으로 부동산 취득하는 자",
+      "summary": "국가유공자 등이 대부금으로 취득하는 부동산 취득세 감면",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/131200000006",
+      "imageTheme": "finance",
+      "image": "https://images.unsplash.com/photo-1565514020179-026b92b84bb6?w=800&q=80"
+    },
+    {
+      "id": "134200005002",
+      "name": "국가장학금 Ⅱ유형 (대학자체노력연계형)",
+      "category": "혜택",
+      "startDate": "2025-11-20",
+      "endDate": "2026-03-17",
+      "location": "한국장학재단",
+      "target": "대한민국 국적 국내 대학생 (학자금지원 9구간 이하)",
+      "summary": "대학 자체 기준에 따라 등록금 범위 내에서 장학금 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/134200005002",
+      "imageTheme": "education",
+      "image": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&q=80"
+    },
+    {
+      "id": "134200005007",
+      "name": "위(Wee) 클래스 상담 지원",
+      "category": "혜택",
+      "startDate": "2026-04-22",
+      "endDate": "상시",
+      "location": "위(Wee) 클래스, 위(Wee) 센터, 위(Wee) 스쿨",
+      "target": "모든 학생 및 위기 학생",
+      "summary": "위(Wee) 클래스, 센터, 스쿨 설치 및 운영",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/134200005007",
+      "imageTheme": "education",
+      "image": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -2408,7 +2473,67 @@
       "summary": "ICT R&D 성과의 사업화 및 시장 확대를 위한 기술 컨설팅 등 지원",
       "link": "https://www.nipa.kr/biz/bizInfo.biz?id=125",
       "image": "https://images.unsplash.com/photo-1526378800651-c32d170fe6f8?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-22-1",
+      "name": "디지털 전환 선도기술 상용화 지원 사업",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "2026-11-30",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "디지털 전환 선도기술 보유 기업",
+      "summary": "핵심 디지털 기술의 상용화 및 시장 확산을 위한 개발 지원.",
+      "link": "https://www.nipa.kr",
+      "image": "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-22-2",
+      "name": "AI 기반 산업 융합형 인재 양성 및 재교육 지원",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "상시",
+      "location": "과학기술정보통신부 (MSIT)",
+      "target": "산업 재직자 및 AI 분야 진출 희망자",
+      "summary": "산업별 AI 융합 전문인력 양성 및 재직자 AI 역량 강화 교육 지원.",
+      "link": "https://www.msit.go.kr",
+      "image": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-22-3",
+      "name": "AI 스타트업 기술검증(PoC) 및 초기시장 진출 지원",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "2026-10-31",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "AI 기술 기반 초기 스타트업 및 예비창업가",
+      "summary": "AI 스타트업의 기술검증 및 초기 시장 진출을 위한 자금 및 멘토링 지원.",
+      "link": "https://www.k-startup.go.kr",
+      "image": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-22-4",
+      "name": "빅데이터 기반 중소기업 경영혁신 솔루션 보급",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "2026-11-30",
+      "location": "중소벤처기업부 (bizinfo.go.kr)",
+      "target": "빅데이터 활용 경영혁신 희망 중소기업",
+      "summary": "중소기업의 빅데이터 분석 기반 경영 전략 및 솔루션 도입 지원.",
+      "link": "https://www.bizinfo.go.kr",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-22-5",
+      "name": "AI-X 산업확산 선도 프로젝트",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "2026-12-31",
+      "location": "과학기술정보통신부 (MSIT)",
+      "target": "AI 기술 융합 혁신 서비스 개발 기업 및 컨소시엄",
+      "summary": "다양한 산업에 AI 기술을 접목하여 혁신 서비스를 개발하고 확산하는 대형 프로젝트 지원.",
+      "link": "https://www.msit.go.kr",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-04-21"
+  "lastUpdated": "2026-04-22"
 }
