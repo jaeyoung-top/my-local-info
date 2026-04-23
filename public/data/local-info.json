@@ -1,6 +1,18 @@
 {
   "events": [
     {
+      "id": "crawler-1776925813878-355",
+      "name": "2026년 4월 송파 문화 캘린더 (송파탈춤 페스티벌 포함)",
+      "category": "행사",
+      "startDate": "2026-04-01",
+      "endDate": "2026-04-30",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "2026년 4월 한 달간 송파구에서 열리는 다양한 문화 행사 및 송파탈춤 페스티벌 일정을 한눈에 확인하세요.",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9011&aid=17503",
+      "image": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=1000&auto=format&fit=crop"
+    },
+    {
       "id": "crawler-1776234160317-485",
       "name": "2026. 4월 문화 캘린더, 송파탈춤 페스티벌",
       "category": "행사",
@@ -1475,6 +1487,71 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/134200005007",
       "imageTheme": "education",
       "image": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=800&q=80"
+    },
+    {
+      "id": "000023",
+      "name": "국적업무 수수료 면제 안내",
+      "category": "혜택",
+      "startDate": "2026-04-23",
+      "endDate": "상시",
+      "location": "지방출입국‧외국인관서, 법무부",
+      "target": "국적법상 수수료 면제 기준을 충족하는 자",
+      "summary": "귀화/국적회복 허가 및 국적업무 증명서 발급 신청 수수료 면제",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000023",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1604328698692-f76ea9498e76?w=800&q=80"
+    },
+    {
+      "id": "000025",
+      "name": "범죄피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-04-23",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원 등 수사기관",
+      "target": "범죄피해 아동 및 장애인",
+      "summary": "범죄피해 아동·장애인의 수사·재판상 의사소통 중개 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&q=80"
+    },
+    {
+      "id": "131200000006",
+      "name": "국가유공자 등이 대부금으로 취득하는 부동산 취득세 감면",
+      "category": "혜택",
+      "startDate": "2026-04-23",
+      "endDate": "2026-12-31",
+      "location": "시·군·구청",
+      "target": "국가유공자 등이 대부금으로 부동산 취득 시",
+      "summary": "국가유공자 등이 대부금으로 취득하는 부동산 취득세 감면",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/131200000006",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80"
+    },
+    {
+      "id": "134200005012",
+      "name": "가정양육수당 지원",
+      "category": "혜택",
+      "startDate": "2026-04-23",
+      "endDate": "상시",
+      "location": "교육부",
+      "target": "취학 전 24~86개월 미만 가정양육 영유아",
+      "summary": "취학 전 영유아 대상 월 10~20만원 양육수당 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/134200005012",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1519340333755-56e9c1d04579?w=800&q=80"
+    },
+    {
+      "id": "134200005031",
+      "name": "시간제보육 지원",
+      "category": "혜택",
+      "startDate": "2026-04-23",
+      "endDate": "상시",
+      "location": "교육부",
+      "target": "어린이집·유치원 미이용 영아 (부모급여·양육수당 수급)",
+      "summary": "가정양육 부모의 긴급·일시적 보육시설 이용을 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/134200005031",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -2533,7 +2610,67 @@
       "summary": "다양한 산업에 AI 기술을 접목하여 혁신 서비스를 개발하고 확산하는 대형 프로젝트 지원.",
       "link": "https://www.msit.go.kr",
       "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-23-1",
+      "name": "정보통신기술(ICT) T-UP 기술사업화 지원사업",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "2026-11-30",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "ICT 분야 우수기술 보유 기관 및 기업",
+      "summary": "공공연구기관 ICT 우수기술 발굴 및 사업화 지원",
+      "link": "https://www.nipa.kr/main/program_info/tech_info/programView.do?programSn=24",
+      "image": "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-23-2",
+      "name": "중소기업 비대면 서비스 바우처 지원사업",
+      "category": "AI지원",
+      "startDate": "2026-04-15",
+      "endDate": "2026-10-31",
+      "location": "중소벤처기업부 (K-Startup 주관)",
+      "target": "비대면 서비스 도입 희망 중소기업",
+      "summary": "화상회의, 재택근무 등 비대면 서비스 도입 비용 지원",
+      "link": "https://www.k-startup.go.kr/web/search/searchProgram.do?mid=a000000000000&type=B&keyword=%EB%B9%84%EB%8C%80%EB%A9%B4%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%EB%B0%94%EC%9A%B0%EC%B2%98",
+      "image": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-23-3",
+      "name": "정보통신활용지원사업 (디지털 역량강화 교육)",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "상시",
+      "location": "과학기술정보통신부 (한국지능정보사회진흥원 NIA)",
+      "target": "정보취약계층 및 일반국민",
+      "summary": "디지털 기본 역량 강화를 위한 교육 및 체험 기회 제공",
+      "link": "https://www.nia.or.kr/site/nia_kor/ex/bbs/View.do?cbIdx=99979&bcIdx=26207&parentSeq=26207",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-23-4",
+      "name": "지역SW서비스 사업화 지원사업",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "2026-11-30",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "지역 기반 SW/IT 서비스 개발 및 사업화 희망 기업",
+      "summary": "지역특화 SW/IT 서비스 개발 및 시장 진출 지원",
+      "link": "https://www.nipa.kr/main/program_info/ict_soft_info/programView.do?programSn=21",
+      "image": "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-23-5",
+      "name": "수출바우처 지원사업",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "2026-12-31",
+      "location": "중소벤처기업진흥공단 (중소벤처기업부)",
+      "target": "수출을 희망하거나 확대하려는 중소기업",
+      "summary": "해외 마케팅, 디자인, 법률 등 수출 활동에 필요한 서비스 비용 지원",
+      "link": "https://www.exportvoucher.com/portal/main/mainPage.do",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-04-22"
+  "lastUpdated": "2026-04-23"
 }
