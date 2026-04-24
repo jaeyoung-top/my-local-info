@@ -1552,6 +1552,71 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/134200005031",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
+    },
+    {
+      "id": "000023",
+      "name": "귀화/국적회복 수수료 면제",
+      "category": "혜택",
+      "startDate": "2026-04-24",
+      "endDate": "상시",
+      "location": "법무부 및 출입국·외국인관서",
+      "target": "특별공로자, 재난피해자, 장애인 등 국적 취득 신청자",
+      "summary": "귀화, 국적회복, 국적 증명서 발급 신청 수수료 면제",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000023",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?w=800&q=80"
+    },
+    {
+      "id": "000025",
+      "name": "범죄 피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-04-24",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원 등 수사기관",
+      "target": "성폭력·아동학대 등 범죄 피해 아동 및 장애인",
+      "summary": "범죄 피해 아동 및 장애인의 수사/재판 소통을 지원하는 진술조력인 제공",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=800&q=80"
+    },
+    {
+      "id": "005036",
+      "name": "영유아보육료 지원",
+      "category": "혜택",
+      "startDate": "2026-01-01",
+      "endDate": "2026-12-31",
+      "location": "교육부",
+      "target": "0세~5세 아동",
+      "summary": "소득수준에 관계없이 0~5세 아동에게 보육료 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/134200005036",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1551009175-15bdf9dcb580?w=800&q=80"
+    },
+    {
+      "id": "134200005041",
+      "name": "법학전문대학원 취약계층 장학금",
+      "category": "혜택",
+      "startDate": "2026-04-24",
+      "endDate": "상시",
+      "location": "교육부",
+      "target": "법학전문대학원 취약계층 학생",
+      "summary": "경제적 취약계층 법학전문대학원 학생 장학금 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/134200005041",
+      "imageTheme": "education",
+      "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&q=80"
+    },
+    {
+      "id": "005044",
+      "name": "초·중·고 교육비 지원",
+      "category": "혜택",
+      "startDate": "2025-07-14",
+      "endDate": "상시",
+      "location": "교육부",
+      "target": "저소득층 초·중·고 학생",
+      "summary": "저소득층 학생에게 학비, 급식비, 정보화지원비 등을 지원합니다.",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/134200005044",
+      "imageTheme": "education",
+      "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -2670,7 +2735,67 @@
       "summary": "해외 마케팅, 디자인, 법률 등 수출 활동에 필요한 서비스 비용 지원",
       "link": "https://www.exportvoucher.com/portal/main/mainPage.do",
       "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-24-1",
+      "name": "SW/ICT 융합기술 사업화 지원",
+      "category": "AI지원",
+      "startDate": "2026-04-24",
+      "endDate": "공고 참조",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "SW·ICT 융합 기술 기반 스타트업 및 중소·중견기업",
+      "summary": "SW/ICT 융합 기술의 사업화 및 시장 진출을 위한 기술 개발, 컨설팅 등 지원",
+      "link": "https://www.nipa.kr/main/selectBbsNttList.do?key=211",
+      "image": "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-24-2",
+      "name": "클라우드 기반 지능형 서비스 개발 및 보급",
+      "category": "AI지원",
+      "startDate": "2026-04-24",
+      "endDate": "공고 참조",
+      "location": "과학기술정보통신부, 정보통신산업진흥원 (NIPA)",
+      "target": "클라우드 기반 AI/데이터 서비스 개발 기업",
+      "summary": "클라우드 환경에서 동작하는 인공지능 기반 지능형 서비스 개발 및 확산 지원",
+      "link": "https://www.nipa.kr/main/selectBbsNttList.do?key=1019",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-24-3",
+      "name": "메타버스 개발 경진대회 및 사업화 지원",
+      "category": "AI지원",
+      "startDate": "2026-04-24",
+      "endDate": "공고 참조",
+      "location": "과학기술정보통신부, 정보통신산업진흥원 (NIPA)",
+      "target": "메타버스 기술 개발자, 스타트업, 기업",
+      "summary": "메타버스 개발 역량 강화 및 우수 아이디어 발굴, 사업화 연계 지원",
+      "link": "https://www.nipa.kr/main/selectBbsNttList.do?key=1049",
+      "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-24-4",
+      "name": "디지털 트윈 기반 산업 디지털 전환 지원",
+      "category": "AI지원",
+      "startDate": "2026-04-24",
+      "endDate": "공고 참조",
+      "location": "산업통상자원부, 한국산업기술진흥원 (KIAT)",
+      "target": "제조 및 산업 분야 중소·중견기업",
+      "summary": "디지털 트윈 기술을 활용하여 산업 현장의 효율화 및 생산성 향상 지원",
+      "link": "https://www.kiat.or.kr/main/html/view.do?menu_cd=04010100",
+      "image": "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-24-5",
+      "name": "데이터 안심구역 활용 지원 사업",
+      "category": "AI지원",
+      "startDate": "2026-04-24",
+      "endDate": "상시",
+      "location": "과학기술정보통신부, 한국데이터산업진흥원 (K-DATA)",
+      "target": "기업, 연구기관, 대학 등 데이터 활용 기관",
+      "summary": "보안된 환경에서 가명·익명 데이터를 분석하고 활용하기 위한 인프라 및 컨설팅 제공",
+      "link": "https://www.kdata.or.kr/datasafezone/datasafezone_01.do",
+      "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-04-23"
+  "lastUpdated": "2026-04-24"
 }
