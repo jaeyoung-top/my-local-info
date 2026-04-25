@@ -1617,6 +1617,71 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/134200005044",
       "imageTheme": "education",
       "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&q=80"
+    },
+    {
+      "id": "000023",
+      "name": "국적업무 수수료 면제",
+      "category": "혜택",
+      "startDate": "2026-04-25",
+      "endDate": "상시",
+      "location": "지방출입국‧외국인관서",
+      "target": "특별공로자, 재난피해자, 장애인, 일부 재외동포 등",
+      "summary": "귀화/국적회복 및 국적증명서 발급 수수료 면제",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000023",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1568992687947-868a62a9f521?w=800&q=80"
+    },
+    {
+      "id": "000025",
+      "name": "범죄 피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원",
+      "target": "성폭력·아동학대 등 범죄 피해 아동(만19세 미만) 및 장애인",
+      "summary": "범죄 피해 아동 및 장애인의 수사·재판상 진술 중개 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1476703993599-0035a21b17a9?w=800&q=80"
+    },
+    {
+      "id": "005047",
+      "name": "유아교육비·보육료 추가지원",
+      "category": "혜택",
+      "startDate": "2026-04-25",
+      "endDate": "상시",
+      "location": "교육부",
+      "target": "유아학비·누리보육료 지원 대상 유아",
+      "summary": "학부모 양육비 부담 경감을 위한 유아교육비·보육료 월 5만원 추가지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/134200005047",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=800&q=80"
+    },
+    {
+      "id": "000002",
+      "name": "의료급여 틀니·치과임플란트 지원",
+      "category": "혜택",
+      "startDate": "2026-04-25",
+      "endDate": "상시",
+      "location": "시·군·구청",
+      "target": "65세 이상 의료급여 수급자 중 틀니·치과임플란트 필요자",
+      "summary": "65세 이상 의료급여 수급자 틀니·치과임플란트 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000002",
+      "imageTheme": "health",
+      "image": "https://images.unsplash.com/photo-1571772996211-2e3d26573f9a?w=800&q=80"
+    },
+    {
+      "id": "135200",
+      "name": "임산부 및 영유아 영양플러스",
+      "category": "혜택",
+      "startDate": "2026-04-25",
+      "endDate": "상시",
+      "location": "보건소",
+      "target": "소득 및 영양위험요인 기준 충족 임산부 및 영유아",
+      "summary": "임산부 및 영유아에게 영양교육, 상담, 보충 식품패키지 제공",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000005",
+      "imageTheme": "health",
+      "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -2795,7 +2860,67 @@
       "summary": "보안된 환경에서 가명·익명 데이터를 분석하고 활용하기 위한 인프라 및 컨설팅 제공",
       "link": "https://www.kdata.or.kr/datasafezone/datasafezone_01.do",
       "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-25-1",
+      "name": "AI 융합산업 특화형 기술개발 지원사업",
+      "category": "AI지원",
+      "startDate": "2026-04-25",
+      "endDate": "2026-06-30",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI 융합기술 개발 중소/중견기업",
+      "summary": "산업분야 AI 융합기술 개발 및 상용화를 위한 R&D 지원",
+      "link": "https://www.nipa.kr/main/main.do",
+      "image": "https://images.unsplash.com/photo-1516321165247-4aa89a48be55?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-25-2",
+      "name": "서울 AI 허브 AI 제품/서비스 테스트베드 활용 지원",
+      "category": "AI지원",
+      "startDate": "2026-04-25",
+      "endDate": "상시",
+      "location": "서울 AI 허브",
+      "target": "AI 제품/서비스 개발 기업",
+      "summary": "AI 기술 및 제품의 성능 검증을 위한 테스트베드 인프라 제공",
+      "link": "https://seoulaihub.kr/",
+      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-25-3",
+      "name": "AI 스타트업 투자유치 역량강화 및 IR 지원",
+      "category": "AI지원",
+      "startDate": "2026-04-25",
+      "endDate": "2026-10-31",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "AI 기반 기술 스타트업",
+      "summary": "AI 스타트업의 투자유치를 위한 IR 컨설팅, 멘토링, 데모데이 지원",
+      "link": "https://www.k-startup.go.kr/",
+      "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-25-4",
+      "name": "중소기업 디지털 안전망 구축 지원",
+      "category": "AI지원",
+      "startDate": "2026-04-25",
+      "endDate": "2026-11-30",
+      "location": "중소벤처기업부 (bizinfo.go.kr 연계)",
+      "target": "디지털 전환 중소기업",
+      "summary": "중소기업의 디지털 환경 보안 강화를 위한 컨설팅 및 솔루션 도입 지원",
+      "link": "https://www.bizinfo.go.kr/",
+      "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-25-5",
+      "name": "AI 신뢰성 확보 및 서비스 검증 지원",
+      "category": "AI지원",
+      "startDate": "2026-04-25",
+      "endDate": "2026-12-31",
+      "location": "과학기술정보통신부 (NIPA 연계 운영 가능)",
+      "target": "AI 서비스 개발 및 운영 기업",
+      "summary": "AI 서비스의 신뢰성, 공정성, 안전성 검증 및 컨설팅 지원",
+      "link": "https://www.msit.go.kr/",
+      "image": "https://images.unsplash.com/photo-1526378800651-c32d170fe6f8?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-04-24"
+  "lastUpdated": "2026-04-25"
 }
