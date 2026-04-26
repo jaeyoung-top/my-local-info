@@ -1682,6 +1682,71 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000005",
       "imageTheme": "health",
       "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80"
+    },
+    {
+      "id": "000023",
+      "name": "국적업무 수수료 면제",
+      "category": "혜택",
+      "startDate": "2026-04-26",
+      "endDate": "상시",
+      "location": "지방출입국‧외국인관서",
+      "target": "특별공로자, 재난피해자, 장애인 등 귀화/국적회복 신청자",
+      "summary": "귀화, 국적회복 및 국적증명서 발급 신청 수수료 면제",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000023",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-04-26",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청 등 수사기관이나 법원",
+      "target": "만 19세 미만 아동 및 범죄 피해 장애인",
+      "summary": "범죄 피해 아동 및 장애인의 수사·재판상 의사소통 중개 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&q=80"
+    },
+    {
+      "id": "135200000006",
+      "name": "소년소녀가정 지원",
+      "category": "혜택",
+      "startDate": "2026-04-26",
+      "endDate": "상시",
+      "location": "주민센터",
+      "target": "만 18세 미만 소년소녀가장 세대",
+      "summary": "만 18세 미만 소년소녀가장 세대에게 생계, 교육, 의료 등 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000006",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1519340333755-56e9c1d04579?w=800&q=80"
+    },
+    {
+      "id": "135200000008",
+      "name": "희귀질환 진단지원",
+      "category": "혜택",
+      "startDate": "2026-04-26",
+      "endDate": "상시",
+      "location": "양산부산대학교병원 외 진단의뢰기관",
+      "target": "유전성 희귀질환 진단 지원을 받고자 하는 환자",
+      "summary": "희귀질환 환자에게 유전자 분석 및 검체 운송비 등 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000008",
+      "imageTheme": "health",
+      "image": "https://images.unsplash.com/photo-1494390248081-4e521a5940db?w=800&q=80"
+    },
+    {
+      "id": "135200000010",
+      "name": "아동 공동생활 가정 운영 지원",
+      "category": "혜택",
+      "startDate": "2026-04-26",
+      "endDate": "상시",
+      "location": "아동담당부서",
+      "target": "공동생활가정(그룹홈) 시설장 및 종사자",
+      "summary": "아동 공동생활가정의 운영비, 인건비, 연장근로수당 등 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000010",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -2920,7 +2985,67 @@
       "summary": "AI 서비스의 신뢰성, 공정성, 안전성 검증 및 컨설팅 지원",
       "link": "https://www.msit.go.kr/",
       "image": "https://images.unsplash.com/photo-1526378800651-c32d170fe6f8?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-26-1",
+      "name": "K-Global 스타트업 공모전",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "2026-05-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "ICT 분야 혁신 스타트업 및 예비창업자",
+      "summary": "ICT 유망 스타트업 발굴 및 사업화, 투자 연계 지원",
+      "link": "https://www.nipa.kr/biz/notice.nipa",
+      "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-26-2",
+      "name": "중소기업 R&D 바우처 사업",
+      "category": "AI지원",
+      "startDate": "2026-03-01",
+      "endDate": "2026-12-31",
+      "location": "중소벤처기업부 (bizinfo.go.kr)",
+      "target": "R&D 역량 강화 희망 중소기업",
+      "summary": "기업이 필요한 R&D 서비스 및 역량 강화를 바우처로 지원",
+      "link": "https://www.smtech.go.kr/",
+      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-26-3",
+      "name": "ESG 연계 중소기업 스마트화 지원사업",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "2026-10-31",
+      "location": "중소벤처기업부 (bizinfo.go.kr)",
+      "target": "ESG 경영 도입 및 디지털 전환 중소기업",
+      "summary": "ESG 및 디지털 전환 컨설팅, 설비 투자 등 복합 지원",
+      "link": "https://www.bizinfo.go.kr/web/lay1/bbs/S1T122C128/AS/searchList.do",
+      "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-26-4",
+      "name": "지역특화 산업 디지털 전환 지원사업",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "2026-11-30",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "지역 주력산업 영위 중소·중견기업",
+      "summary": "지역 산업의 AI·디지털 전환을 통한 경쟁력 강화 지원",
+      "link": "https://www.nipa.kr/biz/notice.nipa",
+      "image": "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-26-5",
+      "name": "산업 디지털 전환 촉진 기술개발 사업",
+      "category": "AI지원",
+      "startDate": "2026-03-01",
+      "endDate": "2026-12-31",
+      "location": "과학기술정보통신부",
+      "target": "산업 디지털 전환 기술 개발·적용 기업",
+      "summary": "핵심 산업 분야의 디지털 전환을 위한 기술 개발 및 실증 지원",
+      "link": "https://www.msit.go.kr/",
+      "image": "https://images.unsplash.com/photo-1526378800651-c32d170fe6f8?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-04-25"
+  "lastUpdated": "2026-04-26"
 }
