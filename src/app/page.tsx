@@ -8,6 +8,7 @@ import { InfoItem } from "@/components/NewsCard";
 import CoupangBanner from "@/components/CoupangBanner";
 import Header from "@/components/Header";
 import VisitorCounter from "@/components/VisitorCounter";
+import GoogleAdUnit from "@/components/GoogleAdUnit";
 import Script from "next/script";
 
 // 인라인 카드 컴포넌트 (홈페이지 전용, 심플 카드)
@@ -184,6 +185,15 @@ export default function Home() {
         </div>
       </header>
 
+      {/* 히어로 하단 광고 */}
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 pt-6">
+        <GoogleAdUnit
+          slot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_TOP || ''}
+          format="horizontal"
+          className="rounded-xl overflow-hidden"
+        />
+      </div>
+
       {/* 메인 콘텐츠 */}
       <main className="max-w-6xl mx-auto px-4 sm:px-6 py-10">
 
@@ -283,6 +293,13 @@ export default function Home() {
           </div>
         )}
 
+        {/* 카드 하단 광고 */}
+        <GoogleAdUnit
+          slot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_MID || ''}
+          format="auto"
+          className="mt-10"
+        />
+
         {/* 쿠팡 배너 */}
         <div className="mt-12">
           <CoupangBanner />
@@ -302,6 +319,13 @@ export default function Home() {
             블로그 보기 →
           </Link>
         </div>
+
+        {/* 하단 광고 */}
+        <GoogleAdUnit
+          slot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_BOTTOM || ''}
+          format="auto"
+          className="mt-10"
+        />
       </main>
 
       {/* 푸터 */}
