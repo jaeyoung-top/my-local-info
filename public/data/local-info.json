@@ -1,6 +1,30 @@
 {
   "events": [
     {
+      "id": "crawler-1777255385374-847",
+      "name": "송파구 청년예술인 〈2026 더 임팩트〉",
+      "category": "행사",
+      "startDate": "2026-05-01",
+      "endDate": "상시",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "송파구 청년 예술인들이 선보이는 '2026 더 임팩트' 문화 공연 및 전시.",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9020&aid=17674",
+      "image": "https://images.unsplash.com/photo-1543362906-acfc16c67564?q=80&w=1000&auto=format&fit=crop"
+    },
+    {
+      "id": "crawler-1777255385374-189",
+      "name": "가정의 달 음악회, 어린이 뮤지컬 뽀로로, 송파 아동·청소년축제",
+      "category": "행사",
+      "startDate": "2026-05-01",
+      "endDate": "상시",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "5월 가정의 달을 맞아 음악회, 어린이 뮤지컬 뽀로로 공연, 제11회 송파 아동·청소년축제 등 풍성한 문화 행사를 즐겨보세요.",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9020&aid=17679",
+      "image": "https://images.unsplash.com/photo-1516627145497-ae6968895b74?q=80&w=2000&auto=format&fit=crop"
+    },
+    {
       "id": "crawler-1776925813878-355",
       "name": "2026년 4월 송파 문화 캘린더 (송파탈춤 페스티벌 포함)",
       "category": "행사",
@@ -1747,6 +1771,71 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000010",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
+    },
+    {
+      "id": "000023",
+      "name": "귀화/국적회복 수수료 면제",
+      "category": "혜택",
+      "startDate": "2026-04-27",
+      "endDate": "상시",
+      "location": "지방출입국‧외국인관서",
+      "target": "특별공로자, 사할린동포 배우자, 재난피해자, 장애인, 외국국적동포 등",
+      "summary": "귀화, 국적회복 및 국적 증명서 발급 수수료 면제",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000023",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1604328698692-f76ea9498e76?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "범죄 피해 아동/장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-04-27",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원 등 수사기관",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "범죄 피해 아동, 장애인의 수사·재판상 소통 중개 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80"
+    },
+    {
+      "id": "135200",
+      "name": "학대피해아동쉼터 지원",
+      "category": "혜택",
+      "startDate": "2026-04-27",
+      "endDate": "상시",
+      "location": "시·군·구청",
+      "target": "만 18세 미만 학대 피해 아동",
+      "summary": "만 18세 미만 학대피해아동이 편히 쉴 수 있도록 생활지원, 상담 및 치료 등을 제공",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000012",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=800&q=80"
+    },
+    {
+      "id": "135200000015",
+      "name": "노인실명예방사업",
+      "category": "혜택",
+      "startDate": "2026-04-27",
+      "endDate": "상시",
+      "location": "보건소",
+      "target": "만 60세 이상 저소득층 노인",
+      "summary": "저소득층 노인에게 안검진 및 개안수술 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000015",
+      "imageTheme": "health",
+      "image": "https://images.unsplash.com/photo-1550831107-1553da8c8464?w=800&q=80"
+    },
+    {
+      "id": "135200000017",
+      "name": "장애인·노인 보조기기 맞춤형 서비스",
+      "category": "혜택",
+      "startDate": "2026-04-27",
+      "endDate": "상시",
+      "location": "중앙 및 지역보조기기센터",
+      "target": "보조기기 서비스가 필요한 장애인, 노인",
+      "summary": "장애인·노인 등을 대상으로 보조기기 서비스 제공",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000017",
+      "imageTheme": "health",
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -3045,7 +3134,67 @@
       "summary": "핵심 산업 분야의 디지털 전환을 위한 기술 개발 및 실증 지원",
       "link": "https://www.msit.go.kr/",
       "image": "https://images.unsplash.com/photo-1526378800651-c32d170fe6f8?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-27-1",
+      "name": "AI 반도체 활용 촉진 지원 사업",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "2026-11-30",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI 반도체 기반 서비스 개발 중소기업 및 연구기관",
+      "summary": "국내 개발 AI 반도체를 활용한 혁신 서비스 개발 및 상용화 촉진",
+      "link": "https://www.nipa.kr/main/sub.html?depth=2&menu=210",
+      "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-27-2",
+      "name": "산업 지능화 혁신 기술 컨설팅 및 로드맵 수립 지원",
+      "category": "AI지원",
+      "startDate": "2026-03-01",
+      "endDate": "2026-10-31",
+      "location": "중소벤처기업부 / 정보통신산업진흥원 (NIPA)",
+      "target": "산업 AI 도입 및 디지털 전환 추진 중소·중견기업",
+      "summary": "산업 AI 도입 전략, 기술 컨설팅, 맞춤형 디지털 전환 로드맵 수립 지원",
+      "link": "https://www.bizinfo.go.kr/web/main/searchBiz.do?q=%EC%82%B0%EC%97%85%20%EC%A7%80%EB%8A%A5%ED%99%94%20%EC%BB%A8%EC%84%A4%ED%8C%85",
+      "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-27-3",
+      "name": "서울 AI 허브 해외 AI 스타트업 유치 및 정착 지원",
+      "category": "AI지원",
+      "startDate": "2026-01-01",
+      "endDate": "상시",
+      "location": "서울 AI 허브",
+      "target": "한국 시장 진출을 희망하는 해외 AI 스타트업",
+      "summary": "해외 유망 AI 스타트업 국내 유치 및 한국 시장 정착을 위한 다각적 지원",
+      "link": "https://seoulaihub.kr/en/",
+      "image": "https://images.unsplash.com/photo-1526378800651-c32d170fe6f8?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-27-4",
+      "name": "중소기업 스마트제조 데이터 플랫폼 연동 및 활용 지원",
+      "category": "AI지원",
+      "startDate": "2026-03-15",
+      "endDate": "2026-12-31",
+      "location": "중소벤처기업부 / 스마트제조혁신추진단",
+      "target": "스마트공장을 도입했거나 추진 중인 중소 제조기업",
+      "summary": "스마트공장 데이터 플랫폼 연동 및 데이터 기반 지능형 서비스 활용 지원",
+      "link": "https://www.k-smartfactory.or.kr/",
+      "image": "https://images.unsplash.com/photo-1488229297570-58520851e868?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-27-5",
+      "name": "K-Startup 빅데이터 기반 스타트업 성장 분석 및 컨설팅",
+      "category": "AI지원",
+      "startDate": "2026-01-01",
+      "endDate": "상시",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "성장 단계별 맞춤형 진단 및 컨설팅을 희망하는 스타트업",
+      "summary": "K-Startup 빅데이터 활용, 스타트업 성장 단계별 맞춤형 분석 및 컨설팅 제공",
+      "link": "https://www.k-startup.go.kr/web/contents/bizinfo-easy-startup.do",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-04-26"
+  "lastUpdated": "2026-04-27"
 }
