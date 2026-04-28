@@ -1458,6 +1458,71 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/134200005001",
       "imageTheme": "education",
       "image": "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=800&q=80"
+    },
+    {
+      "id": "127000",
+      "name": "귀화/국적회복 및 국적업무 증명서 발급 수수료 면제",
+      "category": "혜택",
+      "startDate": "2026-04-28",
+      "endDate": "상시",
+      "location": "지방출입국·외국인관서",
+      "target": "특정 공로자, 장애인, 재난 피해자, 사할린 동포 및 재외동포 등",
+      "summary": "귀화/국적회복 허가 및 증명서 발급 수수료 면제 혜택",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000023",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&q=80"
+    },
+    {
+      "id": "127000",
+      "name": "피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-04-28",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "만 19세 미만 아동, 장애인 범죄 피해자의 수사·재판상 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1516627145497-ae6968895b74?w=800&q=80"
+    },
+    {
+      "id": "131200000006",
+      "name": "국가유공자 등 대부금 부동산 취득세 감면",
+      "category": "혜택",
+      "startDate": "2026-04-28",
+      "endDate": "2026-12-31",
+      "location": "시·군·구청",
+      "target": "국가유공자 등이 대부금으로 부동산 취득 시",
+      "summary": "국가유공자 등이 대부금으로 부동산 취득 시 취득세 감면",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/131200000006",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1553484771-371a605b060b?w=800&q=80"
+    },
+    {
+      "id": "000046",
+      "name": "중소기업 취업연계 장학금 (희망사다리Ⅰ유형)",
+      "category": "혜택",
+      "startDate": "2026-04-28",
+      "endDate": "상시",
+      "location": "한국장학재단",
+      "target": "중소중견기업 취창업 희망 대학생 (일반대 3학년 이상, 전문대 2학년 이상)",
+      "summary": "중소중견기업 취창업 희망 대학생에게 등록금 전액 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/134200000046",
+      "imageTheme": "education",
+      "image": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=800&q=80"
+    },
+    {
+      "id": "134200005001",
+      "name": "고졸 후학습자 장학금",
+      "category": "혜택",
+      "startDate": "2026-04-28",
+      "endDate": "상시",
+      "location": "한국장학재단",
+      "target": "고졸 재직자",
+      "summary": "재직기간 2년 이상 고졸 학생에게 학기당 등록금 전액 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/134200005001",
+      "imageTheme": "education",
+      "image": "https://images.unsplash.com/photo-1519750157634-b6d493a0f77c?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -2456,7 +2521,67 @@
       "summary": "AI 시대에 필요한 법적·제도적 기반 마련을 위한 연구과제 지원",
       "link": "https://www.msit.go.kr",
       "image": "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-28-1",
+      "name": "지능형사물인터넷(AIoT) 서비스 실증 및 확산 사업",
+      "category": "AI지원",
+      "startDate": "2026-03-01",
+      "endDate": "2026-11-30",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AIoT 서비스 개발 기업 및 기관",
+      "summary": "AIoT 기술 기반 서비스의 실증 및 확산을 지원",
+      "link": "https://www.nipa.kr/biz/index.nipa",
+      "image": "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-28-2",
+      "name": "K-글로벌 디지털 스타트업 해외 시장 검증 지원",
+      "category": "AI지원",
+      "startDate": "2026-03-01",
+      "endDate": "2026-11-30",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "해외 진출 희망 디지털/AI 스타트업",
+      "summary": "디지털/AI 스타트업의 해외 시장 실증 및 검증 지원",
+      "link": "https://www.k-startup.go.kr",
+      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-28-3",
+      "name": "서울 AI 허브 AI 특허/기술가치평가 및 투자매칭 지원",
+      "category": "AI지원",
+      "startDate": "2026-03-01",
+      "endDate": "상시",
+      "location": "서울 AI 허브",
+      "target": "AI 기술 기반 스타트업 (투자 유치 희망)",
+      "summary": "AI 기술 가치평가 및 투자자 연계 매칭을 지원",
+      "link": "https://seoulaihub.kr/",
+      "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-28-4",
+      "name": "초고성능컴퓨팅 활용 AI 연구 지원",
+      "category": "AI지원",
+      "startDate": "2026-01-01",
+      "endDate": "상시",
+      "location": "과학기술정보통신부 (KISTI 연계)",
+      "target": "AI 관련 연구기관 및 기업",
+      "summary": "초고성능컴퓨팅 자원을 활용한 AI 연구를 지원",
+      "link": "https://www.msit.go.kr/",
+      "image": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-28-5",
+      "name": "중소기업 ESG 경영을 위한 AI 기반 데이터 분석 및 솔루션 도입 지원",
+      "category": "AI지원",
+      "startDate": "2026-03-01",
+      "endDate": "2026-12-31",
+      "location": "중소벤처기업부 (기업마당 연계)",
+      "target": "ESG 경영 도입 희망 중소기업",
+      "summary": "ESG 데이터 분석 및 AI 솔루션 도입을 통한 ESG 경영 지원",
+      "link": "https://www.bizinfo.go.kr",
+      "image": "https://images.unsplash.com/photo-1488229297570-58520851e868?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-04-27"
+  "lastUpdated": "2026-04-28"
 }
