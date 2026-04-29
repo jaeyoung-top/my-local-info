@@ -1,6 +1,18 @@
 {
   "events": [
     {
+      "id": "crawler-1777428629606-628",
+      "name": "송파구 청년예술인 <2026 더 임팩트>",
+      "category": "행사",
+      "startDate": "2026-05-01",
+      "endDate": "상시",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "송파구 청년예술인들의 활기찬 공연 및 전시 <2026 더 임팩트>가 개최됩니다.",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9020&aid=17674",
+      "image": "https://images.unsplash.com/photo-1543362906-acfc16c67564?q=80&w=1000&auto=format&fit=crop"
+    },
+    {
       "id": "crawler-1777270973451-619",
       "name": "제11회 송파 아동·청소년축제",
       "category": "행사",
@@ -1523,6 +1535,71 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/134200005001",
       "imageTheme": "education",
       "image": "https://images.unsplash.com/photo-1519750157634-b6d493a0f77c?w=800&q=80"
+    },
+    {
+      "id": "127000",
+      "name": "귀화/국적회복 및 증명서 수수료 면제",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "상시",
+      "location": "지방출입국‧외국인관서",
+      "target": "특별공로자, 사할린동포 배우자, 재난피해자, 장애인 등 국적 관련 수수료 면제 대상",
+      "summary": "국적 관련 (귀화/회복/증명서) 수수료 면제",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000023",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&q=80"
+    },
+    {
+      "id": "000025",
+      "name": "피해 아동 및 장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-04-29",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원 등 수사·사법기관",
+      "target": "성폭력, 아동학대, 인신매매 등 범죄 피해 아동(만19세 미만) 및 장애인",
+      "summary": "범죄 피해 아동 및 장애인의 수사/재판 시 의사소통 중개 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1516627145497-ae6968895b74?w=800&q=80"
+    },
+    {
+      "id": "131200000006",
+      "name": "국가유공자 대부금 부동산 취득세 감면",
+      "category": "혜택",
+      "startDate": "2026-04-29",
+      "endDate": "2026-12-31",
+      "location": "시·군·구청",
+      "target": "국가유공자 등 대부금으로 부동산 취득자",
+      "summary": "국가유공자 등이 대부금으로 취득하는 부동산에 대한 취득세 감면",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/131200000006",
+      "imageTheme": "finance",
+      "image": "https://images.unsplash.com/photo-1553729459-efe14ef6055d?w=800&q=80"
+    },
+    {
+      "id": "134200",
+      "name": "국가장학금 Ⅱ유형",
+      "category": "혜택",
+      "startDate": "2025-11-20",
+      "endDate": "2026-03-17",
+      "location": "한국장학재단",
+      "target": "국내대학 학자금지원 9구간 이하 대학생",
+      "summary": "대학 자체 기준에 따라 등록금 범위 내에서 장학금 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/134200005002",
+      "imageTheme": "education",
+      "image": "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=800&q=80"
+    },
+    {
+      "id": "134200005007",
+      "name": "위(Wee) 클래스 상담 지원",
+      "category": "혜택",
+      "startDate": "2026-04-29",
+      "endDate": "상시",
+      "location": "위(Wee) 클래스, 위(Wee) 센터, 위(Wee) 스쿨",
+      "target": "모든 학생 (위기 학생 및 일반 학생)",
+      "summary": "학교 부적응 및 위기 학생을 위한 상담 및 치유 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/134200005007",
+      "imageTheme": "education",
+      "image": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -2581,7 +2658,67 @@
       "summary": "ESG 데이터 분석 및 AI 솔루션 도입을 통한 ESG 경영 지원",
       "link": "https://www.bizinfo.go.kr",
       "image": "https://images.unsplash.com/photo-1488229297570-58520851e868?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-29-1",
+      "name": "NIPA 2026년 산업 특화 AI 융합 기술개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-03-15",
+      "endDate": "2026-04-30",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "산업 분야 AI 솔루션 개발 기업",
+      "summary": "산업 현장 문제 해결을 위한 AI 융합 기술 개발 및 사업화 지원",
+      "link": "https://www.nipa.kr",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-29-2",
+      "name": "중소기업 AI 기반 비즈니스 모델 혁신 컨설팅 및 사업화 지원",
+      "category": "AI지원",
+      "startDate": "2026-03-20",
+      "endDate": "2026-05-10",
+      "location": "중소벤처기업부 / 중소기업기술정보진흥원",
+      "target": "AI 비즈니스 모델 혁신 희망 중소기업",
+      "summary": "AI 활용 비즈니스 모델 개발 컨설팅 및 초기 사업화 비용 지원",
+      "link": "https://www.bizinfo.go.kr",
+      "image": "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-29-3",
+      "name": "과학기술정보통신부 차세대 초거대 AI 기반 기술 고도화 지원",
+      "category": "AI지원",
+      "startDate": "2026-03-01",
+      "endDate": "2026-04-25",
+      "location": "과학기술정보통신부 / 한국지능정보사회진흥원 (NIA)",
+      "target": "초거대 AI 모델 고도화 기술 개발 기업/연구소",
+      "summary": "차세대 초거대 AI 핵심 기반 기술 개발 및 모델 성능 고도화 연구 지원",
+      "link": "https://www.msit.go.kr",
+      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-29-4",
+      "name": "창업진흥원 글로벌 액셀러레이터 연계 AI 스타트업 육성",
+      "category": "AI지원",
+      "startDate": "2026-03-10",
+      "endDate": "2026-04-30",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "글로벌 진출 희망 AI 스타트업",
+      "summary": "글로벌 액셀러레이터 프로그램을 통한 AI 스타트업 해외 진출 지원",
+      "link": "https://www.k-startup.go.kr",
+      "image": "https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-29-5",
+      "name": "서울 AI 허브 AI 특화 산학연 협력 생태계 조성 지원",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "상시",
+      "location": "서울 AI 허브 (Seoul AI Hub)",
+      "target": "AI 분야 산학연 협력 프로젝트 참여 기관",
+      "summary": "서울 AI 허브 기반 AI 연구기관, 기업 간 공동 연구 및 네트워킹 활동 지원",
+      "link": "https://www.seoulaihub.kr",
+      "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-04-28"
+  "lastUpdated": "2026-04-29"
 }
