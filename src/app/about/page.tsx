@@ -4,29 +4,33 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "서비스 소개 | AI 송파 인포",
-  description: "AI 송파 인포는 송파구 주민을 위해 지역 행사, 지원금, 혜택 정보를 매일 자동 업데이트하는 생활 정보 서비스입니다.",
+  description: "AI 송파 인포는 송파구 주민을 위해 지역 행사, 지원금, 혜택 정보를 매일 선별·정리하는 생활 정보 큐레이션 서비스입니다.",
 };
 
 const faqs = [
   {
     q: "정보는 얼마나 자주 업데이트되나요?",
-    a: "공공데이터포털 API와 Gemini AI를 활용하여 매일 아침 최신 정보를 자동으로 수집·갱신합니다. 마지막 업데이트 일시는 메인 페이지 하단에서 확인하실 수 있습니다."
+    a: "공공데이터포털, 송파구청 공식 채널 등 신뢰할 수 있는 공식 소스를 매일 확인하여 주민에게 유용한 최신 정보를 선별·정리합니다. 마지막 업데이트 일시는 메인 페이지 하단에서 확인하실 수 있습니다."
   },
   {
     q: "지원금 신청 자격이 있는지 어떻게 확인하나요?",
-    a: "각 항목의 '자세히 보기'를 클릭하면 원문 출처 링크가 제공됩니다. 지원 조건과 자격 요건은 반드시 원문(구청 홈페이지, 공공데이터포털 등)에서 최종 확인하시기 바랍니다."
+    a: "각 항목의 '자세히 보기'를 클릭하면 상세 안내 글과 원문 출처 링크가 제공됩니다. 지원 조건과 자격 요건은 반드시 원문(구청 홈페이지, 공공데이터포털 등)에서 최종 확인하시기 바랍니다."
   },
   {
     q: "송파구 외 다른 지역 정보도 있나요?",
     a: "네, '공공(전국)지원금·혜택' 탭에서는 서울시 전체 또는 전국 단위의 공공 지원 정보를 제공합니다. 'AI 지원프로그램' 탭에서는 전국 대상 AI 교육 및 지원 사업도 확인하실 수 있습니다."
   },
   {
-    q: "블로그 글은 누가 작성하나요?",
-    a: "블로그 글은 Google Gemini AI가 공공데이터 원문을 바탕으로 자동 작성합니다. AI가 생성한 내용임을 항상 표시하며, 모든 글은 공식 출처 데이터를 근거로 합니다."
+    q: "블로그 글은 어떻게 작성되나요?",
+    a: "공공기관의 공식 원문 데이터를 기반으로 주민이 실제로 필요한 신청 방법, 유의사항, 활용 팁 등을 알기 쉽게 정리하여 제공합니다. 모든 정보는 공식 출처를 명시하며, 정확한 내용은 원문 링크를 통해 최종 확인하실 것을 권장합니다."
   },
   {
     q: "정보가 부정확하거나 오류가 있으면 어떻게 하나요?",
     a: "jypark@dooil.net 으로 문의해 주시면 빠르게 확인 후 수정하겠습니다. 공공데이터 변경 사항은 즉시 반영될 수 있도록 노력하고 있습니다."
+  },
+  {
+    q: "광고나 유료 프로그램을 홍보하나요?",
+    a: "본 서비스는 특정 민간 업체나 유료 서비스를 홍보하지 않습니다. 소개되는 모든 행사·지원금·프로그램은 정부 및 공공기관이 운영하는 공식 정보입니다. 쿠팡 파트너스 제휴 링크를 통한 제품 안내는 별도로 표시됩니다."
   }
 ];
 
@@ -46,13 +50,13 @@ const usageGuide = [
   {
     step: "03",
     title: "상세 정보 확인",
-    desc: "카드를 클릭하면 AI가 정리한 상세 블로그 글 또는 원문 공식 링크로 이동합니다.",
+    desc: "카드를 클릭하면 신청 방법, 유의사항, 활용 팁이 담긴 상세 안내 글 또는 공식 원문 링크로 이동합니다.",
     icon: "📋"
   },
   {
     step: "04",
     title: "블로그 활용",
-    desc: "블로그 탭에서는 각 혜택의 신청 방법, 유의 사항, 활용 팁을 쉽게 풀어쓴 글을 확인할 수 있습니다.",
+    desc: "블로그 탭에서는 각 혜택의 신청 방법, 유의 사항, 활용 팁을 알기 쉽게 정리한 글을 확인할 수 있습니다.",
     icon: "📝"
   }
 ];
@@ -81,9 +85,14 @@ export default function AboutPage() {
             <span className="w-8 h-8 bg-[#1D428A] text-white rounded-lg flex items-center justify-center text-sm">🎯</span>
             운영 목적
           </h2>
+          <p className="text-gray-600 leading-8 text-lg break-keep mb-4">
+            서울 송파구에는 매월 수십 가지의 문화 행사, 지역 축제, 주민 지원 프로그램이 운영되고 있습니다.
+            하지만 정보가 여러 기관의 웹사이트에 분산되어 있어 주민들이 실질적인 혜택을 누리지 못하는 경우가 많습니다.
+          </p>
           <p className="text-gray-600 leading-8 text-lg break-keep">
-            지역 주민들이 실질적으로 누릴 수 있는 다양한 혜택과 즐길 수 있는 행사 정보를 누락 없이 전달하기 위해 시작되었습니다.
-            바쁜 일상 속에서 송파구청과 공공기관의 소중한 정보들이 묻히지 않도록, 가장 최신의 정보를 선별하여 제공합니다.
+            AI 송파 인포는 공공기관의 공식 정보를 한 곳에 모아 주민이 쉽게 찾고, 바로 신청할 수 있도록
+            안내하는 <strong>지역 생활 정보 허브</strong>입니다. 특히 육아 가정, 취업 준비생, 고령층, 소상공인 등
+            지원이 필요한 분들이 놓치는 혜택 없이 적시에 신청하실 수 있도록 돕는 것이 목표입니다.
           </p>
         </section>
 
@@ -96,32 +105,35 @@ export default function AboutPage() {
           <div className="space-y-4 text-gray-600 leading-8">
             <p>본 서비스에서 제공하는 모든 정보는 다음과 같은 신뢰할 수 있는 공식 출처를 기반으로 합니다:</p>
             <ul className="list-disc list-inside space-y-2 font-medium">
-              <li>대한민국 공공데이터포털 (data.go.kr)</li>
+              <li>대한민국 공공데이터포털 (data.go.kr) — 정부 복지·지원 서비스 DB</li>
               <li>송파구청 공식 뉴스레터 및 홈페이지 (songpa.go.kr)</li>
-              <li>정부24 및 각 부처 공식 사이트</li>
+              <li>정부24 및 각 부처 공식 사이트 (행정안전부, 복지부, 고용부 등)</li>
+              <li>서울시 공공 데이터 포털 (data.seoul.go.kr)</li>
             </ul>
             <p className="text-sm text-gray-400 bg-gray-50 rounded-xl p-4">
-              ※ 행사나 지원 정책의 상세 조건은 반드시 원문 링크를 통해 최종 확인하시기 바랍니다. AI가 요약한 내용과 실제 정책 사이에 차이가 있을 수 있습니다.
+              ※ 행사나 지원 정책의 상세 조건은 반드시 원문 링크를 통해 최종 확인하시기 바랍니다.
+              요약·정리된 내용과 실제 정책 사이에 차이가 있을 수 있으므로, 신청 전 공식 안내문을 확인하시기 바랍니다.
             </p>
           </div>
         </section>
 
-        {/* AI 기술 활용 */}
+        {/* 편집 원칙 */}
         <section className="bg-gradient-to-br from-[#1D428A]/5 to-[#F25C05]/5 rounded-3xl p-8 md:p-12 border border-[#1D428A]/10">
           <h2 className="text-2xl font-bold text-gray-800 mb-6 flex items-center gap-3">
-            <span className="w-8 h-8 bg-gray-800 text-white rounded-lg flex items-center justify-center text-sm">🤖</span>
-            AI 기술 활용 방식
+            <span className="w-8 h-8 bg-gray-800 text-white rounded-lg flex items-center justify-center text-sm">✍️</span>
+            편집 원칙
           </h2>
           <p className="text-gray-600 leading-8 break-keep mb-6">
-            송파INFO는 수많은 공공데이터 중 주민들에게 꼭 필요한 핵심만을 요약하고, 친숙한 블로그 형태로 전달하기 위해{" "}
-            <strong>Gemini AI 기술</strong>을 활용하고 있습니다. AI는 정보를 분석하고 읽기 쉽게 가공하는 역할을 수행하며,
-            모든 글은 공공데이터 원문의 팩트를 기반으로 생성됩니다.
+            AI 송파 인포는 단순한 데이터 나열이 아닌, <strong>주민의 실생활에 도움이 되는 방식</strong>으로
+            정보를 재구성하는 것을 편집 원칙으로 삼고 있습니다.
+            각 항목은 신청 대상, 신청 기간, 핵심 혜택, 주의사항을 일목요연하게 정리하여
+            처음 접하는 분도 쉽게 이해하고 바로 행동할 수 있도록 제공합니다.
           </p>
           <div className="grid sm:grid-cols-3 gap-4">
             {[
-              { icon: "🔄", title: "매일 자동 수집", desc: "GitHub Actions로 매일 아침 최신 데이터를 자동으로 가져옵니다." },
-              { icon: "✍️", title: "AI 글 자동 작성", desc: "Gemini AI가 공공데이터를 읽기 쉬운 블로그 글로 변환합니다." },
-              { icon: "🚀", title: "즉시 배포", desc: "Cloudflare Pages를 통해 변경 사항이 즉시 반영됩니다." }
+              { icon: "🔍", title: "정확성 우선", desc: "모든 정보는 공식 기관 원문을 기반으로 하며, 출처를 명시합니다." },
+              { icon: "💡", title: "이해하기 쉽게", desc: "어렵고 딱딱한 공공 문서를 주민이 바로 이해할 수 있도록 쉽게 풀어씁니다." },
+              { icon: "⚡", title: "신속한 업데이트", desc: "새로운 정보가 등록되면 신속하게 검토·반영하여 최신 상태를 유지합니다." }
             ].map((item) => (
               <div key={item.title} className="bg-white rounded-xl p-5 shadow-sm">
                 <p className="text-2xl mb-2">{item.icon}</p>
@@ -160,22 +172,28 @@ export default function AboutPage() {
             <span className="w-8 h-8 bg-purple-600 text-white rounded-lg flex items-center justify-center text-sm">🏛️</span>
             주요 공공 지원 분야
           </h2>
-          <p className="text-gray-500 text-sm mb-6">본 서비스에서 다루는 주요 지원 및 혜택 분야를 소개합니다.</p>
+          <p className="text-gray-500 text-sm mb-6">
+            아래 분야의 공공 혜택·행사를 매일 업데이트하여 제공합니다.
+            현재 신청 가능한 프로그램을 메인 페이지에서 바로 확인하세요.
+          </p>
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
             {[
-              { icon: "👶", label: "보육·육아 지원" },
-              { icon: "🎓", label: "청년·취업 지원" },
-              { icon: "👴", label: "노인·어르신 복지" },
-              { icon: "🏠", label: "주거·임대 지원" },
-              { icon: "🎭", label: "문화·예술 행사" },
-              { icon: "💼", label: "창업·소상공인 지원" },
-              { icon: "🏥", label: "건강·의료 지원" },
-              { icon: "📚", label: "교육·학습 프로그램" },
-              { icon: "🤖", label: "AI·디지털 교육" }
+              { icon: "👶", label: "보육·육아 지원", desc: "출산·보육료 지원, 아이돌봄 서비스" },
+              { icon: "🎓", label: "청년·취업 지원", desc: "취업장려금, 직업훈련, 청년수당" },
+              { icon: "👴", label: "노인·어르신 복지", desc: "기초연금, 돌봄서비스, 여가 프로그램" },
+              { icon: "🏠", label: "주거·임대 지원", desc: "임대주택, 주거급여, 이사비 지원" },
+              { icon: "🎭", label: "문화·예술 행사", desc: "공연, 축제, 전시, 체험 프로그램" },
+              { icon: "💼", label: "창업·소상공인 지원", desc: "창업자금, 컨설팅, 판로 개척 지원" },
+              { icon: "🏥", label: "건강·의료 지원", desc: "무료 건강검진, 의료비 지원" },
+              { icon: "📚", label: "교육·학습 프로그램", desc: "평생학습, 무료 강좌, 장학금" },
+              { icon: "🤖", label: "AI·디지털 교육", desc: "AI 활용교육, 디지털 역량 강화" }
             ].map((item) => (
-              <div key={item.label} className="flex items-center gap-3 bg-gray-50 rounded-xl px-4 py-3">
-                <span className="text-xl">{item.icon}</span>
-                <span className="text-sm font-bold text-gray-700">{item.label}</span>
+              <div key={item.label} className="flex flex-col gap-1 bg-gray-50 rounded-xl px-4 py-3">
+                <div className="flex items-center gap-2">
+                  <span className="text-xl">{item.icon}</span>
+                  <span className="text-sm font-bold text-gray-700">{item.label}</span>
+                </div>
+                <p className="text-[11px] text-gray-400 pl-7">{item.desc}</p>
               </div>
             ))}
           </div>
@@ -201,8 +219,8 @@ export default function AboutPage() {
         <section className="bg-gradient-to-r from-[#1D428A] to-[#1a3668] rounded-3xl p-8 text-white">
           <h2 className="text-2xl font-bold mb-3">문의 및 피드백</h2>
           <p className="text-white/80 leading-7 mb-6 text-sm">
-            정보 오류, 누락된 혜택, 서비스 개선 의견이 있으시면 언제든지 연락해 주세요.
-            여러분의 피드백이 더 나은 서비스를 만드는 데 큰 도움이 됩니다.
+            누락된 혜택 제보, 정보 오류 수정 요청, 서비스 개선 의견이 있으시면 언제든지 연락해 주세요.
+            주민분들의 피드백이 더 나은 서비스를 만드는 데 큰 도움이 됩니다.
           </p>
           <a
             href="mailto:jypark@dooil.net"
@@ -224,21 +242,23 @@ export default function AboutPage() {
             <p className="font-bold text-gray-800">블로그</p>
             <p className="text-gray-500 text-xs mt-1">상세 정보 읽기</p>
           </Link>
-          <Link href="/privacy" className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 hover:shadow-md transition-shadow text-center">
-            <p className="text-3xl mb-2">🔒</p>
-            <p className="font-bold text-gray-800">개인정보처리방침</p>
-            <p className="text-gray-500 text-xs mt-1">정보 보호 안내</p>
+          <Link href="/guide" className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 hover:shadow-md transition-shadow text-center">
+            <p className="text-3xl mb-2">🗺️</p>
+            <p className="font-bold text-gray-800">송파구 생활 가이드</p>
+            <p className="text-gray-500 text-xs mt-1">동네 생활 정보</p>
           </Link>
         </div>
 
       </main>
 
       <footer className="bg-white border-t border-gray-200 py-12 px-6 text-center">
-        <p className="text-gray-400 text-sm mb-3">© 2026 AI 송파 인포 | data.go.kr & Google Gemini 기반</p>
+        <p className="text-gray-400 text-sm mb-3">© 2026 AI 송파 인포 | 공공데이터 기반 지역 생활 정보 서비스</p>
         <div className="flex justify-center gap-4 text-xs text-gray-400">
           <Link href="/" className="hover:text-[#1D428A]">홈</Link>
           <span>|</span>
           <Link href="/blog" className="hover:text-[#1D428A]">블로그</Link>
+          <span>|</span>
+          <Link href="/guide" className="hover:text-[#1D428A]">생활 가이드</Link>
           <span>|</span>
           <Link href="/about" className="hover:text-[#1D428A]">소개</Link>
           <span>|</span>

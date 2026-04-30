@@ -35,6 +35,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${baseUrl}/privacy`,
       lastModified: new Date(),
     },
+    {
+      url: `${baseUrl}/guide`,
+      lastModified: new Date(),
+    },
   ];
 
   const postSlugs = getAllPostSlugs();
