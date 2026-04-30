@@ -1665,6 +1665,71 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/134200005031",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1519340333755-56e9c1d04579?w=800&q=80"
+    },
+    {
+      "id": "000023",
+      "name": "귀화/국적회복 수수료 면제",
+      "category": "혜택",
+      "startDate": "2026-04-30",
+      "endDate": "상시",
+      "location": "법무부",
+      "target": "특별공로자, 사할린동포, 재난지역 피해자, 장애인 등 귀화·국적회복 신청자",
+      "summary": "귀화·국적회복 및 국적업무 증명서 발급 수수료를 면제합니다.",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000023",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80"
+    },
+    {
+      "id": "000025",
+      "name": "범죄 피해 아동 및 장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-04-30",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원 등 수사기관",
+      "target": "범죄피해 아동 및 장애인",
+      "summary": "범죄 피해 아동 및 장애인의 수사/재판 진술조력 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1551009175-15bdf9dcb580?w=800&q=80"
+    },
+    {
+      "id": "131200000006",
+      "name": "국가유공자 등이 대부금으로 취득하는 부동산 취득세 감면",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "2026-12-31",
+      "location": "시·군·구청",
+      "target": "국가유공자 등이 대부금으로 전용면적 85제곱미터 이하 주택 또는 부동산 취득 시",
+      "summary": "국가유공자 등이 대부금으로 취득하는 부동산에 대하여 취득세 감면",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/131200000006",
+      "imageTheme": "finance",
+      "image": "https://images.unsplash.com/photo-1535320903710-d993d3d77d29?w=800&q=80"
+    },
+    {
+      "id": "134200",
+      "name": "영유아보육료 지원",
+      "category": "혜택",
+      "startDate": "2026-01-01",
+      "endDate": "상시",
+      "location": "교육부",
+      "target": "0~5세 영유아",
+      "summary": "소득수준에 관계없이 0~5세 아동에게 보육료 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/134200005036",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1519340333755-56e9c1d04579?w=800&q=80"
+    },
+    {
+      "id": "005041",
+      "name": "법학전문대학원 취약계층 장학금",
+      "category": "혜택",
+      "startDate": "2026-04-30",
+      "endDate": "상시",
+      "location": "교육부",
+      "target": "법학전문대학원 취약계층 학생",
+      "summary": "경제적 취약계층 장학금(등록금) 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/134200005041",
+      "imageTheme": "education",
+      "image": "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -2843,6 +2908,66 @@
       "summary": "디지털 콘텐츠 기술 개발, 제작, 사업화 등 종합 지원",
       "link": "https://www.msit.go.kr",
       "image": "https://images.unsplash.com/photo-1488229297570-58520851e868?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-30-1",
+      "name": "NIPA 디지털 전환 선도기업 육성 및 해외진출 지원",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "2026-11-30",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "디지털 전환 솔루션 개발 및 공급 기업",
+      "summary": "디지털 전환 선도기업의 기술 고도화 및 해외 시장 진출을 지원합니다.",
+      "link": "https://www.nipa.kr",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-30-2",
+      "name": "K-Startup 글로벌 도약 프로그램 (AI/디지털 특화)",
+      "category": "AI지원",
+      "startDate": "2026-04-15",
+      "endDate": "2026-10-31",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "AI·디지털 분야 혁신 기술 기반 스타트업",
+      "summary": "AI·디지털 스타트업의 해외 시장 진출 및 글로벌 스케일업을 위한 액셀러레이팅 지원",
+      "link": "https://www.k-startup.go.kr",
+      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-30-3",
+      "name": "서울 AI 허브 고성능 컴퓨팅 자원 지원",
+      "category": "AI지원",
+      "startDate": "2026-01-01",
+      "endDate": "상시",
+      "location": "서울 AI 허브",
+      "target": "AI 기술 개발 기업 및 연구팀",
+      "summary": "AI 모델 개발 및 학습을 위한 고성능 컴퓨팅 인프라 및 기술 지원을 제공합니다.",
+      "link": "https://www.seoulaihub.kr",
+      "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-30-4",
+      "name": "중소기업 디지털 수출 역량 강화 지원",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "2026-12-15",
+      "location": "중소벤처기업부 (기업마당)",
+      "target": "디지털 기술 활용 해외 진출 희망 중소기업",
+      "summary": "중소기업의 디지털 기반 수출 프로세스 구축 및 해외 마케팅 역량 강화를 지원",
+      "link": "https://www.bizinfo.go.kr",
+      "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-30-5",
+      "name": "과학기술정보통신부 국민생활문제 해결형 AI 솔루션 개발",
+      "category": "AI지원",
+      "startDate": "2026-03-01",
+      "endDate": "2026-11-30",
+      "location": "과학기술정보통신부",
+      "target": "사회문제 해결 및 공공 서비스 혁신 AI 기업/연구기관",
+      "summary": "교통, 안전 등 국민 생활 밀착 분야 AI 솔루션 개발 및 실증을 지원합니다.",
+      "link": "https://www.msit.go.kr",
+      "image": "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=800&q=80"
     }
   ],
   "lastUpdated": "2026-04-30"
