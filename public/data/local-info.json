@@ -1600,6 +1600,71 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/134200005007",
       "imageTheme": "education",
       "image": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=800&q=80"
+    },
+    {
+      "id": "127000",
+      "name": "귀화/국적회복 신청 수수료 면제",
+      "category": "혜택",
+      "startDate": "2026-04-30",
+      "endDate": "상시",
+      "location": "지방출입국‧외국인관서",
+      "target": "특별공로자, 사할린동포, 재난피해자, 장애인 등 귀화·국적회복 신청자",
+      "summary": "귀화, 국적회복 신청 및 국적업무 증명서 발급 수수료 면제",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000023",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "범죄 피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-04-30",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원 등",
+      "target": "범죄 피해 아동 또는 장애인",
+      "summary": "범죄 피해 아동·장애인의 수사·재판상 소통 중개 및 조력",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1476703993599-0035a21b17a9?w=800&q=80"
+    },
+    {
+      "id": "131200000006",
+      "name": "국가유공자 부동산 취득세 감면",
+      "category": "혜택",
+      "startDate": "2026-04-30",
+      "endDate": "2026-12-31",
+      "location": "시·군·구청",
+      "target": "국가유공자 등 대부금으로 부동산 취득자",
+      "summary": "국가유공자 등이 대부금으로 취득하는 부동산 취득세 감면",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/131200000006",
+      "imageTheme": "finance",
+      "image": "https://images.unsplash.com/photo-1553729459-efe14ef6055d?w=800&q=80"
+    },
+    {
+      "id": "134200",
+      "name": "가정양육수당 지원",
+      "category": "혜택",
+      "startDate": "2026-04-30",
+      "endDate": "상시",
+      "location": "교육부",
+      "target": "취학 전 24~86개월 미만 가정양육 영유아",
+      "summary": "취학 전 24개월~86개월 미만 가정양육 영유아 대상 월 10~20만원 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/134200005012",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1476703993599-0035a21b17a9?w=800&q=80"
+    },
+    {
+      "id": "134200005031",
+      "name": "시간제보육 지원",
+      "category": "혜택",
+      "startDate": "2026-04-30",
+      "endDate": "상시",
+      "location": "교육부",
+      "target": "부모급여 또는 양육수당 수급 영아",
+      "summary": "가정양육 부모가 긴급.일시적으로 보육시설 이용이 필요한 경우 시간제보육 서비스 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/134200005031",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1519340333755-56e9c1d04579?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -2718,7 +2783,67 @@
       "summary": "서울 AI 허브 기반 AI 연구기관, 기업 간 공동 연구 및 네트워킹 활동 지원",
       "link": "https://www.seoulaihub.kr",
       "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-30-1",
+      "name": "AI 데이터 가공 바우처 지원사업",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "2026-06-30",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI 개발에 필요한 데이터 가공 기업",
+      "summary": "AI 학습용 데이터 가공 서비스 구매 비용 지원",
+      "link": "https://www.nipa.kr",
+      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-30-2",
+      "name": "AI 반도체 팜 구축 및 활용 지원사업",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "2026-12-31",
+      "location": "과학기술정보통신부 (MSIT)",
+      "target": "AI 반도체 기반 컴퓨팅 자원 활용 기업 및 연구기관",
+      "summary": "AI 반도체 팜 구축 및 고성능 컴퓨팅 자원 활용 환경 제공",
+      "link": "https://www.msit.go.kr",
+      "image": "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-30-3",
+      "name": "스마트 서비스 솔루션 공급기업 육성 지원",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "2026-05-31",
+      "location": "중소벤처기업부 (MSS)",
+      "target": "중소기업 대상 스마트 서비스 솔루션 개발 및 공급 기업",
+      "summary": "스마트 서비스 솔루션 개발 및 사업화 지원으로 공급기업 성장 촉진",
+      "link": "https://www.bizinfo.go.kr",
+      "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-30-4",
+      "name": "스마트 제조혁신 기술개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "2026-05-31",
+      "location": "중소벤처기업부 (MSS)",
+      "target": "스마트 제조 분야 신기술 개발 중소기업",
+      "summary": "스마트 제조 관련 핵심 기술 개발 및 상용화를 위한 R&D 자금 지원",
+      "link": "https://www.bizinfo.go.kr",
+      "image": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-04-30-5",
+      "name": "디지털 미디어 콘텐츠 산업 육성 지원",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "2026-06-30",
+      "location": "과학기술정보통신부 (MSIT)",
+      "target": "AI·디지털 기술 활용 디지털 콘텐츠 개발 및 사업화 기업",
+      "summary": "디지털 콘텐츠 기술 개발, 제작, 사업화 등 종합 지원",
+      "link": "https://www.msit.go.kr",
+      "image": "https://images.unsplash.com/photo-1488229297570-58520851e868?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-04-29"
+  "lastUpdated": "2026-04-30"
 }
