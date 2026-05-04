@@ -1,6 +1,30 @@
 {
   "events": [
     {
+      "id": "crawler-1777860362311-7",
+      "name": "송파구 청년예술인 문화공연 〈2026 더 임팩트〉",
+      "category": "행사",
+      "startDate": "2026-05-01",
+      "endDate": "상시",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "송파구의 젊은 예술인들이 참여하는 문화예술 프로그램 '2026 더 임팩트'가 문화캘린더를 통해 선보입니다.",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9020&aid=17674",
+      "image": "https://images.unsplash.com/photo-1506157786151-b8491531f063?q=80&w=1000&auto=format&fit=crop"
+    },
+    {
+      "id": "crawler-1777860362311-617",
+      "name": "송파 5월 가정의 달 행사 (음악회, 뮤지컬, 아동·청소년축제)",
+      "category": "행사",
+      "startDate": "2026-05-01",
+      "endDate": "2026-05-31",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "가정의 달 5월을 맞아 음악회, 어린이 뮤지컬, 아동·청소년축제 등 온 가족이 함께 즐길 수 있는 다양한 행사가 송파구에서 열립니다.",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9020&aid=17679",
+      "image": "https://images.unsplash.com/photo-1543362906-acfc16c67564?q=80&w=1000&auto=format&fit=crop"
+    },
+    {
       "id": "crawler-1777428629606-628",
       "name": "송파구 청년예술인 <2026 더 임팩트>",
       "category": "행사",
@@ -1925,6 +1949,71 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000015",
       "imageTheme": "senior",
       "image": "https://images.unsplash.com/photo-1536420111820-c2e08c93b9d8?w=800&q=80"
+    },
+    {
+      "id": "000023",
+      "name": "귀화/국적회복 허가 및 증명서 발급 수수료 면제",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "상시",
+      "location": "지방출입국‧외국인관서",
+      "target": "특별공로자, 재난피해자, 장애인, 외국국적동포 등 국적 관련 신청자",
+      "summary": "귀화허가, 국적회복 허가 및 국적업무 증명서 발급 신청 수수료 면제",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000023",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&q=80"
+    },
+    {
+      "id": "000025",
+      "name": "범죄 피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-05-04",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원",
+      "target": "만 19세 미만 아동 및 범죄 피해 장애인",
+      "summary": "범죄 피해 아동·장애인 수사·재판 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&q=80"
+    },
+    {
+      "id": "135200",
+      "name": "장애인·노인 보조기기 맞춤형 서비스",
+      "category": "혜택",
+      "startDate": "2026-05-04",
+      "endDate": "상시",
+      "location": "중앙 및 지역보조기기센터",
+      "target": "보조기기 서비스가 필요한 장애인, 노인",
+      "summary": "장애인·노인에게 보조기기 상담 및 정보 제공",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000017",
+      "imageTheme": "health",
+      "image": "https://images.unsplash.com/photo-1494390248081-4e521a5940db?w=800&q=80"
+    },
+    {
+      "id": "000019",
+      "name": "입원환자 일상용품 지급",
+      "category": "혜택",
+      "startDate": "2026-05-04",
+      "endDate": "상시",
+      "location": "국립소록도병원 기획운영과",
+      "target": "국립소록도병원 입원한센인",
+      "summary": "소록도병원 입원한센인에게 일상용품, 의료서비스 등 제공",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000019",
+      "imageTheme": "health",
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&q=80"
+    },
+    {
+      "id": "000080",
+      "name": "치매관리 서비스",
+      "category": "혜택",
+      "startDate": "2026-05-04",
+      "endDate": "상시",
+      "location": "전국 치매안심센터",
+      "target": "지역사회 주민",
+      "summary": "치매안심센터에서 치매 상담, 검진, 쉼터 등을 제공합니다.",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000080",
+      "imageTheme": "health",
+      "image": "https://images.unsplash.com/photo-1511174346297-cde2546c76b1?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -3343,7 +3432,67 @@
       "summary": "AI 학습용 데이터의 공유 및 활용을 위한 플랫폼 구축 및 운영 지원",
       "link": "https://www.msit.go.kr/ai/dataplatform",
       "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-04-1",
+      "name": "인공지능 전문기업 육성 및 성장 지원 사업",
+      "category": "AI지원",
+      "startDate": "2026-03-01",
+      "endDate": "2026-11-30",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI 기술 기반 중소·벤처기업",
+      "summary": "AI 전문기업의 기술개발, 사업화, 스케일업을 종합 지원",
+      "link": "https://www.nipa.kr/main/main.html",
+      "image": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-04-2",
+      "name": "인공지능 특화 개방형 혁신 프로젝트",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "2026-12-15",
+      "location": "서울 AI 허브",
+      "target": "AI 스타트업, 대기업, 연구기관 컨소시엄",
+      "summary": "AI 기술 기반 대-스타트업 협력 PoC 및 상용화 프로젝트 지원",
+      "link": "https://www.seoulaihub.kr/",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-04-3",
+      "name": "인공지능 기반 융합 서비스 창업기업 도약 지원",
+      "category": "AI지원",
+      "startDate": "2026-01-20",
+      "endDate": "2026-10-31",
+      "location": "K-Startup 창업진흥원",
+      "target": "AI 융합 서비스 분야 창업 3~7년 기업",
+      "summary": "AI 융합 서비스 아이템 고도화 및 시장 확장을 위한 사업화 지원",
+      "link": "https://www.k-startup.go.kr/",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-04-4",
+      "name": "중소기업 제조 혁신을 위한 AI-로봇 융합 솔루션 개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-02-15",
+      "endDate": "2026-11-30",
+      "location": "중소벤처기업부 (기업마당)",
+      "target": "제조 분야 중소기업 및 공급기업",
+      "summary": "AI-로봇 융합 솔루션 개발 및 제조 현장 적용을 위한 기술 지원",
+      "link": "https://www.bizinfo.go.kr/",
+      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-04-5",
+      "name": "인공지능 신뢰성 확보 및 활용 컨설팅 지원",
+      "category": "AI지원",
+      "startDate": "2026-05-01",
+      "endDate": "2026-12-31",
+      "location": "과학기술정보통신부",
+      "target": "AI 기술 개발 및 활용 기업",
+      "summary": "AI 시스템의 신뢰성, 공정성 확보를 위한 컨설팅 및 가이드라인 적용 지원",
+      "link": "https://www.msit.go.kr/",
+      "image": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-05-03"
+  "lastUpdated": "2026-05-04"
 }
