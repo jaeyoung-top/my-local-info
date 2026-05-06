@@ -1,6 +1,18 @@
 {
   "events": [
     {
+      "id": "crawler-1778033113064-254",
+      "name": "송파구 청년예술인 문화캘린더: 2026 더 임팩트",
+      "category": "행사",
+      "startDate": "2026-05-01",
+      "endDate": "상시",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "송파구 청년예술인들이 선보이는 문화 공연 프로젝트 '2026 더 임팩트' 일정을 소개합니다.",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9020&aid=17674",
+      "image": "https://images.unsplash.com/photo-1543362906-acfc16c67564?q=80&w=1000&auto=format&fit=crop"
+    },
+    {
       "id": "crawler-1777860362311-7",
       "name": "송파구 청년예술인 문화공연 〈2026 더 임팩트〉",
       "category": "행사",
@@ -2079,6 +2091,71 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000082",
       "imageTheme": "health",
       "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80"
+    },
+    {
+      "id": "000023",
+      "name": "귀화·국적회복 및 증명서 발급 수수료 면제",
+      "category": "혜택",
+      "startDate": "2026-05-06",
+      "endDate": "상시",
+      "location": "지방출입국‧외국인관서",
+      "target": "특별공로자, 재난피해자, 장애인, 재외동포 등 국적 관련 수수료 면제 대상",
+      "summary": "귀화, 국적회복 및 국적업무 증명서 발급 신청 수수료 면제",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000023",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&q=80"
+    },
+    {
+      "id": "000025",
+      "name": "범죄 피해 아동 및 장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-05-06",
+      "endDate": "상시",
+      "location": "법무부",
+      "target": "만19세 미만 아동 및 장애인 범죄 피해자",
+      "summary": "만 19세 미만 아동, 의사소통 어려운 장애인 범죄 피해자의 수사·재판상 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1551009175-15bdf9dcb580?w=800&q=80"
+    },
+    {
+      "id": "000083",
+      "name": "결핵 환자 가족접촉자 검진비 지원",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "상시",
+      "location": "질병관리청",
+      "target": "결핵 환자의 가족 및 동거인",
+      "summary": "결핵환자와 접촉한 가족에게 결핵검사 무료 제공",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000083",
+      "imageTheme": "health",
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&q=80"
+    },
+    {
+      "id": "000085",
+      "name": "장애인 공동생활가정 운영 지원",
+      "category": "혜택",
+      "startDate": "2026-05-06",
+      "endDate": "상시",
+      "location": "시·군·구청",
+      "target": "등록장애인 (수급권자 또는 부양의무자 없음/능력없음)",
+      "summary": "장애인을 위한 공동생활가정 운영을 지원하여 돌봄 및 자립지원서비스 제공",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000085",
+      "imageTheme": "health",
+      "image": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=800&q=80"
+    },
+    {
+      "id": "135200000086",
+      "name": "아동복지시설 기능보강 지원",
+      "category": "혜택",
+      "startDate": "2026-05-06",
+      "endDate": "상시",
+      "location": "시·군·구청",
+      "target": "법인 운영 아동복지시설",
+      "summary": "법인 운영 아동복지시설의 중·개축 및 장비보강 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000086",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1560969184-10fe8719e047?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -3617,7 +3694,67 @@
       "summary": "AI 학습 데이터 품질 향상 및 표준화 컨설팅 지원",
       "link": "https://www.nipa.kr",
       "image": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-06-1",
+      "name": "창업기업 성장단계별 맞춤형 멘토링 및 컨설팅 (AI/디지털)",
+      "category": "AI지원",
+      "startDate": "2026-01-01",
+      "endDate": "상시",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "AI·디지털 분야 초기/성장 창업기업",
+      "summary": "창업기업의 사업화, 투자유치 등 맞춤형 멘토링 및 컨설팅 지원",
+      "link": "https://www.k-startup.go.kr/",
+      "image": "https://images.unsplash.com/photo-1488229297570-58520851e868?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-06-2",
+      "name": "중소기업 탄소중립 전환 지원 (디지털 솔루션 활용)",
+      "category": "AI지원",
+      "startDate": "2026-03-01",
+      "endDate": "2026-11-30",
+      "location": "중소벤처기업부",
+      "target": "탄소중립 전환을 추진하는 중소기업",
+      "summary": "디지털 솔루션 활용을 통한 중소기업 탄소중립 전환 지원",
+      "link": "https://www.bizinfo.go.kr/web/main/index.do",
+      "image": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-06-3",
+      "name": "오픈소스 SW 개발 및 활용 확산 지원",
+      "category": "AI지원",
+      "startDate": "2026-03-01",
+      "endDate": "2026-11-30",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "SW 개발 기업, 개발자 및 오픈소스 프로젝트",
+      "summary": "오픈소스 SW 개발 생태계 조성 및 기술 역량 강화 지원",
+      "link": "https://www.nipa.kr/",
+      "image": "https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-06-4",
+      "name": "AI·디지털 신기술 분야 규제 샌드박스 지원",
+      "category": "AI지원",
+      "startDate": "2026-01-01",
+      "endDate": "상시",
+      "location": "과학기술정보통신부, 중소벤처기업부 등",
+      "target": "새로운 AI·디지털 기술/서비스 개발 기업",
+      "summary": "AI·디지털 신기술/서비스에 대한 규제 특례 부여 및 실증 지원",
+      "link": "https://sandbox.go.kr/",
+      "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-06-5",
+      "name": "AI 기반 서비스 접근성 강화 기술 개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-03-01",
+      "endDate": "2026-11-30",
+      "location": "과학기술정보통신부",
+      "target": "AI 기반으로 서비스 접근성 개선 기술을 개발하는 기업/연구기관",
+      "summary": "AI 활용 디지털 약자의 서비스 접근성 향상 기술 개발 지원",
+      "link": "https://www.msit.go.kr/index.do",
+      "image": "https://images.unsplash.com/photo-1488229297570-58520851e868?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-05-05"
+  "lastUpdated": "2026-05-06"
 }
