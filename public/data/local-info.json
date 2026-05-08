@@ -1,6 +1,18 @@
 {
   "events": [
     {
+      "id": "crawler-1778206501710-327",
+      "name": "송파구 청년예술인 '더 임팩트' 공연",
+      "category": "행사",
+      "startDate": "2024-05-01",
+      "endDate": "상시",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "송파구 청년 예술인들이 참여하여 선보이는 문화 공연 프로젝트 '더 임팩트'를 '문화캘린더'에서 확인해보세요.",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9020&aid=17674",
+      "image": "https://images.unsplash.com/photo-1506157786151-b8491531f063?q=80&w=1000&auto=format&fit=crop"
+    },
+    {
       "id": "crawler-1778119665189-241",
       "name": "5월 가정의 달 행사: 음악회, 어린이 뮤지컬, 송파 아동·청소년축제",
       "category": "행사",
@@ -2233,6 +2245,71 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000089",
       "imageTheme": "health",
       "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80"
+    },
+    {
+      "id": "127000000023",
+      "name": "귀화/국적회복 및 증명서 발급 수수료 면제",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "상시",
+      "location": "지방출입국‧외국인관서",
+      "target": "국적법 특별공로자 및 가족, 사할린동포 배우자, 특별재난지역 피해자, 장애인, 외국국적동포 등",
+      "summary": "귀화/국적회복 허가 및 국적업무 증명서 발급 수수료 면제",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000023",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1509822929063-6b6723e0e974?w=800&q=80"
+    },
+    {
+      "id": "000025",
+      "name": "범죄 피해 아동 및 장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-05-08",
+      "endDate": "상시",
+      "location": "법무부",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "범죄 피해 아동·장애인의 수사·재판 소통 중개 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1476703993599-0035a21b17a9?w=800&q=80"
+    },
+    {
+      "id": "135200000088",
+      "name": "지역자율형 사회서비스 보수교육 지원",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "상시",
+      "location": "보건복지부",
+      "target": "지역자율형 사회서비스 제공기관 종사자",
+      "summary": "사회서비스 종사자의 역량 강화를 위한 교육 제공",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000088",
+      "imageTheme": "education",
+      "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&q=80"
+    },
+    {
+      "id": "135200",
+      "name": "장애인 구강진료센터 치과 의료서비스",
+      "category": "혜택",
+      "startDate": "2026-05-08",
+      "endDate": "상시",
+      "location": "장애인구강진료센터",
+      "target": "장애인(치과 중증장애인 포함)",
+      "summary": "장애인에 대한 치과의료서비스 제공 및 비급여 진료비 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000090",
+      "imageTheme": "health",
+      "image": "https://images.unsplash.com/photo-1494390248081-4e521a5940db?w=800&q=80"
+    },
+    {
+      "id": "135200000091",
+      "name": "격리대상 감염병환자 격리치료비 지원",
+      "category": "혜택",
+      "startDate": "2026-05-08",
+      "endDate": "상시",
+      "location": "보건소",
+      "target": "격리대상 감염병 환자",
+      "summary": "격리대상 감염병 환자의 격리 치료비를 요양급여기준에 의거하여 지급",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000091",
+      "imageTheme": "health",
+      "image": "https://images.unsplash.com/photo-1550831107-1553da8c8464?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -3891,7 +3968,67 @@
       "summary": "사용자 참여형 인공지능 리빙랩 구축 및 운영을 통해 기술 검증 및 확산",
       "link": "https://www.msit.go.kr/",
       "image": "https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-08-1",
+      "name": "지역SW서비스사업화지원사업",
+      "category": "AI지원",
+      "startDate": "2026-03-01",
+      "endDate": "2026-11-30",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "지역 SW/IT 기업 및 스타트업",
+      "summary": "지역 특화 SW 서비스 개발 및 사업화를 위한 종합 지원.",
+      "link": "https://www.nipa.kr/",
+      "image": "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-08-2",
+      "name": "초격차 스타트업 1000+ 프로젝트",
+      "category": "AI지원",
+      "startDate": "2026-03-15",
+      "endDate": "2026-12-31",
+      "location": "중소벤처기업부 (창업진흥원)",
+      "target": "AI·빅데이터 포함 딥테크 분야 스타트업",
+      "summary": "딥테크 유망 스타트업 기술개발, 사업화, 글로벌 진출 종합 지원.",
+      "link": "https://www.k-startup.go.kr/",
+      "image": "https://images.unsplash.com/photo-1526378800651-c32d170fe6f8?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-08-3",
+      "name": "서울 AI 허브 AI 기술 도입 및 활용 컨설팅 지원",
+      "category": "AI지원",
+      "startDate": "2026-05-01",
+      "endDate": "2026-12-31",
+      "location": "서울 AI 허브",
+      "target": "AI 기술 도입 희망 중소·중견기업",
+      "summary": "AI 기술 도입 전략 수립 및 활용 방안에 대한 전문 컨설팅 제공.",
+      "link": "https://seoulaihub.kr/",
+      "image": "https://images.unsplash.com/photo-1516321165247-4aa89a48be55?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-08-4",
+      "name": "정보통신 인프라 고도화 사업 (AI·데이터 기반)",
+      "category": "AI지원",
+      "startDate": "2026-01-01",
+      "endDate": "2026-12-31",
+      "location": "과학기술정보통신부",
+      "target": "공공기관, 데이터센터 및 인프라 기업",
+      "summary": "AI·빅데이터 활용을 위한 고성능 네트워크 및 인프라 구축/고도화 지원.",
+      "link": "https://www.msit.go.kr/",
+      "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-08-5",
+      "name": "중소기업 기술개발 혁신 바우처 (자율과제)",
+      "category": "AI지원",
+      "startDate": "2026-02-01",
+      "endDate": "2026-11-30",
+      "location": "중소벤처기업부 (중소기업기술정보진흥원)",
+      "target": "기술 혁신 및 개발을 추진하는 중소기업",
+      "summary": "중소기업의 자율적인 기술개발 R&D를 바우처 형태로 지원. (AI/빅데이터 분야 포함)",
+      "link": "https://www.smtech.go.kr/",
+      "image": "https://images.unsplash.com/photo-1516321165247-4aa89a48be55?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-05-07"
+  "lastUpdated": "2026-05-08"
 }
