@@ -264,19 +264,8 @@ ${JSON.stringify(targetItem, null, 2)}`;
       const processedItem = JSON.parse(jsonMatch[0]);
       processedItem.id = String(processedItem.id || Date.now());
 
-      // 이미지 할당 (중복 방지)
-      const theme = processedItem.imageTheme && themePools[processedItem.imageTheme]
-        ? processedItem.imageTheme : 'admin';
-      const imagePool = themePools[theme];
-      const usedImages = new Set([
-        ...localData.events.map(e => e.image),
-        ...localData.benefits.map(b => b.image),
-        ...(localData.aiSupport || []).map(a => a.image)
-      ]);
-      const available = imagePool.filter(img => !usedImages.has(img));
-      processedItem.image = available.length > 0
-        ? available[Math.floor(Math.random() * available.length)]
-        : imagePool[Math.floor(Math.random() * imagePool.length)];
+      // 항목 ID를 시드로 고유 이미지 부여 (중복 없음)
+      processedItem.image = `https://picsum.photos/seed/${processedItem.id}/800/500`;
 
       // 중복 이름을 existingNames에 추가
       existingNames.add(normalizeString(processedItem.name));
