@@ -22,7 +22,7 @@ export default function SideBanner() {
         position: 'fixed',
         right: 0,
         top: '50%',
-        transform: 'translateY(-50%)',
+        transform: 'translateY(-50%) scale(0.6)',
         width: '90px',
         height: '728px',
         zIndex: 40,
