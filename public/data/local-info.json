@@ -1807,6 +1807,71 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000005",
       "imageTheme": "health",
       "image": "https://picsum.photos/seed/000005/800/500"
+    },
+    {
+      "id": "000023",
+      "name": "귀화·국적회복 및 증명서 발급 수수료 면제",
+      "category": "혜택",
+      "startDate": "2026-05-11",
+      "endDate": "상시",
+      "location": "지방출입국‧외국인관서",
+      "target": "특별공로자, 사할린동포 배우자, 재난피해자, 장애인 등 국적 취득 신청자",
+      "summary": "귀화·국적회복 및 증명서 발급 수수료 면제",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000023",
+      "imageTheme": "admin",
+      "image": "https://picsum.photos/seed/000023/800/500"
+    },
+    {
+      "id": "127000000025",
+      "name": "성폭력, 아동학대, 인신매매 등 피해자 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-05-11",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원",
+      "target": "성폭력·아동학대·인신매매 피해 아동 및 장애인",
+      "summary": "만 19세 미만 아동, 의사소통이 어려운 장애인 범죄 피해자의 수사·재판상 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://picsum.photos/seed/127000000025/800/500"
+    },
+    {
+      "id": "000006",
+      "name": "소년소녀가정 지원",
+      "category": "혜택",
+      "startDate": "2026-05-11",
+      "endDate": "상시",
+      "location": "주민센터",
+      "target": "만 18세 미만 소년소녀가장 세대",
+      "summary": "만 18세 미만 소년소녀가장 세대에게 생계, 교육, 의료, 부가급여 및 전세자금 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000006",
+      "imageTheme": "children",
+      "image": "https://picsum.photos/seed/000006/800/500"
+    },
+    {
+      "id": "135200",
+      "name": "희귀질환 진단지원",
+      "category": "혜택",
+      "startDate": "2026-05-11",
+      "endDate": "상시",
+      "location": "양산부산대학교병원 및 진단의뢰기관",
+      "target": "유전성 희귀질환 환자",
+      "summary": "미진단 희귀질환자 유전자 검사 및 해석 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000008",
+      "imageTheme": "health",
+      "image": "https://picsum.photos/seed/135200/800/500"
+    },
+    {
+      "id": "135200000010",
+      "name": "아동 공동생활 가정 운영 지원",
+      "category": "혜택",
+      "startDate": "2026-05-11",
+      "endDate": "상시",
+      "location": "보건복지부",
+      "target": "공동생활가정 시설장 및 종사자",
+      "summary": "아동 공동생활가정의 운영비, 인건비, 연장근로수당 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000010",
+      "imageTheme": "children",
+      "image": "https://picsum.photos/seed/135200000010/800/500"
     }
   ],
   "aiSupport": [
