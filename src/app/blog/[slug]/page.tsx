@@ -109,7 +109,12 @@ export default async function BlogPost({ params }: Params) {
               dangerouslySetInnerHTML={{ __html: htmlContent }}
             />
             
-            {/* 본문 하단 쿠팡 배너 (연관 태그 포함) */}
+            {/* 쿠팡 파트너스 필수 고지 */}
+            <p className="text-xs text-gray-400 mt-10 mb-2">
+              이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.
+            </p>
+
+            {/* 본문 하단 쿠팡 배너 */}
             <CoupangBanner />
             
             {/* E-E-A-T Footer */}
