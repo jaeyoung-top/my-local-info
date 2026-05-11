@@ -1,6 +1,18 @@
 {
   "events": [
     {
+      "id": "crawler-1778478103038-979",
+      "name": "송파구 청년예술인 문화캘린더 〈2026 더 임팩트〉",
+      "category": "행사",
+      "startDate": "2026-05-01",
+      "endDate": "상시",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "송파구 청년 예술인들의 열정과 재능을 만날 수 있는 '2026 더 임팩트' 문화 행사가 펼쳐집니다.",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9020&aid=17674",
+      "image": "https://images.unsplash.com/photo-1506157786151-b8491531f063?q=80&w=1000&auto=format&fit=crop"
+    },
+    {
       "id": "crawler-1777428629606-628",
       "name": "송파구 청년예술인 <2026 더 임팩트>",
       "category": "행사",
@@ -1730,6 +1742,71 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/134200005044",
       "imageTheme": "education",
       "image": "https://picsum.photos/seed/134200005044/800/500"
+    },
+    {
+      "id": "000023",
+      "name": "국적 관련 수수료 면제",
+      "category": "혜택",
+      "startDate": "2026-05-11",
+      "endDate": "상시",
+      "location": "지방출입국‧외국인관서",
+      "target": "특별공로자, 재난피해자, 장애인, 외국국적동포 등",
+      "summary": "귀화, 국적회복 및 증명서 발급 수수료 면제",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000023",
+      "imageTheme": "admin",
+      "image": "https://picsum.photos/seed/000023/800/500"
+    },
+    {
+      "id": "127000",
+      "name": "피해 아동·장애인 진술조력 지원",
+      "category": "혜택",
+      "startDate": "2026-05-11",
+      "endDate": "상시",
+      "location": "법무부",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "만 19세 미만 아동, 의사소통 어려운 장애인 범죄 피해자의 수사·재판 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "admin",
+      "image": "https://picsum.photos/seed/127000/800/500"
+    },
+    {
+      "id": "134200005047",
+      "name": "유아교육비·보육료 추가지원",
+      "category": "혜택",
+      "startDate": "2026-05-11",
+      "endDate": "상시",
+      "location": "교육부",
+      "target": "유아학비·누리보육료 지원 대상 유아",
+      "summary": "학부모 양육비 부담 경감을 위해 유아교육비·보육료 월 5만원 추가지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/134200005047",
+      "imageTheme": "education",
+      "image": "https://picsum.photos/seed/134200005047/800/500"
+    },
+    {
+      "id": "135200000002",
+      "name": "의료급여 틀니·치과임플란트 지원",
+      "category": "혜택",
+      "startDate": "2026-05-11",
+      "endDate": "상시",
+      "location": "시·군·구청",
+      "target": "65세 이상 의료급여 수급자",
+      "summary": "65세 이상 의료급여 수급자를 대상으로 틀니, 임플란트 급여 적용",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000002",
+      "imageTheme": "health",
+      "image": "https://picsum.photos/seed/135200000002/800/500"
+    },
+    {
+      "id": "000005",
+      "name": "임산부 및 영유아 영양플러스",
+      "category": "혜택",
+      "startDate": "2026-05-11",
+      "endDate": "상시",
+      "location": "보건소",
+      "target": "기준 중위소득 80% 이하 영양위험요인 보유 임산부 및 영유아",
+      "summary": "임산부 및 영유아에게 정기적인 영양교육 및 상담, 보충 식품패키지 제공",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000005",
+      "imageTheme": "health",
+      "image": "https://picsum.photos/seed/000005/800/500"
     }
   ],
   "aiSupport": [
