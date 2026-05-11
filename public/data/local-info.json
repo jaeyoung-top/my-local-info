@@ -1665,6 +1665,71 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/134200005031",
       "imageTheme": "children",
       "image": "https://picsum.photos/seed/134200005031/800/500"
+    },
+    {
+      "id": "000023",
+      "name": "귀화/국적회복 허가 및 증명서 수수료 면제",
+      "category": "혜택",
+      "startDate": "2026-05-11",
+      "endDate": "상시",
+      "location": "지방출입국‧외국인관서",
+      "target": "특별공로자, 사할린동포, 재난피해자, 장애인 등 귀화·국적회복 신청자",
+      "summary": "귀화허가, 국적회복 허가 및 국적업무 증명서 발급 신청 수수료 면제",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000023",
+      "imageTheme": "admin",
+      "image": "https://picsum.photos/seed/000023/800/500"
+    },
+    {
+      "id": "127000000025",
+      "name": "범죄 피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-05-11",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "범죄 피해 아동·장애인의 수사·재판상 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://picsum.photos/seed/127000000025/800/500"
+    },
+    {
+      "id": "134200",
+      "name": "영유아보육료 지원",
+      "category": "혜택",
+      "startDate": "2026-01-01",
+      "endDate": "2026-12-31",
+      "location": "교육부",
+      "target": "0~5세 영유아 및 취학 아동",
+      "summary": "소득수준에 관계없이 0~5세 아동에게 보육료 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/134200005036",
+      "imageTheme": "children",
+      "image": "https://picsum.photos/seed/134200/800/500"
+    },
+    {
+      "id": "005041",
+      "name": "법학전문대학원 취약계층 장학금",
+      "category": "혜택",
+      "startDate": "2026-05-11",
+      "endDate": "상시",
+      "location": "교육부",
+      "target": "법학전문대학원 취약계층 학생",
+      "summary": "경제적 취약계층 법학전문대학원 등록금 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/134200005041",
+      "imageTheme": "education",
+      "image": "https://picsum.photos/seed/005041/800/500"
+    },
+    {
+      "id": "005044",
+      "name": "초·중·고 교육비 지원",
+      "category": "혜택",
+      "startDate": "2026-05-11",
+      "endDate": "상시",
+      "location": "교육부",
+      "target": "저소득층 초·중·고 학생",
+      "summary": "초·중·고 학생에게 학비, 급식비, 정보화지원 등 교육비 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/134200005044",
+      "imageTheme": "education",
+      "image": "https://picsum.photos/seed/005044/800/500"
     }
   ],
   "aiSupport": [
