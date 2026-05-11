@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "generate-posts": "node scripts/generate-blog-post.js",
+    "regenerate-all": "node scripts/regenerate-all-posts.js"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.19",

@@ -2,25 +2,13 @@ const fs = require('fs');
 const path = require('path');
 require('dotenv').config({ path: '.env.local' });
 
-/**
- * 하나의 항목으로 블로그 포스트를 생성합니다.
- * - 항목 ID로 파일명을 만들어 이미 생성된 것이면 건너뜁니다.
- */
-async function generatePost(item, forceRegenerate = false) {
+async function generatePost(item) {
   const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
   const postsDir = path.join(process.cwd(), 'src', 'content', 'posts');
   const today = new Date().toISOString().split('T')[0];
 
-  // 파일명은 항목 ID 기반으로 고정 (중복 방지)
   const fileName = `${item.id}.md`;
   const savePath = path.join(postsDir, fileName);
-
-  if (!forceRegenerate && fs.existsSync(savePath)) {
-    console.log(`[SKIP] ${item.name} - 이미 포스트가 존재합니다.`);
-    return false;
-  }
-
-  console.log(`[생성 중] ${item.name} (${item.id})`);
 
   const prompt = `아래 공공/지역서비스 정보를 바탕으로, 실제 혜택을 받으려는 독자에게 진정한 가치를 제공하는 심층 안내 글을 작성해줘.
 
@@ -82,10 +70,9 @@ source: "${item.link || ''}"
     const aiText = result.candidates[0].content.parts[0].text;
 
     fs.writeFileSync(savePath, aiText.trim(), 'utf8');
-    console.log(`✅ 완료: ${fileName}`);
     return true;
   } catch (err) {
-    console.error(`❌ 실패 [${item.id}]:`, err.message);
+    console.error(`  ❌ 실패: ${err.message}`);
     return false;
   }
 }
@@ -97,32 +84,62 @@ async function main() {
     return;
   }
 
+  const postsDir = path.join(process.cwd(), 'src', 'content', 'posts');
+  const backupDir = path.join(process.cwd(), 'src', 'content', 'posts-backup');
   const dataPath = path.join(process.cwd(), 'public', 'data', 'local-info.json');
-  const localData = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
 
-  // 모든 카테고리를 합쳐서 순서대로 처리
+  // 기존 포스트 백업
+  if (!fs.existsSync(backupDir)) {
+    fs.mkdirSync(backupDir, { recursive: true });
+  }
+  const existingFiles = fs.readdirSync(postsDir).filter(f => f.endsWith('.md'));
+  console.log(`기존 포스트 ${existingFiles.length}개 백업 중...`);
+  for (const file of existingFiles) {
+    fs.copyFileSync(path.join(postsDir, file), path.join(backupDir, file));
+  }
+  console.log(`백업 완료: posts-backup/\n`);
+
+  const localData = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
   const allItems = [
-    ...localData.events,
-    ...localData.benefits,
+    ...(localData.events || []),
+    ...(localData.benefits || []),
     ...(localData.aiSupport || [])
   ];
 
-  console.log(`총 ${allItems.length}개 항목 확인 중...`);
+  console.log(`총 ${allItems.length}개 항목 재생성 시작...`);
+  console.log(`예상 소요 시간: 약 ${Math.ceil(allItems.length * 3 / 60)}분\n`);
 
-  let createdCount = 0;
-  for (const item of allItems) {
-    const created = await generatePost(item);
-    if (created) {
-      createdCount++;
-      // API 과부하 방지: 요청 사이 2초 대기
-      await new Promise(r => setTimeout(r, 2000));
+  let successCount = 0;
+  let failCount = 0;
+
+  for (let i = 0; i < allItems.length; i++) {
+    const item = allItems[i];
+    process.stdout.write(`[${i + 1}/${allItems.length}] ${item.name} ... `);
+
+    // 기존 파일 삭제
+    const savePath = path.join(postsDir, `${item.id}.md`);
+    if (fs.existsSync(savePath)) fs.unlinkSync(savePath);
+
+    const ok = await generatePost(item);
+    if (ok) {
+      successCount++;
+      console.log('✅');
+    } else {
+      failCount++;
+      // 실패 시 백업 복원
+      const backupPath = path.join(backupDir, `${item.id}.md`);
+      if (fs.existsSync(backupPath)) {
+        fs.copyFileSync(backupPath, savePath);
+        console.log('⚠️ 백업 복원됨');
+      }
     }
+
+    await new Promise(r => setTimeout(r, 2500));
   }
 
-  if (createdCount === 0) {
-    console.log('✅ 모든 항목에 대한 포스트가 이미 존재합니다. 새로 생성된 글 없음.');
-  } else {
-    console.log(`🎉 총 ${createdCount}개의 새 블로그 포스트 생성 완료!`);
+  console.log(`\n완료: 성공 ${successCount}개, 실패 ${failCount}개`);
+  if (failCount > 0) {
+    console.log(`실패 항목은 posts-backup/ 에서 확인 가능합니다.`);
   }
 }
 
