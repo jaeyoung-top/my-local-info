@@ -1,270 +1,41 @@
-const COUPANG_ID = 'AF3039195';
+'use client';
 
-type Product = { name: string; desc: string; href: string; image: string };
-
-function makeHref(query: string) {
-  return `https://www.coupang.com/np/search?q=${encodeURIComponent(query)}&channel=partner&lptag=${COUPANG_ID}`;
-}
-
-const SEASON_PRODUCTS: Record<'spring' | 'summer' | 'fall' | 'winter', Product[]> = {
-  spring: [
-    {
-      name: '공기청정기',
-      desc: '봄철 황사·미세먼지 필수템',
-      href: makeHref('공기청정기'),
-      image: 'https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=500&q=80',
-    },
-    {
-      name: '황사마스크',
-      desc: 'KF94 황사·꽃가루 차단',
-      href: makeHref('황사마스크 KF94'),
-      image: 'https://images.unsplash.com/photo-1584634731339-252c581abfc5?w=500&q=80',
-    },
-    {
-      name: '자외선차단제',
-      desc: '봄 자외선 SPF50+ 필수',
-      href: makeHref('자외선차단제 SPF50'),
-      image: 'https://images.unsplash.com/photo-1556228720-195a672e8a03?w=500&q=80',
-    },
-    {
-      name: '피크닉 돗자리',
-      desc: '봄나들이 방수 돗자리',
-      href: makeHref('피크닉 돗자리 방수'),
-      image: 'https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=500&q=80',
-    },
-    {
-      name: '경량 바람막이',
-      desc: '봄 나들이 필수 아우터',
-      href: makeHref('경량 바람막이'),
-      image: 'https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=500&q=80',
-    },
-    {
-      name: '접이식 캠핑의자',
-      desc: '야외활동 경량 폴딩체어',
-      href: makeHref('접이식 캠핑의자'),
-      image: 'https://images.unsplash.com/photo-1504851149312-7a075b496cc7?w=500&q=80',
-    },
-    {
-      name: '코 세척기',
-      desc: '봄철 알레르기 비염 관리',
-      href: makeHref('코세척기 비염'),
-      image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=500&q=80',
-    },
-    {
-      name: '보온 텀블러',
-      desc: '봄 나들이 보온·보냉',
-      href: makeHref('텀블러 보온'),
-      image: 'https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?w=500&q=80',
-    },
-  ],
-  summer: [
-    {
-      name: '선풍기',
-      desc: '조용하고 강력한 바람',
-      href: makeHref('스탠드선풍기'),
-      image: 'https://images.unsplash.com/photo-1535062403990-00955e68a00a?w=500&q=80',
-    },
-    {
-      name: '에어컨 필터',
-      desc: '에어컨 청소·냉방 효율↑',
-      href: makeHref('에어컨 필터 청소'),
-      image: 'https://images.unsplash.com/photo-1563453392212-326f5e854473?w=500&q=80',
-    },
-    {
-      name: '쿨링 매트',
-      desc: '여름밤 시원한 수면',
-      href: makeHref('쿨링매트'),
-      image: 'https://images.unsplash.com/photo-1616594039964-ae9021a400a0?w=500&q=80',
-    },
-    {
-      name: '자외선차단제',
-      desc: '강한 자외선 완벽 차단',
-      href: makeHref('자외선차단제 SPF50'),
-      image: 'https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?w=500&q=80',
-    },
-    {
-      name: '물놀이 용품',
-      desc: '여름 레저 필수 아이템',
-      href: makeHref('물놀이 용품'),
-      image: 'https://images.unsplash.com/photo-1530549387789-4c1017266635?w=500&q=80',
-    },
-    {
-      name: '제습기',
-      desc: '장마철 습기 완벽 제거',
-      href: makeHref('제습기'),
-      image: 'https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?w=500&q=80',
-    },
-    {
-      name: '아이스 텀블러',
-      desc: '얼음 유지 스텐 텀블러',
-      href: makeHref('아이스 텀블러 스텐'),
-      image: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=500&q=80',
-    },
-    {
-      name: '건강기능식품',
-      desc: '여름 체력·면역 관리',
-      href: makeHref('건강기능식품 피로'),
-      image: 'https://images.unsplash.com/photo-1505576399279-565b52d4ac71?w=500&q=80',
-    },
-  ],
-  fall: [
-    {
-      name: '전기장판',
-      desc: '가을밤 따뜻한 온열매트',
-      href: makeHref('전기장판'),
-      image: 'https://images.unsplash.com/photo-1566552285-cdc8abb25f73?w=500&q=80',
-    },
-    {
-      name: '가습기',
-      desc: '건조한 실내 공기 관리',
-      href: makeHref('가습기 초음파'),
-      image: 'https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=500&q=80',
-    },
-    {
-      name: '커피머신',
-      desc: '홈카페 캡슐커피머신',
-      href: makeHref('캡슐커피머신'),
-      image: 'https://images.unsplash.com/photo-1610889556528-9a770e32642f?w=500&q=80',
-    },
-    {
-      name: '등산화',
-      desc: '단풍철 가을 트레킹화',
-      href: makeHref('등산화 가을'),
-      image: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&q=80',
-    },
-    {
-      name: '경량 패딩',
-      desc: '일교차 큰 가을 필수템',
-      href: makeHref('경량 패딩'),
-      image: 'https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=500&q=80',
-    },
-    {
-      name: '보온 텀블러',
-      desc: '따뜻한 음료 오래 유지',
-      href: makeHref('텀블러 보온'),
-      image: 'https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?w=500&q=80',
-    },
-    {
-      name: '건강기능식품',
-      desc: '환절기 면역력 강화',
-      href: makeHref('건강기능식품 면역'),
-      image: 'https://images.unsplash.com/photo-1505576399279-565b52d4ac71?w=500&q=80',
-    },
-    {
-      name: '에어프라이어',
-      desc: '간편 홈쿡 인기 1위',
-      href: makeHref('에어프라이어'),
-      image: 'https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=500&q=80',
-    },
-  ],
-  winter: [
-    {
-      name: '전기장판',
-      desc: '겨울 필수 온열매트',
-      href: makeHref('전기장판'),
-      image: 'https://images.unsplash.com/photo-1566552285-cdc8abb25f73?w=500&q=80',
-    },
-    {
-      name: '온풍기·히터',
-      desc: '순간 발열 전기히터',
-      href: makeHref('온풍기 전기히터'),
-      image: 'https://images.unsplash.com/photo-1574068468668-a05a11f871da?w=500&q=80',
-    },
-    {
-      name: '가습기',
-      desc: '건조한 겨울 실내 필수',
-      href: makeHref('가습기 초음파'),
-      image: 'https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=500&q=80',
-    },
-    {
-      name: '핫팩',
-      desc: '겨울 외출 필수 손난로',
-      href: makeHref('핫팩 손난로'),
-      image: 'https://images.unsplash.com/photo-1548123378-bde4eca81d2d?w=500&q=80',
-    },
-    {
-      name: '보온 텀블러',
-      desc: '따뜻한 음료 장시간 유지',
-      href: makeHref('텀블러 보온'),
-      image: 'https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?w=500&q=80',
-    },
-    {
-      name: '건강기능식품',
-      desc: '겨울 면역·체력 관리',
-      href: makeHref('건강기능식품 면역'),
-      image: 'https://images.unsplash.com/photo-1505576399279-565b52d4ac71?w=500&q=80',
-    },
-    {
-      name: '무선이어폰',
-      desc: '연말 선물 인기 1위',
-      href: makeHref('무선이어폰'),
-      image: 'https://images.unsplash.com/photo-1572536147248-ac59a8abfa4b?w=500&q=80',
-    },
-    {
-      name: '커피머신',
-      desc: '홈카페 캡슐커피머신',
-      href: makeHref('캡슐커피머신'),
-      image: 'https://images.unsplash.com/photo-1610889556528-9a770e32642f?w=500&q=80',
-    },
-  ],
-};
-
-function getSeason(): 'spring' | 'summer' | 'fall' | 'winter' {
-  const month = new Date().getMonth() + 1;
-  if (month >= 3 && month <= 5) return 'spring';
-  if (month >= 6 && month <= 8) return 'summer';
-  if (month >= 9 && month <= 11) return 'fall';
-  return 'winter';
-}
-
-const SEASON_LABEL: Record<ReturnType<typeof getSeason>, string> = {
-  spring: '🌸 봄 시즌',
-  summer: '☀️ 여름 시즌',
-  fall: '🍂 가을 시즌',
-  winter: '❄️ 겨울 시즌',
-};
+import { useEffect, useRef } from 'react';
 
 export default function CoupangBanner() {
-  const season = getSeason();
-  const products = SEASON_PRODUCTS[season];
+  const containerRef = useRef<HTMLDivElement>(null);
+  const initialized = useRef(false);
+
+  useEffect(() => {
+    if (initialized.current || !containerRef.current) return;
+    initialized.current = true;
+
+    const container = containerRef.current;
+
+    const loadScript = document.createElement('script');
+    loadScript.src = 'https://ads-partners.coupang.com/g.js';
+    loadScript.async = true;
+    loadScript.onload = () => {
+      const initScript = document.createElement('script');
+      initScript.text = `new PartnersCoupang.G({"id":987900,"template":"carousel","trackingCode":"AF3039195","width":"680","height":"140","tsource":""});`;
+      container.appendChild(initScript);
+    };
+    container.appendChild(loadScript);
+  }, []);
 
   return (
     <div className="w-full my-10 bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
       <div className="flex items-center justify-between px-6 py-4 border-b border-gray-100">
         <h3 className="text-[15px] font-black text-gray-800 flex items-center gap-2">
           <span className="bg-[#F25C05] text-white text-[10px] font-black px-2 py-0.5 rounded-md">BEST</span>
-          {SEASON_LABEL[season]} 쿠팡 인기 상품
+          쿠팡 인기 상품
         </h3>
         <span className="text-[10px] text-gray-400 font-bold">Sponsored by Coupang</span>
       </div>
-
-      <div className="grid grid-cols-2 sm:grid-cols-4 gap-px bg-gray-100">
-        {products.map((product) => (
-          <a
-            key={product.name}
-            href={product.href}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group bg-white hover:bg-[#FFF9F5] transition-colors duration-200 flex flex-col"
-          >
-            <div className="aspect-[4/3] overflow-hidden bg-gray-50">
-              <img
-                src={product.image}
-                alt={product.name}
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-              />
-            </div>
-            <div className="px-4 py-3">
-              <p className="text-[13px] font-black text-gray-800 group-hover:text-[#F25C05] transition-colors truncate">
-                {product.name}
-              </p>
-              <p className="text-[11px] text-gray-400 mt-0.5 truncate">{product.desc}</p>
-              <p className="text-[10px] text-[#F25C05] font-bold mt-2">쿠팡에서 보기 →</p>
-            </div>
-          </a>
-        ))}
-      </div>
-
+      <div
+        ref={containerRef}
+        className="flex justify-center py-3 px-4 overflow-x-auto"
+      />
       <p className="text-[10px] text-gray-400 text-center py-3 border-t border-gray-100">
         * 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.
       </p>
