@@ -32,6 +32,7 @@ jobs:
           node scripts/fetch-ai-programs.js
           node scripts/crawl-songpa-news.js
           node scripts/generate-blog-post.js
+          node scripts/fetch-hotdeals.js
         env:
           PUBLIC_DATA_API_KEY: ${{ secrets.PUBLIC_DATA_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}

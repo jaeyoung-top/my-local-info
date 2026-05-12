@@ -25,6 +25,7 @@ export default function Header({
         <div className="flex gap-6">
           <Link href="/" className={`cursor-pointer hover:underline ${pathname === '/' ? 'underline' : ''}`}>홈</Link>
           <Link href="/blog" className={`cursor-pointer hover:underline ${pathname.startsWith('/blog') ? 'underline' : ''}`}>블로그</Link>
+          <Link href="/hotdeal" className={`cursor-pointer hover:underline ${pathname.startsWith('/hotdeal') ? 'underline' : ''}`}>🔥 핫딜</Link>
           <Link href="/events" className={`cursor-pointer hover:underline ${pathname === '/events' ? 'underline' : ''}`}>송파구 이번달행사</Link>
           <Link href="/benefits" className={`cursor-pointer hover:underline ${pathname === '/benefits' ? 'underline' : ''}`}>공공(전국)지원금·혜택</Link>
           <Link href="/ai-support" className={`cursor-pointer hover:underline ${pathname === '/ai-support' ? 'underline' : ''}`}>AI지원프로그램</Link>
