@@ -1949,6 +1949,71 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000015",
       "imageTheme": "senior",
       "image": "https://picsum.photos/seed/135200/800/500"
+    },
+    {
+      "id": "000023",
+      "name": "귀화/국적회복 등 수수료 면제",
+      "category": "혜택",
+      "startDate": "2026-05-12",
+      "endDate": "상시",
+      "location": "지방출입국‧외국인관서",
+      "target": "귀화/국적회복 신청 특별공로자, 동포, 장애인, 재난피해자 등",
+      "summary": "귀화/국적회복 허가 및 국적업무 증명서 발급 수수료 면제",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000023",
+      "imageTheme": "admin",
+      "image": "https://picsum.photos/seed/000023/800/500"
+    },
+    {
+      "id": "000025",
+      "name": "피해 아동 및 장애인 진술조력 지원",
+      "category": "혜택",
+      "startDate": "2026-05-12",
+      "endDate": "상시",
+      "location": "수사기관 및 법원",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "범죄 피해 아동 및 장애인의 수사·재판상 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://picsum.photos/seed/000025/800/500"
+    },
+    {
+      "id": "135200",
+      "name": "장애인·노인 보조기기 맞춤형 서비스",
+      "category": "혜택",
+      "startDate": "2026-05-12",
+      "endDate": "상시",
+      "location": "중앙 및 지역보조기기센터",
+      "target": "보조기기 서비스가 필요한 장애인, 노인 등",
+      "summary": "장애인·노인에게 보조기기 상담 및 정보 제공",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000017",
+      "imageTheme": "health",
+      "image": "https://picsum.photos/seed/135200/800/500"
+    },
+    {
+      "id": "135200000019",
+      "name": "입원환자 등에 대한 일상용품의 지급",
+      "category": "혜택",
+      "startDate": "2026-05-12",
+      "endDate": "상시",
+      "location": "국립소록도병원",
+      "target": "국립소록도병원 입원 한센인",
+      "summary": "소록도병원 입원한센인에게 일상용품, 의료서비스 등 제공",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000019",
+      "imageTheme": "health",
+      "image": "https://picsum.photos/seed/135200000019/800/500"
+    },
+    {
+      "id": "000080",
+      "name": "치매관리 서비스 (치매안심센터)",
+      "category": "혜택",
+      "startDate": "2026-05-12",
+      "endDate": "상시",
+      "location": "전국 치매안심센터",
+      "target": "지역사회 주민",
+      "summary": "치매안심센터에서 상담, 검진, 쉼터 등 치매관리 서비스 제공",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000080",
+      "imageTheme": "health",
+      "image": "https://picsum.photos/seed/000080/800/500"
     }
   ],
   "aiSupport": [
