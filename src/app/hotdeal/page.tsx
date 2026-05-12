@@ -9,6 +9,7 @@ type Deal = {
   id: string;
   title: string;
   price: string | null;
+  image: string | null;
   category: string;
   source: string;
   sourceColor: string;
@@ -52,18 +53,40 @@ function DealCard({ deal }: { deal: Deal }) {
       rel="noopener noreferrer"
       className="group flex flex-col bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-200"
     >
-      {/* 헤더 스트라이프 */}
-      <div className="h-1.5 w-full bg-gradient-to-r from-[#FF3B3B] to-[#F25C05]" />
-
-      <div className="flex flex-col flex-grow p-4 gap-2">
-        {/* 뱃지 행 */}
-        <div className="flex items-center gap-2 flex-wrap">
+      {/* 상품 이미지 */}
+      {deal.image ? (
+        <div className="relative h-40 w-full overflow-hidden bg-gray-50">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={deal.image}
+            alt={deal.title}
+            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+            onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = 'none'; }}
+          />
+          {/* 소스 뱃지 (이미지 위) */}
           <span
-            className="text-[10px] font-black px-2 py-0.5 rounded-full text-white"
+            className="absolute top-2 left-2 text-[10px] font-black px-2 py-0.5 rounded-full text-white shadow"
             style={{ backgroundColor: srcColor }}
           >
             {deal.source}
           </span>
+        </div>
+      ) : (
+        /* 이미지 없을 때 컬러 스트라이프 + 소스 뱃지 */
+        <div className="h-1.5 w-full bg-gradient-to-r from-[#FF3B3B] to-[#F25C05]" />
+      )}
+
+      <div className="flex flex-col flex-grow p-4 gap-2">
+        {/* 뱃지 행 (이미지 없을 때만 소스 뱃지 표시) */}
+        <div className="flex items-center gap-2 flex-wrap">
+          {!deal.image && (
+            <span
+              className="text-[10px] font-black px-2 py-0.5 rounded-full text-white"
+              style={{ backgroundColor: srcColor }}
+            >
+              {deal.source}
+            </span>
+          )}
           {deal.category !== '기타' && (
             <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-gray-100 text-gray-500">
               {deal.category}

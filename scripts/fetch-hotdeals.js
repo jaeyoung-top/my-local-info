@@ -22,7 +22,6 @@ function categorize(title) {
 }
 
 function extractPrice(title) {
-  // [12,900원] 또는 12900원 패턴 추출
   const patterns = [
     /[\[（\(](\d[\d,]+)\s*원/,
     /(\d[\d,]+)\s*원/,
@@ -34,13 +33,61 @@ function extractPrice(title) {
   return null;
 }
 
+function makeId(prefix, link) {
+  return `${prefix}_${Buffer.from(link).toString('base64url').slice(-16)}`;
+}
+
+function normalizeImg(src, base) {
+  if (!src) return null;
+  src = src.trim();
+  if (src.startsWith('//')) return 'https:' + src;
+  if (src.startsWith('http')) return src;
+  if (src.startsWith('/')) return base + src;
+  return null;
+}
+
 const HEADERS = {
-  'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-  'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+  'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
   'Accept-Language': 'ko-KR,ko;q=0.9,en-US;q=0.8',
   'Cache-Control': 'no-cache',
 };
 
+// 개별 페이지에서 OG 이미지 추출 (새 딜에만 사용)
+async function fetchOgImage(url) {
+  try {
+    const res = await fetch(url, {
+      headers: HEADERS,
+      signal: AbortSignal.timeout(6000),
+    });
+    if (!res.ok) return null;
+    const html = await res.text();
+    const $ = cheerio.load(html);
+    const og = $('meta[property="og:image"]').attr('content')
+      || $('meta[name="twitter:image"]').attr('content');
+    if (!og) return null;
+    // 루리웹 등 상대 경로 처리
+    try { return new URL(og, url).href; } catch { return og; }
+  } catch {
+    return null;
+  }
+}
+
+// 동시 5개씩 OG 이미지 수집
+async function enrichWithImages(deals) {
+  const CONCURRENCY = 5;
+  const noImg = deals.filter(d => !d.image);
+  console.log(`OG 이미지 수집: ${noImg.length}개 대상`);
+
+  for (let i = 0; i < noImg.length; i += CONCURRENCY) {
+    const chunk = noImg.slice(i, i + CONCURRENCY);
+    await Promise.all(chunk.map(async deal => {
+      deal.image = await fetchOgImage(deal.link);
+    }));
+  }
+}
+
+// ─── 뽐뿌 ───────────────────────────────────────────────────────────────────
 async function fetchPpomppu() {
   const deals = [];
   try {
@@ -52,7 +99,6 @@ async function fetchPpomppu() {
 
     $('tr').each((i, el) => {
       const $el = $(el);
-      // 뽐뿌 목록: title 셀에 링크 있음
       const $a = $el.find('a[href*="zboard.php"]').first();
       const title = $a.text().trim();
       const href = $a.attr('href');
@@ -60,20 +106,20 @@ async function fetchPpomppu() {
 
       const link = href.startsWith('http') ? href : `https://www.ppomppu.co.kr/zboard/${href}`;
 
-      // 날짜/조회/공감 셀들
-      const cells = $el.find('td');
-      const dateText = cells.filter((_, td) => {
-        const t = $(td).text().trim();
-        return /\d{2}\/\d{2}|\d{4}-\d{2}/.test(t);
-      }).first().text().trim();
+      // 목록 썸네일 시도
+      const $img = $el.find('img.thumb, img[src*="thumb"], td.title img').first();
+      const imgSrc = $img.attr('src') || $img.attr('data-src') || null;
+      const image = normalizeImg(imgSrc, 'https://www.ppomppu.co.kr');
 
-      const likesText = cells.last().text().trim();
-      const likes = parseInt(likesText.replace(/\D/g, '')) || 0;
+      const cells = $el.find('td');
+      const dateText = cells.filter((_, td) => /\d{2}\/\d{2}|\d{4}-\d{2}/.test($(td).text().trim())).first().text().trim();
+      const likes = parseInt(cells.last().text().replace(/\D/g, '')) || 0;
 
       deals.push({
-        id: `pp_${Buffer.from(link).toString('base64url').slice(-16)}`,
+        id: makeId('pp', link),
         title: title.replace(/\s+/g, ' ').trim(),
         price: extractPrice(title),
+        image,
         category: categorize(title),
         source: '뽐뿌',
         sourceColor: '#FF6B35',
@@ -91,6 +137,7 @@ async function fetchPpomppu() {
   return deals;
 }
 
+// ─── 클리앙 ──────────────────────────────────────────────────────────────────
 async function fetchClien() {
   const deals = [];
   try {
@@ -108,20 +155,26 @@ async function fetchClien() {
       if (!title || !href) return;
 
       const link = href.startsWith('http') ? href : `https://www.clien.net${href}`;
-      const $time = $el.find('time, .list_time span').first();
-      // datetime 속성 우선, 없으면 title 속성, 마지막으로 텍스트
+
+      // 목록 썸네일 시도
+      const $img = $el.find('.list_img img, .subject_img img, img.thumb').first();
+      const imgSrc = $img.attr('src') || $img.attr('data-src') || null;
+      const image = normalizeImg(imgSrc, 'https://www.clien.net');
+
+      const $time = $el.find('time').first();
       const dateText = $time.attr('datetime') || $time.attr('title') || '';
       const likes = parseInt($el.find('.list_recommend span').first().text().trim()) || 0;
 
       deals.push({
-        id: `cl_${Buffer.from(link).toString('base64url').slice(-16)}`,
+        id: makeId('cl', link),
         title: title.replace(/\s+/g, ' ').trim(),
         price: extractPrice(title),
+        image,
         category: categorize(title),
         source: '클리앙',
         sourceColor: '#2A6EBB',
         link,
-        publishedAt: dateText || '',
+        publishedAt: dateText,
         likes,
         fetchedAt: new Date().toISOString(),
       });
@@ -134,6 +187,7 @@ async function fetchClien() {
   return deals;
 }
 
+// ─── 루리웹 ──────────────────────────────────────────────────────────────────
 async function fetchRuliweb() {
   const deals = [];
   try {
@@ -151,14 +205,21 @@ async function fetchRuliweb() {
       if (!title || !href || title.length < 5) return;
 
       const link = href.startsWith('http') ? href : `https://bbs.ruliweb.com${href}`;
+
+      // 루리웹은 목록에 썸네일 있음
+      const $img = $el.find('.thumbnail img, .subject_img img, td.subject img, img.lazy').first();
+      const imgSrc = $img.attr('src') || $img.attr('data-src') || $img.attr('data-original') || null;
+      const image = normalizeImg(imgSrc, 'https://bbs.ruliweb.com');
+
       const $timeEl = $el.find('time').first();
       const dateText = $timeEl.attr('datetime') || $el.find('.time_date').first().text().trim();
       const likes = parseInt($el.find('.recomd').first().text().trim()) || 0;
 
       deals.push({
-        id: `rl_${Buffer.from(link).toString('base64url').slice(-16)}`,
+        id: makeId('rl', link),
         title: title.replace(/\s+/g, ' ').trim(),
         price: extractPrice(title),
+        image,
         category: categorize(title),
         source: '루리웹',
         sourceColor: '#3B82F6',
@@ -176,6 +237,7 @@ async function fetchRuliweb() {
   return deals;
 }
 
+// ─── 메인 ────────────────────────────────────────────────────────────────────
 async function main() {
   console.log('핫딜 수집 시작...');
 
@@ -186,19 +248,32 @@ async function main() {
   ]);
 
   const allNew = [...ppDeals, ...clDeals, ...rlDeals];
-  console.log(`전체 신규 수집: ${allNew.length}개`);
+  console.log(`전체 수집: ${allNew.length}개`);
 
   const outputPath = path.join(process.cwd(), 'public', 'data', 'hotdeals.json');
 
   let existing = { deals: [] };
-  try {
-    existing = JSON.parse(fs.readFileSync(outputPath, 'utf8'));
-  } catch {}
+  try { existing = JSON.parse(fs.readFileSync(outputPath, 'utf8')); } catch {}
 
   const existingLinks = new Set((existing.deals || []).map(d => d.link));
-  const newDeals = allNew.filter(d => d.title.length > 3 && !existingLinks.has(d.link));
 
-  // 최신 500개 유지
+  // 신규 딜만 필터
+  const newDeals = allNew.filter(d => d.title.length > 3 && !existingLinks.has(d.link));
+  console.log(`신규: ${newDeals.length}개`);
+
+  // 신규 딜에 OG 이미지 보충
+  if (newDeals.length > 0) {
+    await enrichWithImages(newDeals);
+  }
+
+  // 기존 딜도 image 없는 것만 재시도 (최대 10개, 오래된 것 제외)
+  const existingNoImg = (existing.deals || []).filter(d => !d.image).slice(0, 10);
+  if (existingNoImg.length > 0) {
+    console.log(`기존 딜 이미지 보충: ${existingNoImg.length}개`);
+    await enrichWithImages(existingNoImg);
+  }
+
+  // 합치기 (최신 500개 유지)
   const combined = [...newDeals, ...(existing.deals || [])].slice(0, 500);
 
   fs.writeFileSync(outputPath, JSON.stringify({

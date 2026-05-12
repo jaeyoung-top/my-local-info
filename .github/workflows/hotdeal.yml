@@ -1,0 +1,53 @@
+name: Hotdeal Auto Update
+
+on:
+  schedule:
+    - cron: '0 */3 * * *'  # 3시간마다 (UTC 기준 0, 3, 6, 9, 12, 15, 18, 21시)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Fetch hotdeals
+        run: node scripts/fetch-hotdeals.js
+
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data/hotdeals.json
+          git diff --staged --quiet && echo "변경 없음, 스킵" && exit 0
+          git commit -m "자동 업데이트: 핫딜 수집 $(date +'%Y-%m-%d %H:%M')"
+          git pull --rebase origin main || (
+            git checkout --theirs public/data/hotdeals.json &&
+            git add public/data/hotdeals.json &&
+            GIT_EDITOR=true git rebase --continue
+          )
+          git push
+
+      - name: Build
+        run: npm run build
+
+      - name: Deploy to Cloudflare Pages
+        run: npx wrangler pages deploy out --project-name=my-local-info
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
