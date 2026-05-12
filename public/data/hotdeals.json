@@ -1,6 +1,19 @@
 {
   "deals": [
     {
+      "id": "rl_cmVhZC8xMDQwNzY_",
+      "title": "[스팀] 메르헨 포레스트 90% 3900원",
+      "price": "3900원",
+      "image": "https://i1.ruliweb.com/ori/26/05/13/19e1d4a861e5724a7.webp",
+      "category": "게임",
+      "source": "루리웹",
+      "sourceColor": "#3B82F6",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/104076?",
+      "publishedAt": "",
+      "likes": 4,
+      "fetchedAt": "2026-05-12T19:29:53.283Z"
+    },
+    {
       "id": "rl_cmVhZC8xMDQwNzM_",
       "title": "[네이버페이] 일일적립, 클릭 38원, 라이브예고 12원",
       "price": "38원",
@@ -868,7 +881,8 @@
       "link": "https://bbs.ruliweb.com/market/board/1020/read/104052?",
       "publishedAt": "",
       "likes": 15,
-      "fetchedAt": "2026-05-12T05:31:41.910Z"
+      "fetchedAt": "2026-05-12T05:31:41.910Z",
+      "image": "https://i1.ruliweb.com/ori/26/05/12/19e17b49ac6458122.webp"
     },
     {
       "id": "rl_cmVhZC8xMDQwNTA_",
@@ -1063,5 +1077,5 @@
       "fetchedAt": "2026-05-12T05:31:41.912Z"
     }
   ],
-  "lastUpdated": "2026-05-12T17:03:58.787Z"
+  "lastUpdated": "2026-05-12T19:29:55.002Z"
 }
