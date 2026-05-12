@@ -1,6 +1,19 @@
 {
   "deals": [
     {
+      "id": "rl_cmVhZC8xMDQwNjg_",
+      "title": "[11번가] 맥콜 제로 250ml*30캔 (11,890원/무료)",
+      "price": "11,890원",
+      "image": "https://i2.ruliweb.com/ori/26/05/12/19e1c51194e4fa273.webp",
+      "category": "기타",
+      "source": "루리웹",
+      "sourceColor": "#3B82F6",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/104068?",
+      "publishedAt": "",
+      "likes": 2,
+      "fetchedAt": "2026-05-12T13:59:14.262Z"
+    },
+    {
       "id": "rl_cmVhZC8xMDQwNjY_",
       "title": "[옥션] 게이머즈 5월호 14990 원 ( 4대 카드 / 무료배송 )",
       "price": "14990원",
@@ -621,7 +634,8 @@
       "link": "https://bbs.ruliweb.com/market/board/1020/read/104063?",
       "publishedAt": "",
       "likes": 3,
-      "fetchedAt": "2026-05-12T05:31:41.908Z"
+      "fetchedAt": "2026-05-12T05:31:41.908Z",
+      "image": "https://i2.ruliweb.com/ori/26/05/12/19e1a96301b597a1d.webp"
     },
     {
       "id": "rl_cmVhZC8xMDQwNjI_",
@@ -633,7 +647,8 @@
       "link": "https://bbs.ruliweb.com/market/board/1020/read/104062?",
       "publishedAt": "",
       "likes": 10,
-      "fetchedAt": "2026-05-12T05:31:41.908Z"
+      "fetchedAt": "2026-05-12T05:31:41.908Z",
+      "image": null
     },
     {
       "id": "rl_cmVhZC8xMDQwNjE_",
@@ -645,7 +660,8 @@
       "link": "https://bbs.ruliweb.com/market/board/1020/read/104061?",
       "publishedAt": "",
       "likes": 21,
-      "fetchedAt": "2026-05-12T05:31:41.908Z"
+      "fetchedAt": "2026-05-12T05:31:41.908Z",
+      "image": "https://i3.ruliweb.com/ori/26/05/12/19e1a025000597a1d.webp"
     },
     {
       "id": "rl_cmVhZC8xMDQwNjA_",
@@ -657,7 +673,8 @@
       "link": "https://bbs.ruliweb.com/market/board/1020/read/104060?",
       "publishedAt": "",
       "likes": 0,
-      "fetchedAt": "2026-05-12T05:31:41.908Z"
+      "fetchedAt": "2026-05-12T05:31:41.908Z",
+      "image": "https://i1.ruliweb.com/ori/26/05/12/19e19da0353595be5.webp"
     },
     {
       "id": "rl_cmVhZC8xMDQwNTk_",
@@ -669,7 +686,8 @@
       "link": "https://bbs.ruliweb.com/market/board/1020/read/104059?",
       "publishedAt": "",
       "likes": 7,
-      "fetchedAt": "2026-05-12T05:31:41.909Z"
+      "fetchedAt": "2026-05-12T05:31:41.909Z",
+      "image": "https://i3.ruliweb.com/ori/26/05/12/19e19c47c34170a96.webp"
     },
     {
       "id": "rl_cmVhZC8xMDQwNTg_",
@@ -681,7 +699,8 @@
       "link": "https://bbs.ruliweb.com/market/board/1020/read/104058?",
       "publishedAt": "",
       "likes": 11,
-      "fetchedAt": "2026-05-12T05:31:41.909Z"
+      "fetchedAt": "2026-05-12T05:31:41.909Z",
+      "image": "https://i1.ruliweb.com/ori/26/05/12/19e19b5d3b45d693.webp"
     },
     {
       "id": "rl_cmVhZC8xMDQwNTc_",
@@ -948,5 +967,5 @@
       "fetchedAt": "2026-05-12T05:31:41.912Z"
     }
   ],
-  "lastUpdated": "2026-05-12T11:14:09.796Z"
+  "lastUpdated": "2026-05-12T13:59:16.713Z"
 }
