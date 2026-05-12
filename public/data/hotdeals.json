@@ -1,6 +1,45 @@
 {
   "deals": [
     {
+      "id": "cl_k9MCZncm91cENkPQ",
+      "title": "[iOS] Creator Cam: Dualshot Recorder 일시 무료",
+      "price": null,
+      "image": "https://edgio.clien.net/F01/2026/5/15729216/6bb31f086d667.jpeg?scale=width:480",
+      "category": "기타",
+      "source": "클리앙",
+      "sourceColor": "#2A6EBB",
+      "link": "https://www.clien.net/service/board/jirum/19189898?od=T31&po=0&category=0&groupCd=",
+      "publishedAt": "",
+      "likes": 0,
+      "fetchedAt": "2026-05-12T22:05:50.545Z"
+    },
+    {
+      "id": "rl_cmVhZC8xMDQwNzg_",
+      "title": "[한국PS스토어] 넥스트 레벨 세일 최대 70% 할인",
+      "price": null,
+      "image": "https://i3.ruliweb.com/ori/26/05/13/19e1e2e914323c9e.webp",
+      "category": "기타",
+      "source": "루리웹",
+      "sourceColor": "#3B82F6",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/104078?",
+      "publishedAt": "",
+      "likes": 0,
+      "fetchedAt": "2026-05-12T22:05:50.629Z"
+    },
+    {
+      "id": "rl_cmVhZC8xMDQwNzc_",
+      "title": "[옥션] 오레오 쿠키 100g 12개 골라담기 (10,710원/무료) (1)",
+      "price": "10,710원",
+      "image": "https://i1.ruliweb.com/ori/26/05/13/19e1e19f4bf595be5.webp",
+      "category": "기타",
+      "source": "루리웹",
+      "sourceColor": "#3B82F6",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/104077?",
+      "publishedAt": "",
+      "likes": 4,
+      "fetchedAt": "2026-05-12T22:05:50.629Z"
+    },
+    {
       "id": "rl_cmVhZC8xMDQwNzY_",
       "title": "[스팀] 메르헨 포레스트 90% 3900원",
       "price": "3900원",
@@ -894,7 +933,8 @@
       "link": "https://bbs.ruliweb.com/market/board/1020/read/104050?",
       "publishedAt": "",
       "likes": 24,
-      "fetchedAt": "2026-05-12T05:31:41.910Z"
+      "fetchedAt": "2026-05-12T05:31:41.910Z",
+      "image": "https://i2.ruliweb.com/ori/26/05/12/19e179bb0ed1e3474.webp"
     },
     {
       "id": "rl_cmVhZC8xMDQwNDk_",
@@ -1077,5 +1117,5 @@
       "fetchedAt": "2026-05-12T05:31:41.912Z"
     }
   ],
-  "lastUpdated": "2026-05-12T19:29:55.002Z"
+  "lastUpdated": "2026-05-12T22:05:52.904Z"
 }
