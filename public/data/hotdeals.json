@@ -1,6 +1,428 @@
 {
   "deals": [
     {
+      "id": "hdz_141794",
+      "title": "남순남 순대국 일반 10인분",
+      "price": "30,900원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/05/13/thumb_43288572260df81d1bd4c00c43a29bb1.webp",
+      "category": "식품",
+      "site": "지마켓",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://hotdealzip.mycafe24.com/ppomppu_view.php?url=view.php%3Fid%3Dppomppu%26page%3D1%26divpage%3D112%26no%3D703677",
+      "publishedAt": "2026-05-13 15:18:16",
+      "likes": 2,
+      "fetchedAt": "2026-05-13T06:19:46.151Z",
+      "priceComparison": [
+        {
+          "site": "지마켓",
+          "price": "30,900원"
+        },
+        {
+          "site": "11번가",
+          "price": "53,700원"
+        },
+        {
+          "site": "쿠차",
+          "price": "32,108원"
+        },
+        {
+          "site": "유클",
+          "price": "29,900원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "04-21",
+            "price": 36460
+          },
+          {
+            "date": "04-28",
+            "price": 36460
+          },
+          {
+            "date": "05-05",
+            "price": 36460
+          },
+          {
+            "date": "05-12",
+            "price": 37750
+          }
+        ],
+        "minPrice": 36460,
+        "maxPrice": 37750
+      },
+      "postContent": {
+        "text": "7% 쿠폰적용시 32,460원 유니버스클럽 15% 적용시 30,900원이라 1인분당 3,090원 잡내 없고 맛 괜찮습니다.",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0513/900w_20260513151552_dAi0hWQuzW.jpeg",
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0513/900w_20260513151601_Gmhxk35LYu.jpeg"
+        ]
+      },
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_141793",
+      "title": "숙성 생막창 500g 2개 (소스 포함)",
+      "price": "13,800원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/05/13/thumb_ee5770467b5f74cb9d0c43a60b5e46b6.webp",
+      "category": "식품",
+      "site": "네이버",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://hotdealzip.mycafe24.com/ppomppu_view.php?url=view.php%3Fid%3Dppomppu%26page%3D1%26divpage%3D112%26no%3D703676",
+      "publishedAt": "2026-05-13 15:16:15",
+      "likes": 1,
+      "fetchedAt": "2026-05-13T06:19:46.151Z",
+      "priceComparison": [
+        {
+          "site": "네이버",
+          "price": "13,800원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": {
+        "text": "숙성된거라 잡내 안나고 집이나 캠핑가서 구워 먹기 괜찮습니다 2세트 이상 구매시 3천원 할인돼서 500g 팩당 5,650원, 3세트 이상 구매시 치즈떡 증정하네요",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0513/900w_20260513151331_Hw8qAJ8P85.jpeg",
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0513/900w_20260513151334_VgHpdNepGp.jpeg"
+        ]
+      },
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_141792",
+      "title": "펩시콜라 제로라임 210mlx30캔+펩시제로라임 355ml 24캔",
+      "price": "21,510원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/05/13/thumb_7b96cbe9b0b2b74909dc253c97c75834.webp",
+      "category": "식품",
+      "site": "지마켓",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/9820921289",
+      "publishedAt": "2026-05-13 15:16:13",
+      "likes": 1,
+      "fetchedAt": "2026-05-13T06:19:46.151Z",
+      "priceComparison": [
+        {
+          "site": "지마켓",
+          "price": "21,510원"
+        },
+        {
+          "site": "11번가",
+          "price": "38,100원"
+        },
+        {
+          "site": "번개장터",
+          "price": "23,000원"
+        },
+        {
+          "site": "쿠차",
+          "price": "11,000원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_141791",
+      "title": "[지마켓] 7800X3D + 16GB 램 + RX9060XT 16GB 완본체",
+      "price": "1,397,620원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/05/13/thumb_9d055a6f5ba187fff5e0e1b3b2d84064.webp",
+      "category": "PC",
+      "site": "지마켓",
+      "source": "퀘이사존",
+      "sourceColor": "#7C3AED",
+      "link": "https://quasarzone.com/bbs/qb_saleinfo/views/1951119",
+      "publishedAt": "2026-05-13 15:16:05",
+      "likes": 6,
+      "fetchedAt": "2026-05-13T06:19:46.151Z",
+      "priceComparison": [
+        {
+          "site": "지마켓",
+          "price": "1,397,620원"
+        },
+        {
+          "site": "아이티산다",
+          "price": "1,420,000원"
+        },
+        {
+          "site": "쿠차",
+          "price": "1,435,000원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "02-24",
+            "price": 2770200
+          },
+          {
+            "date": "03-03",
+            "price": 2725990
+          },
+          {
+            "date": "03-10",
+            "price": 2789990
+          },
+          {
+            "date": "03-17",
+            "price": 2789990
+          },
+          {
+            "date": "03-24",
+            "price": 2670000
+          },
+          {
+            "date": "03-31",
+            "price": 2699500
+          },
+          {
+            "date": "04-07",
+            "price": 2698430
+          },
+          {
+            "date": "04-14",
+            "price": 2695310
+          },
+          {
+            "date": "04-21",
+            "price": 2498380
+          },
+          {
+            "date": "04-28",
+            "price": 2477440
+          },
+          {
+            "date": "05-05",
+            "price": 2477310
+          },
+          {
+            "date": "05-12",
+            "price": 2289000
+          }
+        ],
+        "minPrice": 2289000,
+        "maxPrice": 2789990
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_141790",
+      "title": "JBL GRIP 휴대용 블루투스 스피커",
+      "price": "77,100원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/05/13/thumb_485b4d603c4bc0413c50e90ca16f17a1.webp",
+      "category": "가전",
+      "site": "11번가",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/9820904854",
+      "publishedAt": "2026-05-13 15:12:22",
+      "likes": 1,
+      "fetchedAt": "2026-05-13T06:19:46.151Z",
+      "priceComparison": [
+        {
+          "site": "11번가",
+          "price": "77,100원"
+        },
+        {
+          "site": "다나와",
+          "price": "79,900원"
+        },
+        {
+          "site": "G마켓",
+          "price": "82,500원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "02-24",
+            "price": 111065
+          },
+          {
+            "date": "03-03",
+            "price": 99959
+          },
+          {
+            "date": "03-10",
+            "price": 103122
+          },
+          {
+            "date": "03-17",
+            "price": 103122
+          },
+          {
+            "date": "03-24",
+            "price": 106470
+          },
+          {
+            "date": "03-31",
+            "price": 108981
+          },
+          {
+            "date": "04-07",
+            "price": 97516
+          },
+          {
+            "date": "04-14",
+            "price": 97516
+          },
+          {
+            "date": "04-21",
+            "price": 109000
+          },
+          {
+            "date": "04-28",
+            "price": 109000
+          },
+          {
+            "date": "05-05",
+            "price": 90455
+          },
+          {
+            "date": "05-12",
+            "price": 90455
+          }
+        ],
+        "minPrice": 90455,
+        "maxPrice": 111065
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_141789",
+      "title": "노바시새우 20미 140g, 5팩",
+      "price": "16,890원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/05/13/thumb_b1a937cd994d1c036a4f61a9a6069f09.webp",
+      "category": "식품",
+      "site": "롯데온",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://hotdealzip.mycafe24.com/ppomppu_view.php?url=view.php%3Fid%3Dppomppu%26page%3D1%26divpage%3D112%26no%3D703675",
+      "publishedAt": "2026-05-13 15:12:13",
+      "likes": 9,
+      "fetchedAt": "2026-05-13T06:19:46.151Z",
+      "priceComparison": [
+        {
+          "site": "롯데온",
+          "price": "16,890원"
+        },
+        {
+          "site": "피터씨마켓",
+          "price": "23,900원"
+        },
+        {
+          "site": "스마트수 (tunamarket)",
+          "price": "11,900원"
+        },
+        {
+          "site": "피터씨마켓",
+          "price": "15,900원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": {
+        "text": "140g 기준 20미라 크진 않습니다간단한 튀김용도로 팩당 가격 괜찮네요",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0513/900w_20260513151105_QNKsh6V7Am.jpg"
+        ]
+      },
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_141788",
+      "title": "PS4/PS5 용과 같이 극3 디럭스에디션 30%세일",
+      "price": "61,040원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/05/13/thumb_2f208ed77b17c2703ab430add806dce9.webp",
+      "category": "게임",
+      "site": "PS스토어",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/9820910922",
+      "publishedAt": "2026-05-13 15:12:11",
+      "likes": 1,
+      "fetchedAt": "2026-05-13T06:19:46.151Z",
+      "priceComparison": [
+        {
+          "site": "PS스토어",
+          "price": "61,040원"
+        },
+        {
+          "site": "다나와",
+          "price": "62,780원"
+        },
+        {
+          "site": "H2mall",
+          "price": "69,800원"
+        },
+        {
+          "site": "옥션",
+          "price": "65,000원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "02-24",
+            "price": 58710
+          },
+          {
+            "date": "03-03",
+            "price": 58710
+          },
+          {
+            "date": "03-10",
+            "price": 58710
+          },
+          {
+            "date": "03-17",
+            "price": 58710
+          },
+          {
+            "date": "03-24",
+            "price": 52530
+          },
+          {
+            "date": "03-31",
+            "price": 58710
+          },
+          {
+            "date": "04-07",
+            "price": 58710
+          },
+          {
+            "date": "04-14",
+            "price": 58710
+          },
+          {
+            "date": "04-21",
+            "price": 58710
+          },
+          {
+            "date": "04-28",
+            "price": 28500
+          },
+          {
+            "date": "05-05",
+            "price": 28500
+          },
+          {
+            "date": "05-12",
+            "price": 28500
+          }
+        ],
+        "minPrice": 28500,
+        "maxPrice": 58710
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
       "id": "hdz_141787",
       "title": "스파클 2L 60통",
       "price": "23,220원",
@@ -8020,5 +8442,5 @@
       "fetchedAt": "2026-05-12T05:31:41.912Z"
     }
   ],
-  "lastUpdated": "2026-05-13T06:06:49.720Z"
+  "lastUpdated": "2026-05-13T06:19:48.783Z"
 }
