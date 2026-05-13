@@ -4,21 +4,25 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "서비스 소개 | AI 송파 인포",
-  description: "AI 송파 인포는 송파구 주민을 위해 지역 행사, 지원금, 혜택 정보를 매일 선별·정리하는 생활 정보 큐레이션 서비스입니다.",
+  description: "AI 송파 인포는 송파구 주민을 위해 지역 행사, 지원금, 혜택 정보와 전국 커뮤니티 핫딜을 매일 선별·정리하는 생활 정보 큐레이션 서비스입니다.",
 };
 
 const faqs = [
   {
     q: "정보는 얼마나 자주 업데이트되나요?",
-    a: "공공데이터포털, 송파구청 공식 채널 등 신뢰할 수 있는 공식 소스를 매일 확인하여 주민에게 유용한 최신 정보를 선별·정리합니다. 마지막 업데이트 일시는 메인 페이지 하단에서 확인하실 수 있습니다."
+    a: "공공데이터포털, 송파구청 공식 채널 등 신뢰할 수 있는 공식 소스는 매일 1회 확인하여 최신 정보를 정리합니다. 전국 핫딜은 FM코리아·퀘이사존·뽐뿌·루리웹·개드립·아카라이브에서 3시간마다 자동 수집됩니다. 마지막 업데이트 일시는 메인 페이지 하단에서 확인하실 수 있습니다."
   },
   {
     q: "지원금 신청 자격이 있는지 어떻게 확인하나요?",
     a: "각 항목의 '자세히 보기'를 클릭하면 상세 안내 글과 원문 출처 링크가 제공됩니다. 지원 조건과 자격 요건은 반드시 원문(구청 홈페이지, 공공데이터포털 등)에서 최종 확인하시기 바랍니다."
   },
   {
+    q: "핫딜 정보는 어떻게 수집되나요?",
+    a: "FM코리아, 퀘이사존, 뽐뿌, 루리웹, 개드립, 아카라이브 등 국내 주요 커뮤니티에서 공유되는 핫딜 정보를 3시간마다 자동 수집합니다. 각 딜의 원문 링크, 타 사이트 가격 비교, 가격 흐름 데이터도 함께 제공합니다. 가격·재고는 실시간으로 변동될 수 있으니 구매 전 반드시 확인하세요."
+  },
+  {
     q: "송파구 외 다른 지역 정보도 있나요?",
-    a: "네, '공공(전국)지원금·혜택' 탭에서는 서울시 전체 또는 전국 단위의 공공 지원 정보를 제공합니다. 'AI 지원프로그램' 탭에서는 전국 대상 AI 교육 및 지원 사업도 확인하실 수 있습니다."
+    a: "네, '공공(전국)지원금·혜택' 탭에서는 서울시 전체 또는 전국 단위의 공공 지원 정보를 제공합니다. 'AI 지원프로그램' 탭에서는 전국 대상 AI 교육 및 지원 사업도 확인하실 수 있습니다. 핫딜 또한 전국 커뮤니티 기반으로 지역 제한 없이 제공됩니다."
   },
   {
     q: "블로그 글은 어떻게 작성되나요?",
@@ -58,6 +62,12 @@ const usageGuide = [
     title: "블로그 활용",
     desc: "블로그 탭에서는 각 혜택의 신청 방법, 유의 사항, 활용 팁을 알기 쉽게 정리한 글을 확인할 수 있습니다.",
     icon: "📝"
+  },
+  {
+    step: "05",
+    title: "전국 핫딜 확인",
+    desc: "상단 '🔥 핫딜' 메뉴에서 FM코리아·퀘이사존·뽐뿌 등 주요 커뮤니티의 최신 핫딜을 한눈에 확인하세요. 가격 비교와 가격 흐름도 함께 제공됩니다.",
+    icon: "🔥"
   }
 ];
 
@@ -71,7 +81,7 @@ export default function AboutPage() {
           <span className="text-[#F25C05] font-black text-sm tracking-widest uppercase mb-4 inline-block">About Songpa INFO</span>
           <h1 className="text-4xl md:text-5xl font-black text-gray-900 mb-6 drop-shadow-sm">서비스 소개</h1>
           <p className="text-xl text-gray-500 font-medium leading-relaxed break-keep">
-            송파INFO는 우리 동네의 활기찬 소식과 흩어져 있는 유용한 공공 혜택을 한눈에 모아보는{" "}
+            송파INFO는 우리 동네의 활기찬 소식, 흩어져 있는 유용한 공공 혜택, 그리고 전국 커뮤니티 핫딜까지 한눈에 모아보는{" "}
             <strong>생활 정보 큐레이션 서비스</strong>입니다.
           </p>
         </div>
@@ -89,10 +99,15 @@ export default function AboutPage() {
             서울 송파구에는 매월 수십 가지의 문화 행사, 지역 축제, 주민 지원 프로그램이 운영되고 있습니다.
             하지만 정보가 여러 기관의 웹사이트에 분산되어 있어 주민들이 실질적인 혜택을 누리지 못하는 경우가 많습니다.
           </p>
-          <p className="text-gray-600 leading-8 text-lg break-keep">
+          <p className="text-gray-600 leading-8 text-lg break-keep mb-4">
             AI 송파 인포는 공공기관의 공식 정보를 한 곳에 모아 주민이 쉽게 찾고, 바로 신청할 수 있도록
             안내하는 <strong>지역 생활 정보 허브</strong>입니다. 특히 육아 가정, 취업 준비생, 고령층, 소상공인 등
             지원이 필요한 분들이 놓치는 혜택 없이 적시에 신청하실 수 있도록 돕는 것이 목표입니다.
+          </p>
+          <p className="text-gray-600 leading-8 text-lg break-keep">
+            더불어 FM코리아·퀘이사존·뽐뿌·루리웹·개드립·아카라이브 등 국내 주요 커뮤니티의
+            <strong> 전국 핫딜 정보</strong>를 3시간마다 자동 수집하여, 가격 비교·가격 흐름 분석과 함께 제공합니다.
+            생활 정보와 알뜰 쇼핑 정보를 한 곳에서 확인하세요.
           </p>
         </section>
 
@@ -109,6 +124,7 @@ export default function AboutPage() {
               <li>송파구청 공식 뉴스레터 및 홈페이지 (songpa.go.kr)</li>
               <li>정부24 및 각 부처 공식 사이트 (행정안전부, 복지부, 고용부 등)</li>
               <li>서울시 공공 데이터 포털 (data.seoul.go.kr)</li>
+              <li>핫딜 커뮤니티 — FM코리아, 퀘이사존, 뽐뿌, 루리웹, 개드립, 아카라이브 (3시간 주기 자동 수집)</li>
             </ul>
             <p className="text-sm text-gray-400 bg-gray-50 rounded-xl p-4">
               ※ 행사나 지원 정책의 상세 조건은 반드시 원문 링크를 통해 최종 확인하시기 바랍니다.
@@ -186,7 +202,8 @@ export default function AboutPage() {
               { icon: "💼", label: "창업·소상공인 지원", desc: "창업자금, 컨설팅, 판로 개척 지원" },
               { icon: "🏥", label: "건강·의료 지원", desc: "무료 건강검진, 의료비 지원" },
               { icon: "📚", label: "교육·학습 프로그램", desc: "평생학습, 무료 강좌, 장학금" },
-              { icon: "🤖", label: "AI·디지털 교육", desc: "AI 활용교육, 디지털 역량 강화" }
+              { icon: "🤖", label: "AI·디지털 교육", desc: "AI 활용교육, 디지털 역량 강화" },
+              { icon: "🔥", label: "전국 커뮤니티 핫딜", desc: "FM코리아·퀘이사존·뽐뿌·루리웹 등 3시간 자동 수집" }
             ].map((item) => (
               <div key={item.label} className="flex flex-col gap-1 bg-gray-50 rounded-xl px-4 py-3">
                 <div className="flex items-center gap-2">
@@ -231,7 +248,7 @@ export default function AboutPage() {
         </section>
 
         {/* 바로가기 */}
-        <div className="grid sm:grid-cols-3 gap-4">
+        <div className="grid sm:grid-cols-4 gap-4">
           <Link href="/" className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 hover:shadow-md transition-shadow text-center">
             <p className="text-3xl mb-2">🏠</p>
             <p className="font-bold text-gray-800">메인 홈</p>
@@ -242,9 +259,14 @@ export default function AboutPage() {
             <p className="font-bold text-gray-800">블로그</p>
             <p className="text-gray-500 text-xs mt-1">상세 정보 읽기</p>
           </Link>
+          <Link href="/hotdeal" className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 hover:shadow-md transition-shadow text-center">
+            <p className="text-3xl mb-2">🔥</p>
+            <p className="font-bold text-gray-800">전국 핫딜</p>
+            <p className="text-gray-500 text-xs mt-1">3시간마다 자동 수집</p>
+          </Link>
           <Link href="/guide" className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 hover:shadow-md transition-shadow text-center">
             <p className="text-3xl mb-2">🗺️</p>
-            <p className="font-bold text-gray-800">송파구 생활 가이드</p>
+            <p className="font-bold text-gray-800">생활 가이드</p>
             <p className="text-gray-500 text-xs mt-1">동네 생활 정보</p>
           </Link>
         </div>
@@ -253,10 +275,12 @@ export default function AboutPage() {
 
       <footer className="bg-white border-t border-gray-200 py-12 px-6 text-center">
         <p className="text-gray-400 text-sm mb-3">© 2026 AI 송파 인포 | 공공데이터 기반 지역 생활 정보 서비스</p>
-        <div className="flex justify-center gap-4 text-xs text-gray-400">
+        <div className="flex justify-center gap-4 text-xs text-gray-400 flex-wrap">
           <Link href="/" className="hover:text-[#1D428A]">홈</Link>
           <span>|</span>
           <Link href="/blog" className="hover:text-[#1D428A]">블로그</Link>
+          <span>|</span>
+          <Link href="/hotdeal" className="hover:text-[#F25C05]">🔥 핫딜</Link>
           <span>|</span>
           <Link href="/guide" className="hover:text-[#1D428A]">생활 가이드</Link>
           <span>|</span>
