@@ -20,12 +20,14 @@ type Deal = {
 };
 
 const CATEGORIES = ['전체', 'PC', '가전', '식품', '생활용품', '게임', '의류', '화장품', '해외핫딜', '기타'];
-const SOURCES = ['전체', '뽐뿌', '클리앙', '루리웹'];
+const SOURCES = ['전체', 'FM코리아', '퀘이사존', '개드립', '루리웹', '클리앙'];
 
 const SOURCE_COLORS: Record<string, string> = {
-  '뽐뿌': '#FF6B35',
-  '클리앙': '#2A6EBB',
+  'FM코리아': '#FF8C00',
+  '퀘이사존': '#7C3AED',
+  '개드립': '#DC2626',
   '루리웹': '#3B82F6',
+  '클리앙': '#2A6EBB',
 };
 
 function timeAgo(dateStr: string): string {

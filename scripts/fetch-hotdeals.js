@@ -27,10 +27,11 @@ function categorize(title) {
   return '기타';
 }
 
-function extractPrice(title) {
+function extractPrice(text) {
+  if (!text) return null;
   const patterns = [/[\[（\(](\d[\d,]+)\s*원/, /(\d[\d,]+)\s*원/];
   for (const re of patterns) {
-    const m = title.match(re);
+    const m = text.match(re);
     if (m) return m[1] + '원';
   }
   return null;
@@ -43,63 +44,38 @@ function makeId(prefix, link) {
 function normalizeImg(src, base) {
   if (!src) return null;
   src = src.trim();
+  if (src.startsWith('data:') || src.length < 10) return null;
   if (src.startsWith('//')) return 'https:' + src;
   if (src.startsWith('http')) return src;
   if (src.startsWith('/')) return base + src;
   return null;
 }
 
-// 소스별 Referer 매핑
-const REFERER_MAP = {
-  '루리웹': 'https://bbs.ruliweb.com',
-  '클리앙': 'https://www.clien.net',
-  '뽐뿌': 'https://www.ppomppu.co.kr',
-};
-
-const HEADERS = {
+const BASE_HEADERS = {
   'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
   'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
   'Accept-Language': 'ko-KR,ko;q=0.9,en-US;q=0.8',
   'Cache-Control': 'no-cache',
+  'Upgrade-Insecure-Requests': '1',
+  'Sec-Fetch-Dest': 'document',
+  'Sec-Fetch-Mode': 'navigate',
+  'Sec-Fetch-Site': 'none',
+  'Sec-Fetch-User': '?1',
+  'sec-ch-ua': '"Chromium";v="124", "Google Chrome";v="124", "Not-A.Brand";v="99"',
+  'sec-ch-ua-mobile': '?0',
+  'sec-ch-ua-platform': '"Windows"',
 };
 
-// 이미지를 로컬에 다운로드하고 /hotdeal-images/{id}.{ext} 경로 반환
-async function downloadImage(imageUrl, dealId, referer) {
-  if (!imageUrl) return null;
-  try {
-    const res = await fetch(imageUrl, {
-      headers: {
-        ...HEADERS,
-        'Referer': referer,
-        'Accept': 'image/webp,image/avif,image/*,*/*;q=0.8',
-      },
-      signal: AbortSignal.timeout(10000),
-    });
-    if (!res.ok) return null;
-
-    const contentType = res.headers.get('content-type') || '';
-    if (!contentType.startsWith('image/')) return null;
-
-    // 확장자 결정
-    const extMap = { 'image/webp': 'webp', 'image/jpeg': 'jpg', 'image/png': 'png', 'image/gif': 'gif', 'image/avif': 'avif' };
-    const ext = extMap[contentType.split(';')[0].trim()] || 'jpg';
-
-    const filename = `${dealId}.${ext}`;
-    const dest = path.join(IMG_DIR, filename);
-    const buffer = Buffer.from(await res.arrayBuffer());
-    if (buffer.length < 500) return null; // 너무 작으면 오류 이미지
-    fs.writeFileSync(dest, buffer);
-    return `/hotdeal-images/${filename}`;
-  } catch {
-    return null;
-  }
+function siteHeaders(referer) {
+  return { ...BASE_HEADERS, 'Referer': referer };
 }
 
-// OG 이미지 URL 추출
-async function fetchOgImage(url) {
+// ─── 이미지 다운로드 ──────────────────────────────────────────────────────────
+
+async function fetchOgImage(url, referer) {
   try {
     const res = await fetch(url, {
-      headers: HEADERS,
+      headers: siteHeaders(referer),
       signal: AbortSignal.timeout(6000),
     });
     if (!res.ok) return null;
@@ -114,141 +90,266 @@ async function fetchOgImage(url) {
   }
 }
 
-// 신규 딜 이미지 다운로드 (동시 5개)
+async function downloadImage(imageUrl, dealId, referer) {
+  if (!imageUrl) return null;
+  try {
+    const res = await fetch(imageUrl, {
+      headers: { ...BASE_HEADERS, 'Referer': referer, 'Accept': 'image/webp,image/avif,image/*,*/*;q=0.8' },
+      signal: AbortSignal.timeout(10000),
+    });
+    if (!res.ok) return null;
+    const ct = res.headers.get('content-type') || '';
+    if (!ct.startsWith('image/')) return null;
+    const extMap = { 'image/webp': 'webp', 'image/jpeg': 'jpg', 'image/png': 'png', 'image/gif': 'gif', 'image/avif': 'avif' };
+    const ext = extMap[ct.split(';')[0].trim()] || 'jpg';
+    const buf = Buffer.from(await res.arrayBuffer());
+    if (buf.length < 500) return null;
+    const filename = `${dealId}.${ext}`;
+    fs.writeFileSync(path.join(IMG_DIR, filename), buf);
+    return `/hotdeal-images/${filename}`;
+  } catch {
+    return null;
+  }
+}
+
+const REFERER_MAP = {
+  'FM코리아': 'https://www.fmkorea.com',
+  '퀘이사존': 'https://quasarzone.com',
+  '아카라이브': 'https://arca.live',
+  '개드립': 'https://www.dogdrip.net',
+  '루리웹': 'https://bbs.ruliweb.com',
+  '클리앙': 'https://www.clien.net',
+};
+
 async function downloadImages(deals) {
   const CONCURRENCY = 5;
-  let downloaded = 0;
+  let ok = 0;
   for (let i = 0; i < deals.length; i += CONCURRENCY) {
     const chunk = deals.slice(i, i + CONCURRENCY);
     await Promise.all(chunk.map(async deal => {
       const referer = REFERER_MAP[deal.source] || '';
-      let imgUrl = deal.imageUrl; // 원본 URL
-
-      // 목록에서 가져온 URL이 없으면 OG 이미지 시도
-      if (!imgUrl) {
-        imgUrl = await fetchOgImage(deal.link);
-      }
-
+      let imgUrl = deal.imageUrl || null;
+      if (!imgUrl) imgUrl = await fetchOgImage(deal.link, referer);
       if (imgUrl) {
         const local = await downloadImage(imgUrl, deal.id, referer);
-        if (local) {
-          deal.image = local;
-          downloaded++;
-        }
+        if (local) { deal.image = local; ok++; }
       }
-      delete deal.imageUrl; // 임시 필드 제거
+      delete deal.imageUrl;
     }));
   }
-  console.log(`이미지 다운로드: ${downloaded}/${deals.length}개 성공`);
+  console.log(`이미지 다운로드: ${ok}/${deals.length}개 성공`);
 }
 
-// ─── 뽐뿌 ───────────────────────────────────────────────────────────────────
-async function fetchPpomppu() {
+function cleanupOldImages(keepIds) {
+  if (!fs.existsSync(IMG_DIR)) return;
+  const keepSet = new Set(keepIds);
+  let removed = 0;
+  for (const file of fs.readdirSync(IMG_DIR)) {
+    if (!keepSet.has(file.replace(/\.[^.]+$/, ''))) {
+      fs.unlinkSync(path.join(IMG_DIR, file));
+      removed++;
+    }
+  }
+  if (removed > 0) console.log(`오래된 이미지 ${removed}개 삭제`);
+}
+
+// ─── FM코리아 ─────────────────────────────────────────────────────────────────
+async function fetchFmkorea() {
   const deals = [];
   try {
-    const res = await fetch('https://www.ppomppu.co.kr/zboard/zboard.php?id=hotdeal', { headers: HEADERS });
-    if (!res.ok) { console.log(`뽐뿌 응답 오류: ${res.status}`); return deals; }
+    const res = await fetch('https://www.fmkorea.com/hotdeal', { headers: siteHeaders('https://www.fmkorea.com') });
+    if (!res.ok) { console.log(`FM코리아 오류: ${res.status}`); return deals; }
+    const $ = cheerio.load(await res.text());
 
-    const html = await res.text();
-    const $ = cheerio.load(html);
-
-    $('tr').each((i, el) => {
+    $('#content .fm_best_widget ul li').each((i, el) => {
       const $el = $(el);
-      const $a = $el.find('a[href*="zboard.php"]').first();
-      const title = $a.text().trim();
+      // 종료된 딜 제외
+      if ($el.find('.hotdeal_var8Y').length > 0) return;
+
+      const $a = $el.find('.title a').first();
+      const title = $a.text().replace(/\[\d+\]/g, '').trim();
       const href = $a.attr('href');
-      if (!title || !href || title.length < 5) return;
+      if (!title || !href || title.length < 3) return;
 
-      const link = href.startsWith('http') ? href : `https://www.ppomppu.co.kr/zboard/${href}`;
-      const $img = $el.find('img.thumb, img[src*="thumb"], td.title img').first();
+      const link = href.startsWith('http') ? href : `https://www.fmkorea.com${href}`;
+
+      // hotdeal_info에서 가격 추출 우선
+      let price = null;
+      $el.find('.hotdeal_info span, .hotdeal_info a').each((_, s) => {
+        const t = $(s).text().trim();
+        if (!price) price = extractPrice(t);
+      });
+      if (!price) price = extractPrice(title);
+
+      // 썸네일
+      const $img = $el.find('img').first();
       const imgSrc = $img.attr('src') || $img.attr('data-src') || null;
-      const imageUrl = normalizeImg(imgSrc, 'https://www.ppomppu.co.kr');
+      const imageUrl = normalizeImg(imgSrc, 'https://www.fmkorea.com');
 
-      const cells = $el.find('td');
-      const dateText = cells.filter((_, td) => /\d{2}\/\d{2}|\d{4}-\d{2}/.test($(td).text().trim())).first().text().trim();
-      const likes = parseInt(cells.last().text().replace(/\D/g, '')) || 0;
+      const likes = parseInt($el.find('.pc_voted_count .count').text().trim()) || 0;
 
       deals.push({
-        id: makeId('pp', link),
-        title: title.replace(/\s+/g, ' ').trim(),
-        price: extractPrice(title),
-        image: null,
-        imageUrl,       // 임시: 다운로드 후 제거
+        id: makeId('fm', link), title, price,
+        image: null, imageUrl,
         category: categorize(title),
-        source: '뽐뿌',
-        sourceColor: '#FF6B35',
-        link,
-        publishedAt: dateText || '',
-        likes,
+        source: 'FM코리아', sourceColor: '#FF8C00',
+        link, publishedAt: '', likes,
         fetchedAt: new Date().toISOString(),
       });
     });
-
-    console.log(`뽐뿌: ${deals.length}개 파싱`);
-  } catch (err) {
-    console.error('뽐뿌 크롤링 오류:', err.message);
-  }
+    console.log(`FM코리아: ${deals.length}개 파싱`);
+  } catch (err) { console.error('FM코리아 오류:', err.message); }
   return deals;
 }
 
-// ─── 클리앙 ──────────────────────────────────────────────────────────────────
-async function fetchClien() {
+// ─── 퀘이사존 ─────────────────────────────────────────────────────────────────
+async function fetchQuasarzone() {
   const deals = [];
   try {
-    const res = await fetch('https://www.clien.net/service/board/jirum', { headers: HEADERS });
-    if (!res.ok) { console.log(`클리앙 응답 오류: ${res.status}`); return deals; }
+    const res = await fetch('https://quasarzone.com/bbs/qb_saleinfo', { headers: siteHeaders('https://quasarzone.com') });
+    if (!res.ok) { console.log(`퀘이사존 오류: ${res.status}`); return deals; }
+    const $ = cheerio.load(await res.text());
 
-    const html = await res.text();
-    const $ = cheerio.load(html);
-
-    $('.list_item').each((i, el) => {
+    $('.market-info-type-list table tbody tr').each((i, el) => {
       const $el = $(el);
-      const $a = $el.find('.subject_span a, .list_subject a').first();
-      const title = $a.text().trim();
+      // 종료된 딜 제외
+      if ($el.find('.label').text().trim() === '종료') return;
+
+      const $a = $el.find('a.subject-link').first();
+      const titleEl = $el.find('.ellipsis-with-reply-cnt').first();
+      const title = (titleEl.text() || $a.text()).replace(/\[\d+\]/g, '').trim();
       const href = $a.attr('href');
       if (!title || !href) return;
 
-      const link = href.startsWith('http') ? href : `https://www.clien.net${href}`;
-      const $img = $el.find('.list_img img, .subject_img img, img.thumb').first();
-      const imgSrc = $img.attr('src') || $img.attr('data-src') || null;
-      const imageUrl = normalizeImg(imgSrc, 'https://www.clien.net');
+      const link = href.startsWith('http') ? href : `https://quasarzone.com${href}`;
 
-      const $time = $el.find('time').first();
-      const dateText = $time.attr('datetime') || $time.attr('title') || '';
-      const likes = parseInt($el.find('.list_recommend span').first().text().trim()) || 0;
+      // market-info-sub에서 가격
+      let price = null;
+      $el.find('.market-info-sub span').each((_, s) => {
+        const t = $(s).text().trim();
+        if (!price) price = extractPrice(t);
+      });
+      if (!price) price = extractPrice(title);
+
+      // 썸네일 (목록에 있을 경우)
+      const $img = $el.find('img').first();
+      const imageUrl = normalizeImg($img.attr('src') || $img.attr('data-src') || null, 'https://quasarzone.com');
+
+      const likes = parseInt($el.find('td .num').first().text().trim()) || 0;
 
       deals.push({
-        id: makeId('cl', link),
-        title: title.replace(/\s+/g, ' ').trim(),
-        price: extractPrice(title),
-        image: null,
-        imageUrl,
+        id: makeId('qz', link), title, price,
+        image: null, imageUrl,
         category: categorize(title),
-        source: '클리앙',
-        sourceColor: '#2A6EBB',
-        link,
-        publishedAt: dateText,
-        likes,
+        source: '퀘이사존', sourceColor: '#7C3AED',
+        link, publishedAt: '', likes,
         fetchedAt: new Date().toISOString(),
       });
     });
-
-    console.log(`클리앙: ${deals.length}개 파싱`);
-  } catch (err) {
-    console.error('클리앙 크롤링 오류:', err.message);
-  }
+    console.log(`퀘이사존: ${deals.length}개 파싱`);
+  } catch (err) { console.error('퀘이사존 오류:', err.message); }
   return deals;
 }
 
-// ─── 루리웹 ──────────────────────────────────────────────────────────────────
+// ─── 아카라이브 ───────────────────────────────────────────────────────────────
+async function fetchArcalive() {
+  const deals = [];
+  try {
+    const res = await fetch('https://arca.live/b/hotdeal', { headers: siteHeaders('https://arca.live') });
+    if (!res.ok) { console.log(`아카라이브 오류: ${res.status}`); return deals; }
+    const $ = cheerio.load(await res.text());
+
+    $('.list-table .vrow.hybrid').each((i, el) => {
+      const $el = $(el);
+      // 종료 제외
+      if ($el.find('.deal-close').length > 0) return;
+
+      const href = $el.attr('href');
+      // 제목: .title의 직계 텍스트 노드만
+      const titleEl = $el.find('.title').first();
+      const title = titleEl.contents()
+        .filter((_, n) => n.nodeType === 3)
+        .text().trim() || titleEl.text().trim();
+
+      if (!title || !href) return;
+      const link = href.startsWith('http') ? href : `https://arca.live${href}`;
+
+      // deal-price가 있으면 우선 사용
+      const dealPrice = $el.find('.deal-price').text().trim();
+      const price = extractPrice(dealPrice) || extractPrice(title);
+
+      // 썸네일 이미지 시도
+      const $img = $el.find('img').first();
+      const imageUrl = normalizeImg($img.attr('src') || $img.attr('data-src') || null, 'https://arca.live');
+
+      const likes = parseInt($el.find('.col-rate').text().trim()) || 0;
+      const dateText = $el.find('time').attr('datetime') || '';
+
+      deals.push({
+        id: makeId('ac', link), title, price,
+        image: null, imageUrl,
+        category: categorize(title),
+        source: '아카라이브', sourceColor: '#0D9488',
+        link, publishedAt: dateText, likes,
+        fetchedAt: new Date().toISOString(),
+      });
+    });
+    console.log(`아카라이브: ${deals.length}개 파싱`);
+  } catch (err) { console.error('아카라이브 오류:', err.message); }
+  return deals;
+}
+
+// ─── 개드립 ───────────────────────────────────────────────────────────────────
+async function fetchDogdrip() {
+  const deals = [];
+  try {
+    const res = await fetch('https://www.dogdrip.net/hotdeal', { headers: siteHeaders('https://www.dogdrip.net') });
+    if (!res.ok) { console.log(`개드립 오류: ${res.status}`); return deals; }
+    const $ = cheerio.load(await res.text());
+
+    // 개드립 ul.list > li 구조
+    $('.list li:not(.notice)').each((i, el) => {
+      const $el = $(el);
+      const $a = $el.find('a.title-link').first();
+      const title = $a.text().trim();
+      let href = $a.attr('href');
+      if (!title || !href || title.length < 3) return;
+
+      if (!href.startsWith('http')) href = `https://www.dogdrip.net${href}`;
+      // 쿼리스트링 제거 (clean URL)
+      try { href = new URL(href).origin + new URL(href).pathname; } catch {}
+
+      // 썸네일
+      const $img = $el.find('img.webzine-thumbnail').first();
+      const imageUrl = normalizeImg($img.attr('src') || null, 'https://www.dogdrip.net');
+
+      // 추천수
+      const likes = parseInt($el.find('.text-primary').last().text().trim()) || 0;
+      // 날짜 (시간 표시)
+      const dateText = $el.find('.text-muted').last().text().replace(/\s+/g, ' ').trim();
+
+      deals.push({
+        id: makeId('dd', href), title,
+        price: extractPrice(title),
+        image: null, imageUrl,
+        category: categorize(title),
+        source: '개드립', sourceColor: '#DC2626',
+        link: href, publishedAt: dateText, likes,
+        fetchedAt: new Date().toISOString(),
+      });
+    });
+    console.log(`개드립: ${deals.length}개 파싱`);
+  } catch (err) { console.error('개드립 오류:', err.message); }
+  return deals;
+}
+
+// ─── 루리웹 ───────────────────────────────────────────────────────────────────
 async function fetchRuliweb() {
   const deals = [];
   try {
-    const res = await fetch('https://bbs.ruliweb.com/market/board/1020', { headers: HEADERS });
-    if (!res.ok) { console.log(`루리웹 응답 오류: ${res.status}`); return deals; }
-
-    const html = await res.text();
-    const $ = cheerio.load(html);
+    const res = await fetch('https://bbs.ruliweb.com/market/board/1020', { headers: siteHeaders('https://bbs.ruliweb.com') });
+    if (!res.ok) { console.log(`루리웹 오류: ${res.status}`); return deals; }
+    const $ = cheerio.load(await res.text());
 
     $('tr.table_body').each((i, el) => {
       const $el = $(el);
@@ -258,51 +359,65 @@ async function fetchRuliweb() {
       if (!title || !href || title.length < 5) return;
 
       const link = href.startsWith('http') ? href : `https://bbs.ruliweb.com${href}`;
-      const $img = $el.find('.thumbnail img, .subject_img img, td.subject img, img.lazy').first();
-      const imgSrc = $img.attr('src') || $img.attr('data-src') || $img.attr('data-original') || null;
-      const imageUrl = normalizeImg(imgSrc, 'https://bbs.ruliweb.com');
-
+      const $img = $el.find('.thumbnail img, .subject_img img, img.lazy').first();
+      const imageUrl = normalizeImg(
+        $img.attr('src') || $img.attr('data-src') || $img.attr('data-original') || null,
+        'https://bbs.ruliweb.com'
+      );
       const $timeEl = $el.find('time').first();
       const dateText = $timeEl.attr('datetime') || $el.find('.time_date').first().text().trim();
       const likes = parseInt($el.find('.recomd').first().text().trim()) || 0;
 
       deals.push({
-        id: makeId('rl', link),
-        title: title.replace(/\s+/g, ' ').trim(),
+        id: makeId('rl', link), title,
         price: extractPrice(title),
-        image: null,
-        imageUrl,
+        image: null, imageUrl,
         category: categorize(title),
-        source: '루리웹',
-        sourceColor: '#3B82F6',
-        link,
-        publishedAt: dateText || '',
-        likes,
+        source: '루리웹', sourceColor: '#3B82F6',
+        link, publishedAt: dateText, likes,
         fetchedAt: new Date().toISOString(),
       });
     });
-
     console.log(`루리웹: ${deals.length}개 파싱`);
-  } catch (err) {
-    console.error('루리웹 크롤링 오류:', err.message);
-  }
+  } catch (err) { console.error('루리웹 오류:', err.message); }
   return deals;
 }
 
-// 오래된 이미지 파일 정리 (보관할 ID 목록 외 삭제)
-function cleanupOldImages(keepIds) {
-  if (!fs.existsSync(IMG_DIR)) return;
-  const keepSet = new Set(keepIds);
-  const files = fs.readdirSync(IMG_DIR);
-  let removed = 0;
-  for (const file of files) {
-    const idPart = file.replace(/\.[^.]+$/, ''); // 확장자 제거
-    if (!keepSet.has(idPart)) {
-      fs.unlinkSync(path.join(IMG_DIR, file));
-      removed++;
-    }
-  }
-  if (removed > 0) console.log(`오래된 이미지 ${removed}개 삭제`);
+// ─── 클리앙 ───────────────────────────────────────────────────────────────────
+async function fetchClien() {
+  const deals = [];
+  try {
+    const res = await fetch('https://www.clien.net/service/board/jirum', { headers: siteHeaders('https://www.clien.net') });
+    if (!res.ok) { console.log(`클리앙 오류: ${res.status}`); return deals; }
+    const $ = cheerio.load(await res.text());
+
+    $('.list_item').each((i, el) => {
+      const $el = $(el);
+      const $a = $el.find('.subject_span a, .list_subject a').first();
+      const title = $a.text().trim();
+      const href = $a.attr('href');
+      if (!title || !href) return;
+
+      const link = href.startsWith('http') ? href : `https://www.clien.net${href}`;
+      const $img = $el.find('.list_img img, .subject_img img').first();
+      const imageUrl = normalizeImg($img.attr('src') || $img.attr('data-src') || null, 'https://www.clien.net');
+      const $time = $el.find('time').first();
+      const dateText = $time.attr('datetime') || $time.attr('title') || '';
+      const likes = parseInt($el.find('.list_recommend span').first().text().trim()) || 0;
+
+      deals.push({
+        id: makeId('cl', link), title,
+        price: extractPrice(title),
+        image: null, imageUrl,
+        category: categorize(title),
+        source: '클리앙', sourceColor: '#2A6EBB',
+        link, publishedAt: dateText, likes,
+        fetchedAt: new Date().toISOString(),
+      });
+    });
+    console.log(`클리앙: ${deals.length}개 파싱`);
+  } catch (err) { console.error('클리앙 오류:', err.message); }
+  return deals;
 }
 
 // ─── 메인 ────────────────────────────────────────────────────────────────────
@@ -310,13 +425,16 @@ async function main() {
   console.log('핫딜 수집 시작...');
   ensureImgDir();
 
-  const [ppDeals, clDeals, rlDeals] = await Promise.all([
-    fetchPpomppu(),
-    fetchClien(),
+  const [fmDeals, qzDeals, acDeals, ddDeals, rlDeals, clDeals] = await Promise.all([
+    fetchFmkorea(),
+    fetchQuasarzone(),
+    fetchArcalive(),
+    fetchDogdrip(),
     fetchRuliweb(),
+    fetchClien(),
   ]);
 
-  const allNew = [...ppDeals, ...clDeals, ...rlDeals];
+  const allNew = [...fmDeals, ...qzDeals, ...acDeals, ...ddDeals, ...rlDeals, ...clDeals];
   console.log(`전체 수집: ${allNew.length}개`);
 
   const outputPath = path.join(process.cwd(), 'public', 'data', 'hotdeals.json');
@@ -327,31 +445,20 @@ async function main() {
   const newDeals = allNew.filter(d => d.title.length > 3 && !existingLinks.has(d.link));
   console.log(`신규: ${newDeals.length}개`);
 
-  // 신규 딜 이미지 다운로드
-  if (newDeals.length > 0) {
-    await downloadImages(newDeals);
-  }
+  if (newDeals.length > 0) await downloadImages(newDeals);
 
-  // 기존 딜 중 이미지 없는 것 최대 10개 재시도
-  const retryDeals = (existing.deals || [])
-    .filter(d => !d.image)
-    .slice(0, 10)
-    .map(d => ({ ...d, imageUrl: null }));
+  // 기존 이미지 없는 딜 재시도 (최대 10개)
+  const retryDeals = (existing.deals || []).filter(d => !d.image).slice(0, 10).map(d => ({ ...d, imageUrl: null }));
   if (retryDeals.length > 0) {
-    console.log(`기존 딜 이미지 재시도: ${retryDeals.length}개`);
+    console.log(`기존 이미지 재시도: ${retryDeals.length}개`);
     await downloadImages(retryDeals);
-    // 업데이트 반영
     const retryMap = new Map(retryDeals.map(d => [d.id, d.image]));
     for (const d of (existing.deals || [])) {
-      if (retryMap.has(d.id) && retryMap.get(d.id)) {
-        d.image = retryMap.get(d.id);
-      }
+      if (retryMap.get(d.id)) d.image = retryMap.get(d.id);
     }
   }
 
-  const combined = [...newDeals, ...(existing.deals || [])].slice(0, 500);
-
-  // 사용 중인 이미지 ID만 보관
+  const combined = [...newDeals, ...(existing.deals || [])].slice(0, 600);
   cleanupOldImages(combined.map(d => d.id));
 
   fs.writeFileSync(outputPath, JSON.stringify({
