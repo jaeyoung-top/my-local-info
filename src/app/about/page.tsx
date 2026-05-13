@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "서비스 소개 | AI 송파 인포",
-  description: "AI 송파 인포는 송파구 주민을 위해 지역 행사, 지원금, 혜택 정보와 전국 커뮤니티 핫딜을 매일 선별·정리하는 생활 정보 큐레이션 서비스입니다.",
+  description: "AI 송파 인포는 송파구 주민을 위해 지역 행사, 지원금, 혜택 정보와 대한민국 대표 커뮤니티 핫딜을 매일 선별·정리하는 생활 정보 큐레이션 서비스입니다.",
 };
 
 const faqs = [
@@ -22,7 +22,7 @@ const faqs = [
   },
   {
     q: "송파구 외 다른 지역 정보도 있나요?",
-    a: "네, '공공(전국)지원금·혜택' 탭에서는 서울시 전체 또는 전국 단위의 공공 지원 정보를 제공합니다. 'AI 지원프로그램' 탭에서는 전국 대상 AI 교육 및 지원 사업도 확인하실 수 있습니다. 핫딜 또한 전국 커뮤니티 기반으로 지역 제한 없이 제공됩니다."
+    a: "네, '공공(전국)지원금·혜택' 탭에서는 서울시 전체 또는 전국 단위의 공공 지원 정보를 제공합니다. 'AI 지원프로그램' 탭에서는 전국 대상 AI 교육 및 지원 사업도 확인하실 수 있습니다. 핫딜 또한 대한민국 대표 커뮤니티 기반으로 지역 제한 없이 제공됩니다."
   },
   {
     q: "블로그 글은 어떻게 작성되나요?",
@@ -81,7 +81,7 @@ export default function AboutPage() {
           <span className="text-[#F25C05] font-black text-sm tracking-widest uppercase mb-4 inline-block">About Songpa INFO</span>
           <h1 className="text-4xl md:text-5xl font-black text-gray-900 mb-6 drop-shadow-sm">서비스 소개</h1>
           <p className="text-xl text-gray-500 font-medium leading-relaxed break-keep">
-            송파INFO는 우리 동네의 활기찬 소식, 흩어져 있는 유용한 공공 혜택, 그리고 전국 커뮤니티 핫딜까지 한눈에 모아보는{" "}
+            송파INFO는 우리 동네의 활기찬 소식, 흩어져 있는 유용한 공공 혜택, 그리고 대한민국 대표 커뮤니티 핫딜까지 한눈에 모아보는{" "}
             <strong>생활 정보 큐레이션 서비스</strong>입니다.
           </p>
         </div>
@@ -203,7 +203,7 @@ export default function AboutPage() {
               { icon: "🏥", label: "건강·의료 지원", desc: "무료 건강검진, 의료비 지원" },
               { icon: "📚", label: "교육·학습 프로그램", desc: "평생학습, 무료 강좌, 장학금" },
               { icon: "🤖", label: "AI·디지털 교육", desc: "AI 활용교육, 디지털 역량 강화" },
-              { icon: "🔥", label: "전국 커뮤니티 핫딜", desc: "FM코리아·퀘이사존·뽐뿌·루리웹 등 3시간 자동 수집" }
+              { icon: "🔥", label: "대한민국 대표 커뮤니티 핫딜", desc: "FM코리아·퀘이사존·뽐뿌·루리웹 등 3시간 자동 수집" }
             ].map((item) => (
               <div key={item.label} className="flex flex-col gap-1 bg-gray-50 rounded-xl px-4 py-3">
                 <div className="flex items-center gap-2">

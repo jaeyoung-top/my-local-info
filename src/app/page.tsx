@@ -165,7 +165,7 @@ export default function Home() {
             AI 송파 <span className="text-[#F25C05]">인포</span>
           </h1>
           <p className="text-white/80 text-base md:text-lg font-medium drop-shadow break-keep mb-8">
-            우리 동네 행사·지원금·AI 프로그램과 전국 커뮤니티 핫딜을 한눈에 확인하세요
+            우리 동네 행사·지원금·AI 프로그램과 대한민국 대표 커뮤니티 핫딜을 한눈에 확인하세요
           </p>
 
           {/* 통계 뱃지 */}
@@ -337,7 +337,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
           <div className="space-y-2">
             <h2 className="text-2xl font-black text-[#1D428A]">AI 송파 <span className="text-[#F25C05]">인포</span></h2>
-            <p className="text-gray-500 text-sm font-medium">송파구 소식과 전국 커뮤니티 핫딜을 정성껏 모아 전달하는 개인 운영 생활 정보 서비스입니다.</p>
+            <p className="text-gray-500 text-sm font-medium">송파구 소식과 대한민국 대표 커뮤니티 핫딜을 정성껏 모아 전달하는 개인 운영 생활 정보 서비스입니다.</p>
             <p className="text-gray-400 text-xs">데이터 출처: 공공데이터포털 | 마지막 업데이트: {lastUpdated}</p>
           </div>
           <div className="flex gap-3 flex-wrap">

@@ -16,7 +16,7 @@ const jsonLd = {
   "@type": "WebSite",
   "name": "AI 송파 인포",
   "url": "https://songpa-info.com",
-  "description": "송파구 & 서울 주민을 위한 지역 행사, 축제, 지원금, 혜택 및 전국 커뮤니티 핫딜 정보"
+  "description": "송파구 & 서울 주민을 위한 지역 행사, 축제, 지원금, 혜택 및 대한민국 대표 커뮤니티 핫딜 정보"
 };
 
 const breadcrumbJsonLd = {
@@ -41,10 +41,10 @@ const breadcrumbJsonLd = {
 export const metadata: Metadata = {
   metadataBase: new URL("https://songpa-info.com"),
   title: "AI 송파 인포 | 행사·혜택·지원금·핫딜",
-  description: "송파구 & 서울 주민을 위한 지역 행사, 축제, 지원금, 혜택 정보와 전국 커뮤니티 핫딜을 매일 업데이트합니다.",
+  description: "송파구 & 서울 주민을 위한 지역 행사, 축제, 지원금, 혜택 정보와 대한민국 대표 커뮤니티 핫딜을 매일 업데이트합니다.",
   openGraph: {
     title: "AI 송파 인포 | 행사·혜택·지원금·핫딜",
-    description: "송파구 & 서울 주민을 위한 지역 행사, 축제, 지원금, 혜택 정보와 전국 커뮤니티 핫딜을 매일 업데이트합니다.",
+    description: "송파구 & 서울 주민을 위한 지역 행사, 축제, 지원금, 혜택 정보와 대한민국 대표 커뮤니티 핫딜을 매일 업데이트합니다.",
     url: "https://songpa-info.com",
     siteName: "AI 송파 인포",
     locale: "ko_KR",
