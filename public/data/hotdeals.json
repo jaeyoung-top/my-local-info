@@ -1,6 +1,154 @@
 {
   "deals": [
     {
+      "id": "hdz_141765",
+      "title": "크리넥스 3겹 롤화장지 울트라클린 화이트 25M-24롤X2팩 롤당 470원",
+      "price": "22,690원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/05/13/thumb_03dea949075a41d8bb7256df191106de.webp",
+      "category": "생활용품",
+      "site": "KT멤버십",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/9820755131",
+      "publishedAt": "2026-05-13 14:22:10",
+      "likes": 4,
+      "fetchedAt": "2026-05-13T05:25:58.451Z",
+      "priceComparison": [
+        {
+          "site": "KT멤버십",
+          "price": "22,690원"
+        },
+        {
+          "site": "패션플러스",
+          "price": "26,460원"
+        },
+        {
+          "site": "쇼핑하우",
+          "price": "29,900원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "05-05",
+            "price": 31370
+          },
+          {
+            "date": "05-12",
+            "price": 31490
+          }
+        ],
+        "minPrice": 31370,
+        "maxPrice": 31490
+      }
+    },
+    {
+      "id": "hdz_141764",
+      "title": "SamWatch Digital XXV 워치페이스",
+      "price": null,
+      "image": "https://image.hotdeal.zip/thumbnails/2026/05/13/thumb_2200b966b3ea888eb6cb2026d348accf.webp",
+      "category": "게임",
+      "site": "WearOS",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/9820749545",
+      "publishedAt": "2026-05-13 14:20:27",
+      "likes": 6,
+      "fetchedAt": "2026-05-13T05:25:58.451Z",
+      "priceComparison": [],
+      "priceHistory": null
+    },
+    {
+      "id": "hdz_141763",
+      "title": "[기타] LG 그램 프로 17ZD90TR-EX7BK",
+      "price": "2,935,000원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/05/13/thumb_20210bf745c5e3ad626fc31edbe1af76.webp",
+      "category": "가전",
+      "site": null,
+      "source": "퀘이사존",
+      "sourceColor": "#7C3AED",
+      "link": "https://quasarzone.com/bbs/qb_saleinfo/views/1951101",
+      "publishedAt": "2026-05-13 14:20:05",
+      "likes": 4,
+      "fetchedAt": "2026-05-13T05:25:58.451Z",
+      "priceComparison": [
+        {
+          "site": "핫딜모음",
+          "price": "2,935,000원"
+        },
+        {
+          "site": "다나와",
+          "price": "3,092,000원"
+        },
+        {
+          "site": "11번가",
+          "price": "3,279,000원"
+        },
+        {
+          "site": "하이마트",
+          "price": "3,448,000원"
+        },
+        {
+          "site": "네이버 플리마켓",
+          "price": "2,100,000원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "02-24",
+            "price": 2959000
+          },
+          {
+            "date": "03-03",
+            "price": 3159000
+          },
+          {
+            "date": "03-10",
+            "price": 3149000
+          },
+          {
+            "date": "03-17",
+            "price": 2949000
+          },
+          {
+            "date": "03-24",
+            "price": 2949000
+          },
+          {
+            "date": "03-31",
+            "price": 2930840
+          },
+          {
+            "date": "04-07",
+            "price": 2949000
+          },
+          {
+            "date": "04-14",
+            "price": 2949000
+          },
+          {
+            "date": "04-21",
+            "price": 2949000
+          },
+          {
+            "date": "04-28",
+            "price": 2949000
+          },
+          {
+            "date": "05-05",
+            "price": 3092000
+          },
+          {
+            "date": "05-12",
+            "price": 3004500
+          }
+        ],
+        "minPrice": 2930840,
+        "maxPrice": 3159000
+      }
+    },
+    {
       "id": "hdz_141762",
       "title": "신라면 5입+너구리 5입+짜파게티5입+배홍동 4입",
       "price": "13,470원",
@@ -6366,5 +6514,5 @@
       "fetchedAt": "2026-05-12T05:31:41.912Z"
     }
   ],
-  "lastUpdated": "2026-05-13T05:19:12.883Z"
+  "lastUpdated": "2026-05-13T05:25:59.509Z"
 }
