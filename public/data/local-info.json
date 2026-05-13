@@ -1,6 +1,30 @@
 {
   "events": [
     {
+      "id": "crawler-1778645327570-169",
+      "name": "송파구 청년예술인 '2026 더 임팩트'",
+      "category": "행사",
+      "startDate": "2026-05-01",
+      "endDate": "상시",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "송파구 청년예술인들의 활동을 소개하는 '2026 더 임팩트' 문화 행사가 문화캘린더를 통해 안내됩니다.",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9020&aid=17674",
+      "image": "https://picsum.photos/seed/605240/800/500"
+    },
+    {
+      "id": "crawler-1778645327570-266",
+      "name": "5월 가정의 달 행사: 음악회, 어린이 뮤지컬, 송파 아동·청소년축제",
+      "category": "행사",
+      "startDate": "2026-05-01",
+      "endDate": "상시",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "5월 가정의 달을 맞아 음악회, 어린이 뮤지컬 '뽀로로 신비한 여행', 제11회 송파 아동·청소년축제 등 다채로운 문화 행사가 열립니다.",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9020&aid=17679",
+      "image": "https://picsum.photos/seed/642252/800/500"
+    },
+    {
       "id": "crawler-1778636063699-977",
       "name": "5월 가정의 달 행사: 음악회, 뮤지컬, 아동·청소년축제",
       "category": "행사",
@@ -1830,6 +1854,71 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000091",
       "imageTheme": "health",
       "image": "https://picsum.photos/seed/384216/800/500"
+    },
+    {
+      "id": "000025",
+      "name": "범죄 피해 아동/장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-05-13",
+      "endDate": "상시",
+      "location": "전국 수사기관 및 법원",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "만 19세 미만 아동, 장애인 범죄 피해자의 수사·재판상 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://picsum.photos/seed/178272/800/500"
+    },
+    {
+      "id": "135200000090",
+      "name": "장애인구강진료센터 치과 의료서비스",
+      "category": "혜택",
+      "startDate": "2026-05-13",
+      "endDate": "상시",
+      "location": "장애인구강진료센터",
+      "target": "장애인(중증장애인 포함)",
+      "summary": "장애인 치과 의료서비스 제공 및 비급여 진료비 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000090",
+      "imageTheme": "health",
+      "image": "https://picsum.photos/seed/176372/800/500"
+    },
+    {
+      "id": "000094",
+      "name": "발달장애인 가족휴식지원사업",
+      "category": "혜택",
+      "startDate": "2026-05-13",
+      "endDate": "상시",
+      "location": "주민등록상 주소지의 사업 수행기관",
+      "target": "발달장애인 및 그 가족",
+      "summary": "발달장애인 가족에게 휴식지원 및 돌봄 서비스 연1회 제공",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000094",
+      "imageTheme": "health",
+      "image": "https://picsum.photos/seed/684948/800/500"
+    },
+    {
+      "id": "000095",
+      "name": "발달장애인 개인별지원계획 수립 지원",
+      "category": "혜택",
+      "startDate": "2026-05-13",
+      "endDate": "상시",
+      "location": "읍.면.동 주민센터, 지역발달장애인지원센터",
+      "target": "장애인 등록 발달장애인(지적, 자폐성)",
+      "summary": "발달장애인 맞춤 복지서비스 지원계획 수립 및 정보제공",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000095",
+      "imageTheme": "health",
+      "image": "https://picsum.photos/seed/881492/800/500"
+    },
+    {
+      "id": "135200000096",
+      "name": "유휴간호사 교육 및 취업 연계",
+      "category": "혜택",
+      "startDate": "2026-05-13",
+      "endDate": "상시",
+      "location": "간호인력 취업교육센터",
+      "target": "유휴·이직 간호사, 졸업예정자, 신규·재직 간호사",
+      "summary": "유휴간호사 등 간호인력 교육 및 취업을 연계 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000096",
+      "imageTheme": "job",
+      "image": "https://picsum.photos/seed/156892/800/500"
     }
   ],
   "aiSupport": [
