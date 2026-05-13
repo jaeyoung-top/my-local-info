@@ -1,9 +1,11 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import Header from '@/components/Header';
 import CoupangBanner from '@/components/CoupangBanner';
 import rawData from '../../../public/data/hotdeals.json';
+
+const PAGE_SIZE = 20;
 
 type Deal = {
   id: string;
@@ -55,7 +57,6 @@ function DealCard({ deal }: { deal: Deal }) {
       rel="noopener noreferrer"
       className="group flex flex-col bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-200"
     >
-      {/* 상품 이미지 */}
       {deal.image ? (
         <div className="relative h-40 w-full overflow-hidden bg-gray-50">
           {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -65,7 +66,6 @@ function DealCard({ deal }: { deal: Deal }) {
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
             onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = 'none'; }}
           />
-          {/* 소스 뱃지 (이미지 위) */}
           <span
             className="absolute top-2 left-2 text-[10px] font-black px-2 py-0.5 rounded-full text-white shadow"
             style={{ backgroundColor: srcColor }}
@@ -74,12 +74,10 @@ function DealCard({ deal }: { deal: Deal }) {
           </span>
         </div>
       ) : (
-        /* 이미지 없을 때 컬러 스트라이프 + 소스 뱃지 */
         <div className="h-1.5 w-full bg-gradient-to-r from-[#FF3B3B] to-[#F25C05]" />
       )}
 
       <div className="flex flex-col flex-grow p-4 gap-2">
-        {/* 뱃지 행 (이미지 없을 때만 소스 뱃지 표시) */}
         <div className="flex items-center gap-2 flex-wrap">
           {!deal.image && (
             <span
@@ -97,12 +95,10 @@ function DealCard({ deal }: { deal: Deal }) {
           <span className="ml-auto text-[10px] text-gray-400">{timeAgo(deal.publishedAt) || timeAgo(deal.fetchedAt)}</span>
         </div>
 
-        {/* 제목 */}
         <h3 className="text-sm font-bold text-gray-800 leading-snug line-clamp-3 group-hover:text-[#F25C05] transition-colors flex-grow">
           {deal.title}
         </h3>
 
-        {/* 가격 + 공감 */}
         <div className="flex items-center justify-between mt-auto pt-2 border-t border-gray-50">
           {deal.price ? (
             <span className="text-base font-black text-[#FF3B3B]">{deal.price}</span>
@@ -115,7 +111,6 @@ function DealCard({ deal }: { deal: Deal }) {
         </div>
       </div>
 
-      {/* 바로가기 버튼 */}
       <div className="px-4 pb-4">
         <span className="block w-full text-center text-[11px] font-black text-[#F25C05] bg-[#FFF5F0] py-2 rounded-xl group-hover:bg-[#F25C05] group-hover:text-white transition-colors">
           바로가기 →
@@ -129,6 +124,7 @@ export default function HotDealPage() {
   const [activeCategory, setActiveCategory] = useState('전체');
   const [activeSource, setActiveSource] = useState('전체');
   const [sortBy, setSortBy] = useState<'latest' | 'popular'>('latest');
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
 
   const deals = (rawData.deals || []) as Deal[];
 
@@ -140,6 +136,15 @@ export default function HotDealPage() {
     return result;
   }, [deals, activeCategory, activeSource, sortBy]);
 
+  // 필터/정렬 변경 시 첫 페이지로 리셋
+  useEffect(() => {
+    setVisibleCount(PAGE_SIZE);
+  }, [activeCategory, activeSource, sortBy]);
+
+  const visible = filtered.slice(0, visibleCount);
+  const hasMore = visibleCount < filtered.length;
+  const remaining = filtered.length - visibleCount;
+
   const lastUpdated = rawData.lastUpdated
     ? new Date(rawData.lastUpdated).toLocaleString('ko-KR', { timeZone: 'Asia/Seoul' })
     : '';
@@ -148,7 +153,7 @@ export default function HotDealPage() {
     <div className="min-h-screen bg-[#FFF5F0] text-[#334155]">
       <Header color="orange" />
 
-      {/* 히어로 배너 */}
+      {/* 히어로 */}
       <div className="bg-gradient-to-r from-[#FF3B3B] to-[#F25C05] text-white py-10 px-6">
         <div className="max-w-6xl mx-auto">
           <div className="flex items-center gap-3 mb-2">
@@ -156,7 +161,7 @@ export default function HotDealPage() {
             <h1 className="text-3xl font-black tracking-tight">전국 핫딜 모음</h1>
           </div>
           <p className="text-white/80 text-sm font-medium">
-            뽐뿌·클리앙·루리웹 커뮤니티의 실시간 핫딜을 한눈에 모아드려요
+            FM코리아·퀘이사존·개드립·루리웹·클리앙 핫딜을 한눈에 모아드려요
           </p>
           {lastUpdated && (
             <p className="text-white/60 text-xs mt-2">마지막 업데이트: {lastUpdated}</p>
@@ -166,37 +171,29 @@ export default function HotDealPage() {
 
       <div className="max-w-6xl mx-auto px-4 py-6">
 
-        {/* 필터 영역 */}
+        {/* 필터 */}
         <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-4 mb-6 space-y-3">
-
-          {/* 카테고리 필터 */}
           <div className="flex flex-wrap gap-2">
             {CATEGORIES.map(cat => (
               <button
                 key={cat}
                 onClick={() => setActiveCategory(cat)}
                 className={`px-3 py-1.5 rounded-full text-xs font-bold transition-colors ${
-                  activeCategory === cat
-                    ? 'bg-[#F25C05] text-white'
-                    : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
+                  activeCategory === cat ? 'bg-[#F25C05] text-white' : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
                 }`}
               >
                 {cat}
               </button>
             ))}
           </div>
-
-          {/* 소스 + 정렬 필터 */}
           <div className="flex flex-wrap items-center gap-3 pt-1 border-t border-gray-50">
-            <div className="flex gap-2">
+            <div className="flex flex-wrap gap-2">
               {SOURCES.map(src => (
                 <button
                   key={src}
                   onClick={() => setActiveSource(src)}
                   className={`px-3 py-1 rounded-full text-xs font-bold transition-colors ${
-                    activeSource === src
-                      ? 'bg-gray-800 text-white'
-                      : 'bg-gray-100 text-gray-500 hover:bg-gray-200'
+                    activeSource === src ? 'bg-gray-800 text-white' : 'bg-gray-100 text-gray-500 hover:bg-gray-200'
                   }`}
                 >
                   {src}
@@ -209,9 +206,7 @@ export default function HotDealPage() {
                   key={s}
                   onClick={() => setSortBy(s)}
                   className={`px-3 py-1 rounded-full text-xs font-bold transition-colors ${
-                    sortBy === s
-                      ? 'bg-[#FF3B3B] text-white'
-                      : 'bg-gray-100 text-gray-500 hover:bg-gray-200'
+                    sortBy === s ? 'bg-[#FF3B3B] text-white' : 'bg-gray-100 text-gray-500 hover:bg-gray-200'
                   }`}
                 >
                   {s === 'latest' ? '최신순' : '인기순'}
@@ -222,44 +217,66 @@ export default function HotDealPage() {
         </div>
 
         {/* 결과 수 */}
-        <p className="text-xs text-gray-400 font-medium mb-4">
-          {filtered.length > 0
-            ? `총 ${filtered.length}개 핫딜`
-            : ''}
-        </p>
+        {filtered.length > 0 && (
+          <p className="text-xs text-gray-400 font-medium mb-4">
+            {visibleCount < filtered.length
+              ? `${visibleCount} / ${filtered.length}개 표시 중`
+              : `총 ${filtered.length}개`}
+          </p>
+        )}
 
-        {/* 딜 카드 그리드 or 빈 상태 */}
+        {/* 딜 그리드 */}
         {filtered.length === 0 ? (
           <div className="text-center py-24 text-gray-400">
             <div className="text-5xl mb-4">🔥</div>
             <p className="text-lg font-bold mb-2">핫딜을 수집 중입니다</p>
-            <p className="text-sm">매일 오전 9시에 최신 핫딜이 업데이트됩니다</p>
+            <p className="text-sm">3시간마다 최신 핫딜이 업데이트됩니다</p>
           </div>
         ) : (
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-            {filtered.map((deal, idx) => (
-              <>
+          <>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+              {visible.map((deal, idx) => (
                 <DealCard key={deal.id} deal={deal} />
-                {/* 10개마다 쿠팡 배너 */}
-                {(idx + 1) % 12 === 0 && (
-                  <div key={`banner_${idx}`} className="col-span-full">
-                    <CoupangBanner />
-                  </div>
-                )}
-              </>
-            ))}
+              ))}
+            </div>
+
+            {/* 쿠팡 배너 (20개마다) */}
+            {visibleCount >= PAGE_SIZE && (
+              <div className="mt-6">
+                <CoupangBanner />
+              </div>
+            )}
+
+            {/* 더보기 버튼 */}
+            {hasMore ? (
+              <div className="mt-8 flex flex-col items-center gap-3">
+                <button
+                  onClick={() => setVisibleCount(c => c + PAGE_SIZE)}
+                  className="px-10 py-3.5 bg-[#F25C05] text-white text-sm font-black rounded-2xl hover:bg-[#d34b00] active:scale-95 transition-all shadow-md"
+                >
+                  더보기 ({remaining}개 남음)
+                </button>
+                <p className="text-xs text-gray-400">{visibleCount} / {filtered.length}개</p>
+              </div>
+            ) : (
+              <div className="mt-8 text-center text-xs text-gray-400 py-4 border-t border-gray-100">
+                모든 핫딜을 확인했습니다 🎉
+              </div>
+            )}
+          </>
+        )}
+
+        {/* 하단 배너 */}
+        {!hasMore && filtered.length > 0 && (
+          <div className="mt-6">
+            <CoupangBanner />
           </div>
         )}
 
-        {/* 하단 쿠팡 배너 */}
-        <div className="mt-10">
-          <CoupangBanner />
-        </div>
-
-        {/* 고지 + 면책 */}
+        {/* 면책 */}
         <div className="mt-8 p-4 bg-white rounded-2xl border border-gray-100 text-xs text-gray-400 space-y-1">
           <p>이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p>
-          <p>핫딜 정보는 각 커뮤니티(뽐뿌·클리앙·루리웹)에서 자동으로 수집됩니다. 가격·재고는 실시간으로 변동될 수 있으니 구매 전 반드시 확인하세요.</p>
+          <p>핫딜 정보는 각 커뮤니티에서 자동 수집됩니다. 가격·재고는 실시간 변동될 수 있으니 구매 전 반드시 확인하세요.</p>
         </div>
       </div>
     </div>
