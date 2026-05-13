@@ -22,16 +22,16 @@ type Deal = {
 };
 
 const CATEGORIES = ['전체', 'PC', '가전', '식품', '생활용품', '게임', '의류', '화장품', '해외핫딜', '기타'];
-const SOURCES = ['전체', 'FM코리아', '퀘이사존', '개드립', '루리웹', '클리앙', '82cook', '뽐뿌'];
+const SOURCES = ['전체', 'FM코리아', '퀘이사존', '개드립', '루리웹', '뽐뿌', '아카라이브'];
 
 const SOURCE_COLORS: Record<string, string> = {
   'FM코리아': '#FF8C00',
   '퀘이사존': '#7C3AED',
   '개드립': '#DC2626',
   '루리웹': '#3B82F6',
-  '클리앙': '#2A6EBB',
-  '82cook': '#EC4899',
   '뽐뿌': '#4F46E5',
+  '아카라이브': '#10B981',
+  '클리앙': '#2A6EBB',
 };
 
 function timeAgo(dateStr: string): string {
@@ -163,7 +163,7 @@ export default function HotDealPage() {
             <h1 className="text-3xl font-black tracking-tight">전국 핫딜 모음</h1>
           </div>
           <p className="text-white/80 text-sm font-medium">
-            FM코리아·퀘이사존·개드립·루리웹·클리앙 핫딜을 한눈에 모아드려요
+            FM코리아·퀘이사존·개드립·루리웹·뽐뿌·아카라이브 핫딜을 한눈에 모아드려요
           </p>
           {lastUpdated && (
             <p className="text-white/60 text-xs mt-2">마지막 업데이트: {lastUpdated}</p>
