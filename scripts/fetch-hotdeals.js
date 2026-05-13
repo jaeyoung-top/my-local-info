@@ -134,36 +134,77 @@ async function fetchPostContent(source, link) {
 
     const $ = cheerio.load(html);
     let $content;
+    let shopUrl = null;
+
     if (source === 'FM코리아' || source === '개드립') {
       $content = $('.xe_content');
+      if (source === 'FM코리아') {
+        shopUrl = $('.xe_content a.hotdeal_url').first().attr('href') || null;
+      } else {
+        // 개드립: shop link is in a table cell outside xe_content — search full page
+        $('a').each((_, el) => {
+          if (shopUrl) return false;
+          const href = $(el).attr('href') || '';
+          if (href.startsWith('http') && !href.includes('dogdrip') && !href.includes('google') && !href.includes('kakao') && !href.includes('facebook') && !href.includes('youtube') && !href.includes('twitter')) {
+            shopUrl = href;
+          }
+        });
+      }
     } else if (source === '루리웹') {
       $content = $('.view_content');
+      // Prefer dedicated source_url link, then any external link
+      shopUrl = $('a.source_url[href^="http"]').first().attr('href') || null;
+      if (!shopUrl) {
+        $('a').each((_, el) => {
+          if (shopUrl) return false;
+          const href = $(el).attr('href') || '';
+          if (href.startsWith('http') && !href.includes('ruliweb') && !href.includes('google') && !href.includes('kakao') && !href.includes('youtube') && !href.includes('twitter') && !/\.(jpg|jpeg|png|gif|webp)(\?|$)/i.test(href)) {
+            shopUrl = href;
+          }
+        });
+      }
     } else if (source === '뽐뿌') {
       $content = $('td.board-contents');
+      // 뽐뿌 posts don't contain external shop links
     } else if (source === '퀘이사존') {
+      // Shop URL: text content of first <a> in market-info-view-table is the raw URL
+      const qzLinkText = $('table.market-info-view-table td a').first().text().trim();
+      if (qzLinkText && qzLinkText.startsWith('http')) {
+        shopUrl = qzLinkText;
+      } else {
+        // Fallback: decode base64 from javascript:goToLink('base64')
+        const qzHref = $('table.market-info-view-table td a').first().attr('href') || '';
+        const b64Match = qzHref.match(/goToLink\(['"]([A-Za-z0-9+/=]+)['"]\)/);
+        if (b64Match) {
+          try {
+            const decoded = Buffer.from(b64Match[1], 'base64').toString('utf8');
+            if (decoded.startsWith('http')) shopUrl = decoded;
+          } catch {}
+        }
+      }
       const taContent = $('dl dd > textarea').text().trim();
-      if (!taContent) return null;
-      const $inner = cheerio.load(taContent);
+      if (!taContent && !shopUrl) return null;
+      const $inner = cheerio.load(taContent || '');
       const text = $inner('body').text().replace(/\s+/g, ' ').trim();
       const images = [];
       $inner('img').each((_, el) => {
         const src = normalizeImgSrc($inner(el).attr('src') || $inner(el).attr('data-src'));
         if (src && isUsefulImage(src)) images.push(src);
       });
-      if (!text && images.length === 0) return null;
-      return { text: text.substring(0, 2000), images: images.slice(0, 8) };
+      if (!text && images.length === 0 && !shopUrl) return null;
+      return { text: text.substring(0, 2000), images: images.slice(0, 8), shopUrl };
     } else {
       return null;
     }
-    if (!$content || !$content.length) return null;
+    if (!$content || !$content.length) return shopUrl ? { text: '', images: [], shopUrl } : null;
     const text = $content.text().replace(/\s+/g, ' ').trim();
     const images = [];
     $content.find('img').each((_, el) => {
       const src = normalizeImgSrc($(el).attr('src') || $(el).attr('data-src') || $(el).attr('data-original'));
       if (src && isUsefulImage(src)) images.push(src);
     });
-    if (!text && images.length === 0) return null;
-    return { text: text.substring(0, 2000), images: images.slice(0, 8) };
+    if (!text && images.length === 0 && !shopUrl) return null;
+    return { text: text.substring(0, 2000), images: images.slice(0, 8), shopUrl };
   } catch {
     return null;
   }
@@ -232,7 +273,8 @@ async function fetchAllDetails(deals) {
       ]);
       deal.priceComparison = cmp;
       deal.priceHistory = hist || null;
-      deal.postContent = post || null;
+      deal.postContent = post ? { text: post.text, images: post.images } : null;
+      deal.shopUrl = post?.shopUrl || null;
       if (cmp.length > 0) cmpOk++;
       if (hist) histOk++;
       if (post) postOk++;

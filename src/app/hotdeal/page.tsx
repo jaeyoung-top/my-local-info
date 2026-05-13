@@ -28,6 +28,7 @@ type Deal = {
   priceComparison?: PriceEntry[];
   priceHistory?: PriceHistory | null;
   postContent?: PostContent | null;
+  shopUrl?: string | null;
 };
 
 const CATEGORIES = ['전체', 'PC', '가전', '식품', '생활용품', '게임', '의류', '화장품', '해외핫딜', '기타'];
@@ -219,7 +220,7 @@ function DealModal({ deal, onClose }: { deal: Deal; onClose: () => void }) {
                 : <span className="text-sm text-[#475569]">가격 미표기</span>}
             </div>
             <a
-              href={deal.link}
+              href={deal.shopUrl || deal.link}
               target="_blank"
               rel="noopener noreferrer"
               className="px-5 py-2.5 bg-[#ff6b6b] text-white text-sm font-black rounded-xl hover:bg-[#ff4f4f] active:scale-95 transition-all"
