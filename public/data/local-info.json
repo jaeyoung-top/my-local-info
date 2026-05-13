@@ -1919,6 +1919,71 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000096",
       "imageTheme": "job",
       "image": "https://picsum.photos/seed/156892/800/500"
+    },
+    {
+      "id": "127000",
+      "name": "범죄 피해 아동/장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-05-13",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원 등 수사·사법기관",
+      "target": "성폭력·아동학대 등 범죄 피해 아동 및 장애인",
+      "summary": "범죄 피해 아동/장애인의 수사·재판 시 의사소통 중개 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "health",
+      "image": "https://picsum.photos/seed/178272/800/500"
+    },
+    {
+      "id": "000090",
+      "name": "장애인 치과 진료비 지원",
+      "category": "혜택",
+      "startDate": "2026-05-13",
+      "endDate": "상시",
+      "location": "장애인구강진료센터",
+      "target": "장애인",
+      "summary": "장애인 치과 진료비 지원 및 의료서비스 제공",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000090",
+      "imageTheme": "health",
+      "image": "https://picsum.photos/seed/644536/800/500"
+    },
+    {
+      "id": "000096",
+      "name": "유휴간호사 교육 및 취업 연계 서비스",
+      "category": "혜택",
+      "startDate": "2026-05-13",
+      "endDate": "상시",
+      "location": "간호인력 취업교육센터",
+      "target": "유휴/이직/재직/신규 간호사 및 간호조무사, 간호대학 졸업예정자",
+      "summary": "유휴간호사를 위한 교육 및 취업연계 서비스 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000096",
+      "imageTheme": "health",
+      "image": "https://picsum.photos/seed/334960/800/500"
+    },
+    {
+      "id": "135200000097",
+      "name": "금연상담전화",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "상시",
+      "location": "한국건강증진개발원",
+      "target": "전 국민",
+      "summary": "전 국민을 대상으로 금연 및 흡연예방 관련 상담서비스 제공",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000097",
+      "imageTheme": "health",
+      "image": "https://picsum.photos/seed/990176/800/500"
+    },
+    {
+      "id": "000098",
+      "name": "온라인 금연상담",
+      "category": "혜택",
+      "startDate": "2026-05-13",
+      "endDate": "상시",
+      "location": "한국건강증진개발원",
+      "target": "전 국민",
+      "summary": "전 국민 대상 온라인 포털/앱 금연·흡연예방 정보 제공",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000098",
+      "imageTheme": "health",
+      "image": "https://picsum.photos/seed/868260/800/500"
     }
   ],
   "aiSupport": [
