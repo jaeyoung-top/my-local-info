@@ -73,6 +73,38 @@ async function fetchPriceComparison(seoUrl) {
   }
 }
 
+// price_info.php POST — 다나와 기반 가격 흐름 데이터
+async function fetchPriceHistory(dealId) {
+  try {
+    const numId = String(dealId).replace('hdz_', '');
+    const res = await fetch('https://hotdeal.zip/api/price_info.php', {
+      method: 'POST',
+      headers: {
+        ...BASE_HEADERS,
+        'Content-Type': 'application/x-www-form-urlencoded',
+        'Accept': 'application/json',
+      },
+      body: 'deal_id=' + numId,
+      signal: AbortSignal.timeout(8000),
+    });
+    if (!res.ok) return null;
+    const json = await res.json();
+    if (!json.success || !json.data?.price_data) return null;
+
+    // 3개월 우선, 없으면 1개월
+    const period = json.data.price_data['3'] || json.data.price_data['1'];
+    if (!period || !period.result?.length) return null;
+
+    return {
+      points: period.result.map(r => ({ date: r.date, price: r.minPrice })),
+      minPrice: parseInt(period.minPrice),
+      maxPrice: parseInt(period.maxPrice),
+    };
+  } catch {
+    return null;
+  }
+}
+
 function mapDeal(d) {
   return {
     id: `hdz_${d.id}`,
@@ -92,18 +124,24 @@ function mapDeal(d) {
   };
 }
 
-async function fetchAllPriceComparisons(deals) {
-  let done = 0;
+async function fetchAllDetails(deals) {
+  let done = 0, cmpOk = 0, histOk = 0;
   for (let i = 0; i < deals.length; i += COMPARE_CONCURRENCY) {
     const chunk = deals.slice(i, i + COMPARE_CONCURRENCY);
     await Promise.all(chunk.map(async deal => {
       if (!deal.seoUrl) return;
-      deal.priceComparison = await fetchPriceComparison(deal.seoUrl);
+      const [cmp, hist] = await Promise.all([
+        fetchPriceComparison(deal.seoUrl),
+        fetchPriceHistory(deal.id),
+      ]);
+      deal.priceComparison = cmp;
+      deal.priceHistory = hist || null;
+      if (cmp.length > 0) cmpOk++;
+      if (hist) histOk++;
       done++;
     }));
   }
-  const withData = deals.filter(d => d.priceComparison.length > 0).length;
-  console.log(`가격비교 수집 완료: ${done}개 중 ${withData}개 데이터 있음`);
+  console.log(`상세 수집 완료: ${done}개 — 가격비교 ${cmpOk}개, 가격흐름 ${histOk}개`);
 }
 
 async function main() {
@@ -141,8 +179,8 @@ async function main() {
     }
   }
 
-  console.log(`신규: ${newDeals.length}개 — 가격비교 수집 중...`);
-  if (newDeals.length > 0) await fetchAllPriceComparisons(newDeals);
+  console.log(`신규: ${newDeals.length}개 — 상세 정보 수집 중...`);
+  if (newDeals.length > 0) await fetchAllDetails(newDeals);
 
   // seoUrl 필드는 내부용이므로 저장 전 제거
   for (const d of newDeals) delete d.seoUrl;
