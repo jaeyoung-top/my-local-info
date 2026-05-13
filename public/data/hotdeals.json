@@ -1,6 +1,95 @@
 {
   "deals": [
     {
+      "id": "hdz_141749",
+      "title": "이노크아든 2WAY 스탠드 선풍기",
+      "price": "22,900원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/05/13/thumb_cfa94728c7a12d3d6e3186a1d107e8f6.webp",
+      "category": "가전",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://hotdealzip.mycafe24.com/ppomppu_view.php?url=view.php%3Fid%3Dppomppu%26page%3D1%26divpage%3D112%26no%3D703660",
+      "publishedAt": "2026-05-13 14:06:30",
+      "likes": 2,
+      "fetchedAt": "2026-05-13T05:10:00.423Z",
+      "priceComparison": [
+        {
+          "site": "토스",
+          "price": "22,900원"
+        },
+        {
+          "site": "이노크아든 공식몰",
+          "price": "43,700원"
+        },
+        {
+          "site": "11번가",
+          "price": "정보 미제공"
+        }
+      ]
+    },
+    {
+      "id": "hdz_141748",
+      "title": "LG 휘센 오브제컬렉션 13L 제습기 DQ134MWEC 1등급",
+      "price": "351,570원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/05/13/thumb_5cd440c9aea81704e3c9d3ae8096a0c8.webp",
+      "category": "가전",
+      "source": "아카라이브",
+      "sourceColor": "#10B981",
+      "link": "https://arca.live/b/hotdeal/170514060?p=1",
+      "publishedAt": "2026-05-13 14:06:09",
+      "likes": 2,
+      "fetchedAt": "2026-05-13T05:10:00.423Z",
+      "priceComparison": [
+        {
+          "site": "네이버스토어",
+          "price": "351,570원"
+        },
+        {
+          "site": "옥션",
+          "price": "348,210원"
+        },
+        {
+          "site": "LG전자 공식몰",
+          "price": "378,000원"
+        }
+      ]
+    },
+    {
+      "id": "hdz_141747",
+      "title": "스파클 생수 500ml 80병",
+      "price": "12,880원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/05/13/thumb_9fbc50ee603dd69be80d1e2530bfe334.webp",
+      "category": "식품",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/9820695776",
+      "publishedAt": "2026-05-13 14:02:26",
+      "likes": 5,
+      "fetchedAt": "2026-05-13T05:10:00.423Z",
+      "priceComparison": [
+        {
+          "site": "롯데온",
+          "price": "12,880원"
+        },
+        {
+          "site": "스파클몰",
+          "price": "17,900원"
+        },
+        {
+          "site": "다나와",
+          "price": "15,080원"
+        },
+        {
+          "site": "카카오쇼핑하우",
+          "price": "14,800원"
+        },
+        {
+          "site": "11번가",
+          "price": "16,830원"
+        }
+      ]
+    },
+    {
       "id": "hdz_141746",
       "title": "저염 무색소 파지 백명란 2통 400g 1+1",
       "price": "15,860원",
@@ -5371,5 +5460,5 @@
       "fetchedAt": "2026-05-12T05:31:41.912Z"
     }
   ],
-  "lastUpdated": "2026-05-13T05:01:40.798Z"
+  "lastUpdated": "2026-05-13T05:10:02.236Z"
 }
