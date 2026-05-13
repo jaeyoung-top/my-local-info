@@ -1,6 +1,18 @@
 {
   "events": [
     {
+      "id": "crawler-1778634929608-597",
+      "name": "인생 한 컷을 담아주세요 6월 포토 이벤트",
+      "category": "행사",
+      "startDate": "2024-06-01",
+      "endDate": "2024-06-30",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "6월의 주요 테마(호국보훈의 달, 환경의 날, 우리동네 정원)에 맞춰 송파구의 다양한 모습을 담는 독자 참여 포토 이벤트입니다.",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9020&aid=17681",
+      "image": "https://images.unsplash.com/photo-1543362906-acfc16c67564?q=80&w=1000&auto=format&fit=crop"
+    },
+    {
       "id": "crawler-1778552017092-352",
       "name": "5월 가정의 달 음악회, 뮤지컬 및 송파 아동·청소년축제",
       "category": "행사",
@@ -2079,6 +2091,71 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000083",
       "imageTheme": "health",
       "image": "https://picsum.photos/seed/135200/800/500"
+    },
+    {
+      "id": "127000",
+      "name": "범죄 피해자 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-05-13",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청 등 수사기관 및 법원",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "범죄 피해 아동 및 장애인의 수사/재판 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://picsum.photos/seed/127000/800/500"
+    },
+    {
+      "id": "000085",
+      "name": "장애인 공동생활가정 운영 지원",
+      "category": "혜택",
+      "startDate": "2026-05-13",
+      "endDate": "상시",
+      "location": "시·군·구청",
+      "target": "공동생활가정 입소 희망 등록장애인",
+      "summary": "장애인 공동생활가정 운영 지원으로 돌봄 및 자립 서비스 제공",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000085",
+      "imageTheme": "health",
+      "image": "https://picsum.photos/seed/000085/800/500"
+    },
+    {
+      "id": "135200",
+      "name": "아동복지시설 기능보강 지원",
+      "category": "혜택",
+      "startDate": "2026-05-13",
+      "endDate": "상시",
+      "location": "시·군·구청",
+      "target": "법인이 운영하는 아동복지시설",
+      "summary": "아동복지시설의 중·개축 및 개보수, 장비보강 등을 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000086",
+      "imageTheme": "children",
+      "image": "https://picsum.photos/seed/135200/800/500"
+    },
+    {
+      "id": "000087",
+      "name": "아동복지시설 아동치료재활지원",
+      "category": "혜택",
+      "startDate": "2026-05-13",
+      "endDate": "상시",
+      "location": "아동권리보장원",
+      "target": "아동복지시설 보호 아동",
+      "summary": "문제행동아동을 위한 종합심리검사, 맞춤형 상담치료서비스 등을 제공",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000087",
+      "imageTheme": "children",
+      "image": "https://picsum.photos/seed/000087/800/500"
+    },
+    {
+      "id": "000088",
+      "name": "지역자율형 사회서비스 보수교육 지원",
+      "category": "혜택",
+      "startDate": "2026-05-13",
+      "endDate": "상시",
+      "location": "보건복지부",
+      "target": "지역자율형 사회서비스 종사자",
+      "summary": "지역자율형 사회서비스 종사자 역량 강화를 위한 교육 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000088",
+      "imageTheme": "education",
+      "image": "https://picsum.photos/seed/000088/800/500"
     }
   ],
   "aiSupport": [
@@ -3199,5 +3276,5 @@
       "image": "https://images.unsplash.com/photo-1519738471661-66f7a19d4163?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-05-12"
+  "lastUpdated": "2026-05-13"
 }
