@@ -1,6 +1,18 @@
 {
   "events": [
     {
+      "id": "crawler-1778650830072-281",
+      "name": "문화캘린더: 송파구 청년예술인 〈더 임팩트〉",
+      "category": "행사",
+      "startDate": "2024-06-01",
+      "endDate": "상시",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "송파구 청년예술인들의 활동을 소개하는 문화캘린더 소식입니다.",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9020&aid=17674",
+      "image": "https://picsum.photos/seed/374264/800/500"
+    },
+    {
       "id": "crawler-1778649776521-266",
       "name": "5월 가정의 달 행사 (음악회, 뮤지컬, 아동·청소년축제)",
       "category": "행사",
@@ -2268,6 +2280,71 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000115",
       "imageTheme": "health",
       "image": "https://picsum.photos/seed/931096/800/500"
+    },
+    {
+      "id": "000025",
+      "name": "범죄 피해 아동/장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-05-13",
+      "endDate": "상시",
+      "location": "법무부",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "범죄 피해 아동 및 장애인의 수사/재판 소통 중개 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://picsum.photos/seed/178272/800/500"
+    },
+    {
+      "id": "000090",
+      "name": "장애인구강진료센터 치과 의료서비스",
+      "category": "혜택",
+      "startDate": "2026-05-13",
+      "endDate": "상시",
+      "location": "장애인구강진료센터",
+      "target": "장애인",
+      "summary": "장애인 치과 의료서비스 제공 및 비급여 진료비 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000090",
+      "imageTheme": "health",
+      "image": "https://picsum.photos/seed/176372/800/500"
+    },
+    {
+      "id": "000096",
+      "name": "유휴간호사 교육 및 취업 연계",
+      "category": "혜택",
+      "startDate": "2026-05-13",
+      "endDate": "상시",
+      "location": "간호인력 취업교육센터",
+      "target": "간호사 및 간호조무사",
+      "summary": "유휴간호사를 위한 교육 및 취업연계 서비스 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000096",
+      "imageTheme": "health",
+      "image": "https://picsum.photos/seed/156892/800/500"
+    },
+    {
+      "id": "135200000116",
+      "name": "학교 흡연예방 사업",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "상시",
+      "location": "한국건강증진개발원",
+      "target": "전국 초중고교 및 교육청",
+      "summary": "전국 초중고교 및 교육청 대상 흡연예방 및 금연교육 사업",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000116",
+      "imageTheme": "health",
+      "image": "https://picsum.photos/seed/212784/800/500"
+    },
+    {
+      "id": "000120",
+      "name": "아동수당",
+      "category": "혜택",
+      "startDate": "2026-05-13",
+      "endDate": "상시",
+      "location": "주민센터",
+      "target": "만 8세 미만 모든 아동",
+      "summary": "만 8세 미만 모든 아동에게 월 10만 원 현금 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000120",
+      "imageTheme": "children",
+      "image": "https://picsum.photos/seed/627068/800/500"
     }
   ],
   "aiSupport": [
