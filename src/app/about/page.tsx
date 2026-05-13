@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: "정보는 얼마나 자주 업데이트되나요?",
-    a: "공공데이터포털, 송파구청 공식 채널 등 신뢰할 수 있는 공식 소스는 매일 1회 확인하여 최신 정보를 정리합니다. 전국 핫딜은 FM코리아·퀘이사존·뽐뿌·루리웹·개드립·아카라이브에서 3시간마다 자동 수집됩니다. 마지막 업데이트 일시는 메인 페이지 하단에서 확인하실 수 있습니다."
+    a: "공공데이터포털, 송파구청 공식 채널 등 신뢰할 수 있는 공식 소스는 매일 1회 확인하여 최신 정보를 정리합니다. 핫딜은 FM코리아·퀘이사존·뽐뿌·루리웹·개드립·아카라이브에서 3시간마다 자동 수집됩니다. 마지막 업데이트 일시는 메인 페이지 하단에서 확인하실 수 있습니다."
   },
   {
     q: "지원금 신청 자격이 있는지 어떻게 확인하나요?",
@@ -65,8 +65,8 @@ const usageGuide = [
   },
   {
     step: "05",
-    title: "전국 핫딜 확인",
-    desc: "상단 '🔥 핫딜' 메뉴에서 FM코리아·퀘이사존·뽐뿌 등 주요 커뮤니티의 최신 핫딜을 한눈에 확인하세요. 가격 비교와 가격 흐름도 함께 제공됩니다.",
+    title: "커뮤니티 핫딜 확인",
+    desc: "상단 '🔥 핫딜' 메뉴에서 FM코리아·퀘이사존·뽐뿌 등 대한민국 대표 커뮤니티의 최신 핫딜을 한눈에 확인하세요. 가격 비교와 가격 흐름도 함께 제공됩니다.",
     icon: "🔥"
   }
 ];
@@ -106,7 +106,7 @@ export default function AboutPage() {
           </p>
           <p className="text-gray-600 leading-8 text-lg break-keep">
             더불어 FM코리아·퀘이사존·뽐뿌·루리웹·개드립·아카라이브 등 국내 주요 커뮤니티의
-            <strong> 전국 핫딜 정보</strong>를 3시간마다 자동 수집하여, 가격 비교·가격 흐름 분석과 함께 제공합니다.
+            <strong> 핫딜 정보</strong>를 3시간마다 자동 수집하여, 가격 비교·가격 흐름 분석과 함께 제공합니다.
             생활 정보와 알뜰 쇼핑 정보를 한 곳에서 확인하세요.
           </p>
         </section>
@@ -261,7 +261,7 @@ export default function AboutPage() {
           </Link>
           <Link href="/hotdeal" className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 hover:shadow-md transition-shadow text-center">
             <p className="text-3xl mb-2">🔥</p>
-            <p className="font-bold text-gray-800">전국 핫딜</p>
+            <p className="font-bold text-gray-800">핫딜 모음</p>
             <p className="text-gray-500 text-xs mt-1">3시간마다 자동 수집</p>
           </Link>
           <Link href="/guide" className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 hover:shadow-md transition-shadow text-center">
