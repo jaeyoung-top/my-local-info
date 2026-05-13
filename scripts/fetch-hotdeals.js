@@ -1,8 +1,10 @@
 const fs = require('fs');
 const path = require('path');
+const cheerio = require('cheerio');
 
 const PAGES_TO_FETCH = 5;
 const MAX_TOTAL = 500;
+const COMPARE_CONCURRENCY = 8;
 
 const SOURCE_COLORS = {
   'FM코리아': '#FF8C00',
@@ -28,26 +30,53 @@ const CATEGORY_MAP = {
   '해외직구': '해외핫딜',
 };
 
+const BASE_HEADERS = {
+  'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+  'Accept-Language': 'ko-KR,ko;q=0.9',
+  'Referer': 'https://hotdeal.zip/',
+};
+
 function categorize(apiCat) {
   return CATEGORY_MAP[apiCat] || '기타';
 }
 
 async function fetchPage(page) {
   const res = await fetch(`https://hotdeal.zip/api/deals.php?page=${page}&category=all`, {
-    headers: {
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
-      'Accept': 'application/json, */*',
-      'Referer': 'https://hotdeal.zip/',
-    },
+    headers: { ...BASE_HEADERS, 'Accept': 'application/json, */*' },
     signal: AbortSignal.timeout(15000),
   });
   if (!res.ok) throw new Error(`API 오류: ${res.status}`);
   return res.json();
 }
 
+// 상세 페이지에서 가격비교 테이블 파싱
+async function fetchPriceComparison(seoUrl) {
+  try {
+    const res = await fetch(`https://hotdeal.zip/${seoUrl}`, {
+      headers: { ...BASE_HEADERS, 'Accept': 'text/html' },
+      signal: AbortSignal.timeout(10000),
+    });
+    if (!res.ok) return [];
+    const $ = cheerio.load(await res.text());
+    const results = [];
+    $('table tbody tr').each((_, el) => {
+      const tds = $(el).find('td');
+      const site = $(tds[0]).text().trim();
+      const price = $(tds[2]).text().trim();
+      if (site && price && price !== '정보 없음' && price !== '') {
+        results.push({ site, price });
+      }
+    });
+    return results;
+  } catch {
+    return [];
+  }
+}
+
 function mapDeal(d) {
   return {
     id: `hdz_${d.id}`,
+    seoUrl: d.seo_url,
     title: d.title,
     price: d.price || null,
     image: d.thumbnail_url || null,
@@ -58,7 +87,22 @@ function mapDeal(d) {
     publishedAt: d.created_at || '',
     likes: d.views || 0,
     fetchedAt: new Date().toISOString(),
+    priceComparison: [],
   };
+}
+
+async function fetchAllPriceComparisons(deals) {
+  let done = 0;
+  for (let i = 0; i < deals.length; i += COMPARE_CONCURRENCY) {
+    const chunk = deals.slice(i, i + COMPARE_CONCURRENCY);
+    await Promise.all(chunk.map(async deal => {
+      if (!deal.seoUrl) return;
+      deal.priceComparison = await fetchPriceComparison(deal.seoUrl);
+      done++;
+    }));
+  }
+  const withData = deals.filter(d => d.priceComparison.length > 0).length;
+  console.log(`가격비교 수집 완료: ${done}개 중 ${withData}개 데이터 있음`);
 }
 
 async function main() {
@@ -96,9 +140,13 @@ async function main() {
     }
   }
 
-  console.log(`신규: ${newDeals.length}개`);
+  console.log(`신규: ${newDeals.length}개 — 가격비교 수집 중...`);
+  if (newDeals.length > 0) await fetchAllPriceComparisons(newDeals);
 
-  // 기존 딜 중 로컬 이미지 참조 제거 (CDN URL로 대체됨)
+  // seoUrl 필드는 내부용이므로 저장 전 제거
+  for (const d of newDeals) delete d.seoUrl;
+
+  // 기존 딜 중 로컬 이미지 참조 제거
   const cleanedExisting = (existing.deals || []).map(d => ({
     ...d,
     image: d.image && d.image.startsWith('/hotdeal-images/') ? null : d.image,

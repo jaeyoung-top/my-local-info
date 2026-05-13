@@ -7,6 +7,8 @@ import rawData from '../../../public/data/hotdeals.json';
 
 const PAGE_SIZE = 20;
 
+type PriceEntry = { site: string; price: string };
+
 type Deal = {
   id: string;
   title: string;
@@ -19,6 +21,7 @@ type Deal = {
   publishedAt: string;
   likes: number;
   fetchedAt: string;
+  priceComparison?: PriceEntry[];
 };
 
 const CATEGORIES = ['전체', 'PC', '가전', '식품', '생활용품', '게임', '의류', '화장품', '해외핫딜', '기타'];
@@ -33,6 +36,11 @@ const SOURCE_COLORS: Record<string, string> = {
   '아카라이브': '#10B981',
   '클리앙': '#2A6EBB',
 };
+
+function parsePriceNum(price: string): number {
+  const n = parseInt(price.replace(/[^0-9]/g, ''));
+  return isNaN(n) ? Infinity : n;
+}
 
 function timeAgo(dateStr: string): string {
   if (!dateStr) return '';
@@ -111,6 +119,30 @@ function DealCard({ deal }: { deal: Deal }) {
             <span className="text-[11px] text-gray-400 font-medium">👍 {deal.likes}</span>
           )}
         </div>
+
+        {/* 타사 가격비교 */}
+        {deal.priceComparison && deal.priceComparison.length > 0 && (() => {
+          const entries = deal.priceComparison.slice(0, 4);
+          const lowestPrice = Math.min(...entries.map(e => parsePriceNum(e.price)));
+          return (
+            <div className="mt-1 pt-2 border-t border-gray-50">
+              <p className="text-[9px] font-bold text-gray-400 uppercase tracking-wide mb-1.5">타사 가격비교</p>
+              <div className="space-y-1">
+                {entries.map((pc, i) => {
+                  const isLowest = parsePriceNum(pc.price) === lowestPrice;
+                  return (
+                    <div key={i} className="flex items-center justify-between gap-2">
+                      <span className="text-[10px] text-gray-400 truncate">{pc.site}</span>
+                      <span className={`text-[10px] font-bold shrink-0 ${isLowest ? 'text-[#F25C05]' : 'text-gray-600'}`}>
+                        {pc.price}{isLowest && entries.length > 1 ? ' 최저' : ''}
+                      </span>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          );
+        })()}
       </div>
 
       <div className="px-4 pb-4">
