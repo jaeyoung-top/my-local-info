@@ -81,6 +81,7 @@ function mapDeal(d) {
     price: d.price || null,
     image: d.thumbnail_url || null,
     category: categorize(d.category),
+    site: d.site || null,
     source: d.community_name || '기타',
     sourceColor: SOURCE_COLORS[d.community_name] || '#888888',
     link: d.post_url || `https://hotdeal.zip/${d.seo_url}`,

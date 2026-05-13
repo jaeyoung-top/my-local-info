@@ -5,7 +5,7 @@ import Header from '@/components/Header';
 import CoupangBanner from '@/components/CoupangBanner';
 import rawData from '../../../public/data/hotdeals.json';
 
-const PAGE_SIZE = 20;
+const PAGE_SIZE = 30;
 
 type PriceEntry = { site: string; price: string };
 
@@ -15,6 +15,7 @@ type Deal = {
   price: string | null;
   image: string | null;
   category: string;
+  site?: string | null;
   source: string;
   sourceColor: string;
   link: string;
@@ -46,110 +47,128 @@ function timeAgo(dateStr: string): string {
   if (!dateStr) return '';
   try {
     const now = new Date();
-    const d = new Date(dateStr);
-    if (isNaN(d.getTime())) return dateStr;
+    const d = new Date(dateStr.replace(' ', 'T'));
+    if (isNaN(d.getTime())) return '';
     const diff = Math.floor((now.getTime() - d.getTime()) / 1000);
     if (diff < 60) return '방금 전';
     if (diff < 3600) return `${Math.floor(diff / 60)}분 전`;
     if (diff < 86400) return `${Math.floor(diff / 3600)}시간 전`;
     return `${Math.floor(diff / 86400)}일 전`;
   } catch {
-    return dateStr;
+    return '';
   }
 }
 
-function DealCard({ deal }: { deal: Deal }) {
-  const srcColor = SOURCE_COLORS[deal.source] || '#888';
+function formatTime(dateStr: string): string {
+  if (!dateStr) return '';
+  try {
+    const d = new Date(dateStr.replace(' ', 'T'));
+    if (isNaN(d.getTime())) return '';
+    return d.toLocaleTimeString('ko-KR', { hour: '2-digit', minute: '2-digit', hour12: false });
+  } catch {
+    return '';
+  }
+}
+
+function DealRow({ deal }: { deal: Deal }) {
+  const srcColor = SOURCE_COLORS[deal.source] || '#6366f1';
+  const hasCompare = deal.priceComparison && deal.priceComparison.length > 0;
+  const compareEntries = hasCompare ? deal.priceComparison!.slice(0, 3) : [];
+  const lowestPrice = hasCompare
+    ? Math.min(...compareEntries.map(e => parsePriceNum(e.price)))
+    : Infinity;
+
   return (
     <a
       href={deal.link}
       target="_blank"
       rel="noopener noreferrer"
-      className="group flex flex-col bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-200"
+      className="flex items-start gap-3 px-4 py-3 hover:bg-[#1e2433] active:bg-[#252b3b] transition-colors border-b border-[#1e2433] group"
     >
-      {deal.image ? (
-        <div className="relative h-40 w-full overflow-hidden bg-gray-50">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
+      {/* 썸네일 */}
+      <div className="w-[60px] h-[60px] shrink-0 rounded-lg overflow-hidden bg-[#1e2433]">
+        {deal.image ? (
+          // eslint-disable-next-line @next/next/no-img-element
           <img
             src={deal.image}
             alt={deal.title}
-            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-            onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = 'none'; }}
+            className="w-full h-full object-cover"
+            onError={(e) => {
+              (e.currentTarget as HTMLImageElement).parentElement!.style.display = 'none';
+            }}
           />
+        ) : (
+          <div className="w-full h-full flex items-center justify-center text-[#3a4155]">
+            <svg width="24" height="24" fill="none" viewBox="0 0 24 24"><rect width="24" height="24" rx="4" fill="#2a3040"/><path d="M8 15l3-4 2 2.5 2-3L19 15H8z" fill="#3a4560"/><circle cx="9.5" cy="9.5" r="1.5" fill="#3a4560"/></svg>
+          </div>
+        )}
+      </div>
+
+      {/* 콘텐츠 */}
+      <div className="flex-1 min-w-0">
+        {/* 태그 행 */}
+        <div className="flex items-center gap-1.5 mb-1 flex-wrap">
+          {deal.category !== '기타' && (
+            <span className="text-[10px] font-bold px-1.5 py-0.5 rounded bg-[#2a3147] text-[#94a3b8]">
+              {deal.category}
+            </span>
+          )}
+          {deal.site && (
+            <span className="text-[10px] font-bold px-1.5 py-0.5 rounded bg-[#2a3147] text-[#94a3b8]">
+              {deal.site}
+            </span>
+          )}
           <span
-            className="absolute top-2 left-2 text-[10px] font-black px-2 py-0.5 rounded-full text-white shadow"
-            style={{ backgroundColor: srcColor }}
+            className="text-[10px] font-bold px-1.5 py-0.5 rounded text-white"
+            style={{ backgroundColor: srcColor + '33', color: srcColor }}
           >
             {deal.source}
           </span>
         </div>
-      ) : (
-        <div className="h-1.5 w-full bg-gradient-to-r from-[#FF3B3B] to-[#F25C05]" />
-      )}
 
-      <div className="flex flex-col flex-grow p-4 gap-2">
-        <div className="flex items-center gap-2 flex-wrap">
-          {!deal.image && (
-            <span
-              className="text-[10px] font-black px-2 py-0.5 rounded-full text-white"
-              style={{ backgroundColor: srcColor }}
-            >
-              {deal.source}
-            </span>
-          )}
-          {deal.category !== '기타' && (
-            <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-gray-100 text-gray-500">
-              {deal.category}
-            </span>
-          )}
-          <span className="ml-auto text-[10px] text-gray-400">{timeAgo(deal.publishedAt) || timeAgo(deal.fetchedAt)}</span>
-        </div>
-
-        <h3 className="text-sm font-bold text-gray-800 leading-snug line-clamp-3 group-hover:text-[#F25C05] transition-colors flex-grow">
+        {/* 제목 */}
+        <p className="text-sm font-bold text-[#e2e8f0] leading-snug line-clamp-2 group-hover:text-white transition-colors">
           {deal.title}
-        </h3>
+        </p>
 
-        <div className="flex items-center justify-between mt-auto pt-2 border-t border-gray-50">
+        {/* 가격 + 시간 */}
+        <div className="flex items-center gap-2 mt-1.5">
           {deal.price ? (
-            <span className="text-base font-black text-[#FF3B3B]">{deal.price}</span>
+            <span className="text-sm font-black text-[#ff6b6b]">{deal.price}</span>
           ) : (
-            <span className="text-xs text-gray-400">가격 미표기</span>
+            <span className="text-xs text-[#475569]">가격 미표기</span>
           )}
+          <span className="text-[10px] text-[#475569]">{timeAgo(deal.publishedAt) || timeAgo(deal.fetchedAt)}</span>
           {deal.likes > 0 && (
-            <span className="text-[11px] text-gray-400 font-medium">👍 {deal.likes}</span>
+            <span className="text-[10px] text-[#475569]">조회 {deal.likes}</span>
           )}
         </div>
 
         {/* 타사 가격비교 */}
-        {deal.priceComparison && deal.priceComparison.length > 0 && (() => {
-          const entries = deal.priceComparison.slice(0, 4);
-          const lowestPrice = Math.min(...entries.map(e => parsePriceNum(e.price)));
-          return (
-            <div className="mt-1 pt-2 border-t border-gray-50">
-              <p className="text-[9px] font-bold text-gray-400 uppercase tracking-wide mb-1.5">타사 가격비교</p>
-              <div className="space-y-1">
-                {entries.map((pc, i) => {
-                  const isLowest = parsePriceNum(pc.price) === lowestPrice;
-                  return (
-                    <div key={i} className="flex items-center justify-between gap-2">
-                      <span className="text-[10px] text-gray-400 truncate">{pc.site}</span>
-                      <span className={`text-[10px] font-bold shrink-0 ${isLowest ? 'text-[#F25C05]' : 'text-gray-600'}`}>
-                        {pc.price}{isLowest && entries.length > 1 ? ' 최저' : ''}
-                      </span>
-                    </div>
-                  );
-                })}
-              </div>
-            </div>
-          );
-        })()}
+        {hasCompare && (
+          <div className="mt-2 flex items-center gap-2 flex-wrap">
+            <span className="text-[9px] text-[#475569] font-bold uppercase tracking-wider">비교</span>
+            {compareEntries.map((pc, i) => {
+              const isLowest = parsePriceNum(pc.price) === lowestPrice && compareEntries.length > 1;
+              return (
+                <span
+                  key={i}
+                  className={`text-[10px] px-1.5 py-0.5 rounded font-bold ${
+                    isLowest
+                      ? 'bg-[#ff6b6b]/10 text-[#ff6b6b]'
+                      : 'bg-[#2a3147] text-[#64748b]'
+                  }`}
+                >
+                  {pc.site} {pc.price}{isLowest ? ' 최저' : ''}
+                </span>
+              );
+            })}
+          </div>
+        )}
       </div>
 
-      <div className="px-4 pb-4">
-        <span className="block w-full text-center text-[11px] font-black text-[#F25C05] bg-[#FFF5F0] py-2 rounded-xl group-hover:bg-[#F25C05] group-hover:text-white transition-colors">
-          바로가기 →
-        </span>
-      </div>
+      {/* 시간 */}
+      <span className="text-[11px] text-[#3a4560] shrink-0 pt-0.5">{formatTime(deal.publishedAt)}</span>
     </a>
   );
 }
@@ -170,7 +189,6 @@ export default function HotDealPage() {
     return result;
   }, [deals, activeCategory, activeSource, sortBy]);
 
-  // 필터/정렬 변경 시 첫 페이지로 리셋
   useEffect(() => {
     setVisibleCount(PAGE_SIZE);
   }, [activeCategory, activeSource, sortBy]);
@@ -184,63 +202,68 @@ export default function HotDealPage() {
     : '';
 
   return (
-    <div className="min-h-screen bg-[#FFF5F0] text-[#334155]">
+    <div className="min-h-screen bg-[#0d1117] text-[#e2e8f0]">
       <Header color="orange" />
 
       {/* 히어로 */}
-      <div className="bg-gradient-to-r from-[#FF3B3B] to-[#F25C05] text-white py-10 px-6">
-        <div className="max-w-6xl mx-auto">
-          <div className="flex items-center gap-3 mb-2">
-            <span className="text-4xl">🔥</span>
-            <h1 className="text-3xl font-black tracking-tight">전국 핫딜 모음</h1>
+      <div className="bg-[#0d1117] border-b border-[#1e2433] px-4 py-6">
+        <div className="max-w-3xl mx-auto">
+          <div className="flex items-center gap-2 mb-1">
+            <span className="text-2xl">🔥</span>
+            <h1 className="text-xl font-black tracking-tight text-white">전국 핫딜 모음</h1>
           </div>
-          <p className="text-white/80 text-sm font-medium">
-            FM코리아·퀘이사존·개드립·루리웹·뽐뿌·아카라이브 핫딜을 한눈에 모아드려요
+          <p className="text-[#475569] text-xs">
+            FM코리아·퀘이사존·개드립·루리웹·뽐뿌·아카라이브
+            {lastUpdated && <span className="ml-2">· 업데이트 {lastUpdated}</span>}
           </p>
-          {lastUpdated && (
-            <p className="text-white/60 text-xs mt-2">마지막 업데이트: {lastUpdated}</p>
-          )}
         </div>
       </div>
 
-      <div className="max-w-6xl mx-auto px-4 py-6">
+      <div className="max-w-3xl mx-auto">
 
         {/* 필터 */}
-        <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-4 mb-6 space-y-3">
-          <div className="flex flex-wrap gap-2">
+        <div className="bg-[#0d1117] border-b border-[#1e2433] px-4 py-3 space-y-2.5 sticky top-0 z-10">
+          {/* 카테고리 */}
+          <div className="flex gap-1.5 flex-wrap">
             {CATEGORIES.map(cat => (
               <button
                 key={cat}
                 onClick={() => setActiveCategory(cat)}
-                className={`px-3 py-1.5 rounded-full text-xs font-bold transition-colors ${
-                  activeCategory === cat ? 'bg-[#F25C05] text-white' : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
+                className={`px-2.5 py-1 rounded text-xs font-bold transition-colors ${
+                  activeCategory === cat
+                    ? 'bg-[#ff6b6b] text-white'
+                    : 'bg-[#1e2433] text-[#64748b] hover:text-[#94a3b8]'
                 }`}
               >
                 {cat}
               </button>
             ))}
           </div>
-          <div className="flex flex-wrap items-center gap-3 pt-1 border-t border-gray-50">
-            <div className="flex flex-wrap gap-2">
-              {SOURCES.map(src => (
-                <button
-                  key={src}
-                  onClick={() => setActiveSource(src)}
-                  className={`px-3 py-1 rounded-full text-xs font-bold transition-colors ${
-                    activeSource === src ? 'bg-gray-800 text-white' : 'bg-gray-100 text-gray-500 hover:bg-gray-200'
-                  }`}
-                >
-                  {src}
-                </button>
-              ))}
-            </div>
-            <div className="ml-auto flex gap-2">
+
+          {/* 소스 + 정렬 */}
+          <div className="flex items-center gap-1.5 flex-wrap">
+            {SOURCES.map(src => (
+              <button
+                key={src}
+                onClick={() => setActiveSource(src)}
+                className={`px-2.5 py-1 rounded text-xs font-bold transition-colors ${
+                  activeSource === src
+                    ? 'bg-[#1e3a5f] text-[#60a5fa]'
+                    : 'bg-[#1e2433] text-[#64748b] hover:text-[#94a3b8]'
+                }`}
+              >
+                {src}
+              </button>
+            ))}
+            <div className="ml-auto flex gap-1.5">
               {(['latest', 'popular'] as const).map(s => (
                 <button
                   key={s}
                   onClick={() => setSortBy(s)}
-                  className={`px-3 py-1 rounded-full text-xs font-bold transition-colors ${
-                    sortBy === s ? 'bg-[#FF3B3B] text-white' : 'bg-gray-100 text-gray-500 hover:bg-gray-200'
+                  className={`px-2.5 py-1 rounded text-xs font-bold transition-colors ${
+                    sortBy === s
+                      ? 'bg-[#1e2433] text-[#ff6b6b]'
+                      : 'bg-[#1e2433] text-[#64748b] hover:text-[#94a3b8]'
                   }`}
                 >
                   {s === 'latest' ? '최신순' : '인기순'}
@@ -252,49 +275,49 @@ export default function HotDealPage() {
 
         {/* 결과 수 */}
         {filtered.length > 0 && (
-          <p className="text-xs text-gray-400 font-medium mb-4">
+          <div className="px-4 py-2 text-[10px] text-[#3a4560]">
             {visibleCount < filtered.length
-              ? `${visibleCount} / ${filtered.length}개 표시 중`
+              ? `${visibleCount} / ${filtered.length}개 표시`
               : `총 ${filtered.length}개`}
-          </p>
+          </div>
         )}
 
-        {/* 딜 그리드 */}
+        {/* 딜 목록 */}
         {filtered.length === 0 ? (
-          <div className="text-center py-24 text-gray-400">
-            <div className="text-5xl mb-4">🔥</div>
-            <p className="text-lg font-bold mb-2">핫딜을 수집 중입니다</p>
+          <div className="text-center py-24 text-[#3a4560]">
+            <div className="text-4xl mb-4">🔥</div>
+            <p className="font-bold mb-1">핫딜을 수집 중입니다</p>
             <p className="text-sm">3시간마다 최신 핫딜이 업데이트됩니다</p>
           </div>
         ) : (
           <>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-              {visible.map((deal, idx) => (
-                <DealCard key={deal.id} deal={deal} />
+            <div className="bg-[#0d1117]">
+              {visible.map((deal) => (
+                <DealRow key={deal.id} deal={deal} />
               ))}
             </div>
 
-            {/* 쿠팡 배너 (20개마다) */}
+            {/* 쿠팡 배너 */}
             {visibleCount >= PAGE_SIZE && (
-              <div className="mt-6">
+              <div className="px-4 py-4">
                 <CoupangBanner />
               </div>
             )}
 
-            {/* 더보기 버튼 */}
+            {/* 더보기 */}
             {hasMore ? (
-              <div className="mt-8 flex flex-col items-center gap-3">
+              <div className="px-4 py-6 flex flex-col items-center gap-2">
                 <button
                   onClick={() => setVisibleCount(c => c + PAGE_SIZE)}
-                  className="px-10 py-3.5 bg-[#F25C05] text-white text-sm font-black rounded-2xl hover:bg-[#d34b00] active:scale-95 transition-all shadow-md"
+                  className="w-full py-3 bg-[#1e2433] text-[#94a3b8] text-sm font-bold rounded-lg hover:bg-[#252d3f] hover:text-white transition-colors"
                 >
                   더보기 ({remaining}개 남음)
                 </button>
-                <p className="text-xs text-gray-400">{visibleCount} / {filtered.length}개</p>
+                <p className="text-[10px] text-[#3a4560]">{visibleCount} / {filtered.length}개</p>
               </div>
             ) : (
-              <div className="mt-8 text-center text-xs text-gray-400 py-4 border-t border-gray-100">
-                모든 핫딜을 확인했습니다 🎉
+              <div className="px-4 py-6 text-center text-[10px] text-[#3a4560] border-t border-[#1e2433]">
+                모든 핫딜을 확인했습니다
               </div>
             )}
           </>
@@ -302,13 +325,13 @@ export default function HotDealPage() {
 
         {/* 하단 배너 */}
         {!hasMore && filtered.length > 0 && (
-          <div className="mt-6">
+          <div className="px-4 pb-4">
             <CoupangBanner />
           </div>
         )}
 
         {/* 면책 */}
-        <div className="mt-8 p-4 bg-white rounded-2xl border border-gray-100 text-xs text-gray-400 space-y-1">
+        <div className="px-4 py-4 border-t border-[#1e2433] text-[10px] text-[#2a3147] space-y-1">
           <p>이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p>
           <p>핫딜 정보는 각 커뮤니티에서 자동 수집됩니다. 가격·재고는 실시간 변동될 수 있으니 구매 전 반드시 확인하세요.</p>
         </div>
