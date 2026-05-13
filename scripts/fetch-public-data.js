@@ -1,6 +1,16 @@
 const fs = require('fs');
 const path = require('path');
 
+// 항목명 기반 결정론적 해시 (같은 이름 → 같은 이미지, 다른 이름 → 다른 이미지)
+function nameHash(str) {
+  let h = 0x811c9dc5;
+  for (let i = 0; i < str.length; i++) {
+    h ^= str.charCodeAt(i);
+    h = (h * 0x01000193) >>> 0;
+  }
+  return (h % 900000) + 100000; // 100000~999999 범위의 6자리 숫자
+}
+
 /**
  * 공공데이터포털 API를 통해 새로운 정보를 가져와 Gemini AI로 가공한 뒤
  * local-info.json에 추가하는 스크립트입니다.
@@ -264,8 +274,8 @@ ${JSON.stringify(targetItem, null, 2)}`;
       const processedItem = JSON.parse(jsonMatch[0]);
       processedItem.id = String(processedItem.id || Date.now());
 
-      // 항목 ID를 시드로 고유 이미지 부여 (중복 없음)
-      processedItem.image = `https://picsum.photos/seed/${processedItem.id}/800/500`;
+      // 항목명 해시를 시드로 고유 이미지 부여 (Gemini ID 중복 문제 해결)
+      processedItem.image = `https://picsum.photos/seed/${nameHash(processedItem.name)}/800/500`;
 
       // 중복 이름을 existingNames에 추가
       existingNames.add(normalizeString(processedItem.name));

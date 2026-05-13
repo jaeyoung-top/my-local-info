@@ -2,6 +2,16 @@ const fs = require('fs');
 const path = require('path');
 const cheerio = require('cheerio');
 
+// 항목명 기반 결정론적 해시
+function nameHash(str) {
+  let h = 0x811c9dc5;
+  for (let i = 0; i < str.length; i++) {
+    h ^= str.charCodeAt(i);
+    h = (h * 0x01000193) >>> 0;
+  }
+  return (h % 900000) + 100000;
+}
+
 /**
  * 송파소식 웹진을 크롤링하여 주요 행사/축제를 추출 후 
  * Gemini AI로 가공하여 local-info.json에 추가합니다.
@@ -92,20 +102,10 @@ async function main() {
     "location": "장소 (기사에 없으면 '송파구 관내')",
     "target": "전체 구민",
     "summary": "제목을 바탕으로 작성한 행사 한줄 요약 소개",
-    "link": "목록에서 가져온 해당 기사의 URL 주소",
-    "image": "https://images.unsplash.com/photo-1543362906-acfc16c67564?q=80&w=1000&auto=format&fit=crop"
+    "link": "목록에서 가져온 해당 기사의 URL 주소"
   }
 ]
 카테고리는 무조건 '행사'로 지정해.
-image 필드에는 아래 중 가장 분위기가 맞는 이미지의 전체 URL을 그대로 복사해서 써줘:
-1. https://images.unsplash.com/photo-1543362906-acfc16c67564?q=80&w=1000&auto=format&fit=crop (공연, 벚꽃, 피크닉, 축제)
-2. https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?q=80&w=2070&auto=format&fit=crop (도서관, 평생학습, 교육)
-3. https://images.unsplash.com/photo-1516627145497-ae6968895b74?q=80&w=2000&auto=format&fit=crop (어린이, 활기찬 엑티비티, 놀이)
-4. https://images.unsplash.com/photo-1506157786151-b8491531f063?q=80&w=1000&auto=format&fit=crop (음악, 콘서트, 페스티벌)
-5. https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=1000&auto=format&fit=crop (전통, 축제, 화려함)
-6. https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?q=80&w=1000&auto=format&fit=crop (밤, 조명, 도심 축제)
-7. https://images.unsplash.com/photo-1472289065668-ce650ac443d2?q=80&w=1000&auto=format&fit=crop (꽃, 자연, 힐링)
-8. https://images.unsplash.com/photo-1519750157634-b6d493a0f77c?q=80&w=1000&auto=format&fit=crop (벚꽃길, 걷기, 나들이)
 
 기사 원본 텍스트:
 ${rawDataText}`;
@@ -160,6 +160,8 @@ ${rawDataText}`;
 
       if (!isDuplicate) {
         item.id = `crawler-${Date.now()}-${Math.floor(Math.random() * 1000)}`;
+        // 항목명 해시 기반 이미지 (Gemini 중복 배정 문제 해결)
+        item.image = `https://picsum.photos/seed/${nameHash(item.name)}/800/500`;
         localData.events.unshift(item); // 리스트의 최상단에 배치
         addedCount++;
       }
