@@ -625,21 +625,34 @@ async function main() {
 
   if (newDeals.length > 0) await downloadImages(newDeals);
 
-  // 기존 이미지 없는 딜 재시도 (최대 10개)
-  const retryDeals = (existing.deals || []).filter(d => !d.image).slice(0, 10).map(d => ({ ...d, imageUrl: null }));
+  // placeholder gif 감지 함수 (1095바이트 FM코리아 blank.gif 등)
+  const isBadImage = (img) => {
+    if (!img || !img.endsWith('.gif')) return false;
+    try {
+      const p = path.join(process.cwd(), 'public', img);
+      return !fs.existsSync(p) || fs.statSync(p).size < 5000;
+    } catch { return true; }
+  };
+
+  // 기존 딜 재분류·스팸 제거·나쁜 gif 클리어
+  const cleanedExisting = (existing.deals || [])
+    .filter(d => !isSpam(d.title))
+    .map(d => ({
+      ...d,
+      image: isBadImage(d.image) ? null : d.image,
+      category: categorize(d.title),
+    }));
+
+  // 이미지 없는 기존 딜 OG 이미지 재시도 (최대 30개)
+  const retryDeals = cleanedExisting.filter(d => !d.image).slice(0, 30).map(d => ({ ...d, imageUrl: null }));
   if (retryDeals.length > 0) {
     console.log(`기존 이미지 재시도: ${retryDeals.length}개`);
     await downloadImages(retryDeals);
     const retryMap = new Map(retryDeals.map(d => [d.id, d.image]));
-    for (const d of (existing.deals || [])) {
+    for (const d of cleanedExisting) {
       if (retryMap.get(d.id)) d.image = retryMap.get(d.id);
     }
   }
-
-  // 기존 딜도 새 키워드로 재분류, 스팸 제거
-  const cleanedExisting = (existing.deals || [])
-    .filter(d => !isSpam(d.title))
-    .map(d => ({ ...d, category: categorize(d.title) }));
 
   const combined = [...newDeals, ...cleanedExisting].slice(0, 600);
   cleanupOldImages(combined.map(d => d.id));
