@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const cheerio = require('cheerio');
+const iconv = require('iconv-lite');
 
 const PAGES_TO_FETCH = 5;
 const MAX_TOTAL = 500;
@@ -73,6 +74,101 @@ async function fetchPriceComparison(seoUrl) {
   }
 }
 
+// 원본 커뮤니티 글 본문 스크래핑
+function resolvePostLink(source, link) {
+  if (!link) return null;
+  try {
+    const u = new URL(link);
+    if (u.hostname === 'hotdealzip.mycafe24.com') {
+      const encoded = u.searchParams.get('url');
+      if (!encoded) return link;
+      const decoded = decodeURIComponent(encoded);
+      if (u.pathname.includes('ppomppu')) return 'https://www.ppomppu.co.kr/zboard/' + decoded;
+      return decoded; // 루리웹
+    }
+    return link;
+  } catch { return link; }
+}
+
+function normalizeImgSrc(src) {
+  if (!src || typeof src !== 'string') return null;
+  src = src.trim();
+  if (src.startsWith('//')) return 'https:' + src;
+  if (src.startsWith('http')) return src;
+  return null;
+}
+
+function isUsefulImage(src) {
+  if (!src) return false;
+  const lower = src.toLowerCase();
+  const skip = ['1x1', 'pixel', 'spacer', 'blank', 'logo', 'icon', 'btn_', 'button', 'lazyload', 'loading', 'spinner', 'arrow', 'dot0'];
+  for (const p of skip) if (lower.includes(p)) return false;
+  return true;
+}
+
+async function fetchPostContent(source, link) {
+  if (!link || source === '아카라이브') return null;
+  const realUrl = resolvePostLink(source, link);
+  if (!realUrl) return null;
+  try {
+    let origin = 'https://www.google.com/';
+    try { origin = new URL(realUrl).origin + '/'; } catch {}
+    const headers = {
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+      'Accept': 'text/html,application/xhtml+xml',
+      'Accept-Language': 'ko-KR,ko;q=0.9',
+      'Referer': origin,
+    };
+    const res = await fetch(realUrl, { headers, signal: AbortSignal.timeout(12000) });
+    if (!res.ok) return null;
+    const buf = Buffer.from(await res.arrayBuffer());
+    const ct = res.headers.get('content-type') || '';
+    let html;
+    if (ct.toLowerCase().includes('euc-kr')) {
+      html = iconv.decode(buf, 'euc-kr');
+    } else {
+      const rawStr = buf.toString('utf8');
+      html = rawStr.substring(0, 3000).toLowerCase().includes('charset=euc-kr')
+        ? iconv.decode(buf, 'euc-kr') : rawStr;
+    }
+
+    const $ = cheerio.load(html);
+    let $content;
+    if (source === 'FM코리아' || source === '개드립') {
+      $content = $('.xe_content');
+    } else if (source === '루리웹') {
+      $content = $('.view_content');
+    } else if (source === '뽐뿌') {
+      $content = $('td.board-contents');
+    } else if (source === '퀘이사존') {
+      const taContent = $('dl dd > textarea').text().trim();
+      if (!taContent) return null;
+      const $inner = cheerio.load(taContent);
+      const text = $inner('body').text().replace(/\s+/g, ' ').trim();
+      const images = [];
+      $inner('img').each((_, el) => {
+        const src = normalizeImgSrc($inner(el).attr('src') || $inner(el).attr('data-src'));
+        if (src && isUsefulImage(src)) images.push(src);
+      });
+      if (!text && images.length === 0) return null;
+      return { text: text.substring(0, 2000), images: images.slice(0, 8) };
+    } else {
+      return null;
+    }
+    if (!$content || !$content.length) return null;
+    const text = $content.text().replace(/\s+/g, ' ').trim();
+    const images = [];
+    $content.find('img').each((_, el) => {
+      const src = normalizeImgSrc($(el).attr('src') || $(el).attr('data-src') || $(el).attr('data-original'));
+      if (src && isUsefulImage(src)) images.push(src);
+    });
+    if (!text && images.length === 0) return null;
+    return { text: text.substring(0, 2000), images: images.slice(0, 8) };
+  } catch {
+    return null;
+  }
+}
+
 // price_info.php POST — 다나와 기반 가격 흐름 데이터
 async function fetchPriceHistory(dealId) {
   try {
@@ -125,23 +221,25 @@ function mapDeal(d) {
 }
 
 async function fetchAllDetails(deals) {
-  let done = 0, cmpOk = 0, histOk = 0;
+  let done = 0, cmpOk = 0, histOk = 0, postOk = 0;
   for (let i = 0; i < deals.length; i += COMPARE_CONCURRENCY) {
     const chunk = deals.slice(i, i + COMPARE_CONCURRENCY);
     await Promise.all(chunk.map(async deal => {
-      if (!deal.seoUrl) return;
-      const [cmp, hist] = await Promise.all([
-        fetchPriceComparison(deal.seoUrl),
+      const [cmp, hist, post] = await Promise.all([
+        deal.seoUrl ? fetchPriceComparison(deal.seoUrl) : Promise.resolve([]),
         fetchPriceHistory(deal.id),
+        fetchPostContent(deal.source, deal.link),
       ]);
       deal.priceComparison = cmp;
       deal.priceHistory = hist || null;
+      deal.postContent = post || null;
       if (cmp.length > 0) cmpOk++;
       if (hist) histOk++;
+      if (post) postOk++;
       done++;
     }));
   }
-  console.log(`상세 수집 완료: ${done}개 — 가격비교 ${cmpOk}개, 가격흐름 ${histOk}개`);
+  console.log(`상세 수집 완료: ${done}개 — 가격비교 ${cmpOk}개, 가격흐름 ${histOk}개, 원문 ${postOk}개`);
 }
 
 async function main() {

@@ -10,6 +10,7 @@ const PAGE_SIZE = 30;
 type PriceEntry = { site: string; price: string };
 type HistoryPoint = { date: string; price: number };
 type PriceHistory = { points: HistoryPoint[]; minPrice: number; maxPrice: number };
+type PostContent = { text: string; images: string[] };
 
 type Deal = {
   id: string;
@@ -26,6 +27,7 @@ type Deal = {
   fetchedAt: string;
   priceComparison?: PriceEntry[];
   priceHistory?: PriceHistory | null;
+  postContent?: PostContent | null;
 };
 
 const CATEGORIES = ['전체', 'PC', '가전', '식품', '생활용품', '게임', '의류', '화장품', '해외핫딜', '기타'];
@@ -146,12 +148,15 @@ function PriceChart({ history, currentPrice }: { history: PriceHistory; currentP
 
 // ─── 딜 상세 모달 ─────────────────────────────────────────────────────────────
 function DealModal({ deal, onClose }: { deal: Deal; onClose: () => void }) {
-  const [activeTab, setActiveTab] = useState<'compare' | 'history'>('compare');
   const srcColor = SOURCE_COLORS[deal.source] || '#6366f1';
   const hasHistory = !!(deal.priceHistory?.points?.length && deal.priceHistory.points.length >= 2);
   const hasCompare = !!(deal.priceComparison?.length);
+  const hasContent = !!(deal.postContent?.text || deal.postContent?.images?.length);
   const currentNum = deal.price ? parsePriceNum(deal.price) : null;
   const summary = generateSummary(deal);
+
+  const defaultTab = hasContent ? 'content' : hasCompare ? 'compare' : 'history';
+  const [activeTab, setActiveTab] = useState<'compare' | 'history' | 'content'>(defaultTab as 'compare' | 'history' | 'content');
 
   const compareEntries = deal.priceComparison || [];
   const lowestNum = compareEntries.length
@@ -232,9 +237,19 @@ function DealModal({ deal, onClose }: { deal: Deal; onClose: () => void }) {
         </div>
 
         {/* 탭 */}
-        {(hasCompare || hasHistory) && (
+        {(hasCompare || hasHistory || hasContent) && (
           <div className="border-t border-[#252d3f]">
             <div className="flex px-4 pt-2 gap-1">
+              {hasContent && (
+                <button
+                  onClick={() => setActiveTab('content')}
+                  className={`px-3 py-2 text-xs font-bold rounded-t-lg transition-colors ${
+                    activeTab === 'content' ? 'bg-[#1e2433] text-white' : 'text-[#475569] hover:text-[#94a3b8]'
+                  }`}
+                >
+                  📄 원문 내용
+                </button>
+              )}
               {hasCompare && (
                 <button
                   onClick={() => setActiveTab('compare')}
@@ -258,6 +273,39 @@ function DealModal({ deal, onClose }: { deal: Deal; onClose: () => void }) {
             </div>
 
             <div className="bg-[#1e2433] mx-4 mb-4 rounded-xl overflow-hidden">
+              {/* 원문 내용 탭 */}
+              {activeTab === 'content' && hasContent && deal.postContent && (
+                <div className="p-4 space-y-3">
+                  {deal.postContent.images.length > 0 && (
+                    <div className="space-y-2">
+                      {deal.postContent.images.map((src, i) => (
+                        // eslint-disable-next-line @next/next/no-img-element
+                        <img
+                          key={i}
+                          src={src}
+                          alt=""
+                          className="w-full rounded-lg object-contain max-h-[400px]"
+                          onError={e => { (e.currentTarget as HTMLImageElement).style.display = 'none'; }}
+                        />
+                      ))}
+                    </div>
+                  )}
+                  {deal.postContent.text && (
+                    <p className="text-xs text-[#94a3b8] leading-relaxed whitespace-pre-wrap break-words">
+                      {deal.postContent.text}
+                    </p>
+                  )}
+                  <a
+                    href={deal.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1 text-[10px] text-[#475569] hover:text-[#94a3b8] transition-colors border border-[#2a3147] rounded px-2 py-1"
+                  >
+                    원문 보기 ↗
+                  </a>
+                </div>
+              )}
+
               {/* 가격 비교 탭 */}
               {activeTab === 'compare' && hasCompare && (
                 <table className="w-full text-xs">
