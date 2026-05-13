@@ -32,6 +32,10 @@ body {
   overflow-wrap: break-word;
 }
 
+/* 스크롤바 숨김 */
+.scrollbar-hide::-webkit-scrollbar { display: none; }
+.scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+
 /* Custom Utilities for News Layout */
 .news-card {
   background: #ffffff;

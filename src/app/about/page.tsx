@@ -248,7 +248,7 @@ export default function AboutPage() {
         </section>
 
         {/* 바로가기 */}
-        <div className="grid sm:grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
           <Link href="/" className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 hover:shadow-md transition-shadow text-center">
             <p className="text-3xl mb-2">🏠</p>
             <p className="font-bold text-gray-800">메인 홈</p>

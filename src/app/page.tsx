@@ -161,28 +161,28 @@ export default function Home() {
           <p className="text-white/70 font-bold tracking-widest text-xs uppercase mb-4 inline-block px-4 py-1.5 rounded-full border border-white/20 bg-white/10 backdrop-blur-sm">
             AI Songpa Info
           </p>
-          <h1 className="text-white text-5xl md:text-7xl font-black tracking-tighter mb-4 drop-shadow-md">
+          <h1 className="text-white text-4xl sm:text-5xl md:text-7xl font-black tracking-tighter mb-4 drop-shadow-md">
             AI 송파 <span className="text-[#F25C05]">인포</span>
           </h1>
-          <p className="text-white/80 text-base md:text-lg font-medium drop-shadow break-keep mb-8">
-            우리 동네 행사·지원금·AI 프로그램과 대한민국 대표 커뮤니티 핫딜을 한눈에 확인하세요
+          <p className="text-white/80 text-sm sm:text-base md:text-lg font-medium drop-shadow break-keep mb-8 px-2">
+            우리 동네 행사·지원금·AI 프로그램과<br className="sm:hidden" /> 대한민국 대표 커뮤니티 핫딜을 한눈에
           </p>
 
           {/* 통계 뱃지 */}
-          <div className="flex flex-wrap justify-center gap-4">
+          <div className="grid grid-cols-2 sm:flex sm:flex-wrap justify-center gap-3">
             {[
-              { label: '송파구 이번달행사', value: events.length, color: '#1D428A' },
-              { label: '공공(전국)지원금·혜택', value: benefits.length, color: '#F25C05' },
-              { label: 'AI 프로그램', value: (aiSupport || []).length, color: '#2D3748' },
+              { label: '이번달 행사', value: events.length },
+              { label: '지원금·혜택', value: benefits.length },
+              { label: 'AI 프로그램', value: (aiSupport || []).length },
             ].map((stat) => (
-              <div key={stat.label} className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl px-6 py-3 text-white">
-                <span className="text-2xl font-black">{stat.value}</span>
-                <span className="text-xs text-white/70 ml-2">{stat.label}</span>
+              <div key={stat.label} className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl px-4 py-3 text-white text-center sm:text-left">
+                <span className="text-xl font-black">{stat.value}</span>
+                <span className="text-xs text-white/70 ml-1.5">{stat.label}</span>
               </div>
             ))}
-            <Link href="/hotdeal" className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl px-6 py-3 text-white hover:bg-white/20 transition-colors">
-              <span className="text-2xl font-black">🔥</span>
-              <span className="text-xs text-white/70 ml-2">전국 핫딜 모음</span>
+            <Link href="/hotdeal" className="col-span-2 sm:col-span-1 bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl px-4 py-3 text-white hover:bg-white/20 transition-colors text-center sm:text-left">
+              <span className="text-xl font-black">🔥</span>
+              <span className="text-xs text-white/70 ml-1.5">핫딜 모음</span>
             </Link>
           </div>
           <VisitorCounter />

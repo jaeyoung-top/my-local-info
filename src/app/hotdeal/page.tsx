@@ -485,7 +485,7 @@ export default function HotDealPage() {
         <div className="max-w-3xl mx-auto">
           <div className="flex items-center gap-2 mb-1">
             <span className="text-xl">🔥</span>
-            <h1 className="text-xl font-black tracking-tight text-white">전국 핫딜 모음</h1>
+            <h1 className="text-xl font-black tracking-tight text-white">대한민국 대표 커뮤니티 핫딜</h1>
           </div>
           <p className="text-[#475569] text-xs">
             FM코리아·퀘이사존·개드립·루리웹·뽐뿌·아카라이브
@@ -496,27 +496,31 @@ export default function HotDealPage() {
 
       <div className="max-w-3xl mx-auto">
         {/* 필터 (sticky) */}
-        <div className="bg-[#0d1117] border-b border-[#1e2433] px-4 py-3 space-y-2 sticky top-0 z-10">
-          <div className="flex gap-1.5 flex-wrap">
+        <div className="bg-[#0d1117] border-b border-[#1e2433] px-4 py-2.5 space-y-1.5 sticky top-0 z-10">
+          {/* 카테고리 - 수평 스크롤 */}
+          <div className="flex gap-1.5 overflow-x-auto scrollbar-hide pb-0.5">
             {CATEGORIES.map(cat => (
               <button key={cat} onClick={() => setActiveCategory(cat)}
-                className={`px-2.5 py-1 rounded text-xs font-bold transition-colors ${activeCategory === cat ? 'bg-[#ff6b6b] text-white' : 'bg-[#1e2433] text-[#64748b] hover:text-[#94a3b8]'}`}>
+                className={`shrink-0 px-2.5 py-1 rounded text-xs font-bold transition-colors ${activeCategory === cat ? 'bg-[#ff6b6b] text-white' : 'bg-[#1e2433] text-[#64748b] hover:text-[#94a3b8]'}`}>
                 {cat}
               </button>
             ))}
           </div>
-          <div className="flex items-center gap-1.5 flex-wrap">
-            {SOURCES.map(src => (
-              <button key={src} onClick={() => setActiveSource(src)}
-                className={`px-2.5 py-1 rounded text-xs font-bold transition-colors ${activeSource === src ? 'bg-[#1e3a5f] text-[#60a5fa]' : 'bg-[#1e2433] text-[#64748b] hover:text-[#94a3b8]'}`}>
-                {src}
-              </button>
-            ))}
-            <div className="ml-auto flex gap-1.5">
+          {/* 출처 + 정렬 */}
+          <div className="flex items-center gap-2">
+            <div className="flex gap-1.5 overflow-x-auto scrollbar-hide flex-1 pb-0.5">
+              {SOURCES.map(src => (
+                <button key={src} onClick={() => setActiveSource(src)}
+                  className={`shrink-0 px-2.5 py-1 rounded text-xs font-bold transition-colors ${activeSource === src ? 'bg-[#1e3a5f] text-[#60a5fa]' : 'bg-[#1e2433] text-[#64748b] hover:text-[#94a3b8]'}`}>
+                  {src}
+                </button>
+              ))}
+            </div>
+            <div className="flex gap-1.5 shrink-0">
               {(['latest', 'popular'] as const).map(s => (
                 <button key={s} onClick={() => setSortBy(s)}
                   className={`px-2.5 py-1 rounded text-xs font-bold transition-colors ${sortBy === s ? 'bg-[#1e2433] text-[#ff6b6b]' : 'bg-[#1e2433] text-[#64748b] hover:text-[#94a3b8]'}`}>
-                  {s === 'latest' ? '최신순' : '인기순'}
+                  {s === 'latest' ? '최신' : '인기'}
                 </button>
               ))}
             </div>
