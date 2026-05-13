@@ -1,6 +1,18 @@
 {
   "events": [
     {
+      "id": "crawler-1778649310020-154",
+      "name": "5월 가정의 달 행사 (음악회, 뮤지컬, 송파 아동·청소년축제)",
+      "category": "행사",
+      "startDate": "2026-05-01",
+      "endDate": "상시",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "5월 가정의 달을 맞아 음악회, 어린이 뮤지컬, 송파 아동·청소년축제 등 다채로운 행사가 열립니다.",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9020&aid=17679",
+      "image": "https://picsum.photos/seed/890463/800/500"
+    },
+    {
       "id": "crawler-1778645327570-169",
       "name": "송파구 청년예술인 '2026 더 임팩트'",
       "category": "행사",
@@ -2114,6 +2126,71 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000103",
       "imageTheme": "health",
       "image": "https://picsum.photos/seed/252820/800/500"
+    },
+    {
+      "id": "000025",
+      "name": "범죄 피해 아동/장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "상시",
+      "location": "법무부",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "만 19세 미만 아동, 의사소통 어려운 장애인 범죄 피해자의 수사·재판상 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://picsum.photos/seed/178272/800/500"
+    },
+    {
+      "id": "135200",
+      "name": "장애인 구강진료센터 의료서비스",
+      "category": "혜택",
+      "startDate": "2026-05-13",
+      "endDate": "상시",
+      "location": "장애인구강진료센터",
+      "target": "장애인",
+      "summary": "장애인 대상 비급여 치과 진료비 지원 서비스",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000090",
+      "imageTheme": "health",
+      "image": "https://picsum.photos/seed/398264/800/500"
+    },
+    {
+      "id": "135200000096",
+      "name": "유휴간호사 교육 및 취업 연계",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "상시",
+      "location": "간호인력 취업교육센터",
+      "target": "유휴·이직/신규/재직 간호사 및 간호조무사, 졸업예정자",
+      "summary": "유휴간호사를 위한 교육 및 취업연계 서비스 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000096",
+      "imageTheme": "health",
+      "image": "https://picsum.photos/seed/156892/800/500"
+    },
+    {
+      "id": "000112",
+      "name": "생활터 금연환경조성",
+      "category": "혜택",
+      "startDate": "2026-05-13",
+      "endDate": "상시",
+      "location": "한국건강증진개발원",
+      "target": "장애인, 임대주택 거주자, 금연취약 사업장 흡연자",
+      "summary": "흡연자를 위한 금연 상담, 금연 보조제 및 물품 제공 서비스",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000112",
+      "imageTheme": "health",
+      "image": "https://picsum.photos/seed/914767/800/500"
+    },
+    {
+      "id": "000113",
+      "name": "노인 무릎인공관절 수술 지원",
+      "category": "혜택",
+      "startDate": "2026-05-13",
+      "endDate": "상시",
+      "location": "보건소",
+      "target": "만 60세 이상 저소득 무릎관절 질환자",
+      "summary": "무릎관절증으로 고통받는 저소득 어르신에게 검사비, 진료비 및 수술비 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000113",
+      "imageTheme": "senior",
+      "image": "https://picsum.photos/seed/558896/800/500"
     }
   ],
   "aiSupport": [
