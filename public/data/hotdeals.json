@@ -1,6 +1,234 @@
 {
   "deals": [
     {
+      "id": "hdz_142942",
+      "title": "GIGABYTE AORUS RTX 5080 XTREME 워터포스 제이씨현",
+      "price": "2,179,920원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/05/15/thumb_5d4838ee33978114cff5d051c0bb74b9.webp",
+      "category": "PC",
+      "site": "지마켓",
+      "source": "아카라이브",
+      "sourceColor": "#10B981",
+      "link": "https://arca.live/b/hotdeal/170694386?p=1",
+      "publishedAt": "2026-05-15 07:00:07",
+      "likes": 3,
+      "fetchedAt": "2026-05-14T22:03:21.387Z",
+      "priceComparison": [
+        {
+          "site": "지마켓",
+          "price": "2,179,920원"
+        },
+        {
+          "site": "다나와",
+          "price": "2,291,340원"
+        },
+        {
+          "site": "다나와",
+          "price": "2,249,480원"
+        },
+        {
+          "site": "크림",
+          "price": "2,500,000원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "05-12",
+            "price": 2250000
+          }
+        ],
+        "minPrice": 2250000,
+        "maxPrice": 2250000
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_142941",
+      "title": "강아지옷 여름옷 ",
+      "price": "1,000원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/05/15/thumb_7a6da19b0fc9a8a2c9db4062af7be0e9.webp",
+      "category": "기타",
+      "site": "네이버쇼핑 ",
+      "source": "개드립",
+      "sourceColor": "#DC2626",
+      "link": "https://www.dogdrip.net/701770017",
+      "publishedAt": "2026-05-15 05:00:04",
+      "likes": 14,
+      "fetchedAt": "2026-05-14T22:03:21.387Z",
+      "priceComparison": [
+        {
+          "site": "네이버쇼핑",
+          "price": "1,000원"
+        },
+        {
+          "site": "쿠차",
+          "price": "6,250원"
+        },
+        {
+          "site": "펫프렌즈",
+          "price": "15,800원"
+        },
+        {
+          "site": "카카오 쇼핑하우",
+          "price": "1,900원"
+        },
+        {
+          "site": "카카오 쇼핑하우",
+          "price": "18,400원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "03-10",
+            "price": 15176
+          },
+          {
+            "date": "03-17",
+            "price": 15218
+          },
+          {
+            "date": "03-24",
+            "price": 15410
+          },
+          {
+            "date": "03-31",
+            "price": 15493
+          },
+          {
+            "date": "04-07",
+            "price": 15604
+          },
+          {
+            "date": "04-14",
+            "price": 15435
+          },
+          {
+            "date": "04-21",
+            "price": 15412
+          },
+          {
+            "date": "04-28",
+            "price": 15408
+          },
+          {
+            "date": "05-05",
+            "price": 15369
+          },
+          {
+            "date": "05-12",
+            "price": 15232
+          }
+        ],
+        "minPrice": 15176,
+        "maxPrice": 15604
+      },
+      "postContent": {
+        "text": "강아지옷 1,000원부터 5,500원까지 다양하게 있음 배송비 붙어도 저렴함 알림받기 쿠폰 받아야 저 가격 나옴",
+        "images": []
+      },
+      "shopUrl": "https://smartstore.naver.com/dognystore/products/8046939822"
+    },
+    {
+      "id": "hdz_142940",
+      "title": "국내산 배추겉절이 2kg",
+      "price": "9,900원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/05/15/thumb_e7c6d515bd74cd1e1bfd0f6887227ec6.webp",
+      "category": "식품",
+      "site": "g마켓",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://hotdealzip.mycafe24.com/ppomppu_view.php?url=view.php%3Fid%3Dppomppu%26page%3D1%26divpage%3D112%26no%3D704217",
+      "publishedAt": "2026-05-15 04:44:13",
+      "likes": 11,
+      "fetchedAt": "2026-05-14T22:03:21.387Z",
+      "priceComparison": [
+        {
+          "site": "g마켓",
+          "price": "9,900원"
+        },
+        {
+          "site": "다나와",
+          "price": "9,650원"
+        },
+        {
+          "site": "공영쇼핑",
+          "price": "10,355원"
+        },
+        {
+          "site": "11번가",
+          "price": "12,900원"
+        },
+        {
+          "site": "다나와",
+          "price": "18,720원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "02-24",
+            "price": 10960
+          },
+          {
+            "date": "03-03",
+            "price": 10110
+          },
+          {
+            "date": "03-10",
+            "price": 10710
+          },
+          {
+            "date": "03-17",
+            "price": 11900
+          },
+          {
+            "date": "03-24",
+            "price": 11810
+          },
+          {
+            "date": "03-31",
+            "price": 9630
+          },
+          {
+            "date": "04-07",
+            "price": 10470
+          },
+          {
+            "date": "04-14",
+            "price": 10470
+          },
+          {
+            "date": "04-21",
+            "price": 10540
+          },
+          {
+            "date": "04-28",
+            "price": 10540
+          },
+          {
+            "date": "05-05",
+            "price": 10540
+          },
+          {
+            "date": "05-12",
+            "price": 10470
+          }
+        ],
+        "minPrice": 9630,
+        "maxPrice": 11900
+      },
+      "postContent": {
+        "text": "국내산 재료고 당일 생산돼서 옵니다김치 종류 다양하게 있고 옵션 상관없이 2개 구매시 깍두기 500g 증정하네요",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0515/900w_20260515044108_aw5gcCCb6B.jpeg"
+        ]
+      },
+      "shopUrl": null
+    },
+    {
       "id": "hdz_142939",
       "title": "치킨버거 2인팩",
       "price": "10,000원",
@@ -33715,175 +33943,7 @@
         ]
       },
       "shopUrl": null
-    },
-    {
-      "id": "hdz_142279",
-      "title": "3+1 날씬이 탄수화물컷 가르시니아 체지방감소 바나바잎 혈당다이어트 4개월분",
-      "price": "26,180원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/05/14/thumb_384b5199c2df2f0284dd58f33e7a06bd.webp",
-      "category": "식품",
-      "site": "G마켓",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://hotdealzip.mycafe24.com/ppomppu_view.php?url=view.php%3Fid%3Dppomppu%26page%3D1%26divpage%3D112%26no%3D703921",
-      "publishedAt": "2026-05-14 10:08:17",
-      "likes": 6,
-      "fetchedAt": "2026-05-14T02:27:44.410Z",
-      "priceComparison": [
-        {
-          "site": "G마켓",
-          "price": "26,180원"
-        },
-        {
-          "site": "HLABKR",
-          "price": "10,900원"
-        },
-        {
-          "site": "야크알(YAK-AL)",
-          "price": "53,700원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": {
-        "text": "탄수화물컷+혈당다이어트 날씬이 3+1 4개월분입니다 특가 적용되서 2만원대 나오네요 식전에 1알씩 하루 2번 먹으면되고 스타배송으로 주문 다음날 바로 수령 가능합니다",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0514/900w_20260514100700_981ZwpLBcu.jpg"
-        ]
-      },
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_142179",
-      "title": "새우깡 8봉 + 매운새우깡 8봉",
-      "price": "14,360원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/05/14/thumb_bd18806f19510f7a8e3145c0d08b9662.webp",
-      "category": "식품",
-      "site": "옥션",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/9823641832",
-      "publishedAt": "2026-05-14 06:48:26",
-      "likes": 6,
-      "fetchedAt": "2026-05-13T22:04:46.626Z",
-      "priceComparison": [
-        {
-          "site": "옥션",
-          "price": "14,360원"
-        },
-        {
-          "site": "쿠팡",
-          "price": "9,220원"
-        },
-        {
-          "site": "G마켓",
-          "price": "9,500원"
-        },
-        {
-          "site": "옥션",
-          "price": "10,560원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "02-24",
-            "price": 43200
-          },
-          {
-            "date": "03-03",
-            "price": 43200
-          },
-          {
-            "date": "03-10",
-            "price": 43200
-          },
-          {
-            "date": "03-17",
-            "price": 43200
-          },
-          {
-            "date": "03-24",
-            "price": 43200
-          },
-          {
-            "date": "03-31",
-            "price": 43200
-          },
-          {
-            "date": "04-07",
-            "price": 43200
-          },
-          {
-            "date": "04-14",
-            "price": 43200
-          },
-          {
-            "date": "04-21",
-            "price": 43200
-          },
-          {
-            "date": "04-28",
-            "price": 43200
-          },
-          {
-            "date": "05-05",
-            "price": 39320
-          },
-          {
-            "date": "05-12",
-            "price": 39320
-          }
-        ],
-        "minPrice": 39320,
-        "maxPrice": 43200
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_142178",
-      "title": "새우깡 8봉 + 매운새우깡 8봉",
-      "price": "14,360원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/05/14/thumb_4ba2bf3cf247babcea9fa96eb69918bc.webp",
-      "category": "식품",
-      "site": "옥션",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://hotdealzip.mycafe24.com/ppomppu_view.php?url=view.php%3Fid%3Dppomppu%26page%3D1%26divpage%3D112%26no%3D703882",
-      "publishedAt": "2026-05-14 06:48:10",
-      "likes": 4,
-      "fetchedAt": "2026-05-13T22:04:46.626Z",
-      "priceComparison": [
-        {
-          "site": "옥션",
-          "price": "14,360원"
-        },
-        {
-          "site": "번장",
-          "price": "17,500원"
-        },
-        {
-          "site": "농심몰",
-          "price": "27,500원"
-        },
-        {
-          "site": "동원몰",
-          "price": "17,900원"
-        },
-        {
-          "site": "쿠차",
-          "price": "22,300원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": {
-        "text": "봉당 897원 나옵니다",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0514/900w_20260514064559_ESqOlBtDoM.jpeg"
-        ]
-      },
-      "shopUrl": null
     }
   ],
-  "lastUpdated": "2026-05-14T19:29:02.640Z"
+  "lastUpdated": "2026-05-14T22:03:23.754Z"
 }
