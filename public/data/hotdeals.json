@@ -1,6 +1,356 @@
 {
   "deals": [
     {
+      "id": "hdz_142383",
+      "title": "누룽지팝 4개+매운 누룽지팝 신상 4개",
+      "price": "14,960원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/05/14/thumb_c283dcc676a098fa69c7dba0b931901d.webp",
+      "category": "식품",
+      "site": "롯데온",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/9824268340",
+      "publishedAt": "2026-05-14 11:30:12",
+      "likes": 5,
+      "fetchedAt": "2026-05-14T02:32:15.014Z",
+      "priceComparison": [
+        {
+          "site": "롯데온",
+          "price": "14,960원"
+        },
+        {
+          "site": "다나와",
+          "price": "21,670원"
+        },
+        {
+          "site": "옥션",
+          "price": "32,500원"
+        },
+        {
+          "site": "롯데마트 제타",
+          "price": "1,820원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "02-24",
+            "price": 23520
+          },
+          {
+            "date": "03-03",
+            "price": 23090
+          },
+          {
+            "date": "03-10",
+            "price": 23090
+          },
+          {
+            "date": "03-17",
+            "price": 23370
+          },
+          {
+            "date": "03-24",
+            "price": 23330
+          },
+          {
+            "date": "03-31",
+            "price": 19020
+          },
+          {
+            "date": "04-07",
+            "price": 23230
+          },
+          {
+            "date": "04-14",
+            "price": 23230
+          },
+          {
+            "date": "04-21",
+            "price": 23090
+          },
+          {
+            "date": "04-28",
+            "price": 22800
+          },
+          {
+            "date": "05-05",
+            "price": 22740
+          },
+          {
+            "date": "05-12",
+            "price": 22800
+          }
+        ],
+        "minPrice": 19020,
+        "maxPrice": 23520
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_142382",
+      "title": "[기타] 딥큐 3in1 캡슐세제 샤르망부케 100개입",
+      "price": "7,251원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/05/14/thumb_4ca3390ca925553660f8dcf7e5c1f87f.webp",
+      "category": "생활용품",
+      "site": null,
+      "source": "퀘이사존",
+      "sourceColor": "#7C3AED",
+      "link": "https://quasarzone.com/bbs/qb_saleinfo/views/1951337",
+      "publishedAt": "2026-05-14 11:30:05",
+      "likes": 2,
+      "fetchedAt": "2026-05-14T02:32:15.014Z",
+      "priceComparison": [
+        {
+          "site": "핫딜모음",
+          "price": "7,251원"
+        },
+        {
+          "site": "다나와",
+          "price": "9,710원"
+        },
+        {
+          "site": "다사자",
+          "price": "14,970원"
+        },
+        {
+          "site": "CJ온스타일",
+          "price": "17,900원~"
+        },
+        {
+          "site": "패션플러스",
+          "price": "27,900원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "02-24",
+            "price": 14900
+          },
+          {
+            "date": "03-03",
+            "price": 13330
+          },
+          {
+            "date": "03-10",
+            "price": 14860
+          },
+          {
+            "date": "03-17",
+            "price": 15770
+          },
+          {
+            "date": "03-24",
+            "price": 15120
+          },
+          {
+            "date": "03-31",
+            "price": 15050
+          },
+          {
+            "date": "04-07",
+            "price": 15400
+          },
+          {
+            "date": "04-14",
+            "price": 15400
+          },
+          {
+            "date": "04-21",
+            "price": 14640
+          },
+          {
+            "date": "04-28",
+            "price": 14630
+          },
+          {
+            "date": "05-05",
+            "price": 11900
+          },
+          {
+            "date": "05-12",
+            "price": 13990
+          }
+        ],
+        "minPrice": 11900,
+        "maxPrice": 15770
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_142381",
+      "title": "26년 무안 황토밭 햇양파 3kg(중대혼합)",
+      "price": "3,850원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/05/14/thumb_e05ad3e40d2f83b7b2e1339673cf2c93.webp",
+      "category": "식품",
+      "site": "우체국쇼핑",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/9824260457",
+      "publishedAt": "2026-05-14 11:28:35",
+      "likes": 1,
+      "fetchedAt": "2026-05-14T02:32:15.014Z",
+      "priceComparison": [
+        {
+          "site": "우체국쇼핑",
+          "price": "3,850원"
+        },
+        {
+          "site": "오아시스마켓",
+          "price": "10,500원"
+        },
+        {
+          "site": "11번가",
+          "price": "7,500원"
+        },
+        {
+          "site": "쿠차",
+          "price": "5,950원"
+        },
+        {
+          "site": "옥션",
+          "price": "8,900원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_142380",
+      "title": "못난이 파프리카 2kg",
+      "price": "8,990원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/05/14/thumb_6037cda588ead5c48be9380463bdda38.webp",
+      "category": "식품",
+      "site": "롯데온",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/9824262606",
+      "publishedAt": "2026-05-14 11:28:23",
+      "likes": 1,
+      "fetchedAt": "2026-05-14T02:32:15.014Z",
+      "priceComparison": [
+        {
+          "site": "롯데온",
+          "price": "8,990원"
+        },
+        {
+          "site": "산정마을",
+          "price": "6,300원"
+        },
+        {
+          "site": "백미",
+          "price": "7,900원"
+        },
+        {
+          "site": "오아시스",
+          "price": "13,900원"
+        },
+        {
+          "site": "다나와",
+          "price": "12,660원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "02-24",
+            "price": 19670
+          },
+          {
+            "date": "03-03",
+            "price": 19670
+          },
+          {
+            "date": "03-10",
+            "price": 20090
+          },
+          {
+            "date": "03-17",
+            "price": 18290
+          },
+          {
+            "date": "03-24",
+            "price": 20500
+          },
+          {
+            "date": "03-31",
+            "price": 20500
+          },
+          {
+            "date": "04-07",
+            "price": 20500
+          },
+          {
+            "date": "04-14",
+            "price": 20500
+          },
+          {
+            "date": "04-21",
+            "price": 20500
+          },
+          {
+            "date": "04-28",
+            "price": 20500
+          },
+          {
+            "date": "05-05",
+            "price": 20500
+          },
+          {
+            "date": "05-12",
+            "price": 20500
+          }
+        ],
+        "minPrice": 18290,
+        "maxPrice": 20500
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_142379",
+      "title": "코인딜) 시그니처 아메리카노 미니 다크 100T+마일드 100T",
+      "price": "17,242원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/05/14/thumb_7e3b63676629b70ff35abb87c0ab8a5f.webp",
+      "category": "식품",
+      "site": "알리",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/9824249004",
+      "publishedAt": "2026-05-14 11:28:13",
+      "likes": 4,
+      "fetchedAt": "2026-05-14T02:32:15.014Z",
+      "priceComparison": [
+        {
+          "site": "알리",
+          "price": "17,242원"
+        },
+        {
+          "site": "다나와",
+          "price": "15,500원"
+        },
+        {
+          "site": "쇼핑하우",
+          "price": "30,330원"
+        },
+        {
+          "site": "더쿠",
+          "price": "21,900원"
+        },
+        {
+          "site": "번개장터",
+          "price": "25,000원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
       "id": "hdz_142378",
       "title": "센소다인치약 4개",
       "price": "10,990원",
@@ -30203,72 +30553,7 @@
       "publishedAt": "2026-05-13 11:40:12",
       "likes": 95,
       "fetchedAt": "2026-05-13T04:44:16.931Z"
-    },
-    {
-      "id": "hdz_141663",
-      "title": "락스 표백제 청소세제 2L x 6개입 1박스",
-      "price": "9,600원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/05/13/thumb_0a442d376848f262c2ed1b22d632efdd.webp",
-      "category": "생활용품",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://hotdealzip.mycafe24.com/ppomppu_view.php?url=view.php%3Fid%3Dppomppu%26page%3D1%26divpage%3D112%26no%3D703621",
-      "publishedAt": "2026-05-13 11:38:09",
-      "likes": 7,
-      "fetchedAt": "2026-05-13T04:44:16.931Z"
-    },
-    {
-      "id": "hdz_141662",
-      "title": "마인크래프트 자바 & 베드락 에디션 디지털 코드",
-      "price": "19,900원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/05/13/thumb_3394d4d3f7c5812185b38f612316c883.webp",
-      "category": "게임",
-      "source": "아카라이브",
-      "sourceColor": "#10B981",
-      "link": "https://arca.live/b/hotdeal/170502022?p=1",
-      "publishedAt": "2026-05-13 11:36:03",
-      "likes": 15,
-      "fetchedAt": "2026-05-13T04:44:16.931Z"
-    },
-    {
-      "id": "hdz_141661",
-      "title": "국내제조 롱솔리드골지중목 10켤레",
-      "price": "6,990원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/05/13/thumb_6d0f21d17ad3d7dd344e74d82575dd8c.webp",
-      "category": "의류",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://hotdealzip.mycafe24.com/ppomppu_view.php?url=view.php%3Fid%3Dppomppu%26page%3D1%26divpage%3D112%26no%3D703619",
-      "publishedAt": "2026-05-13 11:34:16",
-      "likes": 12,
-      "fetchedAt": "2026-05-13T04:44:16.931Z"
-    },
-    {
-      "id": "hdz_141660",
-      "title": "맥반석 구운계란 60구",
-      "price": "16,625원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/05/13/thumb_c12e637c03454b7e235485b9c47d9905.webp",
-      "category": "식품",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://hotdealzip.mycafe24.com/ppomppu_view.php?url=view.php%3Fid%3Dppomppu%26page%3D1%26divpage%3D112%26no%3D703620",
-      "publishedAt": "2026-05-13 11:34:10",
-      "likes": 31,
-      "fetchedAt": "2026-05-13T04:44:16.931Z"
-    },
-    {
-      "id": "hdz_141659",
-      "title": "얼라이브 포맨/포우먼/멀티 30정 3박스 골라담기",
-      "price": "27,900원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/05/13/thumb_eab4400e8834e59e0042baa13383372f.webp",
-      "category": "식품",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://hotdealzip.mycafe24.com/ppomppu_view.php?url=view.php%3Fid%3Dppomppu%26page%3D1%26divpage%3D112%26no%3D703617",
-      "publishedAt": "2026-05-13 11:32:21",
-      "likes": 11,
-      "fetchedAt": "2026-05-13T04:44:16.931Z"
     }
   ],
-  "lastUpdated": "2026-05-14T02:27:53.332Z"
+  "lastUpdated": "2026-05-14T02:32:17.000Z"
 }
