@@ -2722,6 +2722,71 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200005010",
       "imageTheme": "finance",
       "image": "https://picsum.photos/seed/677436/800/500"
+    },
+    {
+      "id": "000025",
+      "name": "범죄 피해 아동 및 장애인 진술조력 지원",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청 등 수사기관이나 법원",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "아동·장애인 범죄 피해자의 수사·재판상 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://picsum.photos/seed/481472/800/500"
+    },
+    {
+      "id": "135200",
+      "name": "장애인구강진료센터 치과 의료서비스",
+      "category": "혜택",
+      "startDate": "2026-05-17",
+      "endDate": "상시",
+      "location": "장애인구강진료센터",
+      "target": "장애인",
+      "summary": "장애인 치과 의료서비스 제공 및 비급여 진료비 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000090",
+      "imageTheme": "health",
+      "image": "https://picsum.photos/seed/176372/800/500"
+    },
+    {
+      "id": "135200000096",
+      "name": "유휴간호사 등 교육 및 취업 연계 서비스",
+      "category": "혜택",
+      "startDate": "2026-05-17",
+      "endDate": "상시",
+      "location": "간호인력 취업교육센터",
+      "target": "유휴/이직 간호사, 간호대학 졸업예정자, 신규/재직간호사 등",
+      "summary": "유휴간호사를 위한 교육 및 취업연계 서비스 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000096",
+      "imageTheme": "health",
+      "image": "https://picsum.photos/seed/765024/800/500"
+    },
+    {
+      "id": "005011",
+      "name": "입양축하금",
+      "category": "혜택",
+      "startDate": "2022-01-01",
+      "endDate": "상시",
+      "location": "보건복지부",
+      "target": "2022년 1월 1일 이후 국내 입양 가정",
+      "summary": "1회에 한하여 200만원 입양축하금 지급",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200005011",
+      "imageTheme": "children",
+      "image": "https://picsum.photos/seed/850580/800/500"
+    },
+    {
+      "id": "005012",
+      "name": "자산형성지원사업(희망저축Ⅱ)",
+      "category": "혜택",
+      "startDate": "2026-05-17",
+      "endDate": "상시",
+      "location": "보건복지부",
+      "target": "기준 중위소득 50% 이하 주거·교육급여 수급 및 차상위 근로가구",
+      "summary": "근로능력 있는 저소득층의 자산 형성을 지원하는 매칭 적립금 사업",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200005012",
+      "imageTheme": "finance",
+      "image": "https://picsum.photos/seed/329440/800/500"
     }
   ],
   "aiSupport": [
@@ -3842,5 +3907,5 @@
       "image": "https://picsum.photos/seed/513616/800/500"
     }
   ],
-  "lastUpdated": "2026-05-16"
+  "lastUpdated": "2026-05-17"
 }
