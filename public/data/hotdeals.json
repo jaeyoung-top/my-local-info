@@ -1,6 +1,144 @@
 {
   "deals": [
     {
+      "id": "hdz_144491",
+      "title": "베토디, 초코 선데이",
+      "price": "39,001,500원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/05/18/thumb_396db53bf683183519de1cc8ae45f1c1.webp",
+      "category": "식품",
+      "site": "맥도날드앱",
+      "source": "루리웹",
+      "sourceColor": "#3B82F6",
+      "link": "https://hotdealzip.mycafe24.com/ruliweb_view.php?url=https%3A%2F%2Fbbs.ruliweb.com%2Fmarket%2Fboard%2F1020%2Fread%2F104193%3Fpage%3D1",
+      "publishedAt": "2026-05-18 06:20:25",
+      "likes": 22,
+      "fetchedAt": "2026-05-17T21:46:04.235Z",
+      "priceComparison": [
+        {
+          "site": "맥도날드앱",
+          "price": "39,001,500원"
+        },
+        {
+          "site": "맥도날드 공식 채널",
+          "price": "가격 정보 확인 불가"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": {
+        "text": "",
+        "images": [
+          "https://i3.ruliweb.com/img/26/05/18/19e37ccf58a1874ce.webp",
+          "https://i2.ruliweb.com/img/26/05/18/19e37cd00f11874ce.webp",
+          "https://i2.ruliweb.com/img/26/05/18/19e37cd0cc01874ce.webp",
+          "https://i1.ruliweb.com/img/26/05/18/19e37cd18b81874ce.webp",
+          "https://i3.ruliweb.com/img/26/05/18/19e37cd25de1874ce.webp",
+          "https://i2.ruliweb.com/img/26/05/18/19e37cd350d1874ce.webp",
+          "https://i3.ruliweb.com/img/26/05/18/19e37cd45731874ce.webp",
+          "https://i2.ruliweb.com/img/26/05/18/19e37cd53d71874ce.webp"
+        ]
+      },
+      "shopUrl": "https://www.dajooda.kr/01/"
+    },
+    {
+      "id": "hdz_144490",
+      "title": "카페 2천원 이상 결제시 500원 적립",
+      "price": null,
+      "image": "https://image.hotdeal.zip/thumbnails/2026/05/18/thumb_2eecd68b39a2bd0db1a70fdff531b4fe.webp",
+      "category": "기타",
+      "site": "네이버",
+      "source": "루리웹",
+      "sourceColor": "#3B82F6",
+      "link": "https://hotdealzip.mycafe24.com/ruliweb_view.php?url=https%3A%2F%2Fbbs.ruliweb.com%2Fmarket%2Fboard%2F1020%2Fread%2F104188%3Fpage%3D1",
+      "publishedAt": "2026-05-18 05:45:24",
+      "likes": 11,
+      "fetchedAt": "2026-05-17T21:46:04.235Z",
+      "priceComparison": [],
+      "priceHistory": null,
+      "postContent": {
+        "text": "https://campaign2.naver.com/npay/cafe/",
+        "images": [
+          "https://i3.ruliweb.com/img/26/05/18/19e367e27bb1874ce.webp"
+        ]
+      },
+      "shopUrl": "https://campaign2.naver.com/npay/cafe/"
+    },
+    {
+      "id": "hdz_144489",
+      "title": "볶음밥",
+      "price": "19,120원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/05/18/thumb_1f3b2b48f89def6c3771587e8d7fa1e6.webp",
+      "category": "식품",
+      "site": "옥션",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/9839469169",
+      "publishedAt": "2026-05-18 05:04:15",
+      "likes": 20,
+      "fetchedAt": "2026-05-17T21:46:04.235Z",
+      "priceComparison": [
+        {
+          "site": "옥션",
+          "price": "19,120원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "02-24",
+            "price": 22320
+          },
+          {
+            "date": "03-03",
+            "price": 22320
+          },
+          {
+            "date": "03-10",
+            "price": 25900
+          },
+          {
+            "date": "03-17",
+            "price": 20250
+          },
+          {
+            "date": "03-24",
+            "price": 20250
+          },
+          {
+            "date": "03-31",
+            "price": 20380
+          },
+          {
+            "date": "04-07",
+            "price": 20850
+          },
+          {
+            "date": "04-14",
+            "price": 20850
+          },
+          {
+            "date": "04-21",
+            "price": 19890
+          },
+          {
+            "date": "04-28",
+            "price": 22010
+          },
+          {
+            "date": "05-05",
+            "price": 22010
+          },
+          {
+            "date": "05-12",
+            "price": 19270
+          }
+        ],
+        "minPrice": 19270,
+        "maxPrice": 25900
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
       "id": "hdz_144488",
       "title": "와퍼주니어",
       "price": "2,900원",
@@ -34447,298 +34585,7 @@
         ]
       },
       "shopUrl": null
-    },
-    {
-      "id": "hdz_143991",
-      "title": "LG UltraGear OLED 27GX700A-B",
-      "price": "660,000원",
-      "image": null,
-      "category": "가전",
-      "site": "아마존재팬",
-      "source": "루리웹",
-      "sourceColor": "#3B82F6",
-      "link": "https://hotdealzip.mycafe24.com/ruliweb_view.php?url=https%3A%2F%2Fbbs.ruliweb.com%2Fmarket%2Fboard%2F1020%2Fread%2F104171%3Fpage%3D1",
-      "publishedAt": "2026-05-17 00:20:21",
-      "likes": 24,
-      "fetchedAt": "2026-05-16T15:50:31.686Z",
-      "priceComparison": [
-        {
-          "site": "아마존재팬",
-          "price": "660,000원"
-        },
-        {
-          "site": "11번가",
-          "price": "1,140,000원"
-        },
-        {
-          "site": "컴퓨존",
-          "price": "990,000원"
-        },
-        {
-          "site": "다나와",
-          "price": "가격 변동/비공개"
-        },
-        {
-          "site": "후테리어",
-          "price": "1,123,720원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "02-24",
-            "price": 965020
-          },
-          {
-            "date": "03-03",
-            "price": 965170
-          },
-          {
-            "date": "03-10",
-            "price": 967860
-          },
-          {
-            "date": "03-17",
-            "price": 966350
-          },
-          {
-            "date": "03-24",
-            "price": 937920
-          },
-          {
-            "date": "03-31",
-            "price": 940540
-          },
-          {
-            "date": "04-07",
-            "price": 966680
-          },
-          {
-            "date": "04-14",
-            "price": 964880
-          },
-          {
-            "date": "04-21",
-            "price": 964270
-          },
-          {
-            "date": "04-28",
-            "price": 964160
-          },
-          {
-            "date": "05-05",
-            "price": 963760
-          },
-          {
-            "date": "05-12",
-            "price": 723930
-          }
-        ],
-        "minPrice": 723930,
-        "maxPrice": 967860
-      },
-      "postContent": {
-        "text": "직배송 무료 배송 입니다. 27인치 4세대 oled QHD 280Hz 입니다.",
-        "images": []
-      },
-      "shopUrl": "https://www.amazon.co.jp/Technology-Prize%E3%80%91Gaming-LG-27GX700A-B-Generation/dp/B0FMY19G96?ref_=automaticdeals_bs_dp"
-    },
-    {
-      "id": "hdz_143990",
-      "title": "뷰카 고불소 구취케어 치약 110g 8개입+시린이 치약 110g 2개+점보칫솔 4개 증정",
-      "price": "19,637원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/05/17/thumb_de3f9bccc426173fa2d2bd6e50be73bb.webp",
-      "category": "생활용품",
-      "site": "W컨셉",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://hotdealzip.mycafe24.com/ppomppu_view.php?url=view.php%3Fid%3Dppomppu%26page%3D1%26divpage%3D112%26no%3D704660",
-      "publishedAt": "2026-05-17 00:20:15",
-      "likes": 4,
-      "fetchedAt": "2026-05-16T15:50:31.686Z",
-      "priceComparison": [
-        {
-          "site": "W컨셉",
-          "price": "19,637원"
-        },
-        {
-          "site": "kurly.com",
-          "price": "13,900원~"
-        },
-        {
-          "site": "danawa.com",
-          "price": "14,500원"
-        },
-        {
-          "site": "lotteon.com",
-          "price": "19,370원~"
-        },
-        {
-          "site": "11st.co.kr",
-          "price": "15,120원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "02-24",
-            "price": 25900
-          },
-          {
-            "date": "03-03",
-            "price": 22930
-          },
-          {
-            "date": "03-10",
-            "price": 25900
-          },
-          {
-            "date": "03-17",
-            "price": 25160
-          },
-          {
-            "date": "03-24",
-            "price": 25900
-          },
-          {
-            "date": "03-31",
-            "price": 25900
-          },
-          {
-            "date": "04-07",
-            "price": 25900
-          },
-          {
-            "date": "04-14",
-            "price": 22930
-          },
-          {
-            "date": "04-21",
-            "price": 18640
-          },
-          {
-            "date": "04-28",
-            "price": 22930
-          },
-          {
-            "date": "05-05",
-            "price": 21500
-          },
-          {
-            "date": "05-12",
-            "price": 21500
-          }
-        ],
-        "minPrice": 18640,
-        "maxPrice": 25900
-      },
-      "postContent": {
-        "text": "뷰카 클래식 고불소 구취케어 치약 아쿠아민트향 110g 8개입+시린이 치약 110g 2개+점보칫솔 4개 구성입니다 27% 쿠폰 적용 시 19,637원 / 개당 1,900원대 나오네요",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0517/900w_20260517001746_DImbBmMZsO.jpg"
-        ]
-      },
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_143989",
-      "title": "도루코 페이스7 면도날 총 14개입+폼 세트 ",
-      "price": "25,900원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/05/17/thumb_a7a0c2fcdb9a46d85657972b0732d4ce.webp",
-      "category": "생활용품",
-      "site": "토스 ",
-      "source": "개드립",
-      "sourceColor": "#DC2626",
-      "link": "https://www.dogdrip.net/702096613",
-      "publishedAt": "2026-05-17 00:20:05",
-      "likes": 6,
-      "fetchedAt": "2026-05-16T15:50:31.686Z",
-      "priceComparison": [
-        {
-          "site": "토스",
-          "price": "25,900원"
-        },
-        {
-          "site": "11st",
-          "price": "검색 결과에서 가격 확인 불가"
-        },
-        {
-          "site": "코스트코",
-          "price": "31,490원"
-        },
-        {
-          "site": "다나와",
-          "price": "16,700원"
-        },
-        {
-          "site": "쿠차",
-          "price": "8,590원"
-        },
-        {
-          "site": "옥션",
-          "price": "39,900원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "02-24",
-            "price": 9500
-          },
-          {
-            "date": "03-03",
-            "price": 9500
-          },
-          {
-            "date": "03-10",
-            "price": 11390
-          },
-          {
-            "date": "03-17",
-            "price": 10550
-          },
-          {
-            "date": "03-24",
-            "price": 9260
-          },
-          {
-            "date": "03-31",
-            "price": 9370
-          },
-          {
-            "date": "04-07",
-            "price": 9810
-          },
-          {
-            "date": "04-14",
-            "price": 9810
-          },
-          {
-            "date": "04-21",
-            "price": 9810
-          },
-          {
-            "date": "04-28",
-            "price": 9810
-          },
-          {
-            "date": "05-05",
-            "price": 9810
-          },
-          {
-            "date": "05-12",
-            "price": 9590
-          }
-        ],
-        "minPrice": 9260,
-        "maxPrice": 11390
-      },
-      "postContent": {
-        "text": "페이스7 면도기세트 도루코 라인업중에 페이스7이 가장 절삭력 좋고 레벨 높은거 ㅇㅇ 날 12개에 쉐이빙폼 하나주고 증정날은 페6으로 2개 더주는데 페 5,6,7 셋다 호환됨 토스쇼핑은 토스앱에서만 결제가능 ㅇㅇ",
-        "images": []
-      },
-      "shopUrl": "https://service.toss.im/shopping/c/1274290245"
     }
   ],
-  "lastUpdated": "2026-05-17T18:56:06.295Z"
+  "lastUpdated": "2026-05-17T21:46:06.374Z"
 }
