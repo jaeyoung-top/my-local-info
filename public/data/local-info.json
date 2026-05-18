@@ -2852,6 +2852,71 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200005016",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&q=80"
+    },
+    {
+      "id": "127000",
+      "name": "범죄 피해 아동·장애인 진술조력 지원",
+      "category": "혜택",
+      "startDate": "2026-05-18",
+      "endDate": "상시",
+      "location": "법무부",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "만 19세 미만 아동, 의사소통이 어려운 장애인 범죄 피해자의 수사·재판상 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
+    },
+    {
+      "id": "135200000090",
+      "name": "장애인구강진료센터 치과 의료서비스",
+      "category": "혜택",
+      "startDate": "2026-05-18",
+      "endDate": "상시",
+      "location": "장애인구강진료센터",
+      "target": "장애인",
+      "summary": "장애인에게 치과 의료서비스 제공 및 비급여 진료비 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000090",
+      "imageTheme": "health",
+      "image": "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?w=800&q=80"
+    },
+    {
+      "id": "005024",
+      "name": "금연캠프사업",
+      "category": "혜택",
+      "startDate": "2026-05-18",
+      "endDate": "상시",
+      "location": "보건복지부",
+      "target": "중증고도흡연자, 시급하게 금연이 필요한 급만성질환을 가진 흡연자 등",
+      "summary": "스스로 금연이 어려운 흡연자를 위한 전문적인 금연 프로그램 제공",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200005024",
+      "imageTheme": "health",
+      "image": "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?w=800&q=80"
+    },
+    {
+      "id": "135200005026",
+      "name": "긴급돌봄 지원",
+      "category": "혜택",
+      "startDate": "2026-05-18",
+      "endDate": "상시",
+      "location": "전국 각 지자체",
+      "target": "긴급한 질병·부상 또는 주 돌봄자 부재로 일시적 돌봄이 필요한 국민",
+      "summary": "갑작스러운 위기상황에 필요한 한시적 재가 돌봄 및 가사 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200005026",
+      "imageTheme": "health",
+      "image": "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?w=800&q=80"
+    },
+    {
+      "id": "135200005027",
+      "name": "일상돌봄 서비스",
+      "category": "혜택",
+      "startDate": "2026-05-18",
+      "endDate": "상시",
+      "location": "보건복지부",
+      "target": "일상 돌봄이 필요한 청·중장년 및 가족돌봄청년",
+      "summary": "필요에 맞게 돌봄, 가사, 특화서비스를 선택하여 이용",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200005027",
+      "imageTheme": "health",
+      "image": "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -3970,6 +4035,66 @@
       "summary": "서울 AI 허브 기반 AI 연구기관, 기업 간 공동 연구 및 네트워킹 활동 지원",
       "link": "https://www.seoulaihub.kr",
       "image": "https://images.unsplash.com/photo-1488229297570-58520851e868?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-18-1",
+      "name": "2026년 글로벌창업사관학교",
+      "category": "AI지원",
+      "startDate": "2026-03-01",
+      "endDate": "2026-12-31",
+      "location": "창업진흥원",
+      "target": "글로벌 진출을 희망하는 혁신 창업기업 및 예비창업가",
+      "summary": "유망 창업기업의 글로벌 스케일업 및 해외 진출을 지원",
+      "link": "https://www.k-startup.go.kr",
+      "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-18-2",
+      "name": "2026년 지역 SW기업 성장지원 사업",
+      "category": "AI지원",
+      "startDate": "2026-02-01",
+      "endDate": "2026-11-30",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "지역 SW기업, 스타트업, 예비창업가",
+      "summary": "지역 SW기업의 경쟁력 강화 및 혁신 성장을 위한 맞춤형 지원",
+      "link": "https://www.nipa.kr/main/main.html",
+      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-18-3",
+      "name": "2026년 디지털 공공서비스 혁신 프로젝트",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "2026-12-31",
+      "location": "과학기술정보통신부",
+      "target": "공공기관 및 AI·ICT 솔루션 보유 기업",
+      "summary": "AI·빅데이터 기반 공공서비스 혁신 및 디지털 전환 과제 지원",
+      "link": "https://www.msit.go.kr/web/main/main.do",
+      "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-18-4",
+      "name": "2026년 뿌리산업 디지털 전환 지원사업",
+      "category": "AI지원",
+      "startDate": "2026-03-01",
+      "endDate": "2026-11-30",
+      "location": "중소벤처기업부",
+      "target": "뿌리산업 영위 중소·중견기업",
+      "summary": "뿌리산업 제조기업의 AI·데이터 기반 디지털 전환 및 고도화 지원",
+      "link": "https://www.bizinfo.go.kr/web/main/bizinfoMain.do",
+      "image": "https://images.unsplash.com/photo-1516321165247-4aa89a48be55?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-18-5",
+      "name": "2026년 서울 AI 허브 고성능 컴퓨팅 자원 지원",
+      "category": "AI지원",
+      "startDate": "2026-01-01",
+      "endDate": "2026-12-31",
+      "location": "서울 AI 허브",
+      "target": "AI 분야 기술 개발 및 연구 수행 기업·기관",
+      "summary": "AI 개발 및 연구를 위한 고성능 컴퓨팅 자원 및 인프라 지원",
+      "link": "https://seoulaihub.kr/",
+      "image": "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=800&q=80"
     }
   ],
   "lastUpdated": "2026-05-18"
