@@ -1,6 +1,18 @@
 {
   "events": [
     {
+      "id": "crawler-1779081083843-893",
+      "name": "인생 한 컷을 담아주세요 6월 테마 포토 이벤트",
+      "category": "행사",
+      "startDate": "2026-06-01",
+      "endDate": "상시",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "6월의 테마(호국보훈의 달, 환경의 날, 우리동네 정원)에 맞춰 진행되는 독자 참여 포토 이벤트.",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9020&aid=17681",
+      "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1777004975songpa.JPG"
+    },
+    {
       "id": "crawler-1779079995720-605",
       "name": "송파구 청년예술인 문화 프로젝트 〈2026 더 임팩트〉",
       "category": "행사",
@@ -3136,6 +3148,71 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200005045",
       "imageTheme": "health",
       "image": "https://images.unsplash.com/photo-1550831107-1553da8c8464?w=800&q=80"
+    },
+    {
+      "id": "000025",
+      "name": "범죄피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원",
+      "target": "범죄피해 아동 및 장애인",
+      "summary": "만 19세 미만 아동, 의사소통이 어려운 장애인 범죄 피해자의 수사·재판상 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1509822929063-6b6723e0e974?w=800&q=80"
+    },
+    {
+      "id": "135200",
+      "name": "장애인 구강진료센터 치과 의료서비스",
+      "category": "혜택",
+      "startDate": "2026-05-18",
+      "endDate": "상시",
+      "location": "장애인구강진료센터",
+      "target": "장애인",
+      "summary": "장애인에게 치과 의료서비스를 제공하고 진료비를 지원합니다.",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000090",
+      "imageTheme": "health",
+      "image": "https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?w=800&q=80"
+    },
+    {
+      "id": "135200005046",
+      "name": "임산부 외래진료비 본인부담률 경감",
+      "category": "혜택",
+      "startDate": "2026-05-18",
+      "endDate": "상시",
+      "location": "보건복지부",
+      "target": "임산부",
+      "summary": "임산부 외래진료비 본인부담률을 경감하여 의료비 부담 완화",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200005046",
+      "imageTheme": "health",
+      "image": "https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?w=800&q=80"
+    },
+    {
+      "id": "135200005048",
+      "name": "위기임신 및 보호출산 지원",
+      "category": "혜택",
+      "startDate": "2025-09-16",
+      "endDate": "상시",
+      "location": "보건복지부",
+      "target": "위기 임산부, 보호 출산 산모, 보호 출산 아동 및 아동의 생부",
+      "summary": "임산부의 안전한 출산과 아동의 안전한 양육 환경을 보장",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200005048",
+      "imageTheme": "health",
+      "image": "https://images.unsplash.com/photo-1550831107-1553da8c8464?w=800&q=80"
+    },
+    {
+      "id": "135200005050",
+      "name": "2세미만 영유아 입원진료비 본인부담금 면제",
+      "category": "혜택",
+      "startDate": "2026-05-18",
+      "endDate": "상시",
+      "location": "보건복지부",
+      "target": "2세 미만 영유아",
+      "summary": "2세 미만 영유아 입원 진료비 본인부담금 면제",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200005050",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -4494,6 +4571,66 @@
       "summary": "AI 융합 서비스를 실증하고 검증할 수 있는 환경 및 인프라 구축 지원",
       "link": "https://www.msit.go.kr/",
       "image": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-18-1",
+      "name": "AI 융합형 디지털 콘텐츠 제작 지원 사업",
+      "category": "AI지원",
+      "startDate": "2026-03-01",
+      "endDate": "2026-11-30",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI 기술 기반 콘텐츠 제작 기업 및 스타트업",
+      "summary": "인공지능 기술을 활용한 혁신적인 디지털 콘텐츠 제작 지원",
+      "link": "https://www.nipa.kr/",
+      "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-18-2",
+      "name": "초기 창업기업 AI 기술 사업화 역량강화 멘토링",
+      "category": "AI지원",
+      "startDate": "2026-06-01",
+      "endDate": "2026-10-31",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "AI 기반 사업모델을 가진 초기 창업기업",
+      "summary": "AI 기술의 시장 진출 및 성장을 위한 전문 멘토링 지원",
+      "link": "https://www.k-startup.go.kr/",
+      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-18-3",
+      "name": "인공지능 기반 사회문제 해결 리빙랩 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-01",
+      "endDate": "2026-12-31",
+      "location": "서울 AI 허브",
+      "target": "AI 기술로 사회문제 해결을 목표하는 스타트업",
+      "summary": "AI를 활용한 도시 및 사회문제 해결 리빙랩 프로젝트 지원",
+      "link": "https://www.seoulaihub.kr/",
+      "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-18-4",
+      "name": "중소기업 제조현장 AI 데이터 분석 및 활용 인프라 구축 지원",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "2026-12-31",
+      "location": "중소벤처기업부",
+      "target": "제조업 기반 중소기업",
+      "summary": "제조 데이터 기반 AI 분석 및 활용을 위한 인프라 구축 지원",
+      "link": "https://www.bizinfo.go.kr/",
+      "image": "https://images.unsplash.com/photo-1516321165247-4aa89a48be55?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-18-5",
+      "name": "AI 반도체 활용 서비스 개발 실증 지원",
+      "category": "AI지원",
+      "startDate": "2026-05-18",
+      "endDate": "2026-12-31",
+      "location": "과학기술정보통신부",
+      "target": "국산 AI 반도체 기반 서비스 개발 기업",
+      "summary": "국산 AI 반도체를 활용한 혁신 서비스 개발 및 실증 지원",
+      "link": "https://www.msit.go.kr/",
+      "image": "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=800&q=80"
     }
   ],
   "lastUpdated": "2026-05-18"
