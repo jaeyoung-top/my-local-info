@@ -381,7 +381,7 @@ function DealRow({ deal, onDetail }: { deal: Deal; onDetail: (deal: Deal) => voi
         className="relative w-24 h-24 shrink-0 rounded-lg bg-[#1e2433] overflow-hidden"
         onMouseEnter={deal.image ? (e) => {
           const rect = (e.currentTarget as HTMLElement).getBoundingClientRect();
-          setZoomPos({ x: rect.right + 12, y: rect.top + rect.height / 2 });
+          setZoomPos({ x: Math.max(4, rect.left - 308), y: rect.top + rect.height / 2 });
         } : undefined}
         onMouseLeave={deal.image ? () => setZoomPos(null) : undefined}
       >
@@ -400,7 +400,7 @@ function DealRow({ deal, onDetail }: { deal: Deal; onDetail: (deal: Deal) => voi
           </div>
         )}
       </div>
-      {/* 호버 확대 팝업 (fixed → 어떤 overflow도 무시) */}
+      {/* 호버 확대 팝업 (fixed → 어떤 overflow도 무시, 썸네일 왼편 표시) */}
       {zoomPos && deal.image && (
         <div
           className="fixed z-[200] pointer-events-none"
@@ -408,7 +408,7 @@ function DealRow({ deal, onDetail }: { deal: Deal; onDetail: (deal: Deal) => voi
         >
           <div className="bg-[#161b27] rounded-2xl overflow-hidden shadow-2xl border border-[#252d3f]">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={deal.image} alt="" className="w-56 h-56 object-contain bg-[#1e2433]" />
+            <img src={deal.image} alt="" className="w-72 h-72 object-contain bg-[#1e2433]" />
           </div>
         </div>
       )}
