@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const cheerio = require('cheerio');
 
-// 항목명 기반 결정론적 해시
+// 항목명 기반 결정론적 해시 (OG 이미지 없을 때 폴백용)
 function nameHash(str) {
   let h = 0x811c9dc5;
   for (let i = 0; i < str.length; i++) {
@@ -10,6 +10,56 @@ function nameHash(str) {
     h = (h * 0x01000193) >>> 0;
   }
   return (h % 900000) + 100000;
+}
+
+/**
+ * 주어진 URL의 HTML에서 OG 이미지를 추출합니다.
+ * @param {string} url - 기사 URL
+ * @returns {Promise<string|null>} 이미지 URL 또는 null
+ */
+async function fetchOgImage(url) {
+  try {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), 8000);
+    const response = await fetch(url, {
+      signal: controller.signal,
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (compatible; SongpaBot/1.0)'
+      }
+    });
+    clearTimeout(timer);
+    const html = await response.text();
+    const $ = cheerio.load(html);
+
+    const selectors = [
+      'meta[property="og:image"]',
+      'meta[name="og:image"]',
+      'meta[name="twitter:image"]',
+      'meta[property="twitter:image"]'
+    ];
+
+    let og = null;
+    for (const sel of selectors) {
+      const val = $(sel).attr('content');
+      if (val && val.trim()) {
+        og = val.trim();
+        break;
+      }
+    }
+
+    if (!og) return null;
+
+    // 프로토콜 정규화
+    if (og.startsWith('//')) {
+      og = 'https:' + og;
+    } else if (!og.startsWith('http')) {
+      og = new URL(og, url).href;
+    }
+
+    return og;
+  } catch (e) {
+    return null;
+  }
 }
 
 /**
@@ -160,8 +210,9 @@ ${rawDataText}`;
 
       if (!isDuplicate) {
         item.id = `crawler-${Date.now()}-${Math.floor(Math.random() * 1000)}`;
-        // 항목명 해시 기반 이미지 (Gemini 중복 배정 문제 해결)
-        item.image = `https://picsum.photos/seed/${nameHash(item.name)}/800/500`;
+        // 기사 페이지에서 실제 OG 이미지 시도, 없으면 해시 기반 폴백
+        const ogImage = await fetchOgImage(item.link);
+        item.image = ogImage || `https://picsum.photos/seed/${nameHash(item.name)}/800/500`;
         localData.events.unshift(item); // 리스트의 최상단에 배치
         addedCount++;
       }

@@ -150,11 +150,12 @@ ${JSON.stringify([...(localData.aiSupport || []).map(a => a.name)])}
         continue;
       }
 
-      // 항목 ID를 시드로 고유 이미지 부여 (중복 없음)
-      const image = `https://picsum.photos/seed/${newId}/800/500`;
-
       // 고유 ID 생성 (ai- + 날짜 + 순번)
       const newId = `ai-${today}-${addedCount + 1}`;
+
+      // AI Unsplash 테마 이미지 선택 (picsum 랜덤 대신)
+      const aiIdx = (addedCount + (localData.aiSupport || []).length) % AI_IMAGE_POOL.length;
+      const image = AI_IMAGE_POOL[aiIdx];
 
       const newItem = {
         id: newId,

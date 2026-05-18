@@ -274,8 +274,11 @@ ${JSON.stringify(targetItem, null, 2)}`;
       const processedItem = JSON.parse(jsonMatch[0]);
       processedItem.id = String(processedItem.id || Date.now());
 
-      // 항목명 해시를 시드로 고유 이미지 부여 (Gemini ID 중복 문제 해결)
-      processedItem.image = `https://picsum.photos/seed/${nameHash(processedItem.name)}/800/500`;
+      // imageTheme으로 Unsplash 테마 이미지 선택 (picsum 랜덤 대신)
+      const theme = processedItem.imageTheme || 'admin';
+      const pool = themePools[theme] || themePools.admin;
+      const idx = nameHash(processedItem.name) % pool.length;
+      processedItem.image = pool[idx];
 
       // 중복 이름을 existingNames에 추가
       existingNames.add(normalizeString(processedItem.name));
