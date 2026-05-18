@@ -165,7 +165,14 @@ async function fetchPostContent(source, link) {
       }
     } else if (source === '뽐뿌') {
       $content = $('td.board-contents');
-      // 뽐뿌 posts don't contain external shop links
+      // 뽐뿌: shop URL is in <a> text content (href is base64-encoded)
+      $('a').each((_, el) => {
+        if (shopUrl) return false;
+        const text = $(el).text().trim();
+        if (text.startsWith('http') && !text.includes('ppomppu') && !text.includes('naver') && !text.includes('google') && !text.includes('kakao') && !text.includes('youtube') && !text.includes('daum')) {
+          shopUrl = text;
+        }
+      });
     } else if (source === '퀘이사존') {
       // Shop URL: text content of first <a> in market-info-view-table is the raw URL
       const qzLinkText = $('table.market-info-view-table td a').first().text().trim();
