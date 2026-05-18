@@ -184,31 +184,31 @@ function DealModal({ deal, onClose }: { deal: Deal; onClose: () => void }) {
           <button onClick={onClose} className="text-[#475569] hover:text-white transition-colors text-lg leading-none">✕</button>
         </div>
 
+        {/* 상품 이미지 (풀 너비) */}
+        {deal.image && (
+          <div className="w-full h-52 bg-[#1e2433] overflow-hidden">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src={deal.image} alt={deal.title} className="w-full h-full object-contain"
+              onError={e => { (e.currentTarget as HTMLImageElement).parentElement!.style.display = 'none'; }} />
+          </div>
+        )}
+
         {/* 메인 정보 */}
         <div className="p-4">
-          <div className="flex gap-3 mb-4">
-            {deal.image && (
-              <div className="w-20 h-20 shrink-0 rounded-xl overflow-hidden bg-[#1e2433]">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={deal.image} alt={deal.title} className="w-full h-full object-cover"
-                  onError={e => { (e.currentTarget as HTMLImageElement).parentElement!.style.display = 'none'; }} />
-              </div>
-            )}
-            <div className="flex-1 min-w-0">
-              <div className="flex items-center gap-1.5 flex-wrap mb-1.5">
-                {deal.category !== '기타' && (
-                  <span className="text-[10px] font-bold px-1.5 py-0.5 rounded bg-[#2a3147] text-[#94a3b8]">{deal.category}</span>
-                )}
-                {deal.site && (
-                  <span className="text-[10px] font-bold px-1.5 py-0.5 rounded bg-[#2a3147] text-[#94a3b8]">{deal.site}</span>
-                )}
-                <span className="text-[10px] font-bold px-1.5 py-0.5 rounded" style={{ backgroundColor: srcColor + '33', color: srcColor }}>{deal.source}</span>
-              </div>
-              <h2 className="text-sm font-bold text-white leading-snug">{deal.title}</h2>
-              {deal.publishedAt && (
-                <p className="text-[10px] text-[#475569] mt-1">{deal.publishedAt.slice(0, 16)}</p>
+          <div className="mb-4">
+            <div className="flex items-center gap-1.5 flex-wrap mb-1.5">
+              {deal.category !== '기타' && (
+                <span className="text-[10px] font-bold px-1.5 py-0.5 rounded bg-[#2a3147] text-[#94a3b8]">{deal.category}</span>
               )}
+              {deal.site && (
+                <span className="text-[10px] font-bold px-1.5 py-0.5 rounded bg-[#2a3147] text-[#94a3b8]">{deal.site}</span>
+              )}
+              <span className="text-[10px] font-bold px-1.5 py-0.5 rounded" style={{ backgroundColor: srcColor + '33', color: srcColor }}>{deal.source}</span>
             </div>
+            <h2 className="text-sm font-bold text-white leading-snug">{deal.title}</h2>
+            {deal.publishedAt && (
+              <p className="text-[10px] text-[#475569] mt-1">{deal.publishedAt.slice(0, 16)}</p>
+            )}
           </div>
 
           {/* 가격 + 구매 버튼 */}
@@ -376,13 +376,23 @@ function DealRow({ deal, onDetail }: { deal: Deal; onDetail: (deal: Deal) => voi
       onClick={() => onDetail(deal)}
     >
       {/* 썸네일 */}
-      <div className="w-[60px] h-[60px] shrink-0 rounded-lg overflow-hidden bg-[#1e2433]">
+      <div className="relative w-[80px] h-[80px] shrink-0 rounded-lg bg-[#1e2433]">
         {deal.image ? (
-          // eslint-disable-next-line @next/next/no-img-element
-          <img src={deal.image} alt={deal.title} className="w-full h-full object-cover"
-            onError={e => { (e.currentTarget as HTMLImageElement).parentElement!.style.display = 'none'; }} />
+          <>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src={deal.image} alt={deal.title}
+              className="peer w-full h-full object-cover rounded-lg cursor-zoom-in"
+              onError={e => { (e.currentTarget as HTMLImageElement).parentElement!.style.display = 'none'; }} />
+            {/* 호버 확대 팝업 */}
+            <div className="pointer-events-none absolute left-[88px] top-1/2 -translate-y-1/2 z-[60] opacity-0 invisible peer-hover:opacity-100 peer-hover:visible transition-all duration-150">
+              <div className="bg-[#161b27] rounded-2xl overflow-hidden shadow-2xl border border-[#252d3f]">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src={deal.image} alt="" className="w-56 h-56 object-contain bg-[#1e2433]" />
+              </div>
+            </div>
+          </>
         ) : (
-          <div className="w-full h-full flex items-center justify-center">
+          <div className="w-full h-full flex items-center justify-center rounded-lg">
             <svg width="24" height="24" fill="none" viewBox="0 0 24 24">
               <rect width="24" height="24" rx="4" fill="#2a3040" />
               <path d="M8 15l3-4 2 2.5 2-3L19 15H8z" fill="#3a4560" />
