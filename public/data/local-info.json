@@ -2787,6 +2787,71 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200005012",
       "imageTheme": "finance",
       "image": "https://picsum.photos/seed/329440/800/500"
+    },
+    {
+      "id": "000025",
+      "name": "아동 및 장애인 범죄 피해자 진술 조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-05-18",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원",
+      "target": "성폭력·아동학대·인신매매 등 범죄 피해 아동 및 의사소통 어려운 장애인",
+      "summary": "성폭력·아동학대 등 범죄 피해 아동 및 장애인 진술 조력 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://picsum.photos/seed/809888/800/500"
+    },
+    {
+      "id": "135200000090",
+      "name": "장애인구강진료센터 의료서비스",
+      "category": "혜택",
+      "startDate": "2026-05-18",
+      "endDate": "상시",
+      "location": "장애인구강진료센터",
+      "target": "장애인",
+      "summary": "장애인 치과 의료 서비스 및 비급여 진료비 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000090",
+      "imageTheme": "health",
+      "image": "https://picsum.photos/seed/957896/800/500"
+    },
+    {
+      "id": "005013",
+      "name": "청년내일저축계좌",
+      "category": "혜택",
+      "startDate": "2026-05-04",
+      "endDate": "2026-05-20",
+      "location": "보건복지부",
+      "target": "만15~39세, 월10만원 이상 근로소득, 중위소득 50% 이하 가구 청년",
+      "summary": "저소득 근로청년의 자산 형성을 위한 정부 매칭 저축 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200005013",
+      "imageTheme": "finance",
+      "image": "https://picsum.photos/seed/378128/800/500"
+    },
+    {
+      "id": "005015",
+      "name": "첫만남이용권 지원",
+      "category": "혜택",
+      "startDate": "2026-05-18",
+      "endDate": "상시",
+      "location": "보건복지부",
+      "target": "출생아",
+      "summary": "200만원 이상의 첫만남이용권 지급",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200005015",
+      "imageTheme": "children",
+      "image": "https://picsum.photos/seed/914728/800/500"
+    },
+    {
+      "id": "005016",
+      "name": "전문아동보호비 지원",
+      "category": "혜택",
+      "startDate": "2026-05-18",
+      "endDate": "상시",
+      "location": "보건복지부",
+      "target": "위기아동(학대피해, 2세 이하, 장애 등)을 보호하는 가정",
+      "summary": "위탁가정에 대하여 월 100만원 지급",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200005016",
+      "imageTheme": "children",
+      "image": "https://picsum.photos/seed/196724/800/500"
     }
   ],
   "aiSupport": [
@@ -3907,5 +3972,5 @@
       "image": "https://picsum.photos/seed/513616/800/500"
     }
   ],
-  "lastUpdated": "2026-05-17"
+  "lastUpdated": "2026-05-18"
 }
