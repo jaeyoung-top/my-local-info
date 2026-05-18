@@ -369,6 +369,7 @@ function DealRow({ deal, onDetail }: { deal: Deal; onDetail: (deal: Deal) => voi
   const compareEntries = hasCompare ? deal.priceComparison!.slice(0, 3) : [];
   const lowestPrice = hasCompare ? Math.min(...compareEntries.map(e => parsePriceNum(e.price))) : Infinity;
   const hasHistory = !!(deal.priceHistory?.points?.length);
+  const [zoomPos, setZoomPos] = useState<{ x: number; y: number } | null>(null);
 
   return (
     <div
@@ -376,23 +377,21 @@ function DealRow({ deal, onDetail }: { deal: Deal; onDetail: (deal: Deal) => voi
       onClick={() => onDetail(deal)}
     >
       {/* 썸네일 */}
-      <div className="relative w-[80px] h-[80px] shrink-0 rounded-lg bg-[#1e2433]">
+      <div
+        className="relative w-24 h-24 shrink-0 rounded-lg bg-[#1e2433] overflow-hidden"
+        onMouseEnter={deal.image ? (e) => {
+          const rect = (e.currentTarget as HTMLElement).getBoundingClientRect();
+          setZoomPos({ x: rect.right + 12, y: rect.top + rect.height / 2 });
+        } : undefined}
+        onMouseLeave={deal.image ? () => setZoomPos(null) : undefined}
+      >
         {deal.image ? (
-          <>
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={deal.image} alt={deal.title}
-              className="peer w-full h-full object-cover rounded-lg cursor-zoom-in"
-              onError={e => { (e.currentTarget as HTMLImageElement).parentElement!.style.display = 'none'; }} />
-            {/* 호버 확대 팝업 */}
-            <div className="pointer-events-none absolute left-[88px] top-1/2 -translate-y-1/2 z-[60] opacity-0 invisible peer-hover:opacity-100 peer-hover:visible transition-all duration-150">
-              <div className="bg-[#161b27] rounded-2xl overflow-hidden shadow-2xl border border-[#252d3f]">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={deal.image} alt="" className="w-56 h-56 object-contain bg-[#1e2433]" />
-              </div>
-            </div>
-          </>
+          // eslint-disable-next-line @next/next/no-img-element
+          <img src={deal.image} alt={deal.title}
+            className="w-full h-full object-cover cursor-zoom-in"
+            onError={e => { (e.currentTarget as HTMLImageElement).parentElement!.style.display = 'none'; }} />
         ) : (
-          <div className="w-full h-full flex items-center justify-center rounded-lg">
+          <div className="w-full h-full flex items-center justify-center">
             <svg width="24" height="24" fill="none" viewBox="0 0 24 24">
               <rect width="24" height="24" rx="4" fill="#2a3040" />
               <path d="M8 15l3-4 2 2.5 2-3L19 15H8z" fill="#3a4560" />
@@ -401,6 +400,18 @@ function DealRow({ deal, onDetail }: { deal: Deal; onDetail: (deal: Deal) => voi
           </div>
         )}
       </div>
+      {/* 호버 확대 팝업 (fixed → 어떤 overflow도 무시) */}
+      {zoomPos && deal.image && (
+        <div
+          className="fixed z-[200] pointer-events-none"
+          style={{ left: zoomPos.x, top: zoomPos.y, transform: 'translateY(-50%)' }}
+        >
+          <div className="bg-[#161b27] rounded-2xl overflow-hidden shadow-2xl border border-[#252d3f]">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src={deal.image} alt="" className="w-56 h-56 object-contain bg-[#1e2433]" />
+          </div>
+        </div>
+      )}
 
       {/* 콘텐츠 */}
       <div className="flex-1 min-w-0">
