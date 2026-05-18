@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Noto_Sans_KR } from "next/font/google";
 import Script from "next/script";
-import SideBanner from "@/components/SideBanner";
 import "./globals.css";
 
 const notoSansKr = Noto_Sans_KR({
@@ -98,7 +97,6 @@ export default function RootLayout({
       </head>
       <body className="min-h-full flex flex-col font-[var(--font-noto-sans-kr)]">
         {children}
-        <SideBanner />
       </body>
     </html>
   );
