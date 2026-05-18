@@ -1,6 +1,30 @@
 {
   "events": [
     {
+      "id": "crawler-1779079995720-605",
+      "name": "송파구 청년예술인 문화 프로젝트 〈2026 더 임팩트〉",
+      "category": "행사",
+      "startDate": "2026-05-01",
+      "endDate": "상시",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "송파구 청년 예술인들이 선보이는 문화 프로젝트 〈2026 더 임팩트〉에 많은 관심 부탁드립니다.",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9020&aid=17674",
+      "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1777017431songpa.JPG"
+    },
+    {
+      "id": "crawler-1779079994028-559",
+      "name": "5월 가정의 달 주요 행사: 음악회, 뮤지컬 뽀로로, 송파 아동·청소년축제",
+      "category": "행사",
+      "startDate": "2026-05-01",
+      "endDate": "상시",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "5월 가정의 달을 맞아 열리는 가정의 달 음악회, 어린이 뮤지컬, 그리고 제11회 송파 아동·청소년축제에 참여해보세요.",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9020&aid=17679",
+      "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1777005723songpa.JPG"
+    },
+    {
       "id": "crawler-1778650830072-281",
       "name": "문화캘린더: 송파구 청년예술인 〈더 임팩트〉",
       "category": "행사",
@@ -3047,6 +3071,71 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200005038",
       "imageTheme": "health",
       "image": "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?w=800&q=80"
+    },
+    {
+      "id": "000025",
+      "name": "범죄 피해 아동/장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-05-18",
+      "endDate": "상시",
+      "location": "법무부",
+      "target": "만 19세 미만 아동 및 범죄 피해 장애인",
+      "summary": "아동, 장애인 범죄 피해자의 수사·재판상 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1519340333755-56e9c1d04579?w=800&q=80"
+    },
+    {
+      "id": "000090",
+      "name": "장애인구강진료센터 치과 의료서비스",
+      "category": "혜택",
+      "startDate": "2026-05-18",
+      "endDate": "상시",
+      "location": "장애인구강진료센터",
+      "target": "장애인",
+      "summary": "장애인 치과 의료서비스 제공 및 비급여 진료비 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000090",
+      "imageTheme": "health",
+      "image": "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?w=800&q=80"
+    },
+    {
+      "id": "135200",
+      "name": "자립지원 전담기관 운영",
+      "category": "혜택",
+      "startDate": "2025-09-15",
+      "endDate": "상시",
+      "location": "보건복지부",
+      "target": "아동복지시설 및 위탁가정 보호종료 자립준비청년",
+      "summary": "자립준비청년의 지속 가능한 자립을 위한 종합적 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200005039",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
+    },
+    {
+      "id": "005043",
+      "name": "치매검진 지원",
+      "category": "혜택",
+      "startDate": "2026-05-18",
+      "endDate": "상시",
+      "location": "보건복지부",
+      "target": "만 60세 이상 어르신",
+      "summary": "어르신의 치매를 조기 발견하고 즉시 치료할 수 있도록 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200005043",
+      "imageTheme": "senior",
+      "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=800&q=80"
+    },
+    {
+      "id": "005045",
+      "name": "전국민 마음투자 지원",
+      "category": "혜택",
+      "startDate": "2025-09-16",
+      "endDate": "상시",
+      "location": "보건복지부",
+      "target": "정서적 어려움이 있는 국민",
+      "summary": "대화 기반의 전문 심리 상담 서비스를 제공",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200005045",
+      "imageTheme": "health",
+      "image": "https://images.unsplash.com/photo-1550831107-1553da8c8464?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -4345,6 +4434,66 @@
       "summary": "차세대 양자 AI 원천기술 및 응용기술 개발 과제 지원",
       "link": "https://www.msit.go.kr",
       "image": "https://images.unsplash.com/photo-1526378800651-c32d170fe6f8?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-18-1",
+      "name": "클라우드 기반 AI 서비스 개발 및 상용화 지원 사업",
+      "category": "AI지원",
+      "startDate": "2026-05-18",
+      "endDate": "2026-09-30",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI 기술 기반 서비스 개발 기업",
+      "summary": "클라우드 환경에서 AI 서비스 개발 및 시장 출시 지원",
+      "link": "https://www.nipa.kr/main/main.do",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-18-2",
+      "name": "서울 AI 허브 AI 스타트업 Pre-투자 유치 컨설팅 및 IR 데크 제작 지원",
+      "category": "AI지원",
+      "startDate": "2026-05-18",
+      "endDate": "2026-11-30",
+      "location": "서울 AI 허브",
+      "target": "투자 유치 희망 AI 스타트업",
+      "summary": "AI 스타트업의 투자 유치를 위한 전문 컨설팅 및 IR 자료 제작 지원",
+      "link": "https://www.seoulaihub.kr/",
+      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-18-3",
+      "name": "K-Startup AI 기반 B2B 서비스 스타트업 육성 프로그램",
+      "category": "AI지원",
+      "startDate": "2026-05-18",
+      "endDate": "2026-10-31",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "AI 기반 B2B 서비스 창업기업",
+      "summary": "B2B 특화 AI 서비스 스타트업에 사업화 자금, 멘토링, 네트워킹 지원",
+      "link": "https://www.k-startup.go.kr/",
+      "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-18-4",
+      "name": "중소기업 서비스업 디지털 전환 촉진 지원",
+      "category": "AI지원",
+      "startDate": "2026-05-18",
+      "endDate": "2026-11-30",
+      "location": "중소벤처기업부",
+      "target": "서비스업 분야 중소기업",
+      "summary": "서비스업 중소기업의 디지털 기술 도입 및 비즈니스 모델 전환 지원",
+      "link": "https://www.bizinfo.go.kr/web/main/index.do",
+      "image": "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-18-5",
+      "name": "차세대 AI 융합 서비스 실증 랩 구축 지원",
+      "category": "AI지원",
+      "startDate": "2026-05-18",
+      "endDate": "2026-09-30",
+      "location": "과학기술정보통신부",
+      "target": "AI 융합 기술 보유 기관/기업 컨소시엄",
+      "summary": "AI 융합 서비스를 실증하고 검증할 수 있는 환경 및 인프라 구축 지원",
+      "link": "https://www.msit.go.kr/",
+      "image": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=800&q=80"
     }
   ],
   "lastUpdated": "2026-05-18"
