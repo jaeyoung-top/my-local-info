@@ -1,6 +1,144 @@
 {
   "deals": [
     {
+      "id": "hdz_145178",
+      "title": "초고당도 침샘폭발 자두 햇자두,500g",
+      "price": "19,500원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/05/19/thumb_f81c048198823eec6ef6943233287ed1.webp",
+      "category": "식품",
+      "site": "쿠팡",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=112&no=705199",
+      "publishedAt": "2026-05-19 04:10:13",
+      "likes": 4,
+      "fetchedAt": "2026-05-18T19:26:53.315Z",
+      "priceComparison": [
+        {
+          "site": "쿠팡",
+          "price": "19,500원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": {
+        "text": "26년 첫자두새콤달콤 고당도 하우스 대석자두1차예약 완판!하루 30박스만 판매중입니다",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0519/900w_20260519040750_j4DBxtvDuA.jpeg"
+        ]
+      },
+      "shopUrl": "https://link.coupang.com/a/dRtSeaCi84"
+    },
+    {
+      "id": "hdz_145177",
+      "title": "맥북 네오 실버 256 ",
+      "price": "710,200원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/05/19/thumb_2d5b7db1e7d729323cf7ed09c7b33312.webp",
+      "category": "가전",
+      "site": "쿠팡 ",
+      "source": "개드립",
+      "sourceColor": "#DC2626",
+      "link": "https://www.dogdrip.net/702484994",
+      "publishedAt": "2026-05-19 02:55:04",
+      "likes": 50,
+      "fetchedAt": "2026-05-18T19:26:53.315Z",
+      "priceComparison": [
+        {
+          "site": "쿠팡",
+          "price": "710,200원"
+        },
+        {
+          "site": "쿠팡",
+          "price": "959,990원"
+        },
+        {
+          "site": "중고나라",
+          "price": "842,000원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "03-10",
+            "price": 960300
+          },
+          {
+            "date": "03-17",
+            "price": 960300
+          },
+          {
+            "date": "03-24",
+            "price": 987900
+          },
+          {
+            "date": "03-31",
+            "price": 990000
+          },
+          {
+            "date": "04-07",
+            "price": 960000
+          },
+          {
+            "date": "04-14",
+            "price": 979170
+          },
+          {
+            "date": "04-21",
+            "price": 978140
+          },
+          {
+            "date": "04-28",
+            "price": 974020
+          },
+          {
+            "date": "05-05",
+            "price": 979890
+          },
+          {
+            "date": "05-12",
+            "price": 960270
+          }
+        ],
+        "minPrice": 960000,
+        "maxPrice": 990000
+      },
+      "postContent": {
+        "text": "반품상품인데 보통 박스만 조금 얼룩이나 흠집이 있고 제품은 새상품 컨디션인 경우가 많음. 로켓배송 상품이라 안심하고 구매 가능.",
+        "images": []
+      },
+      "shopUrl": "https://www.coupang.com/vp/products/9436556337?itemId=28062651311&vendorItemId=95186540502&abTestInfo=100412_group_A"
+    },
+    {
+      "id": "hdz_145176",
+      "title": "레트로 게이머를 위한 게임 역사서 <게임의 역사> 출간",
+      "price": "20,300원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/05/19/thumb_c237988f4c5a0cd67f6a6ed4970900b0.webp",
+      "category": "기타",
+      "site": "텀블벅",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=112&no=705198",
+      "publishedAt": "2026-05-19 02:46:16",
+      "likes": 22,
+      "fetchedAt": "2026-05-18T19:26:53.315Z",
+      "priceComparison": [
+        {
+          "site": "텀블벅",
+          "price": "20,300원"
+        },
+        {
+          "site": "교보문고",
+          "price": "20,700원"
+        },
+        {
+          "site": "알라딘",
+          "price": "17,550원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
       "id": "hdz_145175",
       "title": "비비고 왕교자1.05kg x3개 + 고메 샤오롱바오 141g",
       "price": "24,000원",
@@ -35771,206 +35909,7 @@
       "priceHistory": null,
       "postContent": null,
       "shopUrl": null
-    },
-    {
-      "id": "hdz_144452",
-      "title": "설빙 빙수",
-      "price": null,
-      "image": "https://image.hotdeal.zip/thumbnails/2026/05/18/thumb_825f81352fa781a5e465b8ee6e0363dc.webp",
-      "category": "식품",
-      "site": "카카오톡 선물하기",
-      "source": "루리웹",
-      "sourceColor": "#3B82F6",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/104191?page=1",
-      "publishedAt": "2026-05-18 00:40:17",
-      "likes": 25,
-      "fetchedAt": "2026-05-17T15:52:32.173Z",
-      "priceComparison": [],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "02-24",
-            "price": 20000
-          },
-          {
-            "date": "03-03",
-            "price": 20000
-          },
-          {
-            "date": "03-10",
-            "price": 20000
-          },
-          {
-            "date": "03-17",
-            "price": 20000
-          },
-          {
-            "date": "03-24",
-            "price": 20000
-          },
-          {
-            "date": "03-31",
-            "price": 20000
-          },
-          {
-            "date": "04-07",
-            "price": 20000
-          },
-          {
-            "date": "04-14",
-            "price": 20000
-          },
-          {
-            "date": "04-21",
-            "price": 20000
-          },
-          {
-            "date": "04-28",
-            "price": 20000
-          },
-          {
-            "date": "05-05",
-            "price": 20000
-          },
-          {
-            "date": "05-12",
-            "price": 20000
-          }
-        ],
-        "minPrice": 20000,
-        "maxPrice": 20000
-      },
-      "postContent": {
-        "text": "빙수 https://gift.kakao.com/product/13550285 https://gift.kakao.com/product/13550286 https://gift.kakao.com/product/13550281 https://gift.kakao.com/product/13550290 유효기간 366일 이용 불가 매장 롯데월드어드벤처점, 홍천 비발디파크점, 고성 델피노점, 고양 벨라시타점, 안성 스타필드점, 대구 삼성라이온즈파크점",
-        "images": [
-          "https://i2.ruliweb.com/img/26/05/18/19e3694e5da1874ce.webp"
-        ]
-      },
-      "shopUrl": "https://www.dajooda.kr/01/"
-    },
-    {
-      "id": "hdz_144451",
-      "title": "차오차이 짜장&amp;마파두부/ 티아시아 커리 4+4 골라담기 +짜장 1개 증정",
-      "price": "11,918원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/05/18/thumb_823a15008b936bbcd7f99153474fecdb.webp",
-      "category": "식품",
-      "site": "오늘의집",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/9839089019",
-      "publishedAt": "2026-05-18 00:40:12",
-      "likes": 6,
-      "fetchedAt": "2026-05-17T15:52:32.173Z",
-      "priceComparison": [
-        {
-          "site": "오늘의집",
-          "price": "11,918원"
-        },
-        {
-          "site": "dasaja",
-          "price": "12,300원"
-        },
-        {
-          "site": "11번가",
-          "price": "15,000원"
-        },
-        {
-          "site": "옥션",
-          "price": "21,900원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_144450",
-      "title": "[옥션] 메가커피 팥빙 젤라또 파르페",
-      "price": "3,520원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/05/18/thumb_fa105e98362ffc363a6316f7a25ae5d0.webp",
-      "category": "기타",
-      "site": "옥션",
-      "source": "퀘이사존",
-      "sourceColor": "#7C3AED",
-      "link": "https://quasarzone.com/bbs/qb_saleinfo/views/1952432",
-      "publishedAt": "2026-05-18 00:40:04",
-      "likes": 7,
-      "fetchedAt": "2026-05-17T15:52:32.173Z",
-      "priceComparison": [
-        {
-          "site": "옥션",
-          "price": "3,520원"
-        },
-        {
-          "site": "11번가",
-          "price": "3,520원"
-        },
-        {
-          "site": "다나와",
-          "price": "가격 정보 확인 불가"
-        },
-        {
-          "site": "네이버 블로그",
-          "price": "4,400원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "02-24",
-            "price": 4400
-          },
-          {
-            "date": "03-03",
-            "price": 4400
-          },
-          {
-            "date": "03-10",
-            "price": 4400
-          },
-          {
-            "date": "03-17",
-            "price": 4400
-          },
-          {
-            "date": "03-24",
-            "price": 4400
-          },
-          {
-            "date": "03-31",
-            "price": 4400
-          },
-          {
-            "date": "04-07",
-            "price": 4400
-          },
-          {
-            "date": "04-14",
-            "price": 4400
-          },
-          {
-            "date": "04-21",
-            "price": 4400
-          },
-          {
-            "date": "04-28",
-            "price": 4400
-          },
-          {
-            "date": "05-05",
-            "price": 4400
-          },
-          {
-            "date": "05-12",
-            "price": 4400
-          }
-        ],
-        "minPrice": 4400,
-        "maxPrice": 4400
-      },
-      "postContent": null,
-      "shopUrl": null
     }
   ],
-  "lastUpdated": "2026-05-18T17:27:06.788Z"
+  "lastUpdated": "2026-05-18T19:26:55.856Z"
 }
