@@ -243,6 +243,7 @@ async function fetchPriceHistory(dealId) {
 }
 
 function mapDeal(d) {
+  const rawLink = d.post_url || `https://hotdeal.zip/${d.seo_url}`;
   return {
     id: `hdz_${d.id}`,
     seoUrl: d.seo_url,
@@ -253,7 +254,7 @@ function mapDeal(d) {
     site: d.site || null,
     source: d.community_name || '기타',
     sourceColor: SOURCE_COLORS[d.community_name] || '#888888',
-    link: d.post_url || `https://hotdeal.zip/${d.seo_url}`,
+    link: resolvePostLink(d.community_name, rawLink),
     publishedAt: d.created_at || '',
     likes: d.views || 0,
     fetchedAt: new Date().toISOString(),
