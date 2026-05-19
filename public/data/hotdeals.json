@@ -1,6 +1,94 @@
 {
   "deals": [
     {
+      "id": "hdz_145401",
+      "title": "아이깨끗해X시나모롤 핸드워시 대용량 리필 순향 4.5L 1개",
+      "price": "20,840원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/05/19/thumb_a389c591ce09e9336a3d6e71207c1074.webp",
+      "category": "생활용품",
+      "site": "지마켓",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/9844723113",
+      "publishedAt": "2026-05-19 13:18:16",
+      "likes": 0,
+      "fetchedAt": "2026-05-19T04:18:29.139Z",
+      "priceComparison": [
+        {
+          "site": "지마켓",
+          "price": "20,840원"
+        },
+        {
+          "site": "11번가",
+          "price": "30일 내 최저가 안내"
+        },
+        {
+          "site": "다나와",
+          "price": "2위 본품2개+리필4개 *68원/10ml*"
+        },
+        {
+          "site": "카카오 쇼핑하우",
+          "price": "25,900원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "02-24",
+            "price": 25900
+          },
+          {
+            "date": "03-03",
+            "price": 25900
+          },
+          {
+            "date": "03-10",
+            "price": 24900
+          },
+          {
+            "date": "03-17",
+            "price": 24900
+          },
+          {
+            "date": "03-24",
+            "price": 24900
+          },
+          {
+            "date": "03-31",
+            "price": 25900
+          },
+          {
+            "date": "04-07",
+            "price": 27900
+          },
+          {
+            "date": "04-14",
+            "price": 24900
+          },
+          {
+            "date": "04-21",
+            "price": 24900
+          },
+          {
+            "date": "04-28",
+            "price": 24900
+          },
+          {
+            "date": "05-05",
+            "price": 24900
+          },
+          {
+            "date": "05-12",
+            "price": 24900
+          }
+        ],
+        "minPrice": 24900,
+        "maxPrice": 27900
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
       "id": "hdz_145400",
       "title": "필립스 커널형 ANC 노이즈캔슬링 이어폰_TAT3559",
       "price": "17,910원",
@@ -12,7 +100,7 @@
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=112&no=705293",
       "publishedAt": "2026-05-19 13:14:13",
       "likes": 2,
-      "fetchedAt": "2026-05-19T04:18:03.923Z",
+      "fetchedAt": "2026-05-19T04:18:29.139Z",
       "priceComparison": [
         {
           "site": "KT멤버십",
@@ -105,7 +193,7 @@
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=112&no=705292",
       "publishedAt": "2026-05-19 13:12:10",
       "likes": 1,
-      "fetchedAt": "2026-05-19T04:18:03.923Z",
+      "fetchedAt": "2026-05-19T04:18:29.139Z",
       "priceComparison": [
         {
           "site": "지마켓",
@@ -193,7 +281,7 @@
       "postContent": {
         "text": "T당 64원대 찬물에 잘녹고 맛 괜찮았습니다200T 기준 역대가긴하네요",
         "images": [
-          "https://cdn3.ppomppu.co.kr/zboard/data3/2026/0519/900w_20260519131011_jbbJUH1o4R.jpg"
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0519/900w_20260519131011_jbbJUH1o4R.jpg"
         ]
       },
       "shopUrl": "https://m.gmarket.co.kr/vi/product/1783496370"
@@ -209,8 +297,8 @@
       "sourceColor": "#10B981",
       "link": "https://arca.live/b/hotdeal/171099119?p=1",
       "publishedAt": "2026-05-19 13:10:08",
-      "likes": 7,
-      "fetchedAt": "2026-05-19T04:18:03.923Z",
+      "likes": 8,
+      "fetchedAt": "2026-05-19T04:18:29.139Z",
       "priceComparison": [
         {
           "site": "G마켓",
@@ -297,8 +385,8 @@
       "sourceColor": "#10B981",
       "link": "https://arca.live/b/hotdeal/171099144?p=1",
       "publishedAt": "2026-05-19 13:10:05",
-      "likes": 8,
-      "fetchedAt": "2026-05-19T04:18:03.923Z",
+      "likes": 10,
+      "fetchedAt": "2026-05-19T04:18:29.139Z",
       "priceComparison": [
         {
           "site": "G마켓",
@@ -36137,56 +36225,7 @@
       "priceHistory": null,
       "postContent": null,
       "shopUrl": null
-    },
-    {
-      "id": "hdz_144732",
-      "title": "켈로그 그래놀라 시리얼 500G 4종 1+1+1 총 3팩 골라담기+ 증정",
-      "price": "13,800원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/05/18/thumb_5afc9b86a8fca57527548e7ed5d112eb.webp",
-      "category": "식품",
-      "site": "지마켓",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=112&no=704977",
-      "publishedAt": "2026-05-18 13:16:34",
-      "likes": 12,
-      "fetchedAt": "2026-05-18T04:56:54.021Z",
-      "priceComparison": [
-        {
-          "site": "지마켓",
-          "price": "13,800원"
-        },
-        {
-          "site": "아카라이브",
-          "price": "13,720원"
-        },
-        {
-          "site": "지름알림",
-          "price": "14,900원"
-        },
-        {
-          "site": "대자사",
-          "price": "13,980원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "05-12",
-            "price": 18900
-          }
-        ],
-        "minPrice": 18900,
-        "maxPrice": 18900
-      },
-      "postContent": {
-        "text": "그래놀라 시리얼 3개 골라담기 + 증정 지마켓에서 만사천원 이하 할인되네요",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0518/900w_20260518131229_vn3blwHrMS.jpg"
-        ]
-      },
-      "shopUrl": "https://m.gmarket.co.kr/vi/product/3242140960"
     }
   ],
-  "lastUpdated": "2026-05-19T04:18:05.955Z"
+  "lastUpdated": "2026-05-19T04:18:30.983Z"
 }
