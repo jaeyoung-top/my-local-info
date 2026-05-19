@@ -1,6 +1,18 @@
 {
   "events": [
     {
+      "id": "crawler-1779159538308-521",
+      "name": "5월 가정의 달 주요 행사 (음악회, 뮤지컬, 아동·청소년축제)",
+      "category": "행사",
+      "startDate": "2026-05-01",
+      "endDate": "2026-05-31",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "5월 가정의 달을 맞아 음악회, 어린이 뮤지컬, 아동·청소년축제 등 다채로운 행사를 개최합니다.",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9020&aid=17679",
+      "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1777005723songpa.JPG"
+    },
+    {
       "id": "crawler-1779158637685-582",
       "name": "인생 한 컷을 담아주세요 (6월 테마: 호국보훈의 달, 환경의 날, 우리동네 정원)",
       "category": "행사",
@@ -3483,6 +3495,32 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/137100000034",
       "imageTheme": "finance",
       "image": "https://images.unsplash.com/photo-1638466700763-c4d3dda58ece?w=800&q=80"
+    },
+    {
+      "id": "127000",
+      "name": "범죄 피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-05-19",
+      "endDate": "상시",
+      "location": "법무부",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "범죄 피해 아동·장애인의 수사·재판상 소통 중개 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
+    },
+    {
+      "id": "135200000090",
+      "name": "장애인구강진료센터 운영",
+      "category": "혜택",
+      "startDate": "2026-05-19",
+      "endDate": "상시",
+      "location": "장애인구강진료센터",
+      "target": "장애인",
+      "summary": "장애인 치과 진료 서비스 제공 및 비급여 진료비 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000090",
+      "imageTheme": "health",
+      "image": "https://images.unsplash.com/photo-1511174346297-cde2546c76b1?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -5118,6 +5156,66 @@
       "summary": "AI 시스템 간 상호운용성 확보 및 국내외 표준화 연구 개발 지원",
       "link": "https://www.msit.go.kr/web/msitMain.do",
       "image": "https://images.unsplash.com/photo-1516321165247-4aa89a48be55?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-19-1",
+      "name": "ICT 융합 확산 지원 사업",
+      "category": "AI지원",
+      "startDate": "2026-03-01",
+      "endDate": "2026-12-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "전통 산업 및 타 산업 분야 기업",
+      "summary": "ICT 융합 신기술 도입을 통한 산업 경쟁력 강화 지원",
+      "link": "https://www.nipa.kr/biz/bizView.do?menuId=biz010101&bizId=13",
+      "image": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-19-2",
+      "name": "차세대 네트워크 기술개발 및 실증 사업",
+      "category": "AI지원",
+      "startDate": "2026-01-01",
+      "endDate": "2026-12-31",
+      "location": "과학기술정보통신부 (NIPA 등)",
+      "target": "네트워크 장비/서비스 기업, 연구기관",
+      "summary": "5G/6G 등 차세대 네트워크 핵심기술 개발 및 상용화 실증 지원",
+      "link": "https://www.nipa.kr/biz/bizList.do?menuId=biz010104",
+      "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-19-3",
+      "name": "서울 AI 허브 AI 개발 및 협력 공간 지원",
+      "category": "AI지원",
+      "startDate": "2026-05-01",
+      "endDate": "상시",
+      "location": "서울 AI 허브",
+      "target": "AI 스타트업, 연구팀, 개발자",
+      "summary": "AI 기술 개발 및 협력을 위한 공유 오피스, 회의실 등 공간 제공",
+      "link": "https://seoulaihub.kr/html/sub1_1.php",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-19-4",
+      "name": "창업기업 성장단계별 맞춤형 지원 (K-Startup)",
+      "category": "AI지원",
+      "startDate": "2026-01-01",
+      "endDate": "상시",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "예비, 초기, 도약 단계 창업기업",
+      "summary": "창업기업의 성장에 필요한 사업화, 멘토링, 자금 연계 등 종합 지원",
+      "link": "https://www.k-startup.go.kr/main.do",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-19-5",
+      "name": "정보보호 산업 육성 및 기술 개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-02-01",
+      "endDate": "2026-12-31",
+      "location": "과학기술정보통신부 (NIPA, KISA 등)",
+      "target": "정보보호 기술 개발 기업 및 연구기관",
+      "summary": "AI 기반 사이버 보안 등 정보보호 신기술 개발 및 산업 경쟁력 강화",
+      "link": "https://www.nipa.kr/biz/bizList.do?menuId=biz010106",
+      "image": "https://images.unsplash.com/photo-1488229297570-58520851e868?w=800&q=80"
     }
   ],
   "lastUpdated": "2026-05-19"
