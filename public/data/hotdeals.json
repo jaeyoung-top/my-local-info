@@ -1,6 +1,286 @@
 {
   "deals": [
     {
+      "id": "hdz_145842",
+      "title": "더미식 비빔면 138g, 4개",
+      "price": null,
+      "image": "https://image.hotdeal.zip/thumbnails/2026/05/20/thumb_678f11e057d98d93857b4f81f2977b40.webp",
+      "category": "식품",
+      "site": "네이버",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/9848098586",
+      "publishedAt": "2026-05-20 07:06:16",
+      "likes": 2,
+      "fetchedAt": "2026-05-19T22:08:42.024Z",
+      "priceComparison": [],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "03-03",
+            "price": 4990
+          },
+          {
+            "date": "03-10",
+            "price": 4800
+          },
+          {
+            "date": "03-17",
+            "price": 4590
+          },
+          {
+            "date": "03-24",
+            "price": 4420
+          },
+          {
+            "date": "03-31",
+            "price": 4690
+          },
+          {
+            "date": "04-07",
+            "price": 4980
+          },
+          {
+            "date": "04-14",
+            "price": 3190
+          },
+          {
+            "date": "04-21",
+            "price": 3580
+          },
+          {
+            "date": "04-28",
+            "price": 3980
+          },
+          {
+            "date": "05-05",
+            "price": 3750
+          },
+          {
+            "date": "05-12",
+            "price": 3580
+          },
+          {
+            "date": "05-19",
+            "price": 3560
+          }
+        ],
+        "minPrice": 3190,
+        "maxPrice": 4990
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_145841",
+      "title": "하이뮨 음료 3종 체험팩 (오리지널, 식물성, 초코)",
+      "price": "2,900원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/05/20/thumb_1d0ba94c4f3d1d1f67e41e4a497b4d69.webp",
+      "category": "식품",
+      "site": "네이버",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/9848102758",
+      "publishedAt": "2026-05-20 07:06:10",
+      "likes": 0,
+      "fetchedAt": "2026-05-19T22:08:42.025Z",
+      "priceComparison": [
+        {
+          "site": "네이버",
+          "price": "2,900원"
+        },
+        {
+          "site": "다나와",
+          "price": "가격비교 중지"
+        },
+        {
+          "site": "11번가",
+          "price": "3,900원"
+        },
+        {
+          "site": "이마트24",
+          "price": "2,000원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "03-03",
+            "price": 36040
+          },
+          {
+            "date": "03-10",
+            "price": 36040
+          },
+          {
+            "date": "03-17",
+            "price": 36040
+          },
+          {
+            "date": "03-24",
+            "price": 33660
+          },
+          {
+            "date": "03-31",
+            "price": 36040
+          },
+          {
+            "date": "04-07",
+            "price": 36040
+          },
+          {
+            "date": "04-14",
+            "price": 36040
+          },
+          {
+            "date": "04-21",
+            "price": 36040
+          },
+          {
+            "date": "04-28",
+            "price": 35250
+          },
+          {
+            "date": "05-05",
+            "price": 35250
+          },
+          {
+            "date": "05-12",
+            "price": 35250
+          },
+          {
+            "date": "05-19",
+            "price": 36040
+          }
+        ],
+        "minPrice": 33660,
+        "maxPrice": 36040
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_145840",
+      "title": "아이폰 17 블랙 256 ",
+      "price": "995,660원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/05/20/thumb_8afc1fdef00f0e22c3b1bd214a27ff07.webp",
+      "category": "가전",
+      "site": "쿠팡 ",
+      "source": "개드립",
+      "sourceColor": "#DC2626",
+      "link": "https://www.dogdrip.net/702705748",
+      "publishedAt": "2026-05-20 06:55:04",
+      "likes": 21,
+      "fetchedAt": "2026-05-19T22:08:42.025Z",
+      "priceComparison": [
+        {
+          "site": "쿠팡",
+          "price": "995,660원"
+        },
+        {
+          "site": "모요",
+          "price": "약 1,290,000원"
+        },
+        {
+          "site": "쿠차",
+          "price": "가격 미상"
+        },
+        {
+          "site": "다나와",
+          "price": "121만원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "03-03",
+            "price": 1225490
+          },
+          {
+            "date": "03-10",
+            "price": 1251300
+          },
+          {
+            "date": "03-17",
+            "price": 1213760
+          },
+          {
+            "date": "03-24",
+            "price": 1213760
+          },
+          {
+            "date": "03-31",
+            "price": 1213760
+          },
+          {
+            "date": "04-07",
+            "price": 1213760
+          },
+          {
+            "date": "04-14",
+            "price": 1213760
+          },
+          {
+            "date": "04-21",
+            "price": 1213760
+          },
+          {
+            "date": "04-28",
+            "price": 1188980
+          },
+          {
+            "date": "05-05",
+            "price": 1188980
+          },
+          {
+            "date": "05-12",
+            "price": 1200990
+          },
+          {
+            "date": "05-19",
+            "price": 1200990
+          }
+        ],
+        "minPrice": 1188980,
+        "maxPrice": 1251300
+      },
+      "postContent": {
+        "text": "반품상품인데 새거나 다름없고 박스상태나 보증기간은 복불복 있음. 로켓배송상품이라 안심하고 구매가능. 금방 품절되니 필요한 사람은 ㄱㄱ",
+        "images": []
+      },
+      "shopUrl": "https://www.coupang.com/vp/products/9226094651?itemId=27268077527&vendorItemId=94246573767&abTestInfo=100412_group_A"
+    },
+    {
+      "id": "hdz_145839",
+      "title": "홈플러스 이번주 전단행사 (5/21~27)",
+      "price": null,
+      "image": "https://image.hotdeal.zip/thumbnails/2026/05/20/thumb_441bbc5de62f6d5e3f22dcb7d13050ec.webp",
+      "category": "식품",
+      "site": "홈플러스",
+      "source": "루리웹",
+      "sourceColor": "#3B82F6",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/104234?page=1",
+      "publishedAt": "2026-05-20 06:40:19",
+      "likes": 24,
+      "fetchedAt": "2026-05-19T22:08:42.025Z",
+      "priceComparison": [],
+      "priceHistory": null,
+      "postContent": {
+        "text": "-홈플러스 -롯데마트 -이마트",
+        "images": [
+          "https://i1.ruliweb.com/img/26/05/20/19e4229b5881874ce.webp",
+          "https://i3.ruliweb.com/img/26/05/20/19e4229c1191874ce.webp",
+          "https://i3.ruliweb.com/img/26/05/20/19e4229ce971874ce.webp",
+          "https://i3.ruliweb.com/img/26/05/20/19e4229ddbf1874ce.webp",
+          "https://i2.ruliweb.com/img/26/05/20/19e4229ed681874ce.webp",
+          "https://i3.ruliweb.com/img/26/05/20/19e422a02361874ce.webp",
+          "https://i3.ruliweb.com/img/26/05/20/19e422a11891874ce.webp",
+          "https://i1.ruliweb.com/img/26/05/20/19e422a1fec1874ce.webp"
+        ]
+      },
+      "shopUrl": "https://www.dajooda.kr/01/"
+    },
+    {
       "id": "hdz_145838",
       "title": "자연산 여수 새조개 200g",
       "price": "11,800원",
@@ -34837,301 +35117,7 @@
       },
       "postContent": null,
       "shopUrl": null
-    },
-    {
-      "id": "hdz_145227",
-      "title": "농협안심한우 1등급 업진살 200g",
-      "price": "9,730원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/05/19/thumb_117e45069000e36dd19eea1de9530f80.webp",
-      "category": "식품",
-      "site": "남도장터",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/9843995383",
-      "publishedAt": "2026-05-19 09:34:11",
-      "likes": 14,
-      "fetchedAt": "2026-05-19T01:51:00.571Z",
-      "priceComparison": [
-        {
-          "site": "남도장터",
-          "price": "9,730원"
-        },
-        {
-          "site": "11st",
-          "price": "21,720원"
-        },
-        {
-          "site": "다나와(판매처: G마켓)",
-          "price": "23,290원"
-        },
-        {
-          "site": "농협안심한우몰",
-          "price": "30,310원"
-        },
-        {
-          "site": "동원몰",
-          "price": "33,900원"
-        },
-        {
-          "site": "W스토어",
-          "price": "33,900원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "02-24",
-            "price": 22790
-          },
-          {
-            "date": "03-03",
-            "price": 23150
-          },
-          {
-            "date": "03-10",
-            "price": 24210
-          },
-          {
-            "date": "03-17",
-            "price": 24700
-          },
-          {
-            "date": "03-24",
-            "price": 23710
-          },
-          {
-            "date": "03-31",
-            "price": 24830
-          },
-          {
-            "date": "04-07",
-            "price": 25330
-          },
-          {
-            "date": "04-14",
-            "price": 25470
-          },
-          {
-            "date": "04-21",
-            "price": 24770
-          },
-          {
-            "date": "04-28",
-            "price": 24420
-          },
-          {
-            "date": "05-05",
-            "price": 24480
-          },
-          {
-            "date": "05-12",
-            "price": 25010
-          }
-        ],
-        "minPrice": 22790,
-        "maxPrice": 25470
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_145226",
-      "title": "불스원 레인OK 프리미엄 에탄올워셔 1.8L 6개 +사은품(1회용 유막제거제 25g)",
-      "price": "12,260원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/05/19/thumb_e78f404a1da1d3d7641967a7805e5e29.webp",
-      "category": "생활용품",
-      "site": "G마켓",
-      "source": "아카라이브",
-      "sourceColor": "#10B981",
-      "link": "https://arca.live/b/hotdeal/171084070?p=1",
-      "publishedAt": "2026-05-19 09:34:03",
-      "likes": 14,
-      "fetchedAt": "2026-05-19T01:51:00.571Z",
-      "priceComparison": [
-        {
-          "site": "G마켓",
-          "price": "12,260원"
-        },
-        {
-          "site": "11번가",
-          "price": "29,400원"
-        },
-        {
-          "site": "11번가",
-          "price": "7,810원"
-        },
-        {
-          "site": "다나와",
-          "price": "5,120원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "02-24",
-            "price": 12500
-          },
-          {
-            "date": "03-03",
-            "price": 12900
-          },
-          {
-            "date": "03-10",
-            "price": 12590
-          },
-          {
-            "date": "03-17",
-            "price": 12810
-          },
-          {
-            "date": "03-24",
-            "price": 12490
-          },
-          {
-            "date": "03-31",
-            "price": 12590
-          },
-          {
-            "date": "04-07",
-            "price": 12590
-          },
-          {
-            "date": "04-14",
-            "price": 14240
-          },
-          {
-            "date": "04-21",
-            "price": 13900
-          },
-          {
-            "date": "04-28",
-            "price": 10900
-          },
-          {
-            "date": "05-05",
-            "price": 13900
-          },
-          {
-            "date": "05-12",
-            "price": 13900
-          }
-        ],
-        "minPrice": 10900,
-        "maxPrice": 14240
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_145225",
-      "title": "버거페스타 세일 정보 모음 (롯데리아/맥도날드/쉐이크쉑) + 삼성카드 5%",
-      "price": null,
-      "image": "https://image.hotdeal.zip/thumbnails/2026/05/19/thumb_f6bc4f2e65813166c636e794f035b30c.webp",
-      "category": "생활용품",
-      "site": "G마켓",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/9841613046",
-      "publishedAt": "2026-05-19 09:26:12",
-      "likes": 112,
-      "fetchedAt": "2026-05-19T01:51:00.571Z",
-      "priceComparison": [],
-      "priceHistory": null,
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_145224",
-      "title": "몽쉘 생크림케이크 카카오, 408g, 2개",
-      "price": "6,900원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/05/19/thumb_fd4467db6116a0e36307d05cc293596d.webp",
-      "category": "식품",
-      "site": "쿠팡",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/9843961807",
-      "publishedAt": "2026-05-19 09:20:24",
-      "likes": 10,
-      "fetchedAt": "2026-05-19T01:51:00.571Z",
-      "priceComparison": [
-        {
-          "site": "쿠팡",
-          "price": "6,900원"
-        },
-        {
-          "site": "다나와",
-          "price": "3,680원"
-        },
-        {
-          "site": "로우차트",
-          "price": "20,080원"
-        },
-        {
-          "site": "쇼핑하우",
-          "price": "10,500원"
-        },
-        {
-          "site": "쿠차",
-          "price": "최저가 2,850원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "02-24",
-            "price": 7040
-          },
-          {
-            "date": "03-03",
-            "price": 6960
-          },
-          {
-            "date": "03-10",
-            "price": 7040
-          },
-          {
-            "date": "03-17",
-            "price": 7200
-          },
-          {
-            "date": "03-24",
-            "price": 7200
-          },
-          {
-            "date": "03-31",
-            "price": 7040
-          },
-          {
-            "date": "04-07",
-            "price": 7040
-          },
-          {
-            "date": "04-14",
-            "price": 7280
-          },
-          {
-            "date": "04-21",
-            "price": 8120
-          },
-          {
-            "date": "04-28",
-            "price": 8990
-          },
-          {
-            "date": "05-05",
-            "price": 9120
-          },
-          {
-            "date": "05-12",
-            "price": 8120
-          }
-        ],
-        "minPrice": 6960,
-        "maxPrice": 9120
-      },
-      "postContent": null,
-      "shopUrl": null
     }
   ],
-  "lastUpdated": "2026-05-19T19:44:43.350Z"
+  "lastUpdated": "2026-05-19T22:08:44.152Z"
 }
