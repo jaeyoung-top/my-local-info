@@ -3213,6 +3213,58 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200005050",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&q=80"
+    },
+    {
+      "id": "000025",
+      "name": "범죄피해 아동/장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-05-19",
+      "endDate": "상시",
+      "location": "법무부",
+      "target": "성폭력/아동학대/인신매매 피해 아동 및 장애인",
+      "summary": "범죄 피해 아동 및 의사소통 어려운 장애인의 수사·재판 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&q=80"
+    },
+    {
+      "id": "000090",
+      "name": "장애인구강진료센터 치과 의료지원",
+      "category": "혜택",
+      "startDate": "2026-05-19",
+      "endDate": "상시",
+      "location": "장애인구강진료센터",
+      "target": "장애인",
+      "summary": "장애인에 대한 치과의료서비스 제공 및 비급여 진료비 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000090",
+      "imageTheme": "health",
+      "image": "https://images.unsplash.com/photo-1494390248081-4e521a5940db?w=800&q=80"
+    },
+    {
+      "id": "135200005051",
+      "name": "어린이 불소 도포",
+      "category": "혜택",
+      "startDate": "2026-05-19",
+      "endDate": "상시",
+      "location": "보건복지부",
+      "target": "만 3세 이상 15세 이하 아동",
+      "summary": "어린이 불소 도포로 치아 우식증 예방 및 구강 보건 교육 제공",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200005051",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=800&q=80"
+    },
+    {
+      "id": "135200005055",
+      "name": "가정위탁 아동양육보조금 지원",
+      "category": "혜택",
+      "startDate": "2025-09-16",
+      "endDate": "상시",
+      "location": "보건복지부",
+      "target": "위탁가정",
+      "summary": "가정위탁 아동에게 월 30만원 이상 양육보조금 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200005055",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -4631,7 +4683,44 @@
       "summary": "국산 AI 반도체를 활용한 혁신 서비스 개발 및 실증 지원",
       "link": "https://www.msit.go.kr/",
       "image": "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=800&q=80"
+    },
+    {
+      "id": "135200005053",
+      "name": "배회감지기 무상보급",
+      "category": "AI지원",
+      "startDate": "2026-05-19",
+      "endDate": "상시",
+      "location": "보건복지부",
+      "target": "치매환자 및 인지저하자",
+      "summary": "치매환자 등 실종 위험 계층에 스마트 배회감지기 무상 보급",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200005053",
+      "imageTheme": "senior",
+      "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-19-1",
+      "name": "서울 AI 허브 AI 기업 맞춤형 컨설팅 지원",
+      "category": "AI지원",
+      "startDate": "2026-05-19",
+      "endDate": "상시",
+      "location": "서울 AI 허브",
+      "target": "서울 소재 AI 스타트업 및 중소기업",
+      "summary": "AI 기업의 기술, 사업화, 법률 등 전반적인 애로사항 해결을 위한 전문 컨설팅 제공.",
+      "link": "https://seoulaihub.kr/service/consulting",
+      "image": "https://images.unsplash.com/photo-1516321165247-4aa89a48be55?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-19-2",
+      "name": "데이터댐 활용 및 확산 지원 사업",
+      "category": "AI지원",
+      "startDate": "2026-05-19",
+      "endDate": "상시",
+      "location": "과학기술정보통신부 (MSIT) / 정보통신산업진흥원 (NIPA)",
+      "target": "데이터 활용을 통한 신규 서비스 개발 및 사업화 기업, 공공기관",
+      "summary": "데이터댐에 구축된 데이터를 활용하여 혁신적인 AI/데이터 기반 서비스 개발 및 확산을 지원.",
+      "link": "https://www.nipa.kr/main/2023/ko/business/business_list.jsp?category=02",
+      "image": "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-05-18"
+  "lastUpdated": "2026-05-19"
 }
