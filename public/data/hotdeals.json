@@ -12,7 +12,7 @@
       "link": "https://www.fmkorea.com/9844424638",
       "publishedAt": "2026-05-19 11:46:23",
       "likes": 0,
-      "fetchedAt": "2026-05-19T02:46:31.834Z",
+      "fetchedAt": "2026-05-19T02:47:15.392Z",
       "priceComparison": [
         {
           "site": "롯데온",
@@ -35,7 +35,60 @@
           "price": "41,500원"
         }
       ],
-      "priceHistory": null,
+      "priceHistory": {
+        "points": [
+          {
+            "date": "02-24",
+            "price": 18510
+          },
+          {
+            "date": "03-03",
+            "price": 18510
+          },
+          {
+            "date": "03-10",
+            "price": 18510
+          },
+          {
+            "date": "03-17",
+            "price": 18510
+          },
+          {
+            "date": "03-24",
+            "price": 18270
+          },
+          {
+            "date": "03-31",
+            "price": 18510
+          },
+          {
+            "date": "04-07",
+            "price": 19350
+          },
+          {
+            "date": "04-14",
+            "price": 19350
+          },
+          {
+            "date": "04-21",
+            "price": 19350
+          },
+          {
+            "date": "04-28",
+            "price": 19350
+          },
+          {
+            "date": "05-05",
+            "price": 18120
+          },
+          {
+            "date": "05-12",
+            "price": 18120
+          }
+        ],
+        "minPrice": 18120,
+        "maxPrice": 19350
+      },
       "postContent": null,
       "shopUrl": null
     },
@@ -50,8 +103,8 @@
       "sourceColor": "#4F46E5",
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=112&no=705272",
       "publishedAt": "2026-05-19 11:46:15",
-      "likes": 0,
-      "fetchedAt": "2026-05-19T02:46:31.834Z",
+      "likes": 1,
+      "fetchedAt": "2026-05-19T02:47:15.392Z",
       "priceComparison": [
         {
           "site": "롯데온",
@@ -149,7 +202,7 @@
       "link": "https://www.fmkorea.com/9844410772",
       "publishedAt": "2026-05-19 11:44:12",
       "likes": 2,
-      "fetchedAt": "2026-05-19T02:46:31.834Z",
+      "fetchedAt": "2026-05-19T02:47:15.392Z",
       "priceComparison": [
         {
           "site": "지마켓",
@@ -232,8 +285,8 @@
       "sourceColor": "#10B981",
       "link": "https://arca.live/b/hotdeal/171091967?p=1",
       "publishedAt": "2026-05-19 11:42:07",
-      "likes": 9,
-      "fetchedAt": "2026-05-19T02:46:31.834Z",
+      "likes": 10,
+      "fetchedAt": "2026-05-19T02:47:15.392Z",
       "priceComparison": [
         {
           "site": "11번가",
@@ -321,7 +374,7 @@
       "link": "https://www.fmkorea.com/9844405147",
       "publishedAt": "2026-05-19 11:40:16",
       "likes": 1,
-      "fetchedAt": "2026-05-19T02:46:31.834Z",
+      "fetchedAt": "2026-05-19T02:47:15.392Z",
       "priceComparison": [
         {
           "site": "지마켓",
@@ -36336,5 +36389,5 @@
       "shopUrl": null
     }
   ],
-  "lastUpdated": "2026-05-19T02:46:34.507Z"
+  "lastUpdated": "2026-05-19T02:47:17.825Z"
 }
