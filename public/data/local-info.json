@@ -3419,6 +3419,58 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/137100000032",
       "imageTheme": "health",
       "image": "https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "범죄피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "상시",
+      "location": "법무부",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "범죄 피해 아동·장애인의 수사·재판 소통 중개 및 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1509822929063-6b6723e0e974?w=800&q=80"
+    },
+    {
+      "id": "000090",
+      "name": "장애인 구강진료 지원",
+      "category": "혜택",
+      "startDate": "2026-05-19",
+      "endDate": "상시",
+      "location": "장애인구강진료센터",
+      "target": "장애인",
+      "summary": "장애인을 위한 치과 의료 서비스 제공 및 비급여 진료비 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000090",
+      "imageTheme": "health",
+      "image": "https://images.unsplash.com/photo-1550831107-1553da8c8464?w=800&q=80"
+    },
+    {
+      "id": "137100",
+      "name": "어르신 스포츠강좌 지원",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "상시",
+      "location": "해당 지역의 지자체 혹은 시도체육회",
+      "target": "65세 이상 어르신",
+      "summary": "65세 이상 어르신을 위한 맞춤형 생활체육교실 및 기획사업 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/137100000033",
+      "imageTheme": "senior",
+      "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=800&q=80"
+    },
+    {
+      "id": "137100000034",
+      "name": "장애 체육인 생활지원금 지원",
+      "category": "혜택",
+      "startDate": "2026-05-19",
+      "endDate": "상시",
+      "location": "국민체육진흥공단 체육인복지팀",
+      "target": "전·현직 장애 국가대표 선수 및 지도자 중 경제적 취약 계층",
+      "summary": "생활이 어려운 장애국가대표선수 및 지도자에게 생활보조비 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/137100000034",
+      "imageTheme": "finance",
+      "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -4994,6 +5046,66 @@
       "summary": "혁신적인 메타버스·XR 콘텐츠 기획, 개발 및 사업화 지원",
       "link": "https://www.nipa.kr/main/mainPage.do",
       "image": "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-19-1",
+      "name": "공개SW 개발 및 활용 지원 사업",
+      "category": "AI지원",
+      "startDate": "2026-03-01",
+      "endDate": "2026-11-30",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "공개SW 개발 기업, 개발자 커뮤니티",
+      "summary": "공개SW 생태계 활성화를 위한 개발, 품질 검증, 사업화 및 교육 지원",
+      "link": "https://www.nipa.kr/main/main.html",
+      "image": "https://images.unsplash.com/photo-1526378800651-c32d170fe6f8?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-19-2",
+      "name": "중소기업 제조혁신 AI 솔루션 개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "2026-12-31",
+      "location": "중소벤처기업부 (기업마당)",
+      "target": "제조 공정 혁신을 위한 AI 솔루션 개발 중소기업",
+      "summary": "중소 제조기업의 생산성 향상을 위한 AI 기반 솔루션 개발 및 적용 지원",
+      "link": "https://www.bizinfo.go.kr/web/main/index.do",
+      "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-19-3",
+      "name": "차세대 컴퓨팅 기술 개발 및 실증 사업 (AI 융합)",
+      "category": "AI지원",
+      "startDate": "2026-06-01",
+      "endDate": "2027-05-31",
+      "location": "과학기술정보통신부",
+      "target": "AI 융합 차세대 컴퓨팅 기술 개발 기업/연구기관",
+      "summary": "초고성능, 양자, 엣지 컴퓨팅 등 차세대 기술과 AI 융합 기술 개발 및 실증",
+      "link": "https://www.msit.go.kr/web/main/main.do",
+      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-19-4",
+      "name": "ICT 융합 산업 전문인력 양성 지원",
+      "category": "AI지원",
+      "startDate": "2026-03-01",
+      "endDate": "2026-12-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "ICT 융합 분야 인력 양성 교육기관 컨소시엄",
+      "summary": "AI·빅데이터 기반 ICT 융합 산업 선도를 위한 전문 인력 양성 교육 프로그램 지원",
+      "link": "https://www.nipa.kr/main/main.html",
+      "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-19-5",
+      "name": "중소 물류기업 디지털 전환 및 스마트 물류 시스템 구축 지원",
+      "category": "AI지원",
+      "startDate": "2026-05-01",
+      "endDate": "2026-12-15",
+      "location": "중소벤처기업부 (기업마당)",
+      "target": "AI·빅데이터 기반 스마트 물류 시스템 도입 희망 중소기업",
+      "summary": "중소 물류기업의 디지털 전환을 위한 AI·빅데이터 기반 스마트 물류 시스템 구축 및 컨설팅 지원",
+      "link": "https://www.bizinfo.go.kr/web/main/index.do",
+      "image": "https://images.unsplash.com/photo-1516321165247-4aa89a48be55?w=800&q=80"
     }
   ],
   "lastUpdated": "2026-05-19"
