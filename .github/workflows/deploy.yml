@@ -31,9 +31,12 @@ jobs:
           node scripts/crawl-songpa-news.js
           node scripts/generate-blog-post.js
           node scripts/fetch-hotdeals.js
+          node scripts/fetch-analytics.js
         env:
           PUBLIC_DATA_API_KEY: ${{ secrets.PUBLIC_DATA_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
 
       - name: Commit and Push changes
         run: |
