@@ -3521,6 +3521,32 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000090",
       "imageTheme": "health",
       "image": "https://images.unsplash.com/photo-1511174346297-cde2546c76b1?w=800&q=80"
+    },
+    {
+      "id": "127000",
+      "name": "범죄피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원",
+      "target": "만 19세 미만 아동 및 범죄피해 장애인",
+      "summary": "만 19세 미만 아동, 장애인 범죄 피해자의 수사·재판상 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1519340333755-56e9c1d04579?w=800&q=80"
+    },
+    {
+      "id": "000090",
+      "name": "장애인 구강진료센터 의료서비스",
+      "category": "혜택",
+      "startDate": "2026-05-19",
+      "endDate": "상시",
+      "location": "장애인구강진료센터",
+      "target": "장애인",
+      "summary": "장애인 치과 의료서비스 제공 및 진료비 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000090",
+      "imageTheme": "health",
+      "image": "https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -5216,6 +5242,66 @@
       "summary": "AI 기반 사이버 보안 등 정보보호 신기술 개발 및 산업 경쟁력 강화",
       "link": "https://www.nipa.kr/biz/bizList.do?menuId=biz010106",
       "image": "https://images.unsplash.com/photo-1488229297570-58520851e868?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-19-1",
+      "name": "인공지능 산업 생태계 조성 및 기술 고도화 지원",
+      "category": "AI지원",
+      "startDate": "2026-05-20",
+      "endDate": "2026-12-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI 관련 기업, 연구기관",
+      "summary": "AI 산업 생태계 전반의 경쟁력 강화 및 기술 수준 향상 지원",
+      "link": "https://www.nipa.kr/",
+      "image": "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-19-2",
+      "name": "서울 AI 허브 인공지능 인재 양성 및 취업 연계 프로그램",
+      "category": "AI지원",
+      "startDate": "2026-05-19",
+      "endDate": "2026-11-30",
+      "location": "서울 AI 허브",
+      "target": "AI 분야 구직자 및 예비 개발자",
+      "summary": "AI 전문 교육 제공 및 우수기업 취업 연계를 통한 인재 양성",
+      "link": "https://seoulaihub.kr/",
+      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-19-3",
+      "name": "K-Startup AI·디지털 기반 소셜벤처 창업 지원사업",
+      "category": "AI지원",
+      "startDate": "2026-06-01",
+      "endDate": "2026-12-15",
+      "location": "K-Startup 창업진흥원",
+      "target": "AI·디지털 기술 활용 소셜벤처 예비/초기창업가",
+      "summary": "사회문제 해결에 기여하는 AI·디지털 기반 소셜벤처 창업 지원",
+      "link": "https://www.k-startup.go.kr/",
+      "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-19-4",
+      "name": "중소기업 디지털 전환 클라우드 기반 업무 환경 구축 지원",
+      "category": "AI지원",
+      "startDate": "2026-05-25",
+      "endDate": "2026-10-31",
+      "location": "중소벤처기업부 (기업마당)",
+      "target": "디지털 전환을 추진하는 중소기업",
+      "summary": "클라우드 기반 업무 환경 구축을 위한 컨설팅 및 시스템 도입 지원",
+      "link": "https://www.bizinfo.go.kr/",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-19-5",
+      "name": "과학기술정보통신부 디지털 전환 빅데이터 플랫폼 활용 촉진 사업",
+      "category": "AI지원",
+      "startDate": "2026-05-28",
+      "endDate": "2026-12-20",
+      "location": "과학기술정보통신부",
+      "target": "일반 기업, 공공기관, 연구기관",
+      "summary": "국가 빅데이터 플랫폼 활용을 통한 디지털 전환 가속화 및 신서비스 창출 지원",
+      "link": "https://www.msit.go.kr/",
+      "image": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=800&q=80"
     }
   ],
   "lastUpdated": "2026-05-19"
