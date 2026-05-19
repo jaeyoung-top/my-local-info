@@ -12,9 +12,87 @@
       "link": "https://www.fmkorea.com/9844689473",
       "publishedAt": "2026-05-19 13:08:14",
       "likes": 0,
-      "fetchedAt": "2026-05-19T04:08:15.847Z",
-      "priceComparison": [],
-      "priceHistory": null,
+      "fetchedAt": "2026-05-19T04:09:10.785Z",
+      "priceComparison": [
+        {
+          "site": "지마켓",
+          "price": "12,900원"
+        },
+        {
+          "site": "옥션",
+          "price": "15,310원"
+        },
+        {
+          "site": "G마켓",
+          "price": "15,320원"
+        },
+        {
+          "site": "11번가",
+          "price": "17,710원"
+        },
+        {
+          "site": "쿠팡",
+          "price": "20,100원"
+        },
+        {
+          "site": "롯데ON",
+          "price": "20,430원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "02-24",
+            "price": 17120
+          },
+          {
+            "date": "03-03",
+            "price": 17280
+          },
+          {
+            "date": "03-10",
+            "price": 14900
+          },
+          {
+            "date": "03-17",
+            "price": 14900
+          },
+          {
+            "date": "03-24",
+            "price": 16390
+          },
+          {
+            "date": "03-31",
+            "price": 15940
+          },
+          {
+            "date": "04-07",
+            "price": 14900
+          },
+          {
+            "date": "04-14",
+            "price": 14900
+          },
+          {
+            "date": "04-21",
+            "price": 14900
+          },
+          {
+            "date": "04-28",
+            "price": 15000
+          },
+          {
+            "date": "05-05",
+            "price": 14900
+          },
+          {
+            "date": "05-12",
+            "price": 14900
+          }
+        ],
+        "minPrice": 14900,
+        "maxPrice": 17280
+      },
       "postContent": null,
       "shopUrl": null
     },
@@ -29,9 +107,14 @@
       "sourceColor": "#4F46E5",
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=112&no=705291",
       "publishedAt": "2026-05-19 13:08:12",
-      "likes": 0,
-      "fetchedAt": "2026-05-19T04:08:15.848Z",
-      "priceComparison": [],
+      "likes": 1,
+      "fetchedAt": "2026-05-19T04:09:10.786Z",
+      "priceComparison": [
+        {
+          "site": "G마켓",
+          "price": "22,680원"
+        }
+      ],
       "priceHistory": null,
       "postContent": {
         "text": "삼성카드랑 비씨카드로 결제하면 22,680원 나와요 한병에 11,300원 쯤 되네요",
@@ -53,7 +136,7 @@
       "link": "https://www.fmkorea.com/9844615885",
       "publishedAt": "2026-05-19 13:04:49",
       "likes": 0,
-      "fetchedAt": "2026-05-19T04:08:15.848Z",
+      "fetchedAt": "2026-05-19T04:09:10.786Z",
       "priceComparison": [
         {
           "site": "롯데온",
@@ -91,8 +174,8 @@
       "sourceColor": "#4F46E5",
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=112&no=705288",
       "publishedAt": "2026-05-19 13:04:30",
-      "likes": 1,
-      "fetchedAt": "2026-05-19T04:08:15.848Z",
+      "likes": 2,
+      "fetchedAt": "2026-05-19T04:09:10.786Z",
       "priceComparison": [
         {
           "site": "네이버",
@@ -190,8 +273,8 @@
       "sourceColor": "#FF8C00",
       "link": "https://www.fmkorea.com/9844674162",
       "publishedAt": "2026-05-19 13:04:30",
-      "likes": 1,
-      "fetchedAt": "2026-05-19T04:08:15.848Z",
+      "likes": 2,
+      "fetchedAt": "2026-05-19T04:09:10.786Z",
       "priceComparison": [
         {
           "site": "네이버",
@@ -283,7 +366,7 @@
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=112&no=705289",
       "publishedAt": "2026-05-19 13:04:19",
       "likes": 1,
-      "fetchedAt": "2026-05-19T04:08:15.848Z",
+      "fetchedAt": "2026-05-19T04:09:10.786Z",
       "priceComparison": [
         {
           "site": "지마켓",
@@ -331,8 +414,8 @@
       "sourceColor": "#FF8C00",
       "link": "https://www.fmkorea.com/9844672517",
       "publishedAt": "2026-05-19 13:04:17",
-      "likes": 2,
-      "fetchedAt": "2026-05-19T04:08:15.848Z",
+      "likes": 6,
+      "fetchedAt": "2026-05-19T04:09:10.786Z",
       "priceComparison": [
         {
           "site": "지마켓",
@@ -423,8 +506,8 @@
       "sourceColor": "#4F46E5",
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=112&no=705290",
       "publishedAt": "2026-05-19 13:04:13",
-      "likes": 1,
-      "fetchedAt": "2026-05-19T04:08:15.848Z",
+      "likes": 2,
+      "fetchedAt": "2026-05-19T04:09:10.786Z",
       "priceComparison": [
         {
           "site": "지마켓",
@@ -521,7 +604,7 @@
       "link": "https://quasarzone.com/bbs/qb_saleinfo/views/1952958",
       "publishedAt": "2026-05-19 13:04:03",
       "likes": 1,
-      "fetchedAt": "2026-05-19T04:08:15.848Z",
+      "fetchedAt": "2026-05-19T04:09:10.786Z",
       "priceComparison": [
         {
           "site": "지마켓",
@@ -552,7 +635,7 @@
       "link": "https://www.fmkorea.com/9844663425",
       "publishedAt": "2026-05-19 13:00:47",
       "likes": 1,
-      "fetchedAt": "2026-05-19T04:08:15.848Z",
+      "fetchedAt": "2026-05-19T04:09:10.786Z",
       "priceComparison": [
         {
           "site": "11번가",
@@ -583,7 +666,7 @@
       "link": "https://www.fmkorea.com/9844665029",
       "publishedAt": "2026-05-19 13:00:27",
       "likes": 6,
-      "fetchedAt": "2026-05-19T04:08:15.848Z",
+      "fetchedAt": "2026-05-19T04:09:10.786Z",
       "priceComparison": [
         {
           "site": "공홈",
@@ -622,7 +705,7 @@
       "link": "https://www.fmkorea.com/9844668475",
       "publishedAt": "2026-05-19 13:00:16",
       "likes": 3,
-      "fetchedAt": "2026-05-19T04:08:15.848Z",
+      "fetchedAt": "2026-05-19T04:09:10.786Z",
       "priceComparison": [
         {
           "site": "지마켓",
@@ -717,8 +800,8 @@
       "sourceColor": "#4F46E5",
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=112&no=705286",
       "publishedAt": "2026-05-19 12:54:18",
-      "likes": 15,
-      "fetchedAt": "2026-05-19T04:08:15.848Z",
+      "likes": 16,
+      "fetchedAt": "2026-05-19T04:09:10.786Z",
       "priceComparison": [
         {
           "site": "지마켓",
@@ -819,7 +902,7 @@
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=112&no=705287",
       "publishedAt": "2026-05-19 12:54:11",
       "likes": 12,
-      "fetchedAt": "2026-05-19T04:08:15.848Z",
+      "fetchedAt": "2026-05-19T04:09:10.786Z",
       "priceComparison": [
         {
           "site": "롯데온",
@@ -899,8 +982,8 @@
       "sourceColor": "#4F46E5",
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=112&no=705285",
       "publishedAt": "2026-05-19 12:52:13",
-      "likes": 27,
-      "fetchedAt": "2026-05-19T04:08:15.848Z",
+      "likes": 29,
+      "fetchedAt": "2026-05-19T04:09:10.786Z",
       "priceComparison": [
         {
           "site": "옥션",
@@ -985,7 +1068,7 @@
       "link": "https://www.fmkorea.com/9844624464",
       "publishedAt": "2026-05-19 12:50:11",
       "likes": 8,
-      "fetchedAt": "2026-05-19T04:08:15.848Z",
+      "fetchedAt": "2026-05-19T04:09:10.786Z",
       "priceComparison": [
         {
           "site": "롯데온",
@@ -1073,7 +1156,7 @@
       "link": "https://quasarzone.com/bbs/qb_saleinfo/views/1952952",
       "publishedAt": "2026-05-19 12:46:05",
       "likes": 8,
-      "fetchedAt": "2026-05-19T04:08:15.848Z",
+      "fetchedAt": "2026-05-19T04:09:10.786Z",
       "priceComparison": [
         {
           "site": "지마켓",
@@ -1100,7 +1183,7 @@
       "link": "https://bbs.ruliweb.com/market/board/1020/read/104221?page=1",
       "publishedAt": "2026-05-19 12:35:14",
       "likes": 13,
-      "fetchedAt": "2026-05-19T04:08:15.848Z",
+      "fetchedAt": "2026-05-19T04:09:10.786Z",
       "priceComparison": [
         {
           "site": "G마켓",
@@ -1198,7 +1281,7 @@
       "link": "https://arca.live/b/hotdeal/171096054?p=1",
       "publishedAt": "2026-05-19 12:34:07",
       "likes": 9,
-      "fetchedAt": "2026-05-19T04:08:15.848Z",
+      "fetchedAt": "2026-05-19T04:09:10.786Z",
       "priceComparison": [
         {
           "site": "지마켓",
@@ -1282,7 +1365,7 @@
       "link": "https://arca.live/b/hotdeal/171096127?p=1",
       "publishedAt": "2026-05-19 12:34:05",
       "likes": 6,
-      "fetchedAt": "2026-05-19T04:08:15.848Z",
+      "fetchedAt": "2026-05-19T04:09:10.786Z",
       "priceComparison": [
         {
           "site": "토스쇼핑",
@@ -1366,7 +1449,7 @@
       "link": "https://www.fmkorea.com/9844547975",
       "publishedAt": "2026-05-19 12:32:14",
       "likes": 19,
-      "fetchedAt": "2026-05-19T04:08:16.171Z",
+      "fetchedAt": "2026-05-19T04:09:11.070Z",
       "priceComparison": [
         {
           "site": "쿠팡",
@@ -1389,7 +1472,7 @@
       "link": "https://www.fmkorea.com/9844562332",
       "publishedAt": "2026-05-19 12:30:14",
       "likes": 9,
-      "fetchedAt": "2026-05-19T04:08:16.171Z",
+      "fetchedAt": "2026-05-19T04:09:11.071Z",
       "priceComparison": [
         {
           "site": "지마켓",
@@ -1416,7 +1499,7 @@
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=112&no=705284",
       "publishedAt": "2026-05-19 12:30:13",
       "likes": 8,
-      "fetchedAt": "2026-05-19T04:08:16.171Z",
+      "fetchedAt": "2026-05-19T04:09:11.071Z",
       "priceComparison": [],
       "priceHistory": {
         "points": [
@@ -1492,7 +1575,7 @@
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=112&no=705283",
       "publishedAt": "2026-05-19 12:28:14",
       "likes": 12,
-      "fetchedAt": "2026-05-19T04:08:16.171Z",
+      "fetchedAt": "2026-05-19T04:09:11.071Z",
       "priceComparison": [
         {
           "site": "GS샵",
@@ -1533,7 +1616,7 @@
       "link": "https://www.fmkorea.com/9844555531",
       "publishedAt": "2026-05-19 12:28:11",
       "likes": 16,
-      "fetchedAt": "2026-05-19T04:08:16.171Z",
+      "fetchedAt": "2026-05-19T04:09:11.071Z",
       "priceComparison": [],
       "priceHistory": null,
       "postContent": null,
@@ -1550,8 +1633,8 @@
       "sourceColor": "#4F46E5",
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=112&no=705281",
       "publishedAt": "2026-05-19 12:26:25",
-      "likes": 14,
-      "fetchedAt": "2026-05-19T04:08:16.171Z",
+      "likes": 15,
+      "fetchedAt": "2026-05-19T04:09:11.071Z",
       "priceComparison": [
         {
           "site": "지마켓",
@@ -1645,8 +1728,8 @@
       "sourceColor": "#4F46E5",
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=112&no=705282",
       "publishedAt": "2026-05-19 12:26:16",
-      "likes": 64,
-      "fetchedAt": "2026-05-19T04:08:16.171Z",
+      "likes": 66,
+      "fetchedAt": "2026-05-19T04:09:11.071Z",
       "priceComparison": [],
       "priceHistory": null,
       "postContent": {
@@ -1671,7 +1754,7 @@
       "link": "https://www.dogdrip.net/702546025",
       "publishedAt": "2026-05-19 12:25:04",
       "likes": 23,
-      "fetchedAt": "2026-05-19T04:08:16.171Z",
+      "fetchedAt": "2026-05-19T04:09:11.071Z",
       "priceComparison": [
         {
           "site": "네이버쇼핑",
@@ -1746,7 +1829,7 @@
       "link": "https://www.fmkorea.com/9844517345",
       "publishedAt": "2026-05-19 12:24:18",
       "likes": 7,
-      "fetchedAt": "2026-05-19T04:08:16.171Z",
+      "fetchedAt": "2026-05-19T04:09:11.071Z",
       "priceComparison": [
         {
           "site": "네이버",
@@ -1838,7 +1921,7 @@
       "link": "https://www.fmkorea.com/9844536556",
       "publishedAt": "2026-05-19 12:22:20",
       "likes": 14,
-      "fetchedAt": "2026-05-19T04:08:16.171Z",
+      "fetchedAt": "2026-05-19T04:09:11.071Z",
       "priceComparison": [
         {
           "site": "쿠팡",
@@ -1918,7 +2001,7 @@
       "link": "https://www.fmkorea.com/9844530504",
       "publishedAt": "2026-05-19 12:20:11",
       "likes": 19,
-      "fetchedAt": "2026-05-19T04:08:16.171Z",
+      "fetchedAt": "2026-05-19T04:09:11.071Z",
       "priceComparison": [
         {
           "site": "네이버",
@@ -2006,7 +2089,7 @@
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=112&no=705280",
       "publishedAt": "2026-05-19 12:20:09",
       "likes": 10,
-      "fetchedAt": "2026-05-19T04:08:16.171Z",
+      "fetchedAt": "2026-05-19T04:09:11.071Z",
       "priceComparison": [
         {
           "site": "네이버",
@@ -2099,7 +2182,7 @@
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=112&no=705279",
       "publishedAt": "2026-05-19 12:18:11",
       "likes": 22,
-      "fetchedAt": "2026-05-19T04:08:16.171Z",
+      "fetchedAt": "2026-05-19T04:09:11.071Z",
       "priceComparison": [
         {
           "site": "네이버",
@@ -2166,8 +2249,8 @@
       "sourceColor": "#FF8C00",
       "link": "https://www.fmkorea.com/9844529384",
       "publishedAt": "2026-05-19 12:18:10",
-      "likes": 16,
-      "fetchedAt": "2026-05-19T04:08:16.171Z",
+      "likes": 17,
+      "fetchedAt": "2026-05-19T04:09:11.071Z",
       "priceComparison": [
         {
           "site": "지마켓",
@@ -2215,7 +2298,7 @@
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=112&no=705278",
       "publishedAt": "2026-05-19 12:14:14",
       "likes": 9,
-      "fetchedAt": "2026-05-19T04:08:16.171Z",
+      "fetchedAt": "2026-05-19T04:09:11.071Z",
       "priceComparison": [
         {
           "site": "카카오",
@@ -2250,7 +2333,7 @@
       "link": "https://arca.live/b/hotdeal/171094422?p=1",
       "publishedAt": "2026-05-19 12:14:05",
       "likes": 36,
-      "fetchedAt": "2026-05-19T04:08:16.171Z",
+      "fetchedAt": "2026-05-19T04:09:11.071Z",
       "priceComparison": [
         {
           "site": "지마켓",
@@ -2342,7 +2425,7 @@
       "link": "https://www.fmkorea.com/9844467519",
       "publishedAt": "2026-05-19 12:10:22",
       "likes": 10,
-      "fetchedAt": "2026-05-19T04:08:16.171Z",
+      "fetchedAt": "2026-05-19T04:09:11.071Z",
       "priceComparison": [
         {
           "site": "남도장터",
@@ -2410,7 +2493,7 @@
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=112&no=705276",
       "publishedAt": "2026-05-19 12:08:32",
       "likes": 31,
-      "fetchedAt": "2026-05-19T04:08:16.171Z",
+      "fetchedAt": "2026-05-19T04:09:11.071Z",
       "priceComparison": [
         {
           "site": "지마켓",
@@ -2512,7 +2595,7 @@
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=112&no=705277",
       "publishedAt": "2026-05-19 12:08:25",
       "likes": 19,
-      "fetchedAt": "2026-05-19T04:08:16.171Z",
+      "fetchedAt": "2026-05-19T04:09:11.071Z",
       "priceComparison": [
         {
           "site": "직방",
@@ -2609,7 +2692,7 @@
       "link": "https://arca.live/b/hotdeal/171093892?p=1",
       "publishedAt": "2026-05-19 12:08:05",
       "likes": 2,
-      "fetchedAt": "2026-05-19T04:08:16.171Z",
+      "fetchedAt": "2026-05-19T04:09:11.071Z",
       "priceComparison": [
         {
           "site": "쿠팡",
@@ -2693,7 +2776,7 @@
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=112&no=705275",
       "publishedAt": "2026-05-19 12:04:14",
       "likes": 12,
-      "fetchedAt": "2026-05-19T04:08:16.422Z",
+      "fetchedAt": "2026-05-19T04:09:11.350Z",
       "priceComparison": [
         {
           "site": "카카오",
@@ -2790,8 +2873,8 @@
       "sourceColor": "#7C3AED",
       "link": "https://quasarzone.com/bbs/qb_saleinfo/views/1952933",
       "publishedAt": "2026-05-19 12:04:04",
-      "likes": 42,
-      "fetchedAt": "2026-05-19T04:08:16.422Z",
+      "likes": 44,
+      "fetchedAt": "2026-05-19T04:09:11.350Z",
       "priceComparison": [
         {
           "site": "지마켓",
@@ -2879,7 +2962,7 @@
       "link": "https://www.fmkorea.com/9844448683",
       "publishedAt": "2026-05-19 12:02:10",
       "likes": 15,
-      "fetchedAt": "2026-05-19T04:08:16.422Z",
+      "fetchedAt": "2026-05-19T04:09:11.350Z",
       "priceComparison": [
         {
           "site": "옥션",
@@ -2934,8 +3017,8 @@
       "sourceColor": "#3B82F6",
       "link": "https://bbs.ruliweb.com/market/board/1020/read/104220?page=1",
       "publishedAt": "2026-05-19 12:00:19",
-      "likes": 27,
-      "fetchedAt": "2026-05-19T04:08:16.422Z",
+      "likes": 28,
+      "fetchedAt": "2026-05-19T04:09:11.350Z",
       "priceComparison": [],
       "priceHistory": {
         "points": [
@@ -3011,7 +3094,7 @@
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=112&no=705274",
       "publishedAt": "2026-05-19 12:00:12",
       "likes": 18,
-      "fetchedAt": "2026-05-19T04:08:16.422Z",
+      "fetchedAt": "2026-05-19T04:09:11.350Z",
       "priceComparison": [],
       "priceHistory": null,
       "postContent": {
@@ -36050,5 +36133,5 @@
       "shopUrl": "https://item.gmarket.co.kr/Item?goodsCode=2304662940"
     }
   ],
-  "lastUpdated": "2026-05-19T04:08:27.927Z"
+  "lastUpdated": "2026-05-19T04:09:18.474Z"
 }
