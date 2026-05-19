@@ -62,6 +62,13 @@ export default function RootLayout({
       className={`${notoSansKr.variable} h-full antialiased`}
     >
       <head>
+        {/* 검색엔진 소유권 인증 */}
+        {process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION && (
+          <meta name="google-site-verification" content={process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION} />
+        )}
+        {process.env.NEXT_PUBLIC_NAVER_SITE_VERIFICATION && (
+          <meta name="naver-site-verification" content={process.env.NEXT_PUBLIC_NAVER_SITE_VERIFICATION} />
+        )}
         <script
           async
           src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.NEXT_PUBLIC_ADSENSE_ID || "ca-pub-4233694153840183"}`}

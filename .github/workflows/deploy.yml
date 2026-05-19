@@ -55,6 +55,11 @@ jobs:
 
       - name: Build
         run: npm run build
+        env:
+          NEXT_PUBLIC_GA_ID: G-ZR8MHNS4NG
+          NEXT_PUBLIC_ADSENSE_ID: ca-pub-4233694153840183
+          NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION: ${{ secrets.GOOGLE_SITE_VERIFICATION }}
+          NEXT_PUBLIC_NAVER_SITE_VERIFICATION: ${{ secrets.NAVER_SITE_VERIFICATION }}
 
       - name: Deploy to Cloudflare Pages
         run: npx wrangler pages deploy out --project-name=my-local-info
