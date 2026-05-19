@@ -244,8 +244,12 @@ async function main() {
   let addedCount = 0;
 
   for (const targetItem of targets) {
+    // 서비스ID 기반으로 gov.kr URL 직접 구성 (Gemini 의존 없이 확실한 URL 확보)
+    const serviceId = targetItem['서비스ID'] || targetItem['서비스 ID'] || targetItem['서비스아이디'] || targetItem['서비스id'];
+    const govUrl = serviceId ? `https://www.gov.kr/portal/rcvfvrSvc/dtlEx/${serviceId}` : '#';
+
     const geminiPrompt = `아래 공공데이터 1건을 분석해서 JSON 객체로 변환해줘. 형식:
-{"id": "숫자6자리", "name": "서비스명(짧고 명확하게)", "category": "혜택 또는 AI지원", "startDate": "YYYY-MM-DD", "endDate": "YYYY-MM-DD 또는 상시", "location": "장소 또는 기관명", "target": "지원대상(간략히)", "summary": "한줄요약(50자 이내)", "link": "상세URL", "imageTheme": "분류"}
+{"id": "숫자6자리", "name": "서비스명(짧고 명확하게)", "category": "혜택 또는 AI지원", "startDate": "YYYY-MM-DD", "endDate": "YYYY-MM-DD 또는 상시", "location": "장소 또는 기관명", "target": "지원대상(간략히)", "summary": "한줄요약(50자 이내)", "link": "${govUrl}", "imageTheme": "분류"}
 
 startDate가 없으면 오늘 날짜(${today}), endDate가 없으면 '상시'로 넣어.
 imageTheme 필드에는 다음 중 하나를 반드시 영문으로: [education, health, finance, children, senior, job, environment, culture, ai, admin]
@@ -273,6 +277,9 @@ ${JSON.stringify(targetItem, null, 2)}`;
 
       const processedItem = JSON.parse(jsonMatch[0]);
       processedItem.id = String(processedItem.id || Date.now());
+
+      // gov.kr URL이 확실한 경우 Gemini 결과보다 우선 적용
+      if (govUrl !== '#') processedItem.link = govUrl;
 
       // imageTheme으로 Unsplash 테마 이미지 선택 (picsum 랜덤 대신)
       const theme = processedItem.imageTheme || 'admin';
