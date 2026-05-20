@@ -1,6 +1,18 @@
 {
   "events": [
     {
+      "id": "crawler-1779246270932-307",
+      "name": "포토 이벤트: 인생 한 컷을 담아주세요 (6월 테마)",
+      "category": "행사",
+      "startDate": "2024-06-01",
+      "endDate": "상시",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "6월 호국보훈의 달과 환경의 날을 맞아 진행되는 독자 참여 포토 이벤트.",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9020&aid=17681",
+      "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1777004975songpa.JPG"
+    },
+    {
       "id": "crawler-1779164258736-579",
       "name": "5월 가정의 달 행사 (음악회, 어린이 뮤지컬, 송파 아동·청소년축제)",
       "category": "행사",
@@ -3649,6 +3661,32 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000090",
       "imageTheme": "health",
       "image": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "범죄 피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원 등 수사·사법기관",
+      "target": "성폭력·아동학대 등 범죄 피해 아동 및 의사소통 어려운 장애인",
+      "summary": "범죄 피해 아동·장애인의 수사·재판상 의사소통 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
+    },
+    {
+      "id": "135200000090",
+      "name": "장애인 구강진료센터 의료서비스",
+      "category": "혜택",
+      "startDate": "2026-05-20",
+      "endDate": "상시",
+      "location": "장애인구강진료센터",
+      "target": "장애인",
+      "summary": "장애인에 대한 치과의료서비스 제공 및 비급여 진료비 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000090",
+      "imageTheme": "health",
+      "image": "https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -5584,6 +5622,66 @@
       "summary": "AI 기반 솔루션 도입을 통한 중소기업 생산성 및 효율 증대 지원",
       "link": "https://www.nipa.kr",
       "image": "https://images.unsplash.com/photo-1488229297570-58520851e868?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-20-1",
+      "name": "구매조건부 신제품개발사업",
+      "category": "AI지원",
+      "startDate": "2026-01-01",
+      "endDate": "2026-12-31",
+      "location": "중소벤처기업부",
+      "target": "구매기업 협력 중소기업",
+      "summary": "대기업 등 수요 기반 중소기업 신제품·신기술 개발 지원",
+      "link": "https://www.bizinfo.go.kr/web/main/index.do",
+      "image": "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-20-2",
+      "name": "지식재산(IP) 창출 지원 사업",
+      "category": "AI지원",
+      "startDate": "2026-03-01",
+      "endDate": "2026-10-31",
+      "location": "창업진흥원 (특허청 연계)",
+      "target": "기술창업기업 및 중소기업",
+      "summary": "기업의 지식재산권 확보 및 활용 전략 수립 지원",
+      "link": "https://www.k-startup.go.kr/",
+      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-20-3",
+      "name": "국제 공동 기술개발사업 (ICT 분야)",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "2026-12-31",
+      "location": "과학기술정보통신부",
+      "target": "해외 기관과 협력하는 국내 기업, 연구기관",
+      "summary": "글로벌 협력 통한 첨단 ICT 핵심기술 공동 연구개발 지원",
+      "link": "https://www.msit.go.kr/",
+      "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-20-4",
+      "name": "중소기업 경영혁신 바우처 사업",
+      "category": "AI지원",
+      "startDate": "2026-01-01",
+      "endDate": "2026-12-31",
+      "location": "중소벤처기업부",
+      "target": "경영 개선 희망 중소기업",
+      "summary": "경영 전략, 마케팅 등 기업 경영 개선 컨설팅 바우처 제공",
+      "link": "https://www.bizinfo.go.kr/web/main/index.do",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-20-5",
+      "name": "공공데이터 개방 및 활용 지원 사업",
+      "category": "AI지원",
+      "startDate": "2026-03-01",
+      "endDate": "2026-11-30",
+      "location": "정보통신산업진흥원 (NIPA, 행정안전부 협력)",
+      "target": "공공데이터 활용 기업, 개발자, 국민",
+      "summary": "공공데이터 개방 확대 및 이를 활용한 서비스 개발 활성화 지원",
+      "link": "https://www.nipa.kr/main/main.html",
+      "image": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=800&q=80"
     }
   ],
   "lastUpdated": "2026-05-20"
