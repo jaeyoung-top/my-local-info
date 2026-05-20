@@ -1,12 +1,2 @@
 name = "my-local-info"
 pages_build_output_dir = "out"
-
-# 핫딜 클릭 카운터 KV 바인딩
-# 설정 방법:
-#   1. Cloudflare 대시보드 → Workers & Pages → KV → "네임스페이스 만들기" → 이름: CLICK_COUNTS
-#   2. Pages 프로젝트 → 설정 → Functions → KV 네임스페이스 바인딩 → 바인딩 추가
-#      변수 이름: CLICK_COUNTS, KV 네임스페이스: (위에서 만든 것 선택)
-# 또는 아래 주석 해제 후 id에 KV 네임스페이스 ID 입력:
-# [[kv_namespaces]]
-# binding = "CLICK_COUNTS"
-# id = "여기에_KV_네임스페이스_ID_입력"
