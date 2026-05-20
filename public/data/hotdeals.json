@@ -1,6 +1,117 @@
 {
   "deals": [
     {
+      "id": "hdz_146384",
+      "title": "PEAK",
+      "price": "5,210원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/05/21/thumb_9407a5a7ba587a2ef4cfd8ca022f328d.webp",
+      "category": "게임",
+      "site": "Steam",
+      "source": "아카라이브",
+      "sourceColor": "#10B981",
+      "link": "https://arca.live/b/hotdeal/171280028?p=1",
+      "publishedAt": "2026-05-21 03:26:05",
+      "likes": 15,
+      "fetchedAt": "2026-05-20T20:03:40.046Z",
+      "priceComparison": [
+        {
+          "site": "Steam",
+          "price": "5,210원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "03-03",
+            "price": 18900
+          },
+          {
+            "date": "03-10",
+            "price": 18900
+          },
+          {
+            "date": "03-17",
+            "price": 18900
+          },
+          {
+            "date": "03-24",
+            "price": 16910
+          },
+          {
+            "date": "03-31",
+            "price": 18900
+          },
+          {
+            "date": "04-07",
+            "price": 18900
+          },
+          {
+            "date": "04-14",
+            "price": 18900
+          },
+          {
+            "date": "04-21",
+            "price": 18900
+          },
+          {
+            "date": "04-28",
+            "price": 18900
+          },
+          {
+            "date": "05-05",
+            "price": 18500
+          },
+          {
+            "date": "05-12",
+            "price": 17510
+          },
+          {
+            "date": "05-19",
+            "price": 18810
+          }
+        ],
+        "minPrice": 16910,
+        "maxPrice": 18900
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_146383",
+      "title": "베이스어스 미니 보조배터리 45W 10000mAh, 맥세이프 등 다양",
+      "price": "$19.6부터",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/05/21/thumb_eaf7988b3c7cdf483b9e9a54907d7d83.webp",
+      "category": "가전",
+      "site": "알리",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/9851027107",
+      "publishedAt": "2026-05-21 03:12:20",
+      "likes": 21,
+      "fetchedAt": "2026-05-20T20:03:40.046Z",
+      "priceComparison": [
+        {
+          "site": "알리",
+          "price": "$19.6부터"
+        },
+        {
+          "site": "베이스어스코리아",
+          "price": "49,900원"
+        },
+        {
+          "site": "다나와",
+          "price": "22,290원부터"
+        },
+        {
+          "site": "큐텐",
+          "price": "35,770원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
       "id": "hdz_146382",
       "title": "라미 2000 멀티 4펜 마크롤론",
       "price": "82,411원",
@@ -35253,196 +35364,7 @@
       },
       "postContent": null,
       "shopUrl": null
-    },
-    {
-      "id": "hdz_145771",
-      "title": "지오다노 MW 테이퍼드핏 치노 팬츠 (4color)",
-      "price": "20,800원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/05/19/thumb_9dfb9c4e1f69d5a7c0a49fc782ddd7e7.webp",
-      "category": "의류",
-      "site": "네이버",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/9847056490",
-      "publishedAt": "2026-05-19 22:40:19",
-      "likes": 33,
-      "fetchedAt": "2026-05-19T14:42:24.087Z",
-      "priceComparison": [
-        {
-          "site": "네이버",
-          "price": "20,800원"
-        },
-        {
-          "site": "11번가",
-          "price": "37,000원"
-        },
-        {
-          "site": "쇼핑하우",
-          "price": "25,479원"
-        },
-        {
-          "site": "지오다노 공식몰",
-          "price": "29,800원~59,800원"
-        },
-        {
-          "site": "G마켓",
-          "price": "15,200원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "02-24",
-            "price": 38550
-          },
-          {
-            "date": "03-03",
-            "price": 38550
-          },
-          {
-            "date": "03-10",
-            "price": 38550
-          },
-          {
-            "date": "03-17",
-            "price": 32300
-          },
-          {
-            "date": "03-24",
-            "price": 30600
-          },
-          {
-            "date": "03-31",
-            "price": 30600
-          },
-          {
-            "date": "04-07",
-            "price": 32300
-          },
-          {
-            "date": "04-14",
-            "price": 29380
-          },
-          {
-            "date": "04-21",
-            "price": 34200
-          },
-          {
-            "date": "04-28",
-            "price": 34200
-          },
-          {
-            "date": "05-05",
-            "price": 36765
-          },
-          {
-            "date": "05-12",
-            "price": 30400
-          }
-        ],
-        "minPrice": 29380,
-        "maxPrice": 38550
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_145770",
-      "title": "그라바스타 머큐리 K1 Lite 기계식 키보드",
-      "price": "125,800원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/05/19/thumb_69700ee7517c0a11110326cab8b2476e.webp",
-      "category": "PC",
-      "site": "퓨처테리어",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=112&no=705489",
-      "publishedAt": "2026-05-19 22:36:15",
-      "likes": 68,
-      "fetchedAt": "2026-05-19T14:42:24.087Z",
-      "priceComparison": [
-        {
-          "site": "퓨처테리어",
-          "price": "125,800원"
-        },
-        {
-          "site": "그라바스타 코리아",
-          "price": "148,000원"
-        },
-        {
-          "site": "그라바스타 코리아",
-          "price": "148,000원"
-        },
-        {
-          "site": "다나와",
-          "price": "133,200원"
-        },
-        {
-          "site": "이랜드몰",
-          "price": "138,000원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "02-24",
-            "price": 133200
-          },
-          {
-            "date": "03-03",
-            "price": 133200
-          },
-          {
-            "date": "03-10",
-            "price": 133200
-          },
-          {
-            "date": "03-17",
-            "price": 125800
-          },
-          {
-            "date": "03-24",
-            "price": 125800
-          },
-          {
-            "date": "03-31",
-            "price": 125800
-          },
-          {
-            "date": "04-07",
-            "price": 125800
-          },
-          {
-            "date": "04-14",
-            "price": 125800
-          },
-          {
-            "date": "04-21",
-            "price": 125800
-          },
-          {
-            "date": "04-28",
-            "price": 125800
-          },
-          {
-            "date": "05-05",
-            "price": 125800
-          },
-          {
-            "date": "05-12",
-            "price": 125800
-          }
-        ],
-        "minPrice": 125800,
-        "maxPrice": 133200
-      },
-      "postContent": {
-        "text": "정발버전이고 6월초 순차발송이에요75배열키보드인데 하우징만 봐도 화려하고 sf컨셉이라 디자인이 신박합니다화이트로 데스크셋업했다거나 커스텀 좋아한다면 괜찮을 것 같아요리뷰이벤트로 1명 추첨해서 사이버펑크 키캡 줍니다타건",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0519/900w_20260519223256_OftpoIiiYJ.jpg"
-        ]
-      },
-      "shopUrl": "https://futureterior.com/product/detail.html?product_no=3617"
     }
   ],
-  "lastUpdated": "2026-05-20T17:50:31.525Z"
+  "lastUpdated": "2026-05-20T20:03:41.894Z"
 }
