@@ -363,7 +363,7 @@ function DealModal({ deal, onClose }: { deal: Deal; onClose: () => void }) {
 }
 
 // ─── 딜 행 ────────────────────────────────────────────────────────────────────
-function DealRow({ deal, onDetail }: { deal: Deal; onDetail: (deal: Deal) => void }) {
+function DealRow({ deal, onDetail, clickCount }: { deal: Deal; onDetail: (deal: Deal) => void; clickCount?: number }) {
   const srcColor = SOURCE_COLORS[deal.source] || '#6366f1';
   const hasCompare = deal.priceComparison && deal.priceComparison.length > 0;
   const compareEntries = hasCompare ? deal.priceComparison!.slice(0, 3) : [];
@@ -435,7 +435,7 @@ function DealRow({ deal, onDetail }: { deal: Deal; onDetail: (deal: Deal) => voi
             ? <span className="text-sm font-black text-[#ff6b6b]">{deal.price}</span>
             : <span className="text-xs text-[#475569]">가격 미표기</span>}
           <span className="text-[10px] text-[#475569]">{timeAgo(deal.publishedAt) || timeAgo(deal.fetchedAt)}</span>
-          {deal.likes > 0 && <span className="text-[10px] text-[#475569]">조회 {deal.likes}</span>}
+          {(clickCount ?? 0) > 0 && <span className="text-[10px] text-[#475569]">클릭 {clickCount}</span>}
         </div>
 
         {hasCompare && (
@@ -469,6 +469,14 @@ export default function HotDealPage() {
   const [sortBy, setSortBy] = useState<'latest' | 'popular'>('latest');
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
   const [selectedDeal, setSelectedDeal] = useState<Deal | null>(null);
+  const [clickCounts, setClickCounts] = useState<Record<string, number>>({});
+
+  useEffect(() => {
+    fetch('/api/clicks')
+      .then(r => r.json())
+      .then(data => setClickCounts(data as Record<string, number>))
+      .catch(() => {});
+  }, []);
 
   const deals = (rawData.deals || []) as Deal[];
 
@@ -483,6 +491,22 @@ export default function HotDealPage() {
   useEffect(() => { setVisibleCount(PAGE_SIZE); }, [activeCategory, activeSource, sortBy]);
 
   const handleClose = useCallback(() => setSelectedDeal(null), []);
+
+  const handleDetail = useCallback((deal: Deal) => {
+    setSelectedDeal(deal);
+    fetch('/api/track', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ id: deal.id }),
+    })
+      .then(r => r.json())
+      .then((data: { ok?: boolean; count?: number }) => {
+        if (data.ok && data.count !== undefined) {
+          setClickCounts(prev => ({ ...prev, [deal.id]: data.count as number }));
+        }
+      })
+      .catch(() => {});
+  }, []);
 
   useEffect(() => {
     const handler = (e: KeyboardEvent) => { if (e.key === 'Escape') handleClose(); };
@@ -565,7 +589,7 @@ export default function HotDealPage() {
           <>
             <div className="bg-[#0d1117]">
               {visible.map(deal => (
-                <DealRow key={deal.id} deal={deal} onDetail={setSelectedDeal} />
+                <DealRow key={deal.id} deal={deal} onDetail={handleDetail} clickCount={clickCounts[deal.id]} />
               ))}
             </div>
 
