@@ -3687,6 +3687,32 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000090",
       "imageTheme": "health",
       "image": "https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "범죄 피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "상시",
+      "location": "법무부",
+      "target": "만 19세 미만 아동 또는 장애인 범죄 피해자",
+      "summary": "만 19세 미만 아동, 의사소통이 어려운 장애인 범죄 피해자의 수사·재판상 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
+    },
+    {
+      "id": "135200000090",
+      "name": "장애인 치과 의료서비스 및 진료비 지원",
+      "category": "혜택",
+      "startDate": "2026-05-21",
+      "endDate": "상시",
+      "location": "장애인구강진료센터",
+      "target": "장애인",
+      "summary": "장애인에 대한 치과 의료서비스 제공 및 비급여 진료비 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000090",
+      "imageTheme": "health",
+      "image": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -5682,7 +5708,67 @@
       "summary": "공공데이터 개방 확대 및 이를 활용한 서비스 개발 활성화 지원",
       "link": "https://www.nipa.kr/main/main.html",
       "image": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-21-1",
+      "name": "데이터 기반 스마트팜 확산 기술 지원사업",
+      "category": "AI지원",
+      "startDate": "2026-05-01",
+      "endDate": "2026-11-30",
+      "location": "농림축산식품부, 정보통신산업진흥원(NIPA) 등",
+      "target": "농업 분야 디지털 전환 희망 농가 및 기업",
+      "summary": "농업 생산성 향상을 위한 AI·빅데이터 기반 스마트팜 기술 개발 및 현장 적용 지원.",
+      "link": "https://www.nipa.kr/main/1172/subview.do",
+      "image": "https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-21-2",
+      "name": "공공데이터 기반 AI 서비스 개발 및 활용 촉진 사업",
+      "category": "AI지원",
+      "startDate": "2026-05-01",
+      "endDate": "2026-12-15",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "공공데이터를 활용한 AI 서비스 개발 기업",
+      "summary": "개방된 공공데이터를 활용한 혁신적인 AI 서비스 개발 및 사업화를 위한 지원.",
+      "link": "https://www.nipa.kr/main/1172/subview.do",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-21-3",
+      "name": "AI 기술 기반 소셜벤처 성장 지원 프로그램",
+      "category": "AI지원",
+      "startDate": "2026-05-15",
+      "endDate": "2026-10-31",
+      "location": "서울 AI 허브, 서울특별시",
+      "target": "사회문제 해결을 목표로 하는 AI 기술 기반 소셜벤처",
+      "summary": "사회적 가치를 창출하는 AI 기술 스타트업의 성장을 위한 사업화 및 네트워킹 지원.",
+      "link": "https://www.seoulaihub.kr/program",
+      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-21-4",
+      "name": "제조 현장 디지털 전환 선도 컨설팅 및 솔루션 매칭 지원",
+      "category": "AI지원",
+      "startDate": "2026-05-10",
+      "endDate": "상시",
+      "location": "중소벤처기업부 (기업마당)",
+      "target": "제조 중소기업",
+      "summary": "제조 현장의 디지털 전환 전략 수립 컨설팅 및 최적의 AI·디지털 솔루션 매칭 지원.",
+      "link": "https://www.bizinfo.go.kr/web/main/index.do",
+      "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-21-5",
+      "name": "데이터 경제 활성화를 위한 데이터 리더 양성 과정",
+      "category": "AI지원",
+      "startDate": "2026-06-01",
+      "endDate": "2026-12-20",
+      "location": "과학기술정보통신부 (NIPA 등 협력)",
+      "target": "기업 재직자, 데이터 분야 전문가 희망자",
+      "summary": "데이터 분석, 기획, 활용을 이끌어갈 핵심 인재(데이터 리더) 양성을 위한 심화 교육 지원.",
+      "link": "https://www.nipa.kr/main/1314/subview.do",
+      "image": "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-05-20"
+  "lastUpdated": "2026-05-21"
 }
