@@ -1,6 +1,41 @@
 {
   "deals": [
     {
+      "id": "hdz_146979",
+      "title": "바리스타룰스 원데이 디카페인 아메리카노 무라벨, 350ml, 20개",
+      "price": "15,670원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/05/22/thumb_8ebd0cb945a748e5a90117d4480bfee0.webp",
+      "category": "식품",
+      "site": "쿠팡",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/9856326549",
+      "publishedAt": "2026-05-22 07:06:19",
+      "likes": 6,
+      "fetchedAt": "2026-05-21T22:13:49.826Z",
+      "priceComparison": [
+        {
+          "site": "쿠팡",
+          "price": "15,670원"
+        },
+        {
+          "site": "SSG.COM",
+          "price": "19,240원"
+        },
+        {
+          "site": "매일유업 직영몰",
+          "price": "50,000원"
+        },
+        {
+          "site": "11번가",
+          "price": "47,340원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
       "id": "hdz_146978",
       "title": "LG 휘센 오브제컬렉션 쿨 프로 에어컨 2in1 (3시리즈) 토출구커버 기본설치비포함 전국무료배송 실외기포함 FQ17GC3EC2",
       "price": "1,961,870원",
@@ -32562,95 +32597,7 @@
       "priceHistory": null,
       "postContent": null,
       "shopUrl": null
-    },
-    {
-      "id": "hdz_146306",
-      "title": "신세계푸드 크로와상 생지 2.25kg(약50개)",
-      "price": "12,780원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/05/20/thumb_15d9a724246b22296dd0c624cefb31b7.webp",
-      "category": "식품",
-      "site": "11번가",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/9851140305",
-      "publishedAt": "2026-05-20 22:04:29",
-      "likes": 27,
-      "fetchedAt": "2026-05-20T14:40:01.983Z",
-      "priceComparison": [
-        {
-          "site": "11번가",
-          "price": "12,780원"
-        },
-        {
-          "site": "11번가",
-          "price": "13,900원"
-        },
-        {
-          "site": "11번가",
-          "price": "18,900원"
-        },
-        {
-          "site": "쇼핑하우",
-          "price": "17,910원"
-        },
-        {
-          "site": "다나와",
-          "price": "가격 정보 미표기"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "03-10",
-            "price": 33860
-          },
-          {
-            "date": "03-17",
-            "price": 33650
-          },
-          {
-            "date": "03-24",
-            "price": 30930
-          },
-          {
-            "date": "03-31",
-            "price": 33430
-          },
-          {
-            "date": "04-07",
-            "price": 33370
-          },
-          {
-            "date": "04-14",
-            "price": 33160
-          },
-          {
-            "date": "04-21",
-            "price": 33120
-          },
-          {
-            "date": "04-28",
-            "price": 33340
-          },
-          {
-            "date": "05-05",
-            "price": 32750
-          },
-          {
-            "date": "05-12",
-            "price": 33210
-          },
-          {
-            "date": "05-19",
-            "price": 33190
-          }
-        ],
-        "minPrice": 30930,
-        "maxPrice": 33860
-      },
-      "postContent": null,
-      "shopUrl": null
     }
   ],
-  "lastUpdated": "2026-05-21T19:44:52.356Z"
+  "lastUpdated": "2026-05-21T22:13:51.101Z"
 }
