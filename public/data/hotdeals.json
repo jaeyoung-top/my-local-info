@@ -1,6 +1,289 @@
 {
   "deals": [
     {
+      "id": "hdz_147539",
+      "title": "초코에몽 16개",
+      "price": "4,120원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/05/23/thumb_eebfa43ed5e070519396974cc7aa0f75.webp",
+      "category": "식품",
+      "site": "쿠팡",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/9860296891",
+      "publishedAt": "2026-05-23 06:56:14",
+      "likes": 2,
+      "fetchedAt": "2026-05-22T21:59:57.955Z",
+      "priceComparison": [
+        {
+          "site": "쿠팡",
+          "price": "4,120원"
+        },
+        {
+          "site": "네이버쇼핑",
+          "price": "4,500원"
+        },
+        {
+          "site": "11번가",
+          "price": "4,680원"
+        },
+        {
+          "site": "G마켓",
+          "price": "4,590원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "03-03",
+            "price": 18580
+          },
+          {
+            "date": "03-10",
+            "price": 18580
+          },
+          {
+            "date": "03-17",
+            "price": 18580
+          },
+          {
+            "date": "03-24",
+            "price": 18580
+          },
+          {
+            "date": "03-31",
+            "price": 18580
+          },
+          {
+            "date": "04-07",
+            "price": 18580
+          },
+          {
+            "date": "04-14",
+            "price": 18580
+          },
+          {
+            "date": "04-21",
+            "price": 18580
+          },
+          {
+            "date": "04-28",
+            "price": 18580
+          },
+          {
+            "date": "05-05",
+            "price": 18580
+          },
+          {
+            "date": "05-12",
+            "price": 18580
+          },
+          {
+            "date": "05-19",
+            "price": 18580
+          }
+        ],
+        "minPrice": 18580,
+        "maxPrice": 18580
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_147538",
+      "title": "해표 압착 올리브유 900ml 2개",
+      "price": "9,030원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/05/23/thumb_b4a4a2bb109ceec9e5b94f33083b0213.webp",
+      "category": "식품",
+      "site": "쿠팡",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/9860290476",
+      "publishedAt": "2026-05-23 06:48:11",
+      "likes": 3,
+      "fetchedAt": "2026-05-22T21:59:57.956Z",
+      "priceComparison": [
+        {
+          "site": "쿠팡",
+          "price": "9,030원"
+        },
+        {
+          "site": "다나와",
+          "price": "26,800원"
+        },
+        {
+          "site": "62life",
+          "price": "24,900원"
+        },
+        {
+          "site": "티스토리 비교글",
+          "price": "26,600원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "03-03",
+            "price": 17500
+          },
+          {
+            "date": "03-10",
+            "price": 17500
+          },
+          {
+            "date": "03-17",
+            "price": 20750
+          },
+          {
+            "date": "03-24",
+            "price": 18700
+          },
+          {
+            "date": "03-31",
+            "price": 20530
+          },
+          {
+            "date": "04-07",
+            "price": 20740
+          },
+          {
+            "date": "04-14",
+            "price": 20160
+          },
+          {
+            "date": "04-21",
+            "price": 19640
+          },
+          {
+            "date": "04-28",
+            "price": 19680
+          },
+          {
+            "date": "05-05",
+            "price": 19680
+          },
+          {
+            "date": "05-12",
+            "price": 18000
+          },
+          {
+            "date": "05-19",
+            "price": 19200
+          }
+        ],
+        "minPrice": 17500,
+        "maxPrice": 20750
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_147537",
+      "title": "글로벌나이프 G-2+워터샤프너 세트",
+      "price": "103,780원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/05/23/thumb_6afb571ea45131eeb8fe1f7657e57b21.webp",
+      "category": "생활용품",
+      "site": "29CM",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/9860286429",
+      "publishedAt": "2026-05-23 06:44:10",
+      "likes": 7,
+      "fetchedAt": "2026-05-22T21:59:57.956Z",
+      "priceComparison": [
+        {
+          "site": "29CM",
+          "price": "103,780원"
+        },
+        {
+          "site": "글로벌나이프 코리아 공식 홈페이지",
+          "price": "79,100원"
+        },
+        {
+          "site": "다나와",
+          "price": "가격 변동 / 페이지 참고"
+        },
+        {
+          "site": "홈쇼핑모아",
+          "price": "312,700원"
+        },
+        {
+          "site": "쇼핑하우",
+          "price": "182,750원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_147536",
+      "title": "농협 프리미엄 상주쌀 4kg",
+      "price": "9,000원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/05/23/thumb_d134d6de9784ea91520441198816008a.webp",
+      "category": "식품",
+      "site": "공홈",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=112&no=706288",
+      "publishedAt": "2026-05-23 05:00:10",
+      "likes": 25,
+      "fetchedAt": "2026-05-22T21:59:57.956Z",
+      "priceComparison": [
+        {
+          "site": "공홈",
+          "price": "9,000원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "03-17",
+            "price": 39010
+          },
+          {
+            "date": "03-24",
+            "price": 39900
+          },
+          {
+            "date": "03-31",
+            "price": 39900
+          },
+          {
+            "date": "04-07",
+            "price": 39900
+          },
+          {
+            "date": "04-14",
+            "price": 39900
+          },
+          {
+            "date": "04-21",
+            "price": 42900
+          },
+          {
+            "date": "04-28",
+            "price": 42900
+          },
+          {
+            "date": "05-05",
+            "price": 42900
+          },
+          {
+            "date": "05-12",
+            "price": 42900
+          },
+          {
+            "date": "05-19",
+            "price": 42900
+          }
+        ],
+        "minPrice": 39010,
+        "maxPrice": 42900
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
       "id": "hdz_147535",
       "title": "플레이보이 패키지 드로즈 10매입 세트",
       "price": "22,990원",
@@ -33650,248 +33933,7 @@
         ]
       },
       "shopUrl": "https://store.ohou.se/goods/3574172"
-    },
-    {
-      "id": "hdz_146926",
-      "title": "뷰카 고불소 주니어치약 프루티믹스 8개입",
-      "price": "18,900원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/05/22/thumb_857e0393ac0572cbe768e7699af688e4.webp",
-      "category": "화장품",
-      "site": "자사몰",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=112&no=706043",
-      "publishedAt": "2026-05-22 00:10:31",
-      "likes": 7,
-      "fetchedAt": "2026-05-21T17:27:32.334Z",
-      "priceComparison": [
-        {
-          "site": "자사몰",
-          "price": "18,900원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": {
-        "text": "시크릿특가 행사하네요개당 2,362원개당 2천원대라 가격 괜찮습니다 5/22 오전 9시 까지에요곧 종료 입니다",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0522/900w_20260522000832_f8etswQVvF.jpg"
-        ]
-      },
-      "shopUrl": "https://vuca.co.kr/product/detail.html?product_no=426"
-    },
-    {
-      "id": "hdz_146925",
-      "title": "모뉴먼트 밸리 3",
-      "price": null,
-      "image": "https://image.hotdeal.zip/thumbnails/2026/05/22/thumb_7f5109db4fe8dc2040597350aff0fc79.webp",
-      "category": "게임",
-      "site": "에픽게임즈 스토어",
-      "source": "루리웹",
-      "sourceColor": "#3B82F6",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/104273?page=1",
-      "publishedAt": "2026-05-22 00:10:21",
-      "likes": 25,
-      "fetchedAt": "2026-05-21T17:27:32.334Z",
-      "priceComparison": [],
-      "priceHistory": null,
-      "postContent": {
-        "text": "안드로이드 https://store.epicgames.com/p/monument-valley-3-android-c7433e iOS https://store.epicgames.com/p/monument-valley-3-ios-e569e7",
-        "images": [
-          "https://i3.ruliweb.com/img/26/05/22/19e4b146e1e242da.webp"
-        ]
-      },
-      "shopUrl": "https://store.epicgames.com/p/monument-valley-3-android-c7433e"
-    },
-    {
-      "id": "hdz_146924",
-      "title": "메디앤서 콜라겐 나노샷 고농축 겔마스크 5매",
-      "price": "13,770원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/05/22/thumb_c62e5bdd88dcadebed9ae7826ea98950.webp",
-      "category": "화장품",
-      "site": "G마켓",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=112&no=706044",
-      "publishedAt": "2026-05-22 00:10:16",
-      "likes": 9,
-      "fetchedAt": "2026-05-21T17:27:32.334Z",
-      "priceComparison": [
-        {
-          "site": "G마켓",
-          "price": "13,770원"
-        },
-        {
-          "site": "다나와",
-          "price": "조회 불가"
-        },
-        {
-          "site": "aboutme shop",
-          "price": "조회 불가"
-        },
-        {
-          "site": "신세계쇼핑",
-          "price": "69,000원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "03-03",
-            "price": 28100
-          },
-          {
-            "date": "03-10",
-            "price": 28100
-          },
-          {
-            "date": "03-17",
-            "price": 28100
-          },
-          {
-            "date": "03-24",
-            "price": 28100
-          },
-          {
-            "date": "03-31",
-            "price": 28100
-          },
-          {
-            "date": "04-07",
-            "price": 28100
-          },
-          {
-            "date": "04-14",
-            "price": 28100
-          },
-          {
-            "date": "04-21",
-            "price": 29370
-          },
-          {
-            "date": "04-28",
-            "price": 30600
-          },
-          {
-            "date": "05-05",
-            "price": 32000
-          },
-          {
-            "date": "05-12",
-            "price": 32000
-          },
-          {
-            "date": "05-19",
-            "price": 32000
-          }
-        ],
-        "minPrice": 28100,
-        "maxPrice": 32000
-      },
-      "postContent": {
-        "text": "진짜 피부 푸석푸석 윤기 없고 생기 없을때 2~3일 연속 해주면 영양공급 되는 팩이에요.올영 세일할때 사두는데 매일은 비싸서 못하고 피부에 뭐 해주고 싶을때 붙이는 팩이에요중요한 날 전날 해도 피부 촉촉해지고 화장도 잘 먹어요 세안하면서 각질 제거 후 붙이세요~~",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0522/900w_20260522000801_JOHoUJy4eh.jpg",
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0522/900w_20260522000802_MmU92b1Py6.jpg",
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0522/900w_20260522000802_KZchcZQiwG.jpg",
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0522/900w_20260522000802_k5m79RkA0H.jpg",
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0522/900w_20260522000802_rga1NWQ5BQ.jpg",
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0522/900w_20260522000801_9mLdvH3o9j.jpg"
-        ]
-      },
-      "shopUrl": "https://item.gmarket.co.kr/Item?goodscode=4704850663"
-    },
-    {
-      "id": "hdz_146923",
-      "title": "펩시 제로슈거 라임향 355ml 48캔",
-      "price": "27,675원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/05/22/thumb_495f2b2c94ca30fec63dc3aceb48213d.webp",
-      "category": "식품",
-      "site": "오늘의집",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/9855796858",
-      "publishedAt": "2026-05-22 00:08:50",
-      "likes": 7,
-      "fetchedAt": "2026-05-21T17:27:32.334Z",
-      "priceComparison": [
-        {
-          "site": "오늘의집",
-          "price": "27,675원"
-        },
-        {
-          "site": "다나와",
-          "price": "10,630원"
-        },
-        {
-          "site": "11번가",
-          "price": "41,880원"
-        },
-        {
-          "site": "다나와",
-          "price": "26,900원"
-        },
-        {
-          "site": "쿠차",
-          "price": "27,200원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "03-03",
-            "price": 26200
-          },
-          {
-            "date": "03-10",
-            "price": 24750
-          },
-          {
-            "date": "03-17",
-            "price": 27710
-          },
-          {
-            "date": "03-24",
-            "price": 26460
-          },
-          {
-            "date": "03-31",
-            "price": 26740
-          },
-          {
-            "date": "04-07",
-            "price": 27710
-          },
-          {
-            "date": "04-14",
-            "price": 26900
-          },
-          {
-            "date": "04-21",
-            "price": 25720
-          },
-          {
-            "date": "04-28",
-            "price": 26400
-          },
-          {
-            "date": "05-05",
-            "price": 26400
-          },
-          {
-            "date": "05-12",
-            "price": 27210
-          },
-          {
-            "date": "05-19",
-            "price": 24300
-          }
-        ],
-        "minPrice": 24300,
-        "maxPrice": 27710
-      },
-      "postContent": null,
-      "shopUrl": null
     }
   ],
-  "lastUpdated": "2026-05-22T19:24:50.390Z"
+  "lastUpdated": "2026-05-22T22:00:00.076Z"
 }
