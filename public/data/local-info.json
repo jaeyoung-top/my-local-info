@@ -1,6 +1,18 @@
 {
   "events": [
     {
+      "id": "crawler-1779502466496-565",
+      "name": "송파 5월 가정의 달 특별 행사",
+      "category": "행사",
+      "startDate": "2024-05-01",
+      "endDate": "2024-05-31",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "5월 가정의 달을 맞아 음악회, 어린이 뮤지컬 뽀로로, 제11회 송파 아동·청소년축제 등 다양한 문화 행사가 개최됩니다.",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9020&aid=17679",
+      "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1777005723songpa.JPG"
+    },
+    {
       "id": "crawler-1779417448240-602",
       "name": "5월 가정의 달 음악회, 어린이 뮤지컬, 송파 아동·청소년축제",
       "category": "행사",
@@ -3751,6 +3763,32 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000090",
       "imageTheme": "health",
       "image": "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?w=800&q=80"
+    },
+    {
+      "id": "000025",
+      "name": "범죄 피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-05-23",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "범죄 피해 아동 및 장애인의 수사·재판상 의사소통을 중개 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=80"
+    },
+    {
+      "id": "000090",
+      "name": "장애인구강진료센터를 설치 운영하여 장애인에 대한 치과 의료서비스 제공",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "상시",
+      "location": "장애인구강진료센터",
+      "target": "장애인",
+      "summary": "장애인 치과 의료서비스 제공 및 비급여 진료비 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200000090",
+      "imageTheme": "health",
+      "image": "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -5866,7 +5904,67 @@
       "summary": "공공기관 AI 도입 및 활용 전략 수립, 실행을 위한 전문 컨설팅 제공",
       "link": "https://www.msit.go.kr/",
       "image": "https://images.unsplash.com/photo-1516321165247-4aa89a48be55?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-23-1",
+      "name": "산업 AI 융합 솔루션 상용화 지원사업",
+      "category": "AI지원",
+      "startDate": "2026-05-15",
+      "endDate": "2026-06-30",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI 기술 보유 중소·중견기업 및 컨소시엄",
+      "summary": "산업 현장에 적용 가능한 AI 융합 솔루션 개발 및 상용화를 지원합니다.",
+      "link": "https://www.nipa.kr",
+      "image": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-23-2",
+      "name": "AI 스타트업 글로벌 성장 멘토링 프로그램",
+      "category": "AI지원",
+      "startDate": "2026-05-01",
+      "endDate": "2026-05-31",
+      "location": "서울 AI 허브",
+      "target": "글로벌 진출을 희망하는 AI 스타트업",
+      "summary": "AI 스타트업의 해외 시장 진출 전략 수립 및 전문가 멘토링을 지원합니다.",
+      "link": "https://www.seoulaihub.kr",
+      "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-23-3",
+      "name": "AI/데이터 기반 신기술 창업 인큐베이팅",
+      "category": "AI지원",
+      "startDate": "2026-04-15",
+      "endDate": "2026-05-25",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "AI·데이터 기반 혁신 신기술 예비 및 초기 창업팀",
+      "summary": "AI·데이터 신기술 기반 창업기업의 사업 모델 구체화 및 초기 성장을 지원합니다.",
+      "link": "https://www.k-startup.go.kr",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-23-4",
+      "name": "중소기업 AI 도입 전환 지원사업",
+      "category": "AI지원",
+      "startDate": "2026-05-01",
+      "endDate": "2026-06-15",
+      "location": "중소벤처기업부 (기업마당)",
+      "target": "AI 기술 도입 및 전환을 희망하는 중소기업",
+      "summary": "중소기업의 업무 프로세스 및 비즈니스 모델에 AI 도입을 위한 컨설팅 및 자금 지원",
+      "link": "https://www.bizinfo.go.kr",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-23-5",
+      "name": "초거대 AI 생태계 조성 및 활용 확산 사업",
+      "category": "AI지원",
+      "startDate": "2026-05-10",
+      "endDate": "2026-06-20",
+      "location": "과학기술정보통신부",
+      "target": "초거대 AI 기술 활용 기업, 연구기관, 대학 등",
+      "summary": "초거대 AI 기술 기반 서비스 및 플랫폼 개발을 위한 생태계 조성 및 활용 확산 지원",
+      "link": "https://www.msit.go.kr",
+      "image": "https://images.unsplash.com/photo-1488229297570-58520851e868?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-05-22"
+  "lastUpdated": "2026-05-23"
 }
