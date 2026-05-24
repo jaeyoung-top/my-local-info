@@ -1,6 +1,301 @@
 {
   "deals": [
     {
+      "id": "hdz_148210",
+      "title": "맥크리스피 클래식",
+      "price": "3,900원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/05/25/thumb_bfdb8ca0e307f5f4e91a0cb19fe93ed5.webp",
+      "category": "식품",
+      "site": "맥도날드앱",
+      "source": "루리웹",
+      "sourceColor": "#3B82F6",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/104323?page=1",
+      "publishedAt": "2026-05-25 06:35:20",
+      "likes": 13,
+      "fetchedAt": "2026-05-24T21:47:54.249Z",
+      "priceComparison": [
+        {
+          "site": "맥도날드앱",
+          "price": "3,900원"
+        },
+        {
+          "site": "다나와",
+          "price": "7,400원"
+        },
+        {
+          "site": "네이버 블로그 구매후기",
+          "price": "6,400원"
+        },
+        {
+          "site": "티스토리 후기",
+          "price": "5,600원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "03-03",
+            "price": 7400
+          },
+          {
+            "date": "03-10",
+            "price": 7400
+          },
+          {
+            "date": "03-17",
+            "price": 7400
+          },
+          {
+            "date": "03-24",
+            "price": 7400
+          },
+          {
+            "date": "03-31",
+            "price": 7400
+          },
+          {
+            "date": "04-07",
+            "price": 7400
+          },
+          {
+            "date": "04-14",
+            "price": 7400
+          },
+          {
+            "date": "04-21",
+            "price": 7400
+          },
+          {
+            "date": "04-28",
+            "price": 7400
+          },
+          {
+            "date": "05-05",
+            "price": 7400
+          },
+          {
+            "date": "05-12",
+            "price": 7400
+          },
+          {
+            "date": "05-19",
+            "price": 7400
+          }
+        ],
+        "minPrice": 7400,
+        "maxPrice": 7400
+      },
+      "postContent": {
+        "text": "",
+        "images": [
+          "https://i1.ruliweb.com/img/26/05/25/19e5be46d8d1874ce.webp",
+          "https://i2.ruliweb.com/img/26/05/25/19e5be47aae1874ce.webp",
+          "https://i1.ruliweb.com/img/26/05/25/19e5be48a8d1874ce.webp",
+          "https://i2.ruliweb.com/img/26/05/25/19e5be499791874ce.webp",
+          "https://i2.ruliweb.com/img/26/05/25/19e5be4aa5d1874ce.webp",
+          "https://i3.ruliweb.com/img/26/05/25/19e5be4baaa1874ce.webp",
+          "https://i2.ruliweb.com/img/26/05/25/19e5be4c8dd1874ce.webp",
+          "https://i1.ruliweb.com/img/26/05/25/19e5be4d9c61874ce.webp"
+        ]
+      },
+      "shopUrl": "https://www.dajooda.kr/01/"
+    },
+    {
+      "id": "hdz_148209",
+      "title": "9800X3D",
+      "price": "487,830원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/05/25/thumb_a43aedbffb8c6ff5ff30a3a0d7706b67.webp",
+      "category": "PC",
+      "site": "쿠팡",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/9868344597",
+      "publishedAt": "2026-05-25 05:50:16",
+      "likes": 20,
+      "fetchedAt": "2026-05-24T21:47:54.249Z",
+      "priceComparison": [],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "03-03",
+            "price": 661000
+          },
+          {
+            "date": "03-10",
+            "price": 667490
+          },
+          {
+            "date": "03-17",
+            "price": 661050
+          },
+          {
+            "date": "03-24",
+            "price": 649500
+          },
+          {
+            "date": "03-31",
+            "price": 628570
+          },
+          {
+            "date": "04-07",
+            "price": 610920
+          },
+          {
+            "date": "04-14",
+            "price": 427130
+          },
+          {
+            "date": "04-21",
+            "price": 574990
+          },
+          {
+            "date": "04-28",
+            "price": 579240
+          },
+          {
+            "date": "05-05",
+            "price": 563980
+          },
+          {
+            "date": "05-12",
+            "price": 538560
+          },
+          {
+            "date": "05-19",
+            "price": 541410
+          }
+        ],
+        "minPrice": 427130,
+        "maxPrice": 667490
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_148208",
+      "title": "서린컴퓨터 AMD 9800X3D_RTX5080_RAM 48GB_팝 비전 2 블랙 조립PC",
+      "price": "4,292,410원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/05/25/thumb_529619686a5bc7412ad2167f7b83b3b2.webp",
+      "category": "PC",
+      "site": "11번가",
+      "source": "아카라이브",
+      "sourceColor": "#10B981",
+      "link": "https://arca.live/b/hotdeal/171680896?p=1",
+      "publishedAt": "2026-05-25 05:22:06",
+      "likes": 24,
+      "fetchedAt": "2026-05-24T21:47:54.249Z",
+      "priceComparison": [
+        {
+          "site": "11번가",
+          "price": "4,292,410원"
+        },
+        {
+          "site": "지마켓",
+          "price": "4,294,490원"
+        },
+        {
+          "site": "하이마트",
+          "price": "5,399,000원"
+        },
+        {
+          "site": "서린컴퓨터",
+          "price": "5,880,100원"
+        },
+        {
+          "site": "한성컴퓨터",
+          "price": "4,649,000원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_148207",
+      "title": "헬로모바일 쿠폰팩 유심 4.5GB+1Mbps 통문무",
+      "price": "17,900원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/05/25/thumb_ff9aead78d0ea4da0eb2fb3cc61c087d.webp",
+      "category": "기타",
+      "site": "헬로모바일",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=112&no=706562",
+      "publishedAt": "2026-05-25 05:18:13",
+      "likes": 14,
+      "fetchedAt": "2026-05-24T21:47:54.249Z",
+      "priceComparison": [
+        {
+          "site": "헬로모바일",
+          "price": "17,900원"
+        },
+        {
+          "site": "시월모바일",
+          "price": "3,300원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "03-03",
+            "price": 100
+          },
+          {
+            "date": "03-10",
+            "price": 100
+          },
+          {
+            "date": "03-17",
+            "price": 100
+          },
+          {
+            "date": "03-24",
+            "price": 100
+          },
+          {
+            "date": "03-31",
+            "price": 100
+          },
+          {
+            "date": "04-07",
+            "price": 100
+          },
+          {
+            "date": "04-14",
+            "price": 100
+          },
+          {
+            "date": "04-21",
+            "price": 100
+          },
+          {
+            "date": "04-28",
+            "price": 100
+          },
+          {
+            "date": "05-05",
+            "price": 100
+          },
+          {
+            "date": "05-12",
+            "price": 100
+          },
+          {
+            "date": "05-19",
+            "price": 100
+          }
+        ],
+        "minPrice": 100,
+        "maxPrice": 100
+      },
+      "postContent": {
+        "text": "추천코드 \"셀프개통\"쿠팡이나 네이버스토어에서 헬로모바일 유심 2,200원에 구매 가능하다고 합니다쿠폰팩 4.5 요금제시 23 만원 정도 남습니다",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0525/20260525051606_7wVdjOHja2.jpg"
+        ]
+      },
+      "shopUrl": "https://direct.lghellovision.net/m/mgm/rcmndmbr.do?pcode=LT03737823"
+    },
+    {
       "id": "hdz_148206",
       "title": "[지마켓] 15켤레세트 2중쿠션 도톰양말",
       "price": "11,780원",
@@ -35299,362 +35594,7 @@
         ]
       },
       "shopUrl": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=2604435853"
-    },
-    {
-      "id": "hdz_147710",
-      "title": "[기타] 팔도 비빔면 130g 30봉 / 칠갑농산 냉면육수 300ml 5봉",
-      "price": "19,900원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/05/23/thumb_c6fb661914d9abdafe929263ade16521.webp",
-      "category": "생활용품",
-      "site": null,
-      "source": "퀘이사존",
-      "sourceColor": "#7C3AED",
-      "link": "https://quasarzone.com/bbs/qb_saleinfo/views/1954745",
-      "publishedAt": "2026-05-23 17:26:04",
-      "likes": 10,
-      "fetchedAt": "2026-05-23T10:22:59.031Z",
-      "priceComparison": [
-        {
-          "site": "핫딜모음",
-          "price": "19,900원"
-        },
-        {
-          "site": "쿠팡",
-          "price": "15,800원"
-        },
-        {
-          "site": "쿠차",
-          "price": "15,300원"
-        },
-        {
-          "site": "홈플러스마트",
-          "price": "3,600원"
-        },
-        {
-          "site": "옥션",
-          "price": "27,800원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "03-03",
-            "price": 22440
-          },
-          {
-            "date": "03-10",
-            "price": 21430
-          },
-          {
-            "date": "03-17",
-            "price": 21820
-          },
-          {
-            "date": "03-24",
-            "price": 21820
-          },
-          {
-            "date": "03-31",
-            "price": 19200
-          },
-          {
-            "date": "04-07",
-            "price": 22000
-          },
-          {
-            "date": "04-14",
-            "price": 22130
-          },
-          {
-            "date": "04-21",
-            "price": 22140
-          },
-          {
-            "date": "04-28",
-            "price": 23090
-          },
-          {
-            "date": "05-05",
-            "price": 22900
-          },
-          {
-            "date": "05-12",
-            "price": 21170
-          },
-          {
-            "date": "05-19",
-            "price": 21620
-          }
-        ],
-        "minPrice": 19200,
-        "maxPrice": 23090
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_147709",
-      "title": "향좋은 약산성 바디워시 1000mL 1+1 ",
-      "price": "8,900원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/05/23/thumb_2eec6c0feb36604c7d750d923039fd15.webp",
-      "category": "생활용품",
-      "site": "톡딜 ",
-      "source": "개드립",
-      "sourceColor": "#DC2626",
-      "link": "https://www.dogdrip.net/703421349",
-      "publishedAt": "2026-05-23 17:25:04",
-      "likes": 1,
-      "fetchedAt": "2026-05-23T08:25:45.357Z",
-      "priceComparison": [
-        {
-          "site": "톡딜",
-          "price": "8,900원"
-        },
-        {
-          "site": "알리익스프레스",
-          "price": "6,049원"
-        },
-        {
-          "site": "다나와(옥션)",
-          "price": "27,140원"
-        },
-        {
-          "site": "11번가",
-          "price": "22,410원"
-        },
-        {
-          "site": "화해",
-          "price": "36,500원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "03-03",
-            "price": 13400
-          },
-          {
-            "date": "03-10",
-            "price": 13400
-          },
-          {
-            "date": "03-17",
-            "price": 13400
-          },
-          {
-            "date": "03-24",
-            "price": 26930
-          },
-          {
-            "date": "03-31",
-            "price": 27140
-          },
-          {
-            "date": "04-07",
-            "price": 27140
-          },
-          {
-            "date": "04-14",
-            "price": 13400
-          },
-          {
-            "date": "04-21",
-            "price": 13400
-          },
-          {
-            "date": "04-28",
-            "price": 13400
-          },
-          {
-            "date": "05-05",
-            "price": 13400
-          },
-          {
-            "date": "05-12",
-            "price": 13400
-          },
-          {
-            "date": "05-19",
-            "price": 27140
-          }
-        ],
-        "minPrice": 13400,
-        "maxPrice": 27140
-      },
-      "postContent": {
-        "text": "바디워시 1000ml 2개에 8,900원 개당 4,450원꼴 용량 많아서 가성비 개이득",
-        "images": []
-      },
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_147708",
-      "title": "웨더스오리지날 크리미필링 캔디, 1kg, 1개",
-      "price": "10,730원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/05/23/thumb_7ee94750c3ef98015d8b0b40b503ad6f.webp",
-      "category": "식품",
-      "site": "쿠팡",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/9861841678",
-      "publishedAt": "2026-05-23 17:20:16",
-      "likes": 6,
-      "fetchedAt": "2026-05-23T08:25:45.357Z",
-      "priceComparison": [
-        {
-          "site": "쿠팡",
-          "price": "10,730원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "03-03",
-            "price": 41910
-          },
-          {
-            "date": "03-10",
-            "price": 40140
-          },
-          {
-            "date": "03-17",
-            "price": 39240
-          },
-          {
-            "date": "03-24",
-            "price": 38580
-          },
-          {
-            "date": "03-31",
-            "price": 38580
-          },
-          {
-            "date": "04-07",
-            "price": 38940
-          },
-          {
-            "date": "04-14",
-            "price": 39240
-          },
-          {
-            "date": "04-21",
-            "price": 38880
-          },
-          {
-            "date": "04-28",
-            "price": 38880
-          },
-          {
-            "date": "05-05",
-            "price": 38490
-          },
-          {
-            "date": "05-12",
-            "price": 38520
-          },
-          {
-            "date": "05-19",
-            "price": 38880
-          }
-        ],
-        "minPrice": 38490,
-        "maxPrice": 41910
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_147707",
-      "title": "요리에센스 연두 3병",
-      "price": "9,900원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/05/23/thumb_b193ee4121a85a89a0a5bfeef5c744e1.webp",
-      "category": "식품",
-      "site": "카카오",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/9861778393",
-      "publishedAt": "2026-05-23 17:18:18",
-      "likes": 5,
-      "fetchedAt": "2026-05-23T08:25:45.357Z",
-      "priceComparison": [
-        {
-          "site": "카카오",
-          "price": "9,900원"
-        },
-        {
-          "site": "다나와",
-          "price": "3,690원"
-        },
-        {
-          "site": "쿠차",
-          "price": "17,990원"
-        },
-        {
-          "site": "홈플러스",
-          "price": "가격 정보 확인 불가"
-        },
-        {
-          "site": "연두 공식몰",
-          "price": "가격 정보 확인 불가"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "03-03",
-            "price": 10690
-          },
-          {
-            "date": "03-10",
-            "price": 10600
-          },
-          {
-            "date": "03-17",
-            "price": 10270
-          },
-          {
-            "date": "03-24",
-            "price": 10270
-          },
-          {
-            "date": "03-31",
-            "price": 11850
-          },
-          {
-            "date": "04-07",
-            "price": 12090
-          },
-          {
-            "date": "04-14",
-            "price": 10500
-          },
-          {
-            "date": "04-21",
-            "price": 10690
-          },
-          {
-            "date": "04-28",
-            "price": 10720
-          },
-          {
-            "date": "05-05",
-            "price": 8970
-          },
-          {
-            "date": "05-12",
-            "price": 10600
-          },
-          {
-            "date": "05-19",
-            "price": 10500
-          }
-        ],
-        "minPrice": 8970,
-        "maxPrice": 12090
-      },
-      "postContent": null,
-      "shopUrl": null
     }
   ],
-  "lastUpdated": "2026-05-24T19:04:34.168Z"
+  "lastUpdated": "2026-05-24T21:47:56.773Z"
 }
