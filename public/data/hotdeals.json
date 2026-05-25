@@ -1,6 +1,102 @@
 {
   "deals": [
     {
+      "id": "hdz_148323",
+      "title": "커피 칸타타파우치 3종 20팩 190ml (블랙/스위트아메리카노/헤이즐넛)",
+      "price": "8,580원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/05/25/thumb_0c664c1004dc71f0bcfcef5442d1867c.webp",
+      "category": "식품",
+      "site": "롯데온",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/9868941072",
+      "publishedAt": "2026-05-25 11:42:16",
+      "likes": 1,
+      "fetchedAt": "2026-05-25T02:44:04.285Z",
+      "priceComparison": [
+        {
+          "site": "롯데온",
+          "price": "8,580원"
+        },
+        {
+          "site": "11번가",
+          "price": "11,900원"
+        },
+        {
+          "site": "옥션",
+          "price": "10,620원"
+        },
+        {
+          "site": "다나와",
+          "price": "11,110원"
+        },
+        {
+          "site": "코코딜리",
+          "price": "9,720원"
+        },
+        {
+          "site": "쿠차",
+          "price": "11,000원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "03-03",
+            "price": 11110
+          },
+          {
+            "date": "03-10",
+            "price": 10120
+          },
+          {
+            "date": "03-17",
+            "price": 11110
+          },
+          {
+            "date": "03-24",
+            "price": 10900
+          },
+          {
+            "date": "03-31",
+            "price": 10700
+          },
+          {
+            "date": "04-07",
+            "price": 10900
+          },
+          {
+            "date": "04-14",
+            "price": 10620
+          },
+          {
+            "date": "04-21",
+            "price": 10620
+          },
+          {
+            "date": "04-28",
+            "price": 10620
+          },
+          {
+            "date": "05-05",
+            "price": 10620
+          },
+          {
+            "date": "05-12",
+            "price": 11000
+          },
+          {
+            "date": "05-19",
+            "price": 11000
+          }
+        ],
+        "minPrice": 10120,
+        "maxPrice": 11110
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
       "id": "hdz_148322",
       "title": "블랙모어스 RTG오메가3, 510mg x 80캡슐(40일분)",
       "price": "8,900원",
@@ -35876,87 +35972,7 @@
       },
       "postContent": null,
       "shopUrl": null
-    },
-    {
-      "id": "hdz_147811",
-      "title": "[롯데온] 드롱기 마그니피카S (389,670원 / 무배)",
-      "price": "389,670원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/05/23/thumb_cc5212df151cb39bd6e1579bb3e11eb8.webp",
-      "category": "생활용품",
-      "site": "롯데온",
-      "source": "퀘이사존",
-      "sourceColor": "#7C3AED",
-      "link": "https://quasarzone.com/bbs/qb_saleinfo/views/1954789",
-      "publishedAt": "2026-05-23 22:02:04",
-      "likes": 4,
-      "fetchedAt": "2026-05-23T13:04:55.839Z",
-      "priceComparison": [
-        {
-          "site": "롯데온",
-          "price": "389,670원"
-        },
-        {
-          "site": "쇼핑하우",
-          "price": "596,430원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "02-24",
-            "price": 437340
-          },
-          {
-            "date": "03-03",
-            "price": 436570
-          },
-          {
-            "date": "03-10",
-            "price": 434270
-          },
-          {
-            "date": "03-17",
-            "price": 468600
-          },
-          {
-            "date": "03-24",
-            "price": 503820
-          },
-          {
-            "date": "03-31",
-            "price": 518250
-          },
-          {
-            "date": "04-07",
-            "price": 518790
-          },
-          {
-            "date": "04-14",
-            "price": 530950
-          },
-          {
-            "date": "04-21",
-            "price": 507960
-          },
-          {
-            "date": "04-28",
-            "price": 507960
-          },
-          {
-            "date": "05-05",
-            "price": 507960
-          },
-          {
-            "date": "05-12",
-            "price": 428940
-          }
-        ],
-        "minPrice": 428940,
-        "maxPrice": 530950
-      },
-      "postContent": null,
-      "shopUrl": null
     }
   ],
-  "lastUpdated": "2026-05-25T02:38:57.371Z"
+  "lastUpdated": "2026-05-25T02:44:05.855Z"
 }

@@ -3814,6 +3814,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
+    },
+    {
+      "id": "000025",
+      "name": "범죄 피해자 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-05-25",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "만 19세 미만 아동, 의사소통이 어려운 장애인 범죄 피해자의 수사·재판상 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -6049,7 +6062,43 @@
       "summary": "차세대 AI 핵심 원천기술 개발 및 관련 분야 최고급 인재 양성을 지원합니다.",
       "link": "https://www.msit.go.kr/web/msitMain/msitRnd/msitAI.do",
       "image": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-25-1",
+      "name": "SW 인재사관학교",
+      "category": "AI지원",
+      "startDate": "2026-05-01",
+      "endDate": "2026-12-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "SW 및 AI 분야 취업 희망자",
+      "summary": "SW 및 AI 실무 역량 교육 및 취업 연계 지원",
+      "link": "https://www.nipa.kr/main/industry/sw_human.jsp",
+      "image": "https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-25-2",
+      "name": "중소기업 스마트 서비스 개발 및 실증 지원",
+      "category": "AI지원",
+      "startDate": "2026-05-01",
+      "endDate": "2026-06-15",
+      "location": "중소벤처기업부 (기업마당)",
+      "target": "디지털 전환을 추진하는 중소기업",
+      "summary": "AI·빅데이터 기반 스마트 서비스 개발 및 현장 적용 지원",
+      "link": "https://www.bizinfo.go.kr/web/lay1/bbs/S1T122C128/AS/74/searchBbsList.do",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-25-3",
+      "name": "AI 기반 산업혁신 선도 프로젝트",
+      "category": "AI지원",
+      "startDate": "2026-05-01",
+      "endDate": "2026-06-30",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI 기술로 산업 혁신을 추진하는 기업",
+      "summary": "다양한 산업 분야의 AI 융합 서비스 및 솔루션 개발 지원",
+      "link": "https://www.nipa.kr/main/industry/ia.jsp",
+      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-05-24"
+  "lastUpdated": "2026-05-25"
 }
