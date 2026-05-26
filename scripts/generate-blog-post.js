@@ -144,7 +144,7 @@ async function main() {
     const created = await generatePost(allItems[i], false, i);
     if (created) {
       createdCount++;
-      await new Promise(r => setTimeout(r, 2000));
+      await new Promise(r => setTimeout(r, 4500));
     }
   }
 
