@@ -1,6 +1,18 @@
 {
   "events": [
     {
+      "id": "crawler-1779771953804-607",
+      "name": "송파 6월 문화예술 특집: 전시, 공연 및 캐릭터 이벤트",
+      "category": "행사",
+      "startDate": "2024-06-01",
+      "endDate": "2024-06-30",
+      "location": "송파구 주요 문화시설 및 석촌호수 일대",
+      "target": "전체 구민",
+      "summary": "6월 한 달간 송파구에서 열리는 다채로운 문화·예술 행사로, 더 갤러리 호수 기획 전시, 석촌호수 메이플스토리 캐릭터 이벤트, 송파문화예술회관 정기 공연 등을 포함합니다.",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9028&aid=17818",
+      "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1779424834songpa.JPG"
+    },
+    {
       "id": "crawler-1779762658287-514",
       "name": "송파구 청년예술인 더 임팩트",
       "category": "행사",
@@ -3864,6 +3876,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "범죄피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-05-26",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원 및 법무부",
+      "target": "범죄피해 아동 및 의사소통 어려운 장애인",
+      "summary": "범죄피해 아동 및 장애인의 수사·재판 의사소통 중개 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1519340333755-56e9c1d04579?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -6195,6 +6220,66 @@
       "summary": "AI 활용 디지털 콘텐츠 제작 기술 개발 및 상용화 프로젝트 지원",
       "link": "https://www.msit.go.kr",
       "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-26-1",
+      "name": "서울 AI 허브 기술 멘토링 및 전문가 자문",
+      "category": "AI지원",
+      "startDate": "2026-05-26",
+      "endDate": "상시",
+      "location": "서울 AI 허브",
+      "target": "AI 스타트업 및 기술기업",
+      "summary": "AI 기술 개발 및 사업화 애로사항 해결을 위한 전문가 멘토링 및 자문 제공.",
+      "link": "https://seoulaihub.kr/program/mentoring-consulting",
+      "image": "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-26-2",
+      "name": "창업기업 기술개발 지원사업",
+      "category": "AI지원",
+      "startDate": "2026-05-26",
+      "endDate": "연간 공고에 따름",
+      "location": "창업진흥원",
+      "target": "창업 7년 이내 중소기업",
+      "summary": "AI·디지털 등 유망기술 분야 창업기업의 기술개발 자금 및 사업화 지원.",
+      "link": "https://www.k-startup.go.kr/web/contents/biz_info.do?m=M2011",
+      "image": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-26-3",
+      "name": "스마트그린산업단지 구축 사업",
+      "category": "AI지원",
+      "startDate": "2026-05-26",
+      "endDate": "상시",
+      "location": "산업통상자원부, 한국산업단지공단",
+      "target": "산업단지 입주기업 및 운영 주체",
+      "summary": "산업단지 내 에너지 효율화 및 디지털 전환을 위한 AI 기반 시스템 구축 지원.",
+      "link": "https://www.kicx.or.kr/policy/industryPark/smartGreen.do",
+      "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-26-4",
+      "name": "중소기업 기술혁신촉진사업",
+      "category": "AI지원",
+      "startDate": "2026-05-26",
+      "endDate": "연간 공고에 따름",
+      "location": "중소벤처기업부",
+      "target": "기술혁신을 추진하는 중소기업",
+      "summary": "AI, 디지털 등 신기술을 활용한 중소기업의 혁신 기술 개발 및 사업화 지원.",
+      "link": "https://www.mss.go.kr",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-26-5",
+      "name": "정보통신산업기술개발사업 (ICT R&D)",
+      "category": "AI지원",
+      "startDate": "2026-05-26",
+      "endDate": "연간 공고에 따름",
+      "location": "과학기술정보통신부 / 정보통신산업진흥원",
+      "target": "ICT 기술 개발 역량을 가진 기업, 대학, 연구기관",
+      "summary": "AI, 빅데이터, 디지털 기술을 포함한 ICT 핵심 기술 개발 R&D 지원.",
+      "link": "https://www.nipa.kr/main/selectMain.do",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
     }
   ],
   "lastUpdated": "2026-05-26"
