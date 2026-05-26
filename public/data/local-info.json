@@ -1,6 +1,30 @@
 {
   "events": [
     {
+      "id": "crawler-1779762658287-514",
+      "name": "송파구 청년예술인 더 임팩트",
+      "category": "행사",
+      "startDate": "2026-01-01",
+      "endDate": "상시",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "송파구 청년 예술인들이 선보이는 문화예술 공연 또는 전시 프로그램입니다.",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9028&aid=17813",
+      "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1779428332songpa.JPG"
+    },
+    {
+      "id": "crawler-1779762656849-292",
+      "name": "문화와 예술의 향기가 더해지는 6월",
+      "category": "행사",
+      "startDate": "2024-06-01",
+      "endDate": "상시",
+      "location": "더 갤러리 호수, 송파문화예술회관, 석촌호수",
+      "target": "전체 구민",
+      "summary": "더 갤러리 호수의 6월 기획 전시, 석촌호수에 메이플스토리 캐릭터 ‘주황버섯’이 찾아오는 행사, 송파문화예술회관의 6월 정기 공연 등 송파구의 다양한 문화예술 행사들이 개최됩니다.",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9028&aid=17818",
+      "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1779424834songpa.JPG"
+    },
+    {
       "id": "crawler-1779589978427-484",
       "name": "송파구 청년예술인 2026 더 임팩트",
       "category": "행사",
@@ -3827,6 +3851,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&q=80"
+    },
+    {
+      "id": "127000",
+      "name": "범죄 피해 아동·장애인 진술조력 지원",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "상시",
+      "location": "법무부",
+      "target": "성폭력·아동학대·인신매매 등 범죄 피해 아동(만 19세 미만) 및 장애인",
+      "summary": "범죄 피해 아동·장애인의 수사/재판상 소통 중개 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -6098,7 +6135,67 @@
       "summary": "다양한 산업 분야의 AI 융합 서비스 및 솔루션 개발 지원",
       "link": "https://www.nipa.kr/main/industry/ia.jsp",
       "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-26-1",
+      "name": "NIPA 공공혁신 AI 서비스 개발 지원사업",
+      "category": "AI지원",
+      "startDate": "2026-05-01",
+      "endDate": "2026-12-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI 기술 기반 공공서비스 개발 기업, 공공기관",
+      "summary": "AI를 활용한 공공 분야 혁신 서비스 개발 및 실증 지원",
+      "link": "https://www.nipa.kr",
+      "image": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-26-2",
+      "name": "서울 AI 허브 AI 창업기업 투자유치 역량강화 지원",
+      "category": "AI지원",
+      "startDate": "2026-05-15",
+      "endDate": "2026-10-31",
+      "location": "서울 AI 허브",
+      "target": "AI 분야 초기 및 성장 단계 스타트업",
+      "summary": "AI 스타트업의 투자유치 성공률 제고를 위한 컨설팅 및 멘토링 제공",
+      "link": "https://seoulaihub.kr/main/program.html",
+      "image": "https://images.unsplash.com/photo-1526378800651-c32d170fe6f8?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-26-3",
+      "name": "K-Startup 사회문제 해결 AI 스타트업 육성",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "2026-11-30",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "사회문제 해결형 AI 기술 기반 창업기업 및 예비창업자",
+      "summary": "사회적 가치 창출 AI 솔루션 개발 스타트업 발굴 및 사업화 지원",
+      "link": "https://www.k-startup.go.kr/common/announcement/announcementList.do",
+      "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-26-4",
+      "name": "중소기업 AI 기반 에너지 효율화 시스템 도입 지원",
+      "category": "AI지원",
+      "startDate": "2026-05-10",
+      "endDate": "2026-12-31",
+      "location": "중소벤처기업부 (기업마당)",
+      "target": "에너지 효율 개선을 희망하는 중소기업",
+      "summary": "AI 기술 활용 에너지 절감 시스템 도입 및 컨설팅 비용 지원",
+      "link": "https://www.bizinfo.go.kr/web/main/index.do",
+      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-26-5",
+      "name": "과학기술정보통신부 인공지능 기반 디지털 콘텐츠 창작 지원",
+      "category": "AI지원",
+      "startDate": "2026-05-20",
+      "endDate": "2026-12-31",
+      "location": "과학기술정보통신부",
+      "target": "AI 기반 콘텐츠 제작 기술을 보유한 기업 및 개발자",
+      "summary": "AI 활용 디지털 콘텐츠 제작 기술 개발 및 상용화 프로젝트 지원",
+      "link": "https://www.msit.go.kr",
+      "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-05-25"
+  "lastUpdated": "2026-05-26"
 }
