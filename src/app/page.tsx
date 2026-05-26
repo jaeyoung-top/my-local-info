@@ -188,6 +188,33 @@ export default function Home() {
         </div>
       </header>
 
+      {/* 편집자 노트 */}
+      <div className="bg-white border-b border-gray-100">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 py-8 grid md:grid-cols-3 gap-6 text-sm text-gray-600 leading-7">
+          <div className="flex gap-3">
+            <span className="text-2xl shrink-0">📌</span>
+            <div>
+              <p className="font-bold text-gray-800 mb-1">매일 업데이트하는 이유</p>
+              <p>지원금 신청 기간은 예고 없이 마감됩니다. 예산 소진 시 조기 종료되는 경우도 있어, 매일 공공데이터를 확인하고 새로운 항목과 변경 사항을 반영합니다.</p>
+            </div>
+          </div>
+          <div className="flex gap-3">
+            <span className="text-2xl shrink-0">🔍</span>
+            <div>
+              <p className="font-bold text-gray-800 mb-1">어떻게 정보를 선별하나요</p>
+              <p>공공데이터포털·송파구청·서울시 공식 채널을 기준으로 합니다. 민간 업체 홍보나 유료 서비스는 포함하지 않습니다. 원문 링크를 항상 함께 제공합니다.</p>
+            </div>
+          </div>
+          <div className="flex gap-3">
+            <span className="text-2xl shrink-0">💡</span>
+            <div>
+              <p className="font-bold text-gray-800 mb-1">처음 오셨다면</p>
+              <p>탭에서 카테고리를 고르고 검색창에 키워드(예: 청년, 육아, 창업)를 입력하면 빠르게 찾을 수 있습니다. 각 항목 클릭 시 신청 방법 상세 안내로 이동합니다.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* 히어로 하단 광고 */}
       <div className="max-w-6xl mx-auto px-4 sm:px-6 pt-6">
         <GoogleAdUnit

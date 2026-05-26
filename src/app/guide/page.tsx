@@ -3,8 +3,8 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "송파구 생활 가이드 | AI 송파 인포",
-  description: "서울 송파구의 행정동, 주요 시설, 교통, 복지 서비스 등 송파구 생활에 꼭 필요한 정보를 한눈에 정리했습니다.",
+  title: "송파구 생활 가이드 · 공공 혜택 신청 완전 정복 | AI 송파 인포",
+  description: "서울 송파구 생활 정보와 함께, 대부분의 주민이 놓치는 공공 지원금·혜택을 찾고 신청하는 실전 가이드를 담았습니다.",
 };
 
 const dongs = [
@@ -88,13 +88,109 @@ export default function GuidePage() {
           <span className="text-white/60 font-bold text-xs tracking-widest uppercase mb-4 inline-block">Songpa-gu Living Guide</span>
           <h1 className="text-4xl md:text-5xl font-black mb-4">송파구 생활 가이드</h1>
           <p className="text-white/80 text-lg font-medium break-keep">
-            서울 송파구에서 알아두면 유용한 생활 정보를 한눈에 정리했습니다.
-            행정·복지·교통·의료 정보까지 이웃처럼 안내해 드립니다.
+            서울 송파구에서 알아두면 유용한 생활 정보와 함께,<br />
+            대부분의 주민이 놓치는 공공 혜택을 찾고 신청하는 실전 방법을 안내합니다.
           </p>
         </div>
       </header>
 
       <main className="max-w-4xl mx-auto px-6 py-12 space-y-14">
+
+        {/* 공공 혜택 실전 가이드 */}
+        <section className="bg-white rounded-3xl p-8 md:p-12 shadow-sm border border-gray-100">
+          <h2 className="text-2xl font-black text-gray-800 mb-2">공공 혜택, 왜 대부분 놓치는가</h2>
+          <p className="text-gray-400 text-sm mb-8">편집팀이 직접 정리한 실전 신청 가이드</p>
+
+          <div className="space-y-8 text-gray-600 leading-8">
+            <div>
+              <h3 className="text-lg font-black text-gray-800 mb-3">① 흩어진 정보, 찾기 어려운 구조</h3>
+              <p>
+                서울시, 송파구청, 정부24, 복지로, 워크넷 — 각 기관이 제각각 자신의 혜택만 올리다 보니
+                한 사람이 받을 수 있는 모든 지원을 한 번에 파악하는 것이 사실상 불가능합니다.
+                실제로 중위소득 50% 이하 4인 가구가 받을 수 있는 공공 지원을 모두 합산하면
+                월 150만 원이 넘는 경우도 있지만, 신청하지 않으면 받을 수 없습니다.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-lg font-black text-gray-800 mb-3">② 내가 해당하는지 알기 어려운 소득 기준</h3>
+              <p>
+                "기준 중위소득 60% 이하"라는 문구를 처음 보면 막막합니다. 2026년 기준으로 풀어보면
+                4인 가구 월 소득 약 <strong>329만 원 이하</strong>가 여기에 해당합니다. 1인 가구라면
+                약 <strong>134만 원 이하</strong>입니다. 건강보험료 납부액을 기준으로 산정하는 경우가 많아
+                실제 소득과 다르게 계산될 수 있으니, 신청 전 건강보험공단 홈페이지에서
+                본인 납부 보험료를 먼저 확인하는 것이 순서입니다.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-lg font-black text-gray-800 mb-3">③ 탈락하는 사람들의 3가지 공통점</h3>
+              <ul className="space-y-3">
+                {[
+                  { label: "서류 한 장 부족", desc: "가족관계증명서, 건강보험료 납부확인서, 재직증명서 등을 사전에 발급받아두지 않아 신청 기한 내에 제출하지 못하는 경우. 정부24에서 미리 한꺼번에 발급받으면 됩니다." },
+                  { label: "신청 기간을 놓침", desc: "많은 혜택이 '신청 후 지원'이 아닌 '예산 소진 시 마감' 방식입니다. 특히 청년 관련 사업은 선착순 마감이 많아, 공고가 뜨면 바로 신청하는 것이 원칙입니다." },
+                  { label: "거주 요건 미충족", desc: "지원금 신청일 기준으로 주민등록이 해당 구에 되어 있어야 하는 경우가 많습니다. 이사를 앞두고 있다면 전입 신고를 먼저 하고 신청하세요." }
+                ].map((item, i) => (
+                  <li key={i} className="flex gap-3 bg-gray-50 rounded-xl p-4">
+                    <span className="shrink-0 w-6 h-6 bg-[#F25C05] text-white rounded-full flex items-center justify-center text-xs font-black">{i + 1}</span>
+                    <div>
+                      <p className="font-bold text-gray-800 text-sm mb-1">{item.label}</p>
+                      <p className="text-gray-500 text-sm leading-6">{item.desc}</p>
+                    </div>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="text-lg font-black text-gray-800 mb-3">④ 중복 수혜는 어디까지 가능한가</h3>
+              <p>
+                같은 성격의 혜택은 중복 수령이 안 됩니다. 예를 들어 서울청년수당과 청년도약계좌는
+                동시에 받을 수 있지만, 청년내일저축계좌와 청년희망적금은 중복 불가입니다.
+                헷갈린다면 복지로(bokjiro.go.kr) &gt; '복지서비스 모의계산'을 활용하세요.
+                내 소득 수준을 입력하면 받을 수 있는 혜택 목록과 중복 가능 여부를 함께 알려줍니다.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-lg font-black text-gray-800 mb-3">⑤ 신청부터 입금까지 현실적인 일정</h3>
+              <div className="overflow-x-auto">
+                <table className="w-full text-sm">
+                  <thead>
+                    <tr className="border-b border-gray-200">
+                      <th className="text-left py-2 pr-4 font-bold text-gray-700">혜택 유형</th>
+                      <th className="text-left py-2 font-bold text-gray-700">평균 소요 기간</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-gray-100">
+                    {[
+                      ["바우처 (국민행복카드 등)", "신청 후 7~14일"],
+                      ["현금 지원 (청년수당 등)", "선정 후 1개월 이내"],
+                      ["교육·훈련 프로그램", "선발 심사 후 1~3주"],
+                      ["주거 지원 (전세금 보증 등)", "심사 2~6주 + 서류 준비"],
+                      ["창업 지원금", "심사·발표·협약까지 2~4개월"],
+                    ].map(([type, period], i) => (
+                      <tr key={i}>
+                        <td className="py-2.5 pr-4 text-gray-600">{type}</td>
+                        <td className="py-2.5 font-bold text-[#1D428A]">{period}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-lg font-black text-gray-800 mb-3">⑥ 탈락 후 이의신청하는 법</h3>
+              <p>
+                탈락 통보를 받았다고 포기하지 마세요. 대부분의 공공 지원은 결과 통보 후
+                <strong> 30일 이내</strong>에 이의신청이 가능합니다. 탈락 이유를 담당 부서에 문의하면
+                반드시 서면 또는 구두로 설명해야 합니다. 서류 오류가 이유라면 재신청 기회를 주는 경우도 있습니다.
+                이의신청서 양식은 해당 기관 홈페이지 민원 서식 코너에서 내려받을 수 있습니다.
+              </p>
+            </div>
+          </div>
+        </section>
 
         {/* 송파구 소개 */}
         <section>
