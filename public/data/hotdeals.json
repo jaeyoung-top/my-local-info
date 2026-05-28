@@ -1,6 +1,151 @@
 {
   "deals": [
     {
+      "id": "hdz_149944",
+      "title": "[11번가] 인텔 250K RTX5060 16G 1TB 게이밍 완본체 신한카드할인",
+      "price": "1,278,980원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/05/28/thumb_67eadc0eac996cc90eed805eec7a6b5e.webp",
+      "category": "PC",
+      "site": "11번가",
+      "source": "퀘이사존",
+      "sourceColor": "#7C3AED",
+      "link": "https://quasarzone.com/bbs/qb_saleinfo/views/1955829",
+      "publishedAt": "2026-05-28 11:22:04",
+      "likes": 16,
+      "fetchedAt": "2026-05-28T02:33:29.962Z",
+      "priceComparison": [
+        {
+          "site": "11번가",
+          "price": "1,278,980원"
+        },
+        {
+          "site": "11번가",
+          "price": "1,714,890원"
+        },
+        {
+          "site": "11번가",
+          "price": "1,354,920원"
+        },
+        {
+          "site": "11번가",
+          "price": "2,085,360원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "05-12",
+            "price": 2183560
+          },
+          {
+            "date": "05-19",
+            "price": 2181040
+          },
+          {
+            "date": "05-26",
+            "price": 2180060
+          }
+        ],
+        "minPrice": 2180060,
+        "maxPrice": 2183560
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_149943",
+      "title": "무인산염 프리미엄 손질 생새우살 200g(냉동)(31/50사이즈)",
+      "price": "6,290원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/05/28/thumb_104d645cc878c411c868b3fd779a0a1a.webp",
+      "category": "식품",
+      "site": "네이버",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/9881288431",
+      "publishedAt": "2026-05-28 11:18:33",
+      "likes": 8,
+      "fetchedAt": "2026-05-28T02:33:29.962Z",
+      "priceComparison": [
+        {
+          "site": "네이버",
+          "price": "6,290원"
+        },
+        {
+          "site": "G마켓",
+          "price": "16,900원"
+        },
+        {
+          "site": "세종푸드",
+          "price": "111000원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_149942",
+      "title": "초코칩쿠키3개+나샌드3개+비쵸비3개+다이제미니초코3개+통크3개",
+      "price": "20,885원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/05/28/thumb_6c0a742e2aebc79fd581f51a3991c952.webp",
+      "category": "식품",
+      "site": "오늘의집",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/9881297553",
+      "publishedAt": "2026-05-28 11:18:10",
+      "likes": 14,
+      "fetchedAt": "2026-05-28T02:33:29.962Z",
+      "priceComparison": [
+        {
+          "site": "오늘의집",
+          "price": "20,885원"
+        },
+        {
+          "site": "다나와",
+          "price": "가격 정보 확인 불가"
+        },
+        {
+          "site": "쿠차",
+          "price": "3,280원부터"
+        },
+        {
+          "site": "옥션",
+          "price": "13,400원"
+        },
+        {
+          "site": "롯데ON",
+          "price": "87,120원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_149941",
+      "title": "2%부족할때 비타 자몽&포멜로 500ml(6페트)",
+      "price": null,
+      "image": "https://image.hotdeal.zip/thumbnails/2026/05/28/thumb_2b59790147cd8cfe5e2d0a32a363a945.webp",
+      "category": "식품",
+      "site": "칠성몰",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=112&no=707401",
+      "publishedAt": "2026-05-28 11:18:08",
+      "likes": 13,
+      "fetchedAt": "2026-05-28T02:33:29.962Z",
+      "priceComparison": [],
+      "priceHistory": null,
+      "postContent": {
+        "text": "배송완료후 포토리뷰랑 설문조사 완료시 2500포인트 적립되니체감가 500원이에요페이코로 결제시 9%할인되네요950개 넘게 있었는데 벌써 400개남았네요순삭이라 다음에는 그냥 안올릴게요 ㅎㅎ",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0528/900w_20260528111614_dZTzqPXejE.jpg"
+        ]
+      },
+      "shopUrl": "https://mall.lottechilsung.co.kr/product-detail?productNo=133658644"
+    },
+    {
       "id": "hdz_149940",
       "title": "성주 참외 2kg 로얄중과 6-8과",
       "price": "10,800원",
@@ -34346,285 +34491,7 @@
       },
       "postContent": null,
       "shopUrl": null
-    },
-    {
-      "id": "hdz_149310",
-      "title": "하우스 수박 6kg ~ 9kg",
-      "price": "18,620원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/05/27/thumb_e207c552ac8d13b259d53b74b3875693.webp",
-      "category": "식품",
-      "site": "지마켓",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=112&no=707093",
-      "publishedAt": "2026-05-27 10:14:20",
-      "likes": 24,
-      "fetchedAt": "2026-05-27T02:38:07.044Z",
-      "priceComparison": [
-        {
-          "site": "지마켓",
-          "price": "18,620원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "03-10",
-            "price": 38450
-          },
-          {
-            "date": "03-17",
-            "price": 38450
-          },
-          {
-            "date": "03-24",
-            "price": 29390
-          },
-          {
-            "date": "03-31",
-            "price": 29130
-          },
-          {
-            "date": "04-07",
-            "price": 29660
-          },
-          {
-            "date": "04-14",
-            "price": 29660
-          },
-          {
-            "date": "04-21",
-            "price": 28870
-          },
-          {
-            "date": "04-28",
-            "price": 24960
-          },
-          {
-            "date": "05-05",
-            "price": 26040
-          },
-          {
-            "date": "05-12",
-            "price": 26040
-          },
-          {
-            "date": "05-19",
-            "price": 24830
-          },
-          {
-            "date": "05-26",
-            "price": 24910
-          }
-        ],
-        "minPrice": 24830,
-        "maxPrice": 38450
-      },
-      "postContent": {
-        "text": "옵션 다양하게 있어요하우스 수박이라 당도 좋겠네요",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0527/900w_20260527101216_4hjL2LCH3g.jpg"
-        ]
-      },
-      "shopUrl": "https://item.gmarket.co.kr/Item?goodscode=1597978556"
-    },
-    {
-      "id": "hdz_149309",
-      "title": "원기 2호 고춧잎차 500ml 10개입",
-      "price": "15,990원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/05/27/thumb_f07a18c264bc89b15977561f20ea9aec.webp",
-      "category": "식품",
-      "site": "지마켓",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=112&no=707094",
-      "publishedAt": "2026-05-27 10:14:14",
-      "likes": 9,
-      "fetchedAt": "2026-05-27T02:38:07.044Z",
-      "priceComparison": [
-        {
-          "site": "지마켓",
-          "price": "15,990원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": {
-        "text": "일반 녹차 느낌이라 물처럼 편하게 마실 수 있습니다 차게 해서 먹으면 맛있어요",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0527/900w_20260527101319_cKgumUl5Aj.jpg"
-        ]
-      },
-      "shopUrl": "https://item.gmarket.co.kr/Item?goodscode=4262835937"
-    },
-    {
-      "id": "hdz_149308",
-      "title": "비타500 제로스파클링/제로스파클링유자 250ml 48입(선택2)",
-      "price": "19,900원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/05/27/thumb_8e279a464831cab1ec09cf257e5e3a51.webp",
-      "category": "식품",
-      "site": "광동",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/9876741503",
-      "publishedAt": "2026-05-27 10:12:19",
-      "likes": 7,
-      "fetchedAt": "2026-05-27T02:38:07.044Z",
-      "priceComparison": [
-        {
-          "site": "광동",
-          "price": "19,900원"
-        },
-        {
-          "site": "동원몰",
-          "price": "35,200원"
-        },
-        {
-          "site": "옥션",
-          "price": "31,900원"
-        },
-        {
-          "site": "다나와",
-          "price": "30,590원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "03-10",
-            "price": 29720
-          },
-          {
-            "date": "03-17",
-            "price": 30440
-          },
-          {
-            "date": "03-24",
-            "price": 29900
-          },
-          {
-            "date": "03-31",
-            "price": 29890
-          },
-          {
-            "date": "04-07",
-            "price": 30440
-          },
-          {
-            "date": "04-14",
-            "price": 30440
-          },
-          {
-            "date": "04-21",
-            "price": 29900
-          },
-          {
-            "date": "04-28",
-            "price": 29960
-          },
-          {
-            "date": "05-05",
-            "price": 29960
-          },
-          {
-            "date": "05-12",
-            "price": 28070
-          },
-          {
-            "date": "05-19",
-            "price": 28070
-          },
-          {
-            "date": "05-26",
-            "price": 28070
-          }
-        ],
-        "minPrice": 28070,
-        "maxPrice": 30440
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_149307",
-      "title": "ABC 핑크로즈향 섬유유연제 2.5L 4개입",
-      "price": "7,840원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/05/27/thumb_12bdf40a382666f336ffbe749121d83a.webp",
-      "category": "생활용품",
-      "site": "G마켓",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=112&no=707092",
-      "publishedAt": "2026-05-27 10:12:09",
-      "likes": 4,
-      "fetchedAt": "2026-05-27T02:38:07.044Z",
-      "priceComparison": [
-        {
-          "site": "G마켓",
-          "price": "7,840원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "03-10",
-            "price": 10210
-          },
-          {
-            "date": "03-17",
-            "price": 10210
-          },
-          {
-            "date": "03-24",
-            "price": 9090
-          },
-          {
-            "date": "03-31",
-            "price": 10200
-          },
-          {
-            "date": "04-07",
-            "price": 10000
-          },
-          {
-            "date": "04-14",
-            "price": 9500
-          },
-          {
-            "date": "04-21",
-            "price": 10000
-          },
-          {
-            "date": "04-28",
-            "price": 9660
-          },
-          {
-            "date": "05-05",
-            "price": 9660
-          },
-          {
-            "date": "05-12",
-            "price": 9660
-          },
-          {
-            "date": "05-19",
-            "price": 9780
-          },
-          {
-            "date": "05-26",
-            "price": 9780
-          }
-        ],
-        "minPrice": 9090,
-        "maxPrice": 10210
-      },
-      "postContent": {
-        "text": "섬유유연제 2.5L 4개입 쿠폰적용가 기준 7천원대입니다 핑크로즈 은은한 향이네요",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0527/900w_20260527101040_mW14PFHRZH.jpg"
-        ]
-      },
-      "shopUrl": "https://item.gmarket.co.kr/Item?goodscode=4734878433"
     }
   ],
-  "lastUpdated": "2026-05-28T02:14:56.643Z"
+  "lastUpdated": "2026-05-28T02:33:32.055Z"
 }

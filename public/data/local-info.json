@@ -1,6 +1,30 @@
 {
   "events": [
     {
+      "id": "crawler-1779935260115-923",
+      "name": "제81주년 광복절 기념 송파구민 대합창",
+      "category": "행사",
+      "startDate": "2026-08-15",
+      "endDate": "2026-08-15",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "제81주년 광복절을 기념하여 송파구민이 함께 참여하는 대합창 행사가 열립니다. 현재 참여자를 모집 중입니다.",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9028&aid=17809",
+      "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1779432991songpa.JPG"
+    },
+    {
+      "id": "crawler-1779935258326-211",
+      "name": "송파의 6월 문화예술 특집: 기획 전시, 주황버섯, 정기 공연",
+      "category": "행사",
+      "startDate": "2026-06-01",
+      "endDate": "2026-06-30",
+      "location": "더 갤러리 호수, 석촌호수, 송파문화예술회관",
+      "target": "전체 구민",
+      "summary": "6월 한 달간 송파구에서 펼쳐지는 다채로운 문화예술 행사: 더 갤러리 호수 기획 전시, 석촌호수 메이플스토리 주황버섯 이벤트, 송파문화예술회관 정기 공연을 즐겨보세요.",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9028&aid=17818",
+      "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1779424834songpa.JPG"
+    },
+    {
       "id": "crawler-1779849639750-673",
       "name": "6월 송파 문화와 예술의 향기",
       "category": "행사",
@@ -3939,6 +3963,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "admin",
       "image": "https://images.unsplash.com/photo-1509822929063-6b6723e0e974?w=800&q=80"
+    },
+    {
+      "id": "000025",
+      "name": "범죄 피해 아동 및 장애인 진술조력 지원",
+      "category": "혜택",
+      "startDate": "2026-05-28",
+      "endDate": "상시",
+      "location": "법무부",
+      "target": "성폭력·아동학대·인신매매 범죄 피해 아동 및 장애인",
+      "summary": "만 19세 미만 아동, 의사소통 어려운 장애인 범죄 피해자의 수사·재판상 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1519340333755-56e9c1d04579?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -6450,7 +6487,67 @@
       "summary": "AI 기술을 활용한 차세대 교육 시스템 개발 및 실증 지원",
       "link": "https://www.nipa.kr",
       "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-28-1",
+      "name": "AI 데이터 인프라 활용 촉진 사업",
+      "category": "AI지원",
+      "startDate": "2026-05-01",
+      "endDate": "2026-12-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "데이터 기반 서비스 개발 기업, 연구기관",
+      "summary": "AI 데이터 인프라 활용 기술 및 환경 제공을 통한 서비스 개발 지원",
+      "link": "https://www.nipa.kr/main/biz.do",
+      "image": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-28-2",
+      "name": "서울 AI 허브 인공지능 산업 동향 공유 및 인사이트 제공",
+      "category": "AI지원",
+      "startDate": "2026-05-01",
+      "endDate": "상시",
+      "location": "서울 AI 허브",
+      "target": "AI 관련 기업, 연구자, 일반인",
+      "summary": "AI 산업 동향 및 기술 트렌드 정보 공유를 통한 인사이트 제공",
+      "link": "https://seoulaihub.kr/",
+      "image": "https://images.unsplash.com/photo-1526378800651-c32d170fe6f8?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-28-3",
+      "name": "K-Startup 창업기업 스케일업 R&D 지원",
+      "category": "AI지원",
+      "startDate": "2026-05-01",
+      "endDate": "2026-11-30",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "창업 3~7년 이내 성장 가능성 있는 기업",
+      "summary": "창업기업의 혁신 기술 기반 R&D 및 사업화 비용 지원",
+      "link": "https://www.k-startup.go.kr/main.do",
+      "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-28-4",
+      "name": "중소기업 제조현장 데이터 통합 및 AI 솔루션 연계 지원",
+      "category": "AI지원",
+      "startDate": "2026-05-01",
+      "endDate": "2026-11-30",
+      "location": "중소벤처기업부 (기업마당)",
+      "target": "제조 중소기업",
+      "summary": "제조 현장 데이터 통합 및 AI 솔루션 연동을 통한 생산성 향상",
+      "link": "https://www.bizinfo.go.kr/web/main.do",
+      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-28-5",
+      "name": "과학기술정보통신부 초연결 지능형 네트워크 기술 개발 및 실증",
+      "category": "AI지원",
+      "startDate": "2026-05-01",
+      "endDate": "2027-12-31",
+      "location": "과학기술정보통신부",
+      "target": "ICT 기업, 연구기관, 대학",
+      "summary": "초연결 지능형 네트워크 핵심 기술 개발 및 실증 지원",
+      "link": "https://www.msit.go.kr/web/msitMain.do",
+      "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-05-27"
+  "lastUpdated": "2026-05-28"
 }
