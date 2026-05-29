@@ -3976,6 +3976,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1519340333755-56e9c1d04579?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "범죄 피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원 등 수사기관",
+      "target": "성폭력·아동학대 등 범죄 피해 아동 및 장애인",
+      "summary": "범죄 피해 아동 및 장애인의 수사·재판상 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -6547,7 +6560,67 @@
       "summary": "초연결 지능형 네트워크 핵심 기술 개발 및 실증 지원",
       "link": "https://www.msit.go.kr/web/msitMain.do",
       "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-29-1",
+      "name": "초격차 스타트업 1000+ 프로젝트",
+      "category": "AI지원",
+      "startDate": "2026-05-29",
+      "endDate": "상시",
+      "location": "중소벤처기업부 (K-Startup 창업진흥원 운영)",
+      "target": "딥테크 (AI 포함) 분야 7년 이내 창업기업",
+      "summary": "AI 등 딥테크 분야 유망 창업기업을 발굴하여 스케일업 및 글로벌 성장을 지원",
+      "link": "https://www.k-startup.go.kr",
+      "image": "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-29-2",
+      "name": "데이터 활용 기반 마련 사업",
+      "category": "AI지원",
+      "startDate": "2026-05-29",
+      "endDate": "상시",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "데이터 활용을 희망하는 기업, 연구기관",
+      "summary": "데이터 기반 서비스 개발 및 활용 확대를 위한 제도·기술적 기반 조성",
+      "link": "https://www.nipa.kr",
+      "image": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-29-3",
+      "name": "차세대 통신망 기반 서비스 상용화 지원",
+      "category": "AI지원",
+      "startDate": "2026-05-29",
+      "endDate": "상시",
+      "location": "과학기술정보통신부",
+      "target": "5G/6G 기반 신규 서비스 개발 및 상용화를 목표하는 기업",
+      "summary": "차세대 통신망을 활용한 AI·디지털 융합 서비스의 시장 출시 지원",
+      "link": "https://www.msit.go.kr",
+      "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-29-4",
+      "name": "인공지능 기술사업화 촉진 프로그램",
+      "category": "AI지원",
+      "startDate": "2026-05-29",
+      "endDate": "상시",
+      "location": "서울 AI 허브",
+      "target": "AI 기술 기반 스타트업 및 중소기업",
+      "summary": "AI 기술의 시장 적용 및 사업화를 위한 통합적 지원 제공",
+      "link": "https://www.seoulaihub.kr",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-29-5",
+      "name": "중소기업 스마트 공정 도입 컨설팅",
+      "category": "AI지원",
+      "startDate": "2026-05-29",
+      "endDate": "상시",
+      "location": "기업마당 (중소벤처기업부 사업)",
+      "target": "스마트 공정 도입을 희망하는 중소 제조기업",
+      "summary": "AI·데이터 기반 스마트 공정 도입을 위한 맞춤형 전문 컨설팅 제공",
+      "link": "https://www.bizinfo.go.kr",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-05-28"
+  "lastUpdated": "2026-05-29"
 }
