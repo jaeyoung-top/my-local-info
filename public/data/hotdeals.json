@@ -1,6 +1,77 @@
 {
   "deals": [
     {
+      "id": "hdz_151243",
+      "title": "웨이브 1개월 무료이용권",
+      "price": null,
+      "image": "https://image.hotdeal.zip/thumbnails/2026/05/31/thumb_b5b10de073a26392c2e2073bb150bb2b.webp",
+      "category": "생활용품",
+      "site": "신세계포인트",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/9893618762",
+      "publishedAt": "2026-05-31 04:08:13",
+      "likes": 49,
+      "fetchedAt": "2026-05-30T21:53:31.416Z",
+      "priceComparison": [],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "03-10",
+            "price": 13480
+          },
+          {
+            "date": "03-17",
+            "price": 13480
+          },
+          {
+            "date": "03-24",
+            "price": 13480
+          },
+          {
+            "date": "03-31",
+            "price": 13480
+          },
+          {
+            "date": "04-07",
+            "price": 13900
+          },
+          {
+            "date": "04-14",
+            "price": 13900
+          },
+          {
+            "date": "04-21",
+            "price": 13900
+          },
+          {
+            "date": "04-28",
+            "price": 13900
+          },
+          {
+            "date": "05-05",
+            "price": 13900
+          },
+          {
+            "date": "05-12",
+            "price": 13900
+          },
+          {
+            "date": "05-19",
+            "price": 13900
+          },
+          {
+            "date": "05-26",
+            "price": 13900
+          }
+        ],
+        "minPrice": 13480,
+        "maxPrice": 13900
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
       "id": "hdz_151242",
       "title": "오리온 고래밥 46g x 30입",
       "price": "16,000원",
@@ -32414,38 +32485,7 @@
       "priceHistory": null,
       "postContent": null,
       "shopUrl": null
-    },
-    {
-      "id": "hdz_150736",
-      "title": "[지마켓] 국산 휴비스 듀라론 냉감패드 (15,900원/무료)",
-      "price": "15,900원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/05/29/thumb_8733c029478c28233ca234f35beebce9.webp",
-      "category": "기타",
-      "site": "지마켓",
-      "source": "퀘이사존",
-      "sourceColor": "#7C3AED",
-      "link": "https://quasarzone.com/bbs/qb_saleinfo/views/1956260",
-      "publishedAt": "2026-05-29 19:10:04",
-      "likes": 31,
-      "fetchedAt": "2026-05-29T12:09:52.592Z",
-      "priceComparison": [
-        {
-          "site": "지마켓",
-          "price": "15,900원"
-        },
-        {
-          "site": "핫덕",
-          "price": "34,150원"
-        },
-        {
-          "site": "다나와",
-          "price": "75,700원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": null,
-      "shopUrl": null
     }
   ],
-  "lastUpdated": "2026-05-30T19:01:20.241Z"
+  "lastUpdated": "2026-05-30T21:53:33.225Z"
 }
