@@ -1,6 +1,18 @@
 {
   "events": [
     {
+      "id": "crawler-1780107380503-863",
+      "name": "송파 6월 문화예술 특집: 기획 전시, 석촌호수 주황버섯, 정기 공연",
+      "category": "행사",
+      "startDate": "2026-06-01",
+      "endDate": "2026-06-30",
+      "location": "더 갤러리 호수, 석촌호수, 송파문화예술회관",
+      "target": "전체 구민",
+      "summary": "6월 한 달간 더 갤러리 호수 기획 전시, 석촌호수 메이플스토리 주황버섯 전시, 송파문화예술회관 정기 공연 등 송파의 다채로운 문화예술 행사.",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9028&aid=17818",
+      "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1779424834songpa.JPG"
+    },
+    {
       "id": "crawler-1779935260115-923",
       "name": "제81주년 광복절 기념 송파구민 대합창",
       "category": "행사",
@@ -3989,6 +4001,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
+    },
+    {
+      "id": "127000",
+      "name": "범죄 피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "상시",
+      "location": "법무부",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "아동·장애인 범죄 피해자의 수사·재판 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -6620,7 +6645,67 @@
       "summary": "AI·데이터 기반 스마트 공정 도입을 위한 맞춤형 전문 컨설팅 제공",
       "link": "https://www.bizinfo.go.kr",
       "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-30-1",
+      "name": "산업 데이터 기반 AI 솔루션 사업화 촉진 지원",
+      "category": "AI지원",
+      "startDate": "2026-05-30",
+      "endDate": "2026-06-30",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "산업 데이터 활용 AI 솔루션 개발 중소·중견기업",
+      "summary": "산업 특화 데이터와 AI 솔루션 연계를 통해 사업화 및 시장 진출 촉진.",
+      "link": "https://www.nipa.kr",
+      "image": "https://images.unsplash.com/photo-1516321165247-4aa89a48be55?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-30-2",
+      "name": "AI/빅데이터 기반 초기 스타트업 성장 가속화 프로그램",
+      "category": "AI지원",
+      "startDate": "2026-05-30",
+      "endDate": "상시",
+      "location": "K-Startup 창업진흥원",
+      "target": "AI·빅데이터 기술 기반 예비창업가 및 창업 3년 이내 기업",
+      "summary": "초기 스타트업의 AI·빅데이터 기술 고도화 및 시장 검증 지원.",
+      "link": "https://www.k-startup.go.kr",
+      "image": "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-30-3",
+      "name": "AI 융합기술 기반 공공서비스 혁신 지원",
+      "category": "AI지원",
+      "startDate": "2026-05-30",
+      "endDate": "2026-07-15",
+      "location": "과학기술정보통신부",
+      "target": "AI 융합기술 기반 공공서비스 개발 및 적용 희망 기업 및 기관",
+      "summary": "AI 융합기술을 활용하여 공공 서비스의 효율성 및 품질 혁신 지원.",
+      "link": "https://www.msit.go.kr",
+      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-30-4",
+      "name": "중소기업 스마트 데이터 플랫폼 구축 지원",
+      "category": "AI지원",
+      "startDate": "2026-05-30",
+      "endDate": "2026-06-25",
+      "location": "중소벤처기업부 (기업마당)",
+      "target": "제조 및 서비스업 중소기업",
+      "summary": "중소기업의 데이터 수집, 분석, 활용을 위한 스마트 데이터 플랫폼 구축 지원.",
+      "link": "https://www.bizinfo.go.kr",
+      "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-05-30-5",
+      "name": "생성형 AI 특화 스타트업 육성 및 글로벌 진출 지원",
+      "category": "AI지원",
+      "startDate": "2026-05-30",
+      "endDate": "상시",
+      "location": "서울 AI 허브",
+      "target": "생성형 AI 기술을 보유한 서울 소재 스타트업",
+      "summary": "생성형 AI 스타트업의 기술 고도화, 사업화 및 해외 시장 진출 지원.",
+      "link": "https://www.seoulaihub.kr",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-05-29"
+  "lastUpdated": "2026-05-30"
 }
