@@ -345,6 +345,10 @@ export default function GuidePage() {
           <span>|</span>
           <Link href="/about" className="hover:text-[#1D428A]">소개</Link>
           <span>|</span>
+          <Link href="/contact" className="hover:text-[#1D428A]">문의</Link>
+          <span>|</span>
+          <Link href="/terms" className="hover:text-[#1D428A]">이용약관</Link>
+          <span>|</span>
           <Link href="/privacy" className="hover:text-[#1D428A]">개인정보처리방침</Link>
         </div>
       </footer>

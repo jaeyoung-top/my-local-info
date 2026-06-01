@@ -240,8 +240,9 @@ export default function AboutPage() {
             누락된 혜택 제보, 정보 오류 수정 요청, 서비스 개선 의견이 있으시면 언제든지 연락해 주세요.
             주민분들의 피드백이 더 나은 서비스를 만드는 데 큰 도움이 됩니다.
           </p>
+          <p className="text-white/60 text-xs mb-4">운영자: 박재영 · jaeyoungpark@dooil.net</p>
           <a
-            href="mailto:jypark@dooil.net"
+            href="mailto:jaeyoungpark@dooil.net"
             className="inline-block bg-[#F25C05] hover:bg-[#d94e04] text-white font-black px-6 py-3 rounded-xl transition-all hover:scale-105"
           >
             이메일로 문의하기 →
@@ -286,6 +287,10 @@ export default function AboutPage() {
           <Link href="/guide" className="hover:text-[#1D428A]">생활 가이드</Link>
           <span>|</span>
           <Link href="/about" className="hover:text-[#1D428A]">소개</Link>
+          <span>|</span>
+          <Link href="/contact" className="hover:text-[#1D428A]">문의</Link>
+          <span>|</span>
+          <Link href="/terms" className="hover:text-[#1D428A]">이용약관</Link>
           <span>|</span>
           <Link href="/privacy" className="hover:text-[#1D428A] font-bold">개인정보처리방침</Link>
         </div>

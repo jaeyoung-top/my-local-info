@@ -364,7 +364,7 @@ export default function Home() {
           <div className="space-y-2">
             <h2 className="text-2xl font-black text-[#1D428A]">AI 송파 <span className="text-[#F25C05]">인포</span></h2>
             <p className="text-gray-500 text-sm font-medium">송파구 소식과 대한민국 대표 커뮤니티 핫딜을 정성껏 모아 전달하는 개인 운영 생활 정보 서비스입니다.</p>
-            <p className="text-gray-400 text-xs">데이터 출처: 공공데이터포털 | 마지막 업데이트: {lastUpdated}</p>
+            <p className="text-gray-400 text-xs">운영자: 박재영 | 문의: jaeyoungpark@dooil.net | 데이터 출처: 공공데이터포털 | 마지막 업데이트: {lastUpdated}</p>
             <VisitorCounter variant="light" />
           </div>
           <div className="flex gap-3 flex-wrap">
@@ -373,6 +373,10 @@ export default function Home() {
             <Link href="/hotdeal" className="text-xs font-bold text-gray-400 hover:text-[#F25C05] transition-colors">🔥 핫딜</Link>
             <span className="text-gray-200">|</span>
             <Link href="/about" className="text-xs font-bold text-gray-400 hover:text-[#1D428A] transition-colors">소개</Link>
+            <span className="text-gray-200">|</span>
+            <Link href="/contact" className="text-xs font-bold text-gray-400 hover:text-[#1D428A] transition-colors">문의</Link>
+            <span className="text-gray-200">|</span>
+            <Link href="/terms" className="text-xs font-bold text-gray-400 hover:text-[#1D428A] transition-colors">이용약관</Link>
             <span className="text-gray-200">|</span>
             <Link href="/privacy" className="text-xs font-bold text-gray-400 hover:text-[#1D428A] transition-colors">개인정보처리방침</Link>
           </div>
