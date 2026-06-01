@@ -2,7 +2,9 @@ const fs = require('fs');
 const path = require('path');
 const cheerio = require('cheerio');
 
-// 항목명 기반 결정론적 해시 (OG 이미지 없을 때 폴백용)
+const MAX_EVENTS = 12;
+const SIMILARITY_THRESHOLD = 0.38;
+
 function nameHash(str) {
   let h = 0x811c9dc5;
   for (let i = 0; i < str.length; i++) {
@@ -12,223 +14,251 @@ function nameHash(str) {
   return (h % 900000) + 100000;
 }
 
-/**
- * 주어진 URL의 HTML에서 OG 이미지를 추출합니다.
- * @param {string} url - 기사 URL
- * @returns {Promise<string|null>} 이미지 URL 또는 null
- */
-async function fetchOgImage(url) {
+/** OG 이미지 + 본문 첫 번째 이미지까지 시도 */
+async function fetchPageImage(url) {
   try {
     const controller = new AbortController();
     const timer = setTimeout(() => controller.abort(), 8000);
-    const response = await fetch(url, {
+    const res = await fetch(url, {
       signal: controller.signal,
-      headers: {
-        'User-Agent': 'Mozilla/5.0 (compatible; SongpaBot/1.0)'
-      }
+      headers: { 'User-Agent': 'Mozilla/5.0 (compatible; SongpaBot/1.0)' }
     });
     clearTimeout(timer);
-    const html = await response.text();
+    const html = await res.text();
     const $ = cheerio.load(html);
 
-    const selectors = [
+    // 1) OG 이미지
+    for (const sel of [
       'meta[property="og:image"]',
       'meta[name="og:image"]',
       'meta[name="twitter:image"]',
       'meta[property="twitter:image"]'
-    ];
-
-    let og = null;
-    for (const sel of selectors) {
-      const val = $(sel).attr('content');
-      if (val && val.trim()) {
-        og = val.trim();
-        break;
+    ]) {
+      let og = $(sel).attr('content');
+      if (og && og.trim()) {
+        og = og.trim();
+        if (og.startsWith('//')) og = 'https:' + og;
+        else if (!og.startsWith('http')) og = new URL(og, url).href;
+        return og;
       }
     }
 
-    if (!og) return null;
-
-    // 프로토콜 정규화
-    if (og.startsWith('//')) {
-      og = 'https:' + og;
-    } else if (!og.startsWith('http')) {
-      og = new URL(og, url).href;
-    }
-
-    return og;
-  } catch (e) {
+    // 2) 본문 첫 번째 <img> (100px 이상)
+    let bodyImg = null;
+    $('img').each((_, el) => {
+      if (bodyImg) return;
+      let src = $(el).attr('src') || '';
+      const w = parseInt($(el).attr('width') || '0');
+      const h = parseInt($(el).attr('height') || '0');
+      if (src && (w >= 100 || h >= 100 || (!w && !h))) {
+        if (!src.startsWith('http')) src = new URL(src, url).href;
+        if (!src.includes('logo') && !src.includes('icon') && !src.includes('banner')) {
+          bodyImg = src;
+        }
+      }
+    });
+    return bodyImg || null;
+  } catch {
     return null;
   }
 }
 
-/**
- * 송파소식 웹진을 크롤링하여 주요 행사/축제를 추출 후 
- * Gemini AI로 가공하여 local-info.json에 추가합니다.
- */
+function getKeywords(name) {
+  return new Set((name.match(/[가-힣]{2,}/g) || []));
+}
+function nameSimilarity(a, b) {
+  const ka = getKeywords(a), kb = getKeywords(b);
+  const inter = [...ka].filter(w => kb.has(w)).length;
+  const union = new Set([...ka, ...kb]).size;
+  return union === 0 ? 0 : inter / union;
+}
+
+/** 만료·오래된 행사 제거 + 내용/이미지 중복 제거 + 최대 개수 제한 */
+function cleanEvents(events) {
+  const today = new Date().toISOString().split('T')[0];
+  const twoMonthsAgo = new Date(Date.now() - 60 * 86400000).toISOString().split('T')[0];
+
+  // 1. 만료/오래된 항목 제거
+  const alive = events.filter(e => {
+    if (e.endDate && e.endDate !== '상시' && e.endDate < today) return false;
+    if (e.startDate && e.startDate < twoMonthsAgo) return false;
+    return true;
+  });
+
+  // 2. 날짜 내림차순 정렬
+  alive.sort((a, b) => (b.startDate || '').localeCompare(a.startDate || ''));
+
+  // 3. 내용 유사도 기반 중복 제거 (키워드 38% 이상 겹치면 동일 행사)
+  const kept = [];
+  for (const e of alive) {
+    if (!kept.some(k => nameSimilarity(k.name, e.name) >= SIMILARITY_THRESHOLD)) {
+      kept.push(e);
+    }
+  }
+
+  // 4. 이미지 중복 제거: 동일 URL은 두 번째부터 고유 해시 이미지로 교체
+  const usedImages = new Set();
+  const deduped = kept.map(e => {
+    const img = e.image || '';
+    if (img && !img.includes('picsum.photos')) {
+      if (usedImages.has(img)) {
+        return { ...e, image: `https://picsum.photos/seed/${nameHash(e.name)}/800/500` };
+      }
+      usedImages.add(img);
+    }
+    return e;
+  });
+
+  // 5. 최대 개수 제한
+  return deduped.slice(0, MAX_EVENTS);
+}
+
 async function main() {
   const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
-
   if (!GEMINI_API_KEY) {
-    console.error('환경변수(GEMINI_API_KEY)가 설정되지 않았습니다.');
+    console.error('GEMINI_API_KEY 없음');
     return;
   }
 
   const dataPath = path.join(process.cwd(), 'public', 'data', 'local-info.json');
   let localData;
   try {
-    const fileContent = fs.readFileSync(dataPath, 'utf8');
-    localData = JSON.parse(fileContent);
+    localData = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
   } catch (err) {
-    console.error('기존 데이터 파일을 읽는 중 오류가 발생했습니다.', err);
+    console.error('데이터 파일 읽기 오류:', err);
     return;
   }
 
+  // ── 먼저 기존 events 정리 ───────────────────────────────────────────────
+  const beforeCount = localData.events.length;
+  localData.events = cleanEvents(localData.events);
+  console.log(`기존 행사 정리: ${beforeCount}개 → ${localData.events.length}개`);
+
+  // ── 새 행사 크롤링 ──────────────────────────────────────────────────────
   try {
-    console.log('송파소식 메인 페이지 크롤링 시작...');
-    // 1. 메인 페이지 접근하여 최신 호수(eid) 알아내기
-    const mainResponse = await fetch('https://songpa.newstool.co.kr/');
-    const mainHtml = await mainResponse.text();
+    console.log('송파소식 크롤링 시작...');
+    const mainRes = await fetch('https://songpa.newstool.co.kr/');
+    const mainHtml = await mainRes.text();
     const $main = cheerio.load(mainHtml);
-    
+
     let redirectUrl = '';
     const metaRefresh = $main('meta[http-equiv="refresh"]').attr('content');
-    if (metaRefresh && metaRefresh.includes('URL=')) {
+    if (metaRefresh?.includes('URL=')) {
       redirectUrl = metaRefresh.split('URL=')[1].replace(/['"]/g, '');
     }
+    if (!redirectUrl) redirectUrl = 'list.php?eid=9011';
 
-    if (!redirectUrl) {
-      redirectUrl = 'list.php?eid=9011'; // fallback
-    }
-
-    // 2. 최신호 목록 페이지 크롤링
     const listUrl = `https://songpa.newstool.co.kr/${redirectUrl.replace('./', '')}`;
-    console.log(`최신호 목록 크롤링: ${listUrl}`);
-    const listResponse = await fetch(listUrl);
-    const listHtml = await listResponse.text();
+    console.log(`목록 크롤링: ${listUrl}`);
+    const listRes = await fetch(listUrl);
+    const listHtml = await listRes.text();
     const $list = cheerio.load(listHtml);
 
     const articles = [];
-    $list('a').each((i, el) => {
+    $list('a').each((_, el) => {
       const title = $list(el).text().replace(/\s+/g, ' ').trim();
       let href = $list(el).attr('href');
-      
-      // 기사 링크(view.php)인 것만 필터링
       if (href && href.includes('view.php') && title.length > 10) {
-        // 상대경로 절대경로 변환
-        if (!href.startsWith('http')) {
-          href = `https://songpa.newstool.co.kr/${href}`;
-        }
+        if (!href.startsWith('http')) href = `https://songpa.newstool.co.kr/${href}`;
         articles.push(`- 제목: [${title}] URL: ${href}`);
       }
     });
 
-    // 중복 제거
     const uniqueArticles = [...new Set(articles)];
-    
     if (uniqueArticles.length === 0) {
-      console.log('크롤링된 기사가 없습니다.');
+      console.log('크롤링된 기사 없음');
+      fs.writeFileSync(dataPath, JSON.stringify(localData, null, 2), 'utf8');
       return;
     }
 
     const today = new Date().toISOString().split('T')[0];
-    const rawDataText = uniqueArticles.join('\n');
 
-    console.log('Gemini AI에게 데이터 분석 및 행사 요소 추출 요청 중...');
-
-    // 3. Gemini AI 프롬프트 (관련된 최대 2개의 행사를 뽑아달라고 요청)
     const geminiPrompt = `다음은 '송파소식' 웹진의 이번 달 기사 목록입니다.
 이 중에서 "문화, 공연, 행사, 축제"와 관련된 가장 중요한 기사 최대 2개를 골라 JSON 배열 형태로 정보를 추출해줘.
 없으면 빈 배열 [] 을 출력해.
 
-반환 형식 예시 (반드시 JSON Array 형태로만 반환):
+반환 형식 (반드시 JSON Array만):
 [
   {
-    "id": "랜덤숫자6자리",
-    "name": "행사 제목 (깔끔하게 다듬어서)",
+    "name": "행사 제목 (깔끔하게)",
     "category": "행사",
-    "startDate": "YYYY-MM-DD (기사에 없으면 이번달 1일로 설정)",
-    "endDate": "YYYY-MM-DD (기사에 없으면 '상시'로 설정)",
-    "location": "장소 (기사에 없으면 '송파구 관내')",
+    "startDate": "YYYY-MM-DD (없으면 이번달 1일)",
+    "endDate": "YYYY-MM-DD (없으면 이번달 말일)",
+    "location": "장소 (없으면 '송파구 관내')",
     "target": "전체 구민",
-    "summary": "제목을 바탕으로 작성한 행사 한줄 요약 소개",
-    "link": "목록에서 가져온 해당 기사의 URL 주소"
+    "summary": "행사 한줄 요약",
+    "link": "해당 기사의 URL"
   }
 ]
-카테고리는 무조건 '행사'로 지정해.
 
-기사 원본 텍스트:
-${rawDataText}`;
+기사 목록:
+${uniqueArticles.join('\n')}`;
 
-    const geminiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_API_KEY}`;
-    
-    // 타임아웃을 피하기 위한 간단한 타임아웃 설정이 필요하면 좋을 수 있으나 생략 가능
-    const geminiResponse = await fetch(geminiUrl, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        contents: [{ parts: [{ text: geminiPrompt }] }]
-      })
-    });
-
-    if (!geminiResponse.ok) {
-      const errorDetail = await geminiResponse.text();
-      throw new Error(`Gemini API 호출 실패: ${geminiResponse.status} - ${errorDetail}`);
-    }
-
-    const geminiResult = await geminiResponse.json();
-    const aiResponseText = geminiResult.candidates[0].content.parts[0].text;
-
-    const jsonMatch = aiResponseText.match(/\[[\s\S]*\]/);
-    if (!jsonMatch) {
-      console.log('AI 응답에서 행사 정보를 찾지 못했습니다.');
-      return;
-    }
-    
-    const processedItems = JSON.parse(jsonMatch[0]);
-
-    if(processedItems.length === 0){
-      console.log('새로 추가할 맞춤 행사가 없습니다.');
-      return;
-    }
-
-    // 4. 중복 방지 (기존 events 목록의 제목, 링크와 비교)
-    let addedCount = 0;
-    const normalizeString = (str) => String(str || '').replace(/\s+/g, '').toLowerCase();
-    const existingNames = new Set(localData.events.map(e => normalizeString(e.name)));
-
-    for (const item of processedItems) {
-      const normName = normalizeString(item.name);
-      
-      let isDuplicate = false;
-      for (const en of existingNames) {
-        if (en.includes(normName) || normName.includes(en)) {
-          isDuplicate = true;
-          break;
-        }
+    const geminiRes = await fetch(
+      `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_API_KEY}`,
+      {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ contents: [{ parts: [{ text: geminiPrompt }] }] })
       }
+    );
 
-      if (!isDuplicate) {
+    if (!geminiRes.ok) throw new Error(`Gemini API 실패: ${geminiRes.status}`);
+
+    const geminiResult = await geminiRes.json();
+    const aiText = geminiResult.candidates[0].content.parts[0].text;
+    const jsonMatch = aiText.match(/\[[\s\S]*\]/);
+    if (!jsonMatch) { console.log('AI 응답에서 행사 정보 없음'); }
+    else {
+      const newItems = JSON.parse(jsonMatch[0]);
+
+      // 현재 사용 중인 이미지 URL 집합
+      const usedImages = new Set(
+        localData.events.map(e => e.image).filter(i => i && !i.includes('picsum.photos'))
+      );
+
+      const existingNames = new Set(
+        localData.events.map(e => e.name.replace(/\s+/g, '').toLowerCase())
+      );
+
+      let addedCount = 0;
+      for (const item of newItems) {
+        const normName = item.name.replace(/\s+/g, '').toLowerCase();
+        const isDupe = [...existingNames].some(n => n.includes(normName) || normName.includes(n));
+        if (isDupe) continue;
+
         item.id = `crawler-${Date.now()}-${Math.floor(Math.random() * 1000)}`;
-        // 기사 페이지에서 실제 OG 이미지 시도, 없으면 해시 기반 폴백
-        const ogImage = await fetchOgImage(item.link);
-        item.image = ogImage || `https://picsum.photos/seed/${nameHash(item.name)}/800/500`;
-        localData.events.unshift(item); // 리스트의 최상단에 배치
+
+        // 이미지: 기사 페이지에서 가져오되 이미 사용된 이미지면 hash 폴백
+        const pageImg = await fetchPageImage(item.link);
+        if (pageImg && !usedImages.has(pageImg)) {
+          item.image = pageImg;
+          usedImages.add(pageImg);
+        } else {
+          item.image = `https://picsum.photos/seed/${nameHash(item.name)}/800/500`;
+        }
+
+        localData.events.unshift(item);
+        existingNames.add(normName);
         addedCount++;
       }
-    }
 
-    if (addedCount > 0) {
-      localData.lastUpdated = today;
-      fs.writeFileSync(dataPath, JSON.stringify(localData, null, 2), 'utf8');
-      console.log(`성공! 총 ${addedCount}개의 새 행사가 송파소식지로부터 추가되었습니다.`);
-    } else {
-      console.log('추출된 모든 행사가 이미 데이터베이스에 존재합니다 (중복 패스).');
+      if (addedCount > 0) {
+        console.log(`새 행사 ${addedCount}개 추가`);
+        // 추가 후 다시 정리
+        localData.events = cleanEvents(localData.events);
+      } else {
+        console.log('추가할 새 행사 없음 (중복 또는 없음)');
+      }
     }
-
   } catch (err) {
-    console.error('크롤링 봇 실행 중 오류 발생:', err.message);
+    console.error('크롤링 오류:', err.message);
   }
+
+  const today = new Date().toISOString().split('T')[0];
+  localData.lastUpdated = today;
+  fs.writeFileSync(dataPath, JSON.stringify(localData, null, 2), 'utf8');
+  console.log(`✅ 최종 행사 수: ${localData.events.length}개 (최대 ${MAX_EVENTS}개)`);
 }
 
 main();
