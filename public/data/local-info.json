@@ -1,6 +1,30 @@
 {
   "events": [
     {
+      "name": "제81주년 광복절 기념 송파구민 대합창",
+      "category": "공연",
+      "startDate": "2026-08-15",
+      "endDate": "2026-08-15",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "제81주년 광복절을 기념하여 송파구민이 참여하는 대합창 공연이 개최될 예정이며, 현재 참여자를 모집 중입니다.",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9028&aid=17809",
+      "id": "crawler-1780287645761-509",
+      "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1779432991songpa.JPG"
+    },
+    {
+      "name": "송파구 6월 문화예술 주요 행사",
+      "category": "문화",
+      "startDate": "2026-06-01",
+      "endDate": "2026-06-30",
+      "location": "송파구 관내 (더 갤러리 호수, 석촌호수, 송파문화예술회관 등)",
+      "target": "전체 구민",
+      "summary": "6월 한 달간 더 갤러리 호수 기획 전시, 석촌호수 메이플스토리 주황버섯 전시, 송파문화예술회관 정기 공연 등 송파구의 다양한 문화예술 행사가 개최됩니다.",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9028&aid=17818",
+      "id": "crawler-1780287644184-482",
+      "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1779424834songpa.JPG"
+    },
+    {
       "id": "crawler-1779158637685-582",
       "name": "인생 한 컷을 담아주세요 (6월 테마: 호국보훈의 달, 환경의 날, 우리동네 정원)",
       "category": "행사",
@@ -3361,6 +3385,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1519340333755-56e9c1d04579?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "범죄 피해자 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-06-01",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원",
+      "target": "성폭력·아동학대·인신매매 범죄 피해 아동 및 장애인",
+      "summary": "범죄 피해 아동 및 장애인의 수사·재판상 소통 중개 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -5752,7 +5789,67 @@
       "summary": "AI, 빅데이터, 디지털 기술을 포함한 ICT 핵심 기술 개발 R&D 지원.",
       "link": "https://www.nipa.kr/main/selectMain.do",
       "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-01-1",
+      "name": "NIPA 2026년 산업 지능화 촉진을 위한 AI 융합 실증 사업",
+      "category": "AI지원",
+      "startDate": "2026-06-01",
+      "endDate": "2026-11-30",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "산업 분야별 AI 융합 기술 도입을 희망하는 기업",
+      "summary": "산업 현장의 AI 융합 기술 적용 및 실증을 지원하여 지능화 촉진",
+      "link": "https://www.nipa.kr/",
+      "image": "https://images.unsplash.com/photo-1516321165247-4aa89a48be55?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-01-2",
+      "name": "서울 AI 허브 2026년 AI 스타트업 데모데이 & 투자 유치 연계",
+      "category": "AI지원",
+      "startDate": "2026-06-01",
+      "endDate": "2026-09-30",
+      "location": "서울 AI 허브",
+      "target": "우수 AI 기술 보유 초기 및 성장 단계 스타트업",
+      "summary": "AI 스타트업의 투자 유치 기회 제공 및 투자자 매칭 지원",
+      "link": "https://www.seoulaihub.kr/",
+      "image": "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-01-3",
+      "name": "K-Startup 2026년 AI 융합형 딥테크 스타트업 사업화 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-01",
+      "endDate": "2026-12-31",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "AI 융합 딥테크 분야의 혁신적인 기술을 보유한 스타트업",
+      "summary": "AI 딥테크 스타트업의 제품/서비스 사업화 자금 및 멘토링 지원",
+      "link": "https://www.k-startup.go.kr/",
+      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-01-4",
+      "name": "중소기업 AI 기반 생산성 혁신 지원사업 (2026)",
+      "category": "AI지원",
+      "startDate": "2026-06-01",
+      "endDate": "2026-10-31",
+      "location": "중소벤처기업부",
+      "target": "AI 기술 도입을 통해 생산성 향상을 목표로 하는 중소기업",
+      "summary": "중소기업의 AI 솔루션 도입 및 활용을 통한 생산성 혁신 지원",
+      "link": "https://www.bizinfo.go.kr/",
+      "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-01-5",
+      "name": "과학기술정보통신부 2026년 차세대 AI 모델 안전성 검증 기술 개발",
+      "category": "AI지원",
+      "startDate": "2026-06-01",
+      "endDate": "2026-12-31",
+      "location": "과학기술정보통신부",
+      "target": "차세대 AI 모델 안전성 검증 기술 개발 역량을 갖춘 연구기관/기업",
+      "summary": "차세대 AI 모델의 신뢰성과 안전성을 높이는 검증 기술 개발 지원",
+      "link": "https://www.msit.go.kr/",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-05-26"
+  "lastUpdated": "2026-06-01"
 }
