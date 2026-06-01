@@ -39,8 +39,8 @@ export default function ContactPage() {
             </div>
             <div className="flex gap-4 items-start">
               <span className="shrink-0 w-20 font-bold text-gray-400">이메일</span>
-              <a href="mailto:jaeyoungpark@dooil.net" className="text-[#1D428A] font-bold hover:underline">
-                jaeyoungpark@dooil.net
+              <a href="mailto:harmann21@naver.com" className="text-[#1D428A] font-bold hover:underline">
+                harmann21@naver.com
               </a>
             </div>
             <div className="flex gap-4 items-start">
@@ -94,10 +94,10 @@ export default function ContactPage() {
             평일 기준 1~2일 내 답변드립니다.
           </p>
           <a
-            href="mailto:jaeyoungpark@dooil.net"
+            href="mailto:harmann21@naver.com"
             className="inline-block bg-[#F25C05] hover:bg-[#d94e04] text-white font-black px-8 py-3.5 rounded-xl transition-all hover:scale-105 text-sm"
           >
-            jaeyoungpark@dooil.net
+            harmann21@naver.com
           </a>
         </div>
 

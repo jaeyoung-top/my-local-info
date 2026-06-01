@@ -148,8 +148,8 @@ export default function PrivacyPage() {
             <p><strong>운영자:</strong> 개인 운영 서비스</p>
             <p>
               <strong>이메일:</strong>{" "}
-              <a href="mailto:jypark@dooil.net" className="text-[#1D428A] font-semibold underline">
-                jypark@dooil.net
+              <a href="mailto:harmann21@naver.com" className="text-[#1D428A] font-semibold underline">
+                harmann21@naver.com
               </a>
             </p>
             <p className="text-sm text-gray-500 mt-4 leading-7">
