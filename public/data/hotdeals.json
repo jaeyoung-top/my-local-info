@@ -1,6 +1,281 @@
 {
   "deals": [
     {
+      "id": "hdz_152027",
+      "title": "GAINWARD 지포스 RTX 5060 Ti 고스트 D7 8GB 게임/리뷰이벤트중",
+      "price": "519,630원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/06/01/thumb_91cffc0f7fa811fca0a846cbab6b3298.webp",
+      "category": "PC",
+      "site": "지마켓",
+      "source": "아카라이브",
+      "sourceColor": "#10B981",
+      "link": "https://arca.live/b/hotdeal/172409873?p=1",
+      "publishedAt": "2026-06-01 13:36:05",
+      "likes": 3,
+      "fetchedAt": "2026-06-01T04:38:55.465Z",
+      "priceComparison": [
+        {
+          "site": "지마켓",
+          "price": "519,630원"
+        },
+        {
+          "site": "다나와",
+          "price": "514,910원"
+        },
+        {
+          "site": "11번가",
+          "price": "524,800원"
+        },
+        {
+          "site": "쿠팡",
+          "price": "539,000원"
+        },
+        {
+          "site": "옥션",
+          "price": "545,500원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "03-10",
+            "price": 683350
+          },
+          {
+            "date": "03-17",
+            "price": 674970
+          },
+          {
+            "date": "03-24",
+            "price": 658980
+          },
+          {
+            "date": "03-31",
+            "price": 629950
+          },
+          {
+            "date": "04-07",
+            "price": 628420
+          },
+          {
+            "date": "04-14",
+            "price": 569050
+          },
+          {
+            "date": "04-21",
+            "price": 569050
+          },
+          {
+            "date": "04-28",
+            "price": 559190
+          },
+          {
+            "date": "05-05",
+            "price": 559290
+          },
+          {
+            "date": "05-12",
+            "price": 552460
+          },
+          {
+            "date": "05-19",
+            "price": 550000
+          },
+          {
+            "date": "05-26",
+            "price": 562050
+          }
+        ],
+        "minPrice": 550000,
+        "maxPrice": 683350
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_152026",
+      "title": "베이스어스 인스파이어 XC1 클립형 이어폰",
+      "price": "$64.29",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/06/01/thumb_7c239fb07837b5a709c294e054598aff.webp",
+      "category": "기타",
+      "site": "알리",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/9898687930",
+      "publishedAt": "2026-06-01 13:34:13",
+      "likes": 3,
+      "fetchedAt": "2026-06-01T04:38:55.465Z",
+      "priceComparison": [
+        {
+          "site": "알리",
+          "price": "$64.29"
+        },
+        {
+          "site": "11번가",
+          "price": "230,100원"
+        },
+        {
+          "site": "Amazon",
+          "price": "$99.99"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_152025",
+      "title": "참송이버섯 500g 파지",
+      "price": "8,910원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/06/01/thumb_ee49662e592f1cf47aff794cdfaf0906.webp",
+      "category": "식품",
+      "site": "지마켓",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/9898698787",
+      "publishedAt": "2026-06-01 13:32:21",
+      "likes": 2,
+      "fetchedAt": "2026-06-01T04:38:55.465Z",
+      "priceComparison": [
+        {
+          "site": "지마켓",
+          "price": "8,910원"
+        },
+        {
+          "site": "남도드림",
+          "price": "15,000원"
+        },
+        {
+          "site": "수리아버섯농장",
+          "price": "13,000원"
+        },
+        {
+          "site": "송정농원",
+          "price": "14,900원"
+        },
+        {
+          "site": "만개의 레시피 마켓",
+          "price": "14,800원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_152024",
+      "title": "디핀다트 구슬 아이스크림 4종 20개",
+      "price": "15,110원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/06/01/thumb_58f609a60686e558904f07c087d95974.webp",
+      "category": "식품",
+      "site": "11번가",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=112&no=708253",
+      "publishedAt": "2026-06-01 13:28:11",
+      "likes": 8,
+      "fetchedAt": "2026-06-01T04:38:55.465Z",
+      "priceComparison": [
+        {
+          "site": "11번가",
+          "price": "15,110원"
+        },
+        {
+          "site": "CJ온스타일",
+          "price": "28,000원"
+        },
+        {
+          "site": "쿠마마켓",
+          "price": "55,000원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": {
+        "text": "여름 아이들의 필수템..?개당 755원꼴4종혼합/단일 구성 가격 동일초코바나나는 사랑입니다?😅",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0601/900w_20260601132443_j85I4j3HYc.jpeg",
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0601/900w_20260601132444_LwIasPg7TY.jpeg"
+        ]
+      },
+      "shopUrl": "https://m.11st.co.kr/products/ma/1460115409"
+    },
+    {
+      "id": "hdz_152023",
+      "title": "오뚜기 컵라면 소컵 진라면 매운맛/진라면순한맛/열라면 외 7종+슈퍼적립",
+      "price": "16,400원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/06/01/thumb_408297ac9a40d87cdeeefa25da229b88.webp",
+      "category": "식품",
+      "site": "네이버멤버십",
+      "source": "아카라이브",
+      "sourceColor": "#10B981",
+      "link": "https://arca.live/b/hotdeal/172409230?p=1",
+      "publishedAt": "2026-06-01 13:26:05",
+      "likes": 4,
+      "fetchedAt": "2026-06-01T04:38:55.465Z",
+      "priceComparison": [
+        {
+          "site": "네이버멤버십",
+          "price": "16,400원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "03-10",
+            "price": 15790
+          },
+          {
+            "date": "03-17",
+            "price": 15890
+          },
+          {
+            "date": "03-24",
+            "price": 15690
+          },
+          {
+            "date": "03-31",
+            "price": 15690
+          },
+          {
+            "date": "04-07",
+            "price": 15890
+          },
+          {
+            "date": "04-14",
+            "price": 15890
+          },
+          {
+            "date": "04-21",
+            "price": 15590
+          },
+          {
+            "date": "04-28",
+            "price": 15590
+          },
+          {
+            "date": "05-05",
+            "price": 15590
+          },
+          {
+            "date": "05-12",
+            "price": 15590
+          },
+          {
+            "date": "05-19",
+            "price": 15590
+          },
+          {
+            "date": "05-26",
+            "price": 15590
+          }
+        ],
+        "minPrice": 15590,
+        "maxPrice": 15890
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
       "id": "hdz_152022",
       "title": "보랄 BLDC 스탠드 선풍기 HNZ-BLDC100MF",
       "price": "42,620원",
@@ -30806,395 +31081,7 @@
       "priceHistory": null,
       "postContent": null,
       "shopUrl": null
-    },
-    {
-      "id": "hdz_151341",
-      "title": "티플러스 알뜰폰 6GB 300분 300건 평생 990원",
-      "price": "990원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/05/31/thumb_74e653b83b6d9f4cf97774bc0a47b24b.webp",
-      "category": "기타",
-      "site": "티플러스",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/9894637370",
-      "publishedAt": "2026-05-31 12:28:15",
-      "likes": 18,
-      "fetchedAt": "2026-05-31T06:52:12.200Z",
-      "priceComparison": [
-        {
-          "site": "티플러스",
-          "price": "990원"
-        },
-        {
-          "site": "모요",
-          "price": "990원"
-        },
-        {
-          "site": "알뜰폰허브",
-          "price": "990원"
-        },
-        {
-          "site": "세모통",
-          "price": "990원"
-        },
-        {
-          "site": "폰비",
-          "price": "990원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_151340",
-      "title": "텐가 정자검사키트 ",
-      "price": "13,900원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/05/31/thumb_7df68b415b46223d8264e09bf0f89935.webp",
-      "category": "기타",
-      "site": "네이버쇼핑 ",
-      "source": "개드립",
-      "sourceColor": "#DC2626",
-      "link": "https://www.dogdrip.net/704829270",
-      "publishedAt": "2026-05-31 12:20:06",
-      "likes": 111,
-      "fetchedAt": "2026-05-31T06:52:12.200Z",
-      "priceComparison": [
-        {
-          "site": "네이버쇼핑",
-          "price": "13,900원"
-        },
-        {
-          "site": "알콘달콘",
-          "price": "21,900원"
-        },
-        {
-          "site": "다나와",
-          "price": "가격 정보 확인 불가"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "03-10",
-            "price": 18000
-          },
-          {
-            "date": "03-17",
-            "price": 18000
-          },
-          {
-            "date": "03-24",
-            "price": 17000
-          },
-          {
-            "date": "03-31",
-            "price": 18000
-          },
-          {
-            "date": "04-07",
-            "price": 18000
-          },
-          {
-            "date": "04-14",
-            "price": 18000
-          },
-          {
-            "date": "04-21",
-            "price": 16470
-          },
-          {
-            "date": "04-28",
-            "price": 17600
-          },
-          {
-            "date": "05-05",
-            "price": 17600
-          },
-          {
-            "date": "05-12",
-            "price": 17600
-          },
-          {
-            "date": "05-19",
-            "price": 18000
-          },
-          {
-            "date": "05-26",
-            "price": 17950
-          }
-        ],
-        "minPrice": 16470,
-        "maxPrice": 18000
-      },
-      "postContent": {
-        "text": "폰으로 내 병력들 사열하는 키트임 궁금하면 한번쯤 해보는거 추천.. 텐가에서 만든거임궁금하긴하네쓰고 환불 가능하나요?핫딜올라온거중 가장 충격적이다",
-        "images": [
-          "https://rc.dogdrip.net/dvs/d/25/12/17/750cbd1fae1e93c97b2858fe6e2fd8c2.gif"
-        ]
-      },
-      "shopUrl": "https://smartstore.naver.com/haveagoodfarm/products/12111349926"
-    },
-    {
-      "id": "hdz_151339",
-      "title": "프로쉬 독일 세탁세제 1.5L + 알로에 섬유제 750ml + 증정",
-      "price": "22,900원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/05/31/thumb_d64679ed21b112d35c8d183b6c7e505a.webp",
-      "category": "생활용품",
-      "site": "롯데온",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/9894494884",
-      "publishedAt": "2026-05-31 12:10:13",
-      "likes": 21,
-      "fetchedAt": "2026-05-31T06:52:12.200Z",
-      "priceComparison": [
-        {
-          "site": "롯데온",
-          "price": "22,900원"
-        },
-        {
-          "site": "프로쉬 공식몰",
-          "price": "18,200원"
-        },
-        {
-          "site": "다나와",
-          "price": "44,200원"
-        },
-        {
-          "site": "11번가",
-          "price": "75,400원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "03-10",
-            "price": 65480
-          },
-          {
-            "date": "03-17",
-            "price": 66695
-          },
-          {
-            "date": "03-24",
-            "price": 63240
-          },
-          {
-            "date": "03-31",
-            "price": 72750
-          },
-          {
-            "date": "04-07",
-            "price": 72690
-          },
-          {
-            "date": "04-14",
-            "price": 75450
-          },
-          {
-            "date": "04-21",
-            "price": 57450
-          },
-          {
-            "date": "04-28",
-            "price": 57450
-          },
-          {
-            "date": "05-05",
-            "price": 56250
-          },
-          {
-            "date": "05-12",
-            "price": 56250
-          },
-          {
-            "date": "05-19",
-            "price": 56250
-          },
-          {
-            "date": "05-26",
-            "price": 56250
-          }
-        ],
-        "minPrice": 56250,
-        "maxPrice": 75450
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_151338",
-      "title": "오뚜기 짜슐랭 145g 10봉",
-      "price": "6,420원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/05/31/thumb_d0e6216fb7193d558e1ed8f840b5a984.webp",
-      "category": "식품",
-      "site": "쿠팡",
-      "source": "아카라이브",
-      "sourceColor": "#10B981",
-      "link": "https://arca.live/b/hotdeal/172305960?p=1",
-      "publishedAt": "2026-05-31 12:10:04",
-      "likes": 22,
-      "fetchedAt": "2026-05-31T06:52:12.200Z",
-      "priceComparison": [
-        {
-          "site": "쿠팡",
-          "price": "6,420원"
-        },
-        {
-          "site": "G마켓",
-          "price": "3,000원"
-        },
-        {
-          "site": "오뚜기몰",
-          "price": "4,220원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "03-10",
-            "price": 6320
-          },
-          {
-            "date": "03-17",
-            "price": 6320
-          },
-          {
-            "date": "03-24",
-            "price": 6060
-          },
-          {
-            "date": "03-31",
-            "price": 6060
-          },
-          {
-            "date": "04-07",
-            "price": 6120
-          },
-          {
-            "date": "04-14",
-            "price": 6120
-          },
-          {
-            "date": "04-21",
-            "price": 6060
-          },
-          {
-            "date": "04-28",
-            "price": 6060
-          },
-          {
-            "date": "05-05",
-            "price": 6320
-          },
-          {
-            "date": "05-12",
-            "price": 6230
-          },
-          {
-            "date": "05-19",
-            "price": 6180
-          },
-          {
-            "date": "05-26",
-            "price": 6180
-          }
-        ],
-        "minPrice": 6060,
-        "maxPrice": 6320
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_151337",
-      "title": "오뚜기 짜슐랭 145g, 10개, (5개입 X 2팩)",
-      "price": "6,420원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/05/31/thumb_a75687799a0bd0ca3a1b37328d27ec94.webp",
-      "category": "식품",
-      "site": "쿠팡",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/9894606821",
-      "publishedAt": "2026-05-31 12:08:08",
-      "likes": 12,
-      "fetchedAt": "2026-05-31T06:52:12.200Z",
-      "priceComparison": [
-        {
-          "site": "쿠팡",
-          "price": "6,420원"
-        },
-        {
-          "site": "다나와(집계)",
-          "price": "6,690원"
-        },
-        {
-          "site": "11번가",
-          "price": "확인됨"
-        },
-        {
-          "site": "오뚜기몰",
-          "price": "4,220원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "03-10",
-            "price": 6320
-          },
-          {
-            "date": "03-17",
-            "price": 6320
-          },
-          {
-            "date": "03-24",
-            "price": 6060
-          },
-          {
-            "date": "03-31",
-            "price": 6060
-          },
-          {
-            "date": "04-07",
-            "price": 6120
-          },
-          {
-            "date": "04-14",
-            "price": 6120
-          },
-          {
-            "date": "04-21",
-            "price": 6060
-          },
-          {
-            "date": "04-28",
-            "price": 6060
-          },
-          {
-            "date": "05-05",
-            "price": 6320
-          },
-          {
-            "date": "05-12",
-            "price": 6230
-          },
-          {
-            "date": "05-19",
-            "price": 6180
-          },
-          {
-            "date": "05-26",
-            "price": 6180
-          }
-        ],
-        "minPrice": 6060,
-        "maxPrice": 6320
-      },
-      "postContent": null,
-      "shopUrl": null
     }
   ],
-  "lastUpdated": "2026-06-01T04:23:07.426Z"
+  "lastUpdated": "2026-06-01T04:38:58.005Z"
 }

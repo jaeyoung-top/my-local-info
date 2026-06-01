@@ -13,6 +13,30 @@
       "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1779432991songpa.JPG"
     },
     {
+      "name": "송파문화예술회관 6월 정기 공연",
+      "category": "공연",
+      "startDate": "2026-06-01",
+      "endDate": "2026-06-30",
+      "location": "송파문화예술회관",
+      "target": "전체 구민",
+      "summary": "송파문화예술회관에서 6월 한 달간 펼쳐지는 정기 공연",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9028&aid=17818",
+      "id": "crawler-1780288625475-427",
+      "image": "https://picsum.photos/seed/508432/800/500"
+    },
+    {
+      "name": "석촌호수 메이플스토리 주황버섯 행사",
+      "category": "축제",
+      "startDate": "2026-06-01",
+      "endDate": "2026-06-30",
+      "location": "석촌호수",
+      "target": "전체 구민",
+      "summary": "석촌호수에 인기 게임 캐릭터 '주황버섯'이 찾아와 다채로운 문화 행사 진행",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9028&aid=17818",
+      "id": "crawler-1780288624004-645",
+      "image": "https://picsum.photos/seed/893276/800/500"
+    },
+    {
       "name": "송파구 6월 문화예술 주요 행사",
       "category": "문화",
       "startDate": "2026-06-01",
@@ -3398,6 +3422,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "admin",
       "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "범죄 피해 아동 및 장애인 진술조력 지원",
+      "category": "혜택",
+      "startDate": "2026-06-01",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원 등 수사·재판기관",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "범죄 피해 아동 및 장애인의 수사·재판상 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1519340333755-56e9c1d04579?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -5849,6 +5886,66 @@
       "summary": "차세대 AI 모델의 신뢰성과 안전성을 높이는 검증 기술 개발 지원",
       "link": "https://www.msit.go.kr/",
       "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-01-1",
+      "name": "분산 학습 기반 AI 기술 및 보안 솔루션 개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-01",
+      "endDate": "2027-05-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI 기술 개발 기업 및 연구기관",
+      "summary": "분산 학습 AI 기술 및 데이터 보안 솔루션 개발 지원",
+      "link": "https://www.nipa.kr",
+      "image": "https://images.unsplash.com/photo-1488229297570-58520851e868?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-01-2",
+      "name": "서울 AI 허브 AI 윤리 및 법규 준수 컨설팅 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-01",
+      "endDate": "상시",
+      "location": "서울 AI 허브",
+      "target": "AI 스타트업 및 중소기업",
+      "summary": "AI 서비스 개발 및 운영을 위한 윤리·법규 준수 컨설팅 제공",
+      "link": "https://seoulaihub.kr",
+      "image": "https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-01-3",
+      "name": "K-Startup 전통산업 AI 융합 스타트업 액셀러레이션",
+      "category": "AI지원",
+      "startDate": "2026-06-01",
+      "endDate": "2027-02-28",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "전통 산업 AI 융합 솔루션 스타트업",
+      "summary": "전통 산업의 AI 융합 디지털 전환을 위한 스타트업 육성",
+      "link": "https://www.k-startup.go.kr",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-01-4",
+      "name": "중소기업 간 데이터 공유 및 AI 협력 플랫폼 구축 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-01",
+      "endDate": "2026-11-30",
+      "location": "중소벤처기업부",
+      "target": "중소기업 협업체 및 컨소시엄",
+      "summary": "중소기업 데이터 공유 환경 조성 및 AI 기반 협력 플랫폼 구축",
+      "link": "https://www.bizinfo.go.kr",
+      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-01-5",
+      "name": "과학기술정보통신부 AI 경량화 및 고효율 모델 개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-01",
+      "endDate": "2027-12-31",
+      "location": "과학기술정보통신부",
+      "target": "AI 모델 개발 연구팀 및 기업",
+      "summary": "고효율 AI 모델 경량화 및 최적화 기술 개발 연구 지원",
+      "link": "https://www.msit.go.kr",
+      "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800&q=80"
     }
   ],
   "lastUpdated": "2026-06-01"
