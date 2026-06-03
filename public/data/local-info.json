@@ -13,16 +13,28 @@
       "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1779432991songpa.JPG"
     },
     {
-      "name": "송파구 청년예술인 <2026 더 임팩트>",
+      "name": "송파구 청년예술인 〈2026 더 임팩트〉",
       "category": "행사",
       "startDate": "2026-06-01",
       "endDate": "2026-06-30",
       "location": "송파구 관내",
       "target": "전체 구민",
-      "summary": "송파구 청년예술인들의 작품을 선보이는 문화예술 행사로, 청년들의 창의적인 활동을 조명합니다.",
+      "summary": "송파구 청년 예술인들이 참여하여 문화예술의 새로운 임팩트를 선사하는 프로그램 개최 소식입니다.",
       "link": "https://songpa.newstool.co.kr/./view.php?eid=9028&aid=17813",
-      "id": "crawler-1780368569812-265",
-      "image": "https://picsum.photos/seed/514768/800/500"
+      "id": "crawler-1780455447313-432",
+      "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1779428332songpa.JPG"
+    },
+    {
+      "name": "송파구 6월 문화예술 기획 전시 및 정기 공연",
+      "category": "행사",
+      "startDate": "2026-06-01",
+      "endDate": "2026-06-30",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "6월 송파구에서 열리는 '더 갤러리 호수 6월 기획 전시', '석촌호수 메이플스토리 캐릭터 전시', '송파문화예술회관 정기 공연' 등 다양한 문화예술 행사 소식입니다.",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9028&aid=17818",
+      "id": "crawler-1780455445271-804",
+      "image": "https://picsum.photos/seed/590688/800/500"
     },
     {
       "name": "6월 송파 문화예술 행사 모음",
@@ -3485,6 +3497,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=800&q=80"
+    },
+    {
+      "id": "127000",
+      "name": "범죄 피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "상시",
+      "location": "법무부",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "범죄 피해 아동·장애인의 수사·재판상 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -6116,7 +6141,67 @@
       "summary": "AI 분야 유망 스타트업의 기술 개발, 시장 확대 및 투자 유치 등 성장 지원",
       "link": "https://www.k-startup.go.kr/",
       "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-03-1",
+      "name": "AI 융합 보안 기술 개발 및 실증 지원사업",
+      "category": "AI지원",
+      "startDate": "2026-03-01",
+      "endDate": "2026-12-31",
+      "location": "과학기술정보통신부 (주관: 한국인터넷진흥원 등)",
+      "target": "AI/보안 기술 기업, 연구기관",
+      "summary": "AI 기술을 활용한 차세대 보안 솔루션 개발 및 실증 지원",
+      "link": "https://www.msit.go.kr/",
+      "image": "https://images.unsplash.com/photo-1516321165247-4aa89a48be55?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-03-2",
+      "name": "중소기업 디지털 전환 전문인력 매칭 및 심화 컨설팅 지원",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "2026-11-30",
+      "location": "중소벤처기업부 (기업마당)",
+      "target": "디지털 전환 희망 중소기업",
+      "summary": "중소기업에 DX 전문인력을 매칭하고, 현장 맞춤형 심화 컨설팅 제공",
+      "link": "https://www.bizinfo.go.kr/",
+      "image": "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-03-3",
+      "name": "데이터 거버넌스 및 AI 윤리 체계 구축 지원사업",
+      "category": "AI지원",
+      "startDate": "2026-03-01",
+      "endDate": "2026-11-30",
+      "location": "과학기술정보통신부 (주관: NIPA, 한국데이터산업진흥원 등)",
+      "target": "AI/데이터 활용 기업 및 공공기관",
+      "summary": "AI 윤리 및 데이터 거버넌스 체계 수립 컨설팅 및 관련 솔루션 도입 지원",
+      "link": "https://www.data.go.kr/",
+      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-03-4",
+      "name": "지역 특화산업 AI/빅데이터 플랫폼 구축 및 활용 지원",
+      "category": "AI지원",
+      "startDate": "2026-05-01",
+      "endDate": "2026-12-31",
+      "location": "중소벤처기업부 (기업마당)",
+      "target": "지역 특화산업 중소기업 및 관련 기관",
+      "summary": "지역 특화산업의 디지털 전환을 위한 AI/빅데이터 플랫폼 구축 및 활용 지원",
+      "link": "https://www.bizinfo.go.kr/",
+      "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-03-5",
+      "name": "인공지능 기반 노인 돌봄 서비스 개발 및 실증 지원",
+      "category": "AI지원",
+      "startDate": "2026-03-01",
+      "endDate": "2026-12-31",
+      "location": "보건복지부 (협력: 과학기술정보통신부)",
+      "target": "AI/SW 기업, 사회적 기업, 연구기관",
+      "summary": "고령화 사회 문제 해결을 위한 AI 기반 노인 돌봄 서비스 개발 및 실증 지원",
+      "link": "https://www.mohw.go.kr/",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-06-02"
+  "lastUpdated": "2026-06-03"
 }
