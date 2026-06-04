@@ -1,6 +1,55 @@
 {
   "deals": [
     {
+      "id": "hdz_154285",
+      "title": "MB436 워치페이스 외",
+      "price": null,
+      "image": "https://image.hotdeal.zip/thumbnails/2026/06/05/thumb_5c94c12791242dbce9aef867d03eb6d6.webp",
+      "category": "게임",
+      "site": "구글플레이",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/9915013489",
+      "publishedAt": "2026-06-05 03:24:31",
+      "likes": 6,
+      "fetchedAt": "2026-06-04T19:55:54.581Z",
+      "priceComparison": [],
+      "priceHistory": null,
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_154284",
+      "title": "펩시 엑스트라 피즈 355ml 24캔 +펩시 모자",
+      "price": "13,160원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/06/05/thumb_9a9eeeecf9ccfe20eeac1d7368fce30a.webp",
+      "category": "식품",
+      "site": "네이버",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/9915001969",
+      "publishedAt": "2026-06-05 03:24:20",
+      "likes": 29,
+      "fetchedAt": "2026-06-04T19:55:54.581Z",
+      "priceComparison": [
+        {
+          "site": "네이버",
+          "price": "13,160원"
+        },
+        {
+          "site": "쿠팡",
+          "price": "12,600원"
+        },
+        {
+          "site": "지름알림",
+          "price": "15,600원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
       "id": "hdz_154283",
       "title": "다르다 피자칩 50g x 6개 ",
       "price": "5,170원",
@@ -33757,184 +33806,7 @@
         ]
       },
       "shopUrl": "https://www.lotteon.com/p/product/LO2531610319"
-    },
-    {
-      "id": "hdz_153621",
-      "title": "신라면20",
-      "price": "12,690원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/06/04/thumb_490d0e9061f66220fc45289e16d3e41f.webp",
-      "category": "식품",
-      "site": "네이버",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=112&no=708976",
-      "publishedAt": "2026-06-04 00:26:20",
-      "likes": 13,
-      "fetchedAt": "2026-06-03T18:40:37.081Z",
-      "priceComparison": [
-        {
-          "site": "네이버",
-          "price": "12,690원"
-        },
-        {
-          "site": "농심몰",
-          "price": "18,040원"
-        },
-        {
-          "site": "마켓컬리",
-          "price": "16,600원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "03-17",
-            "price": 14030
-          },
-          {
-            "date": "03-24",
-            "price": 13670
-          },
-          {
-            "date": "03-31",
-            "price": 5000
-          },
-          {
-            "date": "04-07",
-            "price": 14490
-          },
-          {
-            "date": "04-14",
-            "price": 14030
-          },
-          {
-            "date": "04-21",
-            "price": 13860
-          },
-          {
-            "date": "04-28",
-            "price": 14230
-          },
-          {
-            "date": "05-05",
-            "price": 14580
-          },
-          {
-            "date": "05-12",
-            "price": 14240
-          },
-          {
-            "date": "05-19",
-            "price": 14170
-          },
-          {
-            "date": "05-26",
-            "price": 14290
-          },
-          {
-            "date": "06-02",
-            "price": 14300
-          }
-        ],
-        "minPrice": 5000,
-        "maxPrice": 14580
-      },
-      "postContent": {
-        "text": "신라면 20개 멀티팩쿠폰적용가 12,690원https://naver.me/F6QxkUcb신라면10+안성탕면5+너구리5+짜파게티5쿠폰적용가 16,900원https://naver.me/FivkSkXd",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0604/900w_20260604002428_Nje6QwjLUU.jpg"
-        ]
-      },
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_153620",
-      "title": "농심육개장사발면 24입",
-      "price": "15,810원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/06/04/thumb_2b779d01cc1c979e055a8db257acd534.webp",
-      "category": "식품",
-      "site": "네이버",
-      "source": "아카라이브",
-      "sourceColor": "#10B981",
-      "link": "https://arca.live/b/hotdeal/172684149?p=1",
-      "publishedAt": "2026-06-04 00:26:05",
-      "likes": 11,
-      "fetchedAt": "2026-06-03T18:40:37.081Z",
-      "priceComparison": [
-        {
-          "site": "네이버",
-          "price": "15,810원"
-        },
-        {
-          "site": "쿠팡",
-          "price": "19,320원"
-        },
-        {
-          "site": "11번가",
-          "price": "24,700원"
-        },
-        {
-          "site": "코스트코",
-          "price": "22,990원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "03-17",
-            "price": 16900
-          },
-          {
-            "date": "03-24",
-            "price": 16770
-          },
-          {
-            "date": "03-31",
-            "price": 16830
-          },
-          {
-            "date": "04-07",
-            "price": 16900
-          },
-          {
-            "date": "04-14",
-            "price": 16900
-          },
-          {
-            "date": "04-21",
-            "price": 16720
-          },
-          {
-            "date": "04-28",
-            "price": 16720
-          },
-          {
-            "date": "05-05",
-            "price": 16720
-          },
-          {
-            "date": "05-12",
-            "price": 14430
-          },
-          {
-            "date": "05-19",
-            "price": 14730
-          },
-          {
-            "date": "05-26",
-            "price": 16900
-          },
-          {
-            "date": "06-02",
-            "price": 16900
-          }
-        ],
-        "minPrice": 14430,
-        "maxPrice": 16900
-      },
-      "postContent": null,
-      "shopUrl": null
     }
   ],
-  "lastUpdated": "2026-06-04T17:39:46.828Z"
+  "lastUpdated": "2026-06-04T19:55:56.102Z"
 }
