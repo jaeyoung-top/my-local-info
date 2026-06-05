@@ -1,6 +1,44 @@
 {
   "deals": [
     {
+      "id": "hdz_154443",
+      "title": "지오다노 변우석 코튼 버뮤다 반바지 ",
+      "price": "17,300원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/06/05/thumb_f4ebf91920309b6b486997d70948354b.webp",
+      "category": "의류",
+      "site": "공홈 ",
+      "source": "개드립",
+      "sourceColor": "#DC2626",
+      "link": "https://www.dogdrip.net/705862053",
+      "publishedAt": "2026-06-05 11:40:04",
+      "likes": 4,
+      "fetchedAt": "2026-06-05T02:43:29.557Z",
+      "priceComparison": [
+        {
+          "site": "공홈",
+          "price": "17,300원"
+        },
+        {
+          "site": "지오다노공식몰",
+          "price": "17,000원"
+        },
+        {
+          "site": "롯데백화점",
+          "price": "27,000원"
+        },
+        {
+          "site": "갤러리아백화점",
+          "price": "30,000원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": {
+        "text": "막 겁나 과한 버뮤다 아니고 좀 무난하게 입기 좋은 버뮤다핏임 면바지라 단정 깰끔한거ㅇㅇ 컬러 선택폭 많고 사이즈도 36까지",
+        "images": []
+      },
+      "shopUrl": "https://www.giordano.co.kr/shop/detail.php?pno=1E89F3F902160FEA876F154BF2615560&cno1=1388"
+    },
+    {
       "id": "hdz_154442",
       "title": "제주 신라호텔 스탠다드 더블룸",
       "price": "326,440원",
@@ -29861,47 +29899,7 @@
       "priceHistory": null,
       "postContent": null,
       "shopUrl": null
-    },
-    {
-      "id": "hdz_153801",
-      "title": "르젠 24단 리모컨 BLDC 선풍기 LZDF-TR860",
-      "price": "80,550원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/06/04/thumb_acfc058331413521d68057cb4ff37ca7.webp",
-      "category": "가전",
-      "site": "롯데온",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=112&no=709064",
-      "publishedAt": "2026-06-04 11:10:12",
-      "likes": 9,
-      "fetchedAt": "2026-06-04T02:49:59.539Z",
-      "priceComparison": [
-        {
-          "site": "롯데온",
-          "price": "80,550원"
-        },
-        {
-          "site": "다나와",
-          "price": "75,990원"
-        },
-        {
-          "site": "Foshan Songi Electrical Equipment",
-          "price": "81,530원"
-        },
-        {
-          "site": "(주)이앤에스인터내셔널",
-          "price": "85,700원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": {
-        "text": "24단 BLDC모터 선풍기 스마트폰 제어 기능 및 3D입체회전 되는거네요상하/좌우/상하좌우 되는거라 할인가로 사서 쓰기 괜찮을 듯합니다",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0604/900w_20260604110850_W6tEoPvkpV.jpg"
-        ]
-      },
-      "shopUrl": "https://www.lotteon.com/p/product/LI12898795"
     }
   ],
-  "lastUpdated": "2026-06-05T02:37:19.160Z"
+  "lastUpdated": "2026-06-05T02:43:31.215Z"
 }
