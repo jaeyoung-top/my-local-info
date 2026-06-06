@@ -1,6 +1,252 @@
 {
   "deals": [
     {
+      "id": "hdz_154932",
+      "title": "스포식스 에너지 젤 청포도맛 45g 8포 + 증정",
+      "price": "13,520원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/06/06/thumb_54c6521c681741a2d1901fb0ad83c2ec.webp",
+      "category": "식품",
+      "site": "무신사",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=112&no=709532",
+      "publishedAt": "2026-06-06 11:32:14",
+      "likes": 0,
+      "fetchedAt": "2026-06-06T02:32:50.453Z",
+      "priceComparison": [
+        {
+          "site": "무신사",
+          "price": "13,520원"
+        },
+        {
+          "site": "대상웰라이프 공식몰",
+          "price": "13,900원"
+        },
+        {
+          "site": "11번가",
+          "price": "19,900원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": {
+        "text": "운동할 때 먹으면 힘나서 좋습니다 카페인 들어가있는거에요잔당감 없습니다 올프로틴 3팩 증정있어요",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0606/900w_20260606113025_3D5cBkhTMJ.jpg"
+        ]
+      },
+      "shopUrl": "https://musinsa.onelink.me/PvkC/yzeb0ron"
+    },
+    {
+      "id": "hdz_154931",
+      "title": "팔도도시락 김치 컵라면 86g, 24개",
+      "price": "14,580원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/06/06/thumb_603dfd274aac82c1a506c50caf04d110.webp",
+      "category": "식품",
+      "site": "쿠팡",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/9920580937",
+      "publishedAt": "2026-06-06 11:30:11",
+      "likes": 0,
+      "fetchedAt": "2026-06-06T02:32:50.453Z",
+      "priceComparison": [
+        {
+          "site": "쿠팡",
+          "price": "14,580원"
+        },
+        {
+          "site": "조선달타운",
+          "price": "19,800원"
+        },
+        {
+          "site": "오늘 뭐먹지 가격비교",
+          "price": "17,900원"
+        },
+        {
+          "site": "다나와 통합검색",
+          "price": "21,800원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "03-17",
+            "price": 16130
+          },
+          {
+            "date": "03-24",
+            "price": 15930
+          },
+          {
+            "date": "03-31",
+            "price": 15930
+          },
+          {
+            "date": "04-07",
+            "price": 16580
+          },
+          {
+            "date": "04-14",
+            "price": 16090
+          },
+          {
+            "date": "04-21",
+            "price": 15810
+          },
+          {
+            "date": "04-28",
+            "price": 16390
+          },
+          {
+            "date": "05-05",
+            "price": 16380
+          },
+          {
+            "date": "05-12",
+            "price": 16040
+          },
+          {
+            "date": "05-19",
+            "price": 16140
+          },
+          {
+            "date": "05-26",
+            "price": 16240
+          },
+          {
+            "date": "06-02",
+            "price": 16210
+          }
+        ],
+        "minPrice": 15810,
+        "maxPrice": 16580
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_154930",
+      "title": "삼원농산 영양10곡 4kg",
+      "price": "7,990원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/06/06/thumb_9420c68cbec682dc028972491ea8a3b4.webp",
+      "category": "식품",
+      "site": "네이버",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=112&no=709531",
+      "publishedAt": "2026-06-06 11:30:11",
+      "likes": 0,
+      "fetchedAt": "2026-06-06T02:32:50.453Z",
+      "priceComparison": [
+        {
+          "site": "네이버",
+          "price": "7,990원"
+        },
+        {
+          "site": "다나와",
+          "price": "8,290원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "03-17",
+            "price": 11790
+          },
+          {
+            "date": "03-24",
+            "price": 11790
+          },
+          {
+            "date": "03-31",
+            "price": 11790
+          },
+          {
+            "date": "04-07",
+            "price": 11790
+          },
+          {
+            "date": "04-14",
+            "price": 11790
+          },
+          {
+            "date": "04-21",
+            "price": 11790
+          },
+          {
+            "date": "04-28",
+            "price": 11790
+          },
+          {
+            "date": "05-05",
+            "price": 11790
+          },
+          {
+            "date": "05-12",
+            "price": 11790
+          },
+          {
+            "date": "05-19",
+            "price": 11790
+          },
+          {
+            "date": "05-26",
+            "price": 11790
+          },
+          {
+            "date": "06-02",
+            "price": 11790
+          }
+        ],
+        "minPrice": 11790,
+        "maxPrice": 11790
+      },
+      "postContent": {
+        "text": "소식알림 300원 받으면 가격 나옵니다10곡 혼합이라 백미에 섞어서 밥 지으면 되겠네요2키로짜리 포대 두개로 오는 듯 합니다",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0606/900w_20260606112253_TzC4jHydmn.jpg",
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0606/900w_20260606112248_RirrIJaidS.jpg"
+        ]
+      },
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_154929",
+      "title": "Tag Connected 워치페이스 외",
+      "price": null,
+      "image": "https://image.hotdeal.zip/thumbnails/2026/06/06/thumb_ce2c7d44c14a7117b37363b5a7653f26.webp",
+      "category": "게임",
+      "site": "WearOS",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/9920571958",
+      "publishedAt": "2026-06-06 11:28:12",
+      "likes": 2,
+      "fetchedAt": "2026-06-06T02:32:50.453Z",
+      "priceComparison": [],
+      "priceHistory": null,
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_154928",
+      "title": "땡겨요 푸라닭 6천원 할인",
+      "price": null,
+      "image": "https://image.hotdeal.zip/thumbnails/2026/06/06/thumb_5af5f7f53a590452511e72ca2863e087.webp",
+      "category": "기타",
+      "site": "땡겨요",
+      "source": "아카라이브",
+      "sourceColor": "#10B981",
+      "link": "https://arca.live/b/hotdeal/172927132?p=1",
+      "publishedAt": "2026-06-06 11:28:04",
+      "likes": 5,
+      "fetchedAt": "2026-06-06T02:32:50.454Z",
+      "priceComparison": [],
+      "priceHistory": null,
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
       "id": "hdz_154927",
       "title": "코코팜 피치핑크 복숭아, 340ml, 24개",
       "price": "11,800원",
@@ -25903,172 +26149,7 @@
         ]
       },
       "shopUrl": "https://service.toss.im/shopping/c/2047999817"
-    },
-    {
-      "id": "hdz_154352",
-      "title": "질레트 프로글라이드/스킨텍 면도기+날 12입",
-      "price": "31,800원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/06/05/thumb_7b4e5ec1bcfdd7d8c0c5e056732e307c.webp",
-      "category": "생활용품",
-      "site": "롯데온",
-      "source": "아카라이브",
-      "sourceColor": "#10B981",
-      "link": "https://arca.live/b/hotdeal/172813333?p=1",
-      "publishedAt": "2026-06-05 09:52:04",
-      "likes": 10,
-      "fetchedAt": "2026-06-05T02:37:09.140Z",
-      "priceComparison": [
-        {
-          "site": "롯데온",
-          "price": "31,800원"
-        },
-        {
-          "site": "지름알림",
-          "price": "33,690원"
-        },
-        {
-          "site": "11번가",
-          "price": "23,680원"
-        },
-        {
-          "site": "쿠팡 질레트 브랜드관",
-          "price": "58,420원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_154351",
-      "title": "BIOHAZARD requiem",
-      "price": "63,840원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/06/05/thumb_123e00137d9a2d6bdef90f78b852d1e1.webp",
-      "category": "게임",
-      "site": "스팀",
-      "source": "루리웹",
-      "sourceColor": "#3B82F6",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/104590?page=1",
-      "publishedAt": "2026-06-05 09:50:12",
-      "likes": 11,
-      "fetchedAt": "2026-06-05T02:37:09.140Z",
-      "priceComparison": [
-        {
-          "site": "스팀",
-          "price": "63,840원"
-        },
-        {
-          "site": "대형 PC 게임 유통몰 (예: Green Man Gaming 등)",
-          "price": "약 57,390원 (57.39 USD)"
-        },
-        {
-          "site": "키샵 (예: Driffle, G2A 등)",
-          "price": "최저 약 33,69~39.60유로/달러 수준 (환율에 따라 변동)"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": {
-        "text": "19일까지 20% 할인이라 관심있는분들 보십쇼",
-        "images": [
-          "https://i2.ruliweb.com/img/26/06/05/19e953fee4855a057.webp"
-        ]
-      },
-      "shopUrl": "https://store.steampowered.com/app/3764200/BIOHAZARD_requiem/"
-    },
-    {
-      "id": "hdz_154350",
-      "title": "월드컵 여성 샌들 젤샌들",
-      "price": "6,600원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/06/05/thumb_7e2f1d1fd57c2388eec38ed9cbdd5583.webp",
-      "category": "의류",
-      "site": "지마켓",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=112&no=709299",
-      "publishedAt": "2026-06-05 09:48:22",
-      "likes": 19,
-      "fetchedAt": "2026-06-05T02:37:09.140Z",
-      "priceComparison": [
-        {
-          "site": "지마켓",
-          "price": "6,600원"
-        },
-        {
-          "site": "11번가",
-          "price": "14,890원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": {
-        "text": "옵션 1번 10%+20%+5% 쿠폰 3개 다 적용하면 6,600원옵션 2번 메쉬 슬립온은 11,500원 가격 저렴하네요",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0605/900w_20260605094614_NDUxjDHkRX.jpg"
-        ]
-      },
-      "shopUrl": "https://item.gmarket.co.kr/Item?goodscode=1322052136"
-    },
-    {
-      "id": "hdz_154349",
-      "title": "산들한돈 1등급이상 냉장 한돈 찌개거리 2kg(500gx4팩)",
-      "price": "16,990원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/06/05/thumb_e1e34c9d250902a496894c5a81799aa8.webp",
-      "category": "식품",
-      "site": "G마켓",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=112&no=709300",
-      "publishedAt": "2026-06-05 09:48:16",
-      "likes": 20,
-      "fetchedAt": "2026-06-05T02:37:09.140Z",
-      "priceComparison": [
-        {
-          "site": "G마켓",
-          "price": "16,990원"
-        },
-        {
-          "site": "오아시스마켓",
-          "price": "20,900원"
-        },
-        {
-          "site": "쿠팡",
-          "price": "9,240원"
-        },
-        {
-          "site": "11번가",
-          "price": "14,490원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_154348",
-      "title": "VGN Dragonfly 3 Master+ 8K나노 초고속충전 유무선 잠자리 게이밍 마우스",
-      "price": "69,900원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/06/05/thumb_87c88df705bb9311cf3eb1d2b3439930.webp",
-      "category": "PC",
-      "site": "쿠팡와우",
-      "source": "아카라이브",
-      "sourceColor": "#10B981",
-      "link": "https://arca.live/b/hotdeal/172813110?p=1",
-      "publishedAt": "2026-06-05 09:48:07",
-      "likes": 40,
-      "fetchedAt": "2026-06-05T02:37:09.140Z",
-      "priceComparison": [
-        {
-          "site": "쿠팡와우",
-          "price": "69,900원"
-        },
-        {
-          "site": "Naver 쇼핑(11번가)",
-          "price": "82,210원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": null,
-      "shopUrl": null
     }
   ],
-  "lastUpdated": "2026-06-06T02:25:48.390Z"
+  "lastUpdated": "2026-06-06T02:32:52.366Z"
 }

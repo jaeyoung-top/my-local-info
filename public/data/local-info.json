@@ -13,6 +13,18 @@
       "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1779432991songpa.JPG"
     },
     {
+      "name": "6월 송파 문화예술 주요 행사",
+      "category": "문화/공연/전시",
+      "startDate": "2026-06-01",
+      "endDate": "2026-06-30",
+      "location": "송파구 관내 (더 갤러리 호수, 석촌호수, 송파문화예술회관 등)",
+      "target": "전체 구민",
+      "summary": "더 갤러리 호수 6월 기획 전시, 석촌호수 메이플스토리 캐릭터 ‘주황버섯’ 방문, 송파문화예술회관 6월 정기 공연 등 다양한 문화예술 소식.",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9028&aid=17818",
+      "id": "crawler-1780712876078-229",
+      "image": "https://picsum.photos/seed/280888/800/500"
+    },
+    {
       "name": "송파 6월 문화예술 행사: 갤러리 전시, 석촌호수 주황버섯, 송파문화예술회관 공연",
       "category": "행사",
       "startDate": "2026-06-01",
@@ -49,18 +61,6 @@
       "image": "https://picsum.photos/seed/590688/800/500"
     },
     {
-      "name": "6월 송파 문화예술 행사 모음",
-      "category": "행사",
-      "startDate": "2026-06-01",
-      "endDate": "2026-06-30",
-      "location": "송파구 관내",
-      "target": "전체 구민",
-      "summary": "더 갤러리 호수 기획 전시, 석촌호수 메이플스토리 캐릭터 전시, 송파문화예술회관 정기 공연 등 송파구 6월의 다채로운 문화예술 행사 소개.",
-      "link": "https://songpa.newstool.co.kr/./view.php?eid=9028&aid=17818",
-      "id": "crawler-1780368568141-743",
-      "image": "https://picsum.photos/seed/158536/800/500"
-    },
-    {
       "name": "문화와 예술의 향기가 더해지는 6월",
       "category": "행사",
       "startDate": "2026-06-01",
@@ -95,18 +95,6 @@
       "link": "https://songpa.newstool.co.kr/./view.php?eid=9028&aid=17818",
       "id": "crawler-1780288624004-645",
       "image": "https://picsum.photos/seed/893276/800/500"
-    },
-    {
-      "name": "송파구 6월 문화예술 주요 행사",
-      "category": "문화",
-      "startDate": "2026-06-01",
-      "endDate": "2026-06-30",
-      "location": "송파구 관내 (더 갤러리 호수, 석촌호수, 송파문화예술회관 등)",
-      "target": "전체 구민",
-      "summary": "6월 한 달간 더 갤러리 호수 기획 전시, 석촌호수 메이플스토리 주황버섯 전시, 송파문화예술회관 정기 공연 등 송파구의 다양한 문화예술 행사가 개최됩니다.",
-      "link": "https://songpa.newstool.co.kr/./view.php?eid=9028&aid=17818",
-      "id": "crawler-1780287644184-482",
-      "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1779424834songpa.JPG"
     },
     {
       "id": "crawler-1779158637685-582",
@@ -3548,6 +3536,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "성폭력, 아동학대, 인신매매등범죄 피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-06-06",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청 등 수사기관이나 법원",
+      "target": "만 19세 미만 아동 및 범죄 피해 장애인",
+      "summary": "아동·장애인 범죄 피해자의 수사·재판상 소통 중개 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -6359,7 +6360,67 @@
       "summary": "AI를 활용한 기초과학 및 융합 분야의 난제 해결 기술 개발 지원",
       "link": "https://www.msit.go.kr",
       "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-06-1",
+      "name": "NIPA 농수산식품 분야 AI·데이터 기반 디지털 전환 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-01",
+      "endDate": "2026-11-30",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "농수산식품 관련 중소·중견기업 및 스타트업",
+      "summary": "농수산식품 분야의 AI·데이터 기반 디지털 전환 솔루션 개발 및 도입 지원",
+      "link": "https://www.nipa.kr/main/main.do",
+      "image": "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-06-2",
+      "name": "과학기술정보통신부 AI 기반 재난안전 관리 시스템 개발 및 실증 지원",
+      "category": "AI지원",
+      "startDate": "2026-05-01",
+      "endDate": "2026-12-31",
+      "location": "과학기술정보통신부",
+      "target": "AI 기술 보유 기업, 연구기관, 대학",
+      "summary": "AI 기반 재난 예측 및 대응, 안전 관리 시스템 개발 및 실증 R&D 지원",
+      "link": "https://www.msit.go.kr/web/main/main.do",
+      "image": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-06-3",
+      "name": "K-Startup 기후변화 대응 AI·빅데이터 스타트업 성장 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-15",
+      "endDate": "2026-10-31",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "기후변화 대응 AI·빅데이터 기술 기반 스타트업",
+      "summary": "기후변화 대응 AI 솔루션을 개발하는 스타트업에 사업화 자금 및 멘토링 지원",
+      "link": "https://www.k-startup.go.kr/web/contents/main-page.do",
+      "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-06-4",
+      "name": "과학기술정보통신부 고령층/취약계층 디지털 역량강화 교육 및 AI 활용 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-01",
+      "endDate": "2026-12-31",
+      "location": "과학기술정보통신부",
+      "target": "고령층, 장애인 등 디지털 취약계층 대상 교육 제공 기관",
+      "summary": "고령층 및 취약계층의 AI 이해도 증진 및 활용 능력 향상을 위한 교육 지원",
+      "link": "https://www.msit.go.kr/web/main/main.do",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-06-5",
+      "name": "NIPA AI·SW 오픈소스 생태계 활성화 및 기술 확산 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-01",
+      "endDate": "2026-12-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "오픈소스 AI/SW 개발 기업, 커뮤니티, 연구기관",
+      "summary": "오픈소스 AI/SW 기술 개발 및 커뮤니티 활성화, 산업 적용 확산 지원",
+      "link": "https://www.nipa.kr/main/main.do",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-06-05"
+  "lastUpdated": "2026-06-06"
 }
