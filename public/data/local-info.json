@@ -13,6 +13,18 @@
       "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1779432991songpa.JPG"
     },
     {
+      "name": "송파 6월 문화와 예술 특집 (기획 전시, 공연 등)",
+      "category": "행사",
+      "startDate": "2026-06-01",
+      "endDate": "2026-06-30",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "6월 한 달간 더 갤러리 호수 기획 전시, 석촌호수 주황버섯 캐릭터 전시, 송파문화예술회관 정기 공연 등 송파구 전역에서 다양한 문화예술 행사가 펼쳐집니다.",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9028&aid=17818",
+      "id": "crawler-1780800334487-85",
+      "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1779424834songpa.JPG"
+    },
+    {
       "name": "6월 송파 문화예술 주요 행사",
       "category": "문화/공연/전시",
       "startDate": "2026-06-01",
@@ -3549,6 +3561,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&q=80"
+    },
+    {
+      "id": "127000",
+      "name": "범죄피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-06-07",
+      "endDate": "상시",
+      "location": "법무부",
+      "target": "범죄피해 아동 및 장애인",
+      "summary": "범죄 피해 아동 및 의사소통 어려운 장애인의 수사·재판 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1519340333755-56e9c1d04579?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -6420,7 +6445,67 @@
       "summary": "오픈소스 AI/SW 기술 개발 및 커뮤니티 활성화, 산업 적용 확산 지원",
       "link": "https://www.nipa.kr/main/main.do",
       "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-07-1",
+      "name": "NIPA AI 기반 산업 데이터 플랫폼 구축 및 활용 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-10",
+      "endDate": "2026-07-15",
+      "location": "NIPA (정보통신산업진흥원)",
+      "target": "국내 AI 및 데이터 전문 기업, 산업별 컨소시엄",
+      "summary": "산업별 AI 데이터 플랫폼 구축 및 활용 컨설팅 지원",
+      "link": "https://www.nipa.kr/biz/view.nipa?bid=1000000000001",
+      "image": "https://images.unsplash.com/photo-1516321165247-4aa89a48be55?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-07-2",
+      "name": "서울 AI 허브 AI 스타트업 해외 비즈니스 확장 멘토링 및 네트워킹",
+      "category": "AI지원",
+      "startDate": "2026-06-15",
+      "endDate": "2026-07-20",
+      "location": "서울 AI 허브",
+      "target": "글로벌 시장 진출을 목표하는 AI 기반 초기/성장 스타트업",
+      "summary": "AI 스타트업의 해외 비즈니스 확장 전략 및 글로벌 네트워크 구축 지원",
+      "link": "https://www.seoulaihub.kr/program/2026_global_biz",
+      "image": "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-07-3",
+      "name": "과학기술정보통신부 AI 기반 미래 사회문제 해결 기술 실증 사업",
+      "category": "AI지원",
+      "startDate": "2026-06-07",
+      "endDate": "2026-07-10",
+      "location": "과학기술정보통신부",
+      "target": "AI 기술을 보유한 국내 기업, 대학, 연구소 컨소시엄",
+      "summary": "AI 기술로 미래 사회문제 해결을 위한 실증 및 사업화 지원",
+      "link": "https://www.msit.go.kr/web/msit/2026_ai_soc_prob",
+      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-07-4",
+      "name": "중소벤처기업부 중소기업 맞춤형 AI 도입 컨설팅 및 솔루션 패키지 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-20",
+      "endDate": "2026-08-30",
+      "location": "중소벤처기업부 (기업마당)",
+      "target": "AI 도입을 희망하는 국내 중소기업",
+      "summary": "중소기업 비즈니스에 최적화된 AI 솔루션 도입 컨설팅 및 패키지 지원",
+      "link": "https://www.bizinfo.go.kr/cmm/fms/FileDown.do?atchFileId=FILE_000000000000010&fileSn=1",
+      "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-07-5",
+      "name": "K-Startup 창업진흥원 AI/디지털 분야 기술 창업 아이디어 고도화 멘토링",
+      "category": "AI지원",
+      "startDate": "2026-06-25",
+      "endDate": "2026-07-25",
+      "location": "K-Startup 창업진흥원",
+      "target": "AI·디지털 분야 혁신 아이디어를 가진 예비창업가 또는 초기팀",
+      "summary": "AI·디지털 기술 기반 창업 아이디어 구체화 및 사업화 멘토링 지원",
+      "link": "https://www.k-startup.go.kr/biz/v2/biz/pblanc/view.do?pblancSn=20260601-001",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-06-06"
+  "lastUpdated": "2026-06-07"
 }

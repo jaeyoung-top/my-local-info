@@ -1,6 +1,24 @@
 {
   "deals": [
     {
+      "id": "hdz_155265",
+      "title": "dravorn 워치페이스",
+      "price": null,
+      "image": "https://image.hotdeal.zip/thumbnails/2026/06/07/thumb_4e4e1e4ca1d8b1ccb62001fc2213beef.webp",
+      "category": "게임",
+      "site": "WearOS",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/9924628463",
+      "publishedAt": "2026-06-07 11:44:17",
+      "likes": 4,
+      "fetchedAt": "2026-06-07T02:49:54.672Z",
+      "priceComparison": [],
+      "priceHistory": null,
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
       "id": "hdz_155264",
       "title": "펩시콜라 제로슈거 라임 310ML 24캔",
       "price": "11,910원",
@@ -31107,91 +31125,7 @@
         ]
       },
       "shopUrl": null
-    },
-    {
-      "id": "hdz_154764",
-      "title": "바이오하자드 re:4",
-      "price": "11,200원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/06/05/thumb_72d2f5573dbe39a00920573d1aa7d6f7.webp",
-      "category": "게임",
-      "site": "psn store",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/9918752234",
-      "publishedAt": "2026-06-05 22:46:13",
-      "likes": 19,
-      "fetchedAt": "2026-06-05T14:41:32.255Z",
-      "priceComparison": [
-        {
-          "site": "psn store",
-          "price": "11,200원"
-        },
-        {
-          "site": "PSN Store",
-          "price": "17,920원"
-        },
-        {
-          "site": "Steam",
-          "price": "19,920원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "03-17",
-            "price": 32660
-          },
-          {
-            "date": "03-24",
-            "price": 33860
-          },
-          {
-            "date": "03-31",
-            "price": 42560
-          },
-          {
-            "date": "04-07",
-            "price": 44750
-          },
-          {
-            "date": "04-14",
-            "price": 41750
-          },
-          {
-            "date": "04-21",
-            "price": 35410
-          },
-          {
-            "date": "04-28",
-            "price": 34810
-          },
-          {
-            "date": "05-05",
-            "price": 34260
-          },
-          {
-            "date": "05-12",
-            "price": 30800
-          },
-          {
-            "date": "05-19",
-            "price": 29430
-          },
-          {
-            "date": "05-26",
-            "price": 29440
-          },
-          {
-            "date": "06-02",
-            "price": 29370
-          }
-        ],
-        "minPrice": 29370,
-        "maxPrice": 44750
-      },
-      "postContent": null,
-      "shopUrl": null
     }
   ],
-  "lastUpdated": "2026-06-07T02:43:17.591Z"
+  "lastUpdated": "2026-06-07T02:49:56.307Z"
 }
