@@ -3574,6 +3574,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1519340333755-56e9c1d04579?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "상시",
+      "location": "법무부",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "만 19세 미만 아동, 의사소통이 어려운 장애인 범죄 피해자의 수사·재판상 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -6505,7 +6518,67 @@
       "summary": "AI·디지털 기술 기반 창업 아이디어 구체화 및 사업화 멘토링 지원",
       "link": "https://www.k-startup.go.kr/biz/v2/biz/pblanc/view.do?pblancSn=20260601-001",
       "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-08-1",
+      "name": "AI 기반 비즈니스 모델 혁신을 위한 데이터 가치 향상 지원사업",
+      "category": "AI지원",
+      "startDate": "2026-03-15",
+      "endDate": "2026-10-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "데이터 활용 및 AI 기반 BM 혁신 희망 기업",
+      "summary": "AI 기반 비즈니스 모델 혁신을 위한 데이터 가치 평가 및 활용 컨설팅 지원",
+      "link": "https://www.nipa.kr/main/main.nipa",
+      "image": "https://images.unsplash.com/photo-1488229297570-58520851e868?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-08-2",
+      "name": "AI 기술 상용화를 위한 대기업-스타트업 공동 R&D 프로젝트 지원",
+      "category": "AI지원",
+      "startDate": "2026-05-01",
+      "endDate": "2026-12-31",
+      "location": "서울 AI 허브",
+      "target": "AI 스타트업 및 대기업 (협력 컨소시엄)",
+      "summary": "AI 스타트업과 대기업의 공동 R&D를 통한 기술 상용화 및 시장 진출 촉진",
+      "link": "https://seoulaihub.kr/ko/main",
+      "image": "https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-08-3",
+      "name": "AI 기반 스마트 시티 솔루션 스타트업 육성 프로그램",
+      "category": "AI지원",
+      "startDate": "2026-03-01",
+      "endDate": "2026-11-30",
+      "location": "K-Startup 창업진흥원",
+      "target": "AI 기반 스마트 시티 솔루션 개발 초기 스타트업",
+      "summary": "AI 기술을 활용한 스마트 시티 솔루션 개발 스타트업 발굴, 보육 및 사업화 지원",
+      "link": "https://www.k-startup.go.kr/main.do",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-08-4",
+      "name": "AI 융합 서비스 개발을 위한 개방형 데이터 플랫폼 구축 지원사업",
+      "category": "AI지원",
+      "startDate": "2026-06-01",
+      "endDate": "2026-12-31",
+      "location": "과학기술정보통신부",
+      "target": "AI 융합 서비스 개발 및 데이터 활용 기관",
+      "summary": "AI 서비스 개발에 필요한 개방형 데이터 플랫폼 구축 및 활용을 지원하여 AI 산업 생태계 강화",
+      "link": "https://www.msit.go.kr/index.do",
+      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-08-5",
+      "name": "중소기업 R&D 효율성 제고를 위한 AI 기반 기술 도입 지원사업",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "2026-12-31",
+      "location": "중소벤처기업부",
+      "target": "R&D 활동을 수행하는 중소기업",
+      "summary": "AI 기술 도입을 통해 중소기업의 R&D 기획, 수행, 관리 등 전 과정의 효율성 및 생산성 향상 지원",
+      "link": "https://www.mss.go.kr/site/smba/main.do",
+      "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-06-07"
+  "lastUpdated": "2026-06-08"
 }
