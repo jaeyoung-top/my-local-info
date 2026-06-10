@@ -1,6 +1,355 @@
 {
   "deals": [
     {
+      "id": "hdz_157896",
+      "title": "FC 26 Standard Edition",
+      "price": "6,600원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/06/11/thumb_6c8f6bbc8503877318e9c8d7c57494be.webp",
+      "category": "게임",
+      "site": "에픽게임즈",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=710897",
+      "publishedAt": "2026-06-11 04:52:11",
+      "likes": 1,
+      "fetchedAt": "2026-06-10T20:14:46.715Z",
+      "priceComparison": [
+        {
+          "site": "에픽게임즈",
+          "price": "6,600원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "03-24",
+            "price": 70030
+          },
+          {
+            "date": "03-31",
+            "price": 70890
+          },
+          {
+            "date": "04-07",
+            "price": 70890
+          },
+          {
+            "date": "04-14",
+            "price": 70890
+          },
+          {
+            "date": "04-21",
+            "price": 70300
+          },
+          {
+            "date": "04-28",
+            "price": 65300
+          },
+          {
+            "date": "05-05",
+            "price": 65290
+          },
+          {
+            "date": "05-12",
+            "price": 64800
+          },
+          {
+            "date": "05-19",
+            "price": 64800
+          },
+          {
+            "date": "05-26",
+            "price": 60910
+          },
+          {
+            "date": "06-02",
+            "price": 60910
+          },
+          {
+            "date": "06-09",
+            "price": 60260
+          }
+        ],
+        "minPrice": 60260,
+        "maxPrice": 70890
+      },
+      "postContent": {
+        "text": "2026. 6. 12. 00:00 할인 종료 EA 계정 필요",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0611/900w_20260611044731_Wn04NOwjt4.png",
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0611/900w_20260611044734_EWQYNkHKkt.png"
+        ]
+      },
+      "shopUrl": "https://store.epicgames.com/p/ea-sports-fc-26"
+    },
+    {
+      "id": "hdz_157895",
+      "title": "Dying Light 2 Stay Human: Reloaded Edition",
+      "price": "13,200원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/06/11/thumb_f6f9a035f7b1ad8e34cba42cbf32896d.webp",
+      "category": "게임",
+      "site": "steam",
+      "source": "아카라이브",
+      "sourceColor": "#10B981",
+      "link": "https://arca.live/b/hotdeal/173411209?p=1",
+      "publishedAt": "2026-06-11 03:14:06",
+      "likes": 15,
+      "fetchedAt": "2026-06-10T20:14:46.716Z",
+      "priceComparison": [
+        {
+          "site": "steam",
+          "price": "13,200원"
+        },
+        {
+          "site": "G2A",
+          "price": "$18.59 (약 25,000원)"
+        },
+        {
+          "site": "GG.deals",
+          "price": "$18.59 (약 25,000원)"
+        },
+        {
+          "site": "Instant Gaming",
+          "price": "$18.14 (약 24,500원)"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "03-24",
+            "price": 30230
+          },
+          {
+            "date": "03-31",
+            "price": 30950
+          },
+          {
+            "date": "04-07",
+            "price": 31130
+          },
+          {
+            "date": "04-14",
+            "price": 30400
+          },
+          {
+            "date": "04-21",
+            "price": 30400
+          },
+          {
+            "date": "04-28",
+            "price": 30400
+          },
+          {
+            "date": "05-05",
+            "price": 28360
+          },
+          {
+            "date": "05-12",
+            "price": 29480
+          },
+          {
+            "date": "05-19",
+            "price": 27910
+          },
+          {
+            "date": "05-26",
+            "price": 27590
+          },
+          {
+            "date": "06-02",
+            "price": 28160
+          },
+          {
+            "date": "06-09",
+            "price": 28300
+          }
+        ],
+        "minPrice": 27590,
+        "maxPrice": 31130
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_157894",
+      "title": "마라톤",
+      "price": "31,360원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/06/11/thumb_76b74d5007e7a63d4b7cbbd8e5d1b3fb.webp",
+      "category": "게임",
+      "site": "steam",
+      "source": "아카라이브",
+      "sourceColor": "#10B981",
+      "link": "https://arca.live/b/hotdeal/173411238?p=1",
+      "publishedAt": "2026-06-11 03:14:04",
+      "likes": 16,
+      "fetchedAt": "2026-06-10T20:14:46.716Z",
+      "priceComparison": [
+        {
+          "site": "steam",
+          "price": "31,360원"
+        },
+        {
+          "site": "KeysForGames",
+          "price": "13.59유로(약 20,000원대 후반, 환율 변동에 따라 달라질 수 있음)"
+        },
+        {
+          "site": "LootBar",
+          "price": "48,925원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "04-07",
+            "price": 51740
+          },
+          {
+            "date": "04-14",
+            "price": 51740
+          },
+          {
+            "date": "04-21",
+            "price": 51040
+          },
+          {
+            "date": "04-28",
+            "price": 35490
+          },
+          {
+            "date": "05-05",
+            "price": 34830
+          },
+          {
+            "date": "05-12",
+            "price": 36000
+          },
+          {
+            "date": "05-19",
+            "price": 36000
+          },
+          {
+            "date": "05-26",
+            "price": 36000
+          },
+          {
+            "date": "06-02",
+            "price": 36000
+          },
+          {
+            "date": "06-09",
+            "price": 36000
+          }
+        ],
+        "minPrice": 34830,
+        "maxPrice": 51740
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_157893",
+      "title": "Ori and the Will of the Wisps",
+      "price": "7,470원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/06/11/thumb_4796a048421fdb0d58c75a00e9f5a107.webp",
+      "category": "식품",
+      "site": "steam",
+      "source": "아카라이브",
+      "sourceColor": "#10B981",
+      "link": "https://arca.live/b/hotdeal/173411148?p=1",
+      "publishedAt": "2026-06-11 03:10:06",
+      "likes": 9,
+      "fetchedAt": "2026-06-10T20:14:46.716Z",
+      "priceComparison": [
+        {
+          "site": "steam",
+          "price": "7,470원"
+        },
+        {
+          "site": "xbox-now.com",
+          "price": "5,795원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "03-24",
+            "price": 29900
+          },
+          {
+            "date": "03-31",
+            "price": 29900
+          },
+          {
+            "date": "04-07",
+            "price": 29900
+          },
+          {
+            "date": "04-14",
+            "price": 29900
+          },
+          {
+            "date": "04-21",
+            "price": 29900
+          },
+          {
+            "date": "04-28",
+            "price": 29900
+          },
+          {
+            "date": "05-05",
+            "price": 29900
+          },
+          {
+            "date": "05-12",
+            "price": 29900
+          },
+          {
+            "date": "05-19",
+            "price": 29900
+          },
+          {
+            "date": "05-26",
+            "price": 29900
+          },
+          {
+            "date": "06-02",
+            "price": 29900
+          },
+          {
+            "date": "06-09",
+            "price": 29900
+          }
+        ],
+        "minPrice": 29900,
+        "maxPrice": 29900
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_157892",
+      "title": "대한민국vs체코 경기 결과에 따라 차등 할인",
+      "price": null,
+      "image": "https://image.hotdeal.zip/thumbnails/2026/06/11/thumb_6339f9ba415d86ed1c32d40264f06fd6.webp",
+      "category": "게임",
+      "site": "kt콘텐츠페이",
+      "source": "루리웹",
+      "sourceColor": "#3B82F6",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/104733?page=1",
+      "publishedAt": "2026-06-11 02:55:21",
+      "likes": 58,
+      "fetchedAt": "2026-06-10T20:14:46.716Z",
+      "priceComparison": [],
+      "priceHistory": null,
+      "postContent": {
+        "text": "할인은 이번주 토/일, 응모는 오늘 하루만이니 주의하세요.",
+        "images": [
+          "https://i3.ruliweb.com/img/26/06/11/19eb2a8e4c1251e4.webp"
+        ]
+      },
+      "shopUrl": "https://www.dajooda.kr/01/"
+    },
+    {
       "id": "hdz_157891",
       "title": "EA 스포츠 FC26 스탠다드 ( 에픽게임즈 )",
       "price": "6,600원",
@@ -34655,416 +35004,7 @@
         ]
       },
       "shopUrl": "https://item.gmarket.co.kr/item?goodsCode=4759665944"
-    },
-    {
-      "id": "hdz_157138",
-      "title": "기린빵 12종 10봉 3+3+4 골라담기",
-      "price": "9,944원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/06/10/thumb_9a375ec51577fe08add7e455e5e686ad.webp",
-      "category": "식품",
-      "site": "오늘의집",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/9935795639",
-      "publishedAt": "2026-06-10 00:10:23",
-      "likes": 28,
-      "fetchedAt": "2026-06-09T17:19:18.032Z",
-      "priceComparison": [
-        {
-          "site": "오늘의집",
-          "price": "9,944원"
-        },
-        {
-          "site": "G마켓",
-          "price": "9,900원"
-        },
-        {
-          "site": "롯데홈쇼핑",
-          "price": "10,040원"
-        },
-        {
-          "site": "옥션",
-          "price": "10,040원"
-        },
-        {
-          "site": "현대Hmall",
-          "price": "12,650원"
-        },
-        {
-          "site": "11번가",
-          "price": "13,070원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "03-17",
-            "price": 10060
-          },
-          {
-            "date": "03-24",
-            "price": 9950
-          },
-          {
-            "date": "03-31",
-            "price": 10090
-          },
-          {
-            "date": "04-07",
-            "price": 10090
-          },
-          {
-            "date": "04-14",
-            "price": 9920
-          },
-          {
-            "date": "04-21",
-            "price": 9860
-          },
-          {
-            "date": "04-28",
-            "price": 9870
-          },
-          {
-            "date": "05-05",
-            "price": 10090
-          },
-          {
-            "date": "05-12",
-            "price": 9870
-          },
-          {
-            "date": "05-19",
-            "price": 9870
-          },
-          {
-            "date": "05-26",
-            "price": 9860
-          },
-          {
-            "date": "06-02",
-            "price": 9860
-          }
-        ],
-        "minPrice": 9860,
-        "maxPrice": 10090
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_157137",
-      "title": "JMW M5001A PLUS PRO 고성능 항공모터 헤어 드라이기",
-      "price": "66,000원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/06/10/thumb_8d41668ae1c6c194b28096475518a841.webp",
-      "category": "가전",
-      "site": "네이버",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=710527",
-      "publishedAt": "2026-06-10 00:10:18",
-      "likes": 20,
-      "fetchedAt": "2026-06-09T17:19:18.032Z",
-      "priceComparison": [
-        {
-          "site": "네이버",
-          "price": "66,000원"
-        },
-        {
-          "site": "11번가",
-          "price": "62,100원"
-        },
-        {
-          "site": "29CM",
-          "price": "69,120원"
-        },
-        {
-          "site": "다나와",
-          "price": "85,000원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "03-17",
-            "price": 64000
-          },
-          {
-            "date": "03-24",
-            "price": 64000
-          },
-          {
-            "date": "03-31",
-            "price": 64000
-          },
-          {
-            "date": "04-07",
-            "price": 64000
-          },
-          {
-            "date": "04-14",
-            "price": 64000
-          },
-          {
-            "date": "04-21",
-            "price": 64000
-          },
-          {
-            "date": "04-28",
-            "price": 55000
-          },
-          {
-            "date": "05-05",
-            "price": 64000
-          },
-          {
-            "date": "05-12",
-            "price": 64000
-          },
-          {
-            "date": "05-19",
-            "price": 64000
-          },
-          {
-            "date": "05-26",
-            "price": 64000
-          },
-          {
-            "date": "06-02",
-            "price": 64000
-          }
-        ],
-        "minPrice": 55000,
-        "maxPrice": 64000
-      },
-      "postContent": {
-        "text": "고성능 1700w bldc모터 헤어드라이기 알림쿠폰 6.6만 최저가입니다",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0610/900w_20260610000728_uMQtPBxQOs.jpg",
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0610/900w_20260610000728_rT3pLrQ36Y.jpg"
-        ]
-      },
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_157136",
-      "title": "천하장사 오리지날 1500g 2개",
-      "price": "31,000원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/06/10/thumb_337815e94d3e82c3adadc8e701b8bd84.webp",
-      "category": "식품",
-      "site": "네이버",
-      "source": "루리웹",
-      "sourceColor": "#3B82F6",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/104699?page=1",
-      "publishedAt": "2026-06-10 00:10:13",
-      "likes": 7,
-      "fetchedAt": "2026-06-09T17:19:18.032Z",
-      "priceComparison": [
-        {
-          "site": "네이버",
-          "price": "31,000원"
-        },
-        {
-          "site": "쿠팡",
-          "price": "38,420원"
-        },
-        {
-          "site": "11번가",
-          "price": "42,400원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "03-17",
-            "price": 32430
-          },
-          {
-            "date": "03-24",
-            "price": 30090
-          },
-          {
-            "date": "03-31",
-            "price": 32030
-          },
-          {
-            "date": "04-07",
-            "price": 32430
-          },
-          {
-            "date": "04-14",
-            "price": 32430
-          },
-          {
-            "date": "04-21",
-            "price": 31830
-          },
-          {
-            "date": "04-28",
-            "price": 31830
-          },
-          {
-            "date": "05-05",
-            "price": 31830
-          },
-          {
-            "date": "05-12",
-            "price": 31830
-          },
-          {
-            "date": "05-19",
-            "price": 31830
-          },
-          {
-            "date": "05-26",
-            "price": 31830
-          },
-          {
-            "date": "06-02",
-            "price": 31830
-          }
-        ],
-        "minPrice": 30090,
-        "maxPrice": 32430
-      },
-      "postContent": {
-        "text": "하나당 15g 용량입니다. 쿠폰있는거 다 쓰시면 개당 155원 나오는데 구매전에 아래링크 들어가시면 10% 적립될거에요 체감가로는 27,900원 되겠네요 https://ofw.adison.co/u/naverpay/ads/1002663",
-        "images": [
-          "https://i3.ruliweb.com/img/26/06/10/19eace935f4588774.webp"
-        ]
-      },
-      "shopUrl": "https://ofw.adison.co/u/naverpay/ads/1002663"
-    },
-    {
-      "id": "hdz_157135",
-      "title": "BENSIMON 벤시몽 니트 카라 반팔카라티",
-      "price": "16,500원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/06/10/thumb_428f15f27db872f6ccff6373fa644a7b.webp",
-      "category": "의류",
-      "site": "지마켓",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=710528",
-      "publishedAt": "2026-06-10 00:10:10",
-      "likes": 13,
-      "fetchedAt": "2026-06-09T17:19:18.032Z",
-      "priceComparison": [
-        {
-          "site": "지마켓",
-          "price": "16,500원"
-        },
-        {
-          "site": "다나와",
-          "price": "36,000원"
-        },
-        {
-          "site": "패션플러스",
-          "price": "29,450원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": {
-        "text": "벤시몽 남자 니트 카라반팔티 15%빡세일쿠폰받으면 무배에 16,500원나옵니다 비스코스 나일론 혼방이라 착떨어지는 소재감이고가격대비 막입기 괜찮은 편입니다 스마일캐시 1155원 적립도 되네요",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0610/900w_20260610000904_4mXe5fIsbR.jpeg",
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0610/900w_20260610001132_RKnjDDnUc8.jpeg"
-        ]
-      },
-      "shopUrl": "https://item.gmarket.co.kr/Item?goodscode=4771913337"
-    },
-    {
-      "id": "hdz_157134",
-      "title": "에버라스트 S/S 의류 모음전",
-      "price": "10,240원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/06/10/thumb_206eb97fb980da70228ae348891e494e.webp",
-      "category": "의류",
-      "site": "옥션",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=710520",
-      "publishedAt": "2026-06-10 00:06:26",
-      "likes": 13,
-      "fetchedAt": "2026-06-09T17:19:18.032Z",
-      "priceComparison": [
-        {
-          "site": "옥션",
-          "price": "10,240원"
-        },
-        {
-          "site": "지마켓",
-          "price": "9,720원"
-        },
-        {
-          "site": "11번가",
-          "price": "가격 정보 미제공"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "03-17",
-            "price": 36440
-          },
-          {
-            "date": "03-24",
-            "price": 35690
-          },
-          {
-            "date": "03-31",
-            "price": 39480
-          },
-          {
-            "date": "04-07",
-            "price": 52300
-          },
-          {
-            "date": "04-14",
-            "price": 52300
-          },
-          {
-            "date": "04-21",
-            "price": 49690
-          },
-          {
-            "date": "04-28",
-            "price": 50210
-          },
-          {
-            "date": "05-05",
-            "price": 50339
-          },
-          {
-            "date": "05-12",
-            "price": 46020
-          },
-          {
-            "date": "05-19",
-            "price": 48630
-          },
-          {
-            "date": "05-26",
-            "price": 48630
-          },
-          {
-            "date": "06-02",
-            "price": 48630
-          }
-        ],
-        "minPrice": 35690,
-        "maxPrice": 52300
-      },
-      "postContent": {
-        "text": "반팔이랑 반바지, 아노락셋업 등등 있습니다 저번에 구매해보니 운동복 몇 장 갈아치울 때 괜찮습니다비싼 기능성 말고 그냥 세탁기 건조기 대충 돌려가며 입는용으로 좋을 듯 합니다",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0610/900w_20260610000359_8xbKLFIw3H.jpg",
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0610/900w_20260610000401_hxMlMO3MC2.jpg",
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0610/900w_20260610000403_1x3aeZOiLg.jpg",
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0610/900w_20260610000405_9w7kdsxbIt.jpg",
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0610/900w_20260610000407_41lM9kF0xT.jpg"
-        ]
-      },
-      "shopUrl": "https://itempage3.auction.co.kr/detailview.aspx?ItemNo=E805612037"
     }
   ],
-  "lastUpdated": "2026-06-10T17:53:27.133Z"
+  "lastUpdated": "2026-06-10T20:14:49.055Z"
 }
