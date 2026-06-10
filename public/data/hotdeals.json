@@ -1,6 +1,118 @@
 {
   "deals": [
     {
+      "id": "hdz_157408",
+      "title": "아코 5087 V3 HE 마그네틱 키보드 80% TKL",
+      "price": "43,189원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/06/10/thumb_dbc8ba8bfdb9d462f686ede10f3c623c.webp",
+      "category": "PC",
+      "site": "알리",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/9936980910",
+      "publishedAt": "2026-06-10 11:38:11",
+      "likes": 1,
+      "fetchedAt": "2026-06-10T02:38:35.763Z",
+      "priceComparison": [
+        {
+          "site": "알리",
+          "price": "43,189원"
+        },
+        {
+          "site": "알리익스프레스",
+          "price": "확인 불가(해외 직구, 배송비 별도)"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "03-24",
+            "price": 104970
+          },
+          {
+            "date": "03-31",
+            "price": 106010
+          },
+          {
+            "date": "04-07",
+            "price": 106880
+          },
+          {
+            "date": "04-14",
+            "price": 106880
+          },
+          {
+            "date": "04-21",
+            "price": 104630
+          },
+          {
+            "date": "04-28",
+            "price": 102310
+          },
+          {
+            "date": "05-05",
+            "price": 100000
+          },
+          {
+            "date": "05-12",
+            "price": 96700
+          },
+          {
+            "date": "05-19",
+            "price": 100000
+          },
+          {
+            "date": "05-26",
+            "price": 100000
+          },
+          {
+            "date": "06-02",
+            "price": 94500
+          },
+          {
+            "date": "06-09",
+            "price": 94500
+          }
+        ],
+        "minPrice": 94500,
+        "maxPrice": 106880
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_157407",
+      "title": "보꼬네 350+ 자연방목 우유로 만든 스트링치즈 200g 4팩 모짜렐라 93%",
+      "price": "19,480원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/06/10/thumb_4b871356472ed4a6273359584ba286bc.webp",
+      "category": "식품",
+      "site": "G마켓",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=710649",
+      "publishedAt": "2026-06-10 11:38:09",
+      "likes": 0,
+      "fetchedAt": "2026-06-10T02:38:35.763Z",
+      "priceComparison": [
+        {
+          "site": "G마켓",
+          "price": "19,480원"
+        },
+        {
+          "site": "11번가",
+          "price": "25,900원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": {
+        "text": "자연방목 우유로 만든 스트링치즈 200g 4팩입니다모짜렐라 93% 짜지 않고 고소한 맛이고 아이가 유치원이나 학교에 갖고 다니며 먹기 좋게 소포장 되어있습니다 스트링치즈 중에는 가장 맛있었네요",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0610/900w_20260610113715_Vo8fNmfwof.jpg"
+        ]
+      },
+      "shopUrl": "https://item.gmarket.co.kr/Item?goodscode=4700047784"
+    },
+    {
       "id": "hdz_157406",
       "title": "피코크 떡갈비 450g 6팩 총 2.7kg",
       "price": "23,840원",
@@ -32306,65 +32418,7 @@
         ]
       },
       "shopUrl": null
-    },
-    {
-      "id": "hdz_156691",
-      "title": "[카이로소프트]30주년 기념 세일",
-      "price": null,
-      "image": "https://image.hotdeal.zip/thumbnails/2026/06/09/thumb_1bf9e172d2654057d19b8199f47b4964.webp",
-      "category": "게임",
-      "site": "구글플레이",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/9932957598",
-      "publishedAt": "2026-06-09 12:12:31",
-      "likes": 52,
-      "fetchedAt": "2026-06-09T04:28:43.212Z",
-      "priceComparison": [],
-      "priceHistory": null,
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_156690",
-      "title": "엠미소페 소가죽 로퍼",
-      "price": "72,450원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/06/09/thumb_8eb66f1c60f88ec1e3440642f23aa873.webp",
-      "category": "의류",
-      "site": "롯데온",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=112&no=710319",
-      "publishedAt": "2026-06-09 12:12:15",
-      "likes": 16,
-      "fetchedAt": "2026-06-09T04:28:43.212Z",
-      "priceComparison": [
-        {
-          "site": "롯데온",
-          "price": "72,450원"
-        },
-        {
-          "site": "GS SHOP",
-          "price": "89,200원"
-        },
-        {
-          "site": "미소페 공식몰",
-          "price": "89,000원"
-        },
-        {
-          "site": "다나와",
-          "price": "77,000원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": {
-        "text": "기본디자인에 소가죽이라 가성비 괜찮아요사이즈 크게 나와서 한~두치수 다운하심 좋습니다",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0609/900w_20260609120916_0rbzahWQHF.jpeg"
-        ]
-      },
-      "shopUrl": "https://www.lotteon.com/p/product/LO2137943914"
     }
   ],
-  "lastUpdated": "2026-06-10T02:37:42.747Z"
+  "lastUpdated": "2026-06-10T02:38:38.040Z"
 }
