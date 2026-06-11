@@ -14,12 +14,12 @@ interface HeaderProps {
 const NAV_LINKS = [
   { href: "/", label: "홈", exact: true },
   { href: "/blog", label: "블로그" },
-  { href: "/hotdeal", label: "🔥 핫딜" },
   { href: "/events", label: "이번달 행사" },
   { href: "/benefits", label: "지원금·혜택" },
   { href: "/ai-support", label: "AI지원" },
   { href: "/guide", label: "생활가이드" },
   { href: "/about", label: "소개" },
+  { href: "/hotdeal", label: "🔥 핫딜" },
 ];
 
 export default function Header({
