@@ -13,6 +13,18 @@
       "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1779432991songpa.JPG"
     },
     {
+      "name": "6월 송파 문화와 예술 행사",
+      "category": "행사",
+      "startDate": "2026-06-01",
+      "endDate": "2026-06-30",
+      "location": "송파구 관내 (더 갤러리 호수, 석촌호수, 송파문화예술회관 등)",
+      "target": "전체 구민",
+      "summary": "6월 한 달간 송파구에서 열리는 더 갤러리 호수 기획 전시, 석촌호수 주황버섯 전시, 송파문화예술회관 정기 공연 등 다채로운 문화예술 행사.",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9028&aid=17818",
+      "id": "crawler-1781150284788-205",
+      "image": "https://picsum.photos/seed/997240/800/500"
+    },
+    {
       "name": "송파 6월 문화와 예술 특집 (기획 전시, 공연 등)",
       "category": "행사",
       "startDate": "2026-06-01",
@@ -3600,6 +3612,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "admin",
       "image": "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "범죄 피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-06-11",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원 등 수사기관",
+      "target": "만 19세 미만 아동 및 장애인 범죄 피해자",
+      "summary": "범죄 피해 아동 및 장애인의 수사·재판 진술 중개 및 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -6651,6 +6676,66 @@
       "summary": "AI와 블록체인 기술을 결합한 혁신적인 비즈니스 모델을 가진 스타트업 발굴 및 육성",
       "link": "https://www.k-startup.go.kr/",
       "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-11-1",
+      "name": "NIPA AI 기반 엣지 컴퓨팅 기술 개발 및 실증 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-03",
+      "endDate": "2026-11-30",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "국내 AI 기술 기업 및 연구기관",
+      "summary": "엣지 AI 기술 개발 및 산업 현장 실증을 위한 자금 및 기술 지원",
+      "link": "https://www.nipa.kr",
+      "image": "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-11-2",
+      "name": "서울 AI 허브 생성형 AI 스타트업 특화 액셀러레이션",
+      "category": "AI지원",
+      "startDate": "2026-06-17",
+      "endDate": "2026-10-31",
+      "location": "서울 AI 허브",
+      "target": "생성형 AI 기술 보유 초기 스타트업",
+      "summary": "생성형 AI 스타트업의 BM 고도화, 투자 유치, 시장 검증 지원",
+      "link": "https://www.seoulaihub.kr",
+      "image": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-11-3",
+      "name": "K-Startup 퀀텀 컴퓨팅 기반 AI 스타트업 육성 프로그램",
+      "category": "AI지원",
+      "startDate": "2026-06-24",
+      "endDate": "2026-09-15",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "퀀텀 컴퓨팅 활용 AI 기술 창업기업",
+      "summary": "퀀텀 AI 분야 혁신 기술 스타트업 발굴 및 사업화 지원",
+      "link": "https://www.k-startup.go.kr",
+      "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-11-4",
+      "name": "중소기업 디지털 공급망 보안 강화를 위한 AI 솔루션 도입 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-01",
+      "endDate": "2026-12-31",
+      "location": "중소벤처기업부 (기업마당)",
+      "target": "중소기업",
+      "summary": "AI 기반 공급망 보안 솔루션 도입을 위한 비용 및 컨설팅 지원",
+      "link": "https://www.bizinfo.go.kr",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-11-5",
+      "name": "과학기술정보통신부 AI 기반 멀티모달 데이터 처리 원천기술 개발",
+      "category": "AI지원",
+      "startDate": "2026-06-10",
+      "endDate": "2027-05-31",
+      "location": "과학기술정보통신부",
+      "target": "AI R&D 역량 보유 대학, 연구기관, 기업 컨소시엄",
+      "summary": "복합 데이터(텍스트, 이미지, 음성 등) 처리 AI 원천기술 개발 연구비 지원",
+      "link": "https://www.msit.go.kr",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
     }
   ],
   "lastUpdated": "2026-06-11"
