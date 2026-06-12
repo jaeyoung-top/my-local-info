@@ -1,6 +1,397 @@
 {
   "deals": [
     {
+      "id": "hdz_158784",
+      "title": "3초떡볶이 보통맛 7팩",
+      "price": "9,900원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/06/12/thumb_05ff044e555148d01467b8810fc54ec0.webp",
+      "category": "식품",
+      "site": "11번가",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=711331",
+      "publishedAt": "2026-06-12 11:50:09",
+      "likes": 1,
+      "fetchedAt": "2026-06-12T02:51:19.836Z",
+      "priceComparison": [
+        {
+          "site": "11번가",
+          "price": "9,900원"
+        },
+        {
+          "site": "CJ온스타일",
+          "price": "15,900원"
+        },
+        {
+          "site": "GS SHOP",
+          "price": "17,400원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "03-24",
+            "price": 9890
+          },
+          {
+            "date": "03-31",
+            "price": 9890
+          },
+          {
+            "date": "04-07",
+            "price": 9890
+          },
+          {
+            "date": "04-14",
+            "price": 9890
+          },
+          {
+            "date": "04-21",
+            "price": 9890
+          },
+          {
+            "date": "04-28",
+            "price": 9890
+          },
+          {
+            "date": "05-05",
+            "price": 9890
+          },
+          {
+            "date": "05-12",
+            "price": 10430
+          },
+          {
+            "date": "05-19",
+            "price": 11290
+          },
+          {
+            "date": "05-26",
+            "price": 11290
+          },
+          {
+            "date": "06-02",
+            "price": 11300
+          },
+          {
+            "date": "06-09",
+            "price": 11290
+          }
+        ],
+        "minPrice": 9890,
+        "maxPrice": 11300
+      },
+      "postContent": {
+        "text": "별로 안맵고 맛괜찮았던거 같아서 이번에 추가구매",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0612/20260612114745_33vuu8T3Vr.png"
+        ]
+      },
+      "shopUrl": "https://www.11st.co.kr/products/5969929279?trTypeCd=03&trCtgrNo=2151825"
+    },
+    {
+      "id": "hdz_158783",
+      "title": "몬스터 에너지 울트라 + 바이올렛 355ml 48캔 (각 24캔)",
+      "price": "54,240원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/06/12/thumb_946e283403f108f40e7fdb0b9513fff8.webp",
+      "category": "식품",
+      "site": "지마켓",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/9945375311",
+      "publishedAt": "2026-06-12 11:48:09",
+      "likes": 2,
+      "fetchedAt": "2026-06-12T02:51:19.837Z",
+      "priceComparison": [
+        {
+          "site": "지마켓",
+          "price": "54,240원"
+        },
+        {
+          "site": "다나와 최저가",
+          "price": "58,160원"
+        },
+        {
+          "site": "쿠팡",
+          "price": "64,700원"
+        },
+        {
+          "site": "11번가",
+          "price": "75,430원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_158782",
+      "title": "갤럭시워치 멀티 3in1 무선충전기 FC31G ",
+      "price": "18,900원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/06/12/thumb_cc17d6ed4afcb6744c989da53f9a14bb.webp",
+      "category": "가전",
+      "site": "토스 ",
+      "source": "개드립",
+      "sourceColor": "#DC2626",
+      "link": "https://www.dogdrip.net/707378627",
+      "publishedAt": "2026-06-12 11:45:03",
+      "likes": 17,
+      "fetchedAt": "2026-06-12T02:51:19.837Z",
+      "priceComparison": [
+        {
+          "site": "토스",
+          "price": "18,900원"
+        },
+        {
+          "site": "11번가",
+          "price": "39,800원"
+        },
+        {
+          "site": "Yes24",
+          "price": "35,900원"
+        },
+        {
+          "site": "신세계몰",
+          "price": "40,000원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "03-24",
+            "price": 22010
+          },
+          {
+            "date": "03-31",
+            "price": 22900
+          },
+          {
+            "date": "04-07",
+            "price": 22900
+          },
+          {
+            "date": "04-14",
+            "price": 22900
+          },
+          {
+            "date": "04-21",
+            "price": 24180
+          },
+          {
+            "date": "04-28",
+            "price": 24180
+          },
+          {
+            "date": "05-05",
+            "price": 23960
+          },
+          {
+            "date": "05-12",
+            "price": 22790
+          },
+          {
+            "date": "05-19",
+            "price": 22790
+          },
+          {
+            "date": "05-26",
+            "price": 22790
+          },
+          {
+            "date": "06-02",
+            "price": 23620
+          },
+          {
+            "date": "06-09",
+            "price": 23400
+          }
+        ],
+        "minPrice": 22010,
+        "maxPrice": 24180
+      },
+      "postContent": {
+        "text": "폰이랑 워치 버즈까지 충전 한 번에 되는데 18,900원 충전 선 여러 개 책상 개더러워지는데 이거 하나로 종결",
+        "images": []
+      },
+      "shopUrl": "https://service.toss.im/shopping-discovery/c/8404807"
+    },
+    {
+      "id": "hdz_158781",
+      "title": "아이깨끗해 시나모롤 순 4.5L+490ml",
+      "price": "18,990원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/06/12/thumb_da6b2b0bab4fe4e67c23a3a129b6a522.webp",
+      "category": "생활용품",
+      "site": "롯데온",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/9945359037",
+      "publishedAt": "2026-06-12 11:44:10",
+      "likes": 1,
+      "fetchedAt": "2026-06-12T02:51:19.837Z",
+      "priceComparison": [
+        {
+          "site": "롯데온",
+          "price": "18,990원"
+        },
+        {
+          "site": "11번가",
+          "price": "25,400원"
+        },
+        {
+          "site": "쇼핑엔티",
+          "price": "36,360원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "03-24",
+            "price": 24900
+          },
+          {
+            "date": "03-31",
+            "price": 25900
+          },
+          {
+            "date": "04-07",
+            "price": 27900
+          },
+          {
+            "date": "04-14",
+            "price": 24900
+          },
+          {
+            "date": "04-21",
+            "price": 24900
+          },
+          {
+            "date": "04-28",
+            "price": 24900
+          },
+          {
+            "date": "05-05",
+            "price": 24900
+          },
+          {
+            "date": "05-12",
+            "price": 24900
+          },
+          {
+            "date": "05-19",
+            "price": 24900
+          },
+          {
+            "date": "05-26",
+            "price": 26900
+          },
+          {
+            "date": "06-02",
+            "price": 24900
+          },
+          {
+            "date": "06-09",
+            "price": 23900
+          }
+        ],
+        "minPrice": 23900,
+        "maxPrice": 27900
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_158780",
+      "title": "[11번가] 9800X3D RX9070XT 32G 1TB 완본체",
+      "price": "2,375,650원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/06/12/thumb_0ecf5e66ca6400a463f68dd3992e6460.webp",
+      "category": "PC",
+      "site": "11번가",
+      "source": "퀘이사존",
+      "sourceColor": "#7C3AED",
+      "link": "https://quasarzone.com/bbs/qb_saleinfo/views/1960863",
+      "publishedAt": "2026-06-12 11:44:05",
+      "likes": 7,
+      "fetchedAt": "2026-06-12T02:51:19.837Z",
+      "priceComparison": [
+        {
+          "site": "11번가",
+          "price": "2,375,650원"
+        },
+        {
+          "site": "하이마트",
+          "price": "2,239,680원"
+        },
+        {
+          "site": "하이마트",
+          "price": "2,417,240원"
+        },
+        {
+          "site": "컴퓨존",
+          "price": "3,088,000원"
+        },
+        {
+          "site": "피씨스토어",
+          "price": "3,838,960원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "03-24",
+            "price": 3838960
+          },
+          {
+            "date": "03-31",
+            "price": 3758200
+          },
+          {
+            "date": "04-07",
+            "price": 3658920
+          },
+          {
+            "date": "04-14",
+            "price": 3655440
+          },
+          {
+            "date": "04-21",
+            "price": 3631990
+          },
+          {
+            "date": "04-28",
+            "price": 3630560
+          },
+          {
+            "date": "05-05",
+            "price": 3629990
+          },
+          {
+            "date": "05-12",
+            "price": 3494400
+          },
+          {
+            "date": "05-19",
+            "price": 3513330
+          },
+          {
+            "date": "05-26",
+            "price": 3513330
+          },
+          {
+            "date": "06-02",
+            "price": 3523600
+          },
+          {
+            "date": "06-09",
+            "price": 3473300
+          }
+        ],
+        "minPrice": 3473300,
+        "maxPrice": 3838960
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
       "id": "hdz_158779",
       "title": "제주 미니 밤호박 단호박 보우짱 로열과 1.5kg",
       "price": "8,980원",
@@ -22324,234 +22715,7 @@
       },
       "postContent": null,
       "shopUrl": null
-    },
-    {
-      "id": "hdz_158137",
-      "title": "PS5/NS 파판택 택틱스 이발리스 크로니클즈",
-      "price": null,
-      "image": null,
-      "category": "게임",
-      "site": "게임S/W",
-      "source": "루리웹",
-      "sourceColor": "#3B82F6",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/104740?page=1",
-      "publishedAt": "2026-06-11 12:00:23",
-      "likes": 25,
-      "fetchedAt": "2026-06-11T03:58:59.380Z",
-      "priceComparison": [],
-      "priceHistory": null,
-      "postContent": {
-        "text": "FINAL FANTASY TACTICS - The Ivalice Chronicles(한국어판) 특별 사양 컬렉터스 BOX 예약 판매 6월 11일(목) 시작! https://www.bandainamcoent.asia/ko-kr/news/the-pre-order-of-final-fantasy-tactics-the-ivalice-chronicles-collecters-box-will-start-on-260611 파이널 판타지 택틱스 - 이발리스 크로니클즈 한국어판 특별 사양 컬렉터스 BOX 예약 판매 11일(목) 시작 https://bbs.ruliweb.com/news/read/225654 PS5 파이널 판타지 택틱스 이발리스 크로니클즈 컬렉터스 박스 / 230,600원 NS1 파이널 판타지 택틱스 이발리스 크로니클즈 컬렉터스 박스 / 230,600원 PS5 파이널 판타지 택틱스 이발리스 크로니클즈 예약판 30% 할인 / 41,860원 NS1 파이널 판타지 택틱스 이발리스 크로니클즈 예약판 30% 할인 / 41,860원 발매 일자 : 2026년 06월 17일 (수) 오후 03시 예판 예정",
-        "images": [
-          "https://i2.ruliweb.com/img/26/06/11/19eb4c955a7c444.webp"
-        ]
-      },
-      "shopUrl": "https://www.bandainamcoent.asia/ko-kr/news/the-pre-order-of-final-fantasy-tactics-the-ivalice-chronicles-collecters-box-will-start-on-260611"
-    },
-    {
-      "id": "hdz_158136",
-      "title": "신비복숭아 신선 천도 복숭아 딱딱이 1kg",
-      "price": "9,900원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/06/11/thumb_db29aad74191ec5c45ee25d54d8c56ff.webp",
-      "category": "식품",
-      "site": "네이버",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=711007",
-      "publishedAt": "2026-06-11 12:00:13",
-      "likes": 16,
-      "fetchedAt": "2026-06-11T03:58:59.380Z",
-      "priceComparison": [
-        {
-          "site": "네이버",
-          "price": "9,900원"
-        },
-        {
-          "site": "TaczoMarket",
-          "price": "19,900원"
-        },
-        {
-          "site": "민주농원",
-          "price": "19,700원"
-        },
-        {
-          "site": "CJONSTYLE",
-          "price": "29,900원"
-        },
-        {
-          "site": "시골청년 농장",
-          "price": "6,900원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": {
-        "text": "요즘 복숭아 예약판매가 많은데 이건 당일 출고입니다. 다른 곳은 1kg 6~14과 이런식으로 되어 있는데 여기는 사이즈별로 구분되어 큰 것을 찾는 사람에게 좋은 것 같습니다.",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0611/900w_20260611115917_mBysRJgFWq.jpg",
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0611/900w_20260611115919_9zkSO034n3.jpg"
-        ]
-      },
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_158135",
-      "title": "애플펜슬 2세대 MU8F2AM/A 정품 미개봉",
-      "price": "91,940원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/06/11/thumb_4456274f49f87eebdad04e28a7b1dc0f.webp",
-      "category": "기타",
-      "site": "지마켓",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/9940946429",
-      "publishedAt": "2026-06-11 11:58:27",
-      "likes": 19,
-      "fetchedAt": "2026-06-11T03:58:59.380Z",
-      "priceComparison": [
-        {
-          "site": "지마켓",
-          "price": "91,940원"
-        },
-        {
-          "site": "11번가",
-          "price": "103,050원"
-        },
-        {
-          "site": "네이버 파워셀러(뉴퍼마켓)",
-          "price": "89,000원"
-        },
-        {
-          "site": "個人 판매 사이트(블랙박스레드)",
-          "price": "109,000원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "03-24",
-            "price": 185250
-          },
-          {
-            "date": "03-31",
-            "price": 185250
-          },
-          {
-            "date": "04-07",
-            "price": 194990
-          },
-          {
-            "date": "04-14",
-            "price": 171100
-          },
-          {
-            "date": "04-21",
-            "price": 185250
-          },
-          {
-            "date": "04-28",
-            "price": 185250
-          },
-          {
-            "date": "05-05",
-            "price": 179150
-          },
-          {
-            "date": "05-12",
-            "price": 179150
-          },
-          {
-            "date": "05-19",
-            "price": 191990
-          },
-          {
-            "date": "05-26",
-            "price": 190900
-          },
-          {
-            "date": "06-02",
-            "price": 183300
-          },
-          {
-            "date": "06-09",
-            "price": 175000
-          }
-        ],
-        "minPrice": 171100,
-        "maxPrice": 194990
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_158134",
-      "title": "농심 누룽지팝, 142g, 1개",
-      "price": "2,580원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/06/11/thumb_aa5214adbe9364143c54c70567e58303.webp",
-      "category": "식품",
-      "site": "쿠팡",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/9940953951",
-      "publishedAt": "2026-06-11 11:58:18",
-      "likes": 16,
-      "fetchedAt": "2026-06-11T03:58:59.380Z",
-      "priceComparison": [
-        {
-          "site": "쿠팡",
-          "price": "2,580원"
-        },
-        {
-          "site": "마켓컬리",
-          "price": "2,580원"
-        },
-        {
-          "site": "농심몰",
-          "price": "2,640원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_158133",
-      "title": "국내산 대추 방울 토마토 4번과 2kg",
-      "price": "6,500원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/06/11/thumb_e0ec763e11467934f6bcdd3c2bcc576a.webp",
-      "category": "식품",
-      "site": "토스쇼핑",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=711006",
-      "publishedAt": "2026-06-11 11:56:12",
-      "likes": 4,
-      "fetchedAt": "2026-06-11T03:58:59.567Z",
-      "priceComparison": [
-        {
-          "site": "토스쇼핑",
-          "price": "6,500원"
-        },
-        {
-          "site": "메가마트몰",
-          "price": "7,900원"
-        },
-        {
-          "site": "GS SHOP",
-          "price": "8,900원"
-        },
-        {
-          "site": "오아시스마켓",
-          "price": "38,600원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": {
-        "text": "생과일,쥬스,샐러드 등 다양하게 먹을 수 있고한입 사이즈로 먹기 좋고 간식으로 휴대하면서 먹기 좋습니다",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0611/900w_20260611115309_IYSjmsOZbB.png"
-        ]
-      },
-      "shopUrl": "https://service.toss.im/shopping-discovery/c/273877811"
     }
   ],
-  "lastUpdated": "2026-06-12T02:43:50.767Z"
+  "lastUpdated": "2026-06-12T02:51:21.701Z"
 }

@@ -13,16 +13,16 @@
       "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1779432991songpa.JPG"
     },
     {
-      "name": "6월 송파 문화와 예술 행사",
-      "category": "행사",
+      "name": "송파 6월 문화와 예술 행사",
+      "category": "문화, 공연, 전시, 행사",
       "startDate": "2026-06-01",
       "endDate": "2026-06-30",
-      "location": "송파구 관내 (더 갤러리 호수, 석촌호수, 송파문화예술회관 등)",
+      "location": "더 갤러리 호수, 석촌호수, 송파문화예술회관",
       "target": "전체 구민",
-      "summary": "6월 한 달간 송파구에서 열리는 더 갤러리 호수 기획 전시, 석촌호수 주황버섯 전시, 송파문화예술회관 정기 공연 등 다채로운 문화예술 행사.",
+      "summary": "6월 송파구의 다양한 문화예술 행사. 더 갤러리 호수 6월 기획 전시, 석촌호수 메이플스토리 '주황버섯' 캐릭터 전시, 송파문화예술회관 6월 정기 공연 등.",
       "link": "https://songpa.newstool.co.kr/./view.php?eid=9028&aid=17818",
-      "id": "crawler-1781150284788-205",
-      "image": "https://picsum.photos/seed/997240/800/500"
+      "id": "crawler-1781232373757-476",
+      "image": "https://picsum.photos/seed/808584/800/500"
     },
     {
       "name": "송파 6월 문화와 예술 특집 (기획 전시, 공연 등)",
@@ -3625,6 +3625,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "admin",
       "image": "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "범죄 피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-06-12",
+      "endDate": "상시",
+      "location": "법무부",
+      "target": "성폭력, 아동학대, 인신매매 등 범죄 피해 아동 및 장애인",
+      "summary": "만 19세 미만 아동, 장애인 범죄 피해자의 수사·재판상 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -6736,7 +6749,67 @@
       "summary": "복합 데이터(텍스트, 이미지, 음성 등) 처리 AI 원천기술 개발 연구비 지원",
       "link": "https://www.msit.go.kr",
       "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-12-1",
+      "name": "NIPA 2026년 AI 기반 서비스형 소프트웨어(SaaS) 전환 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-10",
+      "endDate": "2026-09-30",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI 기반 SaaS 전환 희망 중소/중견 SW 기업",
+      "summary": "기존 SW 제품을 AI 기반 SaaS로 전환 및 고도화 지원",
+      "link": "https://www.nipa.kr/program/ai_saas_transform_2026",
+      "image": "https://images.unsplash.com/photo-1516321165247-4aa89a48be55?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-12-2",
+      "name": "서울 AI 허브 AI 모델 경량화 및 최적화 기술 컨설팅",
+      "category": "AI지원",
+      "startDate": "상시",
+      "endDate": "상시",
+      "location": "서울 AI 허브",
+      "target": "AI 모델 개발 스타트업 및 중소기업",
+      "summary": "AI 모델 효율성 향상을 위한 전문 경량화/최적화 컨설팅",
+      "link": "https://seoulaihub.kr/support/ai_model_optimization_consulting",
+      "image": "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-12-3",
+      "name": "K-Startup 2026년 AI 기반 디지털 워크플레이스 혁신 솔루션 개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-01",
+      "endDate": "2027-03-31",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "AI 기반 워크플레이스 솔루션 개발 스타트업",
+      "summary": "AI 기술 활용 디지털 업무 환경 혁신 솔루션 개발 지원",
+      "link": "https://www.k-startup.go.kr/program/ai_digital_workplace_2026",
+      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-12-4",
+      "name": "중소벤처기업부 AI 기반 중소기업 경영 의사결정 시스템 구축 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-20",
+      "endDate": "2027-04-30",
+      "location": "중소벤처기업부",
+      "target": "AI 기반 경영 혁신 희망 중소기업",
+      "summary": "AI 활용 경영 데이터 분석 및 의사결정 시스템 구축 지원",
+      "link": "https://www.mss.go.kr/program/ai_biz_decision_2026",
+      "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-12-5",
+      "name": "과학기술정보통신부 2026년 인공지능 기반 과학 연구 데이터 플랫폼 구축",
+      "category": "AI지원",
+      "startDate": "2026-07-01",
+      "endDate": "2027-06-30",
+      "location": "과학기술정보통신부",
+      "target": "연구기관, 대학, 기업 컨소시엄",
+      "summary": "과학 연구 데이터의 AI 기반 수집·분석·활용 플랫폼 구축",
+      "link": "https://www.msit.go.kr/program/ai_science_data_platform_2026",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-06-11"
+  "lastUpdated": "2026-06-12"
 }
