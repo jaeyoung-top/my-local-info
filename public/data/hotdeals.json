@@ -1,6 +1,218 @@
 {
   "deals": [
     {
+      "id": "hdz_159691",
+      "title": "CODE VEIN",
+      "price": "6,480원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/06/14/thumb_bfb342836726873e05adb88debb69cca.webp",
+      "category": "게임",
+      "site": "steam",
+      "source": "아카라이브",
+      "sourceColor": "#10B981",
+      "link": "https://arca.live/b/hotdeal/173719389?p=1",
+      "publishedAt": "2026-06-14 05:28:04",
+      "likes": 18,
+      "fetchedAt": "2026-06-13T21:57:14.349Z",
+      "priceComparison": [
+        {
+          "site": "steam",
+          "price": "6,480원"
+        },
+        {
+          "site": "PlayStation Store",
+          "price": "11,500원"
+        },
+        {
+          "site": "Xbox Store",
+          "price": "12,500원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "03-24",
+            "price": 11050
+          },
+          {
+            "date": "03-31",
+            "price": 11420
+          },
+          {
+            "date": "04-07",
+            "price": 11500
+          },
+          {
+            "date": "04-14",
+            "price": 11500
+          },
+          {
+            "date": "04-21",
+            "price": 10680
+          },
+          {
+            "date": "04-28",
+            "price": 11140
+          },
+          {
+            "date": "05-05",
+            "price": 9350
+          },
+          {
+            "date": "05-12",
+            "price": 8690
+          },
+          {
+            "date": "05-19",
+            "price": 8690
+          },
+          {
+            "date": "05-26",
+            "price": 8790
+          },
+          {
+            "date": "06-02",
+            "price": 8790
+          },
+          {
+            "date": "06-09",
+            "price": 8790
+          }
+        ],
+        "minPrice": 8690,
+        "maxPrice": 11500
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_159690",
+      "title": "Assassin's Creed Valhalla",
+      "price": "16,250원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/06/14/thumb_9502b7b40499d1a862c7b069648b632a.webp",
+      "category": "게임",
+      "site": "steam",
+      "source": "아카라이브",
+      "sourceColor": "#10B981",
+      "link": "https://arca.live/b/hotdeal/173719256?p=1",
+      "publishedAt": "2026-06-14 05:20:05",
+      "likes": 12,
+      "fetchedAt": "2026-06-13T21:57:14.350Z",
+      "priceComparison": [
+        {
+          "site": "steam",
+          "price": "16,250원"
+        },
+        {
+          "site": "Ubisoft Store",
+          "price": "21,500원"
+        },
+        {
+          "site": "Epic Games Store",
+          "price": "21,500원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "03-24",
+            "price": 47050
+          },
+          {
+            "date": "03-31",
+            "price": 33900
+          },
+          {
+            "date": "04-07",
+            "price": 33900
+          },
+          {
+            "date": "04-14",
+            "price": 33900
+          },
+          {
+            "date": "04-21",
+            "price": 33900
+          },
+          {
+            "date": "04-28",
+            "price": 33900
+          },
+          {
+            "date": "05-05",
+            "price": 33900
+          },
+          {
+            "date": "05-12",
+            "price": 33900
+          },
+          {
+            "date": "05-19",
+            "price": 33900
+          },
+          {
+            "date": "05-26",
+            "price": 33900
+          },
+          {
+            "date": "06-02",
+            "price": 33900
+          },
+          {
+            "date": "06-09",
+            "price": 33900
+          }
+        ],
+        "minPrice": 33900,
+        "maxPrice": 47050
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_159689",
+      "title": "이리아다 유기농 엑스트라버진 올리브오일 칼라마타 피디오 500ml",
+      "price": "7,820원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/06/14/thumb_0760f749d22050465b8cd67c92cf5448.webp",
+      "category": "식품",
+      "site": "쿠팡",
+      "source": "아카라이브",
+      "sourceColor": "#10B981",
+      "link": "https://arca.live/b/hotdeal/173718623?p=1",
+      "publishedAt": "2026-06-14 04:48:04",
+      "likes": 18,
+      "fetchedAt": "2026-06-13T21:57:14.350Z",
+      "priceComparison": [
+        {
+          "site": "쿠팡",
+          "price": "7,820원"
+        },
+        {
+          "site": "11번가",
+          "price": "28,800원"
+        },
+        {
+          "site": "유로푸드몰",
+          "price": "40,955원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "06-02",
+            "price": 142800
+          },
+          {
+            "date": "06-09",
+            "price": 142800
+          }
+        ],
+        "minPrice": 142800,
+        "maxPrice": 142800
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
       "id": "hdz_159688",
       "title": "갤럭시 아이폰 2장 슬라이드 카드수납 케이스 1+1",
       "price": "7,400원",
@@ -33636,208 +33848,7 @@
       "priceHistory": null,
       "postContent": null,
       "shopUrl": null
-    },
-    {
-      "id": "hdz_159189",
-      "title": "펩시 제로슈거 라임향 355ml 48캔",
-      "price": "25,900원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/06/13/thumb_76fa492389022236fcb391952dc296e9.webp",
-      "category": "식품",
-      "site": "오늘의집",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/9948757017",
-      "publishedAt": "2026-06-13 00:12:47",
-      "likes": 2,
-      "fetchedAt": "2026-06-12T17:32:41.490Z",
-      "priceComparison": [],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "03-24",
-            "price": 26460
-          },
-          {
-            "date": "03-31",
-            "price": 26740
-          },
-          {
-            "date": "04-07",
-            "price": 27710
-          },
-          {
-            "date": "04-14",
-            "price": 26900
-          },
-          {
-            "date": "04-21",
-            "price": 25720
-          },
-          {
-            "date": "04-28",
-            "price": 26400
-          },
-          {
-            "date": "05-05",
-            "price": 26400
-          },
-          {
-            "date": "05-12",
-            "price": 27210
-          },
-          {
-            "date": "05-19",
-            "price": 24300
-          },
-          {
-            "date": "05-26",
-            "price": 26050
-          },
-          {
-            "date": "06-02",
-            "price": 26000
-          },
-          {
-            "date": "06-09",
-            "price": 26000
-          }
-        ],
-        "minPrice": 24300,
-        "maxPrice": 27710
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_159188",
-      "title": "바세린 UV 선크림 60ml 1+1+1",
-      "price": "11,820원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/06/13/thumb_6d2de9b07cc6d5931c2b17e89503b51c.webp",
-      "category": "화장품",
-      "site": "11번가",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/9948763877",
-      "publishedAt": "2026-06-13 00:12:37",
-      "likes": 12,
-      "fetchedAt": "2026-06-12T17:32:41.490Z",
-      "priceComparison": [],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "04-14",
-            "price": 17190
-          },
-          {
-            "date": "04-21",
-            "price": 12720
-          },
-          {
-            "date": "04-28",
-            "price": 12790
-          },
-          {
-            "date": "05-05",
-            "price": 11290
-          },
-          {
-            "date": "05-12",
-            "price": 11290
-          },
-          {
-            "date": "05-19",
-            "price": 11290
-          },
-          {
-            "date": "05-26",
-            "price": 11290
-          },
-          {
-            "date": "06-02",
-            "price": 11540
-          },
-          {
-            "date": "06-09",
-            "price": 10290
-          }
-        ],
-        "minPrice": 10290,
-        "maxPrice": 17190
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_159187",
-      "title": "마이비데 퓨어 40매X16개(1박스) (카드)",
-      "price": "18,980원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/06/13/thumb_7def863c9c2edfa415291632dafcbd50.webp",
-      "category": "생활용품",
-      "site": "롯데온",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/9948770261",
-      "publishedAt": "2026-06-13 00:12:29",
-      "likes": 1,
-      "fetchedAt": "2026-06-12T17:32:41.490Z",
-      "priceComparison": [],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "03-24",
-            "price": 21160
-          },
-          {
-            "date": "03-31",
-            "price": 22870
-          },
-          {
-            "date": "04-07",
-            "price": 24160
-          },
-          {
-            "date": "04-14",
-            "price": 24160
-          },
-          {
-            "date": "04-21",
-            "price": 23870
-          },
-          {
-            "date": "04-28",
-            "price": 22850
-          },
-          {
-            "date": "05-05",
-            "price": 22880
-          },
-          {
-            "date": "05-12",
-            "price": 21330
-          },
-          {
-            "date": "05-19",
-            "price": 21330
-          },
-          {
-            "date": "05-26",
-            "price": 17640
-          },
-          {
-            "date": "06-02",
-            "price": 17910
-          },
-          {
-            "date": "06-09",
-            "price": 21780
-          }
-        ],
-        "minPrice": 17640,
-        "maxPrice": 24160
-      },
-      "postContent": null,
-      "shopUrl": null
     }
   ],
-  "lastUpdated": "2026-06-13T19:11:03.533Z"
+  "lastUpdated": "2026-06-13T21:57:16.123Z"
 }
