@@ -13,6 +13,18 @@
       "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1779432991songpa.JPG"
     },
     {
+      "name": "송파 6월 문화예술의 향기 가득",
+      "category": "행사",
+      "startDate": "2026-06-01",
+      "endDate": "2026-06-30",
+      "location": "더 갤러리 호수, 송파문화예술회관, 석촌호수",
+      "target": "전체 구민",
+      "summary": "6월 한 달간 더 갤러리 호수 기획 전시, 송파문화예술회관 정기 공연, 석촌호수 메이플스토리 주황버섯 전시 등 다채로운 문화예술 행사 개최.",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9028&aid=17818",
+      "id": "crawler-1781318303289-378",
+      "image": "https://picsum.photos/seed/812856/800/500"
+    },
+    {
       "name": "송파 6월 문화와 예술 행사",
       "category": "문화, 공연, 전시, 행사",
       "startDate": "2026-06-01",
@@ -131,18 +143,6 @@
       "summary": "6월 테마인 호국보훈의 달, 환경의 날, 우리동네 정원에 맞춰 사진을 공모하는 이벤트입니다.",
       "link": "https://songpa.newstool.co.kr/./view.php?eid=9020&aid=17681",
       "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1777004975songpa.JPG"
-    },
-    {
-      "id": "crawler-1779164258736-579",
-      "name": "5월 가정의 달 행사 (음악회, 어린이 뮤지컬, 송파 아동·청소년축제)",
-      "category": "행사",
-      "startDate": "2026-05-01",
-      "endDate": "상시",
-      "location": "송파구 관내",
-      "target": "전체 구민",
-      "summary": "가정의 달 5월을 맞아 음악회, 어린이 뮤지컬, 아동·청소년축제 등 풍성한 문화행사가 열립니다.",
-      "link": "https://songpa.newstool.co.kr/./view.php?eid=9020&aid=17679",
-      "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1777005723songpa.JPG"
     }
   ],
   "benefits": [
@@ -3638,6 +3638,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
+    },
+    {
+      "id": "000025",
+      "name": "범죄 피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "상시",
+      "location": "법무부",
+      "target": "만 19세 미만 아동 및 장애인 범죄 피해자",
+      "summary": "범죄 피해 아동·장애인의 수사·재판 시 의사소통 중개 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -6809,7 +6822,67 @@
       "summary": "과학 연구 데이터의 AI 기반 수집·분석·활용 플랫폼 구축",
       "link": "https://www.msit.go.kr/program/ai_science_data_platform_2026",
       "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-13-1",
+      "name": "NIPA 지역특화산업 AI 데이터 활용 기반조성 지원",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "2026-06-15",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "지역 특화산업 분야 중소기업",
+      "summary": "지역 특화산업의 AI 데이터 활용을 위한 인프라 구축 지원",
+      "link": "https://www.nipa.kr",
+      "image": "https://images.unsplash.com/photo-1488229297570-58520851e868?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-13-2",
+      "name": "서울 AI 허브 인공지능 신사업 아이디어 검증 및 멘토링",
+      "category": "AI지원",
+      "startDate": "2026-06-01",
+      "endDate": "상시",
+      "location": "서울 AI 허브",
+      "target": "AI 분야 예비창업가 및 초기 스타트업",
+      "summary": "AI 기반 신사업 아이디어의 시장성 및 기술적 타당성 검증 멘토링",
+      "link": "https://www.seoulaihub.kr",
+      "image": "https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-13-3",
+      "name": "K-Startup AI 융합 전통산업 디지털 전환 촉진 프로젝트",
+      "category": "AI지원",
+      "startDate": "2026-05-15",
+      "endDate": "2026-07-15",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "전통산업 AI 융합 솔루션 개발 기업",
+      "summary": "전통산업의 AI 기반 디지털 전환 솔루션 개발 및 적용 지원",
+      "link": "https://www.k-startup.go.kr",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-13-4",
+      "name": "과학기술정보통신부 AI 기반 신소재 개발 및 데이터 활용 연구 지원",
+      "category": "AI지원",
+      "startDate": "2026-03-01",
+      "endDate": "2026-05-31",
+      "location": "과학기술정보통신부",
+      "target": "AI 활용 신소재 연구기관 및 기업",
+      "summary": "AI 기반 신소재 설계 및 실험 데이터 분석 연구 지원",
+      "link": "https://www.msit.go.kr",
+      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-13-5",
+      "name": "중소기업 임원진 디지털 전환 리더십 역량 강화 교육",
+      "category": "AI지원",
+      "startDate": "2026-06-10",
+      "endDate": "2026-08-31",
+      "location": "중소벤처기업부",
+      "target": "중소기업 임원 및 고위 관리자",
+      "summary": "디지털 전환 전략 수립 및 리더십 강화를 위한 교육 제공",
+      "link": "https://www.bizinfo.go.kr",
+      "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-06-12"
+  "lastUpdated": "2026-06-13"
 }
