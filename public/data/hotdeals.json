@@ -1,6 +1,199 @@
 {
   "deals": [
     {
+      "id": "hdz_160161",
+      "title": "완숙토마토 당일수확 5kg 로얄과사이즈",
+      "price": "10,950원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/06/15/thumb_d4d359fe2acd296351cd583bbf11c601.webp",
+      "category": "식품",
+      "site": "네이버",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=711941",
+      "publishedAt": "2026-06-15 06:10:13",
+      "likes": 4,
+      "fetchedAt": "2026-06-14T22:03:00.009Z",
+      "priceComparison": [
+        {
+          "site": "네이버",
+          "price": "10,950원"
+        },
+        {
+          "site": "11번가",
+          "price": "26,900원"
+        },
+        {
+          "site": "GS SHOP",
+          "price": "32,900원"
+        },
+        {
+          "site": "우체국 쇼핑",
+          "price": "25,000원"
+        },
+        {
+          "site": "동원몰",
+          "price": "26,900원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "03-24",
+            "price": 25900
+          },
+          {
+            "date": "03-31",
+            "price": 25900
+          },
+          {
+            "date": "04-07",
+            "price": 25900
+          },
+          {
+            "date": "04-14",
+            "price": 22900
+          },
+          {
+            "date": "04-21",
+            "price": 22900
+          },
+          {
+            "date": "04-28",
+            "price": 22900
+          },
+          {
+            "date": "05-05",
+            "price": 22900
+          },
+          {
+            "date": "05-12",
+            "price": 22900
+          },
+          {
+            "date": "05-19",
+            "price": 22900
+          },
+          {
+            "date": "05-26",
+            "price": 22900
+          },
+          {
+            "date": "06-02",
+            "price": 22900
+          },
+          {
+            "date": "06-09",
+            "price": 17900
+          }
+        ],
+        "minPrice": 17900,
+        "maxPrice": 25900
+      },
+      "postContent": {
+        "text": "네맴 포인트도 있으니 5키로 만원 극초반이네요올해 햇토마토인거 같은데 후기도 좋고 가격도 시중 반값이네요토마토 냉장하면 보관도 길어서 쟁여둬도 될듯합니다",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0615/900w_20260615060711_7jpboj7Cx0.jpeg"
+        ]
+      },
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_160160",
+      "title": "[기타] (토스쇼핑) 바리스타룰스 아메리카노 350ml 20개 외 멸균우유/오겹살/물티슈/생수",
+      "price": "9,990원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/06/15/thumb_f9caf252580992c16e8ed451a2b5f5a7.webp",
+      "category": "생활용품",
+      "site": null,
+      "source": "퀘이사존",
+      "sourceColor": "#7C3AED",
+      "link": "https://quasarzone.com/bbs/qb_saleinfo/views/1961437",
+      "publishedAt": "2026-06-15 04:24:04",
+      "likes": 36,
+      "fetchedAt": "2026-06-14T22:03:00.010Z",
+      "priceComparison": [
+        {
+          "site": "핫딜모음",
+          "price": "9,990원"
+        },
+        {
+          "site": "매일유업 공식몰",
+          "price": "약 19,240~22,900원"
+        },
+        {
+          "site": "GS SHOP",
+          "price": "25,900원"
+        },
+        {
+          "site": "11번가",
+          "price": "25,320원"
+        },
+        {
+          "site": "동원몰",
+          "price": "29,700원"
+        },
+        {
+          "site": "마켓컬리",
+          "price": "20,900원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "03-24",
+            "price": 19600
+          },
+          {
+            "date": "03-31",
+            "price": 19600
+          },
+          {
+            "date": "04-07",
+            "price": 19920
+          },
+          {
+            "date": "04-14",
+            "price": 19920
+          },
+          {
+            "date": "04-21",
+            "price": 19430
+          },
+          {
+            "date": "04-28",
+            "price": 19920
+          },
+          {
+            "date": "05-05",
+            "price": 20140
+          },
+          {
+            "date": "05-12",
+            "price": 19580
+          },
+          {
+            "date": "05-19",
+            "price": 20300
+          },
+          {
+            "date": "05-26",
+            "price": 20420
+          },
+          {
+            "date": "06-02",
+            "price": 20420
+          },
+          {
+            "date": "06-09",
+            "price": 20720
+          }
+        ],
+        "minPrice": 19430,
+        "maxPrice": 20720
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
       "id": "hdz_160159",
       "title": "펩시제로슈거 라임향 210ml 30캔+펩시제로카페인 210ml 30캔",
       "price": "20,800원",
@@ -34086,187 +34279,7 @@
         ]
       },
       "shopUrl": "https://item.gmarket.co.kr/Item?goodscode=4740748226"
-    },
-    {
-      "id": "hdz_159642",
-      "title": "Monstrum",
-      "price": "5,700원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/06/14/thumb_197860d63f883e69a6b52a9b34d5ad17.webp",
-      "category": "게임",
-      "site": "쿠팡",
-      "source": "아카라이브",
-      "sourceColor": "#10B981",
-      "link": "https://arca.live/b/hotdeal/173706568?p=1",
-      "publishedAt": "2026-06-14 00:34:07",
-      "likes": 15,
-      "fetchedAt": "2026-06-13T16:09:19.287Z",
-      "priceComparison": [
-        {
-          "site": "쿠팡",
-          "price": "5,700원"
-        },
-        {
-          "site": "다나와",
-          "price": "11,360원"
-        },
-        {
-          "site": "G마켓",
-          "price": "22,200원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "03-24",
-            "price": 50150
-          },
-          {
-            "date": "03-31",
-            "price": 48220
-          },
-          {
-            "date": "04-07",
-            "price": 56240
-          },
-          {
-            "date": "04-14",
-            "price": 56080
-          },
-          {
-            "date": "04-21",
-            "price": 48220
-          },
-          {
-            "date": "04-28",
-            "price": 48220
-          },
-          {
-            "date": "05-05",
-            "price": 48220
-          },
-          {
-            "date": "05-12",
-            "price": 48220
-          },
-          {
-            "date": "05-19",
-            "price": 48220
-          },
-          {
-            "date": "05-26",
-            "price": 48220
-          },
-          {
-            "date": "06-02",
-            "price": 47650
-          },
-          {
-            "date": "06-09",
-            "price": 47650
-          }
-        ],
-        "minPrice": 47650,
-        "maxPrice": 56240
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_159641",
-      "title": "제주 삼다수 330mL 40병",
-      "price": "13,500원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/06/14/thumb_2f2e18daa6cf83ae7bc3690b76c43b3f.webp",
-      "category": "식품",
-      "site": "롯데온",
-      "source": "아카라이브",
-      "sourceColor": "#10B981",
-      "link": "https://arca.live/b/hotdeal/173706586?p=1",
-      "publishedAt": "2026-06-14 00:34:05",
-      "likes": 7,
-      "fetchedAt": "2026-06-13T16:09:19.287Z",
-      "priceComparison": [
-        {
-          "site": "롯데온",
-          "price": "13,500원"
-        },
-        {
-          "site": "쿠팡",
-          "price": "16,520원"
-        },
-        {
-          "site": "동원몰",
-          "price": "18,900원"
-        },
-        {
-          "site": "11번가",
-          "price": "19,930원"
-        },
-        {
-          "site": "예스24",
-          "price": "19,800원"
-        },
-        {
-          "site": "GS SHOP",
-          "price": "19,490원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "03-24",
-            "price": 11900
-          },
-          {
-            "date": "03-31",
-            "price": 11900
-          },
-          {
-            "date": "04-07",
-            "price": 14050
-          },
-          {
-            "date": "04-14",
-            "price": 14060
-          },
-          {
-            "date": "04-21",
-            "price": 13440
-          },
-          {
-            "date": "04-28",
-            "price": 13440
-          },
-          {
-            "date": "05-05",
-            "price": 13440
-          },
-          {
-            "date": "05-12",
-            "price": 14060
-          },
-          {
-            "date": "05-19",
-            "price": 13960
-          },
-          {
-            "date": "05-26",
-            "price": 14660
-          },
-          {
-            "date": "06-02",
-            "price": 14660
-          },
-          {
-            "date": "06-09",
-            "price": 14680
-          }
-        ],
-        "minPrice": 11900,
-        "maxPrice": 14680
-      },
-      "postContent": null,
-      "shopUrl": null
     }
   ],
-  "lastUpdated": "2026-06-14T19:11:50.259Z"
+  "lastUpdated": "2026-06-14T22:03:01.893Z"
 }
