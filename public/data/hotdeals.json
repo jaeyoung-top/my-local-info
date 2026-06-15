@@ -1,6 +1,191 @@
 {
   "deals": [
     {
+      "id": "hdz_160415",
+      "title": "핫식스 더킹 8종 355ml 24캔",
+      "price": "17,780원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/06/15/thumb_ffb2d18ff743dd5d810c779a80e7ec9e.webp",
+      "category": "식품",
+      "site": "롯데온",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=712045",
+      "publishedAt": "2026-06-15 11:58:15",
+      "likes": 0,
+      "fetchedAt": "2026-06-15T02:58:30.653Z",
+      "priceComparison": [
+        {
+          "site": "롯데온",
+          "price": "17,780원"
+        },
+        {
+          "site": "예스24",
+          "price": "36,600원"
+        },
+        {
+          "site": "쿠팡",
+          "price": "19,010원"
+        },
+        {
+          "site": "쿠팡",
+          "price": "19,170원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": {
+        "text": "맛 8개라 취향에 맞는거로 고르시면 됩니다",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0615/20260615115232_8TmzIyOfyn.jpg"
+        ]
+      },
+      "shopUrl": "https://www.lotteon.com/product/LO2567538554"
+    },
+    {
+      "id": "hdz_160414",
+      "title": "하우스 수박 7kg",
+      "price": "16,240원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/06/15/thumb_43856a831a0c01e1085de1d41cbbe353.webp",
+      "category": "식품",
+      "site": "롯데온",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=712046",
+      "publishedAt": "2026-06-15 11:58:09",
+      "likes": 0,
+      "fetchedAt": "2026-06-15T02:58:30.653Z",
+      "priceComparison": [
+        {
+          "site": "롯데온",
+          "price": "16,240원"
+        },
+        {
+          "site": "홈플러스",
+          "price": "20,900원"
+        },
+        {
+          "site": "11번가",
+          "price": "22,420원"
+        },
+        {
+          "site": "GS SHOP",
+          "price": "35,900원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "03-24",
+            "price": 28110
+          },
+          {
+            "date": "03-31",
+            "price": 28110
+          },
+          {
+            "date": "04-07",
+            "price": 28110
+          },
+          {
+            "date": "04-14",
+            "price": 28110
+          },
+          {
+            "date": "04-21",
+            "price": 28110
+          },
+          {
+            "date": "04-28",
+            "price": 28110
+          },
+          {
+            "date": "05-05",
+            "price": 28110
+          },
+          {
+            "date": "05-12",
+            "price": 27810
+          },
+          {
+            "date": "05-19",
+            "price": 27810
+          },
+          {
+            "date": "05-26",
+            "price": 27810
+          },
+          {
+            "date": "06-02",
+            "price": 27810
+          },
+          {
+            "date": "06-09",
+            "price": 27810
+          }
+        ],
+        "minPrice": 27810,
+        "maxPrice": 28110
+      },
+      "postContent": {
+        "text": "온누리 사용 가능합니다 7kg 쿠폰가 16,240원 나와요",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0615/900w_20260615115620_e98E6Gndcy.jpg"
+        ]
+      },
+      "shopUrl": "https://www.lotteon.com/p/product/LO2678338647"
+    },
+    {
+      "id": "hdz_160413",
+      "title": "땡겨요 포장할인쿠폰",
+      "price": null,
+      "image": "https://image.hotdeal.zip/thumbnails/2026/06/15/thumb_29e2675c6b86cb6581c011ea647206fd.webp",
+      "category": "기타",
+      "site": "땡겨요",
+      "source": "아카라이브",
+      "sourceColor": "#10B981",
+      "link": "https://arca.live/b/hotdeal/173836511?p=1",
+      "publishedAt": "2026-06-15 11:56:04",
+      "likes": 7,
+      "fetchedAt": "2026-06-15T02:58:30.653Z",
+      "priceComparison": [],
+      "priceHistory": null,
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_160412",
+      "title": "한돈 고추장양념 오돌뼈 250g ",
+      "price": "1,490원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/06/15/thumb_b5cbe87a166fe2ac848f8910de18bff5.webp",
+      "category": "식품",
+      "site": "네이버쇼핑 ",
+      "source": "개드립",
+      "sourceColor": "#DC2626",
+      "link": "https://www.dogdrip.net/707905698",
+      "publishedAt": "2026-06-15 11:55:03",
+      "likes": 5,
+      "fetchedAt": "2026-06-15T02:58:30.653Z",
+      "priceComparison": [
+        {
+          "site": "네이버쇼핑",
+          "price": "1,490원"
+        },
+        {
+          "site": "쿠팡",
+          "price": "2,500원"
+        },
+        {
+          "site": "옥션",
+          "price": "2,800원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": {
+        "text": "매운맛이랑 더 매운맛 두 가지 있고 가격 깡패라 소주 한 병 기준으로 집에서 혼술때리면 5천원 미만 쌉가능 ㅇㅇ",
+        "images": []
+      },
+      "shopUrl": "https://brand.naver.com/meatjang/products/13180835639"
+    },
+    {
       "id": "hdz_160411",
       "title": "10대카페 2,000 현장 페이 결제 시 500원 적립",
       "price": null,
@@ -33741,315 +33926,7 @@
         ]
       },
       "shopUrl": "https://item.gmarket.co.kr/Item?goodscode=4517246937"
-    },
-    {
-      "id": "hdz_159746",
-      "title": "유토렉스 휴대용 에그팝 UV-C USB 충전 칫솔살균기",
-      "price": "12,820원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/06/14/thumb_6857c1a7a323415ff7274839032c4d0d.webp",
-      "category": "가전",
-      "site": "G마켓",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=711741",
-      "publishedAt": "2026-06-14 10:06:13",
-      "likes": 17,
-      "fetchedAt": "2026-06-14T02:47:36.993Z",
-      "priceComparison": [
-        {
-          "site": "G마켓",
-          "price": "12,820원"
-        },
-        {
-          "site": "롯데하이마트",
-          "price": "14,900원"
-        },
-        {
-          "site": "GS SHOP",
-          "price": "14,900원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "03-24",
-            "price": 11900
-          },
-          {
-            "date": "03-31",
-            "price": 11900
-          },
-          {
-            "date": "04-07",
-            "price": 12900
-          },
-          {
-            "date": "04-14",
-            "price": 11620
-          },
-          {
-            "date": "04-21",
-            "price": 11620
-          },
-          {
-            "date": "04-28",
-            "price": 11900
-          },
-          {
-            "date": "05-05",
-            "price": 11900
-          },
-          {
-            "date": "05-12",
-            "price": 12670
-          },
-          {
-            "date": "05-19",
-            "price": 12900
-          },
-          {
-            "date": "05-26",
-            "price": 12900
-          },
-          {
-            "date": "06-02",
-            "price": 12180
-          },
-          {
-            "date": "06-09",
-            "price": 12500
-          }
-        ],
-        "minPrice": 11620,
-        "maxPrice": 12900
-      },
-      "postContent": {
-        "text": "휴대용 UV-C USB 충전 칫솔살균기 컴팩트한 사이즈고 완충 후 1일 2회 기준 50일 사용 가능합니다",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0614/900w_20260614100516_bLG0rHxHiS.jpg",
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0614/900w_20260614100517_28snFac27l.jpg"
-        ]
-      },
-      "shopUrl": "https://item.gmarket.co.kr/Item?goodscode=4777246922"
-    },
-    {
-      "id": "hdz_159745",
-      "title": "꿀담 천연 베트남 야생화 꿀 2kg",
-      "price": "13,900원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/06/14/thumb_8ebb33a524bf15fd0f1b9f34277bb78c.webp",
-      "category": "식품",
-      "site": "옥션",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=711738",
-      "publishedAt": "2026-06-14 10:04:20",
-      "likes": 11,
-      "fetchedAt": "2026-06-14T02:47:36.993Z",
-      "priceComparison": [
-        {
-          "site": "옥션",
-          "price": "13,900원"
-        },
-        {
-          "site": "허니비푸드",
-          "price": "19,500원"
-        },
-        {
-          "site": "플로비즈",
-          "price": "23,300원"
-        },
-        {
-          "site": "비엣꿀 공식 판매처",
-          "price": "22,730원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_159744",
-      "title": "광천김 올리브유 녹차 도시락김 5g 3봉 12팩",
-      "price": "8,900원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/06/14/thumb_21fc726d60f7eabd4cf6a2f0247919a9.webp",
-      "category": "식품",
-      "site": "ssg",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=711739",
-      "publishedAt": "2026-06-14 10:04:13",
-      "likes": 10,
-      "fetchedAt": "2026-06-14T02:47:36.993Z",
-      "priceComparison": [
-        {
-          "site": "ssg",
-          "price": "8,900원"
-        },
-        {
-          "site": "11번가",
-          "price": "18,100원"
-        },
-        {
-          "site": "쿠팡",
-          "price": "25,880원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "03-24",
-            "price": 1530
-          },
-          {
-            "date": "03-31",
-            "price": 1530
-          },
-          {
-            "date": "04-07",
-            "price": 1530
-          },
-          {
-            "date": "04-14",
-            "price": 1530
-          },
-          {
-            "date": "04-21",
-            "price": 1530
-          },
-          {
-            "date": "04-28",
-            "price": 1530
-          },
-          {
-            "date": "05-05",
-            "price": 1540
-          },
-          {
-            "date": "05-12",
-            "price": 1540
-          },
-          {
-            "date": "05-19",
-            "price": 1540
-          },
-          {
-            "date": "05-26",
-            "price": 1610
-          },
-          {
-            "date": "06-02",
-            "price": 1720
-          },
-          {
-            "date": "06-09",
-            "price": 1760
-          }
-        ],
-        "minPrice": 1530,
-        "maxPrice": 1760
-      },
-      "postContent": {
-        "text": "녹차김 짜지 않아서 좋습니다 봉당 247원 정도 나오고 16시까지만 이 가격인듯하니 필요한사람들 사두세요",
-        "images": [
-          "https://cdn3.ppomppu.co.kr/zboard/data3/2026/0614/900w_20260614100255_QqMZyKE15r.jpeg",
-          "https://cdn3.ppomppu.co.kr/zboard/data3/2026/0614/900w_20260614100257_t1Dl7o0tWd.jpeg"
-        ]
-      },
-      "shopUrl": "https://www.ssg.com/item/itemView.ssg?itemId=1000831590790"
-    },
-    {
-      "id": "hdz_159743",
-      "title": "에너자이저 에버레디 골드 알카라인 건전지 AA 20개입",
-      "price": "7,500원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/06/14/thumb_d69ef5d7462bdeaa175161e80d5e8d6f.webp",
-      "category": "생활용품",
-      "site": "토스",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=711737",
-      "publishedAt": "2026-06-14 10:02:11",
-      "likes": 13,
-      "fetchedAt": "2026-06-14T02:47:36.993Z",
-      "priceComparison": [
-        {
-          "site": "토스",
-          "price": "7,500원"
-        },
-        {
-          "site": "11번가",
-          "price": "9,870원"
-        },
-        {
-          "site": "지름알림",
-          "price": "7,910원"
-        },
-        {
-          "site": "신세계TV쇼핑",
-          "price": "8,420원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "03-24",
-            "price": 17770
-          },
-          {
-            "date": "03-31",
-            "price": 17020
-          },
-          {
-            "date": "04-07",
-            "price": 17770
-          },
-          {
-            "date": "04-14",
-            "price": 17770
-          },
-          {
-            "date": "04-21",
-            "price": 17390
-          },
-          {
-            "date": "04-28",
-            "price": 17390
-          },
-          {
-            "date": "05-05",
-            "price": 17390
-          },
-          {
-            "date": "05-12",
-            "price": 17390
-          },
-          {
-            "date": "05-19",
-            "price": 17390
-          },
-          {
-            "date": "05-26",
-            "price": 17390
-          },
-          {
-            "date": "06-02",
-            "price": 17010
-          },
-          {
-            "date": "06-09",
-            "price": 17010
-          }
-        ],
-        "minPrice": 17010,
-        "maxPrice": 17770
-      },
-      "postContent": {
-        "text": "보통 AA가 리모컨, 무선마우스나 키보드 등에 많이 쓰이는데사은품으로 건전지 케이스 포함해 개당 375원 나오네요가격은 괜찮게 나온거 같습니다",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0614/900w_20260614095825_RiIAJnAKil.jpg"
-        ]
-      },
-      "shopUrl": "https://service.toss.im/shopping/c/150058721"
     }
   ],
-  "lastUpdated": "2026-06-15T02:52:31.858Z"
+  "lastUpdated": "2026-06-15T02:58:33.171Z"
 }
