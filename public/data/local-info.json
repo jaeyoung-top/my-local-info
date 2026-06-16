@@ -13,6 +13,18 @@
       "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1779432991songpa.JPG"
     },
     {
+      "name": "송파 6월 문화예술 주요 행사",
+      "category": "문화, 공연, 전시, 행사",
+      "startDate": "2026-06-01",
+      "endDate": "2026-06-30",
+      "location": "송파구 관내 주요 문화시설 및 석촌호수",
+      "target": "전체 구민",
+      "summary": "더 갤러리 호수 기획 전시, 석촌호수 메이플스토리 캐릭터 '주황버섯' 전시, 송파문화예술회관 정기 공연 등 송파구 6월 문화예술 행사",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9028&aid=17818",
+      "id": "crawler-1781578567705-720",
+      "image": "https://picsum.photos/seed/138216/800/500"
+    },
+    {
       "name": "송파 6월 문화예술의 향기 가득",
       "category": "행사",
       "startDate": "2026-06-01",
@@ -47,18 +59,6 @@
       "link": "https://songpa.newstool.co.kr/./view.php?eid=9028&aid=17818",
       "id": "crawler-1780800334487-85",
       "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1779424834songpa.JPG"
-    },
-    {
-      "name": "6월 송파 문화예술 주요 행사",
-      "category": "문화/공연/전시",
-      "startDate": "2026-06-01",
-      "endDate": "2026-06-30",
-      "location": "송파구 관내 (더 갤러리 호수, 석촌호수, 송파문화예술회관 등)",
-      "target": "전체 구민",
-      "summary": "더 갤러리 호수 6월 기획 전시, 석촌호수 메이플스토리 캐릭터 ‘주황버섯’ 방문, 송파문화예술회관 6월 정기 공연 등 다양한 문화예술 소식.",
-      "link": "https://songpa.newstool.co.kr/./view.php?eid=9028&aid=17818",
-      "id": "crawler-1780712876078-229",
-      "image": "https://picsum.photos/seed/280888/800/500"
     },
     {
       "name": "송파 6월 문화예술 행사: 갤러리 전시, 석촌호수 주황버섯, 송파문화예술회관 공연",
@@ -3677,6 +3677,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "admin",
       "image": "https://images.unsplash.com/photo-1509822929063-6b6723e0e974?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "범죄 피해 아동 및 장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청 등 수사기관이나 법원",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "만 19세 미만 아동, 의사소통 어려운 장애인 피해자의 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1519340333755-56e9c1d04579?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -7028,7 +7041,67 @@
       "summary": "클라우드 기반 AI 데이터 수집, 저장, 분석 환경 구축 지원",
       "link": "https://www.msit.go.kr",
       "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-16-1",
+      "name": "NIPA 2026년 산업군별 AI 데이터 표준화 및 연동 환경 구축 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-16",
+      "endDate": "2026-12-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "산업 분야별 기업 및 컨소시엄",
+      "summary": "산업 데이터 표준화 및 AI 활용을 위한 연동 환경 구축 지원",
+      "link": "https://www.nipa.kr/",
+      "image": "https://images.unsplash.com/photo-1516321165247-4aa89a48be55?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-16-2",
+      "name": "서울 AI 허브 AI 기반 미래 교통 시스템 혁신 기술 실증",
+      "category": "AI지원",
+      "startDate": "2026-06-16",
+      "endDate": "2026-11-30",
+      "location": "서울 AI 허브",
+      "target": "AI 기반 모빌리티 스타트업 및 기업",
+      "summary": "AI 기반 차세대 교통 시스템 혁신 기술 개발 및 서울시 실증 지원",
+      "link": "https://seoulaihub.kr/",
+      "image": "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-16-3",
+      "name": "K-Startup 2026년 AI 핵심 알고리즘 및 원천기술 창업 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-16",
+      "endDate": "2026-10-31",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "AI 핵심기술 기반 예비창업가 및 초기 스타트업",
+      "summary": "AI 알고리즘, 원천기술 기반 창업기업 발굴 및 사업화 자금, 멘토링 지원",
+      "link": "https://www.k-startup.go.kr/",
+      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-16-4",
+      "name": "중소벤처기업부 2026년 중소기업 비즈니스 연속성 강화를 위한 AI 재해 예측 및 대응 시스템 구축 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-16",
+      "endDate": "2026-12-31",
+      "location": "중소벤처기업부",
+      "target": "재해 예방 및 대응 시스템 구축 희망 중소기업",
+      "summary": "AI 기반 재해 예측 및 대응 시스템 도입을 통해 중소기업 비즈니스 연속성 확보 지원",
+      "link": "https://www.bizinfo.go.kr/",
+      "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-16-5",
+      "name": "과학기술정보통신부 2026년 AI 기반 미래 교육 시스템 혁신 기술 개발",
+      "category": "AI지원",
+      "startDate": "2026-06-16",
+      "endDate": "2026-12-31",
+      "location": "과학기술정보통신부",
+      "target": "AI 기반 교육 기술 개발 기업 및 연구기관",
+      "summary": "AI를 활용한 개인 맞춤형 학습, 교육 콘텐츠 자동 생성 등 미래 교육 기술 개발 지원",
+      "link": "https://www.msit.go.kr/",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-06-15"
+  "lastUpdated": "2026-06-16"
 }

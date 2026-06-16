@@ -1,6 +1,484 @@
 {
   "deals": [
     {
+      "id": "hdz_161154",
+      "title": "소노벨 비발디파크 3/4인 패키지",
+      "price": "255,570원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/06/16/thumb_cae4dbc5252a568077169dc24a77ec5d.webp",
+      "category": "생활용품",
+      "site": "지마켓",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/9962614979",
+      "publishedAt": "2026-06-16 12:00:15",
+      "likes": 0,
+      "fetchedAt": "2026-06-16T03:00:39.697Z",
+      "priceComparison": [
+        {
+          "site": "지마켓",
+          "price": "255,570원"
+        },
+        {
+          "site": "다나와",
+          "price": "223,003원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "03-24",
+            "price": 132860
+          },
+          {
+            "date": "03-31",
+            "price": 132860
+          },
+          {
+            "date": "04-07",
+            "price": 132860
+          },
+          {
+            "date": "04-14",
+            "price": 132860
+          },
+          {
+            "date": "04-21",
+            "price": 130820
+          },
+          {
+            "date": "04-28",
+            "price": 130820
+          },
+          {
+            "date": "05-05",
+            "price": 130820
+          },
+          {
+            "date": "05-12",
+            "price": 139060
+          },
+          {
+            "date": "05-19",
+            "price": 129470
+          },
+          {
+            "date": "05-26",
+            "price": 130820
+          },
+          {
+            "date": "06-02",
+            "price": 130820
+          },
+          {
+            "date": "06-09",
+            "price": 126770
+          }
+        ],
+        "minPrice": 126770,
+        "maxPrice": 139060
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_161153",
+      "title": "벤앤제리스 아이스크림파인트 473ml 1+1+1",
+      "price": "22,850원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/06/16/thumb_d7cebecf87ffe44d8e7d208f0361b335.webp",
+      "category": "식품",
+      "site": "롯데온",
+      "source": "루리웹",
+      "sourceColor": "#3B82F6",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/104853?page=1",
+      "publishedAt": "2026-06-16 12:00:14",
+      "likes": 0,
+      "fetchedAt": "2026-06-16T03:00:39.697Z",
+      "priceComparison": [
+        {
+          "site": "롯데온",
+          "price": "22,850원"
+        },
+        {
+          "site": "다나와",
+          "price": "29,930원"
+        },
+        {
+          "site": "11번가",
+          "price": "27,000원"
+        },
+        {
+          "site": "마켓컬리",
+          "price": "14,900원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "03-24",
+            "price": 25070
+          },
+          {
+            "date": "03-31",
+            "price": 28320
+          },
+          {
+            "date": "04-07",
+            "price": 24840
+          },
+          {
+            "date": "04-14",
+            "price": 29730
+          },
+          {
+            "date": "04-21",
+            "price": 24940
+          },
+          {
+            "date": "04-28",
+            "price": 21700
+          },
+          {
+            "date": "05-05",
+            "price": 22790
+          },
+          {
+            "date": "05-12",
+            "price": 25080
+          },
+          {
+            "date": "05-19",
+            "price": 25080
+          },
+          {
+            "date": "05-26",
+            "price": 29510
+          },
+          {
+            "date": "06-02",
+            "price": 29510
+          },
+          {
+            "date": "06-09",
+            "price": 30100
+          }
+        ],
+        "minPrice": 21700,
+        "maxPrice": 30100
+      },
+      "postContent": {
+        "text": "파인트 아이스크림 3통 짜리에요 토스퀵계좌할인받고 결제해야합니다",
+        "images": [
+          "https://i3.ruliweb.com/img/26/06/16/19ece5c3dc755a057.webp",
+          "https://i3.ruliweb.com/img/26/06/16/19ece5c3f1955a057.webp"
+        ]
+      },
+      "shopUrl": "https://www.dajooda.kr/01/"
+    },
+    {
+      "id": "hdz_161152",
+      "title": "보성홍차 아이스티 제로 5종 500ml 24개",
+      "price": "16,940원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/06/16/thumb_eabb6dcd6fc81df28149b517a23319c5.webp",
+      "category": "식품",
+      "site": "롯데온",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/9962607514",
+      "publishedAt": "2026-06-16 11:56:28",
+      "likes": 4,
+      "fetchedAt": "2026-06-16T03:00:39.697Z",
+      "priceComparison": [
+        {
+          "site": "롯데온",
+          "price": "16,940원"
+        },
+        {
+          "site": "동원몰",
+          "price": "21,600원"
+        },
+        {
+          "site": "코스트코",
+          "price": "21,600원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_161151",
+      "title": "아이러브베베 시그니앙 82평량 물티슈 골드크림 70매 20팩",
+      "price": "17,800원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/06/16/thumb_4c57d992dd44400ba7d0f0f121d06ad6.webp",
+      "category": "생활용품",
+      "site": "네이버",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=712400",
+      "publishedAt": "2026-06-16 11:56:25",
+      "likes": 0,
+      "fetchedAt": "2026-06-16T03:00:39.697Z",
+      "priceComparison": [
+        {
+          "site": "네이버",
+          "price": "17,800원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "03-24",
+            "price": 19900
+          },
+          {
+            "date": "03-31",
+            "price": 19900
+          },
+          {
+            "date": "04-07",
+            "price": 24900
+          },
+          {
+            "date": "04-14",
+            "price": 26170
+          },
+          {
+            "date": "04-21",
+            "price": 26010
+          },
+          {
+            "date": "04-28",
+            "price": 24400
+          },
+          {
+            "date": "05-05",
+            "price": 26300
+          },
+          {
+            "date": "05-12",
+            "price": 26500
+          },
+          {
+            "date": "05-19",
+            "price": 24760
+          },
+          {
+            "date": "05-26",
+            "price": 24500
+          },
+          {
+            "date": "06-02",
+            "price": 24800
+          },
+          {
+            "date": "06-09",
+            "price": 24800
+          }
+        ],
+        "minPrice": 19900,
+        "maxPrice": 26500
+      },
+      "postContent": {
+        "text": "네이버 멤버십 무배 10팩인거 2세트 담으면 무료배송으로 바뀌고 2천원 쿠폰 적용시 17800원나옵니다 적립 800원가량 고려하면 1.7정도 보통 75평량에 이가격인데 82평량짜리가 이가격이면 가격 괜찮네요 :D",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0616/20260616115459_JxWgNqbNjh.jpg",
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0616/20260616115456_ZytorAt2jD.jpg"
+        ]
+      },
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_161150",
+      "title": "테일러 푸룬주스 1.89L+ 푸룬콜라겐샷 1P 세트 T멤버십",
+      "price": "10,900원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/06/16/thumb_5f7f0dc2cfcd8a89a0c48766e165efca.webp",
+      "category": "식품",
+      "site": "11번가",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=712401",
+      "publishedAt": "2026-06-16 11:56:13",
+      "likes": 0,
+      "fetchedAt": "2026-06-16T03:00:39.697Z",
+      "priceComparison": [
+        {
+          "site": "11번가",
+          "price": "10,900원"
+        },
+        {
+          "site": "테일러 공식몰",
+          "price": "32,500원"
+        },
+        {
+          "site": "동원몰",
+          "price": "32,900원"
+        },
+        {
+          "site": "테일러 라이프 푸룬 식물성 콜라겐 샷 세트",
+          "price": "20,900원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "03-24",
+            "price": 28250
+          },
+          {
+            "date": "03-31",
+            "price": 27790
+          },
+          {
+            "date": "04-07",
+            "price": 27790
+          },
+          {
+            "date": "04-14",
+            "price": 27990
+          },
+          {
+            "date": "04-21",
+            "price": 28120
+          },
+          {
+            "date": "04-28",
+            "price": 28120
+          },
+          {
+            "date": "05-05",
+            "price": 28120
+          },
+          {
+            "date": "05-12",
+            "price": 27470
+          },
+          {
+            "date": "05-19",
+            "price": 27470
+          },
+          {
+            "date": "05-26",
+            "price": 27840
+          },
+          {
+            "date": "06-02",
+            "price": 27790
+          },
+          {
+            "date": "06-09",
+            "price": 27880
+          }
+        ],
+        "minPrice": 27470,
+        "maxPrice": 28250
+      },
+      "postContent": {
+        "text": "T쇼페 상품이라 T멤버십 할인 적용하면 10,900원 나옵니다. 저도 예전에 화장실 때문에 고생할 때 마셔봤는데 개인적으로는 효과 괜찮았습니다",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0616/900w_20260616115519_De4jLaTtDc.jpeg"
+        ]
+      },
+      "shopUrl": "https://www.11st.co.kr/products/4049344744"
+    },
+    {
+      "id": "hdz_161149",
+      "title": "비타그램 파라핀 용해기+왁스3개 포함",
+      "price": "49,900원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/06/16/thumb_1cb96f91343e2b842db66a26a387dc5f.webp",
+      "category": "가전",
+      "site": "토스",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=712399",
+      "publishedAt": "2026-06-16 11:54:16",
+      "likes": 2,
+      "fetchedAt": "2026-06-16T03:00:39.697Z",
+      "priceComparison": [
+        {
+          "site": "토스",
+          "price": "49,900원"
+        },
+        {
+          "site": "11번가",
+          "price": "59,800원"
+        },
+        {
+          "site": "CJG마켓",
+          "price": "52,000원"
+        },
+        {
+          "site": "ITPARKMALL",
+          "price": "49,920원"
+        },
+        {
+          "site": "쿠차",
+          "price": "65,900원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "03-24",
+            "price": 63000
+          },
+          {
+            "date": "03-31",
+            "price": 63000
+          },
+          {
+            "date": "04-07",
+            "price": 59310
+          },
+          {
+            "date": "04-14",
+            "price": 56020
+          },
+          {
+            "date": "04-21",
+            "price": 56020
+          },
+          {
+            "date": "04-28",
+            "price": 58000
+          },
+          {
+            "date": "05-05",
+            "price": 58000
+          },
+          {
+            "date": "05-12",
+            "price": 58000
+          },
+          {
+            "date": "05-19",
+            "price": 58000
+          },
+          {
+            "date": "05-26",
+            "price": 58000
+          },
+          {
+            "date": "06-02",
+            "price": 56020
+          },
+          {
+            "date": "06-09",
+            "price": 58000
+          }
+        ],
+        "minPrice": 56020,
+        "maxPrice": 63000
+      },
+      "postContent": {
+        "text": "손발 건조하거나 관절 안좋을때 사용하면좋고 알루미늄 재질이라 열전도성 높습니다오늘만 할인이고 저렴합니다네이버에 리뷰 많으니 참고하셔요",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0616/900w_20260616115234_h01GoWwk0J.jpg",
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0616/900w_20260616115237_M4rEgh2MD8.jpg"
+        ]
+      },
+      "shopUrl": "https://service.toss.im/shopping-discovery/c/2177307159"
+    },
+    {
       "id": "hdz_161148",
       "title": "푸마 25SS 듀얼드라이 반팔티셔츠 유니 6컬러 택1",
       "price": "9,500원",
@@ -11,8 +489,8 @@
       "sourceColor": "#4F46E5",
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=712397",
       "publishedAt": "2026-06-16 11:52:26",
-      "likes": 1,
-      "fetchedAt": "2026-06-16T02:54:06.093Z",
+      "likes": 6,
+      "fetchedAt": "2026-06-16T03:00:39.697Z",
       "priceComparison": [
         {
           "site": "G마켓",
@@ -48,8 +526,8 @@
       "sourceColor": "#FF8C00",
       "link": "https://www.fmkorea.com/9962590493",
       "publishedAt": "2026-06-16 11:52:22",
-      "likes": 1,
-      "fetchedAt": "2026-06-16T02:54:06.093Z",
+      "likes": 3,
+      "fetchedAt": "2026-06-16T03:00:39.697Z",
       "priceComparison": [
         {
           "site": "G마켓",
@@ -96,8 +574,8 @@
       "sourceColor": "#4F46E5",
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=712398",
       "publishedAt": "2026-06-16 11:52:11",
-      "likes": 0,
-      "fetchedAt": "2026-06-16T02:54:06.093Z",
+      "likes": 3,
+      "fetchedAt": "2026-06-16T03:00:39.697Z",
       "priceComparison": [
         {
           "site": "현대홈쇼핑",
@@ -194,8 +672,8 @@
       "sourceColor": "#4F46E5",
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=712396",
       "publishedAt": "2026-06-16 11:50:14",
-      "likes": 5,
-      "fetchedAt": "2026-06-16T02:54:06.093Z",
+      "likes": 7,
+      "fetchedAt": "2026-06-16T03:00:39.697Z",
       "priceComparison": [
         {
           "site": "롯데온",
@@ -267,7 +745,7 @@
       "postContent": {
         "text": "등심,채끝,갈비살,토시살,치마살,제비추리,부채살부위 랜덤 구성이긴한데 투쁠이라 그람수 대비 저렴한듯 합니다",
         "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0616/900w_20260616114927_rSvDUhsgjA.jpg"
+          "https://cdn3.ppomppu.co.kr/zboard/data3/2026/0616/900w_20260616114927_rSvDUhsgjA.jpg"
         ]
       },
       "shopUrl": "https://www.lotteon.com/p/product/LO2698699531"
@@ -283,8 +761,8 @@
       "sourceColor": "#FF8C00",
       "link": "https://www.fmkorea.com/9962585038",
       "publishedAt": "2026-06-16 11:50:13",
-      "likes": 5,
-      "fetchedAt": "2026-06-16T02:54:06.093Z",
+      "likes": 13,
+      "fetchedAt": "2026-06-16T03:00:39.697Z",
       "priceComparison": [
         {
           "site": "지마켓",
@@ -371,8 +849,8 @@
       "sourceColor": "#10B981",
       "link": "https://arca.live/b/hotdeal/173939320?p=1",
       "publishedAt": "2026-06-16 11:48:05",
-      "likes": 14,
-      "fetchedAt": "2026-06-16T02:54:06.093Z",
+      "likes": 17,
+      "fetchedAt": "2026-06-16T03:00:39.697Z",
       "priceComparison": [
         {
           "site": "11번가",
@@ -447,8 +925,8 @@
       "sourceColor": "#4F46E5",
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=712395",
       "publishedAt": "2026-06-16 11:46:10",
-      "likes": 2,
-      "fetchedAt": "2026-06-16T02:54:06.093Z",
+      "likes": 3,
+      "fetchedAt": "2026-06-16T03:00:39.697Z",
       "priceComparison": [
         {
           "site": "네이버",
@@ -537,7 +1015,7 @@
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=712393",
       "publishedAt": "2026-06-16 11:42:20",
       "likes": 8,
-      "fetchedAt": "2026-06-16T02:54:06.093Z",
+      "fetchedAt": "2026-06-16T03:00:39.697Z",
       "priceComparison": [
         {
           "site": "오늘의집",
@@ -626,8 +1104,8 @@
       "sourceColor": "#FF8C00",
       "link": "https://www.fmkorea.com/9962564863",
       "publishedAt": "2026-06-16 11:42:19",
-      "likes": 7,
-      "fetchedAt": "2026-06-16T02:54:06.093Z",
+      "likes": 9,
+      "fetchedAt": "2026-06-16T03:00:39.697Z",
       "priceComparison": [
         {
           "site": "무신사",
@@ -665,8 +1143,8 @@
       "sourceColor": "#4F46E5",
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=712394",
       "publishedAt": "2026-06-16 11:42:13",
-      "likes": 4,
-      "fetchedAt": "2026-06-16T02:54:06.093Z",
+      "likes": 6,
+      "fetchedAt": "2026-06-16T03:00:39.697Z",
       "priceComparison": [
         {
           "site": "토스쇼핑",
@@ -763,7 +1241,7 @@
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=712392",
       "publishedAt": "2026-06-16 11:40:09",
       "likes": 2,
-      "fetchedAt": "2026-06-16T02:54:06.093Z",
+      "fetchedAt": "2026-06-16T03:00:39.697Z",
       "priceComparison": [
         {
           "site": "지마켓",
@@ -779,13 +1257,8 @@
         }
       ],
       "priceHistory": null,
-      "postContent": {
-        "text": "로얄과 5kg 13,400원 배송비도 무료라저렴하네요 찜기에 쩌먹어도 맛있고 제주 직송입니다",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0616/900w_20260616113912_Ck4Zr3Wr5n.jpg"
-        ]
-      },
-      "shopUrl": "https://m.gmarket.co.kr/vi/product/4775546609?spm=gmktm.home.best.28.65a2486aTeRhZe"
+      "postContent": null,
+      "shopUrl": null
     },
     {
       "id": "hdz_161137",
@@ -799,7 +1272,7 @@
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=712391",
       "publishedAt": "2026-06-16 11:38:10",
       "likes": 6,
-      "fetchedAt": "2026-06-16T02:54:06.093Z",
+      "fetchedAt": "2026-06-16T03:00:39.697Z",
       "priceComparison": [
         {
           "site": "오늘의집",
@@ -876,15 +1349,8 @@
         "minPrice": 21900,
         "maxPrice": 24610
       },
-      "postContent": {
-        "text": "토스 어플 -> 쿠폰 -> 오늘의집 검색 -> 1만원 이상 1,000원 할인 발급 하면 결제할 때 자동 적용돼서 22,460원입니다1.5kg짜리 두 개이고 한 통당 11,230원이에요",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0616/900w_20260616113545_BwlJIRxZfn.png",
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0616/900w_20260616113544_qyknIfQvvH.png",
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0616/900w_20260616113546_BSxB0jQHFH.png"
-        ]
-      },
-      "shopUrl": "https://store.ohou.se/goods/3899673"
+      "postContent": null,
+      "shopUrl": null
     },
     {
       "id": "hdz_161136",
@@ -898,7 +1364,7 @@
       "link": "https://www.fmkorea.com/9962534169",
       "publishedAt": "2026-06-16 11:34:21",
       "likes": 5,
-      "fetchedAt": "2026-06-16T02:54:06.093Z",
+      "fetchedAt": "2026-06-16T03:00:39.697Z",
       "priceComparison": [
         {
           "site": "지마켓",
@@ -936,8 +1402,8 @@
       "sourceColor": "#3B82F6",
       "link": "https://bbs.ruliweb.com/market/board/1020/read/104852?page=1",
       "publishedAt": "2026-06-16 11:30:12",
-      "likes": 19,
-      "fetchedAt": "2026-06-16T02:54:06.093Z",
+      "likes": 20,
+      "fetchedAt": "2026-06-16T03:00:39.697Z",
       "priceComparison": [
         {
           "site": "게임터치몰",
@@ -972,8 +1438,8 @@
       "sourceColor": "#4F46E5",
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=712388",
       "publishedAt": "2026-06-16 11:26:36",
-      "likes": 16,
-      "fetchedAt": "2026-06-16T02:54:06.093Z",
+      "likes": 17,
+      "fetchedAt": "2026-06-16T03:00:39.957Z",
       "priceComparison": [
         {
           "site": "29cm",
@@ -1038,14 +1504,8 @@
         "minPrice": 21700,
         "maxPrice": 30100
       },
-      "postContent": {
-        "text": "스트로베리치즈케이크/청키몽키퍼지브라우니/체리가르시아 등 8종 선택 가능합니다파인트 한통 증정에 삽스푼까지 증정이라 통당 가격 괜찮은듯 합니다",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0616/900w_20260616112325_sAbB9nx8wr.jpg",
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0616/900w_20260616112325_DqQhFgfZ7X.jpg"
-        ]
-      },
-      "shopUrl": "https://www.29cm.co.kr/products/4044967"
+      "postContent": null,
+      "shopUrl": null
     },
     {
       "id": "hdz_161133",
@@ -1059,7 +1519,7 @@
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=712389",
       "publishedAt": "2026-06-16 11:26:27",
       "likes": 17,
-      "fetchedAt": "2026-06-16T02:54:06.093Z",
+      "fetchedAt": "2026-06-16T03:00:39.957Z",
       "priceComparison": [],
       "priceHistory": {
         "points": [
@@ -1115,13 +1575,8 @@
         "minPrice": 56780,
         "maxPrice": 61410
       },
-      "postContent": {
-        "text": "친구 없으면 못하는 게임 스플릿 픽션이 35% 할인 중입니다.한명이 구매해도 프렌즈패스로 둘이 할 수 있습니다",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0616/20260616112310_vhC6yDCrxt.png"
-        ]
-      },
-      "shopUrl": "https://store.steampowered.com/app/2001120/Split_Fiction/"
+      "postContent": null,
+      "shopUrl": null
     },
     {
       "id": "hdz_161132",
@@ -1135,7 +1590,7 @@
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=712390",
       "publishedAt": "2026-06-16 11:26:15",
       "likes": 16,
-      "fetchedAt": "2026-06-16T02:54:06.093Z",
+      "fetchedAt": "2026-06-16T03:00:39.957Z",
       "priceComparison": [
         {
           "site": "지마켓",
@@ -1215,8 +1670,8 @@
       "sourceColor": "#10B981",
       "link": "https://arca.live/b/hotdeal/173937833?p=1",
       "publishedAt": "2026-06-16 11:26:04",
-      "likes": 34,
-      "fetchedAt": "2026-06-16T02:54:06.093Z",
+      "likes": 36,
+      "fetchedAt": "2026-06-16T03:00:39.957Z",
       "priceComparison": [
         {
           "site": "토스쇼핑",
@@ -1283,8 +1738,8 @@
       "sourceColor": "#DC2626",
       "link": "https://www.dogdrip.net/708102687",
       "publishedAt": "2026-06-16 11:25:05",
-      "likes": 19,
-      "fetchedAt": "2026-06-16T02:54:06.094Z",
+      "likes": 24,
+      "fetchedAt": "2026-06-16T03:00:39.957Z",
       "priceComparison": [
         {
           "site": "네이버",
@@ -1371,7 +1826,7 @@
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=712387",
       "publishedAt": "2026-06-16 11:24:11",
       "likes": 18,
-      "fetchedAt": "2026-06-16T02:54:06.094Z",
+      "fetchedAt": "2026-06-16T03:00:39.957Z",
       "priceComparison": [
         {
           "site": "카카오메이커스",
@@ -1399,8 +1854,8 @@
       "sourceColor": "#4F46E5",
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=712386",
       "publishedAt": "2026-06-16 11:22:15",
-      "likes": 15,
-      "fetchedAt": "2026-06-16T02:54:06.395Z",
+      "likes": 17,
+      "fetchedAt": "2026-06-16T03:00:39.957Z",
       "priceComparison": [
         {
           "site": "G마켓",
@@ -1481,7 +1936,7 @@
       "link": "https://arca.live/b/hotdeal/173937510?p=1",
       "publishedAt": "2026-06-16 11:22:07",
       "likes": 6,
-      "fetchedAt": "2026-06-16T02:54:06.395Z",
+      "fetchedAt": "2026-06-16T03:00:39.957Z",
       "priceComparison": [
         {
           "site": "쿠팡",
@@ -1507,8 +1962,8 @@
       "sourceColor": "#7C3AED",
       "link": "https://quasarzone.com/bbs/qb_saleinfo/views/1961831",
       "publishedAt": "2026-06-16 11:22:05",
-      "likes": 19,
-      "fetchedAt": "2026-06-16T02:54:06.395Z",
+      "likes": 20,
+      "fetchedAt": "2026-06-16T03:00:39.957Z",
       "priceComparison": [
         {
           "site": "지마켓",
@@ -1592,7 +2047,7 @@
       "link": "https://quasarzone.com/bbs/qb_saleinfo/views/1961833",
       "publishedAt": "2026-06-16 11:22:03",
       "likes": 20,
-      "fetchedAt": "2026-06-16T02:54:06.395Z",
+      "fetchedAt": "2026-06-16T03:00:39.957Z",
       "priceComparison": [
         {
           "site": "네이버",
@@ -1619,7 +2074,7 @@
       "link": "https://www.fmkorea.com/9962473271",
       "publishedAt": "2026-06-16 11:20:25",
       "likes": 8,
-      "fetchedAt": "2026-06-16T02:54:06.395Z",
+      "fetchedAt": "2026-06-16T03:00:39.957Z",
       "priceComparison": [
         {
           "site": "롯데온",
@@ -1698,8 +2153,8 @@
       "sourceColor": "#4F46E5",
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=712384",
       "publishedAt": "2026-06-16 11:18:17",
-      "likes": 41,
-      "fetchedAt": "2026-06-16T02:54:06.395Z",
+      "likes": 42,
+      "fetchedAt": "2026-06-16T03:00:39.957Z",
       "priceComparison": [
         {
           "site": "무신사",
@@ -1775,8 +2230,8 @@
       "sourceColor": "#4F46E5",
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=712385",
       "publishedAt": "2026-06-16 11:18:09",
-      "likes": 5,
-      "fetchedAt": "2026-06-16T02:54:06.395Z",
+      "likes": 6,
+      "fetchedAt": "2026-06-16T03:00:39.957Z",
       "priceComparison": [
         {
           "site": "네이버",
@@ -1873,7 +2328,7 @@
       "link": "https://www.fmkorea.com/9962462988",
       "publishedAt": "2026-06-16 11:16:24",
       "likes": 26,
-      "fetchedAt": "2026-06-16T02:54:06.395Z",
+      "fetchedAt": "2026-06-16T03:00:39.957Z",
       "priceComparison": [
         {
           "site": "쿠팡",
@@ -1964,8 +2419,8 @@
       "sourceColor": "#4F46E5",
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=712382",
       "publishedAt": "2026-06-16 11:16:15",
-      "likes": 3,
-      "fetchedAt": "2026-06-16T02:54:06.395Z",
+      "likes": 4,
+      "fetchedAt": "2026-06-16T03:00:39.957Z",
       "priceComparison": [
         {
           "site": "네이버",
@@ -2002,7 +2457,7 @@
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=712383",
       "publishedAt": "2026-06-16 11:16:10",
       "likes": 12,
-      "fetchedAt": "2026-06-16T02:54:06.395Z",
+      "fetchedAt": "2026-06-16T03:00:39.957Z",
       "priceComparison": [
         {
           "site": "지마켓",
@@ -2034,8 +2489,8 @@
       "sourceColor": "#DC2626",
       "link": "https://www.dogdrip.net/708100632",
       "publishedAt": "2026-06-16 11:15:04",
-      "likes": 14,
-      "fetchedAt": "2026-06-16T02:54:06.395Z",
+      "likes": 15,
+      "fetchedAt": "2026-06-16T03:00:39.957Z",
       "priceComparison": [
         {
           "site": "G마켓",
@@ -2097,7 +2552,7 @@
         "maxPrice": 62310
       },
       "postContent": {
-        "text": "갈치는 먹을때 너무 귀찮아서 걍 고등어로 많이 샀는데 이런건 또 괜찮아보이네 5~600그람짜리 한토막에 2200원정도 함이거 맛잇나 순살 고등어 사봤는데 생각보다 안먹힘.. 구울때 냄새배기도하고 손이 잘 안가ㅠ.. 고등어보다 갈치가 더 맛있는데 한 두번 먹긴 좋은데 사면 또 냉동실 방치할까봐 걱정..",
+        "text": "갈치는 먹을때 너무 귀찮아서 걍 고등어로 많이 샀는데 이런건 또 괜찮아보이네 5~600그람짜리 한토막에 2200원정도 함이거 맛잇나 순살 고등어 사봤는데 생각보다 안먹힘.. 구울때 냄새배기도하고 손이 잘 안가ㅠ.. 고등어보다 갈치가 더 맛있는데 한 두번 먹긴 좋은데 사면 또 냉동실 방치할까봐 걱정..굽기는 좀 귀찮은데 얼마전에 최강록 파우치형 조림소스 천원에 떨이하길래 잔뜩 사서 냉동생선 넣고 전자렌지 십분 돌려 먹으니 간편하고 괜찮더라 삼치로 해먹었는데 갈치도 나쁘지 않을듯",
         "images": []
       },
       "shopUrl": "https://item.gmarket.co.kr/Item?goodscode=4590558896"
@@ -2114,7 +2569,7 @@
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=712381",
       "publishedAt": "2026-06-16 11:14:08",
       "likes": 5,
-      "fetchedAt": "2026-06-16T02:54:06.395Z",
+      "fetchedAt": "2026-06-16T03:00:39.957Z",
       "priceComparison": [
         {
           "site": "네이버",
@@ -2190,8 +2645,8 @@
       "postContent": {
         "text": "스파클 생수인데 24개 기준 쿠폰까지 붙으면 9,500원 해당 가격 나옵니다.병당 390원대라서 저렴해서 생수 필요하신 분들은 쟁이세요.",
         "images": [
-          "https://cdn3.ppomppu.co.kr/zboard/data3/2026/0616/900w_20260616111227_sR9B9uRrvN.jpg",
-          "https://cdn3.ppomppu.co.kr/zboard/data3/2026/0616/20260616111437_zkug2yAKed.jpg"
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0616/900w_20260616111227_sR9B9uRrvN.jpg",
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0616/20260616111437_zkug2yAKed.jpg"
         ]
       },
       "shopUrl": null
@@ -2208,7 +2663,7 @@
       "link": "https://www.fmkorea.com/9962442453",
       "publishedAt": "2026-06-16 11:12:23",
       "likes": 16,
-      "fetchedAt": "2026-06-16T02:54:06.395Z",
+      "fetchedAt": "2026-06-16T03:00:39.957Z",
       "priceComparison": [
         {
           "site": "네이버멤버십",
@@ -2283,8 +2738,8 @@
       "sourceColor": "#4F46E5",
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=712380",
       "publishedAt": "2026-06-16 11:12:10",
-      "likes": 13,
-      "fetchedAt": "2026-06-16T02:54:06.395Z",
+      "likes": 14,
+      "fetchedAt": "2026-06-16T03:00:39.957Z",
       "priceComparison": [
         {
           "site": "쿠팡",
@@ -2361,8 +2816,13 @@
         "minPrice": 398890,
         "maxPrice": 414830
       },
-      "postContent": null,
-      "shopUrl": null
+      "postContent": {
+        "text": "27인치 / IPS / UHD밝기 400에 스피커 내장 제품입니다.",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0616/900w_20260616110923_GOSv6MsppA.png"
+        ]
+      },
+      "shopUrl": "https://www.coupang.com/vp/products/8803783353"
     },
     {
       "id": "hdz_161114",
@@ -2376,7 +2836,7 @@
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=712377",
       "publishedAt": "2026-06-16 11:10:31",
       "likes": 26,
-      "fetchedAt": "2026-06-16T02:54:06.395Z",
+      "fetchedAt": "2026-06-16T03:00:40.217Z",
       "priceComparison": [
         {
           "site": "G마켓",
@@ -2449,8 +2909,14 @@
         "minPrice": 19970,
         "maxPrice": 21150
       },
-      "postContent": null,
-      "shopUrl": null
+      "postContent": {
+        "text": "입자 사이즈 조절 가능한 전동 그라인더입니다세라믹 소재고 원핸드 전동 타입이네요",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0616/900w_20260616110609_ySabS889oe.jpg",
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0616/900w_20260616110610_EkpdhZD6qq.jpg"
+        ]
+      },
+      "shopUrl": "https://item.gmarket.co.kr/Item?goodscode=4571122176"
     },
     {
       "id": "hdz_161113",
@@ -2463,8 +2929,8 @@
       "sourceColor": "#4F46E5",
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=712378",
       "publishedAt": "2026-06-16 11:10:23",
-      "likes": 17,
-      "fetchedAt": "2026-06-16T02:54:06.395Z",
+      "likes": 18,
+      "fetchedAt": "2026-06-16T03:00:40.217Z",
       "priceComparison": [
         {
           "site": "네이버",
@@ -2544,7 +3010,7 @@
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=712379",
       "publishedAt": "2026-06-16 11:10:15",
       "likes": 13,
-      "fetchedAt": "2026-06-16T02:54:06.395Z",
+      "fetchedAt": "2026-06-16T03:00:40.217Z",
       "priceComparison": [
         {
           "site": "오늘의집",
@@ -2568,13 +3034,8 @@
         }
       ],
       "priceHistory": null,
-      "postContent": {
-        "text": "냉장고 , 김치냉장고 행사하는거 다양하게 있어요 옵션 1번 1등급 모델 기준 온누리 상품권 환급,포토리뷰 상품권 받으면 166만원대 나옵니다 스펙,가격대 괜찮은거 꽤 있습니다",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0616/900w_20260616110922_PE6sLgq8Et.jpg"
-        ]
-      },
-      "shopUrl": "https://store.ohou.se/goods/4070366"
+      "postContent": null,
+      "shopUrl": null
     },
     {
       "id": "hdz_161111",
@@ -2587,8 +3048,8 @@
       "sourceColor": "#FF8C00",
       "link": "https://www.fmkorea.com/9962435941",
       "publishedAt": "2026-06-16 11:10:14",
-      "likes": 14,
-      "fetchedAt": "2026-06-16T02:54:06.395Z",
+      "likes": 15,
+      "fetchedAt": "2026-06-16T03:00:40.217Z",
       "priceComparison": [
         {
           "site": "지마켓",
@@ -2664,7 +3125,7 @@
       "link": "https://arca.live/b/hotdeal/173936669?p=1",
       "publishedAt": "2026-06-16 11:10:08",
       "likes": 5,
-      "fetchedAt": "2026-06-16T02:54:06.395Z",
+      "fetchedAt": "2026-06-16T03:00:40.217Z",
       "priceComparison": [
         {
           "site": "지마켓",
@@ -2748,7 +3209,7 @@
       "link": "https://quasarzone.com/bbs/qb_saleinfo/views/1961821",
       "publishedAt": "2026-06-16 11:10:05",
       "likes": 7,
-      "fetchedAt": "2026-06-16T02:54:06.395Z",
+      "fetchedAt": "2026-06-16T03:00:40.217Z",
       "priceComparison": [
         {
           "site": "11번가",
@@ -2840,7 +3301,7 @@
       "link": "https://www.fmkorea.com/9962412052",
       "publishedAt": "2026-06-16 11:06:16",
       "likes": 12,
-      "fetchedAt": "2026-06-16T02:54:06.697Z",
+      "fetchedAt": "2026-06-16T03:00:40.217Z",
       "priceComparison": [
         {
           "site": "G마켓",
@@ -2928,7 +3389,7 @@
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=712376",
       "publishedAt": "2026-06-16 11:06:08",
       "likes": 56,
-      "fetchedAt": "2026-06-16T02:54:06.697Z",
+      "fetchedAt": "2026-06-16T03:00:40.217Z",
       "priceComparison": [
         {
           "site": "이랜드몰",
@@ -2957,7 +3418,7 @@
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=712373",
       "publishedAt": "2026-06-16 11:04:34",
       "likes": 7,
-      "fetchedAt": "2026-06-16T02:54:06.697Z",
+      "fetchedAt": "2026-06-16T03:00:40.217Z",
       "priceComparison": [
         {
           "site": "옥션",
@@ -2997,7 +3458,7 @@
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=712374",
       "publishedAt": "2026-06-16 11:04:26",
       "likes": 26,
-      "fetchedAt": "2026-06-16T02:54:06.697Z",
+      "fetchedAt": "2026-06-16T03:00:40.217Z",
       "priceComparison": [
         {
           "site": "오늘의집",
@@ -3073,7 +3534,7 @@
       "postContent": {
         "text": "25% 자동쿠폰 적용하면 3구 멀티탭 5,175원 나오네요~",
         "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0616/900w_20260616105033_ur38Xg9sUr.jpg"
+          "https://cdn3.ppomppu.co.kr/zboard/data3/2026/0616/900w_20260616105033_ur38Xg9sUr.jpg"
         ]
       },
       "shopUrl": "https://store.ohou.se/goods/3671272"
@@ -3090,7 +3551,7 @@
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=712375",
       "publishedAt": "2026-06-16 11:04:18",
       "likes": 6,
-      "fetchedAt": "2026-06-16T02:54:06.697Z",
+      "fetchedAt": "2026-06-16T03:00:40.217Z",
       "priceComparison": [],
       "priceHistory": null,
       "postContent": {
@@ -3113,7 +3574,7 @@
       "link": "https://www.fmkorea.com/9962400339",
       "publishedAt": "2026-06-16 11:04:13",
       "likes": 21,
-      "fetchedAt": "2026-06-16T02:54:06.697Z",
+      "fetchedAt": "2026-06-16T03:00:40.217Z",
       "priceComparison": [
         {
           "site": "지마켓",
@@ -3189,7 +3650,7 @@
       "link": "https://arca.live/b/hotdeal/173936157?p=1",
       "publishedAt": "2026-06-16 11:04:07",
       "likes": 3,
-      "fetchedAt": "2026-06-16T02:54:06.697Z",
+      "fetchedAt": "2026-06-16T03:00:40.217Z",
       "priceComparison": [
         {
           "site": "지마켓",
@@ -3273,7 +3734,7 @@
       "link": "https://quasarzone.com/bbs/qb_saleinfo/views/1961817",
       "publishedAt": "2026-06-16 11:04:04",
       "likes": 22,
-      "fetchedAt": "2026-06-16T02:54:06.697Z",
+      "fetchedAt": "2026-06-16T03:00:40.217Z",
       "priceComparison": [
         {
           "site": "하이마트",
@@ -3360,8 +3821,8 @@
       "sourceColor": "#4F46E5",
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=712370",
       "publishedAt": "2026-06-16 11:02:31",
-      "likes": 5,
-      "fetchedAt": "2026-06-16T02:54:06.697Z",
+      "likes": 7,
+      "fetchedAt": "2026-06-16T03:00:40.217Z",
       "priceComparison": [
         {
           "site": "롯데온",
@@ -3401,7 +3862,7 @@
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=712371",
       "publishedAt": "2026-06-16 11:02:21",
       "likes": 9,
-      "fetchedAt": "2026-06-16T02:54:06.697Z",
+      "fetchedAt": "2026-06-16T03:00:40.217Z",
       "priceComparison": [
         {
           "site": "네이버",
@@ -3470,13 +3931,7 @@
         "minPrice": 11900,
         "maxPrice": 11900
       },
-      "postContent": {
-        "text": "다리 없는 몽당 옵션 중사이즈 2마리 가격입니다. 옵션 다양하게 있고 알이랑 살 많이 차있어서 맛있어요",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0616/900w_20260616105834_RGq1yoOa4F.jpeg",
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0616/900w_20260616105837_mn1NhgNs5x.jpeg"
-        ]
-      },
+      "postContent": null,
       "shopUrl": null
     },
     {
@@ -3491,7 +3946,7 @@
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=712372",
       "publishedAt": "2026-06-16 11:02:13",
       "likes": 5,
-      "fetchedAt": "2026-06-16T02:54:06.697Z",
+      "fetchedAt": "2026-06-16T03:00:40.217Z",
       "priceComparison": [
         {
           "site": "오늘의집",
@@ -3564,13 +4019,8 @@
         "minPrice": 10700,
         "maxPrice": 12100
       },
-      "postContent": {
-        "text": "가정용 소과 2kg 구성이고 무료배송입니다그대로 먹거나 여러 개 갈아 주스로 마시기 좋아요",
-        "images": [
-          "https://cdn3.ppomppu.co.kr/zboard/data3/2026/0616/900w_20260616110056_HPM9q0rdRz.png"
-        ]
-      },
-      "shopUrl": "https://store.ohou.se/goods/3173092"
+      "postContent": null,
+      "shopUrl": null
     },
     {
       "id": "hdz_161097",
@@ -3583,8 +4033,8 @@
       "sourceColor": "#FF8C00",
       "link": "https://www.fmkorea.com/9962379341",
       "publishedAt": "2026-06-16 10:58:16",
-      "likes": 35,
-      "fetchedAt": "2026-06-16T02:54:06.697Z",
+      "likes": 36,
+      "fetchedAt": "2026-06-16T03:00:40.217Z",
       "priceComparison": [
         {
           "site": "카카오",
@@ -3672,7 +4122,7 @@
       "link": "https://www.fmkorea.com/9962387234",
       "publishedAt": "2026-06-16 10:56:14",
       "likes": 9,
-      "fetchedAt": "2026-06-16T02:54:06.697Z",
+      "fetchedAt": "2026-06-16T03:00:40.217Z",
       "priceComparison": [
         {
           "site": "롯데온",
@@ -3756,7 +4206,7 @@
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=712369",
       "publishedAt": "2026-06-16 10:56:08",
       "likes": 5,
-      "fetchedAt": "2026-06-16T02:54:06.697Z",
+      "fetchedAt": "2026-06-16T03:00:40.217Z",
       "priceComparison": [
         {
           "site": "옥션",
@@ -3825,8 +4275,13 @@
         "minPrice": 15900,
         "maxPrice": 15900
       },
-      "postContent": null,
-      "shopUrl": null
+      "postContent": {
+        "text": "해썹 인증에 전재료 국산입니다 전라도식으로 담은 김치라 양념 많이 들어간편이겠네요 후기는 많이 없는데 키로당 4천원대라 가격 괜찮아 보여서 한번 시켜봅니다",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0616/900w_20260616105233_1crxNfk0VJ.jpeg"
+        ]
+      },
+      "shopUrl": "https://itempage3.auction.co.kr/DetailView.aspx?itemno=F536783016"
     },
     {
       "id": "hdz_161094",
@@ -3839,8 +4294,8 @@
       "sourceColor": "#888888",
       "link": "https://toss.im/_m/rzXaEzFf",
       "publishedAt": "2026-06-16 10:55:19",
-      "likes": 103,
-      "fetchedAt": "2026-06-16T02:54:06.697Z",
+      "likes": 106,
+      "fetchedAt": "2026-06-16T03:00:40.464Z",
       "priceComparison": [
         {
           "site": "토스쇼핑",
@@ -3867,7 +4322,7 @@
       "link": "https://toss.im/_m/don0VvG5",
       "publishedAt": "2026-06-16 10:54:57",
       "likes": 136,
-      "fetchedAt": "2026-06-16T02:54:06.697Z",
+      "fetchedAt": "2026-06-16T03:00:40.464Z",
       "priceComparison": [
         {
           "site": "토스쇼핑",
@@ -3951,7 +4406,7 @@
       "link": "https://toss.im/_m/nVlH3DcC",
       "publishedAt": "2026-06-16 10:54:53",
       "likes": 101,
-      "fetchedAt": "2026-06-16T02:54:06.697Z",
+      "fetchedAt": "2026-06-16T03:00:40.464Z",
       "priceComparison": [
         {
           "site": "토스쇼핑",
@@ -3977,8 +4432,8 @@
       "sourceColor": "#888888",
       "link": "https://toss.im/_m/jaVMMuze",
       "publishedAt": "2026-06-16 10:54:51",
-      "likes": 108,
-      "fetchedAt": "2026-06-16T02:54:06.697Z",
+      "likes": 110,
+      "fetchedAt": "2026-06-16T03:00:40.464Z",
       "priceComparison": [
         {
           "site": "토스쇼핑",
@@ -4061,8 +4516,8 @@
       "sourceColor": "#888888",
       "link": "https://toss.im/_m/hyF79fan",
       "publishedAt": "2026-06-16 10:54:44",
-      "likes": 186,
-      "fetchedAt": "2026-06-16T02:54:06.697Z",
+      "likes": 192,
+      "fetchedAt": "2026-06-16T03:00:40.464Z",
       "priceComparison": [
         {
           "site": "토스쇼핑",
@@ -4146,7 +4601,7 @@
       "link": "https://toss.im/_m/rCPPyYHu",
       "publishedAt": "2026-06-16 10:54:33",
       "likes": 106,
-      "fetchedAt": "2026-06-16T02:54:06.697Z",
+      "fetchedAt": "2026-06-16T03:00:40.464Z",
       "priceComparison": [
         {
           "site": "토스쇼핑",
@@ -4185,7 +4640,7 @@
       "link": "https://www.fmkorea.com/9962276800",
       "publishedAt": "2026-06-16 10:54:26",
       "likes": 10,
-      "fetchedAt": "2026-06-16T02:54:06.998Z",
+      "fetchedAt": "2026-06-16T03:00:40.464Z",
       "priceComparison": [
         {
           "site": "29cm",
@@ -4265,7 +4720,7 @@
       "link": "https://toss.im/_m/XbgICTx9",
       "publishedAt": "2026-06-16 10:54:21",
       "likes": 123,
-      "fetchedAt": "2026-06-16T02:54:06.998Z",
+      "fetchedAt": "2026-06-16T03:00:40.464Z",
       "priceComparison": [
         {
           "site": "토스쇼핑",
@@ -4357,7 +4812,7 @@
       "link": "https://www.fmkorea.com/9962381713",
       "publishedAt": "2026-06-16 10:54:14",
       "likes": 16,
-      "fetchedAt": "2026-06-16T02:54:06.998Z",
+      "fetchedAt": "2026-06-16T03:00:40.464Z",
       "priceComparison": [
         {
           "site": "네이버",
@@ -4444,8 +4899,8 @@
       "sourceColor": "#888888",
       "link": "https://toss.im/_m/PQv6JaJ",
       "publishedAt": "2026-06-16 10:54:05",
-      "likes": 116,
-      "fetchedAt": "2026-06-16T02:54:06.998Z",
+      "likes": 117,
+      "fetchedAt": "2026-06-16T03:00:40.464Z",
       "priceComparison": [
         {
           "site": "토스쇼핑",
@@ -4472,7 +4927,7 @@
       "link": "https://toss.im/_m/D6XOSiis",
       "publishedAt": "2026-06-16 10:53:54",
       "likes": 102,
-      "fetchedAt": "2026-06-16T02:54:06.998Z",
+      "fetchedAt": "2026-06-16T03:00:40.464Z",
       "priceComparison": [
         {
           "site": "토스쇼핑",
@@ -4560,7 +5015,7 @@
       "link": "https://toss.im/_m/RD6oMX9d",
       "publishedAt": "2026-06-16 10:53:52",
       "likes": 109,
-      "fetchedAt": "2026-06-16T02:54:06.998Z",
+      "fetchedAt": "2026-06-16T03:00:40.464Z",
       "priceComparison": [
         {
           "site": "토스쇼핑",
@@ -4591,7 +5046,7 @@
       "link": "https://toss.im/_m/RDvEfjUg",
       "publishedAt": "2026-06-16 10:53:47",
       "likes": 110,
-      "fetchedAt": "2026-06-16T02:54:06.998Z",
+      "fetchedAt": "2026-06-16T03:00:40.464Z",
       "priceComparison": [
         {
           "site": "토스쇼핑",
@@ -4683,7 +5138,7 @@
       "link": "https://toss.im/_m/TNg4rqa3",
       "publishedAt": "2026-06-16 10:53:32",
       "likes": 105,
-      "fetchedAt": "2026-06-16T02:54:06.998Z",
+      "fetchedAt": "2026-06-16T03:00:40.464Z",
       "priceComparison": [
         {
           "site": "토스쇼핑",
@@ -4717,8 +5172,8 @@
       "sourceColor": "#FF8C00",
       "link": "https://www.fmkorea.com/9962371318",
       "publishedAt": "2026-06-16 10:52:49",
-      "likes": 11,
-      "fetchedAt": "2026-06-16T02:54:06.998Z",
+      "likes": 12,
+      "fetchedAt": "2026-06-16T03:00:40.464Z",
       "priceComparison": [
         {
           "site": "오늘의집",
@@ -4805,8 +5260,8 @@
       "sourceColor": "#FF8C00",
       "link": "https://www.fmkorea.com/9962375202",
       "publishedAt": "2026-06-16 10:52:18",
-      "likes": 12,
-      "fetchedAt": "2026-06-16T02:54:06.998Z",
+      "likes": 13,
+      "fetchedAt": "2026-06-16T03:00:40.464Z",
       "priceComparison": [
         {
           "site": "네이버",
@@ -4881,8 +5336,8 @@
       "sourceColor": "#4F46E5",
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=712368",
       "publishedAt": "2026-06-16 10:52:08",
-      "likes": 20,
-      "fetchedAt": "2026-06-16T02:54:06.998Z",
+      "likes": 21,
+      "fetchedAt": "2026-06-16T03:00:40.464Z",
       "priceComparison": [
         {
           "site": "지마켓",
@@ -4910,7 +5365,7 @@
       "link": "https://www.fmkorea.com/9962354913",
       "publishedAt": "2026-06-16 10:48:20",
       "likes": 3,
-      "fetchedAt": "2026-06-16T02:54:06.998Z",
+      "fetchedAt": "2026-06-16T03:00:40.464Z",
       "priceComparison": [
         {
           "site": "옥션",
@@ -4997,8 +5452,8 @@
       "sourceColor": "#FF8C00",
       "link": "https://www.fmkorea.com/9962356389",
       "publishedAt": "2026-06-16 10:46:27",
-      "likes": 17,
-      "fetchedAt": "2026-06-16T02:54:06.998Z",
+      "likes": 19,
+      "fetchedAt": "2026-06-16T03:00:40.464Z",
       "priceComparison": [
         {
           "site": "29cm",
@@ -5082,7 +5537,7 @@
       "link": "https://www.fmkorea.com/9962359395",
       "publishedAt": "2026-06-16 10:46:11",
       "likes": 14,
-      "fetchedAt": "2026-06-16T02:54:06.998Z",
+      "fetchedAt": "2026-06-16T03:00:40.464Z",
       "priceComparison": [],
       "priceHistory": null,
       "postContent": null,
@@ -5099,8 +5554,8 @@
       "sourceColor": "#10B981",
       "link": "https://arca.live/b/hotdeal/173935077?p=1",
       "publishedAt": "2026-06-16 10:46:08",
-      "likes": 36,
-      "fetchedAt": "2026-06-16T02:54:06.998Z",
+      "likes": 37,
+      "fetchedAt": "2026-06-16T03:00:40.723Z",
       "priceComparison": [
         {
           "site": "하이마트",
@@ -5183,8 +5638,8 @@
       "sourceColor": "#7C3AED",
       "link": "https://quasarzone.com/bbs/qb_saleinfo/views/1961809",
       "publishedAt": "2026-06-16 10:46:06",
-      "likes": 23,
-      "fetchedAt": "2026-06-16T02:54:06.998Z",
+      "likes": 24,
+      "fetchedAt": "2026-06-16T03:00:40.723Z",
       "priceComparison": [
         {
           "site": "알리",
@@ -5214,8 +5669,8 @@
       "sourceColor": "#FF8C00",
       "link": "https://www.fmkorea.com/9962338997",
       "publishedAt": "2026-06-16 10:40:22",
-      "likes": 10,
-      "fetchedAt": "2026-06-16T02:54:06.998Z",
+      "likes": 12,
+      "fetchedAt": "2026-06-16T03:00:40.723Z",
       "priceComparison": [
         {
           "site": "지마켓",
@@ -5246,7 +5701,7 @@
       "link": "https://www.fmkorea.com/9962327488",
       "publishedAt": "2026-06-16 10:38:17",
       "likes": 9,
-      "fetchedAt": "2026-06-16T02:54:06.998Z",
+      "fetchedAt": "2026-06-16T03:00:40.723Z",
       "priceComparison": [
         {
           "site": "알리",
@@ -5281,7 +5736,7 @@
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=712367",
       "publishedAt": "2026-06-16 10:36:10",
       "likes": 20,
-      "fetchedAt": "2026-06-16T02:54:06.998Z",
+      "fetchedAt": "2026-06-16T03:00:40.723Z",
       "priceComparison": [
         {
           "site": "무신사",
@@ -5317,7 +5772,7 @@
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=712365",
       "publishedAt": "2026-06-16 10:30:20",
       "likes": 22,
-      "fetchedAt": "2026-06-16T02:54:06.998Z",
+      "fetchedAt": "2026-06-16T03:00:40.723Z",
       "priceComparison": [
         {
           "site": "하프클럽",
@@ -5413,7 +5868,7 @@
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=712366",
       "publishedAt": "2026-06-16 10:30:13",
       "likes": 16,
-      "fetchedAt": "2026-06-16T02:54:07.301Z",
+      "fetchedAt": "2026-06-16T03:00:40.723Z",
       "priceComparison": [
         {
           "site": "29cm",
@@ -5482,8 +5937,13 @@
         "minPrice": 34390,
         "maxPrice": 39210
       },
-      "postContent": null,
-      "shopUrl": null
+      "postContent": {
+        "text": "단일맛은 가끔 조금 더 싸게 나오긴 하는데여러가지 고를 수 있어서 좋은듯 합니다전자렌지에 돌려먹어도 맛있었네요",
+        "images": [
+          "https://cdn3.ppomppu.co.kr/zboard/data3/2026/0616/900w_20260616102857_eGVGu5Z70o.jpg"
+        ]
+      },
+      "shopUrl": "https://www.29cm.co.kr/products/3954015"
     },
     {
       "id": "hdz_161067",
@@ -5497,7 +5957,7 @@
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=712363",
       "publishedAt": "2026-06-16 10:28:17",
       "likes": 14,
-      "fetchedAt": "2026-06-16T02:54:07.302Z",
+      "fetchedAt": "2026-06-16T03:00:40.723Z",
       "priceComparison": [
         {
           "site": "지마켓",
@@ -5538,7 +5998,7 @@
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=712364",
       "publishedAt": "2026-06-16 10:28:10",
       "likes": 20,
-      "fetchedAt": "2026-06-16T02:54:07.302Z",
+      "fetchedAt": "2026-06-16T03:00:40.723Z",
       "priceComparison": [
         {
           "site": "G마켓",
@@ -5558,13 +6018,8 @@
         }
       ],
       "priceHistory": null,
-      "postContent": {
-        "text": "12brix 기준으로 당도 선별한 신비복숭아입니다 2kg에 25~32과 구성이고 쿠폰 적용하면 13,180원 나오네요",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0616/900w_20260616102702_oeLukIFmKj.jpg"
-        ]
-      },
-      "shopUrl": "https://item.gmarket.co.kr/Item?goodscode=4766442389"
+      "postContent": null,
+      "shopUrl": null
     },
     {
       "id": "hdz_161065",
@@ -5578,7 +6033,7 @@
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=712361",
       "publishedAt": "2026-06-16 10:26:24",
       "likes": 41,
-      "fetchedAt": "2026-06-16T02:54:07.302Z",
+      "fetchedAt": "2026-06-16T03:00:40.723Z",
       "priceComparison": [
         {
           "site": "무신사",
@@ -5654,8 +6109,8 @@
       "postContent": {
         "text": "유행 크게 안 타는 디자인이라 일상용으로 신기 좋고4만원대면 할인율 괜찮네요",
         "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0616/900w_20260616102356_WhFND1mvsR.jpg",
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0616/900w_20260616102354_JYXmJMWllU.jpg"
+          "https://cdn3.ppomppu.co.kr/zboard/data3/2026/0616/900w_20260616102356_WhFND1mvsR.jpg",
+          "https://cdn3.ppomppu.co.kr/zboard/data3/2026/0616/900w_20260616102354_JYXmJMWllU.jpg"
         ]
       },
       "shopUrl": "https://www.musinsa.com/products/2921406"
@@ -5672,7 +6127,7 @@
       "link": "https://www.fmkorea.com/9962268428",
       "publishedAt": "2026-06-16 10:26:19",
       "likes": 26,
-      "fetchedAt": "2026-06-16T02:54:07.302Z",
+      "fetchedAt": "2026-06-16T03:00:40.723Z",
       "priceComparison": [
         {
           "site": "롯데온",
@@ -5760,7 +6215,7 @@
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=712362",
       "publishedAt": "2026-06-16 10:26:13",
       "likes": 10,
-      "fetchedAt": "2026-06-16T02:54:07.302Z",
+      "fetchedAt": "2026-06-16T03:00:40.723Z",
       "priceComparison": [
         {
           "site": "롯데온",
@@ -5853,7 +6308,7 @@
       "link": "https://www.fmkorea.com/9962301214",
       "publishedAt": "2026-06-16 10:26:09",
       "likes": 5,
-      "fetchedAt": "2026-06-16T02:54:07.302Z",
+      "fetchedAt": "2026-06-16T03:00:40.723Z",
       "priceComparison": [
         {
           "site": "쿠팡",
@@ -5945,7 +6400,7 @@
       "link": "https://arca.live/b/hotdeal/173933763?p=1",
       "publishedAt": "2026-06-16 10:26:04",
       "likes": 9,
-      "fetchedAt": "2026-06-16T02:54:07.302Z",
+      "fetchedAt": "2026-06-16T03:00:40.724Z",
       "priceComparison": [
         {
           "site": "롯데온",
@@ -6033,7 +6488,7 @@
       "link": "https://www.fmkorea.com/9962290801",
       "publishedAt": "2026-06-16 10:24:28",
       "likes": 12,
-      "fetchedAt": "2026-06-16T02:54:07.302Z",
+      "fetchedAt": "2026-06-16T03:00:40.724Z",
       "priceComparison": [
         {
           "site": "지마켓",
@@ -6064,7 +6519,7 @@
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=712359",
       "publishedAt": "2026-06-16 10:22:19",
       "likes": 12,
-      "fetchedAt": "2026-06-16T02:54:07.302Z",
+      "fetchedAt": "2026-06-16T03:00:40.724Z",
       "priceComparison": [
         {
           "site": "G마켓",
@@ -6160,8 +6615,8 @@
       "sourceColor": "#4F46E5",
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=712360",
       "publishedAt": "2026-06-16 10:22:13",
-      "likes": 27,
-      "fetchedAt": "2026-06-16T02:54:07.302Z",
+      "likes": 29,
+      "fetchedAt": "2026-06-16T03:00:40.724Z",
       "priceComparison": [
         {
           "site": "G마켓",
@@ -6234,8 +6689,14 @@
         "minPrice": 10900,
         "maxPrice": 16240
       },
-      "postContent": null,
-      "shopUrl": null
+      "postContent": {
+        "text": "모든열원 다 사용 가능해요28이라 무난 사이즈3단도 있긴한데 굳이.. 가격이 싸네요",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0616/900w_20260616102011_pJhejnhrbc.png",
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0616/900w_20260616102010_5lk2EQp0dX.png"
+        ]
+      },
+      "shopUrl": "https://item.gmarket.co.kr/Item?goodscode=4526461053"
     },
     {
       "id": "hdz_161057",
@@ -6249,7 +6710,7 @@
       "link": "https://arca.live/b/hotdeal/173933501?p=1",
       "publishedAt": "2026-06-16 10:22:04",
       "likes": 12,
-      "fetchedAt": "2026-06-16T02:54:07.302Z",
+      "fetchedAt": "2026-06-16T03:00:40.724Z",
       "priceComparison": [
         {
           "site": "토스",
@@ -6287,8 +6748,8 @@
       "sourceColor": "#4F46E5",
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=712357",
       "publishedAt": "2026-06-16 10:20:31",
-      "likes": 22,
-      "fetchedAt": "2026-06-16T02:54:07.302Z",
+      "likes": 23,
+      "fetchedAt": "2026-06-16T03:00:40.724Z",
       "priceComparison": [],
       "priceHistory": {
         "points": [
@@ -6364,7 +6825,7 @@
       "link": "https://www.fmkorea.com/9962278719",
       "publishedAt": "2026-06-16 10:20:21",
       "likes": 14,
-      "fetchedAt": "2026-06-16T02:54:07.302Z",
+      "fetchedAt": "2026-06-16T03:00:40.724Z",
       "priceComparison": [
         {
           "site": "네이버",
@@ -6428,434 +6889,6 @@
         ],
         "minPrice": 4310,
         "maxPrice": 10480
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_161054",
-      "title": "풀무원생수 퍼플에디션 500ml 40개",
-      "price": "8,910원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/06/16/thumb_ea268366ce2ec16bb9e42eff034bd359.webp",
-      "category": "식품",
-      "site": "네이버",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=712358",
-      "publishedAt": "2026-06-16 10:20:17",
-      "likes": 6,
-      "fetchedAt": "2026-06-16T02:54:07.302Z",
-      "priceComparison": [
-        {
-          "site": "네이버",
-          "price": "8,910원"
-        },
-        {
-          "site": "쿠팡",
-          "price": "9,900원"
-        },
-        {
-          "site": "11번가",
-          "price": "11,300원"
-        },
-        {
-          "site": "동원몰",
-          "price": "17,000원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "03-24",
-            "price": 11290
-          },
-          {
-            "date": "03-31",
-            "price": 11290
-          },
-          {
-            "date": "04-07",
-            "price": 11290
-          },
-          {
-            "date": "04-14",
-            "price": 11290
-          },
-          {
-            "date": "04-21",
-            "price": 11290
-          },
-          {
-            "date": "04-28",
-            "price": 11290
-          },
-          {
-            "date": "05-05",
-            "price": 11290
-          },
-          {
-            "date": "05-12",
-            "price": 11290
-          },
-          {
-            "date": "05-19",
-            "price": 11290
-          },
-          {
-            "date": "05-26",
-            "price": 11290
-          },
-          {
-            "date": "06-02",
-            "price": 11290
-          },
-          {
-            "date": "06-09",
-            "price": 11290
-          }
-        ],
-        "minPrice": 11290,
-        "maxPrice": 11290
-      },
-      "postContent": {
-        "text": "적립금 1,813원체감가 7,097원개당177원이네요!",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0616/20260616101819_3U4oSxaVyn.png"
-        ]
-      },
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_161053",
-      "title": "마농 젤리 노와이어 심리스 세트 브라2개+팬티3개",
-      "price": "25,490원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/06/16/thumb_6929d6496422e652933b98cce32ee059.webp",
-      "category": "의류",
-      "site": "지마켓",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=712356",
-      "publishedAt": "2026-06-16 10:18:10",
-      "likes": 7,
-      "fetchedAt": "2026-06-16T02:54:07.302Z",
-      "priceComparison": [
-        {
-          "site": "지마켓",
-          "price": "25,490원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": {
-        "text": "옵션 16번부터 21번까지 해당됩니다브라 2개 팬티 3개 구성에 색상 5종류있네요옵션 1번 비비안 모달 90% 남자팬티장당 3300원 꼴 나옵니다 가격 괜찮은거같네요",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0616/900w_20260616101710_UrLY6JlNqZ.jpeg",
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0616/900w_20260616101716_GQjelHWpHk.jpeg"
-        ]
-      },
-      "shopUrl": "https://item.gmarket.co.kr/Item?&goodscode=4748874794"
-    },
-    {
-      "id": "hdz_161052",
-      "title": "리얼 수박주스 1L 3팩",
-      "price": "14,900원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/06/16/thumb_660b9a60794162ab478f7840126c2f6a.webp",
-      "category": "식품",
-      "site": "토스쇼핑",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=712353",
-      "publishedAt": "2026-06-16 10:14:28",
-      "likes": 40,
-      "fetchedAt": "2026-06-16T02:54:07.302Z",
-      "priceComparison": [
-        {
-          "site": "토스쇼핑",
-          "price": "14,900원"
-        },
-        {
-          "site": "한경넷",
-          "price": "19,900원"
-        },
-        {
-          "site": "지엔씨푸드(웰프레쉬)",
-          "price": "13,163원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "03-24",
-            "price": 24730
-          },
-          {
-            "date": "03-31",
-            "price": 25870
-          },
-          {
-            "date": "04-07",
-            "price": 25600
-          },
-          {
-            "date": "04-14",
-            "price": 25600
-          },
-          {
-            "date": "04-21",
-            "price": 25600
-          },
-          {
-            "date": "04-28",
-            "price": 23440
-          },
-          {
-            "date": "05-05",
-            "price": 25060
-          },
-          {
-            "date": "05-12",
-            "price": 24750
-          },
-          {
-            "date": "05-19",
-            "price": 24940
-          },
-          {
-            "date": "05-26",
-            "price": 25350
-          },
-          {
-            "date": "06-02",
-            "price": 21940
-          },
-          {
-            "date": "06-09",
-            "price": 25490
-          }
-        ],
-        "minPrice": 21940,
-        "maxPrice": 25870
-      },
-      "postContent": {
-        "text": "3팩 구매 기준 14,900원이라 팩당 4,900원대 나오고 액상과당이나 향료 없이 만든 제품입니다 1L 스파우트 파우치 형태라 냉동 보관하기 편해 보이네요",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0616/900w_20260616100122_9dcO9BnKxr.jpg"
-        ]
-      },
-      "shopUrl": "https://service.toss.im/shopping-discovery/c/123669167"
-    },
-    {
-      "id": "hdz_161051",
-      "title": "빌트루 엑스트라버진 100% 올리브오일 식물성 캡슐 총 8박스 (총 240캡슐)",
-      "price": "25,900원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/06/16/thumb_5e0d8af844b9ee2cf79fc282ff5fe3ef.webp",
-      "category": "식품",
-      "site": "G마켓",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=712354",
-      "publishedAt": "2026-06-16 10:14:23",
-      "likes": 11,
-      "fetchedAt": "2026-06-16T02:54:07.302Z",
-      "priceComparison": [
-        {
-          "site": "G마켓",
-          "price": "25,900원"
-        },
-        {
-          "site": "CJ온스타일",
-          "price": "29,900원"
-        },
-        {
-          "site": "GS SHOP",
-          "price": "32,900원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": {
-        "text": "저온 압착 추출 스페인 최상급 유기농 올리브오일입니다산패 최소화한 식물성 캡슐+개별 포장 제품이고 총 240캡슐 할인 적용되서 25,900원 나옵니다",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0616/900w_20260616101307_KIKhZWYO0n.jpg",
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0616/900w_20260616101308_WKi2uru6qc.jpg"
-        ]
-      },
-      "shopUrl": "https://item.gmarket.co.kr/Item?goodscode=4596374379"
-    },
-    {
-      "id": "hdz_161050",
-      "title": "네스프레소 호환 일리 10캡슐 6종",
-      "price": "6,120원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/06/16/thumb_562d5de109c4c0dcb4bd77eceda1c22a.webp",
-      "category": "식품",
-      "site": "g마켓",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=712355",
-      "publishedAt": "2026-06-16 10:14:14",
-      "likes": 11,
-      "fetchedAt": "2026-06-16T02:54:07.302Z",
-      "priceComparison": [
-        {
-          "site": "g마켓",
-          "price": "6,120원"
-        },
-        {
-          "site": "11번가",
-          "price": "5,890원"
-        },
-        {
-          "site": "쿠팡",
-          "price": "6,290원"
-        },
-        {
-          "site": "홈플러스",
-          "price": "11,400원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "03-24",
-            "price": 60350
-          },
-          {
-            "date": "03-31",
-            "price": 59000
-          },
-          {
-            "date": "04-07",
-            "price": 59000
-          },
-          {
-            "date": "04-14",
-            "price": 58900
-          },
-          {
-            "date": "04-21",
-            "price": 58000
-          },
-          {
-            "date": "04-28",
-            "price": 58000
-          },
-          {
-            "date": "05-05",
-            "price": 57990
-          },
-          {
-            "date": "05-12",
-            "price": 57990
-          },
-          {
-            "date": "05-19",
-            "price": 59900
-          },
-          {
-            "date": "05-26",
-            "price": 59900
-          },
-          {
-            "date": "06-02",
-            "price": 59900
-          },
-          {
-            "date": "06-09",
-            "price": 59900
-          }
-        ],
-        "minPrice": 57990,
-        "maxPrice": 60350
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_161049",
-      "title": "동화약품 까스활 75ml 30병",
-      "price": "19,900원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/06/16/thumb_3e4750a7d68274f529ff7bac02b55d05.webp",
-      "category": "식품",
-      "site": "NS홈쇼핑",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/9962247703",
-      "publishedAt": "2026-06-16 10:12:39",
-      "likes": 6,
-      "fetchedAt": "2026-06-16T02:54:07.302Z",
-      "priceComparison": [
-        {
-          "site": "NS홈쇼핑",
-          "price": "19,900원"
-        },
-        {
-          "site": "쿠팡",
-          "price": "21,990원"
-        },
-        {
-          "site": "동원몰",
-          "price": "29,400원"
-        },
-        {
-          "site": "11번가",
-          "price": "26,000원"
-        },
-        {
-          "site": "롯데마트",
-          "price": "28,990원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "03-24",
-            "price": 16630
-          },
-          {
-            "date": "03-31",
-            "price": 17490
-          },
-          {
-            "date": "04-07",
-            "price": 16800
-          },
-          {
-            "date": "04-14",
-            "price": 16800
-          },
-          {
-            "date": "04-21",
-            "price": 16800
-          },
-          {
-            "date": "04-28",
-            "price": 16800
-          },
-          {
-            "date": "05-05",
-            "price": 16800
-          },
-          {
-            "date": "05-12",
-            "price": 16800
-          },
-          {
-            "date": "05-19",
-            "price": 16800
-          },
-          {
-            "date": "05-26",
-            "price": 17500
-          },
-          {
-            "date": "06-02",
-            "price": 17500
-          },
-          {
-            "date": "06-09",
-            "price": 14850
-          }
-        ],
-        "minPrice": 14850,
-        "maxPrice": 17500
       },
       "postContent": null,
       "shopUrl": null
@@ -34454,5 +34487,5 @@
       "shopUrl": null
     }
   ],
-  "lastUpdated": "2026-06-16T02:54:22.860Z"
+  "lastUpdated": "2026-06-16T03:00:55.868Z"
 }
