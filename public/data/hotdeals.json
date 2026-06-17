@@ -1,6 +1,215 @@
 {
   "deals": [
     {
+      "id": "hdz_161919",
+      "title": "창억떡 인절미/찰떡/설기 3개 골라담기",
+      "price": "27,460원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/06/17/thumb_2f0c65c7a920e2c6b3b3e0a4f751e149.webp",
+      "category": "식품",
+      "site": "29CM",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/9966699720",
+      "publishedAt": "2026-06-17 11:56:19",
+      "likes": 2,
+      "fetchedAt": "2026-06-17T02:57:24.722Z",
+      "priceComparison": [
+        {
+          "site": "29CM",
+          "price": "27,460원"
+        },
+        {
+          "site": "창억떡 공식몰",
+          "price": "44,800원"
+        },
+        {
+          "site": "창억떡 공식몰",
+          "price": "67,500원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "03-31",
+            "price": 35430
+          },
+          {
+            "date": "04-07",
+            "price": 35800
+          },
+          {
+            "date": "04-14",
+            "price": 46000
+          },
+          {
+            "date": "04-21",
+            "price": 37700
+          },
+          {
+            "date": "04-28",
+            "price": 37700
+          },
+          {
+            "date": "05-05",
+            "price": 37700
+          },
+          {
+            "date": "05-12",
+            "price": 37700
+          },
+          {
+            "date": "05-19",
+            "price": 35910
+          },
+          {
+            "date": "05-26",
+            "price": 35740
+          },
+          {
+            "date": "06-02",
+            "price": 37520
+          },
+          {
+            "date": "06-09",
+            "price": 37520
+          },
+          {
+            "date": "06-16",
+            "price": 47000
+          }
+        ],
+        "minPrice": 35430,
+        "maxPrice": 47000
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_161918",
+      "title": "라코스테 남성 린넨 혼방 반팔 5종 택1",
+      "price": "61,810원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/06/17/thumb_3035f13765e4d69ad912267380bfbf0c.webp",
+      "category": "의류",
+      "site": "롯데온",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=712764",
+      "publishedAt": "2026-06-17 11:54:08",
+      "likes": 2,
+      "fetchedAt": "2026-06-17T02:57:24.722Z",
+      "priceComparison": [
+        {
+          "site": "롯데온",
+          "price": "61,810원"
+        },
+        {
+          "site": "LFmall",
+          "price": "37% 68,670원"
+        },
+        {
+          "site": "GS SHOP",
+          "price": "219,000원 할인 중"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "05-05",
+            "price": 197100
+          },
+          {
+            "date": "05-12",
+            "price": 197100
+          },
+          {
+            "date": "05-19",
+            "price": 195200
+          },
+          {
+            "date": "05-26",
+            "price": 177100
+          },
+          {
+            "date": "06-02",
+            "price": 177100
+          },
+          {
+            "date": "06-09",
+            "price": 121414
+          },
+          {
+            "date": "06-16",
+            "price": 124173
+          }
+        ],
+        "minPrice": 121414,
+        "maxPrice": 197100
+      },
+      "postContent": {
+        "text": "린넨 혼방 반팔 5종 6만원대입니다베이직 반팔티 5만원대 있고품목별 색상 사이즈 품절된거 좀 있습니다",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0617/900w_20260617115246_JQtwTWKOgI.jpg"
+        ]
+      },
+      "shopUrl": "https://www.lotteon.com/p/product/bundle/LO2589690305"
+    },
+    {
+      "id": "hdz_161917",
+      "title": "휠라 페이크삭스 10팩",
+      "price": "9,900원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/06/17/thumb_97171046877e99b02c4487b057e0c0ae.webp",
+      "category": "의류",
+      "site": "지마켓",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/9966679743",
+      "publishedAt": "2026-06-17 11:52:13",
+      "likes": 1,
+      "fetchedAt": "2026-06-17T02:57:24.722Z",
+      "priceComparison": [
+        {
+          "site": "지마켓",
+          "price": "9,900원"
+        },
+        {
+          "site": "옥션",
+          "price": "11,900원"
+        },
+        {
+          "site": "11번가",
+          "price": "11,900원"
+        },
+        {
+          "site": "쿠팡",
+          "price": "11,890원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "05-26",
+            "price": 12500
+          },
+          {
+            "date": "06-02",
+            "price": 11550
+          },
+          {
+            "date": "06-09",
+            "price": 12900
+          },
+          {
+            "date": "06-16",
+            "price": 12900
+          }
+        ],
+        "minPrice": 11550,
+        "maxPrice": 12900
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
       "id": "hdz_161916",
       "title": "냉동블루베리 미국산 1kgx3개",
       "price": "20,740원",
@@ -34613,104 +34822,7 @@
       },
       "postContent": null,
       "shopUrl": null
-    },
-    {
-      "id": "hdz_161073",
-      "title": "[알리] 유그린 신형 100w 외 160/200W GaN 접지 충전기",
-      "price": "$ 28.93부터 (USD)",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/06/16/thumb_e30ebd286d9248d681c7ce74aff70eea.webp",
-      "category": "PC",
-      "site": "알리",
-      "source": "퀘이사존",
-      "sourceColor": "#7C3AED",
-      "link": "https://quasarzone.com/bbs/qb_saleinfo/views/1961809",
-      "publishedAt": "2026-06-16 10:46:06",
-      "likes": 24,
-      "fetchedAt": "2026-06-16T03:00:40.723Z",
-      "priceComparison": [
-        {
-          "site": "알리",
-          "price": "$ 28.93부터 (USD)"
-        },
-        {
-          "site": "Alpha Mall",
-          "price": "KRW 79,000"
-        },
-        {
-          "site": "YouTube 유튜버 추천 판매처",
-          "price": "KRW 79,000"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_161072",
-      "title": "고당도 미국산 생체리 2kg",
-      "price": "29,940원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/06/16/thumb_554579175cf8cc97e666174f1092084d.webp",
-      "category": "식품",
-      "site": "지마켓",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/9962338997",
-      "publishedAt": "2026-06-16 10:40:22",
-      "likes": 12,
-      "fetchedAt": "2026-06-16T03:00:40.723Z",
-      "priceComparison": [
-        {
-          "site": "지마켓",
-          "price": "29,940원"
-        },
-        {
-          "site": "농라에프",
-          "price": "27,900원"
-        },
-        {
-          "site": "오늘신선",
-          "price": "18,900원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_161071",
-      "title": "코인딜) 오프라이스 비데물티슈 휴대용 1박스 (20매*24개입)",
-      "price": "16,400원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/06/16/thumb_aeaf9c6b6fc77b4fe28b295b199af38b.webp",
-      "category": "생활용품",
-      "site": "알리",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/9962327488",
-      "publishedAt": "2026-06-16 10:38:17",
-      "likes": 9,
-      "fetchedAt": "2026-06-16T03:00:40.723Z",
-      "priceComparison": [
-        {
-          "site": "알리",
-          "price": "16,400원"
-        },
-        {
-          "site": "쿠팡",
-          "price": "20,800원"
-        },
-        {
-          "site": "11번가",
-          "price": "19,900원"
-        },
-        {
-          "site": "G마켓",
-          "price": "21,500원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": null,
-      "shopUrl": null
     }
   ],
-  "lastUpdated": "2026-06-17T02:50:57.839Z"
+  "lastUpdated": "2026-06-17T02:57:26.710Z"
 }

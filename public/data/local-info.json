@@ -13,16 +13,16 @@
       "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1779432991songpa.JPG"
     },
     {
-      "name": "송파 6월 문화예술 주요 행사",
-      "category": "문화, 공연, 전시, 행사",
+      "name": "송파 6월 문화예술 행사 모음",
+      "category": "문화",
       "startDate": "2026-06-01",
       "endDate": "2026-06-30",
-      "location": "송파구 관내 주요 문화시설 및 석촌호수",
+      "location": "송파구 관내",
       "target": "전체 구민",
-      "summary": "더 갤러리 호수 기획 전시, 석촌호수 메이플스토리 캐릭터 '주황버섯' 전시, 송파문화예술회관 정기 공연 등 송파구 6월 문화예술 행사",
+      "summary": "더 갤러리 호수 6월 기획 전시, 석촌호수 메이플스토리 주황버섯 전시, 송파문화예술회관 6월 정기 공연 등 송파구의 풍성한 문화예술 행사",
       "link": "https://songpa.newstool.co.kr/./view.php?eid=9028&aid=17818",
-      "id": "crawler-1781578567705-720",
-      "image": "https://picsum.photos/seed/138216/800/500"
+      "id": "crawler-1781664774386-491",
+      "image": "https://picsum.photos/seed/847924/800/500"
     },
     {
       "name": "송파 6월 문화예술의 향기 가득",
@@ -3690,6 +3690,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1519340333755-56e9c1d04579?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "성폭력·아동학대 피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-06-17",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원",
+      "target": "성폭력·아동학대 등 범죄 피해 아동 및 장애인",
+      "summary": "만 19세 미만 아동, 장애인 범죄 피해자의 수사·재판 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -7101,7 +7114,67 @@
       "summary": "AI를 활용한 개인 맞춤형 학습, 교육 콘텐츠 자동 생성 등 미래 교육 기술 개발 지원",
       "link": "https://www.msit.go.kr/",
       "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-17-1",
+      "name": "NIPA AI 기반 산업 지능형 의사결정 시스템 개발 및 실증 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-17",
+      "endDate": "2026-12-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "중소/중견기업 및 연구기관",
+      "summary": "AI 기반 산업 데이터 분석을 통한 지능형 의사결정 시스템 개발 및 실증 지원",
+      "link": "https://www.nipa.kr",
+      "image": "https://images.unsplash.com/photo-1488229297570-58520851e868?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-17-2",
+      "name": "서울 AI 허브 AI 기반 디지털 접근성 강화 솔루션 스타트업 육성",
+      "category": "AI지원",
+      "startDate": "2026-06-17",
+      "endDate": "2027-01-31",
+      "location": "서울 AI 허브",
+      "target": "디지털 약자를 위한 AI 솔루션 개발 스타트업",
+      "summary": "디지털 접근성 개선을 위한 AI 기반 기술 개발 스타트업 육성 및 실증 지원",
+      "link": "https://www.seoulaihub.kr",
+      "image": "https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-17-3",
+      "name": "K-Startup AI 기반 순환경제 기술 스타트업 사업화 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-01",
+      "endDate": "2026-12-15",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "AI 기반 순환경제 기술 분야 초기 스타트업",
+      "summary": "AI 활용 순환경제 비즈니스 모델 발굴 및 기술 사업화 지원",
+      "link": "https://www.k-startup.go.kr",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-17-4",
+      "name": "중소기업 AI 기반 R&D 성과 예측 및 특허 전략 수립 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-17",
+      "endDate": "2026-12-31",
+      "location": "중소벤처기업부 (기업마당)",
+      "target": "R&D 역량 강화 및 특허 전략 수립 희망 중소기업",
+      "summary": "AI를 활용한 R&D 성과 예측 및 효과적인 특허 전략 수립 컨설팅 지원",
+      "link": "https://www.bizinfo.go.kr",
+      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-17-5",
+      "name": "과학기술정보통신부 AI 기반 컴퓨테이셔널 재료 과학 기술 개발",
+      "category": "AI지원",
+      "startDate": "2026-07-01",
+      "endDate": "2027-06-30",
+      "location": "과학기술정보통신부",
+      "target": "AI 기반 신소재 연구기관 및 기업",
+      "summary": "AI를 활용한 신소재 개발 및 분석을 위한 컴퓨테이셔널 기술 개발 지원",
+      "link": "https://www.msit.go.kr",
+      "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-06-16"
+  "lastUpdated": "2026-06-17"
 }
