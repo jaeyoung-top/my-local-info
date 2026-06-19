@@ -13,16 +13,28 @@
       "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1779432991songpa.JPG"
     },
     {
-      "name": "송파구 청년예술인 2026 더 임팩트",
-      "category": "문화",
+      "name": "송파구 청년예술인 〈2026 더 임팩트〉",
+      "category": "문화/전시",
       "startDate": "2026-06-01",
       "endDate": "2026-06-30",
       "location": "송파구 관내",
       "target": "전체 구민",
-      "summary": "송파구 청년 예술인들의 작품 전시 또는 공연 등을 선보이는 행사.",
+      "summary": "송파구 청년 예술인들의 활동과 작품을 선보이는 문화 행사 '2026 더 임팩트'.",
       "link": "https://songpa.newstool.co.kr/./view.php?eid=9028&aid=17813",
-      "id": "crawler-1781750894824-966",
-      "image": "https://picsum.photos/seed/125604/800/500"
+      "id": "crawler-1781839982370-404",
+      "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1779428332songpa.JPG"
+    },
+    {
+      "name": "송파 6월 문화예술 기획 전시 및 공연",
+      "category": "문화/공연/전시",
+      "startDate": "2026-06-01",
+      "endDate": "2026-06-30",
+      "location": "더 갤러리 호수, 석촌호수, 송파문화예술회관",
+      "target": "전체 구민",
+      "summary": "더 갤러리 호수 6월 기획 전시, 석촌호수 메이플스토리 캐릭터 '주황버섯' 전시, 송파문화예술회관 6월 정기 공연 등 송파구의 다양한 문화예술 행사.",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9028&aid=17818",
+      "id": "crawler-1781839980578-370",
+      "image": "https://picsum.photos/seed/217176/800/500"
     },
     {
       "name": "송파 6월 문화예술 행사 모음",
@@ -59,42 +71,6 @@
       "link": "https://songpa.newstool.co.kr/./view.php?eid=9028&aid=17818",
       "id": "crawler-1781232373757-476",
       "image": "https://picsum.photos/seed/808584/800/500"
-    },
-    {
-      "name": "송파 6월 문화와 예술 특집 (기획 전시, 공연 등)",
-      "category": "행사",
-      "startDate": "2026-06-01",
-      "endDate": "2026-06-30",
-      "location": "송파구 관내",
-      "target": "전체 구민",
-      "summary": "6월 한 달간 더 갤러리 호수 기획 전시, 석촌호수 주황버섯 캐릭터 전시, 송파문화예술회관 정기 공연 등 송파구 전역에서 다양한 문화예술 행사가 펼쳐집니다.",
-      "link": "https://songpa.newstool.co.kr/./view.php?eid=9028&aid=17818",
-      "id": "crawler-1780800334487-85",
-      "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1779424834songpa.JPG"
-    },
-    {
-      "name": "송파 6월 문화예술 행사: 갤러리 전시, 석촌호수 주황버섯, 송파문화예술회관 공연",
-      "category": "행사",
-      "startDate": "2026-06-01",
-      "endDate": "2026-06-30",
-      "location": "송파구 관내 (더 갤러리 호수, 석촌호수, 송파문화예술회관)",
-      "target": "전체 구민",
-      "summary": "6월 한 달간 송파구 전역에서 다양한 문화예술 행사가 펼쳐집니다. 갤러리 호수 기획 전시, 석촌호수 메이플스토리 주황버섯 방문, 송파문화예술회관 정기 공연을 놓치지 마세요.",
-      "link": "https://songpa.newstool.co.kr/./view.php?eid=9028&aid=17818",
-      "id": "crawler-1780541549886-664",
-      "image": "https://picsum.photos/seed/438760/800/500"
-    },
-    {
-      "name": "송파구 6월 문화예술 기획 전시 및 정기 공연",
-      "category": "행사",
-      "startDate": "2026-06-01",
-      "endDate": "2026-06-30",
-      "location": "송파구 관내",
-      "target": "전체 구민",
-      "summary": "6월 송파구에서 열리는 '더 갤러리 호수 6월 기획 전시', '석촌호수 메이플스토리 캐릭터 전시', '송파문화예술회관 정기 공연' 등 다양한 문화예술 행사 소식입니다.",
-      "link": "https://songpa.newstool.co.kr/./view.php?eid=9028&aid=17818",
-      "id": "crawler-1780455445271-804",
-      "image": "https://picsum.photos/seed/590688/800/500"
     },
     {
       "name": "문화와 예술의 향기가 더해지는 6월",
@@ -7247,7 +7223,67 @@
       "summary": "AI 생성 콘텐츠의 무결성 확보를 위한 워터마킹, 출처 인증 기술 개발",
       "link": "https://www.nipa.kr/main/main.html",
       "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-19-1",
+      "name": "NIPA 2026년 AI 기반 산업 데이터 가치 증대 프로젝트",
+      "category": "AI지원",
+      "startDate": "2026-06-19",
+      "endDate": "2026-12-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "산업 데이터 보유 중소·중견기업",
+      "summary": "AI 활용 산업 데이터 분석 및 비즈니스 모델 고도화 지원",
+      "link": "https://www.nipa.kr",
+      "image": "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-19-2",
+      "name": "서울 AI 허브 실감형 콘텐츠 개발 AI 솔루션 실증 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-01",
+      "endDate": "2027-02-28",
+      "location": "서울 AI 허브",
+      "target": "실감형 콘텐츠 분야 AI 스타트업 및 중소기업",
+      "summary": "AI 기반 실감형 콘텐츠 기술 개발 및 실증 기회 제공",
+      "link": "https://seoulaihub.kr",
+      "image": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-19-3",
+      "name": "K-Startup AI 기반 데이터 주권 확보 기술 스타트업 육성",
+      "category": "AI지원",
+      "startDate": "2026-06-19",
+      "endDate": "2027-01-31",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "데이터 주권, 프라이버시 기술 분야 AI 스타트업",
+      "summary": "AI 기반 데이터 주권 기술 개발 및 사업화 지원",
+      "link": "https://www.k-startup.go.kr",
+      "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-19-4",
+      "name": "중소기업 AI 기반 인력 운용 효율화 솔루션 도입 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-01",
+      "endDate": "2026-11-30",
+      "location": "중소벤처기업부 / 기업마당",
+      "target": "중소기업 (인력 관리, 생산성 개선 희망)",
+      "summary": "AI 솔루션을 통한 인력 배치 및 업무 효율 최적화 지원",
+      "link": "https://www.bizinfo.go.kr",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-19-5",
+      "name": "과학기술정보통신부 글로벌 AI 기술 표준화 협력 및 검증 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-01",
+      "endDate": "2027-06-30",
+      "location": "과학기술정보통신부",
+      "target": "AI 기술 개발 기업, 연구기관, 대학",
+      "summary": "국제 AI 표준 선도 및 기술 상호운용성 검증 지원",
+      "link": "https://www.msit.go.kr",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-06-18"
+  "lastUpdated": "2026-06-19"
 }
