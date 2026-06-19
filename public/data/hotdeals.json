@@ -1,6 +1,95 @@
 {
   "deals": [
     {
+      "id": "hdz_163798",
+      "title": "포카리스웨트 340ml x48+포카리키링",
+      "price": "24,500원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/06/20/thumb_a8dfb23fa936127f21ec75a6d75d0e96.webp",
+      "category": "식품",
+      "site": "G마켓",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=713678",
+      "publishedAt": "2026-06-20 02:22:20",
+      "likes": 29,
+      "fetchedAt": "2026-06-19T19:27:55.747Z",
+      "priceComparison": [
+        {
+          "site": "G마켓",
+          "price": "24,500원"
+        },
+        {
+          "site": "11번가",
+          "price": "32,600원"
+        },
+        {
+          "site": "다나와",
+          "price": "27,890원"
+        },
+        {
+          "site": "동원몰",
+          "price": "29,800원"
+        },
+        {
+          "site": "푸드스프링",
+          "price": "40,968원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": {
+        "text": "10% +12% 결제할인 적용하면되는데, 대부분 결제수단/카드 다 적용됩니다. 핫딜가보다 1,500~2,000원정도 비싸긴한데 포카리 키링 귀엽네요..",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0620/900w_20260620021437_GOuKZWtmq7.jpg",
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0620/900w_20260620021437_Pio9DJxqPo.jpg"
+        ]
+      },
+      "shopUrl": "https://item.gmarket.co.kr/Item?spm=gmktpc.searchlist.stardelivery.d0_0.3dd13df4T9o6uz&goodscode=1903909075"
+    },
+    {
+      "id": "hdz_163797",
+      "title": "소닉 매니아 90%할인",
+      "price": "2,000원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/06/20/thumb_b4c656c131af32e27aec3ca2634669d7.webp",
+      "category": "게임",
+      "site": "스팀",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/9978716192",
+      "publishedAt": "2026-06-20 02:18:16",
+      "likes": 16,
+      "fetchedAt": "2026-06-19T19:27:55.747Z",
+      "priceComparison": [
+        {
+          "site": "스팀",
+          "price": "2,000원"
+        },
+        {
+          "site": "키샵 온라인",
+          "price": "1,399엔"
+        },
+        {
+          "site": "다나와",
+          "price": "27,000원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "08-22",
+            "price": 20550
+          },
+          {
+            "date": "08-29",
+            "price": 20550
+          }
+        ],
+        "minPrice": 20550,
+        "maxPrice": 20550
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
       "id": "hdz_163796",
       "title": "하이뮨 프로틴 밸런스 액티브 딸기 X 딥초코 세트(각 1박스/ 총 36팩) +아미노포텐 체험팩 증정",
       "price": "31,800원",
@@ -32396,136 +32485,7 @@
       },
       "postContent": null,
       "shopUrl": null
-    },
-    {
-      "id": "hdz_162994",
-      "title": "슈라모드 무브 슬라이드",
-      "price": "5,900원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/06/18/thumb_e2738ba477cdf50439fe33aaa8d80b4c.webp",
-      "category": "의류",
-      "site": "무신사",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=713305",
-      "publishedAt": "2026-06-18 20:54:18",
-      "likes": 14,
-      "fetchedAt": "2026-06-18T12:18:12.491Z",
-      "priceComparison": [
-        {
-          "site": "무신사",
-          "price": "5,900원"
-        },
-        {
-          "site": "11번가",
-          "price": "10,170원"
-        },
-        {
-          "site": "11번가",
-          "price": "22,000원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "03-31",
-            "price": 11400
-          },
-          {
-            "date": "04-07",
-            "price": 11400
-          },
-          {
-            "date": "04-14",
-            "price": 11400
-          },
-          {
-            "date": "04-21",
-            "price": 11400
-          },
-          {
-            "date": "04-28",
-            "price": 11400
-          },
-          {
-            "date": "05-05",
-            "price": 11400
-          },
-          {
-            "date": "05-12",
-            "price": 11400
-          },
-          {
-            "date": "05-19",
-            "price": 11400
-          },
-          {
-            "date": "05-26",
-            "price": 11400
-          },
-          {
-            "date": "06-02",
-            "price": 11400
-          },
-          {
-            "date": "06-09",
-            "price": 11400
-          },
-          {
-            "date": "06-16",
-            "price": 11400
-          }
-        ],
-        "minPrice": 11400,
-        "maxPrice": 11400
-      },
-      "postContent": {
-        "text": "앞 발가락 튀어나오지 않는 거라 사무실용으로 대충 신기 괜찮겠네요 무신사에서 무진장 할인에 포함되어서 가격 인하되었습니다",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0618/900w_20260618203503_ZlZr8Lmv4o.jpg"
-        ]
-      },
-      "shopUrl": "https://www.musinsa.com/products/4754099"
-    },
-    {
-      "id": "hdz_162993",
-      "title": "오월도 천도복숭아 4kg",
-      "price": "14,910원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/06/18/thumb_b165e19e21503f5387d4f6dd7a5791df.webp",
-      "category": "식품",
-      "site": "G마켓",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=713306",
-      "publishedAt": "2026-06-18 20:54:10",
-      "likes": 7,
-      "fetchedAt": "2026-06-18T12:18:12.491Z",
-      "priceComparison": [
-        {
-          "site": "G마켓",
-          "price": "14,910원"
-        },
-        {
-          "site": "11번가",
-          "price": "27,500원"
-        },
-        {
-          "site": "홈플러스",
-          "price": "22,600원"
-        },
-        {
-          "site": "GS SHOP",
-          "price": "30,500원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": {
-        "text": "키로당 3700원대 가성비 먹기 좋을듯여",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0618/900w_20260618205249_ZI2X7O2VSc.jpg"
-        ]
-      },
-      "shopUrl": "https://item.gmarket.co.kr/Item?goodscode=4784311872"
     }
   ],
-  "lastUpdated": "2026-06-19T17:12:18.032Z"
+  "lastUpdated": "2026-06-19T19:27:58.604Z"
 }
