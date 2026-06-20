@@ -1,6 +1,45 @@
 {
   "deals": [
     {
+      "id": "hdz_164245",
+      "title": "페르소나 5 더 로열",
+      "price": "12,000원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/06/21/thumb_3a9cdeab955b7314f64576cb9dc3852b.webp",
+      "category": "게임",
+      "site": "다이렉트게임즈",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/9982446864",
+      "publishedAt": "2026-06-21 04:18:14",
+      "likes": 32,
+      "fetchedAt": "2026-06-20T22:00:47.385Z",
+      "priceComparison": [
+        {
+          "site": "다이렉트게임즈",
+          "price": "12,000원"
+        },
+        {
+          "site": "PlayStation 공식스토어",
+          "price": "12,700원"
+        },
+        {
+          "site": "Xbox 스토어",
+          "price": "24,430원"
+        },
+        {
+          "site": "Steam",
+          "price": "17,99달러(약 25,000원대)"
+        },
+        {
+          "site": "예스24",
+          "price": "69,800원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
       "id": "hdz_164244",
       "title": "헤드앤숄더 샴푸 850ml*3통+미니샴푸랜덤 80ml*2통 증정",
       "price": "22,438원",
@@ -21843,42 +21882,7 @@
       },
       "postContent": null,
       "shopUrl": null
-    },
-    {
-      "id": "hdz_163741",
-      "title": "갤럭시북5 프로 NT960XHZ-A52A 16GB 256GB",
-      "price": "2,099,000원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/06/19/thumb_e7b20b149720ec8b3bc18f66d3aba5bb.webp",
-      "category": "PC",
-      "site": "G마켓",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/9978043574",
-      "publishedAt": "2026-06-19 22:38:11",
-      "likes": 26,
-      "fetchedAt": "2026-06-19T14:45:07.787Z",
-      "priceComparison": [
-        {
-          "site": "G마켓",
-          "price": "2,099,000원"
-        },
-        {
-          "site": "11번가",
-          "price": "2,447,950원"
-        },
-        {
-          "site": "하이마트",
-          "price": "2,349,000원"
-        },
-        {
-          "site": "Danawa",
-          "price": "2,245,000원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": null,
-      "shopUrl": null
     }
   ],
-  "lastUpdated": "2026-06-20T19:11:45.583Z"
+  "lastUpdated": "2026-06-20T22:00:49.249Z"
 }
