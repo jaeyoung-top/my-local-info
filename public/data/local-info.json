@@ -13,6 +13,18 @@
       "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1779432991songpa.JPG"
     },
     {
+      "name": "송파구 6월 문화예술 특집",
+      "category": "행사",
+      "startDate": "2026-06-01",
+      "endDate": "2026-06-30",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "더 갤러리 호수 6월 기획 전시, 석촌호수 주황버섯 캐릭터 방문, 송파문화예술회관 정기 공연 등 송파구 6월 문화예술 행사 안내",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9028&aid=17818",
+      "id": "crawler-1781923075620-756",
+      "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1779424834songpa.JPG"
+    },
+    {
       "name": "송파구 청년예술인 〈2026 더 임팩트〉",
       "category": "문화/전시",
       "startDate": "2026-06-01",
@@ -3692,6 +3704,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
+    },
+    {
+      "id": "127000",
+      "name": "피해아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-06-20",
+      "endDate": "상시",
+      "location": "법무부",
+      "target": "만 19세 미만 아동 또는 장애인 범죄 피해자",
+      "summary": "아동·장애인 범죄 피해자의 수사·재판상 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -7283,7 +7308,67 @@
       "summary": "국제 AI 표준 선도 및 기술 상호운용성 검증 지원",
       "link": "https://www.msit.go.kr",
       "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-20-1",
+      "name": "산업 지능화를 위한 AI 데이터 기반 워크플로우 자동화 기술 개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-01",
+      "endDate": "2026-12-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "제조, 서비스 등 산업 분야 기업 및 기술 개발 기업",
+      "summary": "AI·데이터 기반 산업 워크플로우 자동화 기술 개발 및 실증 지원",
+      "link": "https://www.nipa.kr/biz/사업공고",
+      "image": "https://images.unsplash.com/photo-1516321165247-4aa89a48be55?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-20-2",
+      "name": "서울 AI 허브 인공지능 기반 B2B 솔루션 시장 진출 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-05",
+      "endDate": "2026-10-31",
+      "location": "서울 AI 허브",
+      "target": "B2B AI 솔루션 보유 스타트업 및 중소기업",
+      "summary": "AI 기반 B2B 솔루션의 국내외 시장 진출 전략 수립 및 실행 지원",
+      "link": "https://seoulaihub.kr/program/지원사업",
+      "image": "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-20-3",
+      "name": "K-Startup 인공지능 기반 하드웨어 스타트업 액셀러레이팅 프로그램",
+      "category": "AI지원",
+      "startDate": "2026-06-20",
+      "endDate": "2027-02-28",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "AI 관련 하드웨어 기술 기반 초기 스타트업",
+      "summary": "AI 하드웨어 분야 유망 스타트업 발굴, 투자 및 성장을 위한 집중 액셀러레이팅",
+      "link": "https://www.k-startup.go.kr/common/announcementList.do",
+      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-20-4",
+      "name": "AI 기반 미래예측 및 정책결정 지원 시스템 개발",
+      "category": "AI지원",
+      "startDate": "2026-06-12",
+      "endDate": "2027-12-31",
+      "location": "과학기술정보통신부",
+      "target": "정부 부처, 공공기관, 연구기관",
+      "summary": "인공지능을 활용한 미래 사회 변화 예측 및 효과적 정책 수립 시스템 개발",
+      "link": "https://www.msit.go.kr/web/msitContents/contents.do?mId=Mjc3",
+      "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-20-5",
+      "name": "중소기업 자체 AI·빅데이터 분석 환경 구축 및 전문인력 양성 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-08",
+      "endDate": "2026-12-15",
+      "location": "중소벤처기업부 (기업마당)",
+      "target": "AI·빅데이터 분석 역량 내재화 희망 중소기업",
+      "summary": "중소기업의 AI·빅데이터 분석 시스템 자체 구축 및 운영 인력 양성 지원",
+      "link": "https://www.bizinfo.go.kr/사업정보",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-06-19"
+  "lastUpdated": "2026-06-20"
 }
