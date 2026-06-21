@@ -3717,6 +3717,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "범죄 피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-06-21",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원",
+      "target": "성폭력·아동학대·인신매매등 범죄 피해 아동(19세 미만) 및 장애인",
+      "summary": "범죄 피해 아동 및 장애인의 수사·재판 진술을 돕는 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -7368,7 +7381,43 @@
       "summary": "중소기업의 AI·빅데이터 분석 시스템 자체 구축 및 운영 인력 양성 지원",
       "link": "https://www.bizinfo.go.kr/사업정보",
       "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-21-1",
+      "name": "기술창업기업 보증 지원",
+      "category": "AI지원",
+      "startDate": "2026-01-01",
+      "endDate": "상시",
+      "location": "기술보증기금 (KOTEC)",
+      "target": "기술력을 보유한 예비 또는 창업기업",
+      "summary": "AI, 디지털 기술 등 혁신 기술 기반 창업기업의 사업화 자금 조달을 위한 보증 지원",
+      "link": "https://www.koreatechfinance.com",
+      "image": "https://images.unsplash.com/photo-1488229297570-58520851e868?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-21-2",
+      "name": "중소기업 정책자금 (스마트 제조혁신 등)",
+      "category": "AI지원",
+      "startDate": "2026-01-01",
+      "endDate": "2026-12-31 (연중 수시)",
+      "location": "중소벤처기업진흥공단 (KOSME)",
+      "target": "스마트 제조혁신 등 미래 성장 분야 중소기업",
+      "summary": "인공지능, 디지털 전환 등 신성장 분야 영위 중소기업에 저금리 융자 지원",
+      "link": "https://www.kosme.or.kr",
+      "image": "https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-21-3",
+      "name": "정보통신기술(ICT) 진흥 및 확산 사업",
+      "category": "AI지원",
+      "startDate": "2026-01-01",
+      "endDate": "상시 (연중 운영)",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "ICT 기업, 연구기관, 개발자 등",
+      "summary": "정보통신기술 전반의 연구개발, 활용 촉진 및 산업 생태계 확산을 위한 지원",
+      "link": "https://www.nipa.kr",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-06-20"
+  "lastUpdated": "2026-06-21"
 }

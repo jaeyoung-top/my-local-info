@@ -1,6 +1,37 @@
 {
   "deals": [
     {
+      "id": "hdz_164330",
+      "title": "오예스 예쓰의 케이크가게 두바이 피스타치오 &amp; 초코, 280g, 2개",
+      "price": "5,410원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/06/21/thumb_7304e8030bdebfb84a22c141c2fecad9.webp",
+      "category": "식품",
+      "site": "쿠팡",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/9983113526",
+      "publishedAt": "2026-06-21 11:54:23",
+      "likes": 2,
+      "fetchedAt": "2026-06-21T02:55:56.429Z",
+      "priceComparison": [
+        {
+          "site": "쿠팡",
+          "price": "5,410원"
+        },
+        {
+          "site": "해태몰",
+          "price": "5,280원"
+        },
+        {
+          "site": "메가마트",
+          "price": "5,580원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
       "id": "hdz_164329",
       "title": "롯데 구구 크러스터 660ml 6개",
       "price": "22,690원",
@@ -19348,91 +19379,7 @@
       },
       "postContent": null,
       "shopUrl": null
-    },
-    {
-      "id": "hdz_163827",
-      "title": "[무신사] 셀렉스 프로핏 WPI 파우더 초콜릿 2kg",
-      "price": "66,360원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/06/20/thumb_bb9a4e749c8d19d1d4a964758ad3ebd7.webp",
-      "category": "생활용품",
-      "site": "무신사",
-      "source": "퀘이사존",
-      "sourceColor": "#7C3AED",
-      "link": "https://quasarzone.com/bbs/qb_saleinfo/views/1962939",
-      "publishedAt": "2026-06-20 09:10:04",
-      "likes": 26,
-      "fetchedAt": "2026-06-20T02:35:32.586Z",
-      "priceComparison": [
-        {
-          "site": "무신사",
-          "price": "66,360원"
-        },
-        {
-          "site": "다나와",
-          "price": "86,322원"
-        },
-        {
-          "site": "매일유업 직영몰",
-          "price": "113,000원"
-        },
-        {
-          "site": "셀렉스몰",
-          "price": "102,900원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "03-31",
-            "price": 87780
-          },
-          {
-            "date": "04-07",
-            "price": 123640
-          },
-          {
-            "date": "04-21",
-            "price": 73100
-          },
-          {
-            "date": "04-28",
-            "price": 73100
-          },
-          {
-            "date": "05-05",
-            "price": 73100
-          },
-          {
-            "date": "05-12",
-            "price": 73100
-          },
-          {
-            "date": "05-19",
-            "price": 73100
-          },
-          {
-            "date": "05-26",
-            "price": 73100
-          },
-          {
-            "date": "06-02",
-            "price": 73100
-          },
-          {
-            "date": "06-09",
-            "price": 73100
-          },
-          {
-            "date": "06-16",
-            "price": 73100
-          }
-        ],
-        "minPrice": 73100,
-        "maxPrice": 123640
-      },
-      "postContent": null,
-      "shopUrl": null
     }
   ],
-  "lastUpdated": "2026-06-21T02:51:22.264Z"
+  "lastUpdated": "2026-06-21T02:55:57.716Z"
 }
