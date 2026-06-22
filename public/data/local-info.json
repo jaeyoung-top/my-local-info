@@ -13,6 +13,18 @@
       "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1779432991songpa.JPG"
     },
     {
+      "name": "더 갤러리 호수 6월 기획 전시",
+      "category": "전시",
+      "startDate": "2026-06-01",
+      "endDate": "2026-06-30",
+      "location": "더 갤러리 호수",
+      "target": "전체 구민",
+      "summary": "6월 한 달간 더 갤러리 호수에서 열리는 특별 기획 전시",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9028&aid=17818",
+      "id": "crawler-1782096998874-691",
+      "image": "https://picsum.photos/seed/416060/800/500"
+    },
+    {
       "name": "송파구 6월 문화예술 특집",
       "category": "행사",
       "startDate": "2026-06-01",
@@ -3730,6 +3742,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
+    },
+    {
+      "id": "127000",
+      "name": "범죄 피해 아동/장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-06-22",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청 등 수사기관 및 법원",
+      "target": "만 19세 미만 아동 및 장애인 범죄 피해자",
+      "summary": "아동 및 장애인 범죄 피해자의 수사·재판상 소통 중개 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1519340333755-56e9c1d04579?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -7417,7 +7442,67 @@
       "summary": "정보통신기술 전반의 연구개발, 활용 촉진 및 산업 생태계 확산을 위한 지원",
       "link": "https://www.nipa.kr",
       "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-22-1",
+      "name": "정보통신산업진흥원(NIPA) AI·데이터 기반 이종 산업 간 융합 서비스 개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-22",
+      "endDate": "2027-03-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "이종 산업 간 AI·데이터 융합 희망 기업/컨소시엄",
+      "summary": "AI·데이터 활용 이종 산업 융합 신규 서비스 개발 및 사업화 지원",
+      "link": "https://www.nipa.kr/main/main.do",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-22-2",
+      "name": "서울 AI 허브 AI 스타트업 해외 시장 검증 및 진출 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-22",
+      "endDate": "2026-10-31",
+      "location": "서울 AI 허브",
+      "target": "해외 진출 희망 AI 스타트업",
+      "summary": "AI 스타트업의 해외 시장 PoC 및 현지화 전략 수립 컨설팅 제공",
+      "link": "https://seoulaihub.kr/",
+      "image": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-22-3",
+      "name": "K-Startup AI 기반 초기 창업기업 기술 고도화 R&D 바우처 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-22",
+      "endDate": "2026-12-15",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "AI 기술 기반 초기 창업기업",
+      "summary": "AI 핵심 기술 고도화를 위한 R&D 바우처 제공 및 기술 컨설팅",
+      "link": "https://www.k-startup.go.kr/",
+      "image": "https://images.unsplash.com/photo-1526378800651-c32d170fe6f8?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-22-4",
+      "name": "중소벤처기업부 중소기업 AI 기반 고객 경험 개선 및 마케팅 자동화 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-22",
+      "endDate": "2026-12-31",
+      "location": "중소벤처기업부 (기업마당)",
+      "target": "AI 기반 CX/마케팅 혁신 희망 중소기업",
+      "summary": "AI 솔루션을 활용한 고객 경험 개선 및 마케팅 자동화 시스템 도입 지원",
+      "link": "https://www.bizinfo.go.kr/web/main/index.do",
+      "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-22-5",
+      "name": "과학기술정보통신부 차세대 AI 학습 및 추론 기술 개발 R&D 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-22",
+      "endDate": "2029-12-31",
+      "location": "과학기술정보통신부",
+      "target": "AI 핵심 학습/추론 기술 연구기관 및 기업",
+      "summary": "차세대 AI 모델의 효율적인 학습 및 추론 원천기술 개발 R&D 지원",
+      "link": "https://www.msit.go.kr/",
+      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-06-21"
+  "lastUpdated": "2026-06-22"
 }
