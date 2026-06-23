@@ -1,6 +1,188 @@
 {
   "deals": [
     {
+      "id": "hdz_166259",
+      "title": "TCG (TriangleCircleGame) - 스도쿠",
+      "price": null,
+      "image": "https://image.hotdeal.zip/thumbnails/2026/06/24/thumb_f3daf8b30029ffd7a53f3d20092c5df3.webp",
+      "category": "게임",
+      "site": "스토브",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/9994437432",
+      "publishedAt": "2026-06-24 04:48:21",
+      "likes": 1,
+      "fetchedAt": "2026-06-23T19:51:29.172Z",
+      "priceComparison": [],
+      "priceHistory": null,
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_166258",
+      "title": "TCG 스도쿠",
+      "price": null,
+      "image": "https://image.hotdeal.zip/thumbnails/2026/06/24/thumb_6525ce06ca81e1b23be087e776bc463e.webp",
+      "category": "게임",
+      "site": "스토브",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=714816",
+      "publishedAt": "2026-06-24 04:44:13",
+      "likes": 1,
+      "fetchedAt": "2026-06-23T19:51:29.172Z",
+      "priceComparison": [],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "04-07",
+            "price": 13280
+          },
+          {
+            "date": "04-14",
+            "price": 13430
+          },
+          {
+            "date": "04-21",
+            "price": 13430
+          },
+          {
+            "date": "04-28",
+            "price": 13120
+          },
+          {
+            "date": "05-05",
+            "price": 13240
+          },
+          {
+            "date": "05-12",
+            "price": 13280
+          },
+          {
+            "date": "05-19",
+            "price": 13360
+          },
+          {
+            "date": "05-26",
+            "price": 13430
+          },
+          {
+            "date": "06-02",
+            "price": 13280
+          },
+          {
+            "date": "06-09",
+            "price": 13360
+          },
+          {
+            "date": "06-16",
+            "price": 14150
+          },
+          {
+            "date": "06-23",
+            "price": 14150
+          }
+        ],
+        "minPrice": 13120,
+        "maxPrice": 14150
+      },
+      "postContent": {
+        "text": "",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0624/900w_20260624044349_agi6EQFMr2.jpg"
+        ]
+      },
+      "shopUrl": "https://store.onstove.com/ko/games/104108"
+    },
+    {
+      "id": "hdz_166257",
+      "title": "스탠리 퀜처 H2.0 플로우 스테이트 텀블러 887ml, 체리 블로썸",
+      "price": "24,500원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/06/24/thumb_b210edfe81976337edbfe9d5991c7f08.webp",
+      "category": "생활용품",
+      "site": "네이버",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/9994242377",
+      "publishedAt": "2026-06-24 02:44:15",
+      "likes": 35,
+      "fetchedAt": "2026-06-23T19:51:29.173Z",
+      "priceComparison": [
+        {
+          "site": "네이버",
+          "price": "24,500원"
+        },
+        {
+          "site": "마켓컬리",
+          "price": "49,000원"
+        },
+        {
+          "site": "CNC GLOBAL",
+          "price": "49,000원"
+        },
+        {
+          "site": "에누리 가격비교",
+          "price": "43,170원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "03-31",
+            "price": 36900
+          },
+          {
+            "date": "04-07",
+            "price": 37500
+          },
+          {
+            "date": "04-14",
+            "price": 23580
+          },
+          {
+            "date": "04-21",
+            "price": 29400
+          },
+          {
+            "date": "04-28",
+            "price": 29400
+          },
+          {
+            "date": "05-05",
+            "price": 37200
+          },
+          {
+            "date": "05-12",
+            "price": 32340
+          },
+          {
+            "date": "05-19",
+            "price": 31960
+          },
+          {
+            "date": "05-26",
+            "price": 34450
+          },
+          {
+            "date": "06-02",
+            "price": 38000
+          },
+          {
+            "date": "06-09",
+            "price": 33260
+          },
+          {
+            "date": "06-16",
+            "price": 33260
+          }
+        ],
+        "minPrice": 23580,
+        "maxPrice": 38000
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
       "id": "hdz_166256",
       "title": "더벤티 네이버페이qr 결제시 50%",
       "price": null,
@@ -33415,278 +33597,7 @@
       "priceHistory": null,
       "postContent": null,
       "shopUrl": null
-    },
-    {
-      "id": "hdz_165532",
-      "title": "사조오양, 불고기맛 후랑크 70g x 20개",
-      "price": "13,500원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/06/23/thumb_7c776ca4a7af12b68c80451e58b2ea37.webp",
-      "category": "식품",
-      "site": "네이버",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=714480",
-      "publishedAt": "2026-06-23 00:58:11",
-      "likes": 22,
-      "fetchedAt": "2026-06-22T18:41:31.859Z",
-      "priceComparison": [
-        {
-          "site": "네이버",
-          "price": "13,500원"
-        },
-        {
-          "site": "11번가",
-          "price": "13,200원"
-        },
-        {
-          "site": "플러스마트",
-          "price": "7,100원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "03-31",
-            "price": 4910
-          },
-          {
-            "date": "04-07",
-            "price": 4910
-          },
-          {
-            "date": "04-14",
-            "price": 4910
-          },
-          {
-            "date": "04-21",
-            "price": 2790
-          },
-          {
-            "date": "04-28",
-            "price": 2790
-          },
-          {
-            "date": "05-05",
-            "price": 4500
-          },
-          {
-            "date": "05-12",
-            "price": 4500
-          },
-          {
-            "date": "05-19",
-            "price": 2780
-          },
-          {
-            "date": "05-26",
-            "price": 2680
-          },
-          {
-            "date": "06-02",
-            "price": 2680
-          },
-          {
-            "date": "06-09",
-            "price": 2580
-          },
-          {
-            "date": "06-16",
-            "price": 2680
-          }
-        ],
-        "minPrice": 2580,
-        "maxPrice": 4910
-      },
-      "postContent": {
-        "text": "불고기맛 후랑크 20개에 13500원으로 무료배송이고, 개당 675원입니다.",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0623/900w_20260623004940_vbqfEnUrs3.png",
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0623/20260623004731_rtncj2Rdbq.png"
-        ]
-      },
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_165531",
-      "title": "저온압착 엑스트라버진 아보카도오일 500ml 2병",
-      "price": "24,490원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/06/23/thumb_cb298ed8a813c737b9ce6981ae4fcec2.webp",
-      "category": "식품",
-      "site": "G마켓",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=714479",
-      "publishedAt": "2026-06-23 00:54:12",
-      "likes": 13,
-      "fetchedAt": "2026-06-22T18:41:31.859Z",
-      "priceComparison": [
-        {
-          "site": "G마켓",
-          "price": "24,490원"
-        },
-        {
-          "site": "CJ온스타일",
-          "price": "31,900원"
-        },
-        {
-          "site": "GS SHOP",
-          "price": "24,900원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "03-31",
-            "price": 24990
-          },
-          {
-            "date": "04-07",
-            "price": 27210
-          },
-          {
-            "date": "04-14",
-            "price": 27400
-          },
-          {
-            "date": "04-21",
-            "price": 25410
-          },
-          {
-            "date": "04-28",
-            "price": 25120
-          },
-          {
-            "date": "05-05",
-            "price": 25410
-          },
-          {
-            "date": "05-12",
-            "price": 26310
-          },
-          {
-            "date": "05-19",
-            "price": 26790
-          },
-          {
-            "date": "05-26",
-            "price": 26620
-          },
-          {
-            "date": "06-02",
-            "price": 26010
-          },
-          {
-            "date": "06-09",
-            "price": 27980
-          },
-          {
-            "date": "06-16",
-            "price": 27960
-          }
-        ],
-        "minPrice": 24990,
-        "maxPrice": 27980
-      },
-      "postContent": {
-        "text": "엑스트라버진 아보카도오일 500ml 2병 가격입니다 hass 품종 아보카도고 저온압착 방식입니다",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0623/900w_20260623005235_1mPFdDMbjV.jpg"
-        ]
-      },
-      "shopUrl": "https://item.gmarket.co.kr/Item?goodscode=3818491861"
-    },
-    {
-      "id": "hdz_165530",
-      "title": "타이탄 퀘스트, 스폰지밥 네모바지: BfBB, 렉페스트",
-      "price": "150원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/06/23/thumb_aeee5221d8b07a91021a8346a9f3fc91.webp",
-      "category": "게임",
-      "site": "구글플레이",
-      "source": "루리웹",
-      "sourceColor": "#3B82F6",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/105036?page=1",
-      "publishedAt": "2026-06-23 00:50:18",
-      "likes": 21,
-      "fetchedAt": "2026-06-22T18:41:31.859Z",
-      "priceComparison": [
-        {
-          "site": "구글플레이",
-          "price": "150원"
-        },
-        {
-          "site": "ApptStore",
-          "price": "2,500원"
-        },
-        {
-          "site": "다른 앱 마켓",
-          "price": "1,200원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "05-29",
-            "price": 9220
-          },
-          {
-            "date": "06-05",
-            "price": 9220
-          },
-          {
-            "date": "06-12",
-            "price": 9220
-          },
-          {
-            "date": "06-19",
-            "price": 9220
-          },
-          {
-            "date": "06-26",
-            "price": 9220
-          },
-          {
-            "date": "07-03",
-            "price": 9220
-          },
-          {
-            "date": "07-10",
-            "price": 9220
-          },
-          {
-            "date": "07-17",
-            "price": 9220
-          },
-          {
-            "date": "07-24",
-            "price": 9220
-          },
-          {
-            "date": "07-31",
-            "price": 9220
-          },
-          {
-            "date": "08-07",
-            "price": 9220
-          },
-          {
-            "date": "08-14",
-            "price": 9220
-          }
-        ],
-        "minPrice": 9220,
-        "maxPrice": 9220
-      },
-      "postContent": {
-        "text": "https://play.google.com/store/apps/details?id=com.dotemu.titanquest https://play.google.com/store/apps/details?id=com.hg.bfbb https://play.google.com/store/apps/details?id=com.hg.wreckfest https://play.google.com/store/apps/details?id=com.squareenixmontreal.lcgo",
-        "images": [
-          "https://i2.ruliweb.com/img/26/06/23/19ef0060fe8458122.webp",
-          "https://i2.ruliweb.com/img/26/06/23/19eeffc015f458122.webp",
-          "https://i1.ruliweb.com/img/26/06/23/19eeffc7940458122.webp",
-          "https://i2.ruliweb.com/img/26/06/23/19eeffd5db0458122.webp"
-        ]
-      },
-      "shopUrl": "https://www.dajooda.kr/01/"
     }
   ],
-  "lastUpdated": "2026-06-23T17:11:46.613Z"
+  "lastUpdated": "2026-06-23T19:51:31.505Z"
 }
