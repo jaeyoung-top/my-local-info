@@ -13,6 +13,18 @@
       "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1779432991songpa.JPG"
     },
     {
+      "name": "송파 6월 문화예술 기획 전시 및 정기 공연",
+      "category": "행사",
+      "startDate": "2026-06-01",
+      "endDate": "2026-06-30",
+      "location": "더 갤러리 호수, 석촌호수, 송파문화예술회관",
+      "target": "전체 구민",
+      "summary": "6월 한 달간 더 갤러리 호수 기획 전시, 석촌호수 메이플스토리 주황버섯 전시, 송파문화예술회관 정기 공연 등 다양한 문화예술 행사 개최",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9028&aid=17818",
+      "id": "crawler-1782181886782-937",
+      "image": "https://picsum.photos/seed/434356/800/500"
+    },
+    {
       "name": "더 갤러리 호수 6월 기획 전시",
       "category": "전시",
       "startDate": "2026-06-01",
@@ -47,18 +59,6 @@
       "link": "https://songpa.newstool.co.kr/./view.php?eid=9028&aid=17813",
       "id": "crawler-1781839982370-404",
       "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1779428332songpa.JPG"
-    },
-    {
-      "name": "송파 6월 문화예술 기획 전시 및 공연",
-      "category": "문화/공연/전시",
-      "startDate": "2026-06-01",
-      "endDate": "2026-06-30",
-      "location": "더 갤러리 호수, 석촌호수, 송파문화예술회관",
-      "target": "전체 구민",
-      "summary": "더 갤러리 호수 6월 기획 전시, 석촌호수 메이플스토리 캐릭터 '주황버섯' 전시, 송파문화예술회관 6월 정기 공연 등 송파구의 다양한 문화예술 행사.",
-      "link": "https://songpa.newstool.co.kr/./view.php?eid=9028&aid=17818",
-      "id": "crawler-1781839980578-370",
-      "image": "https://picsum.photos/seed/217176/800/500"
     },
     {
       "name": "송파 6월 문화예술 행사 모음",
@@ -3755,6 +3755,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1519340333755-56e9c1d04579?w=800&q=80"
+    },
+    {
+      "id": "000025",
+      "name": "범죄 피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "상시",
+      "location": "법무부",
+      "target": "성폭력·아동학대·인신매매 등 범죄 피해 아동 및 장애인",
+      "summary": "만 19세 미만 아동, 의사소통이 어려운 장애인 범죄 피해자의 수사·재판상 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -7502,7 +7515,67 @@
       "summary": "차세대 AI 모델의 효율적인 학습 및 추론 원천기술 개발 R&D 지원",
       "link": "https://www.msit.go.kr/",
       "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-23-1",
+      "name": "NIPA AI 기반 산업 디지털 생태계 조성 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-23",
+      "endDate": "2026-10-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "디지털 전환 희망 중소/중견기업",
+      "summary": "AI 기반 디지털 전환 컨설팅 및 솔루션 도입 지원",
+      "link": "https://www.nipa.kr/ai-digital-ecosystem-2026",
+      "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-23-2",
+      "name": "서울 AI 허브 인공지능 스타트업 기술사업화 가속화 프로그램",
+      "category": "AI지원",
+      "startDate": "2026-06-23",
+      "endDate": "2026-11-15",
+      "location": "서울 AI 허브",
+      "target": "AI 기술 기반 초기/성장 단계 스타트업",
+      "summary": "AI 스타트업의 기술 상용화 및 시장 진출 집중 지원",
+      "link": "https://www.seoulaihub.kr/accelerate-tech2026",
+      "image": "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-23-3",
+      "name": "K-Startup AI·빅데이터 기술 PoC 및 시장검증 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-23",
+      "endDate": "2026-09-30",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "AI·빅데이터 혁신 기술 보유 초기 창업기업",
+      "summary": "PoC 자금 및 시장 검증을 위한 멘토링, 네트워킹 지원",
+      "link": "https://www.k-startup.go.kr/ai-bigdata-poc-2026",
+      "image": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-23-4",
+      "name": "과학기술정보통신부 차세대 융합 AI 기술 실증 및 상용화 사업",
+      "category": "AI지원",
+      "startDate": "2026-06-23",
+      "endDate": "2027-03-31",
+      "location": "과학기술정보통신부",
+      "target": "AI 융합 기술 기업 및 연구기관 컨소시엄",
+      "summary": "혁신적인 융합 AI 기술의 실증 및 시장 상용화 지원",
+      "link": "https://www.msit.go.kr/nextgen-ai-convergence-2026",
+      "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-23-5",
+      "name": "중소벤처기업부 중소기업 AI 기반 공급망 최적화 솔루션 도입 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-23",
+      "endDate": "2026-12-31",
+      "location": "중소벤처기업부",
+      "target": "공급망 효율화를 목표로 하는 중소/중견기업",
+      "summary": "AI 기반 SCM 솔루션 도입 및 컨설팅 지원",
+      "link": "https://www.bizinfo.go.kr/scm-ai-2026",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-06-22"
+  "lastUpdated": "2026-06-23"
 }
