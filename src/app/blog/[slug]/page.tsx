@@ -29,9 +29,14 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
     };
   }
 
+  const isAiGenerated = resolvedParams.slug.startsWith('ai-');
+
   return {
     title: postData.title,
     description: postData.summary || postData.content.substring(0, 150),
+    ...(isAiGenerated && {
+      robots: { index: false, follow: false },
+    }),
   };
 }
 
@@ -120,7 +125,7 @@ export default async function BlogPost({ params }: Params) {
             {/* E-E-A-T Footer */}
             <div className="mt-16 pt-8 border-t border-gray-100 text-sm text-gray-400 space-y-4">
               <p className="leading-relaxed">
-                이 글은 공공데이터포털(<a href="http://data.go.kr/" target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-600">data.go.kr</a>)의 정보를 바탕으로 AI가 작성하였습니다. 정확한 내용은 원문 링크를 통해 확인해주세요.
+                이 글의 정보는 공공데이터포털(<a href="http://data.go.kr/" target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-600">data.go.kr</a>) 등을 참고하여 작성되었습니다. 정확한 내용은 원문 링크를 통해 확인해주세요.
               </p>
               {postData.source && (
                 <div className="bg-gray-50 p-4 rounded-xl">
