@@ -3768,6 +3768,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "범죄 피해 아동 및 장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원 등 수사기관",
+      "target": "만 19세 미만 아동 또는 범죄 피해 장애인",
+      "summary": "아동 및 장애인 범죄 피해자의 수사·재판 시 의사소통 중개 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1519340333755-56e9c1d04579?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -7575,7 +7588,67 @@
       "summary": "AI 기반 SCM 솔루션 도입 및 컨설팅 지원",
       "link": "https://www.bizinfo.go.kr/scm-ai-2026",
       "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-24-1",
+      "name": "NIPA 2026년 산업데이터 기반 AI 예측 및 최적화 솔루션 개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-24",
+      "endDate": "상시",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "산업 AI 솔루션 개발 기업 및 연구기관",
+      "summary": "산업 데이터를 활용한 AI 기반 예측 및 최적화 기술 개발 지원",
+      "link": "https://www.nipa.kr/main/main.do",
+      "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-24-2",
+      "name": "서울 AI 허브 2026년 소규모 데이터 기반 AI 기술 상용화 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-24",
+      "endDate": "상시",
+      "location": "서울 AI 허브",
+      "target": "소규모 데이터 기반 AI 기술 보유 스타트업",
+      "summary": "소량의 데이터로 구현 가능한 AI 기술 상용화를 위한 컨설팅 및 자원 지원",
+      "link": "https://seoulaihub.kr/",
+      "image": "https://images.unsplash.com/photo-1516321165247-4aa89a48be55?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-24-3",
+      "name": "K-Startup 2026년 AI 기반 공공데이터 활용 창업 아이디어 경진대회 및 사업화 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-24",
+      "endDate": "상시",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "공공데이터 활용 AI 창업 아이디어를 가진 예비/초기 창업팀",
+      "summary": "공공데이터 기반 AI 솔루션 아이디어 경진대회 및 사업화 자금 지원",
+      "link": "https://www.k-startup.go.kr/",
+      "image": "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-24-4",
+      "name": "중소벤처기업부 2026년 AI 기반 중소기업 HR/경영관리 솔루션 도입 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-24",
+      "endDate": "상시",
+      "location": "중소벤처기업부 (기업마당)",
+      "target": "AI 기반 효율적인 HR/경영관리를 원하는 중소기업",
+      "summary": "AI 기반 인사, 회계 등 경영 관리 솔루션 도입 및 컨설팅 지원",
+      "link": "https://www.bizinfo.go.kr/",
+      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-24-5",
+      "name": "과학기술정보통신부 2026년 AI 기반 우주/해양 탐사 데이터 분석 기술 개발",
+      "category": "AI지원",
+      "startDate": "2026-06-24",
+      "endDate": "상시",
+      "location": "과학기술정보통신부",
+      "target": "우주/해양 데이터 분석 AI 기술 개발 기업 및 연구기관",
+      "summary": "AI를 활용한 우주 및 해양 데이터 분석 및 활용 기술 개발 지원",
+      "link": "https://www.msit.go.kr/",
+      "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-06-23"
+  "lastUpdated": "2026-06-24"
 }
