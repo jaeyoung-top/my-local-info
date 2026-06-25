@@ -3794,6 +3794,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
+    },
+    {
+      "id": "000025",
+      "name": "범죄 피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-06-25",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청 등 수사기관 및 법원",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "범죄 피해 아동 및 장애인의 수사·재판 소통 중개 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -7721,7 +7734,67 @@
       "summary": "지능형 사이버 위협 탐지 및 자동 대응을 위한 AI 기술 개발 지원",
       "link": "https://www.msit.go.kr",
       "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-25-1",
+      "name": "NIPA 2026년 AI 기반 중소기업 디지털 인재 역량 강화 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-25",
+      "endDate": "2026-12-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "중소기업 재직자 및 구직자",
+      "summary": "AI·디지털 기술 활용 역량 강화를 위한 교육 및 훈련 지원",
+      "link": "https://www.nipa.kr",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-25-2",
+      "name": "서울 AI 허브 2026년 AI 기반 문화/예술 산업 혁신 스타트업 육성 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-25",
+      "endDate": "2026-12-31",
+      "location": "서울 AI 허브",
+      "target": "AI 기반 문화/예술 분야 스타트업",
+      "summary": "문화예술 분야 AI 기술 접목 및 사업화를 위한 멘토링, 공간, 투자 연계 지원",
+      "link": "https://www.seoulaihub.kr",
+      "image": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-25-3",
+      "name": "K-Startup 2026년 AI 기반 웹3.0 스타트업 육성 프로그램",
+      "category": "AI지원",
+      "startDate": "2026-06-25",
+      "endDate": "2026-12-31",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "AI와 웹3.0 기술 융합 스타트업",
+      "summary": "AI 및 웹3.0 기술 기반 신규 서비스 개발 및 사업화를 위한 초기 지원",
+      "link": "https://www.k-startup.go.kr",
+      "image": "https://images.unsplash.com/photo-1526378800651-c32d170fe6f8?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-25-4",
+      "name": "중소벤처기업부 2026년 중소기업 AI 기반 해외 시장 데이터 분석 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-25",
+      "endDate": "2026-12-31",
+      "location": "중소벤처기업부",
+      "target": "해외 진출 희망 중소기업",
+      "summary": "AI 기반 해외 시장 데이터 분석 솔루션 도입 및 컨설팅 지원",
+      "link": "https://www.mss.go.kr",
+      "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-25-5",
+      "name": "과학기술정보통신부 2026년 AI 기반 개인정보 비식별화 및 합성 데이터 기술 개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-25",
+      "endDate": "2026-12-31",
+      "location": "과학기술정보통신부",
+      "target": "AI 기술 개발 기업 및 연구기관",
+      "summary": "AI 학습 데이터의 개인정보 보호를 위한 비식별화/합성 데이터 기술 개발 지원",
+      "link": "https://www.msit.go.kr",
+      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-06-24"
+  "lastUpdated": "2026-06-25"
 }
