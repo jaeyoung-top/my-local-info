@@ -3807,6 +3807,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
+    },
+    {
+      "id": "127000",
+      "name": "범죄 피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-06-26",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원",
+      "target": "성폭력·아동학대 등 범죄 피해 아동 및 의사소통 어려운 장애인",
+      "summary": "범죄 피해 아동·장애인의 수사·재판상 소통을 돕는 진술조력인 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -7794,7 +7807,67 @@
       "summary": "AI 학습 데이터의 개인정보 보호를 위한 비식별화/합성 데이터 기술 개발 지원",
       "link": "https://www.msit.go.kr",
       "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-26-1",
+      "name": "2026년 NIPA AI 기반 초기 스타트업 데이터 활용 역량 강화 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-01",
+      "endDate": "2026-11-30",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI 분야 초기 스타트업",
+      "summary": "초기 AI 스타트업의 데이터 활용 및 분석 역량 강화를 위한 컨설팅 및 교육 지원",
+      "link": "https://www.nipa.kr",
+      "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-26-2",
+      "name": "2026년 서울 AI 허브 글로벌 AI 전문가 멘토링 프로그램",
+      "category": "AI지원",
+      "startDate": "2026-06-10",
+      "endDate": "2026-09-30",
+      "location": "서울 AI 허브",
+      "target": "AI 분야 창업기업 및 예비창업가",
+      "summary": "해외 AI 전문가 초청 멘토링을 통해 글로벌 경쟁력 및 사업화 전략 강화 지원",
+      "link": "https://seoulaihub.kr",
+      "image": "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-26-3",
+      "name": "2026년 K-Startup AI 기술 기반 지식재산권(IP) 확보 및 사업화 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-15",
+      "endDate": "2026-10-31",
+      "location": "K-Startup 창업진흥원",
+      "target": "AI 기술 기반 스타트업",
+      "summary": "AI 기술 특허 출원 및 등록, 지식재산권 활용 사업화 전략 수립 지원",
+      "link": "https://www.k-startup.go.kr",
+      "image": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-26-4",
+      "name": "2026년 중소기업 AI 기반 ESG 경영 솔루션 도입 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-03",
+      "endDate": "2026-12-15",
+      "location": "중소벤처기업부 (기업마당)",
+      "target": "ESG 경영 도입 희망 중소기업",
+      "summary": "AI 기반 환경, 사회, 지배구조(ESG) 솔루션 도입 및 활용 컨설팅 지원",
+      "link": "https://www.bizinfo.go.kr",
+      "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-26-5",
+      "name": "2026년 과학기술정보통신부 AI 기반 국가 주요시설 에너지 효율 최적화 기술 개발",
+      "category": "AI지원",
+      "startDate": "2026-06-01",
+      "endDate": "2028-12-31",
+      "location": "과학기술정보통신부",
+      "target": "연구기관, 기업, 대학 컨소시엄",
+      "summary": "AI 활용 국가 중요 시설의 에너지 사용 효율을 극대화하는 기술 개발 및 실증 지원",
+      "link": "https://www.msit.go.kr",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-06-25"
+  "lastUpdated": "2026-06-26"
 }
