@@ -3820,6 +3820,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "성폭력, 아동학대 등 범죄 피해 아동 및 장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-06-27",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원",
+      "target": "만 19세 미만 아동 및 범죄 피해 장애인",
+      "summary": "아동, 의사소통이 어려운 장애인 범죄 피해자의 수사·재판상 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -7867,7 +7880,67 @@
       "summary": "AI 활용 국가 중요 시설의 에너지 사용 효율을 극대화하는 기술 개발 및 실증 지원",
       "link": "https://www.msit.go.kr",
       "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-27-1",
+      "name": "NIPA AI 모델 학습 데이터 품질 향상 및 관리 솔루션 개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-27",
+      "endDate": "2027-03-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI 학습 데이터 처리 및 관리 기술 보유 기업/연구기관",
+      "summary": "AI 모델 성능 향상을 위한 학습 데이터 품질 관리 및 자동화 솔루션 개발 지원",
+      "link": "https://www.nipa.kr/",
+      "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-27-2",
+      "name": "서울 AI 허브 인공지능 기반 인간-AI 상호작용(HCI) 기술 개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-27",
+      "endDate": "2027-01-31",
+      "location": "서울 AI 허브",
+      "target": "인간-AI 상호작용 기술 개발 스타트업 및 연구자",
+      "summary": "사용자 경험을 혁신할 인공지능 기반 휴먼-컴퓨터 상호작용 기술 개발 지원",
+      "link": "https://seoulaihub.kr/",
+      "image": "https://images.unsplash.com/photo-1516321165247-4aa89a48be55?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-27-3",
+      "name": "K-Startup AI 기반 노코드/로우코드 개발 플랫폼 스타트업 육성",
+      "category": "AI지원",
+      "startDate": "2026-06-27",
+      "endDate": "2027-02-28",
+      "location": "K-Startup 창업진흥원",
+      "target": "AI 기반 노코드/로우코드 플랫폼 개발 스타트업",
+      "summary": "AI를 활용한 노코드/로우코드 개발 솔루션 스타트업 발굴 및 사업화 지원",
+      "link": "https://www.k-startup.go.kr/",
+      "image": "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-27-4",
+      "name": "중소기업 제조 공정 디지털 트윈 시뮬레이션 도입 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-27",
+      "endDate": "2026-11-30",
+      "location": "중소벤처기업부",
+      "target": "제조 공정 개선을 희망하는 중소 제조기업",
+      "summary": "제조 현장의 효율성 향상을 위한 디지털 트윈 시뮬레이션 솔루션 도입 지원",
+      "link": "https://www.mss.go.kr/",
+      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-27-5",
+      "name": "과학기술정보통신부 차세대 AI 네트워크 자원 최적화 기술 개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-27",
+      "endDate": "2027-06-30",
+      "location": "과학기술정보통신부",
+      "target": "AI 기반 네트워크 최적화 기술 개발 기업/연구기관",
+      "summary": "차세대 네트워크 환경에서 AI를 활용한 자원 효율 및 성능 최적화 기술 개발 지원",
+      "link": "https://www.msit.go.kr/",
+      "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-06-26"
+  "lastUpdated": "2026-06-27"
 }
