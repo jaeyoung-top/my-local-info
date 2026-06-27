@@ -1,6 +1,67 @@
 {
   "deals": [
     {
+      "id": "hdz_168667",
+      "title": "킨더 초콜릿 미니 20개입 4봉 80개 2세트 외",
+      "price": "26,240원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/06/28/thumb_cc2f0cb2e4c6eb047b5de6bdc060352a.webp",
+      "category": "식품",
+      "site": "매일유업",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=715905",
+      "publishedAt": "2026-06-28 06:20:13",
+      "likes": 12,
+      "fetchedAt": "2026-06-27T21:56:03.649Z",
+      "priceComparison": [
+        {
+          "site": "매일유업",
+          "price": "26,240원"
+        },
+        {
+          "site": "동원몰",
+          "price": "22,860원"
+        },
+        {
+          "site": "11번가",
+          "price": "39,820원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "06-02",
+            "price": 23720
+          },
+          {
+            "date": "06-09",
+            "price": 23720
+          },
+          {
+            "date": "06-16",
+            "price": 23720
+          },
+          {
+            "date": "06-23",
+            "price": 23560
+          }
+        ],
+        "minPrice": 23560,
+        "maxPrice": 23720
+      },
+      "postContent": {
+        "text": "토스페이 20프로 딜 최대할인 3만원 최소결제금액 3만원 적용가능횟수 1번 이달의 슈퍼쿠폰 천원 할인 링크https://direct.maeil.com/m/app/redirect.do?value=%2Fm%2Fevent%2Findex.do%3Fname%3Dsns%26date%3D202407 킨더초콜릿 미니 20개입 4봉 총 80개 2세트 160개 장바구니 담고 이달의 슈퍼쿠폰 적용 토스페이 결제 26,240원(원산지 이탈리아) 킨더 부에노 미니 18개입 4봉 총 72개 2세트 144개https://direct.maeil.com/m/app/redirect.do?value=%2Fm%2Fproduct%2FproductView.do%3FproductCode%3DP27148장바구니 담고 이달의 슈퍼쿠폰 적용 토스페이 결제 결제 33,760원(원산지 폴란드) 킨더초콜릿 미니 80개 + 킨더 부에노 미니 72개 장바구니 각 1세트씩 담고 슈퍼쿠폰 적용 토스페이 결제 30,000원 추천릴레이게시판 토스링크 추가적립 5.1프로(킨더초콜릿 미니 기준 1,338원) 릴레이게시판 메인링크https://m.ppomppu.co.kr/new/bbs_list.php?id=relay",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0628/900w_20260628060955_TsGoiibNK4.jpg",
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0628/900w_20260628061004_wZWKHIfyVC.jpg",
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0628/900w_20260628061006_gy96FB2s9F.jpg",
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0628/900w_20260628061009_1aQQ3T6U1A.jpg",
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0628/900w_20260628061416_HOvaKHT0nw.jpg"
+        ]
+      },
+      "shopUrl": "https://direct.maeil.com/m/app/redirect.do?value=%2Fm%2Fproduct%2FproductView.do%3FproductCode%3DP27139"
+    },
+    {
       "id": "hdz_168666",
       "title": "카시오 MTP-B195D -B195L 사각 손목시계",
       "price": "117,380원",
@@ -33737,44 +33798,7 @@
       },
       "postContent": null,
       "shopUrl": null
-    },
-    {
-      "id": "hdz_168165",
-      "title": "프론트미션1 리메이크",
-      "price": "3,750원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/06/26/thumb_8a56b61abef4f08458262fc477d07a28.webp",
-      "category": "게임",
-      "site": "스팀",
-      "source": "루리웹",
-      "sourceColor": "#3B82F6",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/105172?page=1",
-      "publishedAt": "2026-06-26 22:30:14",
-      "likes": 16,
-      "fetchedAt": "2026-06-26T14:05:49.906Z",
-      "priceComparison": [
-        {
-          "site": "스팀",
-          "price": "3,750원"
-        },
-        {
-          "site": "Epic Games Store",
-          "price": "34,990원"
-        },
-        {
-          "site": "GOG",
-          "price": "34,990원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": {
-        "text": "리메이크 1.2.3편까지 한글패치 가능. 한글패치출처 : https://teamninokuni.blogspot.com/2026/04/blog-post.html",
-        "images": [
-          "https://i1.ruliweb.com/img/26/06/26/19f03bc658f52171f.webp",
-          "https://i1.ruliweb.com/img/26/06/26/19f03bd422052171f.webp"
-        ]
-      },
-      "shopUrl": "https://teamninokuni.blogspot.com/2026/04/blog-post.html"
     }
   ],
-  "lastUpdated": "2026-06-27T19:06:05.883Z"
+  "lastUpdated": "2026-06-27T21:56:06.110Z"
 }
