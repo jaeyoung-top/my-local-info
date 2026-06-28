@@ -3833,6 +3833,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "범죄 피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "상시",
+      "location": "법무부",
+      "target": "성폭력·아동학대·인신매매 범죄 피해 아동 및 장애인",
+      "summary": "범죄 피해 아동 및 장애인의 수사·재판상 의사소통 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -7940,7 +7953,67 @@
       "summary": "차세대 네트워크 환경에서 AI를 활용한 자원 효율 및 성능 최적화 기술 개발 지원",
       "link": "https://www.msit.go.kr/",
       "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-28-1",
+      "name": "NIPA 2026년 AI 융합 미래 리더 양성 교육 프로그램",
+      "category": "AI지원",
+      "startDate": "2026-06-28",
+      "endDate": "상시",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI·디지털 분야 미래 리더 및 관리자",
+      "summary": "AI 융합 기술 및 전략 교육을 통한 디지털 리더십 강화 지원.",
+      "link": "https://www.nipa.kr",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-28-2",
+      "name": "서울 AI 허브 AI 기반 차세대 컴퓨팅 기술 스타트업 육성",
+      "category": "AI지원",
+      "startDate": "2026-06-28",
+      "endDate": "상시",
+      "location": "서울 AI 허브",
+      "target": "AI 기반 차세대 컴퓨팅 기술 스타트업",
+      "summary": "인공지능 기반 차세대 컴퓨팅 기술을 활용한 스타트업 발굴 및 성장 지원.",
+      "link": "https://seoulaihub.kr",
+      "image": "https://images.unsplash.com/photo-1488229297570-58520851e868?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-28-3",
+      "name": "K-Startup 글로벌 AI 기술 협력 창업 지원 (해외 연계)",
+      "category": "AI지원",
+      "startDate": "2026-06-28",
+      "endDate": "상시",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "글로벌 협력을 통한 AI 기술 창업기업",
+      "summary": "해외 파트너와의 AI 기술 공동 개발 및 사업화를 지원하여 글로벌 경쟁력 강화.",
+      "link": "https://www.k-startup.go.kr",
+      "image": "https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-28-4",
+      "name": "중소벤처기업부 AI 기반 중소기업 사이버 방어 솔루션 도입 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-28",
+      "endDate": "상시",
+      "location": "중소벤처기업부 (기업마당)",
+      "target": "중소기업",
+      "summary": "AI 기반 사이버 위협 예측 및 방어 솔루션 도입을 통해 중소기업의 디지털 안전성 강화.",
+      "link": "https://www.bizinfo.go.kr",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-28-5",
+      "name": "과학기술정보통신부 AI 기반 정밀 의료 및 신약 개발 R&D 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-28",
+      "endDate": "상시",
+      "location": "과학기술정보통신부",
+      "target": "의료 및 바이오 분야 연구기관, 기업",
+      "summary": "AI를 활용한 정밀 의료 및 신약 개발을 위한 핵심 기술 연구개발 지원.",
+      "link": "https://www.msit.go.kr",
+      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-06-27"
+  "lastUpdated": "2026-06-28"
 }

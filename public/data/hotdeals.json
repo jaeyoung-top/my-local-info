@@ -1,6 +1,173 @@
 {
   "deals": [
     {
+      "id": "hdz_168751",
+      "title": "응원세일 20% 12시 선착순 쿠폰",
+      "price": null,
+      "image": "https://image.hotdeal.zip/thumbnails/2026/06/28/thumb_8b80b9e071977e4f9c35c78137ff5fb1.webp",
+      "category": "생활용품",
+      "site": "네이버",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/10013296198",
+      "publishedAt": "2026-06-28 11:46:17",
+      "likes": 1,
+      "fetchedAt": "2026-06-28T02:46:49.942Z",
+      "priceComparison": [],
+      "priceHistory": null,
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_168750",
+      "title": "로드웰 래쉬가드 외 물놀이용품 6종",
+      "price": "19,800원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/06/28/thumb_407734e28f3891f285dcceae9fb7a330.webp",
+      "category": "의류",
+      "site": "11번가",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=715949",
+      "publishedAt": "2026-06-28 11:42:12",
+      "likes": 2,
+      "fetchedAt": "2026-06-28T02:46:49.942Z",
+      "priceComparison": [
+        {
+          "site": "11번가",
+          "price": "19,800원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": {
+        "text": "상하의로 나와서 괜찮고, 루즈핏이라 불편하지 않게 입을 수 있어요. 이거 외에 다른 물놀이 상품도 특가니 물놀이 가실분들 구경 한번 해보세요",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0628/900w_20260628114109_0cAwC7T1rO.png",
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0628/20260628114114_KKRUWeJD6b.png",
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0628/20260628114113_8aCUUFjMcs.png"
+        ]
+      },
+      "shopUrl": "https://www.11st.co.kr/products/9337721293"
+    },
+    {
+      "id": "hdz_168749",
+      "title": "계란10입(특란)",
+      "price": "2,680원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/06/28/thumb_ca4abbf6a564b9fa1505bb3ce0deb323.webp",
+      "category": "식품",
+      "site": "이마트24",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/10013280167",
+      "publishedAt": "2026-06-28 11:42:10",
+      "likes": 7,
+      "fetchedAt": "2026-06-28T02:46:49.942Z",
+      "priceComparison": [
+        {
+          "site": "이마트24",
+          "price": "2,680원"
+        },
+        {
+          "site": "홈플러스",
+          "price": "약 5,000원"
+        },
+        {
+          "site": "이마트",
+          "price": "약 5,222원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_168748",
+      "title": "브라더 DCP-T730DW 정품 무한잉크 복합기",
+      "price": "257,060원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/06/28/thumb_2abdc549bf1756b50c27a7cdfa307ee7.webp",
+      "category": "가전",
+      "site": "알리",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/10013265763",
+      "publishedAt": "2026-06-28 11:40:21",
+      "likes": 3,
+      "fetchedAt": "2026-06-28T02:46:49.942Z",
+      "priceComparison": [
+        {
+          "site": "알리",
+          "price": "257,060원"
+        },
+        {
+          "site": "하이마트",
+          "price": "269,100원"
+        },
+        {
+          "site": "11번가",
+          "price": "299,000원"
+        },
+        {
+          "site": "브라더 공식 온라인 스토어",
+          "price": "299,000원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "04-07",
+            "price": 299000
+          },
+          {
+            "date": "04-14",
+            "price": 299000
+          },
+          {
+            "date": "04-21",
+            "price": 299000
+          },
+          {
+            "date": "04-28",
+            "price": 299000
+          },
+          {
+            "date": "05-05",
+            "price": 299000
+          },
+          {
+            "date": "05-12",
+            "price": 258490
+          },
+          {
+            "date": "05-19",
+            "price": 267650
+          },
+          {
+            "date": "05-26",
+            "price": 267650
+          },
+          {
+            "date": "06-02",
+            "price": 299000
+          },
+          {
+            "date": "06-09",
+            "price": 299000
+          },
+          {
+            "date": "06-16",
+            "price": 299000
+          },
+          {
+            "date": "06-23",
+            "price": 299000
+          }
+        ],
+        "minPrice": 258490,
+        "maxPrice": 299000
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
       "id": "hdz_168747",
       "title": "이디야 PET 믹스커피 바닐라 1L 12개",
       "price": "23,900원",
@@ -34657,295 +34824,7 @@
         ]
       },
       "shopUrl": "https://www.lotteon.com/p/product/LO2621167440"
-    },
-    {
-      "id": "hdz_168250",
-      "title": "비비고 닭곰탕, 500g, 4개",
-      "price": "10,180원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/06/27/thumb_c52d62ed412841c91f5343817f1a7de0.webp",
-      "category": "식품",
-      "site": "쿠팡",
-      "source": "아카라이브",
-      "sourceColor": "#10B981",
-      "link": "https://arca.live/b/hotdeal/175042145?p=1",
-      "publishedAt": "2026-06-27 00:34:04",
-      "likes": 26,
-      "fetchedAt": "2026-06-26T16:56:01.785Z",
-      "priceComparison": [
-        {
-          "site": "쿠팡",
-          "price": "10,180원"
-        },
-        {
-          "site": "다나와 가격비교",
-          "price": "9,900원"
-        },
-        {
-          "site": "G마켓",
-          "price": "16,900원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "04-07",
-            "price": 9900
-          },
-          {
-            "date": "04-14",
-            "price": 9900
-          },
-          {
-            "date": "04-21",
-            "price": 9900
-          },
-          {
-            "date": "04-28",
-            "price": 9900
-          },
-          {
-            "date": "05-05",
-            "price": 9900
-          },
-          {
-            "date": "05-12",
-            "price": 12670
-          },
-          {
-            "date": "05-19",
-            "price": 12570
-          },
-          {
-            "date": "05-26",
-            "price": 12600
-          },
-          {
-            "date": "06-02",
-            "price": 13420
-          },
-          {
-            "date": "06-09",
-            "price": 13420
-          },
-          {
-            "date": "06-16",
-            "price": 13420
-          },
-          {
-            "date": "06-23",
-            "price": 13420
-          }
-        ],
-        "minPrice": 9900,
-        "maxPrice": 13420
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_168249",
-      "title": "보솜이 리얼코튼 오가니크 팬티형 기저귀 4팩",
-      "price": "34,350원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/06/27/thumb_c1352e925283fef6f59d74404abb4009.webp",
-      "category": "생활용품",
-      "site": "컬리",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=715737",
-      "publishedAt": "2026-06-27 00:32:13",
-      "likes": 5,
-      "fetchedAt": "2026-06-26T16:56:01.785Z",
-      "priceComparison": [
-        {
-          "site": "컬리",
-          "price": "34,350원"
-        },
-        {
-          "site": "깨끗한나라몰",
-          "price": "32,470원"
-        },
-        {
-          "site": "베팡",
-          "price": "45,300원"
-        },
-        {
-          "site": "동원몰",
-          "price": "45,900원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "04-07",
-            "price": 45970
-          },
-          {
-            "date": "04-14",
-            "price": 45970
-          },
-          {
-            "date": "04-21",
-            "price": 45970
-          },
-          {
-            "date": "04-28",
-            "price": 45970
-          },
-          {
-            "date": "05-05",
-            "price": 45970
-          },
-          {
-            "date": "05-12",
-            "price": 45480
-          },
-          {
-            "date": "05-19",
-            "price": 45480
-          },
-          {
-            "date": "05-26",
-            "price": 45480
-          },
-          {
-            "date": "06-02",
-            "price": 45480
-          },
-          {
-            "date": "06-09",
-            "price": 45480
-          },
-          {
-            "date": "06-16",
-            "price": 45480
-          },
-          {
-            "date": "06-23",
-            "price": 46460
-          }
-        ],
-        "minPrice": 45480,
-        "maxPrice": 46460
-      },
-      "postContent": {
-        "text": "팬티형 4팩 34,350원, 밴드형 4팩 36,975원입니다. 리뷰 작성시 이디야 커피 깁콘도 있으니 챙겨 받으세요.",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0627/900w_20260627001328_Acmt5ILmoY.png",
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0627/900w_20260627001329_CvBbWUrJVj.png",
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0627/900w_20260627001329_dK1cZlNPhA.png"
-        ]
-      },
-      "shopUrl": "https://www.kurly.com/goods/1002325206"
-    },
-    {
-      "id": "hdz_168248",
-      "title": "25년 새청무 특등급 10kg 쌀 3가지",
-      "price": "32,500원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/06/27/thumb_dd1d2ecf750c56e5e228e78b8ed118ca.webp",
-      "category": "식품",
-      "site": "GSSHOP",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=715734",
-      "publishedAt": "2026-06-27 00:28:24",
-      "likes": 15,
-      "fetchedAt": "2026-06-26T16:56:01.785Z",
-      "priceComparison": [
-        {
-          "site": "GSSHOP",
-          "price": "32,500원"
-        },
-        {
-          "site": "오늘의집",
-          "price": "27,956원"
-        },
-        {
-          "site": "슈호몰",
-          "price": "30,900원"
-        },
-        {
-          "site": "G마켓",
-          "price": "32,460원"
-        },
-        {
-          "site": "옥션",
-          "price": "33,750원"
-        },
-        {
-          "site": "롯데ON",
-          "price": "33,890원"
-        },
-        {
-          "site": "11번가",
-          "price": "34,110원"
-        },
-        {
-          "site": "늘신선(오늘의집)",
-          "price": "34,130원"
-        },
-        {
-          "site": "오집가격",
-          "price": "32,108원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "06-23",
-            "price": 33570
-          }
-        ],
-        "minPrice": 33570,
-        "maxPrice": 33570
-      },
-      "postContent": {
-        "text": "토스페이 15프로 딜 최대할인 5,000원 최저결제금액없음 적용가능횟수 5번 임실농협 행복드림 새청무 특등급 10kg 토스페이 결제 32,500원 25년 임실농협 진주닮은쌀 새청무 특등급 10kghttp://m-gs.kr/p/01/1063968642토스페이 결제 32,500원 25년 햇빛담은쌀 새청무 특등급 10kghttp://m-gs.kr/p/01/1105110740토스페이 결제 32,500원 추천릴레이게시판 토스링크 추가적립 6.1프로(1,982원) 릴레이게시판 메인링크https://m.ppomppu.co.kr/new/bbs_list.php?id=relay",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0627/900w_20260627002220_0YiOF67ntO.jpg",
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0627/900w_20260627002223_CX8Wkn9Zat.jpg",
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0627/900w_20260627004954_yMulC24xzx.jpg",
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0627/900w_20260627002226_J5WD64Yz7b.jpg"
-        ]
-      },
-      "shopUrl": "http://m-gs.kr/p/01/1063452481"
-    },
-    {
-      "id": "hdz_168247",
-      "title": "채선당 시그니처 밀키트 9종 4인분 모음 앱전용",
-      "price": "17,800원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/06/27/thumb_211cea7c73f0c66e2b749e7547345675.webp",
-      "category": "식품",
-      "site": "롯데온",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=715735",
-      "publishedAt": "2026-06-27 00:28:13",
-      "likes": 15,
-      "fetchedAt": "2026-06-26T16:56:01.785Z",
-      "priceComparison": [
-        {
-          "site": "롯데온",
-          "price": "17,800원"
-        },
-        {
-          "site": "G마켓",
-          "price": "19,340원"
-        },
-        {
-          "site": "옥션",
-          "price": "18,610원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": {
-        "text": "샤브샤브2인분+청담동 떡볶이 이외 1~3번 옵션 기준카카오페이 7% 적용시 가격 나옵니다.원하는 조합으로 고르시면되고 이외 나머지 옵션은 추가 금액 있어서 참고하시면 될거 같습니다.",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0627/900w_20260627002046_mAAAkwGGpa.jpg",
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0627/900w_20260627002045_gWwhxG3dmL.jpg"
-        ]
-      },
-      "shopUrl": "https://s.lotteon.com/gAlA9oxztZ"
     }
   ],
-  "lastUpdated": "2026-06-28T02:39:54.452Z"
+  "lastUpdated": "2026-06-28T02:46:52.315Z"
 }
