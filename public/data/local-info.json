@@ -3846,6 +3846,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "admin",
       "image": "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=80"
+    },
+    {
+      "id": "000025",
+      "name": "피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-06-29",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원 등",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "만 19세 미만 아동, 의사소통 어려운 장애인 범죄 피해자의 수사·재판 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -8013,7 +8026,67 @@
       "summary": "AI를 활용한 정밀 의료 및 신약 개발을 위한 핵심 기술 연구개발 지원.",
       "link": "https://www.msit.go.kr",
       "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-29-1",
+      "name": "NIPA AI 기반 산업 특화 SaaS 개발 및 사업화 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-29",
+      "endDate": "2026-12-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI 기반 산업 특화 SaaS 개발 기업",
+      "summary": "산업군별 특화 AI SaaS 솔루션 개발 및 시장 진출 지원",
+      "link": "https://www.nipa.kr/main.html",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-29-2",
+      "name": "서울 AI 허브 AI 특화 오픈소스 기여 및 확산 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-29",
+      "endDate": "상시",
+      "location": "서울 AI 허브",
+      "target": "AI 오픈소스 기술 개발 기여자 및 기업",
+      "summary": "AI 오픈소스 프로젝트 참여 및 생태계 기여 활동 지원",
+      "link": "https://seoulaihub.kr/program/",
+      "image": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-29-3",
+      "name": "K-Startup 생성형 AI 기술 기반 B2B 서비스 스타트업 육성",
+      "category": "AI지원",
+      "startDate": "2026-06-29",
+      "endDate": "2026-11-30",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "생성형 AI 기반 B2B 서비스 스타트업",
+      "summary": "생성형 AI 기술 활용 B2B 서비스 스타트업 발굴 및 육성",
+      "link": "https://www.k-startup.go.kr/biz/bizInfoList.do",
+      "image": "https://images.unsplash.com/photo-1526378800651-c32d170fe6f8?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-29-4",
+      "name": "중소기업 AI 기반 설비 예지보전 시스템 구축 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-29",
+      "endDate": "2026-10-31",
+      "location": "중소벤처기업부 (기업마당)",
+      "target": "제조 중소기업",
+      "summary": "AI 기반 예지보전 시스템 도입을 통한 제조 생산성 향상",
+      "link": "https://www.bizinfo.go.kr/",
+      "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-29-5",
+      "name": "과학기술정보통신부 AI 기반 탄소중립 기술 개발 및 실증 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-29",
+      "endDate": "2027-03-31",
+      "location": "과학기술정보통신부",
+      "target": "AI 기반 탄소중립 기술 개발 기업/연구기관",
+      "summary": "AI 활용 탄소중립 실현을 위한 핵심 기술 개발 및 실증 지원",
+      "link": "https://www.msit.go.kr/web/msitMain.do",
+      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-06-28"
+  "lastUpdated": "2026-06-29"
 }
