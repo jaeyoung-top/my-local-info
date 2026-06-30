@@ -13,6 +13,30 @@
       "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1779432991songpa.JPG"
     },
     {
+      "name": "인생 한 컷을 담아주세요 8월 포토이벤트",
+      "category": "행사",
+      "startDate": "2026-08-01",
+      "endDate": "2026-08-31",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "8월 광복절 및 송파 바캉스 테마의 사진을 제출하는 독자 참여 이벤트.",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9033&aid=17907",
+      "id": "crawler-1782787036345-404",
+      "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1782221306songpa.JPG"
+    },
+    {
+      "name": "송파구 7월 문화 캘린더",
+      "category": "문화",
+      "startDate": "2026-07-01",
+      "endDate": "2026-07-31",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "2026년 7월 송파구에서 열리는 주요 문화 행사 및 공연 정보를 담은 캘린더.",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9033&aid=17898",
+      "id": "crawler-1782787034531-730",
+      "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1782214406songpa.JPG"
+    },
+    {
       "name": "송파 6월 문화예술 기획 전시 및 공연",
       "category": "문화 행사",
       "startDate": "2026-06-01",
@@ -119,30 +143,6 @@
       "link": "https://songpa.newstool.co.kr/./view.php?eid=9028&aid=17818",
       "id": "crawler-1780288625475-427",
       "image": "https://picsum.photos/seed/508432/800/500"
-    },
-    {
-      "name": "석촌호수 메이플스토리 주황버섯 행사",
-      "category": "축제",
-      "startDate": "2026-06-01",
-      "endDate": "2026-06-30",
-      "location": "석촌호수",
-      "target": "전체 구민",
-      "summary": "석촌호수에 인기 게임 캐릭터 '주황버섯'이 찾아와 다채로운 문화 행사 진행",
-      "link": "https://songpa.newstool.co.kr/./view.php?eid=9028&aid=17818",
-      "id": "crawler-1780288624004-645",
-      "image": "https://picsum.photos/seed/893276/800/500"
-    },
-    {
-      "id": "crawler-1779158637685-582",
-      "name": "인생 한 컷을 담아주세요 (6월 테마: 호국보훈의 달, 환경의 날, 우리동네 정원)",
-      "category": "행사",
-      "startDate": "2026-06-01",
-      "endDate": "2026-06-30",
-      "location": "송파구 관내",
-      "target": "전체 구민",
-      "summary": "6월 테마인 호국보훈의 달, 환경의 날, 우리동네 정원에 맞춰 사진을 공모하는 이벤트입니다.",
-      "link": "https://songpa.newstool.co.kr/./view.php?eid=9020&aid=17681",
-      "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1777004975songpa.JPG"
     }
   ],
   "benefits": [
@@ -3859,6 +3859,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "범죄피해 아동·장애인 진술조력 지원",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청 등 수사기관이나 법원",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "만 19세 미만 아동, 의사소통 어려운 장애인 범죄피해자의 수사·재판상 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -8086,7 +8099,67 @@
       "summary": "AI 활용 탄소중립 실현을 위한 핵심 기술 개발 및 실증 지원",
       "link": "https://www.msit.go.kr/web/msitMain.do",
       "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-30-1",
+      "name": "SW공학기술 현장적용 지원사업",
+      "category": "AI지원",
+      "startDate": "2026-03-01",
+      "endDate": "2026-11-30",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "SW 개발 기업, SW 품질 향상 희망 기업",
+      "summary": "SW 공학기술 도입 컨설팅 및 구축 지원으로 SW 경쟁력 강화",
+      "link": "https://www.nipa.kr/biz/bizInfo.html",
+      "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-30-2",
+      "name": "딥테크 팁스 (Deep-Tech TIPS) 프로그램",
+      "category": "AI지원",
+      "startDate": "2026-01-01",
+      "endDate": "상시",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "초격차 분야 기술 기반 창업기업",
+      "summary": "인공지능, 우주 등 초격차 기술 개발 및 글로벌 진출 지원",
+      "link": "https://www.k-startup.go.kr/web/contents.do?m=204",
+      "image": "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-30-3",
+      "name": "미래인터넷 분야 핵심기술 개발 사업",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "2026-12-31",
+      "location": "과학기술정보통신부",
+      "target": "미래 네트워크 및 서비스 핵심기술 개발 기업/연구기관",
+      "summary": "AI, 블록체인 등 융합 미래 인터넷 기술 개발 및 상용화 촉진",
+      "link": "https://www.msit.go.kr/web/msitContents/contentsView.do?cateId=msit2111000000",
+      "image": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-30-4",
+      "name": "K-인공지능 교육 플랫폼 구축 및 운영 사업",
+      "category": "AI지원",
+      "startDate": "2026-01-01",
+      "endDate": "상시",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI 교육 콘텐츠 개발/운영 기관",
+      "summary": "전국민 AI 역량 강화를 위한 온라인 교육 플랫폼 구축 지원",
+      "link": "https://www.nipa.kr/main/sub/index.html?menu_n=P000000006",
+      "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-06-30-5",
+      "name": "인공지능 윤리 자율점검 지원 프로그램",
+      "category": "AI지원",
+      "startDate": "2026-05-01",
+      "endDate": "2026-12-31",
+      "location": "서울 AI 허브",
+      "target": "AI 기술 개발 및 활용 기업",
+      "summary": "AI 윤리 가이드라인 준수 및 자율적 점검 체계 구축 지원",
+      "link": "https://seoulaihub.kr/html/sub12_01.php",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-06-29"
+  "lastUpdated": "2026-06-30"
 }
