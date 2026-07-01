@@ -1,6 +1,173 @@
 {
   "deals": [
     {
+      "id": "hdz_171129",
+      "title": "오뚜기 열라면 멀티팩(5개입) x 8팩",
+      "price": "19,950원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/07/02/thumb_aed5be8d757a98a150e9fce6d93b0a71.webp",
+      "category": "식품",
+      "site": "G마켓",
+      "source": "루리웹",
+      "sourceColor": "#3B82F6",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/105305?page=1",
+      "publishedAt": "2026-07-02 07:10:14",
+      "likes": 2,
+      "fetchedAt": "2026-07-01T22:13:42.881Z",
+      "priceComparison": [
+        {
+          "site": "G마켓",
+          "price": "19,950원"
+        },
+        {
+          "site": "옥션",
+          "price": "32,800원"
+        },
+        {
+          "site": "GS SHOP",
+          "price": "31,900원"
+        },
+        {
+          "site": "다나와",
+          "price": "28,940원"
+        },
+        {
+          "site": "예스24",
+          "price": "39,900원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": {
+        "text": "카드할인 7퍼 적용시 19,950원 나오고 삼성카드 스마일페이 12퍼 할인도 됩니다 봉당 498원 나옵니다",
+        "images": [
+          "https://i1.ruliweb.com/img/26/07/02/19f1fb89687595be5.webp",
+          "https://i3.ruliweb.com/img/26/07/02/19f1fb897f0595be5.webp"
+        ]
+      },
+      "shopUrl": "https://www.dajooda.kr/01/"
+    },
+    {
+      "id": "hdz_171128",
+      "title": "농할쿠폰 대추방울토마토 5kg",
+      "price": "11,990원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/07/02/thumb_792a6eeeda132dd15e8b568b9e934bc8.webp",
+      "category": "식품",
+      "site": "네이버",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=717022",
+      "publishedAt": "2026-07-02 06:52:14",
+      "likes": 2,
+      "fetchedAt": "2026-07-01T22:13:42.881Z",
+      "priceComparison": [
+        {
+          "site": "네이버",
+          "price": "11,990원"
+        },
+        {
+          "site": "11번가",
+          "price": "18,900원"
+        },
+        {
+          "site": "오아시스마켓",
+          "price": "27,900원"
+        },
+        {
+          "site": "식봄",
+          "price": "12,600원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "04-21",
+            "price": 23900
+          },
+          {
+            "date": "04-28",
+            "price": 23900
+          },
+          {
+            "date": "05-05",
+            "price": 23900
+          },
+          {
+            "date": "05-12",
+            "price": 23900
+          },
+          {
+            "date": "05-19",
+            "price": 23900
+          },
+          {
+            "date": "05-26",
+            "price": 23900
+          },
+          {
+            "date": "06-02",
+            "price": 23900
+          },
+          {
+            "date": "06-09",
+            "price": 23900
+          },
+          {
+            "date": "06-16",
+            "price": 23900
+          },
+          {
+            "date": "06-23",
+            "price": 23900
+          },
+          {
+            "date": "06-30",
+            "price": 23900
+          }
+        ],
+        "minPrice": 23900,
+        "maxPrice": 23900
+      },
+      "postContent": {
+        "text": "농할쿠폰 받아 적용시 11,990원으로 kg당 2400원정도 나오네요",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0702/900w_20260702064958_9asbgY1MNo.jpg"
+        ]
+      },
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_171127",
+      "title": "뻥튀기곡물나라 메밀국수 1kg 소바면",
+      "price": "7,480원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/07/02/thumb_1db760be30b9d731cd87d025faf73d2c.webp",
+      "category": "식품",
+      "site": "지마켓",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=113&no=717021",
+      "publishedAt": "2026-07-02 06:08:09",
+      "likes": 12,
+      "fetchedAt": "2026-07-01T22:13:42.881Z",
+      "priceComparison": [
+        {
+          "site": "지마켓",
+          "price": "7,480원"
+        },
+        {
+          "site": "쿠팡",
+          "price": "14,400원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": {
+        "text": "냉모밀 만들어 먹으려고 찾아보는데괜찮아보여서 공유해여~",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0702/900w_20260702060113_lGJBPuy1U4.jpeg",
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0702/900w_20260702060115_nXHi8YsDqo.png"
+        ]
+      },
+      "shopUrl": "https://link.gmarket.co.kr/VhGIGWwaKB"
+    },
+    {
       "id": "hdz_171126",
       "title": "Call of Juarez: Gunslinger",
       "price": "1,600원",
@@ -33420,217 +33587,7 @@
         ]
       },
       "shopUrl": "https://www.dajooda.kr/01/"
-    },
-    {
-      "id": "hdz_170206",
-      "title": "[한성컴퓨터]7800X3D + 5060TI 8GB + 32GB + 1TB 완본체",
-      "price": "1,749,710원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/01/thumb_28b90e3436cfe31b7ea6a4ca92d276ec.webp",
-      "category": "PC",
-      "site": "지마켓",
-      "source": "아카라이브",
-      "sourceColor": "#10B981",
-      "link": "https://arca.live/b/hotdeal/175471489?p=1",
-      "publishedAt": "2026-07-01 06:58:06",
-      "likes": 8,
-      "fetchedAt": "2026-06-30T22:10:26.123Z",
-      "priceComparison": [
-        {
-          "site": "지마켓",
-          "price": "1,749,710원"
-        },
-        {
-          "site": "한성컴퓨터 슈퍼스토어",
-          "price": "1,979,000원"
-        },
-        {
-          "site": "퍼플랩",
-          "price": "2,110,920원"
-        },
-        {
-          "site": "컴퓨터 제작소",
-          "price": "2,054,920원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "04-14",
-            "price": 2004020
-          },
-          {
-            "date": "04-21",
-            "price": 1993380
-          },
-          {
-            "date": "04-28",
-            "price": 1871130
-          },
-          {
-            "date": "05-05",
-            "price": 1871130
-          },
-          {
-            "date": "05-12",
-            "price": 2067920
-          },
-          {
-            "date": "05-19",
-            "price": 2067920
-          },
-          {
-            "date": "05-26",
-            "price": 2005060
-          },
-          {
-            "date": "06-02",
-            "price": 1924860
-          },
-          {
-            "date": "06-09",
-            "price": 1944000
-          },
-          {
-            "date": "06-16",
-            "price": 1944000
-          },
-          {
-            "date": "06-23",
-            "price": 1977590
-          },
-          {
-            "date": "06-30",
-            "price": 2018790
-          }
-        ],
-        "minPrice": 1871130,
-        "maxPrice": 2067920
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_170205",
-      "title": "[11번가] 미국산 소갈비살 200g x 5팩 (25,900원 / 무배)",
-      "price": "25,900원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/01/thumb_4b7a7a23e595702e1b20fd27a2bd6487.webp",
-      "category": "생활용품",
-      "site": "11번가",
-      "source": "퀘이사존",
-      "sourceColor": "#7C3AED",
-      "link": "https://quasarzone.com/bbs/qb_saleinfo/views/1966008",
-      "publishedAt": "2026-07-01 06:46:04",
-      "likes": 12,
-      "fetchedAt": "2026-06-30T22:10:26.123Z",
-      "priceComparison": [
-        {
-          "site": "11번가",
-          "price": "25,900원"
-        },
-        {
-          "site": "쿠팡",
-          "price": "28,900원"
-        },
-        {
-          "site": "지마켓",
-          "price": "27,970원"
-        },
-        {
-          "site": "GS SHOP",
-          "price": "34,900원"
-        },
-        {
-          "site": "마켓컬리",
-          "price": "29,900원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "04-14",
-            "price": 42500
-          },
-          {
-            "date": "04-21",
-            "price": 42500
-          },
-          {
-            "date": "04-28",
-            "price": 42500
-          },
-          {
-            "date": "05-05",
-            "price": 42500
-          },
-          {
-            "date": "05-12",
-            "price": 42500
-          },
-          {
-            "date": "05-19",
-            "price": 42500
-          },
-          {
-            "date": "05-26",
-            "price": 42500
-          },
-          {
-            "date": "06-02",
-            "price": 42500
-          },
-          {
-            "date": "06-09",
-            "price": 42500
-          },
-          {
-            "date": "06-16",
-            "price": 42500
-          },
-          {
-            "date": "06-23",
-            "price": 42500
-          },
-          {
-            "date": "06-30",
-            "price": 42500
-          }
-        ],
-        "minPrice": 42500,
-        "maxPrice": 42500
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_170204",
-      "title": "[음식] [이마트24,세븐일레븐] 7월 주요 할인 행사 정리 (7/1~31)",
-      "price": null,
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/01/thumb_79dfb6a7ad438f98b22895559f8a28d7.webp",
-      "category": "식품",
-      "site": "이마트24",
-      "source": "루리웹",
-      "sourceColor": "#3B82F6",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/105261?page=1",
-      "publishedAt": "2026-07-01 06:35:19",
-      "likes": 35,
-      "fetchedAt": "2026-06-30T22:10:26.123Z",
-      "priceComparison": [],
-      "priceHistory": null,
-      "postContent": {
-        "text": "-이마트24 -세븐일레븐",
-        "images": [
-          "https://i2.ruliweb.com/img/26/07/01/19f1a6d70861874ce.webp",
-          "https://i1.ruliweb.com/img/26/07/01/19f1a6d4dfe1874ce.webp",
-          "https://i3.ruliweb.com/img/26/07/01/19f1a6d60ed1874ce.webp",
-          "https://i1.ruliweb.com/img/26/07/01/19f1a6d80671874ce.webp",
-          "https://i2.ruliweb.com/img/26/07/01/19f1a6f9c7b1874ce.webp",
-          "https://i3.ruliweb.com/img/26/07/01/19f1a6faee31874ce.webp",
-          "https://i1.ruliweb.com/img/26/07/01/19f1a6d8fda1874ce.webp",
-          "https://i2.ruliweb.com/img/26/07/01/19f1a6d9f1f1874ce.webp"
-        ]
-      },
-      "shopUrl": "https://www.dajooda.kr/01/"
     }
   ],
-  "lastUpdated": "2026-07-01T19:40:56.116Z"
+  "lastUpdated": "2026-07-01T22:13:44.602Z"
 }
