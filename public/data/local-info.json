@@ -25,6 +25,18 @@
       "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1782221306songpa.JPG"
     },
     {
+      "name": "송파디지털 e스포츠 게임대회",
+      "category": "행사",
+      "startDate": "2026-07-01",
+      "endDate": "2026-07-31",
+      "location": "송파구 관내",
+      "target": "청소년",
+      "summary": "청소년을 위한 송파디지털 e스포츠 게임대회 참가자 모집",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9033&aid=17892",
+      "id": "crawler-1782873797450-609",
+      "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1782211842songpa.JPG"
+    },
+    {
       "name": "송파구 7월 문화 캘린더",
       "category": "문화",
       "startDate": "2026-07-01",
@@ -35,114 +47,6 @@
       "link": "https://songpa.newstool.co.kr/./view.php?eid=9033&aid=17898",
       "id": "crawler-1782787034531-730",
       "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1782214406songpa.JPG"
-    },
-    {
-      "name": "송파 6월 문화예술 기획 전시 및 공연",
-      "category": "문화 행사",
-      "startDate": "2026-06-01",
-      "endDate": "2026-06-30",
-      "location": "송파구 관내",
-      "target": "전체 구민",
-      "summary": "더 갤러리 호수 기획 전시, 석촌호수 주황버섯 캐릭터 전시, 송파문화예술회관 정기 공연 등 6월 송파구 문화예술 행사 정보.",
-      "link": "https://songpa.newstool.co.kr/./view.php?eid=9028&aid=17818",
-      "id": "crawler-1782268359121-303",
-      "image": "https://picsum.photos/seed/217176/800/500"
-    },
-    {
-      "name": "더 갤러리 호수 6월 기획 전시",
-      "category": "전시",
-      "startDate": "2026-06-01",
-      "endDate": "2026-06-30",
-      "location": "더 갤러리 호수",
-      "target": "전체 구민",
-      "summary": "6월 한 달간 더 갤러리 호수에서 열리는 특별 기획 전시",
-      "link": "https://songpa.newstool.co.kr/./view.php?eid=9028&aid=17818",
-      "id": "crawler-1782096998874-691",
-      "image": "https://picsum.photos/seed/416060/800/500"
-    },
-    {
-      "name": "송파구 6월 문화예술 특집",
-      "category": "행사",
-      "startDate": "2026-06-01",
-      "endDate": "2026-06-30",
-      "location": "송파구 관내",
-      "target": "전체 구민",
-      "summary": "더 갤러리 호수 6월 기획 전시, 석촌호수 주황버섯 캐릭터 방문, 송파문화예술회관 정기 공연 등 송파구 6월 문화예술 행사 안내",
-      "link": "https://songpa.newstool.co.kr/./view.php?eid=9028&aid=17818",
-      "id": "crawler-1781923075620-756",
-      "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1779424834songpa.JPG"
-    },
-    {
-      "name": "송파구 청년예술인 〈2026 더 임팩트〉",
-      "category": "문화/전시",
-      "startDate": "2026-06-01",
-      "endDate": "2026-06-30",
-      "location": "송파구 관내",
-      "target": "전체 구민",
-      "summary": "송파구 청년 예술인들의 활동과 작품을 선보이는 문화 행사 '2026 더 임팩트'.",
-      "link": "https://songpa.newstool.co.kr/./view.php?eid=9028&aid=17813",
-      "id": "crawler-1781839982370-404",
-      "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1779428332songpa.JPG"
-    },
-    {
-      "name": "송파 6월 문화예술 행사 모음",
-      "category": "문화",
-      "startDate": "2026-06-01",
-      "endDate": "2026-06-30",
-      "location": "송파구 관내",
-      "target": "전체 구민",
-      "summary": "더 갤러리 호수 6월 기획 전시, 석촌호수 메이플스토리 주황버섯 전시, 송파문화예술회관 6월 정기 공연 등 송파구의 풍성한 문화예술 행사",
-      "link": "https://songpa.newstool.co.kr/./view.php?eid=9028&aid=17818",
-      "id": "crawler-1781664774386-491",
-      "image": "https://picsum.photos/seed/847924/800/500"
-    },
-    {
-      "name": "송파 6월 문화예술의 향기 가득",
-      "category": "행사",
-      "startDate": "2026-06-01",
-      "endDate": "2026-06-30",
-      "location": "더 갤러리 호수, 송파문화예술회관, 석촌호수",
-      "target": "전체 구민",
-      "summary": "6월 한 달간 더 갤러리 호수 기획 전시, 송파문화예술회관 정기 공연, 석촌호수 메이플스토리 주황버섯 전시 등 다채로운 문화예술 행사 개최.",
-      "link": "https://songpa.newstool.co.kr/./view.php?eid=9028&aid=17818",
-      "id": "crawler-1781318303289-378",
-      "image": "https://picsum.photos/seed/812856/800/500"
-    },
-    {
-      "name": "송파 6월 문화와 예술 행사",
-      "category": "문화, 공연, 전시, 행사",
-      "startDate": "2026-06-01",
-      "endDate": "2026-06-30",
-      "location": "더 갤러리 호수, 석촌호수, 송파문화예술회관",
-      "target": "전체 구민",
-      "summary": "6월 송파구의 다양한 문화예술 행사. 더 갤러리 호수 6월 기획 전시, 석촌호수 메이플스토리 '주황버섯' 캐릭터 전시, 송파문화예술회관 6월 정기 공연 등.",
-      "link": "https://songpa.newstool.co.kr/./view.php?eid=9028&aid=17818",
-      "id": "crawler-1781232373757-476",
-      "image": "https://picsum.photos/seed/808584/800/500"
-    },
-    {
-      "name": "문화와 예술의 향기가 더해지는 6월",
-      "category": "행사",
-      "startDate": "2026-06-01",
-      "endDate": "2026-06-30",
-      "location": "송파구 관내 (더 갤러리 호수, 석촌호수, 송파문화예술회관 등)",
-      "target": "전체 구민",
-      "summary": "6월 한 달간 송파구에서 열리는 다채로운 문화 예술 전시, 공연, 그리고 석촌호수 메이플스토리 캐릭터 이벤트 소식입니다.",
-      "link": "https://songpa.newstool.co.kr/./view.php?eid=9028&aid=17818",
-      "id": "crawler-1780289105854-516",
-      "image": "https://picsum.photos/seed/403784/800/500"
-    },
-    {
-      "name": "송파문화예술회관 6월 정기 공연",
-      "category": "공연",
-      "startDate": "2026-06-01",
-      "endDate": "2026-06-30",
-      "location": "송파문화예술회관",
-      "target": "전체 구민",
-      "summary": "송파문화예술회관에서 6월 한 달간 펼쳐지는 정기 공연",
-      "link": "https://songpa.newstool.co.kr/./view.php?eid=9028&aid=17818",
-      "id": "crawler-1780288625475-427",
-      "image": "https://picsum.photos/seed/508432/800/500"
     }
   ],
   "benefits": [
@@ -3872,6 +3776,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=800&q=80"
+    },
+    {
+      "id": "000025",
+      "name": "범죄 피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-07-01",
+      "endDate": "상시",
+      "location": "법무부",
+      "target": "만 19세 미만 아동 및 범죄 피해 장애인",
+      "summary": "아동·장애인 범죄 피해자 수사·재판상 소통 중개 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -8159,7 +8076,67 @@
       "summary": "AI 윤리 가이드라인 준수 및 자율적 점검 체계 구축 지원",
       "link": "https://seoulaihub.kr/html/sub12_01.php",
       "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-01-1",
+      "name": "NIPA AI 기반 콘텐츠 생성 및 활용 생태계 지원 사업",
+      "category": "AI지원",
+      "startDate": "2026-07-01",
+      "endDate": "2026-11-30",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI 콘텐츠 기술 기업, 스타트업",
+      "summary": "AI 기반 콘텐츠 창작 및 활용 기술 개발, 사업화 지원",
+      "link": "https://www.nipa.kr/2026/ai-content-ecosystem",
+      "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-01-2",
+      "name": "서울 AI 허브 AI 기반 공공서비스 통합 솔루션 스케일업 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-01",
+      "endDate": "상시",
+      "location": "서울 AI 허브",
+      "target": "AI 기술 기반 스타트업, 중소기업",
+      "summary": "AI 기술을 활용한 공공서비스 혁신 솔루션 개발 및 시장 확대 지원",
+      "link": "https://www.seoulaihub.kr/2026/public-ai-scaleup",
+      "image": "https://images.unsplash.com/photo-1516321165247-4aa89a48be55?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-01-3",
+      "name": "K-Startup AI 딥테크 혁신기술 상용화 R&D 및 마케팅 지원 프로그램 2026",
+      "category": "AI지원",
+      "startDate": "2026-07-01",
+      "endDate": "2027-03-31",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "AI 딥테크 분야 혁신기술 보유 스타트업",
+      "summary": "AI 딥테크 스타트업의 혁신기술 상용화를 위한 R&D 및 초기 시장 마케팅 지원",
+      "link": "https://www.k-startup.go.kr/web/2026/deeptech-ai-accelerating",
+      "image": "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-01-4",
+      "name": "중소기업 데이터 거버넌스 및 성과관리 시스템 구축 지원 2026",
+      "category": "AI지원",
+      "startDate": "2026-07-01",
+      "endDate": "2026-10-31",
+      "location": "기업마당 (중소벤처기업부)",
+      "target": "데이터 기반 경영 체계 확립 희망 중소기업",
+      "summary": "중소기업의 효율적인 데이터 관리 체계 및 성과 측정 시스템 구축 지원",
+      "link": "https://www.bizinfo.go.kr/bizinfo/2026/data-governance-performance",
+      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-01-5",
+      "name": "과학기술정보통신부 AI 시스템 안전성 및 투명성 확보 기술 개발 및 실증 2026",
+      "category": "AI지원",
+      "startDate": "2026-07-01",
+      "endDate": "2027-06-30",
+      "location": "과학기술정보통신부",
+      "target": "AI 안전성 및 투명성 기술 개발 연구기관, 기업",
+      "summary": "AI 시스템 전반의 안전성, 신뢰성, 투명성을 확보하는 기술 개발 및 실제 적용 실증",
+      "link": "https://www.msit.go.kr/2026/ai-safety-transparency",
+      "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-06-30"
+  "lastUpdated": "2026-07-01"
 }
