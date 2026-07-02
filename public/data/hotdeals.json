@@ -1,6 +1,90 @@
 {
   "deals": [
     {
+      "id": "hdz_171865",
+      "title": "지누스 클라우드 럭스S 메모리폼 퀸 35cm",
+      "price": "461,280원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/07/03/thumb_83932c2d9eb35b45117b57eb197eeac4.webp",
+      "category": "생활용품",
+      "site": "쿠팡",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/10035341722",
+      "publishedAt": "2026-07-03 07:00:12",
+      "likes": 0,
+      "fetchedAt": "2026-07-02T22:00:41.411Z",
+      "priceComparison": [
+        {
+          "site": "쿠팡",
+          "price": "461,280원"
+        },
+        {
+          "site": "마켓컬리",
+          "price": "709,700원"
+        },
+        {
+          "site": "GS SHOP",
+          "price": "612,720원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "04-14",
+            "price": 546100
+          },
+          {
+            "date": "04-21",
+            "price": 585637
+          },
+          {
+            "date": "04-28",
+            "price": 525990
+          },
+          {
+            "date": "05-05",
+            "price": 575356
+          },
+          {
+            "date": "05-12",
+            "price": 527450
+          },
+          {
+            "date": "05-19",
+            "price": 548000
+          },
+          {
+            "date": "05-26",
+            "price": 548000
+          },
+          {
+            "date": "06-02",
+            "price": 585637
+          },
+          {
+            "date": "06-09",
+            "price": 543558
+          },
+          {
+            "date": "06-16",
+            "price": 520600
+          },
+          {
+            "date": "06-23",
+            "price": 562343
+          },
+          {
+            "date": "06-30",
+            "price": 562343
+          }
+        ],
+        "minPrice": 520600,
+        "maxPrice": 585637
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
       "id": "hdz_171864",
       "title": "하이뮨 프로틴밸런스 액티브 다크초코 330ml 12개입",
       "price": "19,900원",
@@ -32978,95 +33062,7 @@
         ]
       },
       "shopUrl": null
-    },
-    {
-      "id": "hdz_171088",
-      "title": "[11번가] 농심 신라면컵 65g x 30개",
-      "price": "12,490원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/02/thumb_51aa3a22905c24e00545a6d7b43749cf.webp",
-      "category": "생활용품",
-      "site": "11번가",
-      "source": "퀘이사존",
-      "sourceColor": "#7C3AED",
-      "link": "https://quasarzone.com/bbs/qb_saleinfo/views/1966433",
-      "publishedAt": "2026-07-02 00:36:04",
-      "likes": 23,
-      "fetchedAt": "2026-07-01T17:08:10.503Z",
-      "priceComparison": [
-        {
-          "site": "11번가",
-          "price": "12,490원"
-        },
-        {
-          "site": "다나와 가격비교",
-          "price": "13,590원"
-        },
-        {
-          "site": "코스트코 코리아",
-          "price": "약 30,000원대"
-        },
-        {
-          "site": "농심몰",
-          "price": "30,470원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "04-14",
-            "price": 29630
-          },
-          {
-            "date": "04-21",
-            "price": 26150
-          },
-          {
-            "date": "04-28",
-            "price": 26150
-          },
-          {
-            "date": "05-05",
-            "price": 26150
-          },
-          {
-            "date": "05-12",
-            "price": 26150
-          },
-          {
-            "date": "05-19",
-            "price": 26150
-          },
-          {
-            "date": "05-26",
-            "price": 31080
-          },
-          {
-            "date": "06-02",
-            "price": 31100
-          },
-          {
-            "date": "06-09",
-            "price": 30650
-          },
-          {
-            "date": "06-16",
-            "price": 29630
-          },
-          {
-            "date": "06-23",
-            "price": 30650
-          },
-          {
-            "date": "06-30",
-            "price": 30650
-          }
-        ],
-        "minPrice": 26150,
-        "maxPrice": 31100
-      },
-      "postContent": null,
-      "shopUrl": null
     }
   ],
-  "lastUpdated": "2026-07-02T19:11:44.563Z"
+  "lastUpdated": "2026-07-02T22:00:42.448Z"
 }
