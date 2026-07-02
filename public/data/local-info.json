@@ -25,6 +25,18 @@
       "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1782221306songpa.JPG"
     },
     {
+      "name": "하하호호 물놀이 그림 이벤트",
+      "category": "이벤트",
+      "startDate": "2026-07-01",
+      "endDate": "2026-07-31",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "즐거운 물놀이 경험을 그림으로 표현하는 독자 참여 이벤트",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9033&aid=17906",
+      "id": "crawler-1782959575245-470",
+      "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1782220964songpa.JPG"
+    },
+    {
       "name": "송파디지털 e스포츠 게임대회",
       "category": "행사",
       "startDate": "2026-07-01",
@@ -3789,6 +3801,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
+    },
+    {
+      "id": "000025",
+      "name": "범죄피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "상시",
+      "location": "법무부",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "범죄 피해 아동·장애인의 수사·재판 소통을 돕는 진술조력인 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1509822929063-6b6723e0e974?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -8136,7 +8161,67 @@
       "summary": "AI 시스템 전반의 안전성, 신뢰성, 투명성을 확보하는 기술 개발 및 실제 적용 실증",
       "link": "https://www.msit.go.kr/2026/ai-safety-transparency",
       "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-02-1",
+      "name": "NIPA AI 모델 배포 및 운영(MLOps) 자동화 솔루션 개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-02",
+      "endDate": "2026-12-15",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "MLOps 솔루션 개발 기업",
+      "summary": "AI 모델의 효율적인 배포, 운영 및 관리를 위한 MLOps 솔루션 개발 지원.",
+      "link": "https://www.nipa.kr/biz/ai_mlops_dev2026.do",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-02-2",
+      "name": "서울 AI 허브 공공 부문 AI 서비스 PoC 및 실증 연계 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-02",
+      "endDate": "2026-11-15",
+      "location": "서울 AI 허브",
+      "target": "공공서비스 AI 솔루션 기업",
+      "summary": "AI 기반 공공서비스 개발 기업의 PoC 및 실제 공공기관 연계 실증 지원.",
+      "link": "https://seoulaihub.kr/program/public_ai_poc2026.do",
+      "image": "https://images.unsplash.com/photo-1488229297570-58520851e868?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-02-3",
+      "name": "K-Startup AI 인재 매칭 및 초기 스타트업 고용 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-02",
+      "endDate": "상시",
+      "location": "K-Startup 창업진흥원",
+      "target": "AI 기술 초기 스타트업",
+      "summary": "AI 전문 인력과 초기 스타트업 매칭 및 채용 보조금 지원을 통한 성장 지원.",
+      "link": "https://www.k-startup.go.kr/biz/ai_talent_match2026.do",
+      "image": "https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-02-4",
+      "name": "중소벤처기업부 AI 기반 중소기업 사무 자동화 솔루션 도입 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-02",
+      "endDate": "2026-10-31",
+      "location": "중소벤처기업부 (기업마당)",
+      "target": "중소기업",
+      "summary": "AI를 활용한 사무 업무 자동화 솔루션 도입 및 컨설팅 지원.",
+      "link": "https://www.bizinfo.go.kr/biz/ai_office_auto2026.do",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-02-5",
+      "name": "과학기술정보통신부 AI 기반 기후변화 예측 및 환경 모니터링 기술 개발",
+      "category": "AI지원",
+      "startDate": "2026-07-02",
+      "endDate": "2026-12-31",
+      "location": "과학기술정보통신부",
+      "target": "AI 환경 기술 개발 연구기관/기업",
+      "summary": "AI를 활용한 기후변화 예측 및 환경 데이터 모니터링 기술 개발 지원.",
+      "link": "https://www.msit.go.kr/web/ai_env_predict2026.do",
+      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-07-01"
+  "lastUpdated": "2026-07-02"
 }
