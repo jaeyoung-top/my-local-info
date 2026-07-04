@@ -1,6 +1,108 @@
 {
   "deals": [
     {
+      "id": "hdz_173057",
+      "title": "사조참치 135g, 16개",
+      "price": "20,380원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/07/05/thumb_14e2e80f88b2ab880cf5eab68c5c1ed7.webp",
+      "category": "식품",
+      "site": "쿠팡",
+      "source": "아카라이브",
+      "sourceColor": "#10B981",
+      "link": "https://arca.live/b/hotdeal/175892443?p=1",
+      "publishedAt": "2026-07-05 06:46:05",
+      "likes": 4,
+      "fetchedAt": "2026-07-04T21:50:17.027Z",
+      "priceComparison": [
+        {
+          "site": "쿠팡",
+          "price": "20,380원"
+        },
+        {
+          "site": "GS SHOP",
+          "price": "24,900원"
+        },
+        {
+          "site": "geniet",
+          "price": "52,450원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "04-14",
+            "price": 21920
+          },
+          {
+            "date": "04-21",
+            "price": 21510
+          },
+          {
+            "date": "04-28",
+            "price": 21510
+          },
+          {
+            "date": "05-05",
+            "price": 21510
+          },
+          {
+            "date": "05-12",
+            "price": 21730
+          },
+          {
+            "date": "05-19",
+            "price": 22020
+          },
+          {
+            "date": "05-26",
+            "price": 22270
+          },
+          {
+            "date": "06-02",
+            "price": 22170
+          },
+          {
+            "date": "06-09",
+            "price": 22300
+          },
+          {
+            "date": "06-16",
+            "price": 24620
+          },
+          {
+            "date": "06-23",
+            "price": 24620
+          },
+          {
+            "date": "06-30",
+            "price": 25150
+          }
+        ],
+        "minPrice": 21510,
+        "maxPrice": 25150
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_173056",
+      "title": "삼성 온누리 신청 마지막 날",
+      "price": null,
+      "image": "https://image.hotdeal.zip/thumbnails/2026/07/05/thumb_d5b0637c3187f506aa4df28d4c994061.webp",
+      "category": "기타",
+      "site": "삼성",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/10043184276",
+      "publishedAt": "2026-07-05 04:12:14",
+      "likes": 101,
+      "fetchedAt": "2026-07-04T21:50:17.027Z",
+      "priceComparison": [],
+      "priceHistory": null,
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
       "id": "hdz_173055",
       "title": "엘더스크롤 5: 스카이림 스페셜 에디션 (7월 10일까지)",
       "price": "11,250원",
@@ -33666,117 +33768,7 @@
       },
       "postContent": null,
       "shopUrl": null
-    },
-    {
-      "id": "hdz_172548",
-      "title": "빙그레 더단백 드링크 8종 250ml 14팩+14팩+14팩",
-      "price": "49,560원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/04/thumb_1148ecacf2d986097d70e7347b57021e.webp",
-      "category": "식품",
-      "site": "롯데온",
-      "source": "아카라이브",
-      "sourceColor": "#10B981",
-      "link": "https://arca.live/b/hotdeal/175791326?p=1",
-      "publishedAt": "2026-07-04 03:12:05",
-      "likes": 7,
-      "fetchedAt": "2026-07-03T19:04:26.989Z",
-      "priceComparison": [
-        {
-          "site": "롯데온",
-          "price": "49,560원"
-        },
-        {
-          "site": "신세계TV쇼핑",
-          "price": "29,670원"
-        },
-        {
-          "site": "동원몰",
-          "price": "30,900원"
-        },
-        {
-          "site": "이마트 에브리데이",
-          "price": "22,100원"
-        },
-        {
-          "site": "롯데마트 제타",
-          "price": "4,580원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "04-14",
-            "price": 29990
-          },
-          {
-            "date": "04-21",
-            "price": 29990
-          },
-          {
-            "date": "04-28",
-            "price": 29990
-          },
-          {
-            "date": "05-05",
-            "price": 29380
-          },
-          {
-            "date": "05-12",
-            "price": 29640
-          },
-          {
-            "date": "05-19",
-            "price": 29380
-          },
-          {
-            "date": "05-26",
-            "price": 29760
-          },
-          {
-            "date": "06-02",
-            "price": 29760
-          },
-          {
-            "date": "06-09",
-            "price": 29760
-          },
-          {
-            "date": "06-16",
-            "price": 30710
-          },
-          {
-            "date": "06-23",
-            "price": 31060
-          },
-          {
-            "date": "06-30",
-            "price": 31050
-          }
-        ],
-        "minPrice": 29380,
-        "maxPrice": 31060
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_172547",
-      "title": "GS주유소 리터당 100원 네이버페이 포인트 적립",
-      "price": null,
-      "image": null,
-      "category": "기타",
-      "site": "네멤",
-      "source": "아카라이브",
-      "sourceColor": "#10B981",
-      "link": "https://arca.live/b/hotdeal/175791251?p=1",
-      "publishedAt": "2026-07-04 03:10:05",
-      "likes": 7,
-      "fetchedAt": "2026-07-03T19:04:26.989Z",
-      "priceComparison": [],
-      "priceHistory": null,
-      "postContent": null,
-      "shopUrl": null
     }
   ],
-  "lastUpdated": "2026-07-04T18:58:13.057Z"
+  "lastUpdated": "2026-07-04T21:50:19.054Z"
 }
