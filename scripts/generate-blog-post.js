@@ -40,6 +40,22 @@ function selectStyle(item, allItems) {
   return WRITING_STYLES[idx % WRITING_STYLES.length];
 }
 
+function sanitizeFrontmatter(text) {
+  const parts = text.split('---');
+  if (parts.length < 3) return text;
+  const frontmatter = parts[1];
+  const body = parts.slice(2).join('---');
+  const seen = new Set();
+  const lines = frontmatter.split('\n').filter(line => {
+    const match = line.match(/^(\w+):/);
+    if (!match) return true;
+    if (seen.has(match[1])) return false;
+    seen.add(match[1]);
+    return true;
+  });
+  return `---${lines.join('\n')}---${body}`;
+}
+
 async function generatePost(item, forceRegenerate = false, styleIndex = 0) {
   const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
   const postsDir = path.join(process.cwd(), 'src', 'content', 'posts');
@@ -113,7 +129,8 @@ source: "${item.link || ''}"
     const result = await response.json();
     const aiText = result.candidates[0].content.parts[0].text;
 
-    fs.writeFileSync(savePath, aiText.trim(), 'utf8');
+    const sanitized = sanitizeFrontmatter(aiText.trim());
+    fs.writeFileSync(savePath, sanitized, 'utf8');
     console.log(`✅ 완료: ${fileName} [${style.name}]`);
     return true;
   } catch (err) {
