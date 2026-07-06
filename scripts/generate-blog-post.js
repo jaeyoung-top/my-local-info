@@ -41,8 +41,16 @@ function selectStyle(item, allItems) {
 }
 
 function sanitizeFrontmatter(text) {
-  const parts = text.split('---');
-  if (parts.length < 3) return text;
+  // 코드블록 감싸기 제거 (```markdown 또는 ```)
+  let t = text.replace(/^```[\w]*\r?\n/, '').replace(/\r?\n```\s*$/, '');
+
+  // 열리는 --- 없이 바로 frontmatter 키로 시작하는 경우 보정
+  if (!t.trimStart().startsWith('---')) {
+    t = '---\n' + t.trimStart();
+  }
+
+  const parts = t.split('---');
+  if (parts.length < 3) return t;
   const frontmatter = parts[1];
   const body = parts.slice(2).join('---');
   const seen = new Set();
