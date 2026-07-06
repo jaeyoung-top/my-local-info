@@ -3891,6 +3891,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1519340333755-56e9c1d04579?w=800&q=80"
+    },
+    {
+      "id": "000025",
+      "name": "범죄 피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-07-06",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원 등 수사기관",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "범죄 피해 아동·장애인 수사·재판 시 진술 중개 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -8658,6 +8671,66 @@
       "summary": "초거대 AI 활용 공공 서비스 개발 및 국민 체감형 확산 지원",
       "link": "https://www.msit.go.kr",
       "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-06-1",
+      "name": "NIPA 미래형 AI 기반 XaaS 플랫폼 개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-06",
+      "endDate": "마감일 또는 상시",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI 기반 플랫폼 개발 기업, SW 기업",
+      "summary": "AI 기반 XaaS 플랫폼 개발 및 사업화를 위한 기술, 자금 지원",
+      "link": "https://www.nipa.kr",
+      "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-06-2",
+      "name": "서울 AI 허브 AI 기반 스마트시티 리빙랩 구축 및 실증",
+      "category": "AI지원",
+      "startDate": "2026-07-06",
+      "endDate": "마감일 또는 상시",
+      "location": "서울 AI 허브",
+      "target": "AI 기반 스마트시티 솔루션 스타트업 및 중소기업",
+      "summary": "AI 기반 스마트시티 리빙랩 구축 및 혁신 솔루션 실증 지원",
+      "link": "https://www.seoulaihub.kr",
+      "image": "https://images.unsplash.com/photo-1516321165247-4aa89a48be55?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-06-3",
+      "name": "K-Startup AI 기반 소부장 (소재·부품·장비) 스타트업 육성 프로그램",
+      "category": "AI지원",
+      "startDate": "2026-07-06",
+      "endDate": "마감일 또는 상시",
+      "location": "K-Startup 창업진흥원",
+      "target": "AI 기반 소부장 분야 예비/초기 스타트업",
+      "summary": "AI 기술을 활용한 소부장 스타트업 발굴 및 성장을 위한 멘토링, 자금 지원",
+      "link": "https://www.k-startup.go.kr",
+      "image": "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-06-4",
+      "name": "중소벤처기업부 AI 기반 중소기업 물류 효율화 및 비용 절감 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-06",
+      "endDate": "마감일 또는 상시",
+      "location": "중소벤처기업부 (기업마당)",
+      "target": "AI 기반 물류 효율화를 희망하는 중소기업",
+      "summary": "AI 솔루션 도입을 통한 중소기업 물류 최적화 및 비용 절감 컨설팅 및 자금 지원",
+      "link": "https://www.bizinfo.go.kr",
+      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-06-5",
+      "name": "과학기술정보통신부 AI 기반 양자암호 통신 기술 개발 및 실증",
+      "category": "AI지원",
+      "startDate": "2026-07-06",
+      "endDate": "마감일 또는 상시",
+      "location": "과학기술정보통신부",
+      "target": "AI 및 양자통신 기술 개발 기업 및 연구기관",
+      "summary": "AI 기반 양자암호 통신 핵심 기술 개발 및 실증을 통한 미래 보안 기술 선도",
+      "link": "https://www.msit.go.kr",
+      "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
     }
   ],
   "lastUpdated": "2026-07-06"

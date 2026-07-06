@@ -1,6 +1,86 @@
 {
   "deals": [
     {
+      "id": "hdz_173805",
+      "title": "칠성사이다제로 유자 355ml 24캔+펩시제로슈거 라임 355ml 24캔",
+      "price": "23,630원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/07/06/thumb_d6a0166d9dbbaaeab4ff7108112b785e.webp",
+      "category": "식품",
+      "site": "네이버",
+      "source": "아카라이브",
+      "sourceColor": "#10B981",
+      "link": "https://arca.live/b/hotdeal/176006537?p=1",
+      "publishedAt": "2026-07-06 14:20:05",
+      "likes": 6,
+      "fetchedAt": "2026-07-06T05:22:58.113Z",
+      "priceComparison": [
+        {
+          "site": "네이버",
+          "price": "23,630원"
+        },
+        {
+          "site": "GS SHOP",
+          "price": "약 39,900원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "04-14",
+            "price": 16400
+          },
+          {
+            "date": "04-21",
+            "price": 16400
+          },
+          {
+            "date": "04-28",
+            "price": 16400
+          },
+          {
+            "date": "05-05",
+            "price": 15600
+          },
+          {
+            "date": "05-12",
+            "price": 16520
+          },
+          {
+            "date": "05-19",
+            "price": 16540
+          },
+          {
+            "date": "05-26",
+            "price": 16450
+          },
+          {
+            "date": "06-02",
+            "price": 16380
+          },
+          {
+            "date": "06-09",
+            "price": 16380
+          },
+          {
+            "date": "06-16",
+            "price": 16400
+          },
+          {
+            "date": "06-23",
+            "price": 16400
+          },
+          {
+            "date": "06-30",
+            "price": 16400
+          }
+        ],
+        "minPrice": 15600,
+        "maxPrice": 16540
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
       "id": "hdz_173804",
       "title": "마쓰야마 자유여행 2박3일 (무료송영/관광지 입장 할인권 제공)",
       "price": "189,550원",
@@ -32147,99 +32227,7 @@
       "priceHistory": null,
       "postContent": null,
       "shopUrl": null
-    },
-    {
-      "id": "hdz_173238",
-      "title": "게토레이 제로 600ml 18펫",
-      "price": "14,880원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/05/thumb_c7cf6494115bc25321c6872e775246fb.webp",
-      "category": "식품",
-      "site": "롯데온",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/10044227754",
-      "publishedAt": "2026-07-05 14:40:14",
-      "likes": 16,
-      "fetchedAt": "2026-07-05T06:32:25.052Z",
-      "priceComparison": [
-        {
-          "site": "롯데온",
-          "price": "14,880원"
-        },
-        {
-          "site": "다나와 가격비교 최저가몰",
-          "price": "13,290원"
-        },
-        {
-          "site": "11번가",
-          "price": "20,210원"
-        },
-        {
-          "site": "G마켓",
-          "price": "15,960원"
-        },
-        {
-          "site": "에누리 가격비교몰",
-          "price": "19,580원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "04-14",
-            "price": 13290
-          },
-          {
-            "date": "04-21",
-            "price": 10840
-          },
-          {
-            "date": "04-28",
-            "price": 10870
-          },
-          {
-            "date": "05-05",
-            "price": 10800
-          },
-          {
-            "date": "05-12",
-            "price": 13290
-          },
-          {
-            "date": "05-19",
-            "price": 10800
-          },
-          {
-            "date": "05-26",
-            "price": 11460
-          },
-          {
-            "date": "06-02",
-            "price": 11460
-          },
-          {
-            "date": "06-09",
-            "price": 11460
-          },
-          {
-            "date": "06-16",
-            "price": 11470
-          },
-          {
-            "date": "06-23",
-            "price": 10800
-          },
-          {
-            "date": "06-30",
-            "price": 10970
-          }
-        ],
-        "minPrice": 10800,
-        "maxPrice": 13290
-      },
-      "postContent": null,
-      "shopUrl": null
     }
   ],
-  "lastUpdated": "2026-07-06T05:19:27.847Z"
+  "lastUpdated": "2026-07-06T05:22:59.117Z"
 }
