@@ -13,16 +13,16 @@
       "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1779432991songpa.JPG"
     },
     {
-      "name": "인생 한 컷을 담아주세요 8월 포토이벤트",
-      "category": "행사",
+      "name": "인생 한 컷을 담아주세요 8월 테마 포토이벤트",
+      "category": "이벤트",
       "startDate": "2026-08-01",
       "endDate": "2026-08-31",
       "location": "송파구 관내",
       "target": "전체 구민",
-      "summary": "8월 광복절과 바캉스를 테마로 한 독자 참여 사진 이벤트",
+      "summary": "8월 광복절과 바캉스를 주제로 송파구에서 진행되는 독자참여 포토이벤트입니다.",
       "link": "https://songpa.newstool.co.kr/./view.php?eid=9033&aid=17907",
-      "id": "crawler-1783217654319-617",
-      "image": "https://picsum.photos/seed/666360/800/500"
+      "id": "crawler-1783312076732-515",
+      "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1782221306songpa.JPG"
     },
     {
       "name": "하하호호 물놀이 그림 이벤트",
@@ -8513,6 +8513,66 @@
       "summary": "AI 활용 과학 시뮬레이션 및 복합 데이터 분석 기술 개발 및 고도화 지원",
       "link": "https://www.msit.go.kr",
       "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-06-1",
+      "name": "NIPA AI 기반 산업 지능형 데이터 공유 및 활용 촉진 사업",
+      "category": "AI지원",
+      "startDate": "2026-07-06",
+      "endDate": "2026-12-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "산업별 AI 기반 데이터 공유 및 활용 희망 기업",
+      "summary": "산업 특화 AI 데이터 공유 플랫폼 구축 및 활용 촉진 지원",
+      "link": "https://www.nipa.kr/ai/industrial-data-share-2026",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-06-2",
+      "name": "서울 AI 허브 AI 모델 MLOps 구축 및 고도화 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-06",
+      "endDate": "2026-12-31",
+      "location": "서울 AI 허브",
+      "target": "AI 모델 개발 스타트업 및 중소기업",
+      "summary": "AI 모델 개발 기업의 MLOps 시스템 구축 및 운영 기술 지원",
+      "link": "https://www.seoulaihub.kr/program/2026/MLOps",
+      "image": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-06-3",
+      "name": "K-Startup AI 기반 문화콘텐츠 창업 지원 프로그램",
+      "category": "AI지원",
+      "startDate": "2026-07-06",
+      "endDate": "2026-12-31",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "AI 기술을 활용한 문화콘텐츠 분야 예비/초기 창업기업",
+      "summary": "AI 기반 문화콘텐츠 서비스 개발 및 사업화를 위한 멘토링, 자금 지원",
+      "link": "https://www.k-startup.go.kr/ai/culture-content-2026",
+      "image": "https://images.unsplash.com/photo-1526378800651-c32d170fe6f8?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-06-4",
+      "name": "중소기업 임직원 AI 데이터 활용 역량 강화 교육 및 컨설팅 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-06",
+      "endDate": "2026-12-31",
+      "location": "중소벤처기업부 (기업마당 연계)",
+      "target": "AI·데이터 활용 역량 강화를 희망하는 중소기업 임직원",
+      "summary": "AI 기반 데이터 분석 및 활용 능력 향상을 위한 교육 및 컨설팅 제공",
+      "link": "https://www.bizinfo.go.kr/bizinfo/ai-dataliteracy-2026",
+      "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-06-5",
+      "name": "과학기술정보통신부 AI 기반 로보틱스 및 자율 시스템 핵심 기술 개발",
+      "category": "AI지원",
+      "startDate": "2026-07-06",
+      "endDate": "2026-12-31",
+      "location": "과학기술정보통신부",
+      "target": "AI 기반 로보틱스 및 자율 시스템 핵심 기술 개발 연구기관/기업",
+      "summary": "차세대 로봇 및 자율주행 시스템 개발을 위한 AI 핵심 기술 R&D 지원",
+      "link": "https://www.msit.go.kr/ai/robotics-autonomous-2026",
+      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80"
     }
   ],
   "lastUpdated": "2026-07-06"
