@@ -25,6 +25,18 @@
       "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1782221306songpa.JPG"
     },
     {
+      "name": "하하호호 물놀이장 그림이벤트",
+      "category": "행사",
+      "startDate": "2026-07-01",
+      "endDate": "2026-07-31",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "송파구 물놀이장에서의 즐거운 경험을 그림으로 표현하는 독자 참여 이벤트",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9033&aid=17906",
+      "id": "crawler-1783315114787-449",
+      "image": "https://picsum.photos/seed/407132/800/500"
+    },
+    {
       "name": "하하호호 물놀이 그림 이벤트",
       "category": "이벤트",
       "startDate": "2026-07-01",
@@ -3866,6 +3878,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "admin",
       "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "범죄피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원",
+      "target": "만 19세 미만 아동 또는 범죄 피해 장애인",
+      "summary": "범죄 피해 아동·장애인의 수사·재판 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1519340333755-56e9c1d04579?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -8573,6 +8598,66 @@
       "summary": "차세대 로봇 및 자율주행 시스템 개발을 위한 AI 핵심 기술 R&D 지원",
       "link": "https://www.msit.go.kr/ai/robotics-autonomous-2026",
       "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-06-1",
+      "name": "NIPA 2026년 AI·데이터 윤리 및 신뢰성 기술 개발 및 확산 지원",
+      "category": "AI지원",
+      "startDate": "2026-03-01",
+      "endDate": "2026-11-30",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI/데이터 기술 개발 기업 및 연구기관",
+      "summary": "AI·데이터 윤리 및 신뢰성 확보 기술 개발 및 산업 적용 지원",
+      "link": "https://www.nipa.kr",
+      "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-06-2",
+      "name": "서울 AI 허브 2026년 AI 기반 도시 인프라 혁신 스타트업 육성",
+      "category": "AI지원",
+      "startDate": "2026-04-15",
+      "endDate": "2026-12-31",
+      "location": "서울 AI 허브",
+      "target": "AI 기반 도시 인프라 혁신 스타트업",
+      "summary": "도시 인프라 개선 AI 솔루션 개발 스타트업 발굴 및 성장 지원",
+      "link": "https://seoulaihub.kr",
+      "image": "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-06-3",
+      "name": "K-Startup 2026년 AI 기반 라이프스타일 서비스 창업 지원",
+      "category": "AI지원",
+      "startDate": "2026-05-01",
+      "endDate": "2026-10-31",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "AI 기반 라이프스타일 분야 예비/초기 창업기업",
+      "summary": "AI 기술을 활용한 라이프스타일 서비스 창업 및 사업화 지원",
+      "link": "https://www.k-startup.go.kr",
+      "image": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-06-4",
+      "name": "중소벤처기업부 2026년 중소기업 AI·디지털 기술 도입 실증 지원",
+      "category": "AI지원",
+      "startDate": "2026-03-01",
+      "endDate": "2026-11-30",
+      "location": "중소벤처기업부",
+      "target": "AI/디지털 기술 도입 희망 중소기업",
+      "summary": "중소기업의 AI·디지털 기술 도입 및 실증 프로젝트 비용 지원",
+      "link": "https://www.mss.go.kr",
+      "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-06-5",
+      "name": "과학기술정보통신부 2026년 초거대 AI 기반 공공 서비스 개발 및 확산",
+      "category": "AI지원",
+      "startDate": "2026-02-01",
+      "endDate": "2026-12-31",
+      "location": "과학기술정보통신부",
+      "target": "공공 서비스 혁신 희망 기업/기관",
+      "summary": "초거대 AI 활용 공공 서비스 개발 및 국민 체감형 확산 지원",
+      "link": "https://www.msit.go.kr",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
     }
   ],
   "lastUpdated": "2026-07-06"
