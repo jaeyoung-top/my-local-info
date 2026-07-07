@@ -1,6 +1,203 @@
 {
   "deals": [
     {
+      "id": "hdz_174892",
+      "title": "쿠크다스 케이크, 154g, 6개",
+      "price": "15,180원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/07/08/thumb_198d96912a2db9f196493c557da0183e.webp",
+      "category": "식품",
+      "site": "쿠팡",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/10055763363",
+      "publishedAt": "2026-07-08 06:42:11",
+      "likes": 6,
+      "fetchedAt": "2026-07-07T22:05:52.380Z",
+      "priceComparison": [
+        {
+          "site": "쿠팡",
+          "price": "15,180원"
+        },
+        {
+          "site": "다나와 최저가 판매처",
+          "price": "13,680원"
+        },
+        {
+          "site": "11번가",
+          "price": "20,500원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "04-21",
+            "price": 14400
+          },
+          {
+            "date": "04-28",
+            "price": 14300
+          },
+          {
+            "date": "05-05",
+            "price": 14300
+          },
+          {
+            "date": "05-12",
+            "price": 14300
+          },
+          {
+            "date": "05-19",
+            "price": 14400
+          },
+          {
+            "date": "05-26",
+            "price": 14400
+          },
+          {
+            "date": "06-02",
+            "price": 14400
+          },
+          {
+            "date": "06-09",
+            "price": 14400
+          },
+          {
+            "date": "06-16",
+            "price": 14400
+          },
+          {
+            "date": "06-23",
+            "price": 14400
+          },
+          {
+            "date": "06-30",
+            "price": 14400
+          },
+          {
+            "date": "07-07",
+            "price": 14400
+          }
+        ],
+        "minPrice": 14300,
+        "maxPrice": 14400
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_174891",
+      "title": "스타벅스 아이스 인기 음료 무료, 푸드 30% 쿠폰 증정",
+      "price": null,
+      "image": "https://image.hotdeal.zip/thumbnails/2026/07/08/thumb_0ab5a5c44cfbd4516a57d2481d765ba0.webp",
+      "category": "식품",
+      "site": "스타벅스 앱",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/10055754128",
+      "publishedAt": "2026-07-08 06:34:28",
+      "likes": 24,
+      "fetchedAt": "2026-07-07T22:05:52.381Z",
+      "priceComparison": [],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "04-21",
+            "price": 4100
+          },
+          {
+            "date": "04-28",
+            "price": 4100
+          },
+          {
+            "date": "05-05",
+            "price": 4100
+          },
+          {
+            "date": "05-12",
+            "price": 4100
+          },
+          {
+            "date": "05-19",
+            "price": 4100
+          },
+          {
+            "date": "05-26",
+            "price": 4100
+          },
+          {
+            "date": "06-02",
+            "price": 4100
+          },
+          {
+            "date": "06-09",
+            "price": 4100
+          },
+          {
+            "date": "06-16",
+            "price": 4100
+          },
+          {
+            "date": "06-23",
+            "price": 4100
+          },
+          {
+            "date": "06-30",
+            "price": 4100
+          },
+          {
+            "date": "07-07",
+            "price": 4100
+          }
+        ],
+        "minPrice": 4100,
+        "maxPrice": 4100
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_174890",
+      "title": "자국없고 안 떨어지는 초강력 투명 만능 접착 양면테이프 3개 ",
+      "price": "3,000원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/07/08/thumb_4ced65b1cdeed59651522f7e31bca254.webp",
+      "category": "생활용품",
+      "site": "쿠팡 ",
+      "source": "개드립",
+      "sourceColor": "#DC2626",
+      "link": "https://www.dogdrip.net/712244102",
+      "publishedAt": "2026-07-08 05:55:04",
+      "likes": 52,
+      "fetchedAt": "2026-07-07T22:05:52.381Z",
+      "priceComparison": [
+        {
+          "site": "쿠팡",
+          "price": "3,000원"
+        },
+        {
+          "site": "11번가",
+          "price": "3,500원"
+        },
+        {
+          "site": "GS SHOP",
+          "price": "5,240원"
+        },
+        {
+          "site": "최저가마켓",
+          "price": "3,800원"
+        },
+        {
+          "site": "그리스루 공식몰",
+          "price": "1,750원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": {
+        "text": "전세라 못을 벽에 못박아서 구매함 벽지 손상없고 때기 쉽고 접착제 안묻고 잘붙음안떨어지는데 자국이 없어??",
+        "images": []
+      },
+      "shopUrl": "https://www.coupang.com/vp/products/9567847652?itemId=28555679816&vendorItemId=95500387118"
+    },
+    {
       "id": "hdz_174889",
       "title": "웅진 하늘보리 500ml x 24페트 티멤버십",
       "price": "12,860원",
@@ -31736,221 +31933,7 @@
         ]
       },
       "shopUrl": null
-    },
-    {
-      "id": "hdz_174187",
-      "title": "경북 반납작 대극천 딱딱이 복숭아 2kg",
-      "price": "12,690원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/07/thumb_308b25a4c98bf80eb16df6269b50d51d.webp",
-      "category": "식품",
-      "site": "롯데온",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=718258",
-      "publishedAt": "2026-07-07 00:34:25",
-      "likes": 21,
-      "fetchedAt": "2026-07-06T17:36:02.440Z",
-      "priceComparison": [
-        {
-          "site": "롯데온",
-          "price": "12,690원"
-        },
-        {
-          "site": "오아시스마켓",
-          "price": "21,100원"
-        },
-        {
-          "site": "GS SHOP",
-          "price": "21,400원"
-        },
-        {
-          "site": "오성농수산",
-          "price": "26,300원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "04-14",
-            "price": 16300
-          },
-          {
-            "date": "04-21",
-            "price": 16300
-          },
-          {
-            "date": "04-28",
-            "price": 16300
-          },
-          {
-            "date": "05-05",
-            "price": 16300
-          },
-          {
-            "date": "05-12",
-            "price": 16300
-          },
-          {
-            "date": "05-19",
-            "price": 16300
-          },
-          {
-            "date": "05-26",
-            "price": 16300
-          },
-          {
-            "date": "06-02",
-            "price": 16300
-          },
-          {
-            "date": "06-09",
-            "price": 16300
-          },
-          {
-            "date": "06-16",
-            "price": 16300
-          },
-          {
-            "date": "06-23",
-            "price": 16300
-          },
-          {
-            "date": "06-30",
-            "price": 16300
-          }
-        ],
-        "minPrice": 16300,
-        "maxPrice": 16300
-      },
-      "postContent": {
-        "text": "반납작 모양의 대극천 품종으로 과육이 단단한 딱딱이 복숭아입니다 소담충남 20% + 롯데카드 7% 할인 적용가 12,690원 나옵니다",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0707/900w_20260707003243_qoQUL7aGnD.jpg"
-        ]
-      },
-      "shopUrl": "https://www.lotteon.com/p/product/LO2712371538?entryPoint=bo"
-    },
-    {
-      "id": "hdz_174186",
-      "title": "쟌슨빌 빅 핫도그 115g 10팩",
-      "price": "16,900원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/07/thumb_15abe4d8814245fd9bd2dabdc64c1a85.webp",
-      "category": "식품",
-      "site": "네이버",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=718259",
-      "publishedAt": "2026-07-07 00:34:19",
-      "likes": 24,
-      "fetchedAt": "2026-07-06T17:36:02.440Z",
-      "priceComparison": [
-        {
-          "site": "네이버",
-          "price": "16,900원"
-        },
-        {
-          "site": "동원몰",
-          "price": "19,800원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "04-14",
-            "price": 20220
-          },
-          {
-            "date": "04-21",
-            "price": 19850
-          },
-          {
-            "date": "04-28",
-            "price": 19390
-          },
-          {
-            "date": "05-05",
-            "price": 18400
-          },
-          {
-            "date": "05-12",
-            "price": 17580
-          },
-          {
-            "date": "05-19",
-            "price": 20850
-          },
-          {
-            "date": "05-26",
-            "price": 20850
-          },
-          {
-            "date": "06-02",
-            "price": 22320
-          },
-          {
-            "date": "06-09",
-            "price": 22800
-          },
-          {
-            "date": "06-16",
-            "price": 22800
-          },
-          {
-            "date": "06-23",
-            "price": 22820
-          },
-          {
-            "date": "06-30",
-            "price": 22410
-          }
-        ],
-        "minPrice": 17580,
-        "maxPrice": 22820
-      },
-      "postContent": {
-        "text": "빅 핫도그 1팩에 115g 사이즈라 먹기 좋습니다1.5배 커진 사이즈고 전자레인지 30초 조리해서 드시면 됩니다",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0707/900w_20260707003300_xOtQ73opS5.jpg"
-        ]
-      },
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_174185",
-      "title": "제스타 향기나는 습기제거제 라벤더향 250g 18개입",
-      "price": "13,520원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/07/thumb_5fdf60632de3c4ddf8dadaffa8bb52dc.webp",
-      "category": "생활용품",
-      "site": "롯데온",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=718260",
-      "publishedAt": "2026-07-07 00:34:09",
-      "likes": 12,
-      "fetchedAt": "2026-07-06T17:36:02.440Z",
-      "priceComparison": [
-        {
-          "site": "롯데온",
-          "price": "13,520원"
-        },
-        {
-          "site": "11번가",
-          "price": "13,400원"
-        },
-        {
-          "site": "GS SHOP",
-          "price": "16,900원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": {
-        "text": "개당 751.1원 정도 나오네요.장마철에 옷장이나 신발장 같은데 두기 좋더라구요.",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0707/900w_20260707003253_jsJQB5BUuW.jpg"
-        ]
-      },
-      "shopUrl": "https://www.lotteon.com/p/product/LO2676326781"
     }
   ],
-  "lastUpdated": "2026-07-07T19:43:33.093Z"
+  "lastUpdated": "2026-07-07T22:05:54.342Z"
 }
