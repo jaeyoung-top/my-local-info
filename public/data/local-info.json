@@ -3904,6 +3904,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
+    },
+    {
+      "id": "000025",
+      "name": "범죄 피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-07-07",
+      "endDate": "상시",
+      "location": "수사기관 및 법원",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "피해 아동·장애인의 수사·재판상 소통을 중개 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -8731,7 +8744,67 @@
       "summary": "AI 기반 양자암호 통신 핵심 기술 개발 및 실증을 통한 미래 보안 기술 선도",
       "link": "https://www.msit.go.kr",
       "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-07-1",
+      "name": "NIPA AI 기반 스마트 농업 생산성 향상 기술 개발 및 실증",
+      "category": "AI지원",
+      "startDate": "2026-07-01",
+      "endDate": "2027-06-30",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "농업 분야 AI 기술 개발 기업, 스마트팜 농가",
+      "summary": "AI를 활용한 농업 생산성 증대 및 정밀 농업 기술 개발 지원",
+      "link": "https://www.nipa.kr/",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-07-2",
+      "name": "서울 AI 허브 AI 기반 문화유산 디지털 복원 및 활용 실증 프로젝트",
+      "category": "AI지원",
+      "startDate": "2026-07-15",
+      "endDate": "2026-12-31",
+      "location": "서울 AI 허브",
+      "target": "AI 및 문화기술 스타트업, 연구기관",
+      "summary": "AI 기술을 활용한 문화유산 디지털 복원 및 신규 콘텐츠 개발 지원",
+      "link": "https://seoulaihub.kr/",
+      "image": "https://images.unsplash.com/photo-1488229297570-58520851e868?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-07-3",
+      "name": "K-Startup AI 기술 기반 지식재산(IP) 특허 포트폴리오 구축 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-01",
+      "endDate": "2026-10-31",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "AI 기술 기반 예비창업가 및 초기 스타트업",
+      "summary": "AI 관련 특허 출원 및 포트폴리오 구축 컨설팅, 비용 지원",
+      "link": "https://www.k-startup.go.kr/",
+      "image": "https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-07-4",
+      "name": "중소벤처기업부 중소기업 AI 기반 법규 준수 및 규제 대응 솔루션 도입 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-01",
+      "endDate": "2026-11-30",
+      "location": "중소벤처기업부",
+      "target": "법규 준수 및 규제 대응 필요 중소기업",
+      "summary": "AI 솔루션을 활용한 법률 및 규제 준수 자동화, 리스크 관리 지원",
+      "link": "https://www.bizinfo.go.kr/",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-07-5",
+      "name": "과학기술정보통신부 AI 기반 사이버 물리 시스템(CPS) 보안 및 신뢰성 기술 개발",
+      "category": "AI지원",
+      "startDate": "2026-07-01",
+      "endDate": "2028-06-30",
+      "location": "과학기술정보통신부",
+      "target": "CPS 및 AI 보안 기술 개발 기업 및 연구기관",
+      "summary": "AI를 활용한 사이버 물리 시스템의 보안 강화 및 신뢰성 검증 기술 개발",
+      "link": "https://www.msit.go.kr/",
+      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-07-06"
+  "lastUpdated": "2026-07-07"
 }
