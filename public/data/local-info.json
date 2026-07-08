@@ -3917,6 +3917,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "admin",
       "image": "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=80"
+    },
+    {
+      "id": "000025",
+      "name": "범죄 피해 아동·장애인 진술조력 지원",
+      "category": "혜택",
+      "startDate": "2026-07-08",
+      "endDate": "상시",
+      "location": "법무부",
+      "target": "만 19세 미만 아동 또는 장애인 범죄 피해자",
+      "summary": "아동·장애인 범죄 피해자의 수사·재판 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -8804,7 +8817,67 @@
       "summary": "AI를 활용한 사이버 물리 시스템의 보안 강화 및 신뢰성 검증 기술 개발",
       "link": "https://www.msit.go.kr/",
       "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-08-1",
+      "name": "NIPA 비정형 데이터 기반 AI 모델 학습 및 특화 서비스 개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-01",
+      "endDate": "2027-06-30",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "비정형 데이터 활용 AI 솔루션 개발 기업",
+      "summary": "이미지, 음성 등 비정형 데이터 활용 AI 모델 학습 및 서비스 개발 지원",
+      "link": "https://www.nipa.kr",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-08-2",
+      "name": "서울 AI 허브 생성형 AI 기반 맞춤형 교육 콘텐츠 개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-15",
+      "endDate": "2027-02-28",
+      "location": "서울 AI 허브",
+      "target": "교육 기술 분야 AI 스타트업",
+      "summary": "생성형 AI를 활용한 개인 맞춤형 교육 콘텐츠 제작 및 상용화 지원",
+      "link": "https://seoulaihub.kr",
+      "image": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-08-3",
+      "name": "K-Startup AI 기반 소규모 제조기업 품질관리 지능화 솔루션 보급",
+      "category": "AI지원",
+      "startDate": "2026-08-01",
+      "endDate": "2027-07-31",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "소규모 제조기업 및 AI 솔루션 개발사",
+      "summary": "AI 기반 품질 관리 및 불량 검출 솔루션 개발 및 제조 현장 보급 지원",
+      "link": "https://www.k-startup.go.kr",
+      "image": "https://images.unsplash.com/photo-1526378800651-c32d170fe6f8?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-08-4",
+      "name": "중소기업 생성형 AI 도입 및 사내 데이터 기반 활용 컨설팅",
+      "category": "AI지원",
+      "startDate": "2026-07-08",
+      "endDate": "상시",
+      "location": "중소벤처기업부 (기업마당)",
+      "target": "생성형 AI 도입 희망 중소기업",
+      "summary": "생성형 AI 솔루션 도입 및 기업 내부 데이터 연동 활용 컨설팅 제공",
+      "link": "https://www.bizinfo.go.kr",
+      "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-08-5",
+      "name": "과학기술정보통신부 AI 기반 산업 자원 효율화 및 순환 경제 기술 개발",
+      "category": "AI지원",
+      "startDate": "2026-07-01",
+      "endDate": "2028-12-31",
+      "location": "과학기술정보통신부",
+      "target": "산업 자원 효율화 AI 기술 개발 기업 및 연구기관",
+      "summary": "AI를 활용한 산업 자원 사용 최적화 및 순환 경제 전환 기술 개발 지원",
+      "link": "https://www.msit.go.kr",
+      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-07-07"
+  "lastUpdated": "2026-07-08"
 }
