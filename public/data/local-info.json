@@ -13,16 +13,16 @@
       "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1779432991songpa.JPG"
     },
     {
-      "name": "인생 한 컷을 담아주세요 8월 테마 포토이벤트",
+      "name": "인생 한 컷을 담아주세요 8월 테마 (포토이벤트)",
       "category": "이벤트",
       "startDate": "2026-08-01",
       "endDate": "2026-08-31",
       "location": "송파구 관내",
       "target": "전체 구민",
-      "summary": "8월 광복절과 바캉스를 주제로 송파구에서 진행되는 독자참여 포토이벤트입니다.",
+      "summary": "8월 광복절 및 바캉스 테마에 맞춰 송파구의 인생 사진을 공유하는 독자 참여 이벤트입니다.",
       "link": "https://songpa.newstool.co.kr/./view.php?eid=9033&aid=17907",
-      "id": "crawler-1783312076732-515",
-      "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1782221306songpa.JPG"
+      "id": "crawler-1783562881583-117",
+      "image": "https://picsum.photos/seed/761504/800/500"
     },
     {
       "name": "하하호호 물놀이장 그림이벤트",
@@ -3930,6 +3930,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
+    },
+    {
+      "id": "000025",
+      "name": "범죄 피해 아동/장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-07-09",
+      "endDate": "상시",
+      "location": "법무부",
+      "target": "만 19세 미만 아동, 장애인 범죄 피해자",
+      "summary": "범죄 피해 아동 및 장애인의 수사/재판 소통 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1509822929063-6b6723e0e974?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -8877,7 +8890,67 @@
       "summary": "AI를 활용한 산업 자원 사용 최적화 및 순환 경제 전환 기술 개발 지원",
       "link": "https://www.msit.go.kr",
       "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-09-1",
+      "name": "NIPA 2026년 AI 기반 국방/안보 분야 특화 기술 개발 및 실증",
+      "category": "AI지원",
+      "startDate": "2026-07-01",
+      "endDate": "2027-06-30",
+      "location": "NIPA (정보통신산업진흥원)",
+      "target": "AI 국방/안보 기술 개발 기업 및 연구기관",
+      "summary": "국방 및 안보 분야 AI 기반 핵심 기술 개발 및 실증 지원",
+      "link": "https://www.nipa.kr",
+      "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-09-2",
+      "name": "K-Startup AI 기술 기반 B2C 서비스 스타트업 성장 촉진 지원",
+      "category": "AI지원",
+      "startDate": "2026-08-01",
+      "endDate": "2027-01-31",
+      "location": "K-Startup 창업진흥원",
+      "target": "AI 기반 B2C 서비스 개발 초기 스타트업",
+      "summary": "AI 기반 B2C 서비스 스타트업의 성장 가속화 및 시장 진출 지원",
+      "link": "https://www.k-startup.go.kr",
+      "image": "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-09-3",
+      "name": "서울 AI 허브 2026년 AI 고급 인력 교류 및 공동 연구 매칭 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-20",
+      "endDate": "2026-11-30",
+      "location": "서울 AI 허브",
+      "target": "AI 연구자, 기업 및 학계 고급 인력",
+      "summary": "AI 고급 인력 간 교류 및 공동 연구 프로젝트 매칭 지원",
+      "link": "https://www.seoulaihub.kr",
+      "image": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-09-4",
+      "name": "중소벤처기업부 AI 기반 챗봇/콜봇 도입 고객지원 자동화 지원",
+      "category": "AI지원",
+      "startDate": "2026-09-01",
+      "endDate": "2027-02-28",
+      "location": "중소벤처기업부 (기업마당 경유)",
+      "target": "AI 기반 고객지원 자동화를 희망하는 중소기업",
+      "summary": "AI 챗봇/콜봇 도입을 통한 고객지원 시스템 자동화 지원",
+      "link": "https://www.bizinfo.go.kr",
+      "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-09-5",
+      "name": "과학기술정보통신부 AI 기반 뇌-컴퓨터 인터페이스(BCI) 핵심 기술 개발",
+      "category": "AI지원",
+      "startDate": "2026-07-01",
+      "endDate": "2028-06-30",
+      "location": "과학기술정보통신부",
+      "target": "BCI 기반 AI 핵심 기술 개발 연구기관 및 기업",
+      "summary": "AI 기반 뇌-컴퓨터 인터페이스 핵심 기술 개발 및 실용화 지원",
+      "link": "https://www.msit.go.kr",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-07-08"
+  "lastUpdated": "2026-07-09"
 }
