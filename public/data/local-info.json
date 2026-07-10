@@ -13,16 +13,16 @@
       "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1779432991songpa.JPG"
     },
     {
-      "name": "인생 한 컷을 담아주세요 8월 테마 (포토이벤트)",
-      "category": "이벤트",
+      "name": "인생 한 컷을 담아주세요 8월 테마 포토 이벤트",
+      "category": "행사",
       "startDate": "2026-08-01",
       "endDate": "2026-08-31",
       "location": "송파구 관내",
       "target": "전체 구민",
-      "summary": "8월 광복절 및 바캉스 테마에 맞춰 송파구의 인생 사진을 공유하는 독자 참여 이벤트입니다.",
+      "summary": "광복절, 송파 바캉스를 주제로 한 독자 참여 포토 이벤트",
       "link": "https://songpa.newstool.co.kr/./view.php?eid=9033&aid=17907",
-      "id": "crawler-1783562881583-117",
-      "image": "https://picsum.photos/seed/761504/800/500"
+      "id": "crawler-1783649267825-328",
+      "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1782221306songpa.JPG"
     },
     {
       "name": "하하호호 물놀이장 그림이벤트",
@@ -3943,6 +3943,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "admin",
       "image": "https://images.unsplash.com/photo-1509822929063-6b6723e0e974?w=800&q=80"
+    },
+    {
+      "id": "127000",
+      "name": "범죄 피해 아동·장애인 진술조력 지원",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원",
+      "target": "만 19세 미만 아동 및 장애인 범죄 피해자",
+      "summary": "아동·장애인 범죄 피해자의 수사·재판상 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -8950,7 +8963,67 @@
       "summary": "AI 기반 뇌-컴퓨터 인터페이스 핵심 기술 개발 및 실용화 지원",
       "link": "https://www.msit.go.kr",
       "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-10-1",
+      "name": "NIPA 2026년 차세대 SW 인재 양성 프로그램",
+      "category": "AI지원",
+      "startDate": "2026-07-01",
+      "endDate": "2026-12-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "SW 개발자 및 예비 인력",
+      "summary": "미래 SW 핵심 기술(AI, 디지털 등) 인재 육성을 위한 교육 지원",
+      "link": "https://www.nipa.kr/main/main.do",
+      "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-10-2",
+      "name": "K-Startup 2026년 기술창업기업 성장 R&D 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-01",
+      "endDate": "2026-12-31",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "창업 7년 이내 기술 기반 스타트업",
+      "summary": "유망 기술 기반 창업기업의 연구개발 및 사업화 자금 지원",
+      "link": "https://www.k-startup.go.kr/",
+      "image": "https://images.unsplash.com/photo-1516321165247-4aa89a48be55?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-10-3",
+      "name": "중소벤처기업부 2026년 해외 진출 맞춤형 컨설팅 지원 (디지털 채널 활용)",
+      "category": "AI지원",
+      "startDate": "2026-07-01",
+      "endDate": "2026-12-31",
+      "location": "기업마당 (중소벤처기업부)",
+      "target": "수출 희망 및 초기 중소기업",
+      "summary": "중소기업의 해외 시장 진출을 위한 디지털 채널 전략 수립 및 컨설팅 지원",
+      "link": "https://www.bizinfo.go.kr/web/main/index.do",
+      "image": "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-10-4",
+      "name": "서울 AI 허브 2026년 AI 기술 교류 및 네트워킹 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-01",
+      "endDate": "2026-12-31",
+      "location": "서울 AI 허브",
+      "target": "AI 스타트업, 개발자, 연구기관",
+      "summary": "AI 기술 정보 교환 및 협력 기회 창출을 위한 네트워킹 프로그램 지원",
+      "link": "https://seoulaihub.kr/",
+      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-10-5",
+      "name": "과학기술정보통신부 2026년 디지털 혁신 기술 실증 및 확산 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-01",
+      "endDate": "2026-12-31",
+      "location": "과학기술정보통신부",
+      "target": "ICT 기업, 연구기관, 대학",
+      "summary": "AI, 빅데이터 등 디지털 혁신 기술의 현장 적용 및 산업 확산 지원",
+      "link": "https://www.msit.go.kr/index.do",
+      "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-07-09"
+  "lastUpdated": "2026-07-10"
 }
