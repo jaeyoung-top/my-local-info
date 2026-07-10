@@ -1,6 +1,171 @@
 {
   "deals": [
     {
+      "id": "hdz_176788",
+      "title": "콜오브듀티 블랙옵스 6",
+      "price": null,
+      "image": "https://image.hotdeal.zip/thumbnails/2026/07/11/thumb_85dd37522a6ebd1bde3dc12c611d8c6f.webp",
+      "category": "게임",
+      "site": "엑박스토어",
+      "source": "루리웹",
+      "sourceColor": "#3B82F6",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/105556?page=1",
+      "publishedAt": "2026-07-11 06:45:16",
+      "likes": 5,
+      "fetchedAt": "2026-07-10T21:53:02.863Z",
+      "priceComparison": [],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "04-21",
+            "price": 43990
+          },
+          {
+            "date": "04-28",
+            "price": 43990
+          },
+          {
+            "date": "05-05",
+            "price": 39920
+          },
+          {
+            "date": "05-12",
+            "price": 39920
+          },
+          {
+            "date": "05-19",
+            "price": 40480
+          },
+          {
+            "date": "05-26",
+            "price": 40480
+          },
+          {
+            "date": "06-02",
+            "price": 40740
+          },
+          {
+            "date": "06-09",
+            "price": 39940
+          },
+          {
+            "date": "06-16",
+            "price": 40850
+          },
+          {
+            "date": "06-23",
+            "price": 40850
+          },
+          {
+            "date": "06-30",
+            "price": 40920
+          },
+          {
+            "date": "07-07",
+            "price": 40920
+          }
+        ],
+        "minPrice": 39920,
+        "maxPrice": 43990
+      },
+      "postContent": {
+        "text": "무료라네요?! 그렇다면 라이브러리로 쏙~",
+        "images": [
+          "https://i1.ruliweb.com/img/26/07/11/19f4dfbb92a56830b.webp",
+          "https://i3.ruliweb.com/img/26/07/11/19f4e03a08656830b.webp"
+        ]
+      },
+      "shopUrl": "https://www.xbox.com/ko-KR/games/store/call-of-duty-black-ops-6/9P22THR57FV7/0010"
+    },
+    {
+      "id": "hdz_176787",
+      "title": "[기타] 다크플래쉬 DS5000 ART 케이스 외 주말 특가 행사",
+      "price": "53,000원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/07/11/thumb_c039a3697708e46734ecf2846ba41765.webp",
+      "category": "PC",
+      "site": null,
+      "source": "퀘이사존",
+      "sourceColor": "#7C3AED",
+      "link": "https://quasarzone.com/bbs/qb_saleinfo/views/1969014",
+      "publishedAt": "2026-07-11 04:18:05",
+      "likes": 55,
+      "fetchedAt": "2026-07-10T21:53:02.863Z",
+      "priceComparison": [
+        {
+          "site": "핫딜모음",
+          "price": "53,000원"
+        },
+        {
+          "site": "마이피씨샵",
+          "price": "125,000원"
+        },
+        {
+          "site": "KJW컴퓨터",
+          "price": "119,050원"
+        },
+        {
+          "site": "컴퓨터전문몰 가이드컴",
+          "price": "125,000원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "04-21",
+            "price": 119440
+          },
+          {
+            "date": "04-28",
+            "price": 122780
+          },
+          {
+            "date": "05-05",
+            "price": 122760
+          },
+          {
+            "date": "05-12",
+            "price": 122700
+          },
+          {
+            "date": "05-19",
+            "price": 122490
+          },
+          {
+            "date": "05-26",
+            "price": 121250
+          },
+          {
+            "date": "06-02",
+            "price": 121250
+          },
+          {
+            "date": "06-09",
+            "price": 120500
+          },
+          {
+            "date": "06-16",
+            "price": 118890
+          },
+          {
+            "date": "06-23",
+            "price": 119890
+          },
+          {
+            "date": "06-30",
+            "price": 121900
+          },
+          {
+            "date": "07-07",
+            "price": 121240
+          }
+        ],
+        "minPrice": 118890,
+        "maxPrice": 122780
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
       "id": "hdz_176786",
       "title": "플래닛 주 -95%",
       "price": "2,300원",
@@ -32911,194 +33076,7 @@
       "priceHistory": null,
       "postContent": null,
       "shopUrl": null
-    },
-    {
-      "id": "hdz_176138",
-      "title": "에디션 반팔 카라티셔츠",
-      "price": "19,650원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/10/thumb_a5587061000f51f799efbae112d8b04a.webp",
-      "category": "의류",
-      "site": "11번가",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=719060",
-      "publishedAt": "2026-07-10 00:48:12",
-      "likes": 23,
-      "fetchedAt": "2026-07-09T17:13:14.856Z",
-      "priceComparison": [
-        {
-          "site": "11번가",
-          "price": "19,650원"
-        },
-        {
-          "site": "SSG.COM",
-          "price": "14,296원"
-        },
-        {
-          "site": "패션플러스",
-          "price": "21,240원"
-        },
-        {
-          "site": "LF Mall",
-          "price": "27,540원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "04-21",
-            "price": 104310
-          },
-          {
-            "date": "04-28",
-            "price": 113550
-          },
-          {
-            "date": "05-05",
-            "price": 110090
-          },
-          {
-            "date": "05-12",
-            "price": 113500
-          },
-          {
-            "date": "05-19",
-            "price": 113450
-          },
-          {
-            "date": "05-26",
-            "price": 113360
-          },
-          {
-            "date": "06-02",
-            "price": 113290
-          },
-          {
-            "date": "06-09",
-            "price": 96570
-          },
-          {
-            "date": "06-16",
-            "price": 61700
-          },
-          {
-            "date": "06-23",
-            "price": 57980
-          },
-          {
-            "date": "06-30",
-            "price": 66790
-          },
-          {
-            "date": "07-07",
-            "price": 62550
-          }
-        ],
-        "minPrice": 57980,
-        "maxPrice": 113550
-      },
-      "postContent": {
-        "text": "에디션 반팔카라티셔츠 입니다깔끔한 무지티셔츠이고 마 혼방 원단이라 시원하게 입기좋아보입니다",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0710/900w_20260710004636_ALnBlwjaFF.jpeg",
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0710/900w_20260710004638_oXZ9tmyurO.jpeg",
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0710/900w_20260710004640_kmm0AvC5rU.jpeg"
-        ]
-      },
-      "shopUrl": "https://www.11st.co.kr/products/9433935676"
-    },
-    {
-      "id": "hdz_176136",
-      "title": "오뚜기밥 흰밥 200g 36개",
-      "price": "24,736원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/10/thumb_0cd16e9a92342c103e4ae0861082d978.webp",
-      "category": "식품",
-      "site": "오늘의집",
-      "source": "아카라이브",
-      "sourceColor": "#10B981",
-      "link": "https://arca.live/b/hotdeal/176385984?p=1",
-      "publishedAt": "2026-07-10 00:38:05",
-      "likes": 10,
-      "fetchedAt": "2026-07-09T17:13:14.856Z",
-      "priceComparison": [
-        {
-          "site": "오늘의집",
-          "price": "24,736원"
-        },
-        {
-          "site": "네이버 쇼핑",
-          "price": "23,900원"
-        },
-        {
-          "site": "옥션",
-          "price": "30,750원"
-        },
-        {
-          "site": "G마켓",
-          "price": "31,070원"
-        },
-        {
-          "site": "11번가",
-          "price": "59,910원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "04-21",
-            "price": 14400
-          },
-          {
-            "date": "04-28",
-            "price": 17910
-          },
-          {
-            "date": "05-05",
-            "price": 18010
-          },
-          {
-            "date": "05-12",
-            "price": 17680
-          },
-          {
-            "date": "05-19",
-            "price": 18050
-          },
-          {
-            "date": "05-26",
-            "price": 15300
-          },
-          {
-            "date": "06-02",
-            "price": 15300
-          },
-          {
-            "date": "06-09",
-            "price": 15660
-          },
-          {
-            "date": "06-16",
-            "price": 18620
-          },
-          {
-            "date": "06-23",
-            "price": 18140
-          },
-          {
-            "date": "06-30",
-            "price": 17890
-          },
-          {
-            "date": "07-07",
-            "price": 17890
-          }
-        ],
-        "minPrice": 14400,
-        "maxPrice": 18620
-      },
-      "postContent": null,
-      "shopUrl": null
     }
   ],
-  "lastUpdated": "2026-07-10T19:17:17.244Z"
+  "lastUpdated": "2026-07-10T21:53:04.913Z"
 }
