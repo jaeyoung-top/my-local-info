@@ -1,6 +1,37 @@
 {
   "deals": [
     {
+      "id": "hdz_177222",
+      "title": "[지마켓] ProTech 에어쿠션 실리콘 무자극 무릎보호대",
+      "price": "9,800원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/07/12/thumb_57e773da4859f5c5df837d497a40fe93.webp",
+      "category": "기타",
+      "site": "지마켓",
+      "source": "퀘이사존",
+      "sourceColor": "#7C3AED",
+      "link": "https://quasarzone.com/bbs/qb_saleinfo/views/1969237",
+      "publishedAt": "2026-07-12 04:56:04",
+      "likes": 36,
+      "fetchedAt": "2026-07-11T21:40:46.383Z",
+      "priceComparison": [
+        {
+          "site": "지마켓",
+          "price": "9,800원"
+        },
+        {
+          "site": "버스트익스프레스",
+          "price": "29,900원"
+        },
+        {
+          "site": "SSG.COM",
+          "price": "23,880원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
       "id": "hdz_177221",
       "title": "청주-히로시마 (8.23/8.26)",
       "price": "158,400원",
@@ -32647,95 +32678,7 @@
       "priceHistory": null,
       "postContent": null,
       "shopUrl": null
-    },
-    {
-      "id": "hdz_176715",
-      "title": "찍먹 오감자 버터갈릭감자튀김 10개 + 딥 양념바베큐 10개",
-      "price": "20,395원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/11/thumb_0d16b52c8a5a39b15356c06761c414a3.webp",
-      "category": "식품",
-      "site": "오늘의집",
-      "source": "아카라이브",
-      "sourceColor": "#10B981",
-      "link": "https://arca.live/b/hotdeal/176493514?p=1",
-      "publishedAt": "2026-07-11 00:16:04",
-      "likes": 15,
-      "fetchedAt": "2026-07-10T16:50:44.658Z",
-      "priceComparison": [
-        {
-          "site": "오늘의집",
-          "price": "20,395원"
-        },
-        {
-          "site": "롯데ON",
-          "price": "20,680원"
-        },
-        {
-          "site": "다나와",
-          "price": "24,740원"
-        },
-        {
-          "site": "신세계쇼핑",
-          "price": "25,500원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "04-21",
-            "price": 25900
-          },
-          {
-            "date": "04-28",
-            "price": 25900
-          },
-          {
-            "date": "05-05",
-            "price": 25900
-          },
-          {
-            "date": "05-12",
-            "price": 25900
-          },
-          {
-            "date": "05-19",
-            "price": 25900
-          },
-          {
-            "date": "05-26",
-            "price": 25900
-          },
-          {
-            "date": "06-02",
-            "price": 25110
-          },
-          {
-            "date": "06-09",
-            "price": 25900
-          },
-          {
-            "date": "06-16",
-            "price": 25900
-          },
-          {
-            "date": "06-23",
-            "price": 25660
-          },
-          {
-            "date": "06-30",
-            "price": 25660
-          },
-          {
-            "date": "07-07",
-            "price": 25660
-          }
-        ],
-        "minPrice": 25110,
-        "maxPrice": 25900
-      },
-      "postContent": null,
-      "shopUrl": null
     }
   ],
-  "lastUpdated": "2026-07-11T18:47:32.701Z"
+  "lastUpdated": "2026-07-11T21:40:47.402Z"
 }
