@@ -3956,6 +3956,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "성폭력·아동학대·인신매매 피해 아동 및 장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-07-11",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원",
+      "target": "성폭력·아동학대·인신매매 피해 아동 및 장애인",
+      "summary": "범죄 피해 아동·장애인의 수사·재판상 진술 조력 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1519340333755-56e9c1d04579?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -9023,7 +9036,67 @@
       "summary": "AI, 빅데이터 등 디지털 혁신 기술의 현장 적용 및 산업 확산 지원",
       "link": "https://www.msit.go.kr/index.do",
       "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-11-1",
+      "name": "NIPA AI 기반 금융 서비스 혁신 기술 개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-01",
+      "endDate": "2026-12-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI 기술 보유 기업, 금융 관련 스타트업",
+      "summary": "금융 산업의 AI 융합 서비스 및 기술 개발 지원",
+      "link": "https://www.nipa.kr/main/index.html",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-11-2",
+      "name": "서울 AI 허브 AI 기반 의료 영상 분석 솔루션 개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-15",
+      "endDate": "2027-06-30",
+      "location": "서울 AI 허브",
+      "target": "의료 AI 분야 스타트업 및 중소기업",
+      "summary": "의료 영상 분석 AI 솔루션 개발 및 상용화 지원",
+      "link": "https://seoulaihub.kr/main/index.html",
+      "image": "https://images.unsplash.com/photo-1488229297570-58520851e868?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-11-3",
+      "name": "K-Startup AI 기반 교육 에듀테크 스타트업 특화 지원",
+      "category": "AI지원",
+      "startDate": "2026-08-01",
+      "endDate": "2027-01-31",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "AI 기반 에듀테크 분야 예비/초기 창업기업",
+      "summary": "AI 활용 에듀테크 스타트업 발굴 및 사업화 지원",
+      "link": "https://www.k-startup.go.kr/main.do",
+      "image": "https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-11-4",
+      "name": "기업마당 지역 산업 AI·디지털 전환 선도기업 육성",
+      "category": "AI지원",
+      "startDate": "2026-07-01",
+      "endDate": "2026-11-30",
+      "location": "중소벤처기업부 (기업마당)",
+      "target": "지역 기반 AI·디지털 전환 선도 중소기업",
+      "summary": "지역 특화 산업의 AI·디지털 전환 선도 기업 육성",
+      "link": "https://www.bizinfo.go.kr/web/main/index.do",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-11-5",
+      "name": "과학기술정보통신부 AI 기반 데이터 과학 핵심인재 양성 사업",
+      "category": "AI지원",
+      "startDate": "2026-09-01",
+      "endDate": "2027-08-31",
+      "location": "과학기술정보통신부",
+      "target": "AI·데이터 분야 대학(원)생 및 재직자",
+      "summary": "데이터 과학 분야 AI 핵심인력 양성 교육 프로그램 지원",
+      "link": "https://www.msit.go.kr/index.do",
+      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-07-10"
+  "lastUpdated": "2026-07-11"
 }
