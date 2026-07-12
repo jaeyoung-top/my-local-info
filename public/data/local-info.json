@@ -13,16 +13,16 @@
       "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1779432991songpa.JPG"
     },
     {
-      "name": "인생 한 컷을 담아주세요 8월 테마 포토 이벤트",
-      "category": "행사",
+      "name": "인생 한 컷 포토 이벤트 (8월 테마: 광복절, 송파 바캉스)",
+      "category": "이벤트",
       "startDate": "2026-08-01",
       "endDate": "2026-08-31",
       "location": "송파구 관내",
       "target": "전체 구민",
-      "summary": "광복절, 송파 바캉스를 주제로 한 독자 참여 포토 이벤트",
+      "summary": "8월 테마인 광복절 및 송파에서 즐기는 바캉스를 주제로 사진을 공모하는 독자참여 포토 이벤트입니다.",
       "link": "https://songpa.newstool.co.kr/./view.php?eid=9033&aid=17907",
-      "id": "crawler-1783649267825-328",
-      "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1782221306songpa.JPG"
+      "id": "crawler-1783821375062-182",
+      "image": "https://picsum.photos/seed/888232/800/500"
     },
     {
       "name": "하하호호 물놀이장 그림이벤트",
@@ -3966,6 +3966,19 @@
       "location": "경찰서, 검찰청, 법원",
       "target": "성폭력·아동학대·인신매매 피해 아동 및 장애인",
       "summary": "범죄 피해 아동·장애인의 수사·재판상 진술 조력 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1519340333755-56e9c1d04579?w=800&q=80"
+    },
+    {
+      "id": "127000",
+      "name": "범죄피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-07-12",
+      "endDate": "상시",
+      "location": "법무부",
+      "target": "만19세 미만 아동 및 범죄 피해 장애인",
+      "summary": "만 19세 미만 아동, 의사소통이 어려운 장애인 범죄 피해자의 수사·재판상 소통 중개",
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1519340333755-56e9c1d04579?w=800&q=80"
@@ -9096,7 +9109,67 @@
       "summary": "데이터 과학 분야 AI 핵심인력 양성 교육 프로그램 지원",
       "link": "https://www.msit.go.kr/index.do",
       "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-12-1",
+      "name": "정보통신산업진흥원 AI 기반 탈중앙화 데이터 활용 신규 서비스 개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-12",
+      "endDate": "2026-10-31",
+      "location": "NIPA (정보통신산업진흥원)",
+      "target": "AI 기술 보유 기업 및 연구기관",
+      "summary": "탈중앙화 데이터 기술과 AI를 융합한 신규 서비스 개발 및 상용화 지원",
+      "link": "https://www.nipa.kr",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-12-2",
+      "name": "서울 AI 허브 AI 모델 개발 생산성 향상 DevTools 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-12",
+      "endDate": "상시",
+      "location": "서울 AI 허브",
+      "target": "AI 기술 개발 스타트업 및 중소기업",
+      "summary": "AI 개발 생산성 향상을 위한 개발 도구 및 전문가 컨설팅 지원",
+      "link": "https://www.seoulaihub.kr",
+      "image": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-12-3",
+      "name": "K-Startup AI 기반 시스템반도체 설계 혁신 스타트업 육성",
+      "category": "AI지원",
+      "startDate": "2026-07-12",
+      "endDate": "2026-11-30",
+      "location": "K-Startup 창업진흥원",
+      "target": "AI 기반 시스템반도체 설계 기술 창업기업",
+      "summary": "시스템반도체 설계 분야 AI 활용 창업기업 발굴 및 사업화 지원",
+      "link": "https://www.k-startup.go.kr",
+      "image": "https://images.unsplash.com/photo-1526378800651-c32d170fe6f8?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-12-4",
+      "name": "중소벤처기업부 AI 기반 금융 데이터 분석 및 리스크 관리 솔루션 도입 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-12",
+      "endDate": "상시",
+      "location": "기업마당 (bizinfo.go.kr)",
+      "target": "AI 솔루션 도입 희망 중소기업",
+      "summary": "AI 기반 금융 데이터 분석 솔루션 도입으로 경영 리스크 관리 및 의사결정 지원",
+      "link": "https://www.bizinfo.go.kr",
+      "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-12-5",
+      "name": "과학기술정보통신부 AI 기반 메타물질 설계 및 시뮬레이션 기술 개발",
+      "category": "AI지원",
+      "startDate": "2026-07-12",
+      "endDate": "2026-09-30",
+      "location": "과학기술정보통신부",
+      "target": "연구기관, 대학, 기업 컨소시엄",
+      "summary": "AI를 활용한 메타물질의 혁신적 설계 및 시뮬레이션 기술 개발 지원",
+      "link": "https://www.msit.go.kr",
+      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-07-11"
+  "lastUpdated": "2026-07-12"
 }
