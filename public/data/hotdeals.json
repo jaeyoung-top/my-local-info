@@ -1,6 +1,525 @@
 {
   "deals": [
     {
+      "id": "hdz_178314",
+      "title": "테이버드핏 청바지",
+      "price": "9,520원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/07/14/thumb_b9b94ff23e85730b019aa71ee3d24fcf.webp",
+      "category": "의류",
+      "site": "이랜드",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/10080388911",
+      "publishedAt": "2026-07-14 06:42:13",
+      "likes": 2,
+      "fetchedAt": "2026-07-13T21:46:38.029Z",
+      "priceComparison": [
+        {
+          "site": "이랜드",
+          "price": "9,520원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "04-21",
+            "price": 39900
+          },
+          {
+            "date": "04-28",
+            "price": 39900
+          },
+          {
+            "date": "05-05",
+            "price": 39900
+          },
+          {
+            "date": "05-12",
+            "price": 39900
+          },
+          {
+            "date": "05-19",
+            "price": 39900
+          },
+          {
+            "date": "05-26",
+            "price": 39900
+          },
+          {
+            "date": "06-02",
+            "price": 39900
+          },
+          {
+            "date": "06-09",
+            "price": 39900
+          },
+          {
+            "date": "06-16",
+            "price": 39900
+          },
+          {
+            "date": "06-23",
+            "price": 39900
+          },
+          {
+            "date": "06-30",
+            "price": 39900
+          },
+          {
+            "date": "07-07",
+            "price": 39900
+          }
+        ],
+        "minPrice": 39900,
+        "maxPrice": 39900
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_178313",
+      "title": "경주시농협 이사금 10kg 삼광미",
+      "price": "29,890원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/07/14/thumb_a3c7bcf12fbbf63cf8c2aed55503853d.webp",
+      "category": "식품",
+      "site": "지마켓",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=719943",
+      "publishedAt": "2026-07-14 06:40:13",
+      "likes": 1,
+      "fetchedAt": "2026-07-13T21:46:38.030Z",
+      "priceComparison": [
+        {
+          "site": "지마켓",
+          "price": "29,890원"
+        },
+        {
+          "site": "SSG.COM",
+          "price": "34,500원"
+        },
+        {
+          "site": "오직미",
+          "price": "35,800원"
+        },
+        {
+          "site": "사이소",
+          "price": "34,000원"
+        },
+        {
+          "site": "GS SHOP",
+          "price": "42,900원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "04-21",
+            "price": 36910
+          },
+          {
+            "date": "04-28",
+            "price": 36910
+          },
+          {
+            "date": "05-05",
+            "price": 36510
+          },
+          {
+            "date": "05-12",
+            "price": 36080
+          },
+          {
+            "date": "05-19",
+            "price": 36080
+          },
+          {
+            "date": "05-26",
+            "price": 36080
+          },
+          {
+            "date": "06-02",
+            "price": 36510
+          },
+          {
+            "date": "06-09",
+            "price": 37320
+          },
+          {
+            "date": "06-16",
+            "price": 36750
+          },
+          {
+            "date": "06-23",
+            "price": 37350
+          },
+          {
+            "date": "06-30",
+            "price": 36750
+          },
+          {
+            "date": "07-07",
+            "price": 36750
+          }
+        ],
+        "minPrice": 36080,
+        "maxPrice": 37350
+      },
+      "postContent": {
+        "text": "경주시농협 이사금 10kg 상등급 삼광미 쿠폰 받으면 가격나옵니다.",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0714/900w_20260714063931_HVXrYQQw4c.jpg"
+        ]
+      },
+      "shopUrl": "https://link.gmarket.co.kr/a7uPTpLrv"
+    },
+    {
+      "id": "hdz_178312",
+      "title": "산타바라폴로 남성 드로즈 팬티 4종 10매",
+      "price": "12,580원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/07/14/thumb_675825d542389770fbb408fa5af1c1d4.webp",
+      "category": "의류",
+      "site": "옥션",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=719942",
+      "publishedAt": "2026-07-14 06:34:12",
+      "likes": 1,
+      "fetchedAt": "2026-07-13T21:46:38.030Z",
+      "priceComparison": [
+        {
+          "site": "옥션",
+          "price": "12,580원"
+        },
+        {
+          "site": "알구몬",
+          "price": "15,620원"
+        },
+        {
+          "site": "지그재그",
+          "price": "16,920원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "04-21",
+            "price": 15555
+          },
+          {
+            "date": "04-28",
+            "price": 12665
+          },
+          {
+            "date": "05-05",
+            "price": 14000
+          },
+          {
+            "date": "05-12",
+            "price": 14000
+          },
+          {
+            "date": "05-19",
+            "price": 12665
+          },
+          {
+            "date": "05-26",
+            "price": 12665
+          },
+          {
+            "date": "06-02",
+            "price": 12665
+          },
+          {
+            "date": "06-09",
+            "price": 13689
+          },
+          {
+            "date": "06-16",
+            "price": 12452
+          },
+          {
+            "date": "06-23",
+            "price": 12665
+          },
+          {
+            "date": "06-30",
+            "price": 12665
+          },
+          {
+            "date": "07-07",
+            "price": 12665
+          }
+        ],
+        "minPrice": 12452,
+        "maxPrice": 15555
+      },
+      "postContent": {
+        "text": "가성비로 입기 좋은 산타바바라 폴로 드로즈 팬티입니다. 10매에 12,580원이라 가격 좋습니다 구매시 모자도 추가로 증정해주니 참고하세요. 아쉽게 사이즈느 95하고 100뿐입니다.",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0714/900w_20260714063257_9HneTx1gHQ.jpg"
+        ]
+      },
+      "shopUrl": "https://itempage3.auction.co.kr/DetailView.aspx?ItemNo=E626547525&frm3=V2"
+    },
+    {
+      "id": "hdz_178311",
+      "title": "베스트 내추럴 베르베린 플러스 1000 mg 120 캡슐, 120정, 1개",
+      "price": "19,890원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/07/14/thumb_2c06dc76fe01fff6c90275a21ccc7e1a.webp",
+      "category": "기타",
+      "site": "쿠팡",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/10080398531",
+      "publishedAt": "2026-07-14 05:50:26",
+      "likes": 13,
+      "fetchedAt": "2026-07-13T21:46:38.030Z",
+      "priceComparison": [
+        {
+          "site": "쿠팡",
+          "price": "19,890원"
+        },
+        {
+          "site": "11번가",
+          "price": "35,900원"
+        },
+        {
+          "site": "11번가(2개 세트)",
+          "price": "63,900원"
+        },
+        {
+          "site": "월급루팡(중개형)",
+          "price": "31,080원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "04-21",
+            "price": 22610
+          },
+          {
+            "date": "04-28",
+            "price": 21010
+          },
+          {
+            "date": "05-05",
+            "price": 23750
+          },
+          {
+            "date": "05-12",
+            "price": 21960
+          },
+          {
+            "date": "05-19",
+            "price": 20960
+          },
+          {
+            "date": "05-26",
+            "price": 22030
+          },
+          {
+            "date": "06-02",
+            "price": 24630
+          },
+          {
+            "date": "06-09",
+            "price": 24610
+          },
+          {
+            "date": "06-16",
+            "price": 24690
+          },
+          {
+            "date": "06-23",
+            "price": 23410
+          },
+          {
+            "date": "06-30",
+            "price": 21420
+          },
+          {
+            "date": "07-07",
+            "price": 28260
+          }
+        ],
+        "minPrice": 20960,
+        "maxPrice": 28260
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_178310",
+      "title": "파낙스엔 인지코어 6박스 / 6개월분",
+      "price": "229,000원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/07/14/thumb_3cba7170a10a70cf7847d86bc99491ee.webp",
+      "category": "식품",
+      "site": "NS홈쇼핑",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=719941",
+      "publishedAt": "2026-07-14 05:28:10",
+      "likes": 7,
+      "fetchedAt": "2026-07-13T21:46:38.030Z",
+      "priceComparison": [
+        {
+          "site": "NS홈쇼핑",
+          "price": "229,000원"
+        },
+        {
+          "site": "휴온스NMall",
+          "price": "59,000원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "04-28",
+            "price": 56230
+          },
+          {
+            "date": "05-05",
+            "price": 54310
+          },
+          {
+            "date": "05-12",
+            "price": 56670
+          },
+          {
+            "date": "05-19",
+            "price": 57960
+          },
+          {
+            "date": "05-26",
+            "price": 57960
+          },
+          {
+            "date": "06-02",
+            "price": 56670
+          },
+          {
+            "date": "06-09",
+            "price": 57640
+          },
+          {
+            "date": "06-16",
+            "price": 57960
+          },
+          {
+            "date": "06-23",
+            "price": 64700
+          },
+          {
+            "date": "06-30",
+            "price": 77700
+          },
+          {
+            "date": "07-07",
+            "price": 77700
+          }
+        ],
+        "minPrice": 54310,
+        "maxPrice": 77700
+      },
+      "postContent": {
+        "text": "6개월분 구성이라 박스당 계산해보면 대략 3만 8천원 꼴인데, 평소 단가 비교해보면 메리트 있는 금액대입니다. 요즘 부모님 기억력이나 인지 기능 건강 때문에 영양제 챙겨드리려고 알아보고 계셨던 분들이나, 본인 건강 관리용으로 대량 쟁여두실 분들은 이번 특가 구성으로 진입하셔도 가격 나쁘지 않아 보입니다. 특히 평소에 두뇌 건강 목적으로 PS나 포스파티딜세린 종류 챙겨드시던 분들도 요 제품으로 넘어가 보시는 거 추천해 드립니다. 방송 중에만 이 가격 유지된다고 하니 필요하신 분들은 링크 참고하세요.",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0714/900w_20260714052641_DsR787TRs4.jpeg"
+        ]
+      },
+      "shopUrl": "https://m.nsmall.com/goods/36043857"
+    },
+    {
+      "id": "hdz_178309",
+      "title": "하겐다즈 케이크",
+      "price": "27,000원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/07/14/thumb_b831304e9b9d0cbe2d800b8f5e787f87.webp",
+      "category": "식품",
+      "site": "카카오톡 선물",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/10080377997",
+      "publishedAt": "2026-07-14 05:06:09",
+      "likes": 21,
+      "fetchedAt": "2026-07-13T21:46:38.030Z",
+      "priceComparison": [
+        {
+          "site": "카카오톡 선물",
+          "price": "27,000원"
+        },
+        {
+          "site": "G마켓",
+          "price": "41,000원"
+        },
+        {
+          "site": "옥션",
+          "price": "42,000원"
+        },
+        {
+          "site": "11번가",
+          "price": "40,000원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "04-21",
+            "price": 32756
+          },
+          {
+            "date": "04-28",
+            "price": 32780
+          },
+          {
+            "date": "05-05",
+            "price": 32780
+          },
+          {
+            "date": "05-12",
+            "price": 32780
+          },
+          {
+            "date": "05-19",
+            "price": 32743
+          },
+          {
+            "date": "05-26",
+            "price": 32780
+          },
+          {
+            "date": "06-02",
+            "price": 32780
+          },
+          {
+            "date": "06-09",
+            "price": 32780
+          },
+          {
+            "date": "06-16",
+            "price": 32780
+          },
+          {
+            "date": "06-23",
+            "price": 32780
+          },
+          {
+            "date": "06-30",
+            "price": 32780
+          },
+          {
+            "date": "07-07",
+            "price": 32780
+          }
+        ],
+        "minPrice": 32743,
+        "maxPrice": 32780
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
       "id": "hdz_178308",
       "title": "국산 전라도 여수 파김치 2kg",
       "price": "15,900원",
@@ -28619,276 +29138,7 @@
         ]
       },
       "shopUrl": "https://store.epicgames.com/p/keepup-survival-cd0eb0"
-    },
-    {
-      "id": "hdz_177563",
-      "title": "KeepUp Survival",
-      "price": null,
-      "image": null,
-      "category": "게임",
-      "site": "에픽게임즈",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=719635",
-      "publishedAt": "2026-07-13 01:06:12",
-      "likes": 9,
-      "fetchedAt": "2026-07-12T18:53:13.244Z",
-      "priceComparison": [],
-      "priceHistory": null,
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_177562",
-      "title": "카페 2천원 이상 결제시 500원 적립",
-      "price": null,
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/13/thumb_baa8b8e42ddb600f4df0eeb27e1265c7.webp",
-      "category": "기타",
-      "site": "네이버",
-      "source": "루리웹",
-      "sourceColor": "#3B82F6",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/105584?page=1",
-      "publishedAt": "2026-07-13 01:05:27",
-      "likes": 14,
-      "fetchedAt": "2026-07-12T18:53:13.244Z",
-      "priceComparison": [],
-      "priceHistory": null,
-      "postContent": {
-        "text": "https://campaign2.naver.com/npay/cafe/ 수요일부터는 메가커피 20% 적립 이벤트도 진행됩니다. 아마 중복적용될겁니다.",
-        "images": [
-          "https://i1.ruliweb.com/img/26/07/13/19f570ec1f01874ce.webp",
-          "https://i1.ruliweb.com/img/26/07/13/19f570ed98c1874ce.webp"
-        ]
-      },
-      "shopUrl": "https://campaign2.naver.com/npay/cafe/"
-    },
-    {
-      "id": "hdz_177561",
-      "title": "(코인) 유그린 접지충전기 160W/100W/200W",
-      "price": "$24.6부터",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/13/thumb_7ca4b3d3718e0cbb0607bd258da9397f.webp",
-      "category": "가전",
-      "site": "알리",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/10076209424",
-      "publishedAt": "2026-07-13 01:02:19",
-      "likes": 33,
-      "fetchedAt": "2026-07-12T18:53:13.244Z",
-      "priceComparison": [
-        {
-          "site": "알리",
-          "price": "$24.6부터"
-        },
-        {
-          "site": "다나와",
-          "price": "401,800 KRW"
-        },
-        {
-          "site": "다나와",
-          "price": "600,000 KRW 이상"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "04-21",
-            "price": 79000
-          },
-          {
-            "date": "04-28",
-            "price": 79000
-          },
-          {
-            "date": "05-05",
-            "price": 79000
-          },
-          {
-            "date": "05-12",
-            "price": 79000
-          },
-          {
-            "date": "05-19",
-            "price": 79000
-          },
-          {
-            "date": "05-26",
-            "price": 75000
-          },
-          {
-            "date": "06-02",
-            "price": 75100
-          },
-          {
-            "date": "06-09",
-            "price": 75100
-          },
-          {
-            "date": "06-16",
-            "price": 72000
-          },
-          {
-            "date": "06-23",
-            "price": 72200
-          },
-          {
-            "date": "06-30",
-            "price": 58900
-          },
-          {
-            "date": "07-07",
-            "price": 75900
-          }
-        ],
-        "minPrice": 58900,
-        "maxPrice": 79000
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_177560",
-      "title": "와퍼주니어+비프불고기버거+콜라R+콜라R+21치즈스틱",
-      "price": "7,850원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/13/thumb_4a5a9533732fb6375c7b2c2c9cfb244e.webp",
-      "category": "기타",
-      "site": "지마켓",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/10076232524",
-      "publishedAt": "2026-07-13 00:58:41",
-      "likes": 39,
-      "fetchedAt": "2026-07-12T18:53:13.244Z",
-      "priceComparison": [
-        {
-          "site": "지마켓",
-          "price": "7,850원"
-        },
-        {
-          "site": "버거킹 기프트카드/기프티콘 판매자",
-          "price": "6,100원"
-        },
-        {
-          "site": "11번가",
-          "price": "8,200원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_177559",
-      "title": "가정식 열무물김치 3kg",
-      "price": "9,900원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/13/thumb_1113f664f4c16bf8d278b1119856d270.webp",
-      "category": "식품",
-      "site": "톡딜",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=719634",
-      "publishedAt": "2026-07-13 00:58:17",
-      "likes": 6,
-      "fetchedAt": "2026-07-12T18:53:13.513Z",
-      "priceComparison": [
-        {
-          "site": "톡딜",
-          "price": "9,900원"
-        },
-        {
-          "site": "다나와 가격비교",
-          "price": "11,730원"
-        },
-        {
-          "site": "에누리 가격비교",
-          "price": "14,360원"
-        },
-        {
-          "site": "쿠팡",
-          "price": "15,900원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "04-21",
-            "price": 12270
-          },
-          {
-            "date": "04-28",
-            "price": 12270
-          },
-          {
-            "date": "05-05",
-            "price": 11990
-          },
-          {
-            "date": "05-12",
-            "price": 11990
-          },
-          {
-            "date": "05-19",
-            "price": 12230
-          },
-          {
-            "date": "05-26",
-            "price": 12230
-          },
-          {
-            "date": "06-02",
-            "price": 9260
-          },
-          {
-            "date": "06-09",
-            "price": 9260
-          },
-          {
-            "date": "06-16",
-            "price": 9260
-          },
-          {
-            "date": "06-23",
-            "price": 9260
-          },
-          {
-            "date": "06-30",
-            "price": 11050
-          },
-          {
-            "date": "07-07",
-            "price": 11050
-          }
-        ],
-        "minPrice": 9260,
-        "maxPrice": 12270
-      },
-      "postContent": {
-        "text": "국내산이고 당일 생산돼서 옵니다 갓김치, 총각김치등 종류 여러가지 있고, 2개 구매부터 증정있습니다",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0713/900w_20260713005601_0gYqRNaTUK.jpeg",
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0713/900w_20260713005605_3P8mIQMNaf.jpeg"
-        ]
-      },
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_177558",
-      "title": "디지털 가전 페스타 쿠폰",
-      "price": null,
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/13/thumb_a11a8ce41ae52cd76b8dfb9435525053.webp",
-      "category": "생활용품",
-      "site": "네이버",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/10076233609",
-      "publishedAt": "2026-07-13 00:58:11",
-      "likes": 59,
-      "fetchedAt": "2026-07-12T18:53:13.513Z",
-      "priceComparison": [],
-      "priceHistory": null,
-      "postContent": null,
-      "shopUrl": null
     }
   ],
-  "lastUpdated": "2026-07-13T19:13:53.917Z"
+  "lastUpdated": "2026-07-13T21:46:40.440Z"
 }
