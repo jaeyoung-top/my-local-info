@@ -3995,6 +3995,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "admin",
       "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "피해 아동/장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "상시",
+      "location": "법무부",
+      "target": "만 19세 미만 아동 및 범죄 피해 장애인",
+      "summary": "만 19세 미만 아동, 의사소통이 어려운 장애인 범죄 피해자의 수사·재판상 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -9242,7 +9255,67 @@
       "summary": "비수도권 중소기업의 AI·디지털 전환을 위한 컨설팅 및 실증 바우처 지원",
       "link": "https://www.mss.go.kr",
       "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-14-1",
+      "name": "AI 기반 초거대 데이터셋 구축 및 활용 지원사업",
+      "category": "AI지원",
+      "startDate": "2026-07-14",
+      "endDate": "마감일 또는 상시",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI 기술 개발 기업, 연구기관",
+      "summary": "초거대 AI 모델 학습용 고품질 데이터셋 구축 및 활용 지원",
+      "link": "https://www.nipa.kr",
+      "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-14-2",
+      "name": "인공지능 기반 혁신기술 검증 챌린지 (AI PoC Challenge)",
+      "category": "AI지원",
+      "startDate": "2026-07-14",
+      "endDate": "마감일 또는 상시",
+      "location": "서울 AI 허브",
+      "target": "AI 스타트업, 혁신기술 보유 기업",
+      "summary": "혁신적인 AI 기술 아이디어 PoC 및 상용화 가능성 검증 지원",
+      "link": "https://seoulaihub.kr",
+      "image": "https://images.unsplash.com/photo-1516321165247-4aa89a48be55?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-14-3",
+      "name": "K-Startup 인공지능 서비스 개발 기술 멘토링 및 PoC 자금 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-14",
+      "endDate": "마감일 또는 상시",
+      "location": "K-Startup 창업진흥원",
+      "target": "인공지능 분야 초기 창업기업",
+      "summary": "AI 서비스 개발을 위한 전문 기술 멘토링 및 실증(PoC) 자금 지원",
+      "link": "https://www.k-startup.go.kr",
+      "image": "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-14-4",
+      "name": "중소기업 디지털 전환 기술 공급/도입 매칭 지원 (AI/빅데이터 특화)",
+      "category": "AI지원",
+      "startDate": "2026-07-14",
+      "endDate": "마감일 또는 상시",
+      "location": "기업마당 (중소벤처기업진흥공단 연계)",
+      "target": "AI/빅데이터 기술 공급·도입 희망 중소기업",
+      "summary": "AI·빅데이터 솔루션 공급기업 육성 및 수요기업 매칭 지원",
+      "link": "https://www.bizinfo.go.kr",
+      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-14-5",
+      "name": "과학기술정보통신부 차세대 AI 기반 의료 데이터 플랫폼 구축 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-14",
+      "endDate": "마감일 또는 상시",
+      "location": "과학기술정보통신부",
+      "target": "의료기관, 데이터 전문 기업, 연구소",
+      "summary": "차세대 AI 활용 의료 데이터 플랫폼 구축 및 생태계 조성 지원",
+      "link": "https://www.msit.go.kr",
+      "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-07-13"
+  "lastUpdated": "2026-07-14"
 }
