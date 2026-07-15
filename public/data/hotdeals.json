@@ -1,6 +1,142 @@
 {
   "deals": [
     {
+      "id": "hdz_179672",
+      "title": "팔도 비빔면 10개 4900원 회원가입필요",
+      "price": "4,900원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/07/16/thumb_fe3eb806b4a2b1854b4409cbb9f18f77.webp",
+      "category": "식품",
+      "site": "홈닉",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/10089132918",
+      "publishedAt": "2026-07-16 06:44:14",
+      "likes": 2,
+      "fetchedAt": "2026-07-15T21:50:32.510Z",
+      "priceComparison": [
+        {
+          "site": "홈닉",
+          "price": "4,900원"
+        },
+        {
+          "site": "다이얼리푸드",
+          "price": "7,050원"
+        },
+        {
+          "site": "조선달",
+          "price": "10,300원"
+        },
+        {
+          "site": "이마트몰",
+          "price": "11,800원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_179671",
+      "title": "슬라임대소동",
+      "price": "11,600원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/07/16/thumb_fe656e0ee6eae088927fa80eee47c67a.webp",
+      "category": "게임",
+      "site": "스팀",
+      "source": "루리웹",
+      "sourceColor": "#3B82F6",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/105677?page=1",
+      "publishedAt": "2026-07-16 06:40:14",
+      "likes": 8,
+      "fetchedAt": "2026-07-15T21:50:32.510Z",
+      "priceComparison": [
+        {
+          "site": "스팀",
+          "price": "11,600원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": {
+        "text": "평가가 꽤 좋은데 클리커 게임인데, 다른 클리커 3배 가격이라 안사고 있었는데, 드디어 세일함. 그 흔한 출시할인도 없었음. https://store.steampowered.com/app/4228920/_/?l=koreana",
+        "images": [
+          "https://i1.ruliweb.com/img/26/07/16/19f67b5b2ccbd197.webp"
+        ]
+      },
+      "shopUrl": "https://store.steampowered.com/app/4228920/_/?l=koreana"
+    },
+    {
+      "id": "hdz_179670",
+      "title": "플라이밀 단백질쉐이크 대용량 630g 6통",
+      "price": "23,400원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/07/16/thumb_d5af786e8c034b82fd26bdbdd8f02d2c.webp",
+      "category": "식품",
+      "site": "CJ온스타일",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=720540",
+      "publishedAt": "2026-07-16 06:24:12",
+      "likes": 11,
+      "fetchedAt": "2026-07-15T21:50:32.510Z",
+      "priceComparison": [
+        {
+          "site": "CJ온스타일",
+          "price": "23,400원"
+        },
+        {
+          "site": "예스24",
+          "price": "27,900원"
+        },
+        {
+          "site": "쿠팡",
+          "price": "27,900원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": {
+        "text": "6통에 배송비 포함 26,900원 나오네요 (1통당 4,483원꼴)대용량 쉐이크인데 가격 잘나왔네요 아쉬운건 한가지맛만 6통이라 맛 신중하게 고르세요ㅋㅋ2세트 사면 5만원이상이라 무배됩니다",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0716/900w_20260716061556_O2UeOR1MM7.jpg",
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0716/900w_20260716061556_lFGbQZ6bH5.jpg",
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0716/900w_20260716061556_wDUNFMEBG9.jpg"
+        ]
+      },
+      "shopUrl": "https://cjon.style/zJQfHfVLRI"
+    },
+    {
+      "id": "hdz_179669",
+      "title": "(코인) 아트뮤 Qi2.2 25W 3in1 폴더블 맥세이프 초고속 무선 충전기 QW110",
+      "price": "36,573원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/07/16/thumb_c4e25da9230f82bdc53bf432ea7e019b.webp",
+      "category": "가전",
+      "site": "알리",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/10088668662",
+      "publishedAt": "2026-07-16 04:42:22",
+      "likes": 36,
+      "fetchedAt": "2026-07-15T21:50:32.510Z",
+      "priceComparison": [
+        {
+          "site": "알리",
+          "price": "36,573원"
+        },
+        {
+          "site": "아트뮤 공식몰",
+          "price": "45,700원"
+        },
+        {
+          "site": "11번가",
+          "price": "54,900원"
+        },
+        {
+          "site": "하이마트",
+          "price": "54,900원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
       "id": "hdz_179668",
       "title": "Tattoo Tycoon",
       "price": null,
@@ -17170,152 +17306,7 @@
       "priceHistory": null,
       "postContent": null,
       "shopUrl": null
-    },
-    {
-      "id": "hdz_179125",
-      "title": "[네이버] 푸드페스타 15% 쿠폰",
-      "price": "15원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/15/thumb_d89846b1824e8aed966552cfb8c629d5.webp",
-      "category": "기타",
-      "site": "네이버",
-      "source": "퀘이사존",
-      "sourceColor": "#7C3AED",
-      "link": "https://quasarzone.com/bbs/qb_saleinfo/views/1970142",
-      "publishedAt": "2026-07-15 10:06:05",
-      "likes": 22,
-      "fetchedAt": "2026-07-15T01:29:28.559Z",
-      "priceComparison": [
-        {
-          "site": "네이버",
-          "price": "15원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_179124",
-      "title": "[지마켓] AMD 9800X3D RTX5080 +32GB +2TB/B650EM",
-      "price": "3,589,280원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/15/thumb_f9213fe80563e6f6085c26baf2f2985f.webp",
-      "category": "PC",
-      "site": "지마켓",
-      "source": "퀘이사존",
-      "sourceColor": "#7C3AED",
-      "link": "https://quasarzone.com/bbs/qb_saleinfo/views/1970143",
-      "publishedAt": "2026-07-15 10:06:04",
-      "likes": 26,
-      "fetchedAt": "2026-07-15T01:29:28.559Z",
-      "priceComparison": [
-        {
-          "site": "지마켓",
-          "price": "3,589,280원"
-        },
-        {
-          "site": "샵다나와",
-          "price": "3,690,000원"
-        },
-        {
-          "site": "COMSCLUB",
-          "price": "3,850,000원"
-        },
-        {
-          "site": "CyberDesk",
-          "price": "약 5,200,000원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_179123",
-      "title": "탑씨 제로 1.5L X 12페트 포도 오렌지 파인애플 복숭아",
-      "price": "10,320원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/15/thumb_d149a2904eb6222cbc7e31a372545418.webp",
-      "category": "식품",
-      "site": "네이버",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/10084992964",
-      "publishedAt": "2026-07-15 10:04:12",
-      "likes": 8,
-      "fetchedAt": "2026-07-15T01:29:28.559Z",
-      "priceComparison": [
-        {
-          "site": "네이버",
-          "price": "10,320원"
-        },
-        {
-          "site": "11번가",
-          "price": "11,900원"
-        },
-        {
-          "site": "일화몰",
-          "price": "11,500원"
-        },
-        {
-          "site": "동원몰",
-          "price": "15,100원"
-        },
-        {
-          "site": "신세계몰",
-          "price": "14,440원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_179122",
-      "title": "국내산 완도 활 대전복 1kg 11-12미",
-      "price": "19,570원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/15/thumb_ff59d338fd50ae17d0db95926280e12e.webp",
-      "category": "식품",
-      "site": "11번가",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=720294",
-      "publishedAt": "2026-07-15 10:04:10",
-      "likes": 5,
-      "fetchedAt": "2026-07-15T01:29:28.559Z",
-      "priceComparison": [
-        {
-          "site": "11번가",
-          "price": "19,570원"
-        },
-        {
-          "site": "GS SHOP",
-          "price": "20,400원"
-        },
-        {
-          "site": "피쉬세일",
-          "price": "24,000원"
-        },
-        {
-          "site": "오아시스마켓",
-          "price": "24,900원"
-        },
-        {
-          "site": "건강한조합",
-          "price": "31,400원"
-        },
-        {
-          "site": "청산도수산",
-          "price": "36,000원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": {
-        "text": "완도 활 전복 1kg 11-12미 사이즈입니다할인가에 페이할인까지 받으면 19,570원 나옵니다",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0715/900w_20260715100238_uVP31O3xt7.jpg"
-        ]
-      },
-      "shopUrl": "https://www.11st.co.kr/products/8096311788"
     }
   ],
-  "lastUpdated": "2026-07-15T18:57:13.327Z"
+  "lastUpdated": "2026-07-15T21:50:34.236Z"
 }
