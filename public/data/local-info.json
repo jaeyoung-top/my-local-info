@@ -13,6 +13,18 @@
       "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1779432991songpa.JPG"
     },
     {
+      "name": "독자참여 포토이벤트: 8월 테마 '8.15.광복절' & '송파에서 즐기는 바캉스'",
+      "category": "행사",
+      "startDate": "2026-08-01",
+      "endDate": "2026-08-31",
+      "location": "온라인",
+      "target": "전체 구민",
+      "summary": "8월 광복절과 바캉스 테마로 송파에서의 소중한 순간을 담은 사진을 공모하는 독자 참여 이벤트",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9033&aid=17907",
+      "id": "crawler-1784079728681-817",
+      "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1782221306songpa.JPG"
+    },
+    {
       "name": "인생 한 컷 포토 이벤트 (8월 테마: 광복절, 송파 바캉스)",
       "category": "이벤트",
       "startDate": "2026-08-01",
@@ -4008,6 +4020,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&q=80"
+    },
+    {
+      "id": "000025",
+      "name": "성폭력·아동학대 피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-07-15",
+      "endDate": "상시",
+      "location": "수사기관 또는 법원",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "만 19세 미만 아동, 장애인 범죄 피해자의 수사·재판 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -9315,7 +9340,67 @@
       "summary": "차세대 AI 활용 의료 데이터 플랫폼 구축 및 생태계 조성 지원",
       "link": "https://www.msit.go.kr",
       "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-15-1",
+      "name": "2026년 AI 개발 환경 공동 활용 및 테스트베드 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-15",
+      "endDate": "2026-12-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI 기술 개발 중소기업 및 스타트업",
+      "summary": "AI 모델 개발 및 검증을 위한 컴퓨팅 자원 및 테스트 환경 제공.",
+      "link": "https://www.nipa.kr",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-15-2",
+      "name": "2026년 스마트 건설기술 도입 촉진 지원사업",
+      "category": "AI지원",
+      "startDate": "2026-07-15",
+      "endDate": "2026-11-30",
+      "location": "기업마당 (bizinfo.go.kr)",
+      "target": "건설 분야 중소기업",
+      "summary": "건설 현장 디지털 전환을 위한 AI·빅데이터 기반 기술 도입 지원.",
+      "link": "https://www.bizinfo.go.kr",
+      "image": "https://images.unsplash.com/photo-1488229297570-58520851e868?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-15-3",
+      "name": "2026년 민원 서비스 지능형 자동화 시스템 도입 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-15",
+      "endDate": "2026-10-15",
+      "location": "과학기술정보통신부",
+      "target": "공공기관 및 지자체",
+      "summary": "AI 기반 챗봇, RPA 등 민원 처리 효율화 시스템 도입 지원.",
+      "link": "https://www.msit.go.kr",
+      "image": "https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-15-4",
+      "name": "2026년 중소기업 AI 융합 인재 역량 강화 바우처 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-15",
+      "endDate": "2026-10-31",
+      "location": "중소벤처기업부",
+      "target": "AI 융합 인재 육성을 희망하는 중소기업",
+      "summary": "중소기업 직원의 AI·디지털 융합 교육 수강료를 지원하는 바우처 제공.",
+      "link": "https://www.bizinfo.go.kr",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-15-5",
+      "name": "2026년 AI 기반 기술 특화 지식재산권 창출 컨설팅 및 출원 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-15",
+      "endDate": "2026-11-30",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI 기술 기반 중소기업 및 스타트업",
+      "summary": "AI 특허 발굴, 전략 수립 및 국내외 출원을 위한 컨설팅 및 비용 지원.",
+      "link": "https://www.nipa.kr",
+      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-07-14"
+  "lastUpdated": "2026-07-15"
 }
