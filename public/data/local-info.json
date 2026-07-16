@@ -13,6 +13,18 @@
       "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1779432991songpa.JPG"
     },
     {
+      "name": "인생 한 컷을 담아주세요 8월 포토이벤트",
+      "category": "행사",
+      "startDate": "2026-08-01",
+      "endDate": "2026-08-31",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "8월 광복절과 바캉스 테마로 송파에서 즐기는 독자 참여 포토 이벤트.",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9033&aid=17907",
+      "id": "crawler-1784166727042-833",
+      "image": "https://picsum.photos/seed/666360/800/500"
+    },
+    {
       "name": "독자참여 포토이벤트: 8월 테마 '8.15.광복절' & '송파에서 즐기는 바캉스'",
       "category": "행사",
       "startDate": "2026-08-01",
@@ -4033,6 +4045,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "범죄 피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-07-16",
+      "endDate": "상시",
+      "location": "법무부",
+      "target": "범죄 피해 아동 및 의사소통 어려운 장애인",
+      "summary": "만 19세 미만 아동, 의사소통 어려운 장애인 범죄 피해자의 수사·재판 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "health",
+      "image": "https://images.unsplash.com/photo-1550831107-1553da8c8464?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -9400,7 +9425,67 @@
       "summary": "AI 특허 발굴, 전략 수립 및 국내외 출원을 위한 컨설팅 및 비용 지원.",
       "link": "https://www.nipa.kr",
       "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-16-1",
+      "name": "NIPA AI 기술 기반 산업 혁신 챌린지 및 사업화 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-16",
+      "endDate": "2026-11-30",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI 기술 기반 스타트업 및 중소·중견기업",
+      "summary": "산업 문제 해결 AI 솔루션 개발 챌린지 및 사업화 지원",
+      "link": "https://www.nipa.kr/biz/ai_industry_challenge",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-16-2",
+      "name": "서울 AI 허브 데이터 기반 AI 연구 자원 통합 관리 시스템 구축 및 활용 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-16",
+      "endDate": "상시",
+      "location": "서울 AI 허브",
+      "target": "서울 AI 허브 입주 기업 및 협력 연구기관",
+      "summary": "AI 연구용 컴퓨팅, 데이터 등 자원 통합 관리 및 활용 지원",
+      "link": "https://seoulaihub.kr/program/resource_management",
+      "image": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-16-3",
+      "name": "K-Startup 인공지능 데이터 리터러시 강화 및 사업화 멘토링",
+      "category": "AI지원",
+      "startDate": "2026-07-16",
+      "endDate": "2026-10-31",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "AI·데이터 활용 창업 초기 기업",
+      "summary": "데이터 분석 및 활용 역량 강화, 사업 모델 고도화 멘토링 제공",
+      "link": "https://www.k-startup.go.kr/biz/ai_data_mentoring",
+      "image": "https://images.unsplash.com/photo-1526378800651-c32d170fe6f8?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-16-4",
+      "name": "중소벤처기업부 중소기업 AI 기반 스마트 팩토리 안전관리 솔루션 도입 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-16",
+      "endDate": "2026-12-15",
+      "location": "중소벤처기업부",
+      "target": "스마트 팩토리 구축 중소·중견기업",
+      "summary": "AI 기반 안전관리 솔루션 도입 비용 및 컨설팅 지원",
+      "link": "https://bizinfo.go.kr/sys/smartsafety_ai",
+      "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-16-5",
+      "name": "과학기술정보통신부 인공지능 기반 지식서비스 혁신 기술 개발",
+      "category": "AI지원",
+      "startDate": "2026-07-16",
+      "endDate": "2027-03-31",
+      "location": "과학기술정보통신부",
+      "target": "AI 기반 지식서비스 개발 기업 및 연구기관",
+      "summary": "법률, 컨설팅, 교육 등 지식서비스 분야 AI 혁신 기술 R&D 지원",
+      "link": "https://www.msit.go.kr/ai_knowledge_service_rd",
+      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-07-15"
+  "lastUpdated": "2026-07-16"
 }
