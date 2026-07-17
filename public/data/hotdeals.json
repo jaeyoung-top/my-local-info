@@ -1,6 +1,227 @@
 {
   "deals": [
     {
+      "id": "hdz_180222",
+      "title": "이지앤프리 에어클립 프레시 모듈 밀폐용기 체험팩 6종 6P",
+      "price": "9,950원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/07/17/thumb_5f0f47cd8f9f404174b46a4a30928e0b.webp",
+      "category": "생활용품",
+      "site": "지마켓",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=720788",
+      "publishedAt": "2026-07-17 11:02:26",
+      "likes": 0,
+      "fetchedAt": "2026-07-17T02:02:32.575Z",
+      "priceComparison": [],
+      "priceHistory": null,
+      "postContent": {
+        "text": "전자렌지나 식세기 넣어도 되는거고밀폐용기 6종 체험팩이라 저렴하네요",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0717/900w_20260717105824_AL46L4ua4U.jpg"
+        ]
+      },
+      "shopUrl": "https://m.gmarket.co.kr/vi/product/4726560716"
+    },
+    {
+      "id": "hdz_180221",
+      "title": "나비엔 매직 올파워 3구 인덕션 ERI-6003AF",
+      "price": "299,630원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/07/17/thumb_5c552ea57956d487749a196ba267f1ed.webp",
+      "category": "가전",
+      "site": "오늘의집",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=720789",
+      "publishedAt": "2026-07-17 11:02:18",
+      "likes": 0,
+      "fetchedAt": "2026-07-17T02:02:32.576Z",
+      "priceComparison": [
+        {
+          "site": "오늘의집",
+          "price": "299,630원"
+        },
+        {
+          "site": "옥션",
+          "price": "321,750원"
+        },
+        {
+          "site": "11번가",
+          "price": "375,000원"
+        },
+        {
+          "site": "롯데하이마트",
+          "price": "699,000원"
+        },
+        {
+          "site": "마켓컬리",
+          "price": "462,210원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": {
+        "text": "전부 대화구라 큰냄비 다 쓸수있고 최대화력으로 3300W 플랙스존포함 3구다 쓸수있다고 합니다적립금 만원 주네요",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0717/900w_20260717105644_DUZgG47q5w.jpeg",
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0717/900w_20260717105647_uQfov1jC5r.jpeg",
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0717/900w_20260717105650_IsVl1v9LCJ.jpeg"
+        ]
+      },
+      "shopUrl": "https://store.ohou.se/goods/1417680"
+    },
+    {
+      "id": "hdz_180220",
+      "title": "상하목장 프로즌 그릭요거트 350ml 3입",
+      "price": "14,520원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/07/17/thumb_76819482efa5decc34565aa5e0c8bd7f.webp",
+      "category": "식품",
+      "site": "29CM",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=720790",
+      "publishedAt": "2026-07-17 11:02:08",
+      "likes": 0,
+      "fetchedAt": "2026-07-17T02:02:32.576Z",
+      "priceComparison": [
+        {
+          "site": "29CM",
+          "price": "14,520원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "07-07",
+            "price": 22510
+          },
+          {
+            "date": "07-14",
+            "price": 22510
+          }
+        ],
+        "minPrice": 22510,
+        "maxPrice": 22510
+      },
+      "postContent": {
+        "text": "플레인 기준 단백질 10.5g이 들어 있고, 그릭요거트 35% 사용한 제품입니다플레인, 허니유자, 망고 3가지 맛 중 선택 가능하고 쿠폰 적용가 14,520원 나옵니다",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0717/900w_20260717105233_MU9wL8X0Cw.jpg"
+        ]
+      },
+      "shopUrl": "https://www.29cm.co.kr/products/4031824"
+    },
+    {
+      "id": "hdz_180219",
+      "title": "비발디파크 오션월드 워터파크 골드시즌 오후 입장권",
+      "price": "36,800원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/07/17/thumb_08ad595be1766649e4436688df3f53cf.webp",
+      "category": "생활용품",
+      "site": "지마켓",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/10094003718",
+      "publishedAt": "2026-07-17 10:58:13",
+      "likes": 4,
+      "fetchedAt": "2026-07-17T02:02:32.576Z",
+      "priceComparison": [
+        {
+          "site": "지마켓",
+          "price": "36,800원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_180218",
+      "title": "삼립 1A등급 원유로 만든 냉동 롤케익 2종 2봉",
+      "price": "12,940원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/07/17/thumb_d3a64736ca42697f65ee95cffecde6ff.webp",
+      "category": "식품",
+      "site": "지마켓",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/10093996939",
+      "publishedAt": "2026-07-17 10:56:13",
+      "likes": 5,
+      "fetchedAt": "2026-07-17T02:02:32.576Z",
+      "priceComparison": [
+        {
+          "site": "지마켓",
+          "price": "12,940원"
+        },
+        {
+          "site": "다나와 최저가",
+          "price": "12,240원"
+        },
+        {
+          "site": "11번가",
+          "price": "13,030원"
+        },
+        {
+          "site": "SSG.COM",
+          "price": "15,900원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "04-28",
+            "price": 12240
+          },
+          {
+            "date": "05-05",
+            "price": 12070
+          },
+          {
+            "date": "05-12",
+            "price": 11510
+          },
+          {
+            "date": "05-19",
+            "price": 11080
+          },
+          {
+            "date": "05-26",
+            "price": 11080
+          },
+          {
+            "date": "06-02",
+            "price": 11080
+          },
+          {
+            "date": "06-09",
+            "price": 11870
+          },
+          {
+            "date": "06-16",
+            "price": 11360
+          },
+          {
+            "date": "06-23",
+            "price": 11360
+          },
+          {
+            "date": "06-30",
+            "price": 11360
+          },
+          {
+            "date": "07-07",
+            "price": 12240
+          },
+          {
+            "date": "07-14",
+            "price": 12240
+          }
+        ],
+        "minPrice": 11080,
+        "maxPrice": 12240
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
       "id": "hdz_180217",
       "title": "리안리 하이드로시프트 2 LCD-C 360CL 수냉쿨러",
       "price": "203,900원",
@@ -18995,209 +19216,7 @@
         ]
       },
       "shopUrl": "http://www.11st.co.kr/products/2126157710"
-    },
-    {
-      "id": "hdz_179722",
-      "title": "꿀고구마 5kg 한입",
-      "price": "8,160원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/16/thumb_4af1519501427fc21aca8f5d40c222a3.webp",
-      "category": "식품",
-      "site": "네이버",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=720556",
-      "publishedAt": "2026-07-16 10:05:15",
-      "likes": 15,
-      "fetchedAt": "2026-07-16T01:49:36.463Z",
-      "priceComparison": [
-        {
-          "site": "네이버",
-          "price": "8,160원"
-        },
-        {
-          "site": "GS SHOP",
-          "price": "11,900원"
-        },
-        {
-          "site": "SSG.COM",
-          "price": "14,800원"
-        },
-        {
-          "site": "신세계몰",
-          "price": "10,830원"
-        },
-        {
-          "site": "해남미소",
-          "price": "7,500원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": {
-        "text": "푸드페스타 선착순 15% 쿠폰 적용가로 키로당 1630원이네요당도도 높고 상한거 없이 상태 괜찮게왔습니다",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0716/900w_20260716100035_ZhfypPDyFl.jpg"
-        ]
-      },
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_179721",
-      "title": "강진농협 간척지도암쌀 10kg 당일도정",
-      "price": "29,970원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/16/thumb_fbe0bf59c29d87cd1a9192db5d3d7232.webp",
-      "category": "식품",
-      "site": "G마켓",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=720557",
-      "publishedAt": "2026-07-16 10:05:04",
-      "likes": 4,
-      "fetchedAt": "2026-07-16T01:49:36.463Z",
-      "priceComparison": [
-        {
-          "site": "G마켓",
-          "price": "29,970원"
-        },
-        {
-          "site": "남도장터",
-          "price": "29,800원"
-        },
-        {
-          "site": "초록믿음강진",
-          "price": "32,000원"
-        },
-        {
-          "site": "온누리마켓",
-          "price": "38,000원"
-        },
-        {
-          "site": "이전장터",
-          "price": "37,000원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": {
-        "text": "간척지도암쌀 10kg 쿠폰적용가 기준 29,970원입니다25년 생산 상등급이고당일도정 후 발송입니다",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0716/900w_20260716095526_XcrHzk3WBM.jpg"
-        ]
-      },
-      "shopUrl": "https://item.gmarket.co.kr/Item?goodscode=4805162001"
-    },
-    {
-      "id": "hdz_179720",
-      "title": "닭갈비 피자 불닯 저당떡바 15팩",
-      "price": "25,060원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/16/thumb_96a0d21466b94e3209ff109ef779b190.webp",
-      "category": "식품",
-      "site": "롯데온",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=720558",
-      "publishedAt": "2026-07-16 10:04:54",
-      "likes": 24,
-      "fetchedAt": "2026-07-16T01:49:36.463Z",
-      "priceComparison": [
-        {
-          "site": "롯데온",
-          "price": "25,060원"
-        },
-        {
-          "site": "11번가",
-          "price": "40,300원"
-        },
-        {
-          "site": "신세계쇼핑",
-          "price": "23,000원~"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": {
-        "text": "저당떡바 간편하게 1팩 먹기 좋습니다 간식으로 먹기 괜찮고 구매시 포인트 2천점도 적립해주네요",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0716/900w_20260716100117_kXkQ6VcYAq.jpg",
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0716/900w_20260716100116_XRrjCyl0j3.png"
-        ]
-      },
-      "shopUrl": "https://www.lotteon.com/m/product/LO2702243528"
-    },
-    {
-      "id": "hdz_179719",
-      "title": "뉴트리플라이 특허성분 브로멜라인 파인애플 효소 30포 (1박스)",
-      "price": "8,860원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/16/thumb_3ae2024d306e8a1e8583950c2b8d5fc1.webp",
-      "category": "식품",
-      "site": "G마켓",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=720559",
-      "publishedAt": "2026-07-16 10:04:42",
-      "likes": 5,
-      "fetchedAt": "2026-07-16T01:49:36.463Z",
-      "priceComparison": [
-        {
-          "site": "G마켓",
-          "price": "8860원"
-        },
-        {
-          "site": "SSG.COM",
-          "price": "20150원"
-        },
-        {
-          "site": "쿠팡",
-          "price": "27500원"
-        },
-        {
-          "site": "11번가",
-          "price": "43900원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": {
-        "text": "역가수치 100만이상이고 특허성분 2종 유산균 + 커큐민 함유된 효소입니다한달분 할인가로 8천원대 나오네요",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0716/900w_20260716095841_52tkvpRNQE.jpg",
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0716/900w_20260716095844_c8xgHBmTX3.jpg"
-        ]
-      },
-      "shopUrl": "https://item.gmarket.co.kr/Item?&goodscode=4729367971"
-    },
-    {
-      "id": "hdz_179718",
-      "title": "달달망고 베트남 건망고 슬라이스 300g 2팩+80g 1봉 증정",
-      "price": "10,580원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/16/thumb_84489b1fd1669a3125f39439d6e5d581.webp",
-      "category": "식품",
-      "site": "G마켓",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=720560",
-      "publishedAt": "2026-07-16 10:04:24",
-      "likes": 11,
-      "fetchedAt": "2026-07-16T01:49:36.463Z",
-      "priceComparison": [
-        {
-          "site": "G마켓",
-          "price": "10,580원"
-        },
-        {
-          "site": "SSG.COM",
-          "price": "16,910원"
-        },
-        {
-          "site": "11번가",
-          "price": "15,500원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": {
-        "text": "베트남 건망고 슬라이스 300g 2팩80g 1봉 증정있어서 총 680g입니다.망고함량 95%라 달달하게 먹기 좋을 것 같네요.",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0716/900w_20260716095742_Rmo0FisMjo.jpg"
-        ]
-      },
-      "shopUrl": "https://item.gmarket.co.kr/Item?goodscode=4778171430"
     }
   ],
-  "lastUpdated": "2026-07-17T01:53:32.126Z"
+  "lastUpdated": "2026-07-17T02:02:34.846Z"
 }

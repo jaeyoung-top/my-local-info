@@ -49,6 +49,18 @@
       "image": "https://picsum.photos/seed/888232/800/500"
     },
     {
+      "name": "독자참여 그림이벤트: 하하호호 물놀이장에서 즐거운 물놀이!",
+      "category": "행사",
+      "startDate": "2026-07-01",
+      "endDate": "2026-07-31",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "물놀이장에서 즐거운 여름을 보내는 모습을 그리는 독자 참여 이벤트",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9033&aid=17906",
+      "id": "crawler-1784253454582-969",
+      "image": "https://picsum.photos/seed/274756/800/500"
+    },
+    {
       "name": "하하호호 물놀이장 그림이벤트",
       "category": "행사",
       "startDate": "2026-07-01",
@@ -4058,6 +4070,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "health",
       "image": "https://images.unsplash.com/photo-1550831107-1553da8c8464?w=800&q=80"
+    },
+    {
+      "id": "000025",
+      "name": "범죄 피해 아동·장애인 진술조력 지원",
+      "category": "혜택",
+      "startDate": "2026-07-17",
+      "endDate": "상시",
+      "location": "법무부",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "범죄 피해 아동·장애인의 수사·재판상 소통을 돕는 진술조력인 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -9485,7 +9510,67 @@
       "summary": "법률, 컨설팅, 교육 등 지식서비스 분야 AI 혁신 기술 R&D 지원",
       "link": "https://www.msit.go.kr/ai_knowledge_service_rd",
       "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-17-1",
+      "name": "NIPA 디지털 콘텐츠 산업 AI 기술 접목 지원사업",
+      "category": "AI지원",
+      "startDate": "2026-07-17",
+      "endDate": "상시",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "디지털 콘텐츠 분야 중소기업",
+      "summary": "디지털 콘텐츠 산업의 AI 기술 도입 및 사업화 지원",
+      "link": "https://www.nipa.kr/main/index.html",
+      "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-17-2",
+      "name": "서울 AI 허브 AI 기반 에지 디바이스 개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-17",
+      "endDate": "상시",
+      "location": "서울 AI 허브",
+      "target": "AI 기반 에지 디바이스 스타트업 및 중소기업",
+      "summary": "AI 에지 디바이스 기술 개발 및 상용화를 위한 지원",
+      "link": "https://seoulaihub.kr/main/ko/",
+      "image": "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-17-3",
+      "name": "K-Startup AI 기술 기반 신규 비즈니스 모델 발굴 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-17",
+      "endDate": "상시",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "AI 분야 예비 및 초기 창업기업",
+      "summary": "AI 기술 활용 신규 비즈니스 모델 기획 및 사업화 지원",
+      "link": "https://www.k-startup.go.kr/web/contents/bizinfo-main.do",
+      "image": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-17-4",
+      "name": "중소기업 디지털 기반 신규 서비스 모델 개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-17",
+      "endDate": "상시",
+      "location": "기업마당 (중소벤처기업부)",
+      "target": "디지털 기술 활용 신규 서비스 개발 중소기업",
+      "summary": "디지털 기술 기반의 혁신적인 서비스 모델 개발 지원",
+      "link": "https://www.bizinfo.go.kr/web/main/index.do",
+      "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-17-5",
+      "name": "과학기술정보통신부 AI 기반 사회 복지 및 서비스 혁신 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-17",
+      "endDate": "상시",
+      "location": "과학기술정보통신부",
+      "target": "AI 기반 사회 복지 솔루션 개발 기업/기관",
+      "summary": "AI 기술로 사회 복지 서비스 혁신 및 효율화를 위한 R&D/실증",
+      "link": "https://www.msit.go.kr/web/main/main.do",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-07-16"
+  "lastUpdated": "2026-07-17"
 }
