@@ -13,16 +13,16 @@
       "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1779432991songpa.JPG"
     },
     {
-      "name": "인생 한 컷을 담아주세요 8월 포토이벤트",
+      "name": "인생 한 컷을 담아주세요 포토이벤트",
       "category": "행사",
       "startDate": "2026-08-01",
       "endDate": "2026-08-31",
       "location": "송파구 관내",
       "target": "전체 구민",
-      "summary": "8월 광복절과 바캉스 테마로 송파에서 즐기는 독자 참여 포토 이벤트.",
+      "summary": "8월 광복절과 송파 바캉스를 주제로 한 사진을 응모하는 독자 참여 포토 이벤트",
       "link": "https://songpa.newstool.co.kr/./view.php?eid=9033&aid=17907",
-      "id": "crawler-1784166727042-833",
-      "image": "https://picsum.photos/seed/666360/800/500"
+      "id": "crawler-1784339143890-636",
+      "image": "https://picsum.photos/seed/456588/800/500"
     },
     {
       "name": "독자참여 포토이벤트: 8월 테마 '8.15.광복절' & '송파에서 즐기는 바캉스'",
@@ -4083,6 +4083,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "범죄 피해 아동 및 장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-07-18",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청 등 수사기관 및 법원",
+      "target": "성폭력·아동학대·인신매매 등 범죄 피해 아동(만 19세 미만) 및 장애인",
+      "summary": "만 19세 미만 아동, 의사소통이 어려운 장애인 범죄 피해자의 수사·재판상 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1604328698692-f76ea9498e76?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -9570,7 +9583,67 @@
       "summary": "AI 기술로 사회 복지 서비스 혁신 및 효율화를 위한 R&D/실증",
       "link": "https://www.msit.go.kr/web/main/main.do",
       "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-18-1",
+      "name": "NIPA AI 기반 공공데이터 활용 신규 비즈니스 모델 발굴 지원",
+      "category": "AI지원",
+      "startDate": "2026-03-01",
+      "endDate": "2026-11-30",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI 신규 비즈니스 모델 발굴 희망 기업",
+      "summary": "공공데이터 기반 AI 신규 비즈니스 모델 기획 및 발굴 지원",
+      "link": "https://www.nipa.kr/main.do",
+      "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-18-2",
+      "name": "서울 AI 허브 AI 솔루션 해외 시장 데이터 기반 비즈니스 모델 고도화 지원",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "2026-12-15",
+      "location": "서울 AI 허브",
+      "target": "해외 진출 희망 AI 스타트업",
+      "summary": "해외 시장 데이터 분석을 통한 AI 솔루션 비즈니스 모델 고도화 지원",
+      "link": "https://seoulaihub.kr/program/",
+      "image": "https://images.unsplash.com/photo-1516321165247-4aa89a48be55?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-18-3",
+      "name": "K-Startup 지역 특화 사회문제 해결 AI 스타트업 육성 및 실증",
+      "category": "AI지원",
+      "startDate": "2026-02-15",
+      "endDate": "2026-11-30",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "지역 문제 해결 AI 솔루션 창업기업",
+      "summary": "지역 특화 문제 해결 AI 솔루션 개발 및 실증, 사업화 지원",
+      "link": "https://www.k-startup.go.kr/main.do",
+      "image": "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-18-4",
+      "name": "중소기업 제조현장 AI 기반 초개인화 생산 시스템 구축 지원",
+      "category": "AI지원",
+      "startDate": "2026-05-01",
+      "endDate": "2026-12-31",
+      "location": "중소벤처기업부 (기업마당)",
+      "target": "제조 분야 중소기업",
+      "summary": "AI 활용 제조 공정 초개인화 및 맞춤형 생산 시스템 도입 지원",
+      "link": "https://www.bizinfo.go.kr/",
+      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-18-5",
+      "name": "과학기술정보통신부 AI 윤리 및 법규 준수 전문인력 양성 및 정책 자문",
+      "category": "AI지원",
+      "startDate": "2026-03-01",
+      "endDate": "2026-10-31",
+      "location": "과학기술정보통신부",
+      "target": "AI 산업 재직자, 법률 전문가 및 정책 관계자",
+      "summary": "AI 윤리·법규 전문가 양성 및 관련 정책 수립을 위한 자문 제공",
+      "link": "https://www.msit.go.kr/main/index.do",
+      "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-07-17"
+  "lastUpdated": "2026-07-18"
 }
