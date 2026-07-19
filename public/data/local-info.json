@@ -49,16 +49,16 @@
       "image": "https://picsum.photos/seed/888232/800/500"
     },
     {
-      "name": "독자참여 그림이벤트: 하하호호 물놀이장에서 즐거운 물놀이!",
+      "name": "독자참여 그림이벤트 - 하하호호 물놀이장에서 즐거운 물놀이!",
       "category": "행사",
       "startDate": "2026-07-01",
       "endDate": "2026-07-31",
       "location": "송파구 관내",
       "target": "전체 구민",
-      "summary": "물놀이장에서 즐거운 여름을 보내는 모습을 그리는 독자 참여 이벤트",
+      "summary": "물놀이장에서 즐거운 시간을 보내는 모습을 담은 그림을 공모하는 독자 참여 이벤트",
       "link": "https://songpa.newstool.co.kr/./view.php?eid=9033&aid=17906",
-      "id": "crawler-1784253454582-969",
-      "image": "https://picsum.photos/seed/274756/800/500"
+      "id": "crawler-1784426117769-891",
+      "image": "https://picsum.photos/seed/206076/800/500"
     },
     {
       "name": "하하호호 물놀이장 그림이벤트",
@@ -4096,6 +4096,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "admin",
       "image": "https://images.unsplash.com/photo-1604328698692-f76ea9498e76?w=800&q=80"
+    },
+    {
+      "id": "127000",
+      "name": "범죄 피해 아동·장애인 진술조력 지원",
+      "category": "혜택",
+      "startDate": "2026-07-19",
+      "endDate": "상시",
+      "location": "법무부",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "만 19세 미만 아동, 의사소통 어려운 장애인 범죄 피해자의 수사·재판상 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -9643,7 +9656,67 @@
       "summary": "AI 윤리·법규 전문가 양성 및 관련 정책 수립을 위한 자문 제공",
       "link": "https://www.msit.go.kr/main/index.do",
       "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-19-1",
+      "name": "정보통신산업진흥원 AI 기반 산업용 지능형 자동화 로봇 시스템 실증 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-01",
+      "endDate": "2027-03-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "제조, 물류 등 산업 현장 로봇 솔루션 기업",
+      "summary": "AI를 활용한 산업용 지능형 로봇 시스템 개발 및 실제 현장 적용을 위한 실증 지원",
+      "link": "https://www.nipa.kr/biz/view.do?programId=P000000000111",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-19-2",
+      "name": "서울 AI 허브 인공지능 윤리 자문 및 평가 기준 마련 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-15",
+      "endDate": "2027-01-31",
+      "location": "서울 AI 허브",
+      "target": "AI 서비스 개발 기업, AI 정책 수립 기관",
+      "summary": "AI 기술의 사회적 책임과 윤리적 활용을 위한 평가 기준 마련 및 자문 제공",
+      "link": "https://seoulaihub.kr/program/ai-ethics-criteria-2026",
+      "image": "https://images.unsplash.com/photo-1488229297570-58520851e868?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-19-3",
+      "name": "창업진흥원 AI 기술 기반 초기 창업기업 사업화 로드맵 멘토링",
+      "category": "AI지원",
+      "startDate": "2026-07-01",
+      "endDate": "2026-12-31",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "AI 기술 기반 초기 창업기업",
+      "summary": "AI 스타트업의 성공적인 시장 진출을 위한 사업화 로드맵 수립 및 전문 멘토링 지원",
+      "link": "https://www.k-startup.go.kr/biz/open/ai-roadmap-2026",
+      "image": "https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-19-4",
+      "name": "중소벤처기업부 중소기업 데이터 기반 AI 모델 구축 및 맞춤형 컨설팅",
+      "category": "AI지원",
+      "startDate": "2026-07-05",
+      "endDate": "2027-01-31",
+      "location": "중소벤처기업부 / 기업마당",
+      "target": "데이터 활용을 희망하는 중소기업",
+      "summary": "보유 데이터를 활용한 AI 모델 구축 및 기업 맞춤형 AI 전략 컨설팅 제공",
+      "link": "https://www.bizinfo.go.kr/web/lay1/bbs/S1T122C128/AS/74/view.do?seq=2026000013",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-19-5",
+      "name": "과학기술정보통신부 AI 기반 비결정론적 데이터(Nondeterministic Data) 분석 기술 연구",
+      "category": "AI지원",
+      "startDate": "2026-07-01",
+      "endDate": "2028-06-30",
+      "location": "과학기술정보통신부",
+      "target": "비결정론적 데이터 분석 연구기관, 기업",
+      "summary": "복잡하고 불확실한 비결정론적 데이터를 AI로 분석하는 핵심 기술 연구 개발",
+      "link": "https://www.msit.go.kr/web/msit/ai/nondeterministic-data-2026.do",
+      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-07-18"
+  "lastUpdated": "2026-07-19"
 }
