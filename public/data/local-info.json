@@ -4109,6 +4109,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
+    },
+    {
+      "id": "127000",
+      "name": "범죄 피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-07-20",
+      "endDate": "상시",
+      "location": "법무부",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "범죄 피해 아동·장애인의 수사·재판상 소통을 돕는 진술조력인 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -9716,7 +9729,67 @@
       "summary": "복잡하고 불확실한 비결정론적 데이터를 AI로 분석하는 핵심 기술 연구 개발",
       "link": "https://www.msit.go.kr/web/msit/ai/nondeterministic-data-2026.do",
       "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-20-1",
+      "name": "NIPA AI 가속기 기반 응용 서비스 최적화 개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-20",
+      "endDate": "2026-12-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI 솔루션 개발 기업, 연구기관",
+      "summary": "AI 가속기 활용 서비스 성능 최적화 기술 개발 지원",
+      "link": "https://www.nipa.kr/biz/index.do",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-20-2",
+      "name": "서울 AI 허브 AI 기반 사회적 약자 맞춤형 돌봄 로봇 서비스 개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-20",
+      "endDate": "2027-06-30",
+      "location": "서울 AI 허브",
+      "target": "AI 스타트업, 사회적 기업, 로봇 개발사",
+      "summary": "AI 기반 돌봄 로봇 서비스 개발 및 실증을 통한 사회적 약자 지원",
+      "link": "https://www.seoulaihub.kr/support",
+      "image": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-20-3",
+      "name": "K-Startup AI 기반 소규모 기업 세무/회계 자동화 솔루션 개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-20",
+      "endDate": "2027-02-28",
+      "location": "K-Startup 창업진흥원",
+      "target": "AI 기술 스타트업, 예비창업팀",
+      "summary": "AI 활용 소규모 기업 세무/회계 업무 자동화 솔루션 개발 및 사업화 지원",
+      "link": "https://www.k-startup.go.kr/web/contents/bizinfo-main.do",
+      "image": "https://images.unsplash.com/photo-1526378800651-c32d170fe6f8?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-20-4",
+      "name": "과학기술정보통신부 AI 기반 생체 데이터 활용 개인 맞춤형 헬스케어 서비스 기술 개발",
+      "category": "AI지원",
+      "startDate": "2026-07-20",
+      "endDate": "2027-12-31",
+      "location": "과학기술정보통신부",
+      "target": "헬스케어 AI 기술 개발 기업, 연구기관",
+      "summary": "생체 데이터 기반 AI 개인 맞춤형 헬스케어 서비스 기술 개발 및 실증 지원",
+      "link": "https://www.msit.go.kr/web/msitContents/contentsView.do?cateId=msit2110100000",
+      "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-20-5",
+      "name": "중소벤처기업부 AI 기반 글로벌 공급망 리스크 예측 및 대응 시스템 구축 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-20",
+      "endDate": "2027-06-30",
+      "location": "중소벤처기업부",
+      "target": "중소기업, AI 솔루션 개발 기업",
+      "summary": "AI 활용 글로벌 공급망 리스크 예측 및 선제적 대응 시스템 구축 지원",
+      "link": "https://www.bizinfo.go.kr/web/lay1/menu/bizinfoLink.do?menuId=bizinfo020101",
+      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-07-19"
+  "lastUpdated": "2026-07-20"
 }
