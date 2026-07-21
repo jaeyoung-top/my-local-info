@@ -4122,6 +4122,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "범죄 피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "상시",
+      "location": "법무부",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "범죄 피해 아동·장애인의 수사·재판상 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -9789,7 +9802,67 @@
       "summary": "AI 활용 글로벌 공급망 리스크 예측 및 선제적 대응 시스템 구축 지원",
       "link": "https://www.bizinfo.go.kr/web/lay1/menu/bizinfoLink.do?menuId=bizinfo020101",
       "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-21-1",
+      "name": "초거대 AI 기반 경량화 모델 개발 및 산업 적용 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-21",
+      "endDate": "2028-12-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI 개발 기업, 연구기관",
+      "summary": "초거대 AI 모델 경량화 및 다양한 산업 분야 적용 기술 개발 지원",
+      "link": "https://www.nipa.kr/main/2026/llm_lightweight_dev",
+      "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-21-2",
+      "name": "AI 기반 시뮬레이션 및 가상환경 기술 연구개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-08-01",
+      "endDate": "2027-11-30",
+      "location": "서울 AI 허브",
+      "target": "AI 스타트업, 연구기관",
+      "summary": "AI 활용 정밀 시뮬레이션 및 고도화된 가상환경 기술 연구개발 지원",
+      "link": "https://www.seoulaihub.kr/program/2026/ai_sim_vr_rd",
+      "image": "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-21-3",
+      "name": "AI·데이터 기반 스타트업 글로벌 파트너십 구축 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-21",
+      "endDate": "2027-01-31",
+      "location": "K-Startup 창업진흥원",
+      "target": "AI·데이터 기반 초기/성장 스타트업",
+      "summary": "해외 기업, 기관과의 AI·데이터 기술 협력을 위한 파트너십 구축 지원",
+      "link": "https://www.k-startup.go.kr/biz/2026/ai_global_partner",
+      "image": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-21-4",
+      "name": "AI 기반 중소기업 디지털 공급망 재편 및 최적화 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-21",
+      "endDate": "2027-06-30",
+      "location": "중소벤처기업부",
+      "target": "제조 및 유통 중소기업",
+      "summary": "AI를 활용한 중소기업 공급망 디지털화, 재편 및 효율 최적화 지원",
+      "link": "https://www.bizinfo.go.kr/usr/progrm/biz/2026/sme_ai_scm",
+      "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-21-5",
+      "name": "차세대 AI 칩 설계 및 검증 전문인력 양성 프로그램",
+      "category": "AI지원",
+      "startDate": "2026-09-01",
+      "endDate": "2029-08-31",
+      "location": "과학기술정보통신부",
+      "target": "대학원생, 재직자, 반도체 기업",
+      "summary": "차세대 AI 반도체 설계 및 검증 역량을 갖춘 고급 전문인력 양성 지원",
+      "link": "https://www.msit.go.kr/web/msitMain/msitMain.do?seq=2026/ai_chip_talent",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-07-20"
+  "lastUpdated": "2026-07-21"
 }
