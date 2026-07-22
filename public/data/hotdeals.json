@@ -1,6 +1,94 @@
 {
   "deals": [
     {
+      "id": "hdz_183000",
+      "title": "호주산 척아이롤",
+      "price": "1,001,990원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/07/23/thumb_6038870c0c15aef0efec6051d523edd8.webp",
+      "category": "식품",
+      "site": "ssg",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/10118874664",
+      "publishedAt": "2026-07-23 06:00:06",
+      "likes": 64,
+      "fetchedAt": "2026-07-22T21:58:32.647Z",
+      "priceComparison": [
+        {
+          "site": "ssg",
+          "price": "1,001,990원"
+        },
+        {
+          "site": "11번가",
+          "price": "25,600원"
+        },
+        {
+          "site": "요기요마트",
+          "price": "11,900원"
+        },
+        {
+          "site": "브라이스마켓",
+          "price": "11,900원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "05-05",
+            "price": 10410
+          },
+          {
+            "date": "05-12",
+            "price": 10370
+          },
+          {
+            "date": "05-19",
+            "price": 10350
+          },
+          {
+            "date": "05-26",
+            "price": 10310
+          },
+          {
+            "date": "06-02",
+            "price": 10280
+          },
+          {
+            "date": "06-09",
+            "price": 10250
+          },
+          {
+            "date": "06-16",
+            "price": 10220
+          },
+          {
+            "date": "06-23",
+            "price": 10580
+          },
+          {
+            "date": "06-30",
+            "price": 10550
+          },
+          {
+            "date": "07-07",
+            "price": 10520
+          },
+          {
+            "date": "07-14",
+            "price": 10510
+          },
+          {
+            "date": "07-21",
+            "price": 10490
+          }
+        ],
+        "minPrice": 10220,
+        "maxPrice": 10580
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
       "id": "hdz_182999",
       "title": "블리즈컨 2026 얼티밋 컬렉션/개별 묶음 판매 시작(7/23~)",
       "price": null,
@@ -20026,46 +20114,7 @@
         ]
       },
       "shopUrl": "https://blog.naver.com/nv_npay/224330490609"
-    },
-    {
-      "id": "hdz_182406",
-      "title": "[기타] 최저가) 후무사 자두 1kg 중사이즈 (7,790원 / 무배)",
-      "price": "7,790원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/22/thumb_fec51f36a87e98fceb5c27c2dab807ad.webp",
-      "category": "생활용품",
-      "site": null,
-      "source": "퀘이사존",
-      "sourceColor": "#7C3AED",
-      "link": "https://quasarzone.com/bbs/qb_saleinfo/views/1971845",
-      "publishedAt": "2026-07-22 05:32:04",
-      "likes": 12,
-      "fetchedAt": "2026-07-21T21:57:08.712Z",
-      "priceComparison": [
-        {
-          "site": "핫딜모음",
-          "price": "7,790원"
-        },
-        {
-          "site": "바로마켓",
-          "price": "5,000원"
-        },
-        {
-          "site": "농할쿠폰",
-          "price": "7,445원"
-        },
-        {
-          "site": "이마트몰",
-          "price": "17,980원"
-        },
-        {
-          "site": "G마켓",
-          "price": "14,200원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": null,
-      "shopUrl": null
     }
   ],
-  "lastUpdated": "2026-07-22T18:58:59.229Z"
+  "lastUpdated": "2026-07-22T21:58:33.712Z"
 }
