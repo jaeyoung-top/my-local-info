@@ -13,6 +13,18 @@
       "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1779432991songpa.JPG"
     },
     {
+      "name": "송파 인생 한 컷 포토 이벤트",
+      "category": "행사",
+      "startDate": "2026-08-01",
+      "endDate": "2026-08-31",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "8월 광복절과 송파 바캉스를 주제로 한 사진 공모 이벤트.",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9033&aid=17907",
+      "id": "crawler-1784685173679-906",
+      "image": "https://picsum.photos/seed/824588/800/500"
+    },
+    {
       "name": "인생 한 컷을 담아주세요 포토이벤트",
       "category": "행사",
       "startDate": "2026-08-01",
@@ -35,18 +47,6 @@
       "link": "https://songpa.newstool.co.kr/./view.php?eid=9033&aid=17907",
       "id": "crawler-1784079728681-817",
       "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1782221306songpa.JPG"
-    },
-    {
-      "name": "인생 한 컷 포토 이벤트 (8월 테마: 광복절, 송파 바캉스)",
-      "category": "이벤트",
-      "startDate": "2026-08-01",
-      "endDate": "2026-08-31",
-      "location": "송파구 관내",
-      "target": "전체 구민",
-      "summary": "8월 테마인 광복절 및 송파에서 즐기는 바캉스를 주제로 사진을 공모하는 독자참여 포토 이벤트입니다.",
-      "link": "https://songpa.newstool.co.kr/./view.php?eid=9033&aid=17907",
-      "id": "crawler-1783821375062-182",
-      "image": "https://picsum.photos/seed/888232/800/500"
     },
     {
       "name": "독자참여 그림이벤트 - 하하호호 물놀이장에서 즐거운 물놀이!",
@@ -4135,6 +4135,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "admin",
       "image": "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "범죄 피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-07-22",
+      "endDate": "상시",
+      "location": "전국 수사기관 및 법원",
+      "target": "범죄 피해 아동 또는 장애인",
+      "summary": "범죄 피해 아동·장애인의 수사/재판 진술 조력",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -9862,7 +9875,67 @@
       "summary": "차세대 AI 반도체 설계 및 검증 역량을 갖춘 고급 전문인력 양성 지원",
       "link": "https://www.msit.go.kr/web/msitMain/msitMain.do?seq=2026/ai_chip_talent",
       "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-22-1",
+      "name": "NIPA AI 기반 디지털 휴먼(Digital Human) 기술 개발 및 활용 촉진 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-01",
+      "endDate": "2026-07-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI 기술 기업, 연구기관",
+      "summary": "디지털 휴먼 관련 핵심 기술 개발 및 사업화 지원",
+      "link": "https://www.nipa.kr/biz/index.do",
+      "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-22-2",
+      "name": "서울 AI 허브 AI 기반 라이프로그(Life-Log) 데이터 분석 및 서비스 개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-01",
+      "endDate": "2026-08-15",
+      "location": "서울 AI 허브",
+      "target": "AI 스타트업, 중소기업",
+      "summary": "라이프로그 데이터 기반 맞춤형 AI 서비스 개발 및 실증 지원",
+      "link": "https://seoulaihub.kr/program",
+      "image": "https://images.unsplash.com/photo-1516321165247-4aa89a48be55?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-22-3",
+      "name": "K-Startup AI 기반 금융 서비스 혁신 스타트업 육성",
+      "category": "AI지원",
+      "startDate": "2026-05-01",
+      "endDate": "2026-07-31",
+      "location": "K-Startup 창업진흥원",
+      "target": "금융 AI 분야 초기 스타트업",
+      "summary": "금융 기술 혁신 AI 스타트업 발굴, 보육 및 투자 연계 지원",
+      "link": "https://www.k-startup.go.kr/web/contents/bizinfo-main.do",
+      "image": "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-22-4",
+      "name": "중소기업 스마트 워크 환경 구축을 위한 AI 기반 협업 솔루션 도입 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-15",
+      "endDate": "상시",
+      "location": "기업마당 (중소벤처기업부)",
+      "target": "중소기업",
+      "summary": "AI 기반 스마트 협업 솔루션 도입 컨설팅 및 구축 비용 지원",
+      "link": "https://www.bizinfo.go.kr/web/lay1/bbs/S1T122C128/AS/74/searchList.do",
+      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-22-5",
+      "name": "과학기술정보통신부 AI 기반 차세대 컴퓨팅 아키텍처 및 소프트웨어 플랫폼 개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "2026-07-31",
+      "location": "과학기술정보통신부",
+      "target": "산·학·연 컨소시엄",
+      "summary": "차세대 컴퓨팅 위한 AI SW/하드웨어 플랫폼 원천기술 개발 지원",
+      "link": "https://www.msit.go.kr/web/ahtml/ahtmlView.do?mId=237",
+      "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-07-21"
+  "lastUpdated": "2026-07-22"
 }
