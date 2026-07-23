@@ -1,6 +1,78 @@
 {
   "deals": [
     {
+      "id": "hdz_183586",
+      "title": "킨사이다 185ml 30캔+조지아 맥스 240ml 30캔",
+      "price": "15,310원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/07/24/thumb_7d881b0c88fa4aa7223315102ff1638c.webp",
+      "category": "식품",
+      "site": "G마켓",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=722299",
+      "publishedAt": "2026-07-24 06:42:09",
+      "likes": 6,
+      "fetchedAt": "2026-07-23T21:58:11.391Z",
+      "priceComparison": [
+        {
+          "site": "G마켓",
+          "price": "15,310원"
+        },
+        {
+          "site": "예스24",
+          "price": "19,800원"
+        },
+        {
+          "site": "동원몰",
+          "price": "17,300원"
+        },
+        {
+          "site": "11번가",
+          "price": "22,440원"
+        },
+        {
+          "site": "비프라이스몰",
+          "price": "12,680원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": {
+        "text": "",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0724/900w_20260724064016_UgxYxTD1Rk.jpg"
+        ]
+      },
+      "shopUrl": "https://link.gmarket.co.kr/yzDUB16BVj"
+    },
+    {
+      "id": "hdz_183584",
+      "title": "메차카멜레온",
+      "price": "5,570원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/07/24/thumb_a7b0195ce9ece6857b33c3e972684af0.webp",
+      "category": "게임",
+      "site": "스팀",
+      "source": "루리웹",
+      "sourceColor": "#3B82F6",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/105864?page=1",
+      "publishedAt": "2026-07-24 05:30:20",
+      "likes": 36,
+      "fetchedAt": "2026-07-23T21:58:11.391Z",
+      "priceComparison": [
+        {
+          "site": "스팀",
+          "price": "5,570원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": {
+        "text": "출시 할인정도는 아니지만 좀 내려갔네요",
+        "images": [
+          "https://i2.ruliweb.com/img/26/07/24/19f90a7c52c8b18e.webp"
+        ]
+      },
+      "shopUrl": "https://store.steampowered.com/app/4704690/MECCHA_CHAMELEON/?l=koreana"
+    },
+    {
       "id": "hdz_183581",
       "title": "Yet Another Zombie Defense HD",
       "price": null,
@@ -21431,85 +21503,7 @@
       "priceHistory": null,
       "postContent": null,
       "shopUrl": null
-    },
-    {
-      "id": "hdz_183013",
-      "title": "어메이징오트 오리지널 혼합음료, 190ml, 24개",
-      "price": "9,650원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/23/thumb_efa94b99619487b1eeda8a5f4d290143.webp",
-      "category": "식품",
-      "site": "쿠팡",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/10119038958",
-      "publishedAt": "2026-07-23 08:18:05",
-      "likes": 27,
-      "fetchedAt": "2026-07-23T01:57:48.498Z",
-      "priceComparison": [
-        {
-          "site": "쿠팡",
-          "price": "9,650원"
-        },
-        {
-          "site": "SSG.COM",
-          "price": "19,780원"
-        },
-        {
-          "site": "동원몰",
-          "price": "19,500원"
-        },
-        {
-          "site": "마켓컬리",
-          "price": "16,900원"
-        },
-        {
-          "site": "온누리스토어",
-          "price": "16,650원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_183012",
-      "title": "동원샘물 무라벨 2L 24개",
-      "price": "10,320원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/23/thumb_c12598d6b79fcc813d72115efd0a9234.webp",
-      "category": "식품",
-      "site": "쿠팡와우",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/10119034913",
-      "publishedAt": "2026-07-23 08:16:05",
-      "likes": 9,
-      "fetchedAt": "2026-07-23T01:57:48.498Z",
-      "priceComparison": [
-        {
-          "site": "쿠팡와우",
-          "price": "10,320원"
-        },
-        {
-          "site": "GS SHOP",
-          "price": "13,800원"
-        },
-        {
-          "site": "11번가",
-          "price": "14,220원"
-        },
-        {
-          "site": "동원몰",
-          "price": "14,530원"
-        },
-        {
-          "site": "갤러리아몰",
-          "price": "18,800원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": null,
-      "shopUrl": null
     }
   ],
-  "lastUpdated": "2026-07-23T19:01:17.160Z"
+  "lastUpdated": "2026-07-23T21:58:13.019Z"
 }
