@@ -13,6 +13,18 @@
       "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1779432991songpa.JPG"
     },
     {
+      "name": "독자참여 포토이벤트: 인생 한 컷을 담아주세요",
+      "category": "행사",
+      "startDate": "2026-08-01",
+      "endDate": "2026-08-31",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "8월 테마(광복절, 송파 바캉스)에 맞춰 인생 한 컷을 찍는 독자 참여 포토이벤트",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9033&aid=17907",
+      "id": "crawler-1784771987536-280",
+      "image": "https://picsum.photos/seed/201544/800/500"
+    },
+    {
       "name": "송파 인생 한 컷 포토 이벤트",
       "category": "행사",
       "startDate": "2026-08-01",
@@ -23,18 +35,6 @@
       "link": "https://songpa.newstool.co.kr/./view.php?eid=9033&aid=17907",
       "id": "crawler-1784685173679-906",
       "image": "https://picsum.photos/seed/824588/800/500"
-    },
-    {
-      "name": "인생 한 컷을 담아주세요 포토이벤트",
-      "category": "행사",
-      "startDate": "2026-08-01",
-      "endDate": "2026-08-31",
-      "location": "송파구 관내",
-      "target": "전체 구민",
-      "summary": "8월 광복절과 송파 바캉스를 주제로 한 사진을 응모하는 독자 참여 포토 이벤트",
-      "link": "https://songpa.newstool.co.kr/./view.php?eid=9033&aid=17907",
-      "id": "crawler-1784339143890-636",
-      "image": "https://picsum.photos/seed/456588/800/500"
     },
     {
       "name": "독자참여 포토이벤트: 8월 테마 '8.15.광복절' & '송파에서 즐기는 바캉스'",
@@ -4148,6 +4148,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
+    },
+    {
+      "id": "000025",
+      "name": "범죄 피해 아동 및 장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-07-23",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청 등 수사기관 및 법원",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "범죄 피해 아동 및 장애인의 수사·재판상 소통 중개 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1519340333755-56e9c1d04579?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -9935,7 +9948,31 @@
       "summary": "차세대 컴퓨팅 위한 AI SW/하드웨어 플랫폼 원천기술 개발 지원",
       "link": "https://www.msit.go.kr/web/ahtml/ahtmlView.do?mId=237",
       "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-23-1",
+      "name": "중소벤처기업부 AI/데이터 기반 중소기업 프라이버시 강화 기술 도입 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-01",
+      "endDate": "2026-12-31",
+      "location": "중소벤처기업부",
+      "target": "중소기업 (데이터 프라이버시 강화 필요)",
+      "summary": "AI/데이터 기반 프라이버시 강화 기술 도입 컨설팅 및 구축 지원",
+      "link": "https://www.mss.go.kr",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-23-2",
+      "name": "과학기술정보통신부 AI 기반 우주/해양 탐사 데이터 분석 기술 개발",
+      "category": "AI지원",
+      "startDate": "2026-07-01",
+      "endDate": "2026-12-31",
+      "location": "과학기술정보통신부",
+      "target": "AI 기반 우주/해양 데이터 분석 기술 개발 기업/연구기관",
+      "summary": "우주/해양 탐사 데이터 분석 위한 AI 기술 개발 및 활용 지원",
+      "link": "https://www.msit.go.kr",
+      "image": "https://images.unsplash.com/photo-1488229297570-58520851e868?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-07-22"
+  "lastUpdated": "2026-07-23"
 }
