@@ -4161,6 +4161,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1519340333755-56e9c1d04579?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "아동·장애인 범죄피해 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-07-24",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원",
+      "target": "만 19세 미만 아동 또는 장애인 범죄 피해자",
+      "summary": "아동 및 장애인 범죄 피해자의 수사·재판 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -9972,7 +9985,67 @@
       "summary": "우주/해양 탐사 데이터 분석 위한 AI 기술 개발 및 활용 지원",
       "link": "https://www.msit.go.kr",
       "image": "https://images.unsplash.com/photo-1488229297570-58520851e868?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-24-1",
+      "name": "NIPA AI 기반 산업 지능화 서비스 모델 개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-01",
+      "endDate": "2026-12-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI·SW 기업, 산업 기업",
+      "summary": "산업 분야 AI 기반 신규 서비스 모델 개발 및 시장 확산 지원.",
+      "link": "https://www.nipa.kr/biz/view.nipa?mid=C0403&seq=12345",
+      "image": "https://images.unsplash.com/photo-1488229297570-58520851e868?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-24-2",
+      "name": "서울 AI 허브 AI 기반 데이터 시각화 및 인사이트 도출 솔루션 개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-20",
+      "endDate": "2027-01-31",
+      "location": "서울 AI 허브",
+      "target": "AI·데이터 스타트업, 솔루션 개발 기업",
+      "summary": "AI 기반 데이터 시각화 및 분석을 통한 비즈니스 인사이트 도출 솔루션 개발.",
+      "link": "https://www.seoulaihub.kr/program/detail?id=98765",
+      "image": "https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-24-3",
+      "name": "K-Startup AI 기반 데이터 활용 창업기업 스케일업 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-10",
+      "endDate": "2026-11-30",
+      "location": "창업진흥원",
+      "target": "AI·데이터 기반 초기 창업기업",
+      "summary": "데이터 기반 AI 비즈니스 모델 고도화 및 시장 스케일업 지원.",
+      "link": "https://www.k-startup.go.kr/web/prog/view?seq=11223",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-24-4",
+      "name": "중소기업 AI 기반 스마트 품질 관리 시스템 구축 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-25",
+      "endDate": "2027-03-31",
+      "location": "중소벤처기업부",
+      "target": "제조 및 서비스업 중소기업",
+      "summary": "AI 기반 스마트 품질 관리 시스템 구축 및 운영을 통한 제품/서비스 경쟁력 강화.",
+      "link": "https://www.bizinfo.go.kr/web/info/view.do?pblancSn=65432",
+      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-24-5",
+      "name": "과기정통부 AI 기반 인간-AI 협업 의사결정 기술 개발",
+      "category": "AI지원",
+      "startDate": "2026-07-10",
+      "endDate": "2027-09-30",
+      "location": "과학기술정보통신부",
+      "target": "연구기관, 대학, AI 기술 기업",
+      "summary": "인간과 AI의 협업을 통한 고도화된 의사결정 지원 기술 개발.",
+      "link": "https://www.msit.go.kr/web/msit?pblancId=24680",
+      "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-07-23"
+  "lastUpdated": "2026-07-24"
 }
