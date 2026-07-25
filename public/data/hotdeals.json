@@ -1,6 +1,230 @@
 {
   "deals": [
     {
+      "id": "hdz_184473",
+      "title": "드리미 Pocket 접이식 헤어드라이어 여행용 포켓",
+      "price": "119,000원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/07/26/thumb_508dc4983bba1bc01920220dc7fb6361.webp",
+      "category": "가전",
+      "site": "네이버",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=722680",
+      "publishedAt": "2026-07-26 06:34:09",
+      "likes": 7,
+      "fetchedAt": "2026-07-25T21:44:46.275Z",
+      "priceComparison": [
+        {
+          "site": "네이버",
+          "price": "119,000원"
+        },
+        {
+          "site": "11번가",
+          "price": "119,000원"
+        },
+        {
+          "site": "이랜드몰",
+          "price": "119,000원"
+        },
+        {
+          "site": "드리미 공식몰",
+          "price": "299,000원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "05-05",
+            "price": 118990
+          },
+          {
+            "date": "05-12",
+            "price": 119960
+          },
+          {
+            "date": "05-19",
+            "price": 119000
+          },
+          {
+            "date": "05-26",
+            "price": 119000
+          },
+          {
+            "date": "06-02",
+            "price": 119000
+          },
+          {
+            "date": "06-09",
+            "price": 119000
+          },
+          {
+            "date": "06-16",
+            "price": 119000
+          },
+          {
+            "date": "06-23",
+            "price": 119000
+          },
+          {
+            "date": "06-30",
+            "price": 111760
+          },
+          {
+            "date": "07-07",
+            "price": 110880
+          },
+          {
+            "date": "07-14",
+            "price": 119970
+          },
+          {
+            "date": "07-21",
+            "price": 119000
+          }
+        ],
+        "minPrice": 110880,
+        "maxPrice": 119970
+      },
+      "postContent": {
+        "text": "무게 300g에 휴대성과 성능을 잡은 히트 모델 드리미 헤어드라이기 포켓 주말 한정 특가 진행중입니다 추가로 노즐 증정 / 2년 A/S네이버 해당페이지에서 쿠폰 받으면 됩니다.",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0726/900w_20260726062733_eNZ9zdxvPB.jpg",
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0726/20260726062735_BkrRaeMU0q.jpg"
+        ]
+      },
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_184472",
+      "title": "쿨탠다드 베이식 크루넥 반팔티 2팩",
+      "price": "22,990원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/07/26/thumb_66bd3dca274201139007d943430b10da.webp",
+      "category": "의류",
+      "site": "무신사",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/10130794195",
+      "publishedAt": "2026-07-26 05:26:05",
+      "likes": 19,
+      "fetchedAt": "2026-07-25T21:44:46.275Z",
+      "priceComparison": [
+        {
+          "site": "무신사",
+          "price": "22,990원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "05-05",
+            "price": 35090
+          },
+          {
+            "date": "05-12",
+            "price": 35090
+          },
+          {
+            "date": "05-19",
+            "price": 34830
+          },
+          {
+            "date": "05-26",
+            "price": 33890
+          },
+          {
+            "date": "06-02",
+            "price": 33890
+          },
+          {
+            "date": "06-09",
+            "price": 33990
+          },
+          {
+            "date": "06-16",
+            "price": 31840
+          },
+          {
+            "date": "06-23",
+            "price": 29710
+          },
+          {
+            "date": "06-30",
+            "price": 30550
+          },
+          {
+            "date": "07-07",
+            "price": 27370
+          },
+          {
+            "date": "07-14",
+            "price": 28500
+          },
+          {
+            "date": "07-21",
+            "price": 29640
+          }
+        ],
+        "minPrice": 27370,
+        "maxPrice": 35090
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_184471",
+      "title": "CJ 비비고 영양삼계탕 800g 6개",
+      "price": "39,900원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/07/26/thumb_753ee334ef4af46a2dd39ef2b9ba103e.webp",
+      "category": "식품",
+      "site": "11번가",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=722679",
+      "publishedAt": "2026-07-26 05:06:11",
+      "likes": 18,
+      "fetchedAt": "2026-07-25T21:44:46.276Z",
+      "priceComparison": [
+        {
+          "site": "11번가",
+          "price": "39,900원"
+        },
+        {
+          "site": "GS SHOP",
+          "price": "56,900원"
+        },
+        {
+          "site": "다나와 가격비교",
+          "price": "44,400원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "07-07",
+            "price": 51920
+          },
+          {
+            "date": "07-14",
+            "price": 42600
+          },
+          {
+            "date": "07-21",
+            "price": 42600
+          }
+        ],
+        "minPrice": 42600,
+        "maxPrice": 51920
+      },
+      "postContent": {
+        "text": "비비고 영양삼계탕 800g짜리 6개 구성입니다. 한 팩당 6,650원 정도 나오고 데워서 바로 먹을 수 있어서 여름에 삼계탕 챙겨 먹기 편하겠네요. 6개 구성 기준 39,900원이고 무료배송입니다.",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0726/900w_20260726050505_zgFKZOkUqK.jpg",
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0726/900w_20260726050505_Gcbp0jb4xk.jpg"
+        ]
+      },
+      "shopUrl": "http://www.11st.co.kr/products/9479906936/share"
+    },
+    {
       "id": "hdz_184469",
       "title": "갤럭시/아이폰 맥세이프 케이스 1+1",
       "price": "9,900원",
@@ -35243,211 +35467,7 @@
       },
       "postContent": null,
       "shopUrl": null
-    },
-    {
-      "id": "hdz_183914",
-      "title": "켈로그 그래놀라 시리얼 500G 4종 3팩 + 제로슈거 40g",
-      "price": "11,970원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/24/thumb_51aea2a8ec30b8714acb6cc435740118.webp",
-      "category": "식품",
-      "site": "지마켓",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/10124632827",
-      "publishedAt": "2026-07-24 17:12:05",
-      "likes": 8,
-      "fetchedAt": "2026-07-24T10:55:02.991Z",
-      "priceComparison": [
-        {
-          "site": "지마켓",
-          "price": "11,970원"
-        },
-        {
-          "site": "신세계몰",
-          "price": "23,500원"
-        },
-        {
-          "site": "SSG.COM",
-          "price": "7,930원"
-        },
-        {
-          "site": "이마트몰",
-          "price": "9,680원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "05-05",
-            "price": 13850
-          },
-          {
-            "date": "05-12",
-            "price": 13640
-          },
-          {
-            "date": "05-19",
-            "price": 12920
-          },
-          {
-            "date": "05-26",
-            "price": 14750
-          },
-          {
-            "date": "06-02",
-            "price": 14690
-          },
-          {
-            "date": "06-09",
-            "price": 14750
-          },
-          {
-            "date": "06-16",
-            "price": 12420
-          },
-          {
-            "date": "06-23",
-            "price": 12420
-          },
-          {
-            "date": "06-30",
-            "price": 12820
-          },
-          {
-            "date": "07-07",
-            "price": 12420
-          },
-          {
-            "date": "07-14",
-            "price": 12420
-          },
-          {
-            "date": "07-21",
-            "price": 15510
-          }
-        ],
-        "minPrice": 12420,
-        "maxPrice": 15510
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_183913",
-      "title": "다이슨 플러피콘 블랙",
-      "price": "499,000원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/24/thumb_927e136decbc89a82710afe1a966a9e7.webp",
-      "category": "식품",
-      "site": "다이슨공홈",
-      "source": "아카라이브",
-      "sourceColor": "#10B981",
-      "link": "https://arca.live/b/hotdeal/177834264?p=1",
-      "publishedAt": "2026-07-24 17:08:04",
-      "likes": 6,
-      "fetchedAt": "2026-07-24T08:09:57.902Z",
-      "priceComparison": [
-        {
-          "site": "다이슨공홈",
-          "price": "499,000원"
-        },
-        {
-          "site": "SSG.com",
-          "price": "519,000원"
-        },
-        {
-          "site": "CJ온스타일",
-          "price": "597,550원"
-        },
-        {
-          "site": "다나와",
-          "price": "412,710원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "05-05",
-            "price": 1859410
-          },
-          {
-            "date": "05-12",
-            "price": 1857780
-          },
-          {
-            "date": "05-19",
-            "price": 1849850
-          },
-          {
-            "date": "05-26",
-            "price": 1876400
-          },
-          {
-            "date": "06-02",
-            "price": 1885200
-          },
-          {
-            "date": "06-09",
-            "price": 1899150
-          },
-          {
-            "date": "06-16",
-            "price": 1901750
-          },
-          {
-            "date": "06-23",
-            "price": 1854760
-          },
-          {
-            "date": "06-30",
-            "price": 1836660
-          },
-          {
-            "date": "07-07",
-            "price": 1675000
-          },
-          {
-            "date": "07-14",
-            "price": 1645000
-          },
-          {
-            "date": "07-21",
-            "price": 1615080
-          }
-        ],
-        "minPrice": 1615080,
-        "maxPrice": 1901750
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_183912",
-      "title": "농심 파워오투 신나는 물총세트 (오렌지레몬향 500ml 6개+망고향 500ml 6개+물총)",
-      "price": "12,450원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/24/thumb_dda120ae3439b0ceb685ecac380e9d7d.webp",
-      "category": "생활용품",
-      "site": "지마켓",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=722423",
-      "publishedAt": "2026-07-24 17:06:24",
-      "likes": 3,
-      "fetchedAt": "2026-07-24T08:09:57.902Z",
-      "priceComparison": [
-        {
-          "site": "지마켓",
-          "price": "12,450원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": {
-        "text": "물총 같이 주는 구성입니다총 12병이에요쿠폰적용가 12,450원 나옵니다",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0724/900w_20260724170427_Zy7zjLZZmP.jpg"
-        ]
-      },
-      "shopUrl": "https://item.gmarket.co.kr/Item?spm=gmktpc.besthome.bestitem.ditem4.2dd04fc7ijSuZQ&goodscode=4805535812"
     }
   ],
-  "lastUpdated": "2026-07-25T18:54:52.569Z"
+  "lastUpdated": "2026-07-25T21:44:48.045Z"
 }
