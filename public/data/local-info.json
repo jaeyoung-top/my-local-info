@@ -13,16 +13,16 @@
       "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1779432991songpa.JPG"
     },
     {
-      "name": "독자참여 포토이벤트: 인생 한 컷을 담아주세요",
+      "name": "8월 테마 포토이벤트: 인생 한 컷을 담아주세요",
       "category": "행사",
       "startDate": "2026-08-01",
       "endDate": "2026-08-31",
       "location": "송파구 관내",
       "target": "전체 구민",
-      "summary": "8월 테마(광복절, 송파 바캉스)에 맞춰 인생 한 컷을 찍는 독자 참여 포토이벤트",
+      "summary": "8월 광복절, 바캉스 테마에 맞춰 송파구에서 찍은 인생 한 컷을 공유하는 독자 참여 포토 이벤트",
       "link": "https://songpa.newstool.co.kr/./view.php?eid=9033&aid=17907",
-      "id": "crawler-1784771987536-280",
-      "image": "https://picsum.photos/seed/201544/800/500"
+      "id": "crawler-1785031176768-151",
+      "image": "https://picsum.photos/seed/150404/800/500"
     },
     {
       "name": "송파 인생 한 컷 포토 이벤트",
@@ -4187,6 +4187,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "범죄피해 아동/장애인 진술조력 지원",
+      "category": "혜택",
+      "startDate": "2026-07-26",
+      "endDate": "상시",
+      "location": "법무부",
+      "target": "범죄피해 아동 및 장애인",
+      "summary": "범죄 피해 아동 및 장애인의 수사/재판상 소통을 중개 지원.",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -10118,7 +10131,67 @@
       "summary": "지역 특화산업 중소기업의 AIoT 기반 스마트 안전 시스템 도입 및 구축 비용 지원",
       "link": "https://www.bizinfo.go.kr",
       "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-26-1",
+      "name": "2026년 NIPA AI 기반 초개인화 서비스 개발 및 확산 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-26",
+      "endDate": "2026-12-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI 기반 서비스 개발 역량을 갖춘 중소·벤처기업",
+      "summary": "초개인화 AI 기술을 활용한 혁신 서비스 개발 및 시장 확산을 지원",
+      "link": "https://www.nipa.kr/",
+      "image": "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-26-2",
+      "name": "2026년 서울 AI 허브 인공지능 기반 전문화 테스트베드 운영 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-26",
+      "endDate": "상시",
+      "location": "서울 AI 허브",
+      "target": "AI 솔루션 개발 및 검증이 필요한 스타트업 및 연구기관",
+      "summary": "특정 AI 분야(예: 엣지 AI, 의료 AI) 전문화 테스트베드 환경 및 기술 검증 지원",
+      "link": "https://seoulaihub.kr/",
+      "image": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-26-3",
+      "name": "2026년 K-Startup AI·데이터 기반 비즈니스 혁신 교육 프로그램",
+      "category": "AI지원",
+      "startDate": "2026-07-26",
+      "endDate": "2026-11-30",
+      "location": "창업진흥원",
+      "target": "AI/데이터 활용 비즈니스 모델 혁신을 희망하는 예비창업가 및 스타트업",
+      "summary": "AI/데이터 기반 비즈니스 모델 혁신 및 실행 역량 강화를 위한 교육 제공",
+      "link": "https://www.k-startup.go.kr/",
+      "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-26-4",
+      "name": "2026년 중소기업 AI 도입 전략 로드맵 수립 및 실행 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-26",
+      "endDate": "2026-12-15",
+      "location": "중소벤처기업부",
+      "target": "AI 기술 도입을 계획하는 중소기업",
+      "summary": "중소기업의 AI 도입 전략 수립, 실행 로드맵 마련 및 초기 구현을 위한 컨설팅 지원",
+      "link": "https://www.bizinfo.go.kr/",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-26-5",
+      "name": "2026년 과학기술정보통신부 차세대 지능형 데이터 플랫폼 구축 및 활용 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-26",
+      "endDate": "2026-12-31",
+      "location": "과학기술정보통신부",
+      "target": "데이터 기반 서비스 및 기술 개발 기업, 연구기관",
+      "summary": "대규모 데이터 기반의 차세대 지능형 플랫폼 구축 및 데이터 활용 촉진을 지원",
+      "link": "https://www.msit.go.kr/",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-07-25"
+  "lastUpdated": "2026-07-26"
 }
