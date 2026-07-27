@@ -4200,6 +4200,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "admin",
       "image": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "아동·장애인 범죄피해 진술조력 지원",
+      "category": "혜택",
+      "startDate": "2026-07-27",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원 등 수사기관",
+      "target": "만 19세 미만 아동 및 장애인 범죄 피해자",
+      "summary": "만 19세 미만 아동, 의사소통이 어려운 장애인 범죄 피해자의 수사·재판상 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -10191,7 +10204,67 @@
       "summary": "대규모 데이터 기반의 차세대 지능형 플랫폼 구축 및 데이터 활용 촉진을 지원",
       "link": "https://www.msit.go.kr/",
       "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-27-1",
+      "name": "NIPA AI 기반 비전(Vision) 기술 상용화 및 확산 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-27",
+      "endDate": "별도 공지 시",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI 비전 기술 개발 기업 및 연구기관",
+      "summary": "AI 기반 비전 기술의 산업 적용 및 시장 확산을 위한 개발 및 사업화 지원",
+      "link": "https://www.nipa.kr",
+      "image": "https://images.unsplash.com/photo-1516321165247-4aa89a48be55?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-27-2",
+      "name": "서울 AI 허브 AI 기반 서비스형 소프트웨어(SaaS) 사업화 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-27",
+      "endDate": "상시",
+      "location": "서울 AI 허브",
+      "target": "AI 기반 SaaS 개발 스타트업 및 중소기업",
+      "summary": "AI SaaS 솔루션의 개발, 고도화 및 시장 진출을 위한 사업화 지원 프로그램",
+      "link": "https://seoulaihub.kr",
+      "image": "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-27-3",
+      "name": "K-Startup AI 기술 기반 데이터 프라이버시 및 보안 솔루션 창업 육성",
+      "category": "AI지원",
+      "startDate": "2026-07-27",
+      "endDate": "별도 공지 시",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "데이터 프라이버시 및 보안 분야 예비/초기 창업기업",
+      "summary": "AI 기술을 활용한 데이터 프라이버시 및 보안 솔루션 스타트업 집중 육성",
+      "link": "https://www.k-startup.go.kr",
+      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-27-4",
+      "name": "중소벤처기업부 중소기업 AI 모델 개발 및 운영(MLOps) 도입 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-27",
+      "endDate": "별도 공지 시",
+      "location": "중소벤처기업부",
+      "target": "AI 모델 MLOps 시스템 도입 희망 중소기업",
+      "summary": "중소기업의 AI 모델 개발 및 운영 효율화를 위한 MLOps 시스템 도입 컨설팅 및 구축 지원",
+      "link": "https://www.mss.go.kr",
+      "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-27-5",
+      "name": "과학기술정보통신부 AI 기반 인과관계 추론(Causal AI) 기술 개발",
+      "category": "AI지원",
+      "startDate": "2026-07-27",
+      "endDate": "별도 공지 시",
+      "location": "과학기술정보통신부",
+      "target": "인과관계 추론 AI 기술 연구 개발 기관",
+      "summary": "미래 인공지능 핵심 기술인 인과관계 추론(Causal AI) 원천기술 개발 지원",
+      "link": "https://www.msit.go.kr",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-07-26"
+  "lastUpdated": "2026-07-27"
 }
