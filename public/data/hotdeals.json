@@ -1,6 +1,94 @@
 {
   "deals": [
     {
+      "id": "hdz_185607",
+      "title": "전기모기채 2개",
+      "price": "3,700원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/07/28/thumb_3486fbb3a262f0a80f9eac94e360c5a7.webp",
+      "category": "생활용품",
+      "site": "쿠팡",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/10139230447",
+      "publishedAt": "2026-07-28 10:48:06",
+      "likes": 12,
+      "fetchedAt": "2026-07-28T01:53:11.640Z",
+      "priceComparison": [
+        {
+          "site": "쿠팡",
+          "price": "3,700원"
+        },
+        {
+          "site": "GS SHOP",
+          "price": "7,900원"
+        },
+        {
+          "site": "11번가",
+          "price": "12,900원"
+        },
+        {
+          "site": "다나와",
+          "price": "하나 19,200원(2개 기준 약 38,400원)"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "05-05",
+            "price": 9770
+          },
+          {
+            "date": "05-12",
+            "price": 10120
+          },
+          {
+            "date": "05-19",
+            "price": 10120
+          },
+          {
+            "date": "05-26",
+            "price": 10120
+          },
+          {
+            "date": "06-02",
+            "price": 9770
+          },
+          {
+            "date": "06-09",
+            "price": 9770
+          },
+          {
+            "date": "06-16",
+            "price": 9770
+          },
+          {
+            "date": "06-23",
+            "price": 9770
+          },
+          {
+            "date": "06-30",
+            "price": 9770
+          },
+          {
+            "date": "07-07",
+            "price": 9200
+          },
+          {
+            "date": "07-14",
+            "price": 9770
+          },
+          {
+            "date": "07-21",
+            "price": 9770
+          }
+        ],
+        "minPrice": 9200,
+        "maxPrice": 10120
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
       "id": "hdz_185606",
       "title": "토스페이) 하림 텐더스틱 1kg 2팩 + 용가리치킨 300g 1팩",
       "price": "20,300원",
@@ -34964,95 +35052,7 @@
       },
       "postContent": null,
       "shopUrl": null
-    },
-    {
-      "id": "hdz_184915",
-      "title": "깨끗한나라 순수 소프트 3겹 화장지 27m 12롤 x 6팩",
-      "price": "24,900원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/27/thumb_305c60d3b757490a8371713d9eb8b167.webp",
-      "category": "생활용품",
-      "site": "GS샵",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/10134864631",
-      "publishedAt": "2026-07-27 09:52:09",
-      "likes": 6,
-      "fetchedAt": "2026-07-27T02:04:35.843Z",
-      "priceComparison": [
-        {
-          "site": "GS샵",
-          "price": "24,900원"
-        },
-        {
-          "site": "하루나마켓",
-          "price": "47,950원"
-        },
-        {
-          "site": "다나와",
-          "price": "26,370원"
-        },
-        {
-          "site": "동원몰",
-          "price": "11,500원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "05-05",
-            "price": 5390
-          },
-          {
-            "date": "05-12",
-            "price": 5390
-          },
-          {
-            "date": "05-19",
-            "price": 5980
-          },
-          {
-            "date": "05-26",
-            "price": 6010
-          },
-          {
-            "date": "06-02",
-            "price": 5980
-          },
-          {
-            "date": "06-09",
-            "price": 5980
-          },
-          {
-            "date": "06-16",
-            "price": 6140
-          },
-          {
-            "date": "06-23",
-            "price": 6140
-          },
-          {
-            "date": "06-30",
-            "price": 6140
-          },
-          {
-            "date": "07-07",
-            "price": 6140
-          },
-          {
-            "date": "07-14",
-            "price": 6140
-          },
-          {
-            "date": "07-21",
-            "price": 6140
-          }
-        ],
-        "minPrice": 5390,
-        "maxPrice": 6140
-      },
-      "postContent": null,
-      "shopUrl": null
     }
   ],
-  "lastUpdated": "2026-07-28T01:46:38.095Z"
+  "lastUpdated": "2026-07-28T01:53:12.956Z"
 }
