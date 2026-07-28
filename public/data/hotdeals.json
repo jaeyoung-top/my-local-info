@@ -1,6 +1,215 @@
 {
   "deals": [
     {
+      "id": "hdz_186078",
+      "title": "부산-나고야 1202-1206",
+      "price": "278,700원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/07/29/thumb_430421e9a67d41a228ea2a92d3a1b1a0.webp",
+      "category": "생활용품",
+      "site": "네이버항공권",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/10143347053",
+      "publishedAt": "2026-07-29 06:48:06",
+      "likes": 0,
+      "fetchedAt": "2026-07-28T21:56:18.489Z",
+      "priceComparison": [
+        {
+          "site": "네이버항공권",
+          "price": "278,700원"
+        },
+        {
+          "site": "트립닷컴",
+          "price": "198,800원"
+        },
+        {
+          "site": "스카이스캐너",
+          "price": "260,735원"
+        },
+        {
+          "site": "익스피디아",
+          "price": "252,400원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_186077",
+      "title": "애슐리 크리스피 핫도그 3팩 골라담기",
+      "price": "17,910원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/07/29/thumb_e5f549669c550ccba25ccda49b1bfbd1.webp",
+      "category": "식품",
+      "site": "지마켓",
+      "source": "아카라이브",
+      "sourceColor": "#10B981",
+      "link": "https://arca.live/b/hotdeal/178292157?p=1",
+      "publishedAt": "2026-07-29 05:16:05",
+      "likes": 31,
+      "fetchedAt": "2026-07-28T21:56:18.489Z",
+      "priceComparison": [
+        {
+          "site": "지마켓",
+          "price": "17,910원"
+        },
+        {
+          "site": "커피앤티월드",
+          "price": "19,900원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "05-12",
+            "price": 34790
+          },
+          {
+            "date": "05-19",
+            "price": 33220
+          },
+          {
+            "date": "05-26",
+            "price": 33220
+          },
+          {
+            "date": "06-02",
+            "price": 32400
+          },
+          {
+            "date": "06-09",
+            "price": 29400
+          },
+          {
+            "date": "06-16",
+            "price": 30780
+          },
+          {
+            "date": "06-23",
+            "price": 28400
+          },
+          {
+            "date": "06-30",
+            "price": 28400
+          },
+          {
+            "date": "07-07",
+            "price": 29900
+          },
+          {
+            "date": "07-14",
+            "price": 29400
+          },
+          {
+            "date": "07-21",
+            "price": 31400
+          },
+          {
+            "date": "07-28",
+            "price": 33360
+          }
+        ],
+        "minPrice": 28400,
+        "maxPrice": 34790
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_186076",
+      "title": "오쏘몰 바이탈 M 30일분+3일분 증정 외",
+      "price": "69,300원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/07/29/thumb_15a4ba60402385da9e4949cb11428e09.webp",
+      "category": "식품",
+      "site": "동아제약디몰",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=723306",
+      "publishedAt": "2026-07-29 05:06:14",
+      "likes": 10,
+      "fetchedAt": "2026-07-28T21:56:18.489Z",
+      "priceComparison": [
+        {
+          "site": "동아제약디몰",
+          "price": "69,300원"
+        },
+        {
+          "site": "SSG.COM",
+          "price": "104,500원"
+        },
+        {
+          "site": "11번가",
+          "price": "121,000원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "05-12",
+            "price": 184150
+          },
+          {
+            "date": "05-19",
+            "price": 184150
+          },
+          {
+            "date": "05-26",
+            "price": 179390
+          },
+          {
+            "date": "06-02",
+            "price": 179390
+          },
+          {
+            "date": "06-09",
+            "price": 197070
+          },
+          {
+            "date": "06-16",
+            "price": 197070
+          },
+          {
+            "date": "06-23",
+            "price": 196080
+          },
+          {
+            "date": "06-30",
+            "price": 201100
+          },
+          {
+            "date": "07-07",
+            "price": 201100
+          },
+          {
+            "date": "07-14",
+            "price": 189230
+          },
+          {
+            "date": "07-21",
+            "price": 188370
+          },
+          {
+            "date": "07-28",
+            "price": 188340
+          }
+        ],
+        "minPrice": 179390,
+        "maxPrice": 201100
+      },
+      "postContent": {
+        "text": "토스페이 30프로 딜 최대할인 3만원최소결제금액 3만원 적용가능 횟수 1번오쏘몰 바이탈 M 30일분+3일분 쇼핑백 증정 99,000원토스페이 결제 69,300원 개당 2,100원오쏘몰 바이탈 F 30일분+3일분 쇼핑백 증정 99,000원https://m.dmall.co.kr/product/3%EC%9D%BC%EB%B6%84-%EC%A6%9D%EC%A0%95-%EC%98%A4%EC%8F%98%EB%AA%B0-%EB%B0%94%EC%9D%B4%ED%83%88-f-30%EC%9D%BC%EB%B6%84-%EC%87%BC%ED%95%91%EB%B0%B1-%EC%A6%9D%EC%A0%95/1964/category/56/display/1/토스페이 결제 69,300원추천릴레이게시판 토스링크추가적립 7.1프로(3,000원)릴레이게시판 메인링크https://m.ppomppu.co.kr/new/bbs_list.php?id=relay",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0729/900w_20260729050159_k3Tn788AI8.jpg",
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0729/900w_20260729050748_huKIa4vofY.jpg",
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0729/900w_20260729050202_wxsgFsXWlk.jpg",
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0729/900w_20260729050204_A1etw98dfl.jpg",
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0729/900w_20260729050206_DVDQIAVEDf.jpg",
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0729/900w_20260729050208_ipIU4HWeTX.jpg"
+        ]
+      },
+      "shopUrl": "https://m.dmall.co.kr/product/3%EC%9D%BC%EB%B6%84-%EC%A6%9D%EC%A0%95-%EC%98%A4%EC%8F%98%EB%AA%B0-%EB%B0%94%EC%9D%B4%ED%83%88-m-30%EC%9D%BC%EB%B6%84-%EC%87%BC%ED%95%91%EB%B0%B1-%EC%A6%9D%EC%A0%95/1965/"
+    },
+    {
       "id": "hdz_186075",
       "title": "베베드 아기곰 저자극 아기 물티슈 캡형, 100매, 20개",
       "price": "17,100원",
@@ -35824,206 +36033,7 @@
       },
       "postContent": null,
       "shopUrl": null
-    },
-    {
-      "id": "hdz_185515",
-      "title": "눈을감자 12개",
-      "price": "12,700원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/28/thumb_6ed6dda6247fe4e6bb831fe55f1c88d1.webp",
-      "category": "식품",
-      "site": "쿠팡",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/10138752808",
-      "publishedAt": "2026-07-28 08:18:05",
-      "likes": 43,
-      "fetchedAt": "2026-07-28T01:46:26.496Z",
-      "priceComparison": [
-        {
-          "site": "쿠팡",
-          "price": "12,700원"
-        },
-        {
-          "site": "동원몰",
-          "price": "18,500원"
-        },
-        {
-          "site": "GS SHOP",
-          "price": "22,800원"
-        },
-        {
-          "site": "SSG.COM",
-          "price": "21,900원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "05-05",
-            "price": 9780
-          },
-          {
-            "date": "05-12",
-            "price": 9770
-          },
-          {
-            "date": "05-19",
-            "price": 9780
-          },
-          {
-            "date": "05-26",
-            "price": 10980
-          },
-          {
-            "date": "06-02",
-            "price": 10980
-          },
-          {
-            "date": "06-09",
-            "price": 11260
-          },
-          {
-            "date": "06-16",
-            "price": 11260
-          },
-          {
-            "date": "06-23",
-            "price": 16000
-          },
-          {
-            "date": "06-30",
-            "price": 16000
-          },
-          {
-            "date": "07-07",
-            "price": 16000
-          },
-          {
-            "date": "07-14",
-            "price": 16000
-          },
-          {
-            "date": "07-21",
-            "price": 15960
-          }
-        ],
-        "minPrice": 9770,
-        "maxPrice": 16000
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_185514",
-      "title": "팔레르모 엑스트라버진 올리브오일, 1L, 1개",
-      "price": "13,640원",
-      "image": "https://image.hotdeal.zip/images/2026/07/28/3a66e5bdfe69a97a680a3b928da3a51e.jpg",
-      "category": "기타",
-      "site": "쿠팡",
-      "source": "아카라이브",
-      "sourceColor": "#10B981",
-      "link": "https://arca.live/b/hotdeal/178183706?p=1",
-      "publishedAt": "2026-07-28 08:18:05",
-      "likes": 34,
-      "fetchedAt": "2026-07-28T01:46:26.496Z",
-      "priceComparison": [
-        {
-          "site": "쿠팡",
-          "price": "13,640원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_185513",
-      "title": "청정원 토마토 스파게티소스, 600g, 3개",
-      "price": "9,940원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/28/thumb_844543ba06c2742f4c979ba4e2f14fcb.webp",
-      "category": "기타",
-      "site": "쿠팡",
-      "source": "아카라이브",
-      "sourceColor": "#10B981",
-      "link": "https://arca.live/b/hotdeal/178183593?p=1",
-      "publishedAt": "2026-07-28 08:16:11",
-      "likes": 20,
-      "fetchedAt": "2026-07-28T01:46:26.496Z",
-      "priceComparison": [
-        {
-          "site": "쿠팡",
-          "price": "9,940원"
-        },
-        {
-          "site": "SSG.COM",
-          "price": "19,710원"
-        },
-        {
-          "site": "골드박스",
-          "price": "12,210원"
-        },
-        {
-          "site": "다나와 가격비교",
-          "price": "12,210원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "05-05",
-            "price": 12300
-          },
-          {
-            "date": "05-12",
-            "price": 12210
-          },
-          {
-            "date": "05-19",
-            "price": 12210
-          },
-          {
-            "date": "05-26",
-            "price": 12570
-          },
-          {
-            "date": "06-02",
-            "price": 12210
-          },
-          {
-            "date": "06-09",
-            "price": 12210
-          },
-          {
-            "date": "06-16",
-            "price": 12210
-          },
-          {
-            "date": "06-23",
-            "price": 12750
-          },
-          {
-            "date": "06-30",
-            "price": 12750
-          },
-          {
-            "date": "07-07",
-            "price": 12210
-          },
-          {
-            "date": "07-14",
-            "price": 12210
-          },
-          {
-            "date": "07-21",
-            "price": 12750
-          }
-        ],
-        "minPrice": 12210,
-        "maxPrice": 12750
-      },
-      "postContent": null,
-      "shopUrl": null
     }
   ],
-  "lastUpdated": "2026-07-28T19:09:56.630Z"
+  "lastUpdated": "2026-07-28T21:56:20.463Z"
 }
