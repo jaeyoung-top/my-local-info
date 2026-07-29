@@ -4226,6 +4226,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
+    },
+    {
+      "id": "127000",
+      "name": "범죄 피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-07-29",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "범죄 피해 아동·장애인의 수사·재판 소통 중개 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -10337,7 +10350,67 @@
       "summary": "AI를 활용한 디지털 포렌식 분석 및 증거 수집 기술 개발 및 실증 지원",
       "link": "https://www.msit.go.kr",
       "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-29-1",
+      "name": "정보통신산업진흥원 (NIPA) AI 기반 산업 현장 위험 예측 및 작업자 안전 관리 솔루션 개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-29",
+      "endDate": "2027-12-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI 솔루션 개발 기업, 연구기관",
+      "summary": "산업 현장의 AI 기반 위험 예측 및 작업자 안전 관리 솔루션 개발을 지원하여 안전성 강화",
+      "link": "https://www.nipa.kr",
+      "image": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-29-2",
+      "name": "서울 AI 허브 글로벌 AI 스타트업 밋업 및 파트너링 기회 제공 프로그램",
+      "category": "AI지원",
+      "startDate": "2026-07-29",
+      "endDate": "상시",
+      "location": "서울 AI 허브",
+      "target": "국내외 AI 스타트업, 투자자",
+      "summary": "글로벌 AI 스타트업 간 교류 및 투자, 비즈니스 파트너링 기회 제공을 통한 성장 지원",
+      "link": "https://seoulaihub.kr",
+      "image": "https://images.unsplash.com/photo-1526378800651-c32d170fe6f8?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-29-3",
+      "name": "K-Startup AI 기반 농수산식품 분야 창업 아이디어 경진대회 및 사업화 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-29",
+      "endDate": "2026-11-15",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "예비창업가 및 초기 스타트업",
+      "summary": "농수산식품 분야의 AI 기반 혁신 아이디어를 발굴하고 사업화를 위한 멘토링 및 초기 자금 지원",
+      "link": "https://www.k-startup.go.kr",
+      "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-29-4",
+      "name": "중소벤처기업부 중소기업 제조 공정 탄소 배출량 저감을 위한 AI 솔루션 도입 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-29",
+      "endDate": "2027-03-31",
+      "location": "중소벤처기업부",
+      "target": "제조업 중소기업",
+      "summary": "AI 솔루션 도입을 통해 제조 공정의 탄소 배출량을 분석하고 저감 방안을 마련하는 중소기업 지원",
+      "link": "https://www.mss.go.kr",
+      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-29-5",
+      "name": "과학기술정보통신부 AI 모델 신뢰성 검증 및 해석 가능한 AI(XAI) 원천기술 개발",
+      "category": "AI지원",
+      "startDate": "2026-07-29",
+      "endDate": "2029-12-31",
+      "location": "과학기술정보통신부",
+      "target": "대학, 연구기관, AI 전문기업",
+      "summary": "AI 모델의 신뢰성 검증 기술 및 해석 가능한 AI(XAI) 원천기술 개발을 통한 AI 기술 고도화",
+      "link": "https://www.msit.go.kr",
+      "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-07-28"
+  "lastUpdated": "2026-07-29"
 }
