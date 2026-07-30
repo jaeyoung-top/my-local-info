@@ -13,6 +13,30 @@
       "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1779432991songpa.JPG"
     },
     {
+      "name": "2026 송파 여름 문화 예술 특집",
+      "category": "문화",
+      "startDate": "2026-08-01",
+      "endDate": "2026-08-31",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "2026년 송파구의 여름을 맞아 해피 썸머타임 콘서트, 월드 플라멩코 페스티벌, 구립송파극단 정기공연, 호수동물아트전 등 주요 문화 예술 행사를 소개하는 특집 기사",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9041&aid=18075",
+      "id": "crawler-1785375839894-808",
+      "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1784891814songpa.JPG"
+    },
+    {
+      "name": "송파구 8월 문화 캘린더",
+      "category": "문화",
+      "startDate": "2026-08-01",
+      "endDate": "2026-08-31",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "2026년 8월 송파구에서 진행되는 다양한 문화 행사 및 공연 일정을 총망라한 캘린더 정보",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9041&aid=18071",
+      "id": "crawler-1785375838405-439",
+      "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1784895393songpa.JPG"
+    },
+    {
       "name": "8월 테마 포토이벤트: 인생 한 컷을 담아주세요",
       "category": "행사",
       "startDate": "2026-08-01",
@@ -95,18 +119,6 @@
       "link": "https://songpa.newstool.co.kr/./view.php?eid=9033&aid=17892",
       "id": "crawler-1782873797450-609",
       "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1782211842songpa.JPG"
-    },
-    {
-      "name": "송파구 7월 문화 캘린더",
-      "category": "문화",
-      "startDate": "2026-07-01",
-      "endDate": "2026-07-31",
-      "location": "송파구 관내",
-      "target": "전체 구민",
-      "summary": "2026년 7월 송파구에서 열리는 주요 문화 행사 및 공연 정보를 담은 캘린더.",
-      "link": "https://songpa.newstool.co.kr/./view.php?eid=9033&aid=17898",
-      "id": "crawler-1782787034531-730",
-      "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1782214406songpa.JPG"
     }
   ],
   "benefits": [
@@ -4236,6 +4248,19 @@
       "location": "경찰서, 검찰청, 법원",
       "target": "범죄 피해 아동 및 장애인",
       "summary": "범죄 피해 아동·장애인의 수사·재판 소통 중개 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "범죄 피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원",
+      "target": "만 19세 미만 아동 및 범죄 피해 장애인",
+      "summary": "범죄 피해 아동 및 장애인의 수사·재판 시 의사소통 중개 및 지원",
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "admin",
       "image": "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=80"
@@ -10410,7 +10435,67 @@
       "summary": "AI 모델의 신뢰성 검증 기술 및 해석 가능한 AI(XAI) 원천기술 개발을 통한 AI 기술 고도화",
       "link": "https://www.msit.go.kr",
       "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-30-1",
+      "name": "NIPA 인공지능 기반 지능형 물류 시스템 구축 및 효율화 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-30",
+      "endDate": "2026-12-15",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "물류 관련 중소·중견기업",
+      "summary": "AI 기술을 활용한 물류 시스템 구축 및 운영 효율화 지원.",
+      "link": "https://www.nipa.kr/",
+      "image": "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-30-2",
+      "name": "서울 AI 허브 인공지능 기반 초개인화 서비스 개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-30",
+      "endDate": "2026-11-30",
+      "location": "서울 AI 허브",
+      "target": "AI 초개인화 서비스 스타트업",
+      "summary": "AI 기반 초개인화 서비스 개발 및 시장 출시 지원.",
+      "link": "https://www.seoulaihub.kr/",
+      "image": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-30-3",
+      "name": "K-Startup AI 기반 혁신형 제조 스타트업 육성 및 투자 연계",
+      "category": "AI지원",
+      "startDate": "2026-07-30",
+      "endDate": "상시",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "AI 기반 제조 분야 예비·초기 스타트업",
+      "summary": "AI 활용 혁신 제조 스타트업 발굴, 육성 및 투자 유치 지원.",
+      "link": "https://www.k-startup.go.kr/",
+      "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-30-4",
+      "name": "중소벤처기업부 중소기업 AI 기반 재직자 직무 전환 교육 바우처",
+      "category": "AI지원",
+      "startDate": "2026-07-30",
+      "endDate": "2026-10-31",
+      "location": "중소벤처기업부",
+      "target": "중소기업 재직자 및 기업",
+      "summary": "AI 기술을 활용한 중소기업 재직자의 직무 전환 교육 비용 지원.",
+      "link": "https://www.bizinfo.go.kr/",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-30-5",
+      "name": "과학기술정보통신부 AI 기반 인구구조 변화 대응 미래기술 개발",
+      "category": "AI지원",
+      "startDate": "2026-07-30",
+      "endDate": "2026-12-31",
+      "location": "과학기술정보통신부",
+      "target": "AI 기술 연구개발 기관 및 기업",
+      "summary": "AI 기술로 인구구조 변화(고령화 등)에 대응하는 미래 기술 개발 지원.",
+      "link": "https://www.msit.go.kr/",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-07-29"
+  "lastUpdated": "2026-07-30"
 }
