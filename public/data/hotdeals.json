@@ -1,6 +1,165 @@
 {
   "deals": [
     {
+      "id": "hdz_187675",
+      "title": "베이스어스 미니 충전기 100W / 보조배터리 45W 10000mAh",
+      "price": "$18.99",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/01/thumb_c085b8429e856118d5c30f02f67b585a.webp",
+      "category": "가전",
+      "site": "알리",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/10157406336",
+      "publishedAt": "2026-08-01 05:56:06",
+      "likes": 38,
+      "fetchedAt": "2026-07-31T21:58:24.162Z",
+      "priceComparison": [
+        {
+          "site": "알리",
+          "price": "$18.99"
+        },
+        {
+          "site": "Global Bunjang",
+          "price": "$28.69"
+        },
+        {
+          "site": "KREAM",
+          "price": "약 $30~35 (면세 기준, 변동가)"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_187674",
+      "title": "[월첫세일] 300만원 이상 데스크탑 모음집",
+      "price": "가격별상이",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/01/thumb_436864b475a4cd9341dee64cdf562fde.webp",
+      "category": "PC",
+      "site": "G마켓",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/10157292026",
+      "publishedAt": "2026-08-01 05:22:15",
+      "likes": 47,
+      "fetchedAt": "2026-07-31T21:58:24.163Z",
+      "priceComparison": [
+        {
+          "site": "G마켓",
+          "price": "가격별상이"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_187673",
+      "title": "옥토패스 트래블러 프랜차이즈 세일",
+      "price": "14,940원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/01/thumb_3a68e71354ff69b9ed2af91822845f39.webp",
+      "category": "게임",
+      "site": "스팀",
+      "source": "루리웹",
+      "sourceColor": "#3B82F6",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106051?page=1",
+      "publishedAt": "2026-08-01 04:40:19",
+      "likes": 28,
+      "fetchedAt": "2026-07-31T21:58:24.163Z",
+      "priceComparison": [
+        {
+          "site": "스팀",
+          "price": "14,940원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": {
+        "text": "https://store.steampowered.com/sale/octopathfranchise 1편+2편 합본 31,030원 제로 38,870원 시리즈 합계 : 69,900원",
+        "images": [
+          "https://i2.ruliweb.com/img/26/08/01/19fb9abc387b24a9.webp"
+        ]
+      },
+      "shopUrl": "https://store.steampowered.com/sale/octopathfranchise"
+    },
+    {
+      "id": "hdz_187672",
+      "title": "마블 스파이더맨 시리즈 세일 가격 다양",
+      "price": null,
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/01/thumb_f68a47219db7831ad7dd54b0b5dad5c1.webp",
+      "category": "게임",
+      "site": "스팀",
+      "source": "루리웹",
+      "sourceColor": "#3B82F6",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106050?page=1",
+      "publishedAt": "2026-08-01 04:35:17",
+      "likes": 24,
+      "fetchedAt": "2026-07-31T21:58:24.163Z",
+      "priceComparison": [],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "05-12",
+            "price": 45000
+          },
+          {
+            "date": "05-19",
+            "price": 45000
+          },
+          {
+            "date": "05-26",
+            "price": 45000
+          },
+          {
+            "date": "06-02",
+            "price": 45000
+          },
+          {
+            "date": "06-09",
+            "price": 45000
+          },
+          {
+            "date": "06-16",
+            "price": 45000
+          },
+          {
+            "date": "06-23",
+            "price": 45000
+          },
+          {
+            "date": "06-30",
+            "price": 45000
+          },
+          {
+            "date": "07-07",
+            "price": 45000
+          },
+          {
+            "date": "07-14",
+            "price": 45000
+          },
+          {
+            "date": "07-21",
+            "price": 45000
+          },
+          {
+            "date": "07-28",
+            "price": 45000
+          }
+        ],
+        "minPrice": 45000,
+        "maxPrice": 45000
+      },
+      "postContent": {
+        "text": "스파이더맨 세일합니다. https://store.steampowered.com/sale/spidermanfranchise2026 이번 영화 재밌게 봤는데 게임 생각 많이 나더라구요.ㅎㅎ 모두 즐겜하세요!",
+        "images": [
+          "https://i1.ruliweb.com/img/26/08/01/19fb9a795a5b24a9.webp",
+          "https://i2.ruliweb.com/img/26/08/01/19fb9a7accfb24a9.webp"
+        ]
+      },
+      "shopUrl": "https://store.steampowered.com/sale/spidermanfranchise2026"
+    },
+    {
       "id": "hdz_187671",
       "title": "[지마켓] 화이트 반본체 9800X3D +B850 +32GB +1TB 디램O",
       "price": "1,898,310원",
@@ -34012,340 +34171,7 @@
       "priceHistory": null,
       "postContent": null,
       "shopUrl": null
-    },
-    {
-      "id": "hdz_187129",
-      "title": "국내산 닭똥집 근위 1kg+1kg",
-      "price": "9,860원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/31/thumb_21c9caaf768c4415285930653d55838e.webp",
-      "category": "식품",
-      "site": "알리",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/10152487166",
-      "publishedAt": "2026-07-31 00:14:06",
-      "likes": 20,
-      "fetchedAt": "2026-07-30T16:21:10.771Z",
-      "priceComparison": [
-        {
-          "site": "알리",
-          "price": "9,860원"
-        },
-        {
-          "site": "11번가",
-          "price": "15,200원"
-        },
-        {
-          "site": "SSG.COM",
-          "price": "6,140원"
-        },
-        {
-          "site": "남도장터",
-          "price": "4,900원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "05-12",
-            "price": 7180
-          },
-          {
-            "date": "05-19",
-            "price": 7180
-          },
-          {
-            "date": "05-26",
-            "price": 7030
-          },
-          {
-            "date": "06-02",
-            "price": 7350
-          },
-          {
-            "date": "06-09",
-            "price": 7180
-          },
-          {
-            "date": "06-16",
-            "price": 7180
-          },
-          {
-            "date": "06-23",
-            "price": 7340
-          },
-          {
-            "date": "06-30",
-            "price": 7190
-          },
-          {
-            "date": "07-07",
-            "price": 7020
-          },
-          {
-            "date": "07-14",
-            "price": 7190
-          },
-          {
-            "date": "07-21",
-            "price": 7190
-          },
-          {
-            "date": "07-28",
-            "price": 7190
-          }
-        ],
-        "minPrice": 7020,
-        "maxPrice": 7350
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_187128",
-      "title": "[스팀] Mutazione",
-      "price": "0원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/31/thumb_c6762027b8cee89d47ae615e55cb1900.webp",
-      "category": "게임",
-      "site": "스팀",
-      "source": "퀘이사존",
-      "sourceColor": "#7C3AED",
-      "link": "https://quasarzone.com/bbs/qb_saleinfo/views/1974036",
-      "publishedAt": "2026-07-31 00:14:03",
-      "likes": 24,
-      "fetchedAt": "2026-07-30T16:21:10.771Z",
-      "priceComparison": [],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "05-12",
-            "price": 22000
-          },
-          {
-            "date": "05-19",
-            "price": 22310
-          },
-          {
-            "date": "05-26",
-            "price": 22320
-          },
-          {
-            "date": "06-02",
-            "price": 22310
-          },
-          {
-            "date": "06-09",
-            "price": 22310
-          },
-          {
-            "date": "06-16",
-            "price": 22490
-          },
-          {
-            "date": "06-23",
-            "price": 22490
-          },
-          {
-            "date": "06-30",
-            "price": 22490
-          },
-          {
-            "date": "07-07",
-            "price": 21000
-          },
-          {
-            "date": "07-14",
-            "price": 22490
-          },
-          {
-            "date": "07-21",
-            "price": 22490
-          },
-          {
-            "date": "07-28",
-            "price": 22490
-          }
-        ],
-        "minPrice": 21000,
-        "maxPrice": 22490
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_187127",
-      "title": "미국산 초이스등급 소갈비살 200g x 5팩",
-      "price": "26,900원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/31/thumb_ab1d087d1cb13ccb0069cf2010c0fb34.webp",
-      "category": "식품",
-      "site": "토스",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=723720",
-      "publishedAt": "2026-07-31 00:12:14",
-      "likes": 21,
-      "fetchedAt": "2026-07-30T16:21:10.771Z",
-      "priceComparison": [
-        {
-          "site": "토스",
-          "price": "26,900원"
-        },
-        {
-          "site": "11번가",
-          "price": "26,960원"
-        },
-        {
-          "site": "11번가",
-          "price": "35,900원"
-        },
-        {
-          "site": "GS SHOP",
-          "price": "38,900원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "05-12",
-            "price": 55530
-          },
-          {
-            "date": "05-19",
-            "price": 55530
-          },
-          {
-            "date": "05-26",
-            "price": 55520
-          },
-          {
-            "date": "06-02",
-            "price": 56700
-          },
-          {
-            "date": "06-09",
-            "price": 57700
-          },
-          {
-            "date": "06-16",
-            "price": 57700
-          },
-          {
-            "date": "06-23",
-            "price": 56700
-          },
-          {
-            "date": "06-30",
-            "price": 56700
-          },
-          {
-            "date": "07-07",
-            "price": 53730
-          },
-          {
-            "date": "07-14",
-            "price": 56700
-          },
-          {
-            "date": "07-21",
-            "price": 56700
-          },
-          {
-            "date": "07-28",
-            "price": 56700
-          }
-        ],
-        "minPrice": 53730,
-        "maxPrice": 57700
-      },
-      "postContent": {
-        "text": "개인적으로다진마늘 갈비에 버무려서 마늘갈비로 구워먹으니 괜찮더라구요 이렇게 드셔보시는 거 추천드리고자투리 손질한건 미역국 끓여먹기 괜찮습니다.",
-        "images": [
-          "https://cdn3.ppomppu.co.kr/zboard/data3/2026/0731/900w_20260731001037_5BuyGy9evj.jpg",
-          "https://cdn3.ppomppu.co.kr/zboard/data3/2026/0731/900w_20260731001041_Va9C533Pzn.jpg"
-        ]
-      },
-      "shopUrl": "https://service.toss.im/shopping-discovery/c/294118047"
-    },
-    {
-      "id": "hdz_187126",
-      "title": "호밍스 소고기볶음밥 210g x 10개 (10인분)",
-      "price": "15,120원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/31/thumb_e8f52926c2fad2375143dc262ce12bc1.webp",
-      "category": "식품",
-      "site": "지마켓",
-      "source": "아카라이브",
-      "sourceColor": "#10B981",
-      "link": "https://arca.live/b/hotdeal/178499357?p=1",
-      "publishedAt": "2026-07-31 00:12:04",
-      "likes": 17,
-      "fetchedAt": "2026-07-30T16:21:10.771Z",
-      "priceComparison": [
-        {
-          "site": "지마켓",
-          "price": "15,120원"
-        },
-        {
-          "site": "다나와 가격비교",
-          "price": "5,980원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "05-12",
-            "price": 15340
-          },
-          {
-            "date": "05-19",
-            "price": 14780
-          },
-          {
-            "date": "05-26",
-            "price": 15340
-          },
-          {
-            "date": "06-02",
-            "price": 16740
-          },
-          {
-            "date": "06-09",
-            "price": 16740
-          },
-          {
-            "date": "06-16",
-            "price": 16740
-          },
-          {
-            "date": "06-23",
-            "price": 18130
-          },
-          {
-            "date": "06-30",
-            "price": 18130
-          },
-          {
-            "date": "07-07",
-            "price": 18200
-          },
-          {
-            "date": "07-14",
-            "price": 18200
-          },
-          {
-            "date": "07-21",
-            "price": 18200
-          },
-          {
-            "date": "07-28",
-            "price": 16800
-          }
-        ],
-        "minPrice": 14780,
-        "maxPrice": 18200
-      },
-      "postContent": null,
-      "shopUrl": null
     }
   ],
-  "lastUpdated": "2026-07-31T19:10:28.643Z"
+  "lastUpdated": "2026-07-31T21:58:26.415Z"
 }
