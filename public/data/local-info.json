@@ -13,6 +13,18 @@
       "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1779432991songpa.JPG"
     },
     {
+      "name": "송파 주요 문화 예술 행사 (콘서트, 페스티벌, 공연, 아트전)",
+      "category": "문화",
+      "startDate": "2026-08-01",
+      "endDate": "2026-08-31",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "2026 해피 썸머타임 콘서트&월드 플라멩코 페스티벌, 구립송파극단 정기공연 '30일간의 야유회', 호수동물아트전 등 송파구의 여름 주요 문화 예술 행사 소개",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9041&aid=18075",
+      "id": "crawler-1785463258868-415",
+      "image": "https://picsum.photos/seed/910248/800/500"
+    },
+    {
       "name": "2026 송파 여름 문화 예술 특집",
       "category": "문화",
       "startDate": "2026-08-01",
@@ -4261,6 +4273,19 @@
       "location": "경찰서, 검찰청, 법원",
       "target": "만 19세 미만 아동 및 범죄 피해 장애인",
       "summary": "범죄 피해 아동 및 장애인의 수사·재판 시 의사소통 중개 및 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "범죄 피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-07-31",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청 등 수사기관이나 법원",
+      "target": "성폭력·아동학대 등 범죄 피해 아동(만19세 미만) 및 장애인",
+      "summary": "만 19세 미만 아동, 의사소통이 어려운 장애인 범죄 피해자의 수사·재판상 소통 중개",
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "admin",
       "image": "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=80"
@@ -10495,7 +10520,67 @@
       "summary": "AI 기술로 인구구조 변화(고령화 등)에 대응하는 미래 기술 개발 지원.",
       "link": "https://www.msit.go.kr/",
       "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-31-1",
+      "name": "NIPA 2026년 지능형 예측 및 조기경보 AI 기술 사업화 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-01",
+      "endDate": "2026-12-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI 기술 기반 스타트업 및 중소기업",
+      "summary": "사회 안전망 강화를 위한 AI 예측/조기경보 기술 개발 및 사업화 지원.",
+      "link": "https://www.nipa.kr",
+      "image": "https://images.unsplash.com/photo-1516321165247-4aa89a48be55?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-31-2",
+      "name": "서울 AI 허브 2026년 AI 기반 초거대 언어모델 특화 솔루션 개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-08-01",
+      "endDate": "2027-03-31",
+      "location": "서울 AI 허브",
+      "target": "초거대 AI 기반 스타트업, 연구팀",
+      "summary": "LLM 파인튜닝 및 특정 도메인 특화 AI 서비스 개발 지원.",
+      "link": "https://www.seoulaihub.kr",
+      "image": "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-31-3",
+      "name": "K-Startup 2026년 산업 특화 AIoT 융합 솔루션 창업 가속화 프로그램",
+      "category": "AI지원",
+      "startDate": "2026-07-15",
+      "endDate": "2027-01-15",
+      "location": "K-Startup 창업진흥원",
+      "target": "AIoT 융합 기술 기반 초기 창업기업",
+      "summary": "특정 산업 분야의 AIoT 솔루션 개발 및 사업화를 위한 액셀러레이팅 지원.",
+      "link": "https://www.k-startup.go.kr",
+      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-31-4",
+      "name": "과학기술정보통신부 2026년 저전력 에지 AI 반도체 설계 및 활용 기술 개발",
+      "category": "AI지원",
+      "startDate": "2026-07-01",
+      "endDate": "2029-06-30",
+      "location": "과학기술정보통신부",
+      "target": "AI 반도체 설계 및 응용 연구기관/기업",
+      "summary": "초저전력 에지 AI 반도체 설계 기술 및 이를 활용한 서비스 개발 지원.",
+      "link": "https://www.msit.go.kr",
+      "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-07-31-5",
+      "name": "중소벤처기업부 2026년 중소기업 산업 특화 디지털 트윈 구축 및 활용 지원",
+      "category": "AI지원",
+      "startDate": "2026-08-01",
+      "endDate": "2027-02-28",
+      "location": "기업마당 (bizinfo.go.kr)",
+      "target": "제조, 물류 등 특정 산업 분야 중소기업",
+      "summary": "산업별 특화 디지털 트윈 모델 구축 및 이를 활용한 공정 최적화 지원.",
+      "link": "https://www.bizinfo.go.kr",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-07-30"
+  "lastUpdated": "2026-07-31"
 }
