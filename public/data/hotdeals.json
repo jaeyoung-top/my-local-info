@@ -1,6 +1,3199 @@
 {
   "deals": [
     {
+      "id": "hdz_187957",
+      "title": "모바 V50 Ultra 로봇청소기",
+      "price": "카드631,470원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/01/thumb_9d75687225f524471bd7b4d20716421e.webp",
+      "category": "가전",
+      "site": "11번가",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/10159499937",
+      "publishedAt": "2026-08-01 19:22:05",
+      "likes": 2,
+      "fetchedAt": "2026-08-01T10:27:44.048Z",
+      "priceComparison": [
+        {
+          "site": "11번가",
+          "price": "카드631,470원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "05-12",
+            "price": 699000
+          },
+          {
+            "date": "05-19",
+            "price": 699000
+          },
+          {
+            "date": "05-26",
+            "price": 699000
+          },
+          {
+            "date": "06-02",
+            "price": 699000
+          },
+          {
+            "date": "06-09",
+            "price": 698990
+          },
+          {
+            "date": "06-16",
+            "price": 699000
+          },
+          {
+            "date": "06-23",
+            "price": 649000
+          },
+          {
+            "date": "06-30",
+            "price": 699000
+          },
+          {
+            "date": "07-07",
+            "price": 679000
+          },
+          {
+            "date": "07-14",
+            "price": 649000
+          },
+          {
+            "date": "07-21",
+            "price": 649000
+          },
+          {
+            "date": "07-28",
+            "price": 649000
+          }
+        ],
+        "minPrice": 649000,
+        "maxPrice": 699000
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_187956",
+      "title": "르꼬끄 비아리츠 Z 운동화 (여성사이즈)",
+      "price": "31,251원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/01/thumb_b17dcb72f941c1a70ea398a60cadd0f2.webp",
+      "category": "의류",
+      "site": "SSG",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=724020",
+      "publishedAt": "2026-08-01 19:16:04",
+      "likes": 9,
+      "fetchedAt": "2026-08-01T10:27:44.048Z",
+      "priceComparison": [
+        {
+          "site": "SSG",
+          "price": "31,251원"
+        },
+        {
+          "site": "레노마몰",
+          "price": "32,390원"
+        },
+        {
+          "site": "GS SHOP",
+          "price": "31,740원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": {
+        "text": "여성사이즈만 남아있습니다깔끔해요",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0801/900w_20260801191304_QSyPOqu1C5.jpg"
+        ]
+      },
+      "shopUrl": "https://www.ssg.com/item/itemView.ssg?itemId=1000859488594"
+    },
+    {
+      "id": "hdz_187955",
+      "title": "락토바이오틱스맥스 프로바이오틱스 유산균 4개월분",
+      "price": "22,900원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/01/thumb_0c9e6e1585dd67843b7c70b66f88b8f3.webp",
+      "category": "식품",
+      "site": "지마켓",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=724019",
+      "publishedAt": "2026-08-01 19:10:29",
+      "likes": 7,
+      "fetchedAt": "2026-08-01T10:27:44.048Z",
+      "priceComparison": [
+        {
+          "site": "지마켓",
+          "price": "22,900원"
+        },
+        {
+          "site": "네이버 쇼핑",
+          "price": "25,500원"
+        },
+        {
+          "site": "11번가",
+          "price": "24,900원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "05-12",
+            "price": 35900
+          },
+          {
+            "date": "05-19",
+            "price": 35900
+          },
+          {
+            "date": "05-26",
+            "price": 35900
+          },
+          {
+            "date": "06-02",
+            "price": 35900
+          },
+          {
+            "date": "06-09",
+            "price": 35900
+          },
+          {
+            "date": "06-16",
+            "price": 35900
+          },
+          {
+            "date": "06-23",
+            "price": 35900
+          },
+          {
+            "date": "06-30",
+            "price": 35900
+          },
+          {
+            "date": "07-07",
+            "price": 35900
+          },
+          {
+            "date": "07-14",
+            "price": 35900
+          },
+          {
+            "date": "07-21",
+            "price": 35900
+          },
+          {
+            "date": "07-28",
+            "price": 35900
+          }
+        ],
+        "minPrice": 35900,
+        "maxPrice": 35900
+      },
+      "postContent": {
+        "text": "100억 유산균 4개월분에 22,900원이라 저렴하네요 500억마리 투입 100억마리 보장입니다",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0801/900w_20260801190838_KYKi3DMS8h.jpg"
+        ]
+      },
+      "shopUrl": "https://item.gmarket.co.kr/Item?goodscode=1164625471"
+    },
+    {
+      "id": "hdz_187954",
+      "title": "테이프클리너 스탠드형 13종세트(스탠드봉+핸들+거치대+리필10롤)",
+      "price": "12,930원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/01/thumb_2320267d09db2263ee4023aa85e095b4.webp",
+      "category": "생활용품",
+      "site": "지마켓",
+      "source": "아카라이브",
+      "sourceColor": "#10B981",
+      "link": "https://arca.live/b/hotdeal/178665756?p=1",
+      "publishedAt": "2026-08-01 19:10:04",
+      "likes": 9,
+      "fetchedAt": "2026-08-01T10:27:44.048Z",
+      "priceComparison": [
+        {
+          "site": "지마켓",
+          "price": "12,930원"
+        },
+        {
+          "site": "11번가",
+          "price": "13,900원"
+        },
+        {
+          "site": "SSG.COM",
+          "price": "17,900원"
+        },
+        {
+          "site": "SSG.COM(일반몰)",
+          "price": "15,900원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "05-12",
+            "price": 12960
+          },
+          {
+            "date": "05-19",
+            "price": 13023
+          },
+          {
+            "date": "05-26",
+            "price": 13023
+          },
+          {
+            "date": "06-02",
+            "price": 13897
+          },
+          {
+            "date": "06-09",
+            "price": 14965
+          },
+          {
+            "date": "06-16",
+            "price": 14965
+          },
+          {
+            "date": "06-23",
+            "price": 15645
+          },
+          {
+            "date": "06-30",
+            "price": 16550
+          },
+          {
+            "date": "07-07",
+            "price": 14320
+          },
+          {
+            "date": "07-14",
+            "price": 16190
+          },
+          {
+            "date": "07-21",
+            "price": 15305
+          },
+          {
+            "date": "07-28",
+            "price": 15305
+          }
+        ],
+        "minPrice": 12960,
+        "maxPrice": 16550
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_187953",
+      "title": "바릴라 스파게티, 1kg, 3개",
+      "price": "8,930원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/01/thumb_d158451a8ef982683225c34dac8c8d9f.webp",
+      "category": "식품",
+      "site": "쿠팡",
+      "source": "아카라이브",
+      "sourceColor": "#10B981",
+      "link": "https://arca.live/b/hotdeal/178665724?p=1",
+      "publishedAt": "2026-08-01 19:08:09",
+      "likes": 9,
+      "fetchedAt": "2026-08-01T10:27:44.048Z",
+      "priceComparison": [
+        {
+          "site": "쿠팡",
+          "price": "8,930원"
+        },
+        {
+          "site": "11번가",
+          "price": "4,120원"
+        },
+        {
+          "site": "이마트몰(SSG.COM)",
+          "price": "7,680원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_187952",
+      "title": "[지마켓] SAPPHIRE 라데온 RX 9070 XT NITRO+ OC D6 16GB 카드할인",
+      "price": "1,222,910원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/01/thumb_36a2f94238fd2a8455b522c9517b96d4.webp",
+      "category": "PC",
+      "site": "지마켓",
+      "source": "퀘이사존",
+      "sourceColor": "#7C3AED",
+      "link": "https://quasarzone.com/bbs/qb_saleinfo/views/1974509",
+      "publishedAt": "2026-08-01 19:08:04",
+      "likes": 26,
+      "fetchedAt": "2026-08-01T10:27:44.048Z",
+      "priceComparison": [
+        {
+          "site": "지마켓",
+          "price": "1,222,910원"
+        },
+        {
+          "site": "에누리",
+          "price": "1,249,260원"
+        },
+        {
+          "site": "가이드컴",
+          "price": "1,249,000원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "05-12",
+            "price": 1331840
+          },
+          {
+            "date": "05-19",
+            "price": 1331700
+          },
+          {
+            "date": "05-26",
+            "price": 1331000
+          },
+          {
+            "date": "06-02",
+            "price": 1319000
+          },
+          {
+            "date": "06-09",
+            "price": 1319000
+          },
+          {
+            "date": "06-16",
+            "price": 1289000
+          },
+          {
+            "date": "06-23",
+            "price": 1279000
+          },
+          {
+            "date": "06-30",
+            "price": 1330220
+          },
+          {
+            "date": "07-07",
+            "price": 1198890
+          },
+          {
+            "date": "07-14",
+            "price": 1339000
+          },
+          {
+            "date": "07-21",
+            "price": 1156140
+          },
+          {
+            "date": "07-28",
+            "price": 1169000
+          }
+        ],
+        "minPrice": 1156140,
+        "maxPrice": 1339000
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_187951",
+      "title": "미국산 돼지 등갈비(로인립) 총 2KG (500g x 4팩)",
+      "price": "19,800원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/01/thumb_026293a1f53b8f5e6bdf1d7a3040cff5.webp",
+      "category": "식품",
+      "site": "지마켓",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/10159424411",
+      "publishedAt": "2026-08-01 19:02:07",
+      "likes": 10,
+      "fetchedAt": "2026-08-01T10:27:44.048Z",
+      "priceComparison": [
+        {
+          "site": "지마켓",
+          "price": "19,800원"
+        },
+        {
+          "site": "SSG.COM",
+          "price": "24,900원"
+        },
+        {
+          "site": "쿠팡",
+          "price": "48,000원"
+        },
+        {
+          "site": "다나와",
+          "price": "21,600원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "05-12",
+            "price": 25280
+          },
+          {
+            "date": "05-19",
+            "price": 25790
+          },
+          {
+            "date": "05-26",
+            "price": 25780
+          },
+          {
+            "date": "06-02",
+            "price": 24900
+          },
+          {
+            "date": "06-09",
+            "price": 24900
+          },
+          {
+            "date": "06-16",
+            "price": 24900
+          },
+          {
+            "date": "06-23",
+            "price": 24900
+          },
+          {
+            "date": "06-30",
+            "price": 24900
+          },
+          {
+            "date": "07-07",
+            "price": 24900
+          },
+          {
+            "date": "07-14",
+            "price": 24900
+          },
+          {
+            "date": "07-21",
+            "price": 24900
+          },
+          {
+            "date": "07-28",
+            "price": 24900
+          }
+        ],
+        "minPrice": 24900,
+        "maxPrice": 25790
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_187950",
+      "title": "홈스타 퍼펙트 세탁조 클리너, 450ml, 3개",
+      "price": "7,080원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/01/thumb_8e95a0c85c088bd013805c5cfab93681.webp",
+      "category": "생활용품",
+      "site": "쿠팡",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/10159418195",
+      "publishedAt": "2026-08-01 19:00:06",
+      "likes": 7,
+      "fetchedAt": "2026-08-01T10:27:44.048Z",
+      "priceComparison": [
+        {
+          "site": "쿠팡",
+          "price": "7,080원"
+        },
+        {
+          "site": "GS SHOP",
+          "price": "10,200원"
+        },
+        {
+          "site": "SSG.COM",
+          "price": "16,350원"
+        },
+        {
+          "site": "11번가",
+          "price": "11,000원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "05-12",
+            "price": 10890
+          },
+          {
+            "date": "05-19",
+            "price": 10880
+          },
+          {
+            "date": "05-26",
+            "price": 9360
+          },
+          {
+            "date": "06-02",
+            "price": 9400
+          },
+          {
+            "date": "06-09",
+            "price": 9470
+          },
+          {
+            "date": "06-16",
+            "price": 9360
+          },
+          {
+            "date": "06-23",
+            "price": 9360
+          },
+          {
+            "date": "06-30",
+            "price": 9530
+          },
+          {
+            "date": "07-07",
+            "price": 9560
+          },
+          {
+            "date": "07-14",
+            "price": 9560
+          },
+          {
+            "date": "07-21",
+            "price": 9560
+          },
+          {
+            "date": "07-28",
+            "price": 9220
+          }
+        ],
+        "minPrice": 9220,
+        "maxPrice": 10890
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_187949",
+      "title": "폰타나 파스타소스600g 2+2병+면500g 1개 증정",
+      "price": "15,900원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/01/thumb_1355899b40c88a6adf8cea7d6b01675d.webp",
+      "category": "식품",
+      "site": "롯데온",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=724018",
+      "publishedAt": "2026-08-01 18:58:22",
+      "likes": 12,
+      "fetchedAt": "2026-08-01T10:27:44.048Z",
+      "priceComparison": [
+        {
+          "site": "롯데온",
+          "price": "15,900원"
+        },
+        {
+          "site": "GS SHOP",
+          "price": "19,900원"
+        },
+        {
+          "site": "동원몰",
+          "price": "17,910원"
+        },
+        {
+          "site": "11번가",
+          "price": "21,900원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "05-12",
+            "price": 15960
+          },
+          {
+            "date": "05-19",
+            "price": 15960
+          },
+          {
+            "date": "05-26",
+            "price": 16050
+          },
+          {
+            "date": "06-02",
+            "price": 15960
+          },
+          {
+            "date": "06-09",
+            "price": 15960
+          },
+          {
+            "date": "06-16",
+            "price": 15960
+          },
+          {
+            "date": "06-23",
+            "price": 15960
+          },
+          {
+            "date": "06-30",
+            "price": 15960
+          },
+          {
+            "date": "07-07",
+            "price": 16050
+          },
+          {
+            "date": "07-14",
+            "price": 16130
+          },
+          {
+            "date": "07-21",
+            "price": 16130
+          },
+          {
+            "date": "07-28",
+            "price": 16130
+          }
+        ],
+        "minPrice": 15960,
+        "maxPrice": 16130
+      },
+      "postContent": {
+        "text": "병당 3,900원이라 쟁여놔도 좋은 가격대네요.면증정있고 저당제품도 있는데 추가금 붙습니다.미트라구랑 아라비아따 맛있게 먹고있는데 쟁여놔야겠네요 ㅎ",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0801/20260801185704_7abOKQi43I.jpg",
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0801/20260801185703_auGSr1CETU.jpg"
+        ]
+      },
+      "shopUrl": "https://www.lotteon.com/p/product/LO2355837832?entryPoint=bo"
+    },
+    {
+      "id": "hdz_187948",
+      "title": "빅 디스플레이 2.02INCH 스마트워치",
+      "price": "56,050원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/01/thumb_ef73ae50926d52a7bf8967533ee8bc56.webp",
+      "category": "가전",
+      "site": "롯데온",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=724017",
+      "publishedAt": "2026-08-01 18:54:11",
+      "likes": 23,
+      "fetchedAt": "2026-08-01T10:27:44.048Z",
+      "priceComparison": [
+        {
+          "site": "롯데온",
+          "price": "56,050원"
+        },
+        {
+          "site": "블라웁unkt 라이프 공식몰",
+          "price": "79,800원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": {
+        "text": "건강/운동 관련 기능은 기본적으로 필요한거 있고ip67 방진 방수 스마트워치입니다금액대 부담스럽지 않아서 써보실분들 보시면 좋을것 같습니다",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0801/900w_20260801185351_3ImJOOEH5N.jpg"
+        ]
+      },
+      "shopUrl": "https://www.lotteon.com/p/product/LO2734750823"
+    },
+    {
+      "id": "hdz_187947",
+      "title": "호올스 스틱 블루베리 27.9g 20개",
+      "price": "6,720원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/01/thumb_1184337d4b531bb6e1a61e4c8f6a11d1.webp",
+      "category": "식품",
+      "site": "11번가",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/10159388826",
+      "publishedAt": "2026-08-01 18:54:05",
+      "likes": 9,
+      "fetchedAt": "2026-08-01T10:27:44.048Z",
+      "priceComparison": [
+        {
+          "site": "11번가",
+          "price": "6,720원"
+        },
+        {
+          "site": "쿠팡",
+          "price": "8,900원"
+        },
+        {
+          "site": "G마켓",
+          "price": "14,900원"
+        },
+        {
+          "site": "SSG.COM",
+          "price": "14,100원"
+        },
+        {
+          "site": "클릭몰",
+          "price": "13,890원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "05-12",
+            "price": 11360
+          },
+          {
+            "date": "05-19",
+            "price": 11360
+          },
+          {
+            "date": "05-26",
+            "price": 11350
+          },
+          {
+            "date": "06-02",
+            "price": 10960
+          },
+          {
+            "date": "06-09",
+            "price": 13790
+          },
+          {
+            "date": "06-16",
+            "price": 13940
+          },
+          {
+            "date": "06-23",
+            "price": 9900
+          },
+          {
+            "date": "06-30",
+            "price": 9610
+          },
+          {
+            "date": "07-07",
+            "price": 14160
+          },
+          {
+            "date": "07-14",
+            "price": 8940
+          },
+          {
+            "date": "07-21",
+            "price": 10710
+          },
+          {
+            "date": "07-28",
+            "price": 10350
+          }
+        ],
+        "minPrice": 8940,
+        "maxPrice": 14160
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_187946",
+      "title": "레노버 Xiaoxin Pad Pro 13 인치 2026 태블릿 PC TB376FC AI패드8+256G 중국내수용 관부가세포함",
+      "price": "토스366,322",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/01/thumb_4335ef05f3cd5393d6ea119171ccf017.webp",
+      "category": "PC",
+      "site": "롯데온",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/10159346386",
+      "publishedAt": "2026-08-01 18:48:06",
+      "likes": 43,
+      "fetchedAt": "2026-08-01T10:27:44.048Z",
+      "priceComparison": [
+        {
+          "site": "롯데온",
+          "price": "토스366,322"
+        },
+        {
+          "site": "11번가",
+          "price": "426,000"
+        },
+        {
+          "site": "에누리 가격비교",
+          "price": "435,000"
+        },
+        {
+          "site": "Youchen",
+          "price": "435,000"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "05-12",
+            "price": 379240
+          },
+          {
+            "date": "05-19",
+            "price": 384240
+          },
+          {
+            "date": "05-26",
+            "price": 384240
+          },
+          {
+            "date": "06-02",
+            "price": 352600
+          },
+          {
+            "date": "06-09",
+            "price": 354640
+          },
+          {
+            "date": "06-16",
+            "price": 342980
+          },
+          {
+            "date": "06-23",
+            "price": 344430
+          },
+          {
+            "date": "06-30",
+            "price": 342950
+          },
+          {
+            "date": "07-07",
+            "price": 349200
+          },
+          {
+            "date": "07-14",
+            "price": 344100
+          },
+          {
+            "date": "07-21",
+            "price": 328960
+          },
+          {
+            "date": "07-28",
+            "price": 319000
+          }
+        ],
+        "minPrice": 319000,
+        "maxPrice": 384240
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_187945",
+      "title": "데이터 안심 100분 5GB+(USIM) (6개월)",
+      "price": "0원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/01/thumb_dfdc22976c3a35994c9e99d252ab21da.webp",
+      "category": "기타",
+      "site": "인스모바일",
+      "source": "아카라이브",
+      "sourceColor": "#10B981",
+      "link": "https://arca.live/b/hotdeal/178662686?p=1",
+      "publishedAt": "2026-08-01 18:38:04",
+      "likes": 31,
+      "fetchedAt": "2026-08-01T10:27:44.048Z",
+      "priceComparison": [],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "05-12",
+            "price": 23100
+          },
+          {
+            "date": "05-19",
+            "price": 23100
+          },
+          {
+            "date": "05-26",
+            "price": 23100
+          },
+          {
+            "date": "06-02",
+            "price": 24750
+          },
+          {
+            "date": "06-09",
+            "price": 23760
+          },
+          {
+            "date": "06-16",
+            "price": 23760
+          },
+          {
+            "date": "06-23",
+            "price": 23760
+          },
+          {
+            "date": "06-30",
+            "price": 23760
+          },
+          {
+            "date": "07-07",
+            "price": 24750
+          },
+          {
+            "date": "07-14",
+            "price": 23100
+          },
+          {
+            "date": "07-21",
+            "price": 23100
+          },
+          {
+            "date": "07-28",
+            "price": 23100
+          }
+        ],
+        "minPrice": 23100,
+        "maxPrice": 24750
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_187944",
+      "title": "이디야 5천원 이상 머니결제시 2,500원 적립",
+      "price": "5,000원이상",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/01/thumb_b372e7b1d964155a427295ec4926e30e.webp",
+      "category": "기타",
+      "site": "네이버",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/10159280814",
+      "publishedAt": "2026-08-01 18:26:05",
+      "likes": 19,
+      "fetchedAt": "2026-08-01T10:27:44.048Z",
+      "priceComparison": [
+        {
+          "site": "네이버",
+          "price": "5,000원이상"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_187943",
+      "title": "[기타] SKT망 A모바일 100GB + 5mbps (5개월)",
+      "price": "2,900원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/01/thumb_d5bef35e8c0dab84ab8b8a7f0731b3e4.webp",
+      "category": "기타",
+      "site": null,
+      "source": "퀘이사존",
+      "sourceColor": "#7C3AED",
+      "link": "https://quasarzone.com/bbs/qb_saleinfo/views/1974502",
+      "publishedAt": "2026-08-01 18:26:04",
+      "likes": 35,
+      "fetchedAt": "2026-08-01T10:27:44.048Z",
+      "priceComparison": [
+        {
+          "site": "핫딜모음",
+          "price": "2,900원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_187941",
+      "title": "지프 2PACK 190g 싱글 에어그램 반팔 티셔츠 외 다양",
+      "price": "24,900원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/01/thumb_ddde13b94b9df7e47a338d996158ff64.webp",
+      "category": "의류",
+      "site": "카카오",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=724015",
+      "publishedAt": "2026-08-01 18:16:43",
+      "likes": 52,
+      "fetchedAt": "2026-08-01T10:27:44.048Z",
+      "priceComparison": [
+        {
+          "site": "카카오",
+          "price": "24,900원"
+        },
+        {
+          "site": "SSG.COM",
+          "price": "23,900원"
+        },
+        {
+          "site": "지프 공식 온라인 스토어",
+          "price": "55,000원"
+        },
+        {
+          "site": "GS SHOP",
+          "price": "38,020원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "05-12",
+            "price": 23080
+          },
+          {
+            "date": "05-19",
+            "price": 21840
+          },
+          {
+            "date": "05-26",
+            "price": 21450
+          },
+          {
+            "date": "06-02",
+            "price": 24510
+          },
+          {
+            "date": "06-09",
+            "price": 26520
+          },
+          {
+            "date": "06-16",
+            "price": 32450
+          },
+          {
+            "date": "06-23",
+            "price": 34340
+          },
+          {
+            "date": "06-30",
+            "price": 34320
+          },
+          {
+            "date": "07-07",
+            "price": 30360
+          },
+          {
+            "date": "07-14",
+            "price": 29700
+          },
+          {
+            "date": "07-21",
+            "price": 30850
+          },
+          {
+            "date": "07-28",
+            "price": 25380
+          }
+        ],
+        "minPrice": 21450,
+        "maxPrice": 34340
+      },
+      "postContent": {
+        "text": "성인꺼는 24,900원키즈꺼는 23,400원 2장구성이에요편하게 입기 좋습니다",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0801/900w_20260801181558_3T5DKrFHUJ.jpg"
+        ]
+      },
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_187940",
+      "title": "15켤레세트 2중쿠션 양말",
+      "price": "10,870원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/01/thumb_95cc42a2533ea0ca8aecc2907faa278f.webp",
+      "category": "의류",
+      "site": "옥션",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=724016",
+      "publishedAt": "2026-08-01 18:16:31",
+      "likes": 23,
+      "fetchedAt": "2026-08-01T10:27:44.048Z",
+      "priceComparison": [
+        {
+          "site": "옥션",
+          "price": "10,870원"
+        },
+        {
+          "site": "쿠팡",
+          "price": "19,880원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "05-12",
+            "price": 8280
+          },
+          {
+            "date": "05-19",
+            "price": 8480
+          },
+          {
+            "date": "05-26",
+            "price": 8480
+          },
+          {
+            "date": "06-02",
+            "price": 8480
+          },
+          {
+            "date": "06-09",
+            "price": 8410
+          },
+          {
+            "date": "06-16",
+            "price": 8780
+          },
+          {
+            "date": "06-23",
+            "price": 8780
+          },
+          {
+            "date": "06-30",
+            "price": 8780
+          },
+          {
+            "date": "07-07",
+            "price": 8780
+          },
+          {
+            "date": "07-14",
+            "price": 8780
+          },
+          {
+            "date": "07-21",
+            "price": 8780
+          },
+          {
+            "date": "07-28",
+            "price": 8780
+          }
+        ],
+        "minPrice": 8280,
+        "maxPrice": 8780
+      },
+      "postContent": {
+        "text": "월첫쿠폰에 카드할인 받으면 발목10,870원 중목12,360원 장목13,840원 나오네요",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0801/900w_20260801181500_J1ofRgLlaP.jpg"
+        ]
+      },
+      "shopUrl": "https://itempage3.auction.co.kr/DetailView.aspx?itemno=F234352816"
+    },
+    {
+      "id": "hdz_187939",
+      "title": "반본체 모음집 게이밍 편",
+      "price": "가격별상이",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/01/thumb_6d3a275abd1932e1de0fd25becf14385.webp",
+      "category": "PC",
+      "site": "G마켓",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/10158782663",
+      "publishedAt": "2026-08-01 18:16:13",
+      "likes": 92,
+      "fetchedAt": "2026-08-01T10:27:44.048Z",
+      "priceComparison": [
+        {
+          "site": "G마켓",
+          "price": "가격별상이"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_187938",
+      "title": "프레시누리 청정우 차돌박이 1.5kg (250gX6팩)",
+      "price": "26,790원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/01/thumb_b918e67cbb99a9b8d1bfee0155ca1b92.webp",
+      "category": "식품",
+      "site": "지마켓",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=724014",
+      "publishedAt": "2026-08-01 18:14:19",
+      "likes": 27,
+      "fetchedAt": "2026-08-01T10:27:44.048Z",
+      "priceComparison": [
+        {
+          "site": "지마켓",
+          "price": "26,790원"
+        },
+        {
+          "site": "11번가",
+          "price": "26,870원"
+        },
+        {
+          "site": "옥션",
+          "price": "21,910원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "05-12",
+            "price": 22990
+          },
+          {
+            "date": "05-19",
+            "price": 23440
+          },
+          {
+            "date": "05-26",
+            "price": 23260
+          },
+          {
+            "date": "06-02",
+            "price": 22530
+          },
+          {
+            "date": "06-09",
+            "price": 22530
+          },
+          {
+            "date": "06-16",
+            "price": 22530
+          },
+          {
+            "date": "06-23",
+            "price": 22530
+          },
+          {
+            "date": "06-30",
+            "price": 22530
+          },
+          {
+            "date": "07-07",
+            "price": 22530
+          },
+          {
+            "date": "07-14",
+            "price": 22530
+          },
+          {
+            "date": "07-21",
+            "price": 22530
+          },
+          {
+            "date": "07-28",
+            "price": 22530
+          }
+        ],
+        "minPrice": 22530,
+        "maxPrice": 23440
+      },
+      "postContent": {
+        "text": "한팩당 4460원요새 차돌 가격이 많이 올라서 2.7만원대면 나쁘지 않은거같습니다",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0801/900w_20260801181201_5dyhkskoOV.jpg",
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0801/900w_20260801181152_8Ld1kQMkt8.jpg"
+        ]
+      },
+      "shopUrl": "https://item.gmarket.co.kr/Item?goodscode=1566708507"
+    },
+    {
+      "id": "hdz_187937",
+      "title": "아오리 4kg 중소과 (27과내외)",
+      "price": "10,090원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/01/thumb_eeb208f334aacb9d09fc8615b30fd248.webp",
+      "category": "식품",
+      "site": "11번가",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=724013",
+      "publishedAt": "2026-08-01 18:10:33",
+      "likes": 6,
+      "fetchedAt": "2026-08-01T10:27:44.049Z",
+      "priceComparison": [
+        {
+          "site": "11번가",
+          "price": "10,090원"
+        },
+        {
+          "site": "지마켓",
+          "price": "12,510원"
+        },
+        {
+          "site": "오아시스마켓",
+          "price": "11,400원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "07-21",
+            "price": 14430
+          },
+          {
+            "date": "07-28",
+            "price": 14430
+          }
+        ],
+        "minPrice": 14430,
+        "maxPrice": 14430
+      },
+      "postContent": {
+        "text": "키로에 2500원 정도입니다사이즈랑 키로 다양하게 있네요",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0801/900w_20260801180913_sh94wBa9cA.jpg",
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0801/900w_20260801180926_kZlS5o2UB8.jpg",
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0801/900w_20260801180905_9KmjJGsD37.jpg"
+        ]
+      },
+      "shopUrl": "https://www.11st.co.kr/products/9497633060"
+    },
+    {
+      "id": "hdz_187936",
+      "title": "초꼬북4 오감자4 썬칩4 포카칩4",
+      "price": "9,900원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/01/thumb_b617b333c58e7afffc084aeadc5a349b.webp",
+      "category": "식품",
+      "site": "11번가",
+      "source": "아카라이브",
+      "sourceColor": "#10B981",
+      "link": "https://arca.live/b/hotdeal/178660274?p=1",
+      "publishedAt": "2026-08-01 18:10:23",
+      "likes": 29,
+      "fetchedAt": "2026-08-01T10:27:44.483Z",
+      "priceComparison": [
+        {
+          "site": "11번가",
+          "price": "9,900원"
+        },
+        {
+          "site": "쿠팡",
+          "price": "11,300원"
+        },
+        {
+          "site": "다나와",
+          "price": "11,920원"
+        },
+        {
+          "site": "SSG.COM",
+          "price": "14,900원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "05-12",
+            "price": 10110
+          },
+          {
+            "date": "05-19",
+            "price": 11000
+          },
+          {
+            "date": "05-26",
+            "price": 10090
+          },
+          {
+            "date": "06-02",
+            "price": 10850
+          },
+          {
+            "date": "06-09",
+            "price": 10380
+          },
+          {
+            "date": "06-16",
+            "price": 10380
+          },
+          {
+            "date": "06-23",
+            "price": 10380
+          },
+          {
+            "date": "06-30",
+            "price": 10380
+          },
+          {
+            "date": "07-07",
+            "price": 10500
+          },
+          {
+            "date": "07-14",
+            "price": 10500
+          },
+          {
+            "date": "07-21",
+            "price": 10920
+          },
+          {
+            "date": "07-28",
+            "price": 10920
+          }
+        ],
+        "minPrice": 10090,
+        "maxPrice": 11000
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_187935",
+      "title": "특품 정량 로메인청상추 1kg",
+      "price": "9,520원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/01/thumb_1c69d539766bd4bb23da489a693ee7f4.webp",
+      "category": "식품",
+      "site": "롯데온",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=724011",
+      "publishedAt": "2026-08-01 18:08:37",
+      "likes": 5,
+      "fetchedAt": "2026-08-01T10:27:44.483Z",
+      "priceComparison": [
+        {
+          "site": "롯데온",
+          "price": "9,520원"
+        },
+        {
+          "site": "11번가",
+          "price": "8,370원"
+        },
+        {
+          "site": "SSG.COM",
+          "price": "21,900원"
+        },
+        {
+          "site": "11번가 또다른 판매자",
+          "price": "9,900원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": {
+        "text": "20% 쿠폰으로 9520원 나옵니다로메인 샐러드, 샌드위치용으로 좋아요",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0801/900w_20260801180559_hE8Yh7ePle.jpeg"
+        ]
+      },
+      "shopUrl": "https://www.lotteon.com/p/product/LO2579658749"
+    },
+    {
+      "id": "hdz_187934",
+      "title": "엑스솔 X-33 리커버리 다용도 기능성 슬리퍼",
+      "price": "9,900원",
+      "image": null,
+      "category": "의류",
+      "site": "카카오",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=724012",
+      "publishedAt": "2026-08-01 18:08:22",
+      "likes": 10,
+      "fetchedAt": "2026-08-01T10:27:44.483Z",
+      "priceComparison": [
+        {
+          "site": "카카오",
+          "price": "9,900원"
+        },
+        {
+          "site": "11번가",
+          "price": "38,700원"
+        },
+        {
+          "site": "신세계몰",
+          "price": "41,000원"
+        },
+        {
+          "site": "엑스솔 공식스토어",
+          "price": "59,000원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": {
+        "text": "편하게 신기 좋아요가격 괜찮습니다",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0801/900w_20260801180807_9VZllsTW6o.jpg"
+        ]
+      },
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_187933",
+      "title": "포멀비키즈 3in1 항균 대용량 핸드워시 폼 클린솝향 1L 2개+비치볼2개",
+      "price": "12,900원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/01/thumb_553dbf5cd2341bab94947e2425b4110b.webp",
+      "category": "생활용품",
+      "site": "11번가",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/10159208940",
+      "publishedAt": "2026-08-01 18:04:05",
+      "likes": 10,
+      "fetchedAt": "2026-08-01T10:27:44.483Z",
+      "priceComparison": [
+        {
+          "site": "11번가",
+          "price": "12,900원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_187931",
+      "title": "티오피 마일드 에스프레소 라떼 300ml 10개",
+      "price": "12,900원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/01/thumb_cf6c365eb1f5942378a136d057f64758.webp",
+      "category": "식품",
+      "site": "쿠팡 로켓프레시",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/10159161114",
+      "publishedAt": "2026-08-01 18:02:06",
+      "likes": 10,
+      "fetchedAt": "2026-08-01T10:27:44.483Z",
+      "priceComparison": [
+        {
+          "site": "쿠팡 로켓프레시",
+          "price": "12,900원"
+        },
+        {
+          "site": "위즈캣몰",
+          "price": "15,730원"
+        },
+        {
+          "site": "다나와 최저가몰",
+          "price": "15,630원"
+        },
+        {
+          "site": "우리들쇼핑",
+          "price": "11,590원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "05-12",
+            "price": 14800
+          },
+          {
+            "date": "05-19",
+            "price": 16005
+          },
+          {
+            "date": "05-26",
+            "price": 16005
+          },
+          {
+            "date": "06-02",
+            "price": 14470
+          },
+          {
+            "date": "06-09",
+            "price": 12900
+          },
+          {
+            "date": "06-16",
+            "price": 16005
+          },
+          {
+            "date": "06-23",
+            "price": 16005
+          },
+          {
+            "date": "06-30",
+            "price": 14910
+          },
+          {
+            "date": "07-07",
+            "price": 14910
+          },
+          {
+            "date": "07-14",
+            "price": 14770
+          },
+          {
+            "date": "07-21",
+            "price": 14770
+          },
+          {
+            "date": "07-28",
+            "price": 14770
+          }
+        ],
+        "minPrice": 12900,
+        "maxPrice": 16005
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_187930",
+      "title": "샤오미 4K UHD Mini LED TV  189cm(75인치)",
+      "price": "857,820원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/01/thumb_ab0c23f335eb17ea3a3bee288a679a88.webp",
+      "category": "가전",
+      "site": "쿠팡",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/10159184820",
+      "publishedAt": "2026-08-01 18:00:09",
+      "likes": 45,
+      "fetchedAt": "2026-08-01T10:27:44.483Z",
+      "priceComparison": [
+        {
+          "site": "쿠팡",
+          "price": "857,820원"
+        },
+        {
+          "site": "11번가",
+          "price": "1,698,000원"
+        },
+        {
+          "site": "다나와 가격비교",
+          "price": "1,114,597원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "05-12",
+            "price": 873200
+          },
+          {
+            "date": "05-19",
+            "price": 1257150
+          },
+          {
+            "date": "05-26",
+            "price": 1257150
+          },
+          {
+            "date": "06-02",
+            "price": 1257150
+          },
+          {
+            "date": "06-09",
+            "price": 1168410
+          },
+          {
+            "date": "06-16",
+            "price": 1168410
+          },
+          {
+            "date": "06-23",
+            "price": 1109250
+          },
+          {
+            "date": "06-30",
+            "price": 1109250
+          },
+          {
+            "date": "07-07",
+            "price": 1050090
+          },
+          {
+            "date": "07-14",
+            "price": 1050090
+          },
+          {
+            "date": "07-21",
+            "price": 841000
+          },
+          {
+            "date": "07-28",
+            "price": 806310
+          }
+        ],
+        "minPrice": 806310,
+        "maxPrice": 1257150
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_187928",
+      "title": "크록스 클래식 클로그",
+      "price": "36,220원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/01/thumb_21249878bf8af52173cd805d358d6231.webp",
+      "category": "기타",
+      "site": "롯데온",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/10159184275",
+      "publishedAt": "2026-08-01 17:58:05",
+      "likes": 23,
+      "fetchedAt": "2026-08-01T10:27:44.483Z",
+      "priceComparison": [
+        {
+          "site": "롯데온",
+          "price": "36,220원"
+        },
+        {
+          "site": "GS SHOP",
+          "price": "36,220원"
+        },
+        {
+          "site": "다나와 가격비교",
+          "price": "33,000원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "05-12",
+            "price": 30750
+          },
+          {
+            "date": "05-19",
+            "price": 32500
+          },
+          {
+            "date": "05-26",
+            "price": 32500
+          },
+          {
+            "date": "06-02",
+            "price": 32500
+          },
+          {
+            "date": "06-09",
+            "price": 32500
+          },
+          {
+            "date": "06-16",
+            "price": 32500
+          },
+          {
+            "date": "06-23",
+            "price": 33200
+          },
+          {
+            "date": "06-30",
+            "price": 33200
+          },
+          {
+            "date": "07-07",
+            "price": 33200
+          },
+          {
+            "date": "07-14",
+            "price": 33200
+          },
+          {
+            "date": "07-21",
+            "price": 29660
+          },
+          {
+            "date": "07-28",
+            "price": 32850
+          }
+        ],
+        "minPrice": 29660,
+        "maxPrice": 33200
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_187927",
+      "title": "남여공용 봄여름 등산 메쉬 돔햇",
+      "price": "16,750원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/01/thumb_b01b03f0ae44279b367e849b8b63afe9.webp",
+      "category": "의류",
+      "site": "롯데온",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=724008",
+      "publishedAt": "2026-08-01 17:54:36",
+      "likes": 23,
+      "fetchedAt": "2026-08-01T10:27:44.483Z",
+      "priceComparison": [
+        {
+          "site": "롯데온",
+          "price": "16,750원"
+        },
+        {
+          "site": "GS SHOP",
+          "price": "20,880원"
+        },
+        {
+          "site": "GS SHOP",
+          "price": "25,000원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "05-12",
+            "price": 33620
+          },
+          {
+            "date": "05-19",
+            "price": 33620
+          },
+          {
+            "date": "05-26",
+            "price": 34380
+          },
+          {
+            "date": "06-02",
+            "price": 34380
+          },
+          {
+            "date": "06-09",
+            "price": 33620
+          },
+          {
+            "date": "06-16",
+            "price": 33620
+          },
+          {
+            "date": "06-23",
+            "price": 34380
+          },
+          {
+            "date": "06-30",
+            "price": 34380
+          },
+          {
+            "date": "07-07",
+            "price": 34380
+          },
+          {
+            "date": "07-14",
+            "price": 34380
+          },
+          {
+            "date": "07-21",
+            "price": 34380
+          },
+          {
+            "date": "07-28",
+            "price": 34380
+          }
+        ],
+        "minPrice": 33620,
+        "maxPrice": 34380
+      },
+      "postContent": {
+        "text": "휴가철 용으로 샀는데 두개 이상 무배여서 같이 가는 사람들꺼까지 5개 구매했는데 가격면에서 고트임야외 계획있는 분들은 강추 할만 하네요",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0801/900w_20260801175106_0rTI4s4snd.png"
+        ]
+      },
+      "shopUrl": "https://www.lotteon.com/m/product/LE1217243242"
+    },
+    {
+      "id": "hdz_187926",
+      "title": "하츠 공기정화 11L스마트 제습기",
+      "price": "79,000원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/01/thumb_c902d4d9ac32bcb4759c7c4dda639e78.webp",
+      "category": "가전",
+      "site": "카카오",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=724009",
+      "publishedAt": "2026-08-01 17:54:13",
+      "likes": 22,
+      "fetchedAt": "2026-08-01T10:27:44.483Z",
+      "priceComparison": [
+        {
+          "site": "카카오",
+          "price": "79,000원"
+        },
+        {
+          "site": "11번가",
+          "price": "79,000원"
+        },
+        {
+          "site": "하츠 공식몰",
+          "price": "159,000원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": {
+        "text": "옷방이나 침실 서브용으로 두고 쓰기 좋아보입니다타이머 모드, 저소음 수면모드, 연속배수도 가능하네요",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0801/20260801175238_UUgCRn6hLF.jpg"
+        ]
+      },
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_187925",
+      "title": "블랙야크키즈 그래픽 반팔+반바지세트",
+      "price": "19,560원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/01/thumb_954f8f8cd04306ffd13ca0c2341c0f1a.webp",
+      "category": "의류",
+      "site": "롯데백화점",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=724007",
+      "publishedAt": "2026-08-01 17:48:18",
+      "likes": 11,
+      "fetchedAt": "2026-08-01T10:27:44.483Z",
+      "priceComparison": [
+        {
+          "site": "롯데백화점",
+          "price": "19,560원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "07-14",
+            "price": 26210
+          },
+          {
+            "date": "07-21",
+            "price": 58530
+          },
+          {
+            "date": "07-28",
+            "price": 58530
+          }
+        ],
+        "minPrice": 26210,
+        "maxPrice": 58530
+      },
+      "postContent": {
+        "text": "통기성 좋은 면폴리 소재라여름에 입기 좋고 디자인 심플합니다반팔,반바지 세트인데 만원대면 저렴해요",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0801/900w_20260801174654_dKmw4cGXxE.jpg",
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0801/900w_20260801174704_SM8k6kpDED.jpg"
+        ]
+      },
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_187924",
+      "title": "베어파우 FINN 여성 여름 경량 EVA 슬리퍼 3종택1 1062RB-W",
+      "price": "27,000원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/01/thumb_4c506108719ea6bb88d347ab60288fdf.webp",
+      "category": "의류",
+      "site": "롯데홈쇼핑",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=724005",
+      "publishedAt": "2026-08-01 17:40:52",
+      "likes": 12,
+      "fetchedAt": "2026-08-01T10:27:44.483Z",
+      "priceComparison": [
+        {
+          "site": "롯데홈쇼핑",
+          "price": "27,000원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": {
+        "text": "[베어파우]FINN 여성 여름 경량 EVA 슬리퍼 3종택1 1062RB-W롯데홈쇼핑https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=3372796192#none가볍고 막 신기 좋아서 추천해봅니다굽은 4CM 정도 되고 여행이나 집에서 신기 좋은것 같네요집에서 쓰레기 버리러 다닐때 쓰고 있습니다!블랙은 사이즈가 240 밖에 없어서 크림색 샀는데 정사이즈로 신으시는게 좋을것같아여가격 괜찮은데 유료배송이 조금 아쉽네요...",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0801/900w_20260801173627_EqwKyseOpv.jpg",
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0801/20260801173629_ineCc2DoLl.png"
+        ]
+      },
+      "shopUrl": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=3372796192#none"
+    },
+    {
+      "id": "hdz_187923",
+      "title": "롯데 구구 크러스터 660ml x 6개",
+      "price": "23,580원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/01/thumb_7991708fb56bdcc6bd9e460156a49ce6.webp",
+      "category": "식품",
+      "site": "롯데온",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=724006",
+      "publishedAt": "2026-08-01 17:40:23",
+      "likes": 18,
+      "fetchedAt": "2026-08-01T10:27:44.483Z",
+      "priceComparison": [
+        {
+          "site": "롯데온",
+          "price": "23,580원"
+        },
+        {
+          "site": "쿠팡",
+          "price": "25,560원"
+        },
+        {
+          "site": "신세계쇼핑",
+          "price": "32,900원"
+        },
+        {
+          "site": "GS SHOP",
+          "price": "32,500원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "05-12",
+            "price": 5500
+          },
+          {
+            "date": "05-19",
+            "price": 5390
+          },
+          {
+            "date": "05-26",
+            "price": 5390
+          },
+          {
+            "date": "06-02",
+            "price": 5000
+          },
+          {
+            "date": "06-09",
+            "price": 5000
+          },
+          {
+            "date": "06-16",
+            "price": 5000
+          },
+          {
+            "date": "06-23",
+            "price": 5000
+          },
+          {
+            "date": "06-30",
+            "price": 5000
+          },
+          {
+            "date": "07-07",
+            "price": 5000
+          },
+          {
+            "date": "07-14",
+            "price": 4830
+          },
+          {
+            "date": "07-21",
+            "price": 5000
+          },
+          {
+            "date": "07-28",
+            "price": 5000
+          }
+        ],
+        "minPrice": 4830,
+        "maxPrice": 5500
+      },
+      "postContent": {
+        "text": "개당 3,000원대 후반까지 나오네요",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0801/20260801173846_CVti4mDRtv.webp"
+        ]
+      },
+      "shopUrl": "https://www.lotteon.com/p/product/LO2628305675"
+    },
+    {
+      "id": "hdz_187922",
+      "title": "60분 러시 3in1 항균 핸드워시 1L 2개+비치볼 2개",
+      "price": "12,900원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/01/thumb_821181116e27dd67cea5608f29029570.webp",
+      "category": "생활용품",
+      "site": "11번가",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=724001",
+      "publishedAt": "2026-08-01 17:33:00",
+      "likes": 17,
+      "fetchedAt": "2026-08-01T10:27:44.483Z",
+      "priceComparison": [
+        {
+          "site": "11번가",
+          "price": "12,900원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": {
+        "text": "오늘 18시~19시 60분 러시 상품입니다1L 대용량이라 리필 걱정 없이 오래 사용할 수 있고 99.9% 항균 핸드워시입니다구매 시 비치볼 2개도 같이 증정있네요",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0801/900w_20260801172815_p7d67BvvhA.jpg",
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0801/900w_20260801172819_Vdxq2ikS7j.jpg"
+        ]
+      },
+      "shopUrl": "https://www.11st.co.kr/products/9524485878"
+    },
+    {
+      "id": "hdz_187921",
+      "title": "페블펫 UV정수 와이파이 무선 자동급수기",
+      "price": "24,900원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/01/thumb_0f69e3f41db55fe1f300ece65027acd2.webp",
+      "category": "가전",
+      "site": "카카오",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=724002",
+      "publishedAt": "2026-08-01 17:32:47",
+      "likes": 19,
+      "fetchedAt": "2026-08-01T10:27:44.483Z",
+      "priceComparison": [
+        {
+          "site": "카카오",
+          "price": "24,900원"
+        },
+        {
+          "site": "페블펫 공식몰",
+          "price": "119,000원"
+        },
+        {
+          "site": "LFmall",
+          "price": "149,000원"
+        },
+        {
+          "site": "지원몰",
+          "price": "109,000원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": {
+        "text": "Wi-Fi 연동형 제품인데도 2만원대라 가격 좋네요3중 필터 정화 시스템, UV 살균 차단, 모션 감지 스마트 센서 기능 있습니다전용 어플 따로 있어요용량 넉넉합니다 포토리뷰 작성하면 메가커피 증정 있어요",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0801/900w_20260801173010_Yy1jeLCPsZ.jpg"
+        ]
+      },
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_187920",
+      "title": "가자미살 생선까스 500g 5개",
+      "price": "10,600원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/01/thumb_63fdb1279b5ce43f4cd22fae6537f563.webp",
+      "category": "식품",
+      "site": "톡딜",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=724003",
+      "publishedAt": "2026-08-01 17:32:30",
+      "likes": 37,
+      "fetchedAt": "2026-08-01T10:27:44.483Z",
+      "priceComparison": [
+        {
+          "site": "톡딜",
+          "price": "10,600원"
+        },
+        {
+          "site": "쿠팡",
+          "price": "19,500원"
+        },
+        {
+          "site": "오아시스마켓",
+          "price": "15,450원"
+        },
+        {
+          "site": "쿠팡(곰곰)",
+          "price": "19,800원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "05-12",
+            "price": 21560
+          },
+          {
+            "date": "05-19",
+            "price": 21560
+          },
+          {
+            "date": "05-26",
+            "price": 21560
+          },
+          {
+            "date": "06-02",
+            "price": 21560
+          },
+          {
+            "date": "06-09",
+            "price": 21560
+          },
+          {
+            "date": "06-16",
+            "price": 27800
+          },
+          {
+            "date": "06-23",
+            "price": 25920
+          },
+          {
+            "date": "06-30",
+            "price": 25920
+          },
+          {
+            "date": "07-07",
+            "price": 21200
+          },
+          {
+            "date": "07-14",
+            "price": 21600
+          },
+          {
+            "date": "07-21",
+            "price": 27800
+          },
+          {
+            "date": "07-28",
+            "price": 27800
+          }
+        ],
+        "minPrice": 21200,
+        "maxPrice": 27800
+      },
+      "postContent": {
+        "text": "가자미살을 사용한 생선까스로 가시를 제거해 먹기 편한 제품입니다5개 구성이라 한 끼 반찬이나 아이 간식으로 활용하기 괜찮아요",
+        "images": [
+          "https://cdn3.ppomppu.co.kr/zboard/data3/2026/0801/900w_20260801172716_rS2OdkI1vP.jpg"
+        ]
+      },
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_187918",
+      "title": "백암 고기순대국 640gX4팩 외 얼큰순대국 ",
+      "price": "17,900원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/01/thumb_41c5329fbe5086528e7285529241c4ee.webp",
+      "category": "식품",
+      "site": "카카오쇼핑 ",
+      "source": "개드립",
+      "sourceColor": "#DC2626",
+      "link": "https://www.dogdrip.net/716808484",
+      "publishedAt": "2026-08-01 17:30:04",
+      "likes": 17,
+      "fetchedAt": "2026-08-01T10:27:44.483Z",
+      "priceComparison": [
+        {
+          "site": "카카오쇼핑",
+          "price": "17,900원"
+        },
+        {
+          "site": "다나와",
+          "price": "17,900원"
+        },
+        {
+          "site": "쿠팡",
+          "price": "18,500원"
+        },
+        {
+          "site": "마켓컬리",
+          "price": "8,556원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "05-12",
+            "price": 17520
+          },
+          {
+            "date": "05-19",
+            "price": 17520
+          },
+          {
+            "date": "05-26",
+            "price": 17510
+          },
+          {
+            "date": "06-02",
+            "price": 16910
+          },
+          {
+            "date": "06-09",
+            "price": 17500
+          },
+          {
+            "date": "06-16",
+            "price": 17930
+          },
+          {
+            "date": "06-23",
+            "price": 17930
+          },
+          {
+            "date": "06-30",
+            "price": 15920
+          },
+          {
+            "date": "07-07",
+            "price": 15920
+          },
+          {
+            "date": "07-14",
+            "price": 16910
+          },
+          {
+            "date": "07-21",
+            "price": 17930
+          },
+          {
+            "date": "07-28",
+            "price": 16880
+          }
+        ],
+        "minPrice": 15920,
+        "maxPrice": 17930
+      },
+      "postContent": {
+        "text": "지난번 톡딜에도 완팩했던 순댓국인데 톡딜 다시 떴길래 또 쟁임 4봉 17,900원 무료배송이라 1봉당 4,475원꼴인데 냉동인데 돼지 잡내 1도 없고 고기랑 순대 건더기에 국물까지 넉넉해서 밥 말면 배터짐 얼큰순대국이랑 도가니탕, 육개장, 미역국 구성도 있어서 취향대로 고르면 됨 여기 맨날 올라와서 바이럴인가 햇는데 오뎅 맛있더라",
+        "images": []
+      },
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_187917",
+      "title": "셰프초이스 제육 불고기, 1.5kg, 1개",
+      "price": "8,600원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/01/thumb_16a1bef014ae7b2b078eb2eb84ac0de5.webp",
+      "category": "식품",
+      "site": "토스",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=724000",
+      "publishedAt": "2026-08-01 17:24:17",
+      "likes": 25,
+      "fetchedAt": "2026-08-01T10:27:44.483Z",
+      "priceComparison": [
+        {
+          "site": "토스",
+          "price": "8,600원"
+        },
+        {
+          "site": "쿠팡",
+          "price": "11,900원"
+        },
+        {
+          "site": "마켓컬리",
+          "price": "15,900원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "05-12",
+            "price": 15860
+          },
+          {
+            "date": "05-19",
+            "price": 15860
+          },
+          {
+            "date": "05-26",
+            "price": 15860
+          },
+          {
+            "date": "06-02",
+            "price": 13940
+          },
+          {
+            "date": "06-09",
+            "price": 15860
+          },
+          {
+            "date": "06-16",
+            "price": 15860
+          },
+          {
+            "date": "06-23",
+            "price": 15860
+          },
+          {
+            "date": "06-30",
+            "price": 15860
+          },
+          {
+            "date": "07-07",
+            "price": 15860
+          },
+          {
+            "date": "07-14",
+            "price": 15860
+          },
+          {
+            "date": "07-21",
+            "price": 15860
+          },
+          {
+            "date": "07-28",
+            "price": 15860
+          }
+        ],
+        "minPrice": 13940,
+        "maxPrice": 15860
+      },
+      "postContent": {
+        "text": "셰프초이스 제육 불고기, 1.5kg, 1개 | 토스쇼핑셰프초이스 제육 불고기, 1.5kg, 1개, 양념·가공육 3위. 리뷰 473개 · 평점 4.6점. 내일 도착 예정. 베스트 판매자 - 가격은 낮게 기준은 높게, 믿음직한 토스쇼핑https://toss.shopping/t/2924981651인 하루에 1개 한정인데가성비 좋게 한끼 하기 좋아보입니다",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0801/20260801172135_VAsHK29G11.png"
+        ]
+      },
+      "shopUrl": "https://toss.shopping/t/292498165"
+    },
+    {
+      "id": "hdz_187916",
+      "title": "바릴라 스파게티, 1kg, 3개",
+      "price": "8,930원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/01/thumb_3b4cab7cfc5ddb0b6bb1b72ad7a55a6b.webp",
+      "category": "식품",
+      "site": "쿠팡와우",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/10159035209",
+      "publishedAt": "2026-08-01 17:22:05",
+      "likes": 33,
+      "fetchedAt": "2026-08-01T10:27:44.484Z",
+      "priceComparison": [
+        {
+          "site": "쿠팡와우",
+          "price": "8,930원"
+        },
+        {
+          "site": "유로푸드몰",
+          "price": "3,250원"
+        },
+        {
+          "site": "올푸드몰",
+          "price": "4,100원"
+        },
+        {
+          "site": "G마켓",
+          "price": "7,880원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_187914",
+      "title": "엑스솔 X-33 리커버리 다용도 기능성 슬리퍼",
+      "price": "9,900원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/01/thumb_b1bef4ab140278537f7759b1324b322d.webp",
+      "category": "의류",
+      "site": "카카오톡딜",
+      "source": "아카라이브",
+      "sourceColor": "#10B981",
+      "link": "https://arca.live/b/hotdeal/178656350?p=1",
+      "publishedAt": "2026-08-01 17:20:08",
+      "likes": 41,
+      "fetchedAt": "2026-08-01T10:27:44.484Z",
+      "priceComparison": [
+        {
+          "site": "카카오톡딜",
+          "price": "9,900원"
+        },
+        {
+          "site": "11번가",
+          "price": "38,700원"
+        },
+        {
+          "site": "신세계몰",
+          "price": "41,000원"
+        },
+        {
+          "site": "엑스솔 공식스토어",
+          "price": "59,000원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_187912",
+      "title": "야심찬 함흥냉면 10인분 +육수10봉",
+      "price": "11,170원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/01/thumb_2108f7a24ebcead34412547e610a8367.webp",
+      "category": "식품",
+      "site": "G마켓",
+      "source": "아카라이브",
+      "sourceColor": "#10B981",
+      "link": "https://arca.live/b/hotdeal/178656354?p=1",
+      "publishedAt": "2026-08-01 17:20:04",
+      "likes": 8,
+      "fetchedAt": "2026-08-01T10:27:44.484Z",
+      "priceComparison": [
+        {
+          "site": "G마켓",
+          "price": "11,170원"
+        },
+        {
+          "site": "11번가",
+          "price": "11,900원"
+        },
+        {
+          "site": "아이템페이지(옥션)",
+          "price": "13,100원"
+        },
+        {
+          "site": "쿠팡",
+          "price": "11,900원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "06-16",
+            "price": 10900
+          },
+          {
+            "date": "06-23",
+            "price": 10900
+          },
+          {
+            "date": "06-30",
+            "price": 10900
+          },
+          {
+            "date": "07-07",
+            "price": 10900
+          },
+          {
+            "date": "07-14",
+            "price": 10900
+          },
+          {
+            "date": "07-21",
+            "price": 10900
+          },
+          {
+            "date": "07-28",
+            "price": 10900
+          }
+        ],
+        "minPrice": 10900,
+        "maxPrice": 10900
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_187911",
+      "title": "지역별 재고다름) 로지텍 MX VERTICAL 손목용 버티컬 마우스",
+      "price": "69,000원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/01/thumb_97d6ac18504734aa1b4e328735c20918.webp",
+      "category": "가전",
+      "site": "이마트몰",
+      "source": "아카라이브",
+      "sourceColor": "#10B981",
+      "link": "https://arca.live/b/hotdeal/178656098?p=1",
+      "publishedAt": "2026-08-01 17:18:06",
+      "likes": 70,
+      "fetchedAt": "2026-08-01T10:27:44.671Z",
+      "priceComparison": [
+        {
+          "site": "이마트몰",
+          "price": "69,000원"
+        },
+        {
+          "site": "SSG.COM",
+          "price": "76,268원"
+        },
+        {
+          "site": "쿠팡",
+          "price": "86,260원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "05-12",
+            "price": 105240
+          },
+          {
+            "date": "05-19",
+            "price": 109320
+          },
+          {
+            "date": "05-26",
+            "price": 109300
+          },
+          {
+            "date": "06-02",
+            "price": 109920
+          },
+          {
+            "date": "06-09",
+            "price": 109760
+          },
+          {
+            "date": "06-16",
+            "price": 112420
+          },
+          {
+            "date": "06-23",
+            "price": 112060
+          },
+          {
+            "date": "06-30",
+            "price": 116150
+          },
+          {
+            "date": "07-07",
+            "price": 116050
+          },
+          {
+            "date": "07-14",
+            "price": 116050
+          },
+          {
+            "date": "07-21",
+            "price": 103150
+          },
+          {
+            "date": "07-28",
+            "price": 103150
+          }
+        ],
+        "minPrice": 103150,
+        "maxPrice": 116150
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_187910",
+      "title": "[기타] 팬톤 25W PD C타입 USB-A 듀얼포트 고속 충전기",
+      "price": "4,800원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/01/thumb_6196b994065de356e09973940a1a3de4.webp",
+      "category": "기타",
+      "site": null,
+      "source": "퀘이사존",
+      "sourceColor": "#7C3AED",
+      "link": "https://quasarzone.com/bbs/qb_saleinfo/views/1974487",
+      "publishedAt": "2026-08-01 17:18:03",
+      "likes": 41,
+      "fetchedAt": "2026-08-01T10:27:44.671Z",
+      "priceComparison": [
+        {
+          "site": "핫딜모음",
+          "price": "4,800원"
+        },
+        {
+          "site": "플레이기어",
+          "price": "5,900원"
+        },
+        {
+          "site": "신지모루",
+          "price": "8,900원"
+        },
+        {
+          "site": "롯데하이마트",
+          "price": "9,800원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "05-12",
+            "price": 17900
+          },
+          {
+            "date": "05-19",
+            "price": 17900
+          },
+          {
+            "date": "05-26",
+            "price": 17900
+          },
+          {
+            "date": "06-02",
+            "price": 17900
+          },
+          {
+            "date": "06-09",
+            "price": 17900
+          },
+          {
+            "date": "06-16",
+            "price": 17900
+          },
+          {
+            "date": "06-23",
+            "price": 17900
+          },
+          {
+            "date": "06-30",
+            "price": 17900
+          },
+          {
+            "date": "07-07",
+            "price": 17900
+          },
+          {
+            "date": "07-14",
+            "price": 17900
+          },
+          {
+            "date": "07-21",
+            "price": 17900
+          },
+          {
+            "date": "07-28",
+            "price": 17900
+          }
+        ],
+        "minPrice": 17900,
+        "maxPrice": 17900
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_187909",
+      "title": "네이버페이에 편의점 결제 이벤트 최대 8000원",
+      "price": "0원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/01/thumb_b316045f2a07b238d8e982be788f9b36.webp",
+      "category": "기타",
+      "site": "네이버",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/10159008480",
+      "publishedAt": "2026-08-01 17:16:05",
+      "likes": 65,
+      "fetchedAt": "2026-08-01T10:27:44.671Z",
+      "priceComparison": [],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "05-12",
+            "price": 3000
+          },
+          {
+            "date": "05-19",
+            "price": 3000
+          },
+          {
+            "date": "05-26",
+            "price": 3000
+          },
+          {
+            "date": "06-02",
+            "price": 3000
+          },
+          {
+            "date": "06-09",
+            "price": 3000
+          },
+          {
+            "date": "06-16",
+            "price": 3000
+          },
+          {
+            "date": "06-23",
+            "price": 3000
+          },
+          {
+            "date": "06-30",
+            "price": 3000
+          },
+          {
+            "date": "07-07",
+            "price": 3000
+          },
+          {
+            "date": "07-14",
+            "price": 3000
+          },
+          {
+            "date": "07-21",
+            "price": 3000
+          },
+          {
+            "date": "07-28",
+            "price": 3000
+          }
+        ],
+        "minPrice": 3000,
+        "maxPrice": 3000
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_187908",
+      "title": "파로돈탁스 데일리 검케어 및 클래식 치약 6개",
+      "price": "19,000원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/01/thumb_e4f3efe8ad702e041c57a3ca4b255efb.webp",
+      "category": "생활용품",
+      "site": "카카오",
+      "source": "아카라이브",
+      "sourceColor": "#10B981",
+      "link": "https://arca.live/b/hotdeal/178655939?p=1",
+      "publishedAt": "2026-08-01 17:16:05",
+      "likes": 5,
+      "fetchedAt": "2026-08-01T10:27:44.671Z",
+      "priceComparison": [
+        {
+          "site": "카카오",
+          "price": "19,000원"
+        },
+        {
+          "site": "코스트코",
+          "price": "21,990원"
+        },
+        {
+          "site": "다나와",
+          "price": "21,500원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "07-14",
+            "price": 23940
+          },
+          {
+            "date": "07-21",
+            "price": 23440
+          },
+          {
+            "date": "07-28",
+            "price": 23440
+          }
+        ],
+        "minPrice": 23440,
+        "maxPrice": 23940
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_187907",
+      "title": "국내산 햇 당근 1.5kg 중",
+      "price": "2,540원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/01/thumb_533c0ee3b76dcf3aba6910f8cdd867da.webp",
+      "category": "식품",
+      "site": "네이버",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=723996",
+      "publishedAt": "2026-08-01 17:12:30",
+      "likes": 4,
+      "fetchedAt": "2026-08-01T10:27:44.671Z",
+      "priceComparison": [
+        {
+          "site": "네이버",
+          "price": "2,540원"
+        },
+        {
+          "site": "쿠팡",
+          "price": "3,580원"
+        },
+        {
+          "site": "오아시스마켓",
+          "price": "4,770원"
+        },
+        {
+          "site": "롯데마트 제타",
+          "price": "5,690원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": {
+        "text": "국내산 햇 당근 1.5kg 중 사이즈 할인 적용되서 2천원대 나오네요멤버십 있으면 무료배송 가능합니다",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0801/900w_20260801170745_ChqXZ5hOxW.jpg",
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0801/900w_20260801170747_zYmwpdTcqc.jpg"
+        ]
+      },
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_187906",
+      "title": "영양닭죽 500g 외 17종",
+      "price": "3,900원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/01/thumb_40a8d603caadc4d56f460ceb9f8c3bfa.webp",
+      "category": "식품",
+      "site": "카카오",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=723999",
+      "publishedAt": "2026-08-01 17:12:13",
+      "likes": 9,
+      "fetchedAt": "2026-08-01T10:27:44.671Z",
+      "priceComparison": [
+        {
+          "site": "카카오",
+          "price": "3,900원"
+        },
+        {
+          "site": "11번가",
+          "price": "4,700원"
+        },
+        {
+          "site": "보드람",
+          "price": "4,100원"
+        },
+        {
+          "site": "서울마님죽",
+          "price": "4,500원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "05-12",
+            "price": 8540
+          },
+          {
+            "date": "05-19",
+            "price": 8540
+          },
+          {
+            "date": "05-26",
+            "price": 8540
+          },
+          {
+            "date": "06-02",
+            "price": 8540
+          },
+          {
+            "date": "06-09",
+            "price": 8540
+          },
+          {
+            "date": "06-16",
+            "price": 8780
+          },
+          {
+            "date": "06-23",
+            "price": 8860
+          },
+          {
+            "date": "06-30",
+            "price": 8880
+          },
+          {
+            "date": "07-07",
+            "price": 8880
+          },
+          {
+            "date": "07-14",
+            "price": 8880
+          },
+          {
+            "date": "07-21",
+            "price": 8870
+          },
+          {
+            "date": "07-28",
+            "price": 7381
+          }
+        ],
+        "minPrice": 7381,
+        "maxPrice": 8880
+      },
+      "postContent": {
+        "text": "500g 대용량이라 한 끼 식사로 먹기 좋고 전자레인지나 냄비로 간편하게 조리 가능합니다5팩 구매 시 랜덤 죽 1팩 추가 증정있습니다",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0801/900w_20260801170821_XkBbv3URhI.jpg"
+        ]
+      },
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_187905",
+      "title": "유우프 여성 티셔츠 ~70% 라스트썸머 세일",
+      "price": "13,900원~",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/01/thumb_571b6774b47abdcbc445d08fe005f4c6.webp",
+      "category": "의류",
+      "site": "자사몰",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=723997",
+      "publishedAt": "2026-08-01 17:10:34",
+      "likes": 53,
+      "fetchedAt": "2026-08-01T10:27:44.671Z",
+      "priceComparison": [
+        {
+          "site": "자사몰",
+          "price": "13,900원~"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "05-12",
+            "price": 10640
+          },
+          {
+            "date": "05-19",
+            "price": 10640
+          },
+          {
+            "date": "05-26",
+            "price": 10890
+          },
+          {
+            "date": "06-02",
+            "price": 10640
+          },
+          {
+            "date": "06-09",
+            "price": 10640
+          },
+          {
+            "date": "06-16",
+            "price": 10640
+          },
+          {
+            "date": "06-23",
+            "price": 10640
+          },
+          {
+            "date": "06-30",
+            "price": 10890
+          },
+          {
+            "date": "07-07",
+            "price": 10640
+          },
+          {
+            "date": "07-14",
+            "price": 10640
+          },
+          {
+            "date": "07-21",
+            "price": 10640
+          },
+          {
+            "date": "07-28",
+            "price": 10650
+          }
+        ],
+        "minPrice": 10640,
+        "maxPrice": 10890
+      },
+      "postContent": {
+        "text": "기본 슬리브리스, 탑 외 티셔츠 종류 여러개고 만원대 저렴한거 많아요전체적으로 의류 60%~70% 세일해서 가격대 괜찮은 편이에요 비키니류도 할인 많이들어갔으니 참고하세요https://uuuup.cafe24.com/product/list.html?cate_no=175",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0801/900w_20260801170756_yStHmaRXhf.jpg",
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0801/900w_20260801170801_4cxS94EcaE.jpg",
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0801/900w_20260801170807_eLd3rYHQo1.jpg",
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0801/900w_20260801170814_wPKkJrRrxc.jpg",
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0801/900w_20260801170824_odM17rkAww.jpg"
+        ]
+      },
+      "shopUrl": "https://uuuup.cafe24.com/product/list.html?cate_no=167"
+    },
+    {
+      "id": "hdz_187904",
+      "title": "알바레즈 엑스트라 버진 올리브오일, 500ml 2병",
+      "price": "17,980원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/01/thumb_ac904f0fe4b947cf7655cfc212135965.webp",
+      "category": "식품",
+      "site": "토스",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=723998",
+      "publishedAt": "2026-08-01 17:10:13",
+      "likes": 20,
+      "fetchedAt": "2026-08-01T10:27:44.671Z",
+      "priceComparison": [
+        {
+          "site": "토스",
+          "price": "17,980원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": {
+        "text": "스페인 피쿠알 품종 오일이고500ml 두병기준 폴센트 최저가보다 저렴하네요",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0801/900w_20260801170930_nltvOLM4wo.jpg"
+        ]
+      },
+      "shopUrl": "https://toss.shopping/t/1142292477"
+    },
+    {
+      "id": "hdz_187903",
+      "title": "파로돈탁스 구형 클리어런스 100g 6개입 외",
+      "price": "19,000원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/01/thumb_12d655a4f73f939ba52d15c99f5c9084.webp",
+      "category": "화장품",
+      "site": "카카오",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=723995",
+      "publishedAt": "2026-08-01 17:06:26",
+      "likes": 12,
+      "fetchedAt": "2026-08-01T10:27:44.671Z",
+      "priceComparison": [
+        {
+          "site": "카카오",
+          "price": "19,000원"
+        },
+        {
+          "site": "코스트코",
+          "price": "21,990원"
+        },
+        {
+          "site": "다나와",
+          "price": "21,500원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "05-12",
+            "price": 16380
+          },
+          {
+            "date": "05-19",
+            "price": 16940
+          },
+          {
+            "date": "05-26",
+            "price": 17230
+          },
+          {
+            "date": "06-02",
+            "price": 15520
+          },
+          {
+            "date": "06-09",
+            "price": 16920
+          },
+          {
+            "date": "06-16",
+            "price": 17670
+          },
+          {
+            "date": "06-23",
+            "price": 17000
+          },
+          {
+            "date": "06-30",
+            "price": 17000
+          },
+          {
+            "date": "07-07",
+            "price": 17670
+          },
+          {
+            "date": "07-14",
+            "price": 17660
+          },
+          {
+            "date": "07-21",
+            "price": 17100
+          },
+          {
+            "date": "07-28",
+            "price": 18190
+          }
+        ],
+        "minPrice": 15520,
+        "maxPrice": 18190
+      },
+      "postContent": {
+        "text": "파로돈탁스 구형~신형 내용물 스펙차이는 없고 단순 포장차이입니다만 구형이 1.9만이고 신형이 21900원이라 둘다 각기 장단점이 있긴합니다 구형은 걍 싼게 장점이고 신형은 미니2개에 검앤티스 칫솔하나 추가로 줍니다 데일리,허브,쿨링민트 6개 각 21,900원으로 동일 구형은 클래식,허브 6개 19,000원으로 동일 유효기간이 보통 5년정도라 포장차이있어도 구형쓰는게 문제는 없구 요거 한 두어달 진행중인거보니 구형패키지는 곧 다떨어질꺼 같아보입니다",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0801/900w_20260801170328_k9R5NmQxs3.png",
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0801/900w_20260801170327_xt0DVUzGXl.png"
+        ]
+      },
+      "shopUrl": null
+    },
+    {
       "id": "hdz_187902",
       "title": "마장동 1++ 한우갈비살 400g",
       "price": "31,860원",
@@ -30439,3452 +33632,7 @@
         ]
       },
       "shopUrl": "https://item.gmarket.co.kr/Item?goodscode=1697127764"
-    },
-    {
-      "id": "hdz_187429",
-      "title": "슈가로로 스파클링 사과 에코무라벨500ml 20개",
-      "price": "9,500원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/31/thumb_790a75bf26823d8114a44881fdfe52c7.webp",
-      "category": "식품",
-      "site": "토스",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=723817",
-      "publishedAt": "2026-07-31 17:04:41",
-      "likes": 8,
-      "fetchedAt": "2026-07-31T08:43:33.552Z",
-      "priceComparison": [
-        {
-          "site": "토스",
-          "price": "9,500원"
-        },
-        {
-          "site": "쿠팡",
-          "price": "16,230원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "05-12",
-            "price": 17500
-          },
-          {
-            "date": "05-19",
-            "price": 19580
-          },
-          {
-            "date": "05-26",
-            "price": 19580
-          },
-          {
-            "date": "06-02",
-            "price": 15820
-          },
-          {
-            "date": "06-09",
-            "price": 16030
-          },
-          {
-            "date": "06-16",
-            "price": 15610
-          },
-          {
-            "date": "06-23",
-            "price": 17990
-          },
-          {
-            "date": "06-30",
-            "price": 18900
-          },
-          {
-            "date": "07-07",
-            "price": 19900
-          },
-          {
-            "date": "07-14",
-            "price": 19710
-          },
-          {
-            "date": "07-21",
-            "price": 19710
-          },
-          {
-            "date": "07-28",
-            "price": 19710
-          }
-        ],
-        "minPrice": 15610,
-        "maxPrice": 19900
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_187428",
-      "title": "쟌슨빌 클래식 200x3 + 쟌슨빌 마일드 200gx3",
-      "price": "12,960원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/31/thumb_355fbaf0248c83d09e3149aebddf0ac0.webp",
-      "category": "식품",
-      "site": "지마켓",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=723815",
-      "publishedAt": "2026-07-31 17:02:18",
-      "likes": 15,
-      "fetchedAt": "2026-07-31T08:43:33.552Z",
-      "priceComparison": [
-        {
-          "site": "지마켓",
-          "price": "12,960원"
-        },
-        {
-          "site": "GS SHOP",
-          "price": "16,800원"
-        },
-        {
-          "site": "11번가",
-          "price": "18,800원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "05-12",
-            "price": 14890
-          },
-          {
-            "date": "05-19",
-            "price": 14890
-          },
-          {
-            "date": "05-26",
-            "price": 14890
-          },
-          {
-            "date": "06-02",
-            "price": 14880
-          },
-          {
-            "date": "06-09",
-            "price": 14230
-          },
-          {
-            "date": "06-16",
-            "price": 14230
-          },
-          {
-            "date": "06-23",
-            "price": 14230
-          },
-          {
-            "date": "06-30",
-            "price": 14880
-          },
-          {
-            "date": "07-07",
-            "price": 14230
-          },
-          {
-            "date": "07-14",
-            "price": 14230
-          },
-          {
-            "date": "07-21",
-            "price": 14230
-          },
-          {
-            "date": "07-28",
-            "price": 14230
-          }
-        ],
-        "minPrice": 14230,
-        "maxPrice": 14890
-      },
-      "postContent": {
-        "text": "클래식 3개+마일드 3개200g 총 6개 12,960원이에요",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0731/900w_20260731170035_xh1zhceeGi.jpeg",
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0731/900w_20260731170037_ZhMRGHz5N5.jpeg"
-        ]
-      },
-      "shopUrl": "https://item.gmarket.co.kr/Item?goodscode=4441046617"
-    },
-    {
-      "id": "hdz_187427",
-      "title": "국내산 완숙토마토 랜덤과 5kg",
-      "price": "10,720원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/31/thumb_cee4418c466579fac3c38caae943cace.webp",
-      "category": "식품",
-      "site": "네이버",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/10154994494",
-      "publishedAt": "2026-07-31 17:02:05",
-      "likes": 4,
-      "fetchedAt": "2026-07-31T08:43:33.552Z",
-      "priceComparison": [
-        {
-          "site": "네이버",
-          "price": "10,720원"
-        },
-        {
-          "site": "농협 올리브영 마켓",
-          "price": "18,600원"
-        },
-        {
-          "site": "11번가",
-          "price": "16,690원"
-        },
-        {
-          "site": "씨스아이드몰",
-          "price": "19,000원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "07-28",
-            "price": 14610
-          }
-        ],
-        "minPrice": 14610,
-        "maxPrice": 14610
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_187426",
-      "title": "티오글라톤 치즈케이크 2박스",
-      "price": "28,900원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/31/thumb_e8f50db56013eb1a6cc955d211d8e979.webp",
-      "category": "식품",
-      "site": "w스토어",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=723814",
-      "publishedAt": "2026-07-31 16:58:16",
-      "likes": 32,
-      "fetchedAt": "2026-07-31T08:43:33.552Z",
-      "priceComparison": [
-        {
-          "site": "w스토어",
-          "price": "28,900원"
-        },
-        {
-          "site": "코오롱몰",
-          "price": "40,000원"
-        },
-        {
-          "site": "코스트코",
-          "price": "28,900원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": {
-        "text": "플레인, 그린티, 블루베리, 모카중에서 2가지 선택됩니다. 쇼핑백 포함이라 선물용으로도 괜찮을 거 같네요",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0731/900w_20260731165501_tJIScgY1rt.jpeg",
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0731/900w_20260731165504_syS5YEIlWw.jpeg"
-        ]
-      },
-      "shopUrl": "https://m.wstore.co.kr/goods/goods_view.php?goodsNo=131402047"
-    },
-    {
-      "id": "hdz_187425",
-      "title": "컬러풀 지포스 RTX 5080 ULTRA OC D7 16GB White 피씨디렉트",
-      "price": "1,968,740원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/31/thumb_6295bf5cc5401097a7ee2ee4c18e2431.webp",
-      "category": "PC",
-      "site": "하이마트",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/10154947129",
-      "publishedAt": "2026-07-31 16:56:04",
-      "likes": 72,
-      "fetchedAt": "2026-07-31T08:43:33.552Z",
-      "priceComparison": [
-        {
-          "site": "하이마트",
-          "price": "1,968,740원"
-        },
-        {
-          "site": "마이피씨샵",
-          "price": "1,859,000원"
-        },
-        {
-          "site": "쿠팡",
-          "price": "2,098,990원"
-        },
-        {
-          "site": "코브텍",
-          "price": "1,801,320원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "05-12",
-            "price": 2081190
-          },
-          {
-            "date": "05-19",
-            "price": 1989000
-          },
-          {
-            "date": "05-26",
-            "price": 1989000
-          },
-          {
-            "date": "06-02",
-            "price": 2079990
-          },
-          {
-            "date": "06-09",
-            "price": 2090000
-          },
-          {
-            "date": "06-16",
-            "price": 2090000
-          },
-          {
-            "date": "06-23",
-            "price": 2053440
-          },
-          {
-            "date": "06-30",
-            "price": 2060000
-          },
-          {
-            "date": "07-07",
-            "price": 2050000
-          },
-          {
-            "date": "07-14",
-            "price": 1879000
-          },
-          {
-            "date": "07-21",
-            "price": 1916660
-          },
-          {
-            "date": "07-28",
-            "price": 1838320
-          }
-        ],
-        "minPrice": 1838320,
-        "maxPrice": 2090000
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_187424",
-      "title": "동국제약 윈플렉스 치약 100g 4개 세트",
-      "price": "20,900원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/31/thumb_d37dee54833145275c5783115235a5d6.webp",
-      "category": "기타",
-      "site": "네이버",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/10154953725",
-      "publishedAt": "2026-07-31 16:54:14",
-      "likes": 5,
-      "fetchedAt": "2026-07-31T08:43:33.552Z",
-      "priceComparison": [
-        {
-          "site": "네이버",
-          "price": "20,900원"
-        },
-        {
-          "site": "GS SHOP",
-          "price": "64,900원"
-        },
-        {
-          "site": "GS SHOP",
-          "price": "15,900원"
-        },
-        {
-          "site": "GS SHOP",
-          "price": "15,900원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "05-12",
-            "price": 24800
-          },
-          {
-            "date": "05-19",
-            "price": 33100
-          },
-          {
-            "date": "05-26",
-            "price": 33100
-          },
-          {
-            "date": "06-02",
-            "price": 33100
-          },
-          {
-            "date": "06-09",
-            "price": 33100
-          },
-          {
-            "date": "06-16",
-            "price": 33100
-          },
-          {
-            "date": "06-23",
-            "price": 33100
-          },
-          {
-            "date": "06-30",
-            "price": 33100
-          },
-          {
-            "date": "07-07",
-            "price": 35080
-          },
-          {
-            "date": "07-14",
-            "price": 35080
-          },
-          {
-            "date": "07-21",
-            "price": 35080
-          },
-          {
-            "date": "07-28",
-            "price": 22220
-          }
-        ],
-        "minPrice": 22220,
-        "maxPrice": 35080
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_187422",
-      "title": "트라이 스탠다드 코튼 박서 5장 세트",
-      "price": "10,940원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/31/thumb_512e3ede6fb175cb48e86bbfa4e36837.webp",
-      "category": "의류",
-      "site": "롯데온",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/10154959399",
-      "publishedAt": "2026-07-31 16:54:05",
-      "likes": 5,
-      "fetchedAt": "2026-07-31T08:43:33.552Z",
-      "priceComparison": [
-        {
-          "site": "롯데온",
-          "price": "10,940원"
-        },
-        {
-          "site": "다나와",
-          "price": "11,930원"
-        },
-        {
-          "site": "G마켓",
-          "price": "13,040원"
-        },
-        {
-          "site": "옥션",
-          "price": "12,080원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "05-26",
-            "price": 11920
-          },
-          {
-            "date": "06-02",
-            "price": 11920
-          },
-          {
-            "date": "06-09",
-            "price": 11920
-          },
-          {
-            "date": "06-16",
-            "price": 11920
-          },
-          {
-            "date": "06-23",
-            "price": 11930
-          },
-          {
-            "date": "06-30",
-            "price": 11930
-          },
-          {
-            "date": "07-07",
-            "price": 11930
-          },
-          {
-            "date": "07-14",
-            "price": 11930
-          },
-          {
-            "date": "07-21",
-            "price": 13980
-          },
-          {
-            "date": "07-28",
-            "price": 12240
-          }
-        ],
-        "minPrice": 11920,
-        "maxPrice": 13980
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_187421",
-      "title": "스파클2L, 24개",
-      "price": "7,200원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/31/thumb_bcedf4dd8668f917e9af41197a28862b.webp",
-      "category": "식품",
-      "site": "토스",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/10154940963",
-      "publishedAt": "2026-07-31 16:50:05",
-      "likes": 12,
-      "fetchedAt": "2026-07-31T08:43:33.552Z",
-      "priceComparison": [
-        {
-          "site": "토스",
-          "price": "7,200원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "05-12",
-            "price": 9700
-          },
-          {
-            "date": "05-19",
-            "price": 9700
-          },
-          {
-            "date": "05-26",
-            "price": 9700
-          },
-          {
-            "date": "06-02",
-            "price": 9700
-          },
-          {
-            "date": "06-09",
-            "price": 9700
-          },
-          {
-            "date": "06-16",
-            "price": 9700
-          },
-          {
-            "date": "06-23",
-            "price": 9700
-          },
-          {
-            "date": "06-30",
-            "price": 9700
-          },
-          {
-            "date": "07-07",
-            "price": 9700
-          },
-          {
-            "date": "07-14",
-            "price": 9700
-          },
-          {
-            "date": "07-21",
-            "price": 9700
-          },
-          {
-            "date": "07-28",
-            "price": 9700
-          }
-        ],
-        "minPrice": 9700,
-        "maxPrice": 9700
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_187420",
-      "title": "아트란 큐패드원 10.1인치 태블릿pc ",
-      "price": "157,170원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/31/thumb_3674ae575d18ac350c16a7f17806d100.webp",
-      "category": "가전",
-      "site": "롯데온 ",
-      "source": "개드립",
-      "sourceColor": "#DC2626",
-      "link": "https://www.dogdrip.net/716638438",
-      "publishedAt": "2026-07-31 16:50:04",
-      "likes": 32,
-      "fetchedAt": "2026-07-31T08:43:33.552Z",
-      "priceComparison": [
-        {
-          "site": "롯데온",
-          "price": "157,170원"
-        },
-        {
-          "site": "쿠팡",
-          "price": "189,000원"
-        },
-        {
-          "site": "11번가",
-          "price": "196,820원"
-        },
-        {
-          "site": "조선몰",
-          "price": "160,000원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "05-12",
-            "price": 175120
-          },
-          {
-            "date": "05-19",
-            "price": 175120
-          },
-          {
-            "date": "05-26",
-            "price": 175120
-          },
-          {
-            "date": "06-02",
-            "price": 184300
-          },
-          {
-            "date": "06-09",
-            "price": 179000
-          },
-          {
-            "date": "06-16",
-            "price": 179000
-          },
-          {
-            "date": "06-23",
-            "price": 182150
-          },
-          {
-            "date": "06-30",
-            "price": 182150
-          },
-          {
-            "date": "07-07",
-            "price": 174600
-          },
-          {
-            "date": "07-14",
-            "price": 186000
-          },
-          {
-            "date": "07-21",
-            "price": 182000
-          },
-          {
-            "date": "07-28",
-            "price": 169000
-          }
-        ],
-        "minPrice": 169000,
-        "maxPrice": 186000
-      },
-      "postContent": {
-        "text": "10.1인치라 화면도 크고 가벼운 편임 영화시청용으로 가성비 괜찮아보임",
-        "images": []
-      },
-      "shopUrl": "https://s.lotteon.com/7Y5X1ehZCVQ"
-    },
-    {
-      "id": "hdz_187419",
-      "title": "다비도프 공식 쿨워터 맨 EDT 3종 스프링 세트 (EDT 125ml+샤워젤 75ml+애프터 쉐이브밤 75ml)",
-      "price": "60,700원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/31/thumb_0042a3d0ea2d29202a6520ca2d4825c5.webp",
-      "category": "화장품",
-      "site": "엘지생건공식-네이버",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/10154914988",
-      "publishedAt": "2026-07-31 16:44:06",
-      "likes": 16,
-      "fetchedAt": "2026-07-31T08:43:33.552Z",
-      "priceComparison": [
-        {
-          "site": "엘지생건공식-네이버",
-          "price": "60,700원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_187418",
-      "title": "EDIFIER ES20 포터블 휴대용 블루투스 스피커 6W",
-      "price": "49,000원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/31/thumb_1ebb1876313720870018e769cc7aa77b.webp",
-      "category": "가전",
-      "site": "오늘의집",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/10154914761",
-      "publishedAt": "2026-07-31 16:42:05",
-      "likes": 29,
-      "fetchedAt": "2026-07-31T08:43:33.552Z",
-      "priceComparison": [
-        {
-          "site": "오늘의집",
-          "price": "49,000원"
-        },
-        {
-          "site": "예스24",
-          "price": "109,000원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "05-12",
-            "price": 78500
-          },
-          {
-            "date": "05-19",
-            "price": 78500
-          },
-          {
-            "date": "05-26",
-            "price": 77420
-          },
-          {
-            "date": "06-02",
-            "price": 76630
-          },
-          {
-            "date": "06-09",
-            "price": 69000
-          },
-          {
-            "date": "06-16",
-            "price": 69000
-          },
-          {
-            "date": "06-23",
-            "price": 69000
-          },
-          {
-            "date": "06-30",
-            "price": 69000
-          },
-          {
-            "date": "07-07",
-            "price": 69000
-          },
-          {
-            "date": "07-14",
-            "price": 78500
-          },
-          {
-            "date": "07-21",
-            "price": 78500
-          },
-          {
-            "date": "07-28",
-            "price": 73470
-          }
-        ],
-        "minPrice": 69000,
-        "maxPrice": 78500
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_187417",
-      "title": "레쓰비그란데라떼 500ml 24펫",
-      "price": "17,960원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/31/thumb_8d6631843aa56cb65f23fe87dc3ffdb2.webp",
-      "category": "식품",
-      "site": "지마켓",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=723813",
-      "publishedAt": "2026-07-31 16:34:15",
-      "likes": 14,
-      "fetchedAt": "2026-07-31T08:43:33.552Z",
-      "priceComparison": [
-        {
-          "site": "지마켓",
-          "price": "17,960원"
-        },
-        {
-          "site": "동원몰",
-          "price": "28,900원"
-        },
-        {
-          "site": "메가마트몰",
-          "price": "27,000원"
-        },
-        {
-          "site": "식봄",
-          "price": "27,500원"
-        },
-        {
-          "site": "글로리샵",
-          "price": "19,200원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "05-12",
-            "price": 16500
-          },
-          {
-            "date": "05-19",
-            "price": 16500
-          },
-          {
-            "date": "05-26",
-            "price": 16500
-          },
-          {
-            "date": "06-02",
-            "price": 19210
-          },
-          {
-            "date": "06-09",
-            "price": 19560
-          },
-          {
-            "date": "06-16",
-            "price": 18690
-          },
-          {
-            "date": "06-23",
-            "price": 18760
-          },
-          {
-            "date": "06-30",
-            "price": 19880
-          },
-          {
-            "date": "07-07",
-            "price": 19890
-          },
-          {
-            "date": "07-14",
-            "price": 17800
-          },
-          {
-            "date": "07-21",
-            "price": 10900
-          },
-          {
-            "date": "07-28",
-            "price": 10320
-          }
-        ],
-        "minPrice": 10320,
-        "maxPrice": 19890
-      },
-      "postContent": {
-        "text": "라떼 개당 748원 나옵니다",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0731/900w_20260731163319_Xuj3WBmAYR.jpg"
-        ]
-      },
-      "shopUrl": "https://item.gmarket.co.kr/Item?goodscode=2632236101"
-    },
-    {
-      "id": "hdz_187416",
-      "title": "[스팀] 세피리아 정식 출시 기념 40% 할인",
-      "price": "9,900원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/31/thumb_c56e8b4fb0357d3e15a000a8419fbc7b.webp",
-      "category": "PC",
-      "site": "스팀",
-      "source": "퀘이사존",
-      "sourceColor": "#7C3AED",
-      "link": "https://quasarzone.com/bbs/qb_saleinfo/views/1974191",
-      "publishedAt": "2026-07-31 16:30:05",
-      "likes": 117,
-      "fetchedAt": "2026-07-31T08:43:33.792Z",
-      "priceComparison": [
-        {
-          "site": "스팀",
-          "price": "9,900원"
-        },
-        {
-          "site": "STOVE",
-          "price": "16,500원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_187415",
-      "title": "캉골 가방, 의류 할인전 가격다양",
-      "price": "0원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/31/thumb_2216988a4969feaf14ba9e51de8f0564.webp",
-      "category": "의류",
-      "site": "캉골",
-      "source": "아카라이브",
-      "sourceColor": "#10B981",
-      "link": "https://arca.live/b/hotdeal/178552440?p=1",
-      "publishedAt": "2026-07-31 16:22:04",
-      "likes": 89,
-      "fetchedAt": "2026-07-31T08:43:33.792Z",
-      "priceComparison": [],
-      "priceHistory": null,
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_187414",
-      "title": "세피리아 정식출시 40% 할인",
-      "price": "9,900원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/31/thumb_19462002407a5d4086861031c342aa24.webp",
-      "category": "게임",
-      "site": "스팀",
-      "source": "아카라이브",
-      "sourceColor": "#10B981",
-      "link": "https://arca.live/b/hotdeal/178552129?p=1",
-      "publishedAt": "2026-07-31 16:18:03",
-      "likes": 73,
-      "fetchedAt": "2026-07-31T08:43:33.792Z",
-      "priceComparison": [
-        {
-          "site": "스팀",
-          "price": "9,900원"
-        },
-        {
-          "site": "STOVE",
-          "price": "16,500원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_187412",
-      "title": "스타벅스 셀렉트 카페 라떼, 300ml, 24개",
-      "price": "38,830원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/31/thumb_bb81b562864c3aa2ba755464b127a7a7.webp",
-      "category": "식품",
-      "site": "쿠팡",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/10154781937",
-      "publishedAt": "2026-07-31 16:06:05",
-      "likes": 42,
-      "fetchedAt": "2026-07-31T08:43:33.792Z",
-      "priceComparison": [
-        {
-          "site": "쿠팡",
-          "price": "38,830원"
-        },
-        {
-          "site": "마트로몰",
-          "price": "49,700원"
-        },
-        {
-          "site": "신세계몰",
-          "price": "53,103원"
-        },
-        {
-          "site": "GS Shop",
-          "price": "57,300원"
-        },
-        {
-          "site": "조선달타운",
-          "price": "50,900원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "05-12",
-            "price": 38880
-          },
-          {
-            "date": "05-19",
-            "price": 44270
-          },
-          {
-            "date": "05-26",
-            "price": 44520
-          },
-          {
-            "date": "06-02",
-            "price": 44520
-          },
-          {
-            "date": "06-09",
-            "price": 44750
-          },
-          {
-            "date": "06-16",
-            "price": 46770
-          },
-          {
-            "date": "06-23",
-            "price": 47080
-          },
-          {
-            "date": "06-30",
-            "price": 45680
-          },
-          {
-            "date": "07-07",
-            "price": 45680
-          },
-          {
-            "date": "07-14",
-            "price": 46770
-          },
-          {
-            "date": "07-21",
-            "price": 47100
-          },
-          {
-            "date": "07-28",
-            "price": 38930
-          }
-        ],
-        "minPrice": 38880,
-        "maxPrice": 47100
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_187411",
-      "title": "프로쉬 식기세척기세제 미니 50개 X2",
-      "price": "27,080원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/31/thumb_08596a1c2efcfb81fbfb7693268e1a92.webp",
-      "category": "생활용품",
-      "site": "클링크",
-      "source": "루리웹",
-      "sourceColor": "#3B82F6",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106031?page=1",
-      "publishedAt": "2026-07-31 16:05:16",
-      "likes": 15,
-      "fetchedAt": "2026-07-31T08:43:33.792Z",
-      "priceComparison": [
-        {
-          "site": "클링크",
-          "price": "27,080원"
-        },
-        {
-          "site": "오아시스마켓",
-          "price": "29,500원"
-        },
-        {
-          "site": "프로쉬 공식스토어(GS SHOP)",
-          "price": "29,800원"
-        },
-        {
-          "site": "11번가",
-          "price": "32,490원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "05-12",
-            "price": 26300
-          },
-          {
-            "date": "05-19",
-            "price": 25520
-          },
-          {
-            "date": "05-26",
-            "price": 24870
-          },
-          {
-            "date": "06-02",
-            "price": 25600
-          },
-          {
-            "date": "06-09",
-            "price": 25580
-          },
-          {
-            "date": "06-16",
-            "price": 26300
-          },
-          {
-            "date": "06-23",
-            "price": 27890
-          },
-          {
-            "date": "06-30",
-            "price": 26300
-          },
-          {
-            "date": "07-07",
-            "price": 26300
-          },
-          {
-            "date": "07-14",
-            "price": 26300
-          },
-          {
-            "date": "07-21",
-            "price": 26300
-          },
-          {
-            "date": "07-28",
-            "price": 26300
-          }
-        ],
-        "minPrice": 24870,
-        "maxPrice": 27890
-      },
-      "postContent": {
-        "text": "https://clink.kakao.com/sp/87smK24yyWPJ4fXy?ref=SHARE_AF 프로쉬 미니입니다. 개당 가격으로 핫딜은 아니지만 최근 저렴한게 안보이네요. 미니 사이즈로 총 100개입니다 사은품은 틴케이스는 품절이고 장바구니같은 것 주네요",
-        "images": [
-          "https://i1.ruliweb.com/img/26/07/31/19fb6fb04182a337f.webp"
-        ]
-      },
-      "shopUrl": "https://www.dajooda.kr/01/"
-    },
-    {
-      "id": "hdz_187409",
-      "title": "한솥 8월 매일 할인 ~ 8/31",
-      "price": "4,100원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/31/thumb_98ea276b30044d1284ce1a38ebbbd4e5.webp",
-      "category": "식품",
-      "site": "한솥도시락",
-      "source": "아카라이브",
-      "sourceColor": "#10B981",
-      "link": "https://arca.live/b/hotdeal/178550694?p=1",
-      "publishedAt": "2026-07-31 16:02:04",
-      "likes": 113,
-      "fetchedAt": "2026-07-31T08:43:33.792Z",
-      "priceComparison": [
-        {
-          "site": "한솥도시락",
-          "price": "4,100원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_187408",
-      "title": "허이펑 스리라차 핫 칠리 시즈닝 481g 2개",
-      "price": "11,620원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/31/thumb_71043237d0eae09be09f72e32eb519b3.webp",
-      "category": "식품",
-      "site": "쿠팡",
-      "source": "루리웹",
-      "sourceColor": "#3B82F6",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106030?page=1",
-      "publishedAt": "2026-07-31 16:00:15",
-      "likes": 17,
-      "fetchedAt": "2026-07-31T08:43:33.792Z",
-      "priceComparison": [
-        {
-          "site": "쿠팡",
-          "price": "11,620원"
-        },
-        {
-          "site": "SSG.COM",
-          "price": "12,800원"
-        },
-        {
-          "site": "다나와",
-          "price": "26,070원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "05-12",
-            "price": 8900
-          },
-          {
-            "date": "05-19",
-            "price": 8900
-          },
-          {
-            "date": "05-26",
-            "price": 9800
-          },
-          {
-            "date": "06-02",
-            "price": 9800
-          },
-          {
-            "date": "06-09",
-            "price": 9800
-          },
-          {
-            "date": "06-16",
-            "price": 9800
-          },
-          {
-            "date": "06-23",
-            "price": 9800
-          },
-          {
-            "date": "06-30",
-            "price": 9800
-          },
-          {
-            "date": "07-07",
-            "price": 9800
-          },
-          {
-            "date": "07-14",
-            "price": 9800
-          },
-          {
-            "date": "07-21",
-            "price": 9800
-          },
-          {
-            "date": "07-28",
-            "price": 10600
-          }
-        ],
-        "minPrice": 8900,
-        "maxPrice": 10600
-      },
-      "postContent": {
-        "text": "스리라차가 맛도있는데 다이어트에도 도움된다네요",
-        "images": [
-          "https://i1.ruliweb.com/img/26/07/31/19fb6f54e6a5824bf.webp"
-        ]
-      },
-      "shopUrl": "https://www.dajooda.kr/01/"
-    },
-    {
-      "id": "hdz_187407",
-      "title": "Marvel’s Spider-Man Remastered",
-      "price": "25,120원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/31/thumb_2d84991b9e62a44fdb56006ffeb778b1.webp",
-      "category": "게임",
-      "site": "스팀",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/10154754014",
-      "publishedAt": "2026-07-31 16:00:06",
-      "likes": 49,
-      "fetchedAt": "2026-07-31T08:43:33.792Z",
-      "priceComparison": [
-        {
-          "site": "스팀",
-          "price": "25,120원"
-        },
-        {
-          "site": "에픽게임즈 스토어",
-          "price": "58,800원"
-        },
-        {
-          "site": "11번가",
-          "price": "40,410원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_187406",
-      "title": "Aula 독거미 F87 pro v2 최상옵 유성축 듀얼8K 12000배터리 TKL 기계식키보드",
-      "price": "58,700원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/31/thumb_9ca49732c5b5965ea87676aa2f6f4bed.webp",
-      "category": "PC",
-      "site": "지마켓",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/10154744424",
-      "publishedAt": "2026-07-31 15:58:06",
-      "likes": 142,
-      "fetchedAt": "2026-07-31T08:43:33.792Z",
-      "priceComparison": [
-        {
-          "site": "지마켓",
-          "price": "58,700원"
-        },
-        {
-          "site": "쿠팡",
-          "price": "67,000원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "05-12",
-            "price": 54500
-          },
-          {
-            "date": "05-19",
-            "price": 54500
-          },
-          {
-            "date": "05-26",
-            "price": 54500
-          },
-          {
-            "date": "06-02",
-            "price": 72070
-          },
-          {
-            "date": "06-09",
-            "price": 73390
-          },
-          {
-            "date": "06-16",
-            "price": 75800
-          },
-          {
-            "date": "06-23",
-            "price": 75870
-          },
-          {
-            "date": "06-30",
-            "price": 75870
-          },
-          {
-            "date": "07-07",
-            "price": 75870
-          },
-          {
-            "date": "07-14",
-            "price": 75490
-          },
-          {
-            "date": "07-21",
-            "price": 74890
-          },
-          {
-            "date": "07-28",
-            "price": 74190
-          }
-        ],
-        "minPrice": 54500,
-        "maxPrice": 75870
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_187404",
-      "title": "목우촌 주부9단 한입 팝콘치킨 420g, 3개",
-      "price": "9,900원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/31/thumb_8e164ef0b91ba7fc1d2367ff3444280b.webp",
-      "category": "식품",
-      "site": "네이버",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=723812",
-      "publishedAt": "2026-07-31 15:54:17",
-      "likes": 38,
-      "fetchedAt": "2026-07-31T08:43:33.792Z",
-      "priceComparison": [
-        {
-          "site": "네이버",
-          "price": "9,900원"
-        },
-        {
-          "site": "목우촌몰",
-          "price": "6,900원"
-        },
-        {
-          "site": "다나와 가격비교",
-          "price": "13,800원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": {
-        "text": "",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0731/900w_20260731155303_07ZP7HSoO7.jpg"
-        ]
-      },
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_187403",
-      "title": "삼성 포터블 T9 1TB 외장SSD(체감27만)",
-      "price": "284,000원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/31/thumb_9126e60ce664c480ba9d088b4f995b70.webp",
-      "category": "생활용품",
-      "site": "네이버",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/10154736286",
-      "publishedAt": "2026-07-31 15:54:05",
-      "likes": 47,
-      "fetchedAt": "2026-07-31T08:43:33.792Z",
-      "priceComparison": [
-        {
-          "site": "네이버",
-          "price": "284,000원"
-        },
-        {
-          "site": "예스24",
-          "price": "270,000원"
-        },
-        {
-          "site": "11번가",
-          "price": "243,000원"
-        },
-        {
-          "site": "컴파라",
-          "price": "214,000원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "05-12",
-            "price": 323840
-          },
-          {
-            "date": "05-19",
-            "price": 338560
-          },
-          {
-            "date": "05-26",
-            "price": 334880
-          },
-          {
-            "date": "06-02",
-            "price": 338990
-          },
-          {
-            "date": "06-09",
-            "price": 338990
-          },
-          {
-            "date": "06-16",
-            "price": 341000
-          },
-          {
-            "date": "06-23",
-            "price": 366000
-          },
-          {
-            "date": "06-30",
-            "price": 366700
-          },
-          {
-            "date": "07-07",
-            "price": 342750
-          },
-          {
-            "date": "07-14",
-            "price": 344820
-          },
-          {
-            "date": "07-21",
-            "price": 344490
-          },
-          {
-            "date": "07-28",
-            "price": 344390
-          }
-        ],
-        "minPrice": 323840,
-        "maxPrice": 366700
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_187402",
-      "title": "98삼디 2tb반본체 두종",
-      "price": "190~200사이",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/31/thumb_e13ab00d874cf9bfc1346c56c8d22aeb.webp",
-      "category": "PC",
-      "site": "11번가",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/10154622109",
-      "publishedAt": "2026-07-31 15:44:06",
-      "likes": 179,
-      "fetchedAt": "2026-07-31T08:43:33.792Z",
-      "priceComparison": [
-        {
-          "site": "11번가",
-          "price": "190~200사이"
-        },
-        {
-          "site": "중고나라",
-          "price": "180000"
-        },
-        {
-          "site": "중고나라",
-          "price": "200000"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_187401",
-      "title": "오뚜기 경양식 돈까스 소스, 455g, 2개",
-      "price": "5,080원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/31/thumb_f14e3bf1bf6ebbbdd112af61662c4653.webp",
-      "category": "식품",
-      "site": "쿠팡",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/10154687451",
-      "publishedAt": "2026-07-31 15:42:05",
-      "likes": 28,
-      "fetchedAt": "2026-07-31T08:43:33.792Z",
-      "priceComparison": [
-        {
-          "site": "쿠팡",
-          "price": "5,080원"
-        },
-        {
-          "site": "GS SHOP",
-          "price": "10,700원"
-        },
-        {
-          "site": "다나와 가격비교",
-          "price": "7,000원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "05-12",
-            "price": 7380
-          },
-          {
-            "date": "05-19",
-            "price": 7380
-          },
-          {
-            "date": "05-26",
-            "price": 7380
-          },
-          {
-            "date": "06-02",
-            "price": 7380
-          },
-          {
-            "date": "06-09",
-            "price": 7380
-          },
-          {
-            "date": "06-16",
-            "price": 7380
-          },
-          {
-            "date": "06-23",
-            "price": 7720
-          },
-          {
-            "date": "06-30",
-            "price": 7720
-          },
-          {
-            "date": "07-07",
-            "price": 7720
-          },
-          {
-            "date": "07-14",
-            "price": 7720
-          },
-          {
-            "date": "07-21",
-            "price": 7720
-          },
-          {
-            "date": "07-28",
-            "price": 7720
-          }
-        ],
-        "minPrice": 7380,
-        "maxPrice": 7720
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_187400",
-      "title": "올트라이탄 밀폐용기 히트락 체험특가",
-      "price": "14,900원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/31/thumb_654fe01e9ceddb8dfe94b033f365df94.webp",
-      "category": "생활용품",
-      "site": "GS샵",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=723811",
-      "publishedAt": "2026-07-31 15:38:14",
-      "likes": 33,
-      "fetchedAt": "2026-07-31T08:43:33.792Z",
-      "priceComparison": [
-        {
-          "site": "GS샵",
-          "price": "14,900원"
-        },
-        {
-          "site": "다나와 가격비교",
-          "price": "61,050원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "05-12",
-            "price": 90300
-          },
-          {
-            "date": "05-19",
-            "price": 90300
-          },
-          {
-            "date": "05-26",
-            "price": 90300
-          },
-          {
-            "date": "06-02",
-            "price": 90300
-          },
-          {
-            "date": "06-09",
-            "price": 90300
-          },
-          {
-            "date": "06-16",
-            "price": 87300
-          },
-          {
-            "date": "06-23",
-            "price": 87300
-          },
-          {
-            "date": "06-30",
-            "price": 87300
-          },
-          {
-            "date": "07-07",
-            "price": 67830
-          },
-          {
-            "date": "07-14",
-            "price": 67830
-          },
-          {
-            "date": "07-21",
-            "price": 71820
-          },
-          {
-            "date": "07-28",
-            "price": 71820
-          }
-        ],
-        "minPrice": 67830,
-        "maxPrice": 90300
-      },
-      "postContent": {
-        "text": "밀폐용기 소재 괜찮습니다사이즈 구성 다양하게 있는데 가격 전부 동일합니다행사 8시까지네요",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0731/900w_20260731153627_4hreGHrAxI.jpg"
-        ]
-      },
-      "shopUrl": "https://www.gsshop.com/prd/prd.gs?prdid=1121201185"
-    },
-    {
-      "id": "hdz_187399",
-      "title": "[MANLI] 지포스 RTX 5060 Ti Nebula D7 8GB 인텍앤컴퍼니",
-      "price": "543,510원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/31/thumb_804fb0d587dad4f1795747c5a3c5856f.webp",
-      "category": "PC",
-      "site": "전자랜드",
-      "source": "아카라이브",
-      "sourceColor": "#10B981",
-      "link": "https://arca.live/b/hotdeal/178548537?p=1",
-      "publishedAt": "2026-07-31 15:38:05",
-      "likes": 82,
-      "fetchedAt": "2026-07-31T08:43:33.792Z",
-      "priceComparison": [
-        {
-          "site": "전자랜드",
-          "price": "543,510원"
-        },
-        {
-          "site": "월드컴퓨터",
-          "price": "649,790원"
-        },
-        {
-          "site": "월드컴퓨터(월드컴)",
-          "price": "663,190원"
-        },
-        {
-          "site": "주식회사 더어썸",
-          "price": "669,880원"
-        },
-        {
-          "site": "컴디씨",
-          "price": "689,980원"
-        },
-        {
-          "site": "컴바위",
-          "price": "703,380원"
-        },
-        {
-          "site": "빅테크코리아",
-          "price": "710,080원"
-        },
-        {
-          "site": "미리내존",
-          "price": "710,080원"
-        },
-        {
-          "site": "미션CNC",
-          "price": "710,080원"
-        },
-        {
-          "site": "청송컴퓨터",
-          "price": "710,080원"
-        },
-        {
-          "site": "hancom",
-          "price": "716,780원"
-        },
-        {
-          "site": "셀파라오",
-          "price": "723,480원"
-        },
-        {
-          "site": "플레이피씨",
-          "price": "770,370원"
-        },
-        {
-          "site": "comprice",
-          "price": "589,000원"
-        },
-        {
-          "site": "가이드컴",
-          "price": "679,000원"
-        },
-        {
-          "site": "에누리",
-          "price": "589,020원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "05-12",
-            "price": 584990
-          },
-          {
-            "date": "05-19",
-            "price": 552740
-          },
-          {
-            "date": "05-26",
-            "price": 552740
-          },
-          {
-            "date": "06-02",
-            "price": 541150
-          },
-          {
-            "date": "06-09",
-            "price": 588990
-          },
-          {
-            "date": "06-16",
-            "price": 588720
-          },
-          {
-            "date": "06-23",
-            "price": 579490
-          },
-          {
-            "date": "06-30",
-            "price": 575510
-          },
-          {
-            "date": "07-07",
-            "price": 575500
-          },
-          {
-            "date": "07-14",
-            "price": 594000
-          },
-          {
-            "date": "07-21",
-            "price": 757970
-          },
-          {
-            "date": "07-28",
-            "price": 757970
-          }
-        ],
-        "minPrice": 541150,
-        "maxPrice": 757970
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_187398",
-      "title": "식사대용 쉐이크 볶음 귀리 오트밀 파우더 10팩",
-      "price": "6,900원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/31/thumb_95564768a1393e54bf739c7c6b00b7e4.webp",
-      "category": "식품",
-      "site": "네이버",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=723810",
-      "publishedAt": "2026-07-31 15:36:12",
-      "likes": 28,
-      "fetchedAt": "2026-07-31T08:43:33.792Z",
-      "priceComparison": [
-        {
-          "site": "네이버",
-          "price": "6,900원"
-        },
-        {
-          "site": "GS SHOP",
-          "price": "9,000원"
-        },
-        {
-          "site": "자취세끼",
-          "price": "8,900원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "05-12",
-            "price": 28000
-          },
-          {
-            "date": "05-19",
-            "price": 28000
-          },
-          {
-            "date": "05-26",
-            "price": 28000
-          },
-          {
-            "date": "06-02",
-            "price": 28000
-          },
-          {
-            "date": "06-09",
-            "price": 28000
-          },
-          {
-            "date": "06-16",
-            "price": 28000
-          },
-          {
-            "date": "06-23",
-            "price": 28000
-          },
-          {
-            "date": "06-30",
-            "price": 28000
-          },
-          {
-            "date": "07-07",
-            "price": 28000
-          },
-          {
-            "date": "07-14",
-            "price": 28000
-          },
-          {
-            "date": "07-21",
-            "price": 28000
-          },
-          {
-            "date": "07-28",
-            "price": 28000
-          }
-        ],
-        "minPrice": 28000,
-        "maxPrice": 28000
-      },
-      "postContent": {
-        "text": "1포에 79kcal고, 설탕이랑 감미료 없이 귀리 100프로라 꽤나 포만감있습니다.물이나 우유만 넣으면 바로 먹을 수 있고 개별포장이라 먹고 버리기에도 편합니다.다이어트 하시거나 간단한 식사 대용 찾으시는 분들은 참고해보셔도 좋을 것 같습니다10팩 이 외에도 21팩 13,500원 , 33팩 18535원 나오고 30팩 구매시 빨대도 증정한다네요",
-        "images": [
-          "https://cdn3.ppomppu.co.kr/zboard/data3/2026/0731/20260731153404_2KBf5JnnuP.jpg"
-        ]
-      },
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_187397",
-      "title": "[임박 8/17까지] 옥주부키친 한우 언양식불고기 180g * 4입 2개 (총8입, 총1440g) ",
-      "price": "18,900원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/31/thumb_795be2f0a8641d3975656426345b3ce1.webp",
-      "category": "식품",
-      "site": "알토란 ",
-      "source": "개드립",
-      "sourceColor": "#DC2626",
-      "link": "https://www.dogdrip.net/716623566",
-      "publishedAt": "2026-07-31 15:35:04",
-      "likes": 61,
-      "fetchedAt": "2026-07-31T08:43:33.792Z",
-      "priceComparison": [
-        {
-          "site": "알토란",
-          "price": "18,900원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": {
-        "text": "냉동이라 임박이지만 좀더 두고 먹어도 ㄱㅊ음 1장에 2200원대",
-        "images": []
-      },
-      "shopUrl": "https://www.altoranmarket.co.kr/goods/goods_view.php?goodsNo=1000004629"
-    },
-    {
-      "id": "hdz_187396",
-      "title": "8월 한솥 매일매일 할인 (8/1~31)",
-      "price": null,
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/31/thumb_c55ffeff32a7ca8cb9a76e75dfc7fa01.webp",
-      "category": "식품",
-      "site": "한솥도시락",
-      "source": "루리웹",
-      "sourceColor": "#3B82F6",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106029?page=1",
-      "publishedAt": "2026-07-31 15:25:20",
-      "likes": 131,
-      "fetchedAt": "2026-07-31T08:43:33.792Z",
-      "priceComparison": [],
-      "priceHistory": null,
-      "postContent": {
-        "text": "",
-        "images": [
-          "https://i3.ruliweb.com/img/26/07/31/19fb6d7ac641874ce.webp"
-        ]
-      },
-      "shopUrl": "https://www.hsd.co.kr/event/event_view/1366?"
-    },
-    {
-      "id": "hdz_187395",
-      "title": "스파클 생수 2Lx24병",
-      "price": "7,200원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/31/thumb_04ab1a33863801e83605999e92818db3.webp",
-      "category": "식품",
-      "site": "토스",
-      "source": "루리웹",
-      "sourceColor": "#3B82F6",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106028?page=1",
-      "publishedAt": "2026-07-31 15:20:14",
-      "likes": 22,
-      "fetchedAt": "2026-07-31T08:43:33.792Z",
-      "priceComparison": [
-        {
-          "site": "토스",
-          "price": "7,200원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "05-12",
-            "price": 17100
-          },
-          {
-            "date": "05-19",
-            "price": 17100
-          },
-          {
-            "date": "05-26",
-            "price": 17100
-          },
-          {
-            "date": "06-02",
-            "price": 17100
-          },
-          {
-            "date": "06-09",
-            "price": 17100
-          },
-          {
-            "date": "06-16",
-            "price": 17100
-          },
-          {
-            "date": "06-23",
-            "price": 17760
-          },
-          {
-            "date": "06-30",
-            "price": 17760
-          },
-          {
-            "date": "07-07",
-            "price": 17100
-          },
-          {
-            "date": "07-14",
-            "price": 17100
-          },
-          {
-            "date": "07-21",
-            "price": 17100
-          },
-          {
-            "date": "07-28",
-            "price": 16960
-          }
-        ],
-        "minPrice": 16960,
-        "maxPrice": 17760
-      },
-      "postContent": {
-        "text": "최근 최저가-36병 10700원과 거의 비슷한 할인율입니다.",
-        "images": [
-          "https://i3.ruliweb.com/img/26/07/31/19fb6d372321874ce.webp"
-        ]
-      },
-      "shopUrl": "https://toss.shopping/t/56199215"
-    },
-    {
-      "id": "hdz_187394",
-      "title": "표고버섯 실속형 1kg",
-      "price": "7,720원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/31/thumb_0e6c17a50009675a6aad9d044739a960.webp",
-      "category": "식품",
-      "site": "롯데온",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/10154592980",
-      "publishedAt": "2026-07-31 15:16:06",
-      "likes": 13,
-      "fetchedAt": "2026-07-31T08:43:33.792Z",
-      "priceComparison": [
-        {
-          "site": "롯데온",
-          "price": "7,720원"
-        },
-        {
-          "site": "프레시원 업소용",
-          "price": "7,600원"
-        },
-        {
-          "site": "서래야",
-          "price": "12,000원"
-        },
-        {
-          "site": "산양스퀘어",
-          "price": "12,000원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "05-12",
-            "price": 17620
-          },
-          {
-            "date": "05-19",
-            "price": 17620
-          },
-          {
-            "date": "05-26",
-            "price": 17620
-          },
-          {
-            "date": "06-02",
-            "price": 17620
-          },
-          {
-            "date": "06-09",
-            "price": 17620
-          },
-          {
-            "date": "06-16",
-            "price": 18110
-          },
-          {
-            "date": "06-23",
-            "price": 18110
-          },
-          {
-            "date": "06-30",
-            "price": 18110
-          },
-          {
-            "date": "07-07",
-            "price": 18110
-          },
-          {
-            "date": "07-14",
-            "price": 17770
-          },
-          {
-            "date": "07-21",
-            "price": 17760
-          },
-          {
-            "date": "07-28",
-            "price": 17570
-          }
-        ],
-        "minPrice": 17570,
-        "maxPrice": 18110
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_187393",
-      "title": "라운지이밴트",
-      "price": null,
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/31/thumb_9b9654b5690554034192da9fc538839d.webp",
-      "category": "기타",
-      "site": "네이버페이",
-      "source": "루리웹",
-      "sourceColor": "#3B82F6",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106027?page=1",
-      "publishedAt": "2026-07-31 15:15:13",
-      "likes": 96,
-      "fetchedAt": "2026-07-31T08:43:34.031Z",
-      "priceComparison": [],
-      "priceHistory": null,
-      "postContent": {
-        "text": "https://lounge.naver.com/promotion/july 하트는 출책이고 댓쓰기 20개랑 좋아요는 몇분 노가다 투자하면 바로 보상 받을 수 있습니다 매번 하는 이밴트라서 하시는 법은 다들 아실 겁니다 가끔 하트 안 나온다는 분 계시는데 인터넷 캐시지우고 하시면 됩니다 그래도 안 나온다는분이 네앱으로 실행하시면 됩니다 이래도 안 나오면 저도 모릅니다",
-        "images": [
-          "https://i2.ruliweb.com/img/26/07/31/19fb6ceefec54fce7.webp",
-          "https://i3.ruliweb.com/img/26/07/31/19fb6dea3aa54fce7.webp"
-        ]
-      },
-      "shopUrl": "https://lounge.naver.com/promotion/july"
-    },
-    {
-      "id": "hdz_187392",
-      "title": "스카이락 오이지장아찌용기 1+1 외",
-      "price": "10,990원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/31/thumb_69acacaa4e577d9f1d21ab08da023c68.webp",
-      "category": "생활용품",
-      "site": "G마켓",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=723809",
-      "publishedAt": "2026-07-31 15:10:23",
-      "likes": 25,
-      "fetchedAt": "2026-07-31T08:43:34.031Z",
-      "priceComparison": [
-        {
-          "site": "G마켓",
-          "price": "10,990원"
-        },
-        {
-          "site": "GS SHOP",
-          "price": "7,900원"
-        },
-        {
-          "site": "롯데ON",
-          "price": "10,000원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "05-12",
-            "price": 6520
-          },
-          {
-            "date": "05-19",
-            "price": 6520
-          },
-          {
-            "date": "05-26",
-            "price": 6520
-          },
-          {
-            "date": "06-02",
-            "price": 6520
-          },
-          {
-            "date": "06-09",
-            "price": 6520
-          },
-          {
-            "date": "06-16",
-            "price": 6520
-          },
-          {
-            "date": "06-23",
-            "price": 6520
-          },
-          {
-            "date": "06-30",
-            "price": 6290
-          },
-          {
-            "date": "07-07",
-            "price": 6290
-          },
-          {
-            "date": "07-14",
-            "price": 6290
-          },
-          {
-            "date": "07-21",
-            "price": 6660
-          },
-          {
-            "date": "07-28",
-            "price": 6660
-          }
-        ],
-        "minPrice": 6290,
-        "maxPrice": 6660
-      },
-      "postContent": {
-        "text": "G마켓 끝장세일 중이고 옵션에 따라 8,160원부터 구매 가능합니다대표 오이지·장아찌용기는 오늘만 1+1이며 반찬통 사은품도 있습니다",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0731/900w_20260731150947_X4t0rRtMYc.png"
-        ]
-      },
-      "shopUrl": "https://item.gmarket.co.kr/Item?goodscode=4518123190"
-    },
-    {
-      "id": "hdz_187391",
-      "title": "티코 셀렉션 6개 골라담기 카카오페이결제",
-      "price": "28,710원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/31/thumb_6e7c228e1f2bdd48b13e6b8c92081cd0.webp",
-      "category": "식품",
-      "site": "카카오선물하기",
-      "source": "루리웹",
-      "sourceColor": "#3B82F6",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106026?page=1",
-      "publishedAt": "2026-07-31 15:10:15",
-      "likes": 26,
-      "fetchedAt": "2026-07-31T08:43:34.031Z",
-      "priceComparison": [
-        {
-          "site": "카카오선물하기",
-          "price": "28,710원"
-        },
-        {
-          "site": "롯데온",
-          "price": "27,470원"
-        },
-        {
-          "site": "홈플러스",
-          "price": "24,500원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "05-12",
-            "price": 24890
-          },
-          {
-            "date": "05-19",
-            "price": 24890
-          },
-          {
-            "date": "05-26",
-            "price": 24890
-          },
-          {
-            "date": "06-02",
-            "price": 24890
-          },
-          {
-            "date": "06-09",
-            "price": 24890
-          },
-          {
-            "date": "06-16",
-            "price": 24890
-          },
-          {
-            "date": "06-23",
-            "price": 24890
-          },
-          {
-            "date": "06-30",
-            "price": 24890
-          },
-          {
-            "date": "07-07",
-            "price": 24890
-          },
-          {
-            "date": "07-14",
-            "price": 24890
-          },
-          {
-            "date": "07-21",
-            "price": 24890
-          },
-          {
-            "date": "07-28",
-            "price": 24890
-          }
-        ],
-        "minPrice": 24890,
-        "maxPrice": 24890
-      },
-      "postContent": {
-        "text": "2개+2개+2개씩 고르는 방식이고 다른건 구구, 스크류바 미니, 죠스바 미니도 있습니다. 나를위한 선물쿠폰이랑 카카오페이로 할인받으시면 됩니다. 용량만 보면 구구, 티코, 셀렉션쪽이 낫겠네요",
-        "images": [
-          "https://i2.ruliweb.com/img/26/07/31/19fb6ca8d0658a7c5.webp"
-        ]
-      },
-      "shopUrl": "https://www.dajooda.kr/01/"
-    },
-    {
-      "id": "hdz_187390",
-      "title": "쟌슨빌 클래식 200x3 + 쟌슨빌 마일드 200gx3",
-      "price": "12,960원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/31/thumb_78fab6370d0ce946188c7df243e9817b.webp",
-      "category": "식품",
-      "site": "지마켓",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/10154566674",
-      "publishedAt": "2026-07-31 15:08:05",
-      "likes": 47,
-      "fetchedAt": "2026-07-31T08:43:34.031Z",
-      "priceComparison": [
-        {
-          "site": "지마켓",
-          "price": "12,960원"
-        },
-        {
-          "site": "GS SHOP",
-          "price": "16,800원"
-        },
-        {
-          "site": "11번가",
-          "price": "18,800원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "05-12",
-            "price": 14890
-          },
-          {
-            "date": "05-19",
-            "price": 14890
-          },
-          {
-            "date": "05-26",
-            "price": 14890
-          },
-          {
-            "date": "06-02",
-            "price": 14880
-          },
-          {
-            "date": "06-09",
-            "price": 14230
-          },
-          {
-            "date": "06-16",
-            "price": 14230
-          },
-          {
-            "date": "06-23",
-            "price": 14230
-          },
-          {
-            "date": "06-30",
-            "price": 14880
-          },
-          {
-            "date": "07-07",
-            "price": 14230
-          },
-          {
-            "date": "07-14",
-            "price": 14230
-          },
-          {
-            "date": "07-21",
-            "price": 14230
-          },
-          {
-            "date": "07-28",
-            "price": 14230
-          }
-        ],
-        "minPrice": 14230,
-        "maxPrice": 14890
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_187389",
-      "title": "남성 사각 드로즈팬티 3장",
-      "price": "5,900원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/31/thumb_7faca11a3ade40fde1a54ddc039a8888.webp",
-      "category": "의류",
-      "site": "네이버",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=723808",
-      "publishedAt": "2026-07-31 15:04:11",
-      "likes": 36,
-      "fetchedAt": "2026-07-31T08:43:34.031Z",
-      "priceComparison": [
-        {
-          "site": "네이버",
-          "price": "5,900원"
-        },
-        {
-          "site": "다나와",
-          "price": "15,990원"
-        },
-        {
-          "site": "SSG.COM",
-          "price": "12,758원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "05-12",
-            "price": 29880
-          },
-          {
-            "date": "05-19",
-            "price": 30510
-          },
-          {
-            "date": "05-26",
-            "price": 31290
-          },
-          {
-            "date": "06-02",
-            "price": 31620
-          },
-          {
-            "date": "06-09",
-            "price": 31290
-          },
-          {
-            "date": "06-16",
-            "price": 31290
-          },
-          {
-            "date": "06-23",
-            "price": 31580
-          },
-          {
-            "date": "06-30",
-            "price": 31580
-          },
-          {
-            "date": "07-07",
-            "price": 31620
-          },
-          {
-            "date": "07-14",
-            "price": 30950
-          },
-          {
-            "date": "07-21",
-            "price": 30670
-          },
-          {
-            "date": "07-28",
-            "price": 30350
-          }
-        ],
-        "minPrice": 29880,
-        "maxPrice": 31620
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_187388",
-      "title": "단독 최저가 (멕시카나치킨) 1989오리진후라이드+콜라1.25L",
-      "price": "14,600원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/31/thumb_40f72d8c52466cee55ae3b0a180fcf2a.webp",
-      "category": "기타",
-      "site": "G마켓",
-      "source": "아카라이브",
-      "sourceColor": "#10B981",
-      "link": "https://arca.live/b/hotdeal/178545415?p=1",
-      "publishedAt": "2026-07-31 15:02:04",
-      "likes": 74,
-      "fetchedAt": "2026-07-31T08:43:34.031Z",
-      "priceComparison": [
-        {
-          "site": "G마켓",
-          "price": "14,600원"
-        },
-        {
-          "site": "롯데온",
-          "price": "16,150원"
-        },
-        {
-          "site": "네이버",
-          "price": "20,290원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_187387",
-      "title": "아이러브베베 시그니앙 오블루 물티슈 77매 10팩",
-      "price": "8,800원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/31/thumb_c5807fa81ca49d00c3efdcd668d81ee7.webp",
-      "category": "생활용품",
-      "site": "네이버",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=723807",
-      "publishedAt": "2026-07-31 14:54:18",
-      "likes": 3,
-      "fetchedAt": "2026-07-31T05:57:12.222Z",
-      "priceComparison": [
-        {
-          "site": "네이버",
-          "price": "8,800원"
-        },
-        {
-          "site": "Coupang",
-          "price": "18,900원"
-        },
-        {
-          "site": "SSG.COM",
-          "price": "19,303원"
-        },
-        {
-          "site": "GS SHOP",
-          "price": "21,900원"
-        },
-        {
-          "site": "Kurly",
-          "price": "19,900원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "05-12",
-            "price": 9800
-          },
-          {
-            "date": "05-19",
-            "price": 8900
-          },
-          {
-            "date": "05-26",
-            "price": 10900
-          },
-          {
-            "date": "06-02",
-            "price": 11900
-          },
-          {
-            "date": "06-09",
-            "price": 9800
-          },
-          {
-            "date": "06-16",
-            "price": 9800
-          },
-          {
-            "date": "06-23",
-            "price": 11900
-          },
-          {
-            "date": "06-30",
-            "price": 9900
-          },
-          {
-            "date": "07-07",
-            "price": 9900
-          },
-          {
-            "date": "07-14",
-            "price": 9900
-          },
-          {
-            "date": "07-21",
-            "price": 9900
-          },
-          {
-            "date": "07-28",
-            "price": 9900
-          }
-        ],
-        "minPrice": 8900,
-        "maxPrice": 11900
-      },
-      "postContent": {
-        "text": "5팩 가격이 3,900원이긴한데 배송비있습니다.쿠폰받고 10팩으로 고른담에 결제창 넘어가면8,800원 나오고 멤버십은 무료배송 가능합니다.",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0731/900w_20260731145219_uqNMRuiFDm.jpg"
-        ]
-      },
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_187386",
-      "title": "케어미 손세정용 물티슈 20매 10팩",
-      "price": "4,900원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/31/thumb_4833cea49099b71431803413da8defb9.webp",
-      "category": "식품",
-      "site": "네이버",
-      "source": "아카라이브",
-      "sourceColor": "#10B981",
-      "link": "https://arca.live/b/hotdeal/178544581?p=1",
-      "publishedAt": "2026-07-31 14:52:04",
-      "likes": 2,
-      "fetchedAt": "2026-07-31T05:57:12.223Z",
-      "priceComparison": [
-        {
-          "site": "네이버",
-          "price": "4,900원"
-        },
-        {
-          "site": "다나와",
-          "price": "10,470원"
-        },
-        {
-          "site": "신세계몰",
-          "price": "13,485원"
-        },
-        {
-          "site": "베베숲시그니처몰",
-          "price": "12,900원"
-        },
-        {
-          "site": "지영몰",
-          "price": "3,000원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "05-12",
-            "price": 4310
-          },
-          {
-            "date": "05-19",
-            "price": 10480
-          },
-          {
-            "date": "05-26",
-            "price": 10480
-          },
-          {
-            "date": "06-02",
-            "price": 10470
-          },
-          {
-            "date": "06-09",
-            "price": 10470
-          },
-          {
-            "date": "06-16",
-            "price": 10470
-          },
-          {
-            "date": "06-23",
-            "price": 10470
-          },
-          {
-            "date": "06-30",
-            "price": 10470
-          },
-          {
-            "date": "07-07",
-            "price": 10470
-          },
-          {
-            "date": "07-14",
-            "price": 7550
-          },
-          {
-            "date": "07-21",
-            "price": 7347
-          },
-          {
-            "date": "07-28",
-            "price": 7420
-          }
-        ],
-        "minPrice": 4310,
-        "maxPrice": 10480
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_187385",
-      "title": "5070Ti MANLI Gallardo",
-      "price": "1,590,020원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/31/thumb_29309d30ab36ad61e8ebf564e71b45eb.webp",
-      "category": "PC",
-      "site": "전자랜드 온라인몰",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/10154421154",
-      "publishedAt": "2026-07-31 14:48:06",
-      "likes": 28,
-      "fetchedAt": "2026-07-31T05:57:12.223Z",
-      "priceComparison": [
-        {
-          "site": "전자랜드 온라인몰",
-          "price": "1,590,020원"
-        },
-        {
-          "site": "하이마트 온라인몰",
-          "price": "1,649,000원"
-        },
-        {
-          "site": "가격비교 쇼핑몰(엔씨카드 최저가)",
-          "price": "1,522,170원"
-        },
-        {
-          "site": "다나와 최저가 판매처",
-          "price": "1,630,190원"
-        },
-        {
-          "site": "마이피씨샵",
-          "price": "1,649,000원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "05-12",
-            "price": 1622180
-          },
-          {
-            "date": "05-19",
-            "price": 1629310
-          },
-          {
-            "date": "05-26",
-            "price": 1629310
-          },
-          {
-            "date": "06-02",
-            "price": 1629310
-          },
-          {
-            "date": "06-09",
-            "price": 1630000
-          },
-          {
-            "date": "06-16",
-            "price": 1630000
-          },
-          {
-            "date": "06-23",
-            "price": 1629310
-          },
-          {
-            "date": "06-30",
-            "price": 1629310
-          },
-          {
-            "date": "07-07",
-            "price": 1670820
-          },
-          {
-            "date": "07-14",
-            "price": 1486320
-          },
-          {
-            "date": "07-21",
-            "price": 1670820
-          },
-          {
-            "date": "07-28",
-            "price": 1670820
-          }
-        ],
-        "minPrice": 1486320,
-        "maxPrice": 1670820
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_187384",
-      "title": "둠 이터널 디럭스 에디션",
-      "price": "17,920원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/31/thumb_83bfd82b45be1005a28cf4fc0aede1c9.webp",
-      "category": "게임",
-      "site": "Steam",
-      "source": "아카라이브",
-      "sourceColor": "#10B981",
-      "link": "https://arca.live/b/hotdeal/178544185?p=1",
-      "publishedAt": "2026-07-31 14:48:04",
-      "likes": 5,
-      "fetchedAt": "2026-07-31T05:57:12.223Z",
-      "priceComparison": [
-        {
-          "site": "Steam",
-          "price": "17,920원"
-        },
-        {
-          "site": "Microsoft Store",
-          "price": "78,400원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "05-12",
-            "price": 18480
-          },
-          {
-            "date": "05-19",
-            "price": 18670
-          },
-          {
-            "date": "05-26",
-            "price": 18670
-          },
-          {
-            "date": "06-02",
-            "price": 18690
-          },
-          {
-            "date": "06-09",
-            "price": 18670
-          },
-          {
-            "date": "06-16",
-            "price": 19380
-          },
-          {
-            "date": "06-23",
-            "price": 20670
-          },
-          {
-            "date": "06-30",
-            "price": 21610
-          },
-          {
-            "date": "07-07",
-            "price": 21610
-          },
-          {
-            "date": "07-14",
-            "price": 21460
-          },
-          {
-            "date": "07-21",
-            "price": 22740
-          },
-          {
-            "date": "07-28",
-            "price": 22740
-          }
-        ],
-        "minPrice": 18480,
-        "maxPrice": 22740
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_187383",
-      "title": "동태탕 밀키트 480g 1개",
-      "price": "5,000원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/31/thumb_084677438d076448999635820d1ac8cb.webp",
-      "category": "식품",
-      "site": "네이버",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=723806",
-      "publishedAt": "2026-07-31 14:46:14",
-      "likes": 10,
-      "fetchedAt": "2026-07-31T05:57:12.223Z",
-      "priceComparison": [
-        {
-          "site": "네이버",
-          "price": "5,000원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "05-12",
-            "price": 11530
-          },
-          {
-            "date": "05-19",
-            "price": 11530
-          },
-          {
-            "date": "05-26",
-            "price": 11530
-          },
-          {
-            "date": "06-02",
-            "price": 11530
-          },
-          {
-            "date": "06-09",
-            "price": 11530
-          },
-          {
-            "date": "06-16",
-            "price": 11776
-          },
-          {
-            "date": "06-23",
-            "price": 11776
-          },
-          {
-            "date": "06-30",
-            "price": 12160
-          },
-          {
-            "date": "07-07",
-            "price": 11776
-          },
-          {
-            "date": "07-14",
-            "price": 11776
-          },
-          {
-            "date": "07-21",
-            "price": 11904
-          },
-          {
-            "date": "07-28",
-            "price": 11520
-          }
-        ],
-        "minPrice": 11520,
-        "maxPrice": 12160
-      },
-      "postContent": {
-        "text": "얼큰칼칼 동태탕 밀키트소비기한: 2027년 1월 29일까지냉동실에 쟁여두셨다가 밥반찬이나 소주 안주 필요할 때 하나씩 꺼내 먹기 좋습니다.캠핑 가실 때 챙겨가셔도 좋아요",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0731/900w_20260731144155_l2gnCZfTLK.jpg"
-        ]
-      },
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_187382",
-      "title": "외갓집 진심 육개장, 600g, 3개",
-      "price": "8,490원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/31/thumb_1ecbe55b56b5062fb5dbcb324a98ffb5.webp",
-      "category": "식품",
-      "site": "토스쇼핑",
-      "source": "아카라이브",
-      "sourceColor": "#10B981",
-      "link": "https://arca.live/b/hotdeal/178543301?p=1",
-      "publishedAt": "2026-07-31 14:36:04",
-      "likes": 10,
-      "fetchedAt": "2026-07-31T05:57:12.223Z",
-      "priceComparison": [
-        {
-          "site": "토스쇼핑",
-          "price": "8,490원"
-        },
-        {
-          "site": "쿠팡",
-          "price": "8,340원"
-        },
-        {
-          "site": "SSG.COM",
-          "price": "12,510원"
-        },
-        {
-          "site": "GS SHOP",
-          "price": "17,900원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "05-12",
-            "price": 15600
-          },
-          {
-            "date": "05-19",
-            "price": 15600
-          },
-          {
-            "date": "05-26",
-            "price": 15600
-          },
-          {
-            "date": "06-02",
-            "price": 15600
-          },
-          {
-            "date": "06-09",
-            "price": 15600
-          },
-          {
-            "date": "06-16",
-            "price": 15600
-          },
-          {
-            "date": "06-23",
-            "price": 15600
-          },
-          {
-            "date": "06-30",
-            "price": 15600
-          },
-          {
-            "date": "07-07",
-            "price": 16860
-          },
-          {
-            "date": "07-14",
-            "price": 17190
-          },
-          {
-            "date": "07-21",
-            "price": 17190
-          },
-          {
-            "date": "07-28",
-            "price": 15600
-          }
-        ],
-        "minPrice": 15600,
-        "maxPrice": 17190
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_187381",
-      "title": "닌텐도 스위치2 브레이블리 디폴트 플라잉 페어리 HD 리마스터",
-      "price": "29,800원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/31/thumb_2ece25d8e9f9e5eabb857212cb49043c.webp",
-      "category": "게임",
-      "site": "쿠팡",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/10154451043",
-      "publishedAt": "2026-07-31 14:34:05",
-      "likes": 60,
-      "fetchedAt": "2026-07-31T05:57:12.223Z",
-      "priceComparison": [
-        {
-          "site": "쿠팡",
-          "price": "29,800원"
-        },
-        {
-          "site": "11번가",
-          "price": "48,800원"
-        },
-        {
-          "site": "YES24",
-          "price": "49,800원"
-        },
-        {
-          "site": "닌텐도 e숍(디지털판)",
-          "price": "39,840원"
-        },
-        {
-          "site": "겜우리",
-          "price": "29,800원"
-        },
-        {
-          "site": "플레이스위치",
-          "price": "46,800원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "05-12",
-            "price": 38690
-          },
-          {
-            "date": "05-19",
-            "price": 36950
-          },
-          {
-            "date": "05-26",
-            "price": 36580
-          },
-          {
-            "date": "06-02",
-            "price": 36680
-          },
-          {
-            "date": "06-09",
-            "price": 36680
-          },
-          {
-            "date": "06-16",
-            "price": 34800
-          },
-          {
-            "date": "06-23",
-            "price": 27800
-          },
-          {
-            "date": "06-30",
-            "price": 27800
-          },
-          {
-            "date": "07-07",
-            "price": 34700
-          },
-          {
-            "date": "07-14",
-            "price": 34700
-          },
-          {
-            "date": "07-21",
-            "price": 34690
-          },
-          {
-            "date": "07-28",
-            "price": 34680
-          }
-        ],
-        "minPrice": 27800,
-        "maxPrice": 38690
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_187380",
-      "title": "지오다노 남자 PK 카라 반팔 티셔츠",
-      "price": "13,520원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/31/thumb_0c35076068b9acdb2d96695d5598ffa0.webp",
-      "category": "의류",
-      "site": "네이버",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/10154432444",
-      "publishedAt": "2026-07-31 14:30:08",
-      "likes": 20,
-      "fetchedAt": "2026-07-31T05:57:12.223Z",
-      "priceComparison": [
-        {
-          "site": "네이버",
-          "price": "13,520원"
-        },
-        {
-          "site": "에누리",
-          "price": "10,400원"
-        },
-        {
-          "site": "다나와",
-          "price": "14,400원"
-        },
-        {
-          "site": "GS SHOP",
-          "price": "17,460원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "05-12",
-            "price": 14400
-          },
-          {
-            "date": "05-19",
-            "price": 14400
-          },
-          {
-            "date": "05-26",
-            "price": 14400
-          },
-          {
-            "date": "06-02",
-            "price": 14400
-          },
-          {
-            "date": "06-09",
-            "price": 14400
-          },
-          {
-            "date": "06-16",
-            "price": 12000
-          },
-          {
-            "date": "06-23",
-            "price": 12000
-          },
-          {
-            "date": "06-30",
-            "price": 11200
-          },
-          {
-            "date": "07-07",
-            "price": 10400
-          },
-          {
-            "date": "07-14",
-            "price": 10400
-          },
-          {
-            "date": "07-21",
-            "price": 10400
-          },
-          {
-            "date": "07-28",
-            "price": 10400
-          }
-        ],
-        "minPrice": 10400,
-        "maxPrice": 14400
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_187379",
-      "title": "닌텐도 스위치 2 본체 단품+포켓몬 레전드 ZA 닌텐도 스위치 2 에디션",
-      "price": "727,800원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/31/thumb_3f78f70598f1cdc2ce45b0f038bc9ca7.webp",
-      "category": "게임",
-      "site": "예판런",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/10154434587",
-      "publishedAt": "2026-07-31 14:30:05",
-      "likes": 16,
-      "fetchedAt": "2026-07-31T05:57:12.223Z",
-      "priceComparison": [
-        {
-          "site": "예판런",
-          "price": "727,800원"
-        },
-        {
-          "site": "11번가",
-          "price": "827,990원"
-        },
-        {
-          "site": "G마켓",
-          "price": "688,000원"
-        },
-        {
-          "site": "겜우리쇼핑몰",
-          "price": "688,000원"
-        },
-        {
-          "site": "하이마트",
-          "price": "688,000원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "05-12",
-            "price": 1159620
-          },
-          {
-            "date": "05-19",
-            "price": 1158070
-          },
-          {
-            "date": "05-26",
-            "price": 1156510
-          },
-          {
-            "date": "06-02",
-            "price": 1143040
-          },
-          {
-            "date": "06-09",
-            "price": 1143040
-          },
-          {
-            "date": "06-16",
-            "price": 1119270
-          },
-          {
-            "date": "06-23",
-            "price": 1133240
-          },
-          {
-            "date": "06-30",
-            "price": 1137900
-          },
-          {
-            "date": "07-07",
-            "price": 1161180
-          },
-          {
-            "date": "07-14",
-            "price": 1139450
-          },
-          {
-            "date": "07-21",
-            "price": 1145660
-          },
-          {
-            "date": "07-28",
-            "price": 1133240
-          }
-        ],
-        "minPrice": 1119270,
-        "maxPrice": 1161180
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_187378",
-      "title": "LG 27UP850K-W 27인치 4K IPS 모니터 ",
-      "price": "399,000원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/31/thumb_78745419c9b4ea2c9beeb49dfe7fa98a.webp",
-      "category": "기타",
-      "site": "쿠팡 ",
-      "source": "개드립",
-      "sourceColor": "#DC2626",
-      "link": "https://www.dogdrip.net/716610855",
-      "publishedAt": "2026-07-31 14:30:04",
-      "likes": 16,
-      "fetchedAt": "2026-07-31T05:57:12.223Z",
-      "priceComparison": [
-        {
-          "site": "쿠팡",
-          "price": "399,000원"
-        },
-        {
-          "site": "다나와",
-          "price": "416,650원"
-        },
-        {
-          "site": "11번가",
-          "price": "469,980원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "05-12",
-            "price": 316880
-          },
-          {
-            "date": "05-19",
-            "price": 304000
-          },
-          {
-            "date": "05-26",
-            "price": 299000
-          },
-          {
-            "date": "06-02",
-            "price": 299000
-          },
-          {
-            "date": "06-09",
-            "price": 304000
-          },
-          {
-            "date": "06-16",
-            "price": 304000
-          },
-          {
-            "date": "06-23",
-            "price": 284000
-          },
-          {
-            "date": "06-30",
-            "price": 284000
-          },
-          {
-            "date": "07-07",
-            "price": 299000
-          },
-          {
-            "date": "07-14",
-            "price": 242600
-          },
-          {
-            "date": "07-21",
-            "price": 242600
-          },
-          {
-            "date": "07-28",
-            "price": 299000
-          }
-        ],
-        "minPrice": 242600,
-        "maxPrice": 316880
-      },
-      "postContent": {
-        "text": "스탠드에서 높낮이랑 피벗 조절돼서 메인 옆에 세로로 세워두기 좋음 USB-C 하나로 화면 출력이랑 노트북 90W 충전까지 되고 USB-A 포트도 두 개 4K IPS긴 한데 60Hz짜리라 게임용보다는 작업이나 영상용 서브 모니터로 ㄱㄱ",
-        "images": []
-      },
-      "shopUrl": "https://www.coupang.com/vp/products/8803783353?itemId=25638063017"
-    },
-    {
-      "id": "hdz_187377",
-      "title": "페이스메이드 버닝 에너지젤 50g 한정수량!",
-      "price": "6,956원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/07/31/thumb_f1bc606ece4fa619242638a905cbfc5a.webp",
-      "category": "화장품",
-      "site": "쟈뎅",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=723805",
-      "publishedAt": "2026-07-31 14:26:22",
-      "likes": 10,
-      "fetchedAt": "2026-07-31T05:57:12.223Z",
-      "priceComparison": [
-        {
-          "site": "쟈뎅",
-          "price": "6,956원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": {
-        "text": "혜자 가격이라 소개를 안 드릴수 없어요 페이코 앱 쟈뎅 쿠폰을 다운 받습니다. 53% 타임 딜이니, 수량 제한 있을 수 있습니다. 빠르게 빠르게~~ 저는 신규가입하고 에너지젤 구매했습니다 2박스 넘 저렴하기에 쟁여 놓으려고 2박스 6,956원으로 구매했습니다. 다른 상품종류도 많네요",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0731/20260731142214_MgiuUITXZU.png",
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0731/20260731142312_HzZugMYr7h.png",
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0731/20260731142348_ZmlbDq2hxD.png"
-        ]
-      },
-      "shopUrl": "https://jardinshop.co.kr/"
     }
   ],
-  "lastUpdated": "2026-08-01T08:05:45.918Z"
+  "lastUpdated": "2026-08-01T10:27:49.080Z"
 }
