@@ -4254,6 +4254,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "admin",
       "image": "https://images.unsplash.com/photo-1553484771-371a605b060b?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "범죄 피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-08-02",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청 등 수사기관이나 법원",
+      "target": "만 19세 미만 아동 및 범죄 피해 장애인",
+      "summary": "만 19세 미만 아동·장애인 범죄 피해자의 수사·재판 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -10605,7 +10618,67 @@
       "summary": "초거대 AI 언어 생성 및 신뢰성 평가 핵심 기술 개발",
       "link": "https://www.msit.go.kr/ai-llm-tech",
       "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-02-1",
+      "name": "NIPA AI 기반 차세대 산업 지능화 핵심 기술 개발 지원사업",
+      "category": "AI지원",
+      "startDate": "2026-08-02",
+      "endDate": "마감일 또는 상시",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI 핵심기술 개발 기업 및 연구기관",
+      "summary": "산업 전반의 지능화를 위한 AI 핵심기술 개발을 지원합니다.",
+      "link": "https://www.nipa.kr/main/index.html",
+      "image": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-02-2",
+      "name": "서울 AI 허브 AI 기반 도시 안전 솔루션 실증 및 사업화 지원",
+      "category": "AI지원",
+      "startDate": "2026-08-02",
+      "endDate": "마감일 또는 상시",
+      "location": "서울 AI 허브",
+      "target": "AI 기반 도시 안전 솔루션 개발 스타트업",
+      "summary": "AI 기술을 활용한 도시 안전 강화 솔루션의 실증 및 사업화를 지원합니다.",
+      "link": "https://www.seoulaihub.kr/",
+      "image": "https://images.unsplash.com/photo-1526378800651-c32d170fe6f8?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-02-3",
+      "name": "K-Startup AI 융합 스타트업 글로벌 스케일업 프로그램",
+      "category": "AI지원",
+      "startDate": "2026-08-02",
+      "endDate": "마감일 또는 상시",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "해외 시장 진출 희망 AI 융합 스타트업",
+      "summary": "AI 스타트업의 글로벌 시장 진출과 성장을 위한 맞춤형 프로그램을 제공합니다.",
+      "link": "https://www.k-startup.go.kr/",
+      "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-02-4",
+      "name": "중소기업 AI 기반 ERP/MES 연동 지능형 솔루션 도입 지원",
+      "category": "AI지원",
+      "startDate": "2026-08-02",
+      "endDate": "마감일 또는 상시",
+      "location": "중소벤처기업부 (기업마당)",
+      "target": "ERP/MES 보유 또는 도입 희망 중소기업",
+      "summary": "AI 기반 ERP/MES 연동 솔루션 도입을 통해 중소기업 생산성 향상을 지원합니다.",
+      "link": "https://www.bizinfo.go.kr/",
+      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-02-5",
+      "name": "과학기술정보통신부 미래형 AI 서비스 플랫폼 기술 개발 R&D",
+      "category": "AI지원",
+      "startDate": "2026-08-02",
+      "endDate": "마감일 또는 상시",
+      "location": "과학기술정보통신부",
+      "target": "AI 서비스 플랫폼 개발 연구기관 및 기업",
+      "summary": "미래 사회를 위한 혁신적 AI 서비스 플랫폼 핵심 기술 개발을 지원합니다.",
+      "link": "https://www.msit.go.kr/index.do",
+      "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-08-01"
+  "lastUpdated": "2026-08-02"
 }
