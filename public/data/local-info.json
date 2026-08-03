@@ -13,6 +13,18 @@
       "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1779432991songpa.JPG"
     },
     {
+      "name": "2026 해피 썸머타임 콘서트 & 월드 플라멩코 페스티벌",
+      "category": "문화, 공연, 축제, 전시",
+      "startDate": "2026-08-01",
+      "endDate": "2026-08-31",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "문화 예술의 도시 송파에서 해피 썸머타임 콘서트, 월드 플라멩코 페스티벌, 구립송파극단 정기공연, 호수동물아트전 등 다채로운 문화 예술 행사가 개최됩니다.",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9041&aid=18075",
+      "id": "crawler-1785722472719-230",
+      "image": "https://picsum.photos/seed/939912/800/500"
+    },
+    {
       "name": "송파 주요 문화 예술 행사 (콘서트, 페스티벌, 공연, 아트전)",
       "category": "문화",
       "startDate": "2026-08-01",
@@ -4267,6 +4279,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "admin",
       "image": "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청 등 수사기관 또는 법원",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "아동·장애인 범죄 피해자의 수사·재판상 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "health",
+      "image": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -10678,7 +10703,67 @@
       "summary": "미래 사회를 위한 혁신적 AI 서비스 플랫폼 핵심 기술 개발을 지원합니다.",
       "link": "https://www.msit.go.kr/index.do",
       "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-03-1",
+      "name": "NIPA 양자 컴퓨팅 기반 AI 융합 서비스 개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-08-03",
+      "endDate": "2027-03-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI/SW 개발 기업, 연구기관",
+      "summary": "양자 컴퓨팅 기술을 활용한 혁신적인 AI 융합 서비스 개발 지원",
+      "link": "https://www.nipa.kr/biz/program/quantum_ai_service_dev",
+      "image": "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-03-2",
+      "name": "서울 AI 허브 AI 모델 설명가능성(XAI) 연구 및 기술 검증 지원",
+      "category": "AI지원",
+      "startDate": "2026-08-03",
+      "endDate": "상시",
+      "location": "서울 AI 허브",
+      "target": "AI 스타트업, 연구자, 기업",
+      "summary": "AI 모델의 설명 가능성(XAI) 연구 및 기술적 신뢰성 검증 환경 지원",
+      "link": "https://www.seoulaihub.kr/program/xai_research_validation",
+      "image": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-03-3",
+      "name": "K-Startup 지역 특화 산업 AI/디지털 전환 스타트업 육성 프로그램",
+      "category": "AI지원",
+      "startDate": "2026-08-03",
+      "endDate": "2027-02-28",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "지역 특화 산업 분야 AI/디지털 스타트업",
+      "summary": "지역 산업의 디지털 전환을 이끌 AI/디지털 스타트업 발굴 및 육성",
+      "link": "https://www.k-startup.go.kr/biz/prgrm/view/2026/regional_ai_dx",
+      "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-03-4",
+      "name": "중소벤처기업부 중소기업 ESG 경영을 위한 AI 기반 에너지 효율화 데이터 플랫폼 구축 지원",
+      "category": "AI지원",
+      "startDate": "2026-08-03",
+      "endDate": "2027-01-31",
+      "location": "중소벤처기업부",
+      "target": "중소기업",
+      "summary": "ESG 경영을 위한 AI 기반 에너지 데이터 플랫폼 구축 및 활용 지원",
+      "link": "https://www.bizinfo.go.kr/biz_prog_view/2026/esg_ai_energy_platform",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-03-5",
+      "name": "과학기술정보통신부 AI 융합 산업 데이터 보안 기술 개발 및 표준화 지원",
+      "category": "AI지원",
+      "startDate": "2026-08-03",
+      "endDate": "2027-06-30",
+      "location": "과학기술정보통신부",
+      "target": "기업, 연구기관, 대학",
+      "summary": "산업 데이터 보호를 위한 AI 융합 보안 기술 개발 및 관련 표준화 지원",
+      "link": "https://www.msit.go.kr/web/msitUsrInf/msitUsrInfPolicyDataView.do?policyId=MSIT_2026_AIDSS",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-08-02"
+  "lastUpdated": "2026-08-03"
 }
