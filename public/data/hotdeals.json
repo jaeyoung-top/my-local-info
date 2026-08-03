@@ -1,6 +1,222 @@
 {
   "deals": [
     {
+      "id": "hdz_189296",
+      "title": "라온르 에어 BLDC 서큘레이터 S600, 1개",
+      "price": "109,000원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/04/thumb_f0094f88cb4690c56b5ce35602ce836e.webp",
+      "category": "가전",
+      "site": "토스쇼핑",
+      "source": "기타",
+      "sourceColor": "#888888",
+      "link": "https://toss.shopping/t/2460432787",
+      "publishedAt": "2026-08-04 02:50:44",
+      "likes": 19,
+      "fetchedAt": "2026-08-03T19:20:33.219Z",
+      "priceComparison": [
+        {
+          "site": "토스쇼핑",
+          "price": "109,000원"
+        },
+        {
+          "site": "조선몰",
+          "price": "138,000원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "07-07",
+            "price": 139000
+          },
+          {
+            "date": "07-14",
+            "price": 138000
+          },
+          {
+            "date": "07-21",
+            "price": 149000
+          },
+          {
+            "date": "07-28",
+            "price": 218000
+          }
+        ],
+        "minPrice": 138000,
+        "maxPrice": 218000
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_189295",
+      "title": "맥심 모카골드 마일드 커피믹스, 12g, 220개입, 1개",
+      "price": "30,900원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/04/thumb_4cadd73eebabb1333afbbbbab1d5eacd.webp",
+      "category": "식품",
+      "site": "토스쇼핑",
+      "source": "기타",
+      "sourceColor": "#888888",
+      "link": "https://toss.shopping/t/73983233",
+      "publishedAt": "2026-08-04 02:50:22",
+      "likes": 16,
+      "fetchedAt": "2026-08-03T19:20:33.219Z",
+      "priceComparison": [
+        {
+          "site": "토스쇼핑",
+          "price": "30,900원"
+        },
+        {
+          "site": "다른 쇼핑몰(할인 정보)",
+          "price": "35,900원"
+        },
+        {
+          "site": "SSG.COM",
+          "price": "30,000원 대"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "05-12",
+            "price": 29190
+          },
+          {
+            "date": "05-19",
+            "price": 29190
+          },
+          {
+            "date": "05-26",
+            "price": 29280
+          },
+          {
+            "date": "06-02",
+            "price": 29100
+          },
+          {
+            "date": "06-09",
+            "price": 29100
+          },
+          {
+            "date": "06-16",
+            "price": 29900
+          },
+          {
+            "date": "06-23",
+            "price": 29900
+          },
+          {
+            "date": "06-30",
+            "price": 29900
+          },
+          {
+            "date": "07-07",
+            "price": 29900
+          },
+          {
+            "date": "07-14",
+            "price": 26310
+          },
+          {
+            "date": "07-21",
+            "price": 26310
+          },
+          {
+            "date": "07-28",
+            "price": 31040
+          }
+        ],
+        "minPrice": 26310,
+        "maxPrice": 31040
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_189294",
+      "title": "애슐리 시그니처 부채살 스테이크, 200g, 4팩",
+      "price": "29,900원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/04/thumb_dd55aed6082e18fed65a8fb000d62d3e.webp",
+      "category": "식품",
+      "site": "토스쇼핑",
+      "source": "기타",
+      "sourceColor": "#888888",
+      "link": "https://toss.shopping/t/116314353",
+      "publishedAt": "2026-08-04 02:50:16",
+      "likes": 13,
+      "fetchedAt": "2026-08-03T19:20:33.219Z",
+      "priceComparison": [
+        {
+          "site": "토스쇼핑",
+          "price": "29,900원"
+        },
+        {
+          "site": "쿠팡",
+          "price": "36,430원"
+        },
+        {
+          "site": "오아시스마켓",
+          "price": "29,700원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "05-12",
+            "price": 56700
+          },
+          {
+            "date": "05-19",
+            "price": 57050
+          },
+          {
+            "date": "05-26",
+            "price": 57400
+          },
+          {
+            "date": "06-02",
+            "price": 57050
+          },
+          {
+            "date": "06-09",
+            "price": 57050
+          },
+          {
+            "date": "06-16",
+            "price": 57400
+          },
+          {
+            "date": "06-23",
+            "price": 58700
+          },
+          {
+            "date": "06-30",
+            "price": 60900
+          },
+          {
+            "date": "07-07",
+            "price": 57400
+          },
+          {
+            "date": "07-14",
+            "price": 57400
+          },
+          {
+            "date": "07-21",
+            "price": 57400
+          },
+          {
+            "date": "07-28",
+            "price": 57400
+          }
+        ],
+        "minPrice": 56700,
+        "maxPrice": 60900
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
       "id": "hdz_189293",
       "title": "두메산골 닭다리살 정육 2kg, 절단육 2kg, 명장김치찌개김치찜",
       "price": null,
@@ -35772,227 +35988,7 @@
         ]
       },
       "shopUrl": "https://itempage3.auction.co.kr/DetailView.aspx?ItemNo=F621376951"
-    },
-    {
-      "id": "hdz_188482",
-      "title": "레노버YOGAPadPro 16+512GBWIFI 12.7인치 TB520FU 중국내수+터치펜PRO+키보드케이스세트",
-      "price": "566,370원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/08/03/thumb_03a43145e48e94d3c10421d456fe0797.webp",
-      "category": "PC",
-      "site": "지마켓",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/10164762880",
-      "publishedAt": "2026-08-03 00:16:06",
-      "likes": 43,
-      "fetchedAt": "2026-08-02T15:54:12.943Z",
-      "priceComparison": [
-        {
-          "site": "지마켓",
-          "price": "566,370원"
-        },
-        {
-          "site": "다나와",
-          "price": "586,740원"
-        },
-        {
-          "site": "중고나라",
-          "price": "570,000원"
-        },
-        {
-          "site": "11번가",
-          "price": "617,100원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_188481",
-      "title": "오뚜기밥 흰밥 200g*36개(1박스)",
-      "price": "25,416원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/08/03/thumb_e5c0499e99402296a6e4b1e860702959.webp",
-      "category": "식품",
-      "site": "오늘의집",
-      "source": "아카라이브",
-      "sourceColor": "#10B981",
-      "link": "https://arca.live/b/hotdeal/178788242?p=1",
-      "publishedAt": "2026-08-03 00:16:03",
-      "likes": 8,
-      "fetchedAt": "2026-08-02T15:54:12.943Z",
-      "priceComparison": [
-        {
-          "site": "오늘의집",
-          "price": "25,416원"
-        },
-        {
-          "site": "11번가",
-          "price": "32,560원"
-        },
-        {
-          "site": "옥션",
-          "price": "30,750원"
-        },
-        {
-          "site": "네이버 쇼핑",
-          "price": "23,900원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "05-12",
-            "price": 17680
-          },
-          {
-            "date": "05-19",
-            "price": 18050
-          },
-          {
-            "date": "05-26",
-            "price": 15300
-          },
-          {
-            "date": "06-02",
-            "price": 15300
-          },
-          {
-            "date": "06-09",
-            "price": 15660
-          },
-          {
-            "date": "06-16",
-            "price": 18620
-          },
-          {
-            "date": "06-23",
-            "price": 18140
-          },
-          {
-            "date": "06-30",
-            "price": 17890
-          },
-          {
-            "date": "07-07",
-            "price": 17890
-          },
-          {
-            "date": "07-14",
-            "price": 18080
-          },
-          {
-            "date": "07-21",
-            "price": 17890
-          },
-          {
-            "date": "07-28",
-            "price": 17000
-          }
-        ],
-        "minPrice": 15300,
-        "maxPrice": 18620
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_188480",
-      "title": "펩시제로카페인 355ml 48캔+미니선풍기",
-      "price": "25,770원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/08/03/thumb_d51ffe96c370b14dc096725048f99352.webp",
-      "category": "식품",
-      "site": "네이버",
-      "source": "루리웹",
-      "sourceColor": "#3B82F6",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106082?page=1",
-      "publishedAt": "2026-08-03 00:15:28",
-      "likes": 13,
-      "fetchedAt": "2026-08-02T15:54:12.943Z",
-      "priceComparison": [
-        {
-          "site": "네이버",
-          "price": "25,770원"
-        },
-        {
-          "site": "겟모임",
-          "price": "23,330원"
-        },
-        {
-          "site": "다나와",
-          "price": "28,860원"
-        },
-        {
-          "site": "GS SHOP",
-          "price": "32,900원"
-        },
-        {
-          "site": "SSG.COM",
-          "price": "40,430원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "05-12",
-            "price": 21320
-          },
-          {
-            "date": "05-19",
-            "price": 22520
-          },
-          {
-            "date": "05-26",
-            "price": 22520
-          },
-          {
-            "date": "06-02",
-            "price": 27620
-          },
-          {
-            "date": "06-09",
-            "price": 27620
-          },
-          {
-            "date": "06-16",
-            "price": 28370
-          },
-          {
-            "date": "06-23",
-            "price": 28700
-          },
-          {
-            "date": "06-30",
-            "price": 28700
-          },
-          {
-            "date": "07-07",
-            "price": 28700
-          },
-          {
-            "date": "07-14",
-            "price": 28370
-          },
-          {
-            "date": "07-21",
-            "price": 28990
-          },
-          {
-            "date": "07-28",
-            "price": 25000
-          }
-        ],
-        "minPrice": 21320,
-        "maxPrice": 28990
-      },
-      "postContent": {
-        "text": "캔당 536원꼴 미니선풍기까지 증정 있습니다. https://shopping.naver.com/festa/onsale/699ceb9398f1530c6f40ef49 쿠폰 받아서 적용하시면 됩니다. https://brand.naver.com/lottechilsung/shoppingstory/detail?id=5002866225 다른제품들도 쿠폰 적용되서 저렴하네요.",
-        "images": [
-          "https://i3.ruliweb.com/img/26/08/03/19fc308af5358f3db.webp"
-        ]
-      },
-      "shopUrl": "https://shopping.naver.com/festa/onsale/699ceb9398f1530c6f40ef49"
     }
   ],
-  "lastUpdated": "2026-08-03T17:05:01.435Z"
+  "lastUpdated": "2026-08-03T19:20:35.835Z"
 }
