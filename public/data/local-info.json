@@ -13,28 +13,16 @@
       "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1779432991songpa.JPG"
     },
     {
-      "name": "2026 해피 썸머타임 콘서트 & 월드 플라멩코 페스티벌",
-      "category": "문화, 공연, 축제, 전시",
-      "startDate": "2026-08-01",
-      "endDate": "2026-08-31",
-      "location": "송파구 관내",
-      "target": "전체 구민",
-      "summary": "문화 예술의 도시 송파에서 해피 썸머타임 콘서트, 월드 플라멩코 페스티벌, 구립송파극단 정기공연, 호수동물아트전 등 다채로운 문화 예술 행사가 개최됩니다.",
-      "link": "https://songpa.newstool.co.kr/./view.php?eid=9041&aid=18075",
-      "id": "crawler-1785722472719-230",
-      "image": "https://picsum.photos/seed/939912/800/500"
-    },
-    {
-      "name": "송파 주요 문화 예술 행사 (콘서트, 페스티벌, 공연, 아트전)",
+      "name": "송파구 문화 예술 행사: 썸머타임 콘서트, 플라멩코 페스티벌 등",
       "category": "문화",
       "startDate": "2026-08-01",
       "endDate": "2026-08-31",
       "location": "송파구 관내",
       "target": "전체 구민",
-      "summary": "2026 해피 썸머타임 콘서트&월드 플라멩코 페스티벌, 구립송파극단 정기공연 '30일간의 야유회', 호수동물아트전 등 송파구의 여름 주요 문화 예술 행사 소개",
+      "summary": "2026 해피 썸머타임 콘서트, 월드 플라멩코 페스티벌, 구립송파극단 정기공연 '30일간의 야유회', 호수동물아트전 등 송파구의 다양한 여름 문화 예술 행사 소개.",
       "link": "https://songpa.newstool.co.kr/./view.php?eid=9041&aid=18075",
-      "id": "crawler-1785463258868-415",
-      "image": "https://picsum.photos/seed/910248/800/500"
+      "id": "crawler-1785808041833-256",
+      "image": "https://picsum.photos/seed/735776/800/500"
     },
     {
       "name": "2026 송파 여름 문화 예술 특집",
@@ -4292,6 +4280,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "health",
       "image": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "범죄 피해자 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-08-04",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원",
+      "target": "성폭력·아동학대·인신매매 등 범죄 피해 아동 및 장애인",
+      "summary": "범죄 피해 아동·장애인의 의사소통 중개 및 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -10763,7 +10764,67 @@
       "summary": "산업 데이터 보호를 위한 AI 융합 보안 기술 개발 및 관련 표준화 지원",
       "link": "https://www.msit.go.kr/web/msitUsrInf/msitUsrInfPolicyDataView.do?policyId=MSIT_2026_AIDSS",
       "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-04-1",
+      "name": "NIPA AI 기반 탄소중립 DX 플랫폼 개발 및 확산 지원",
+      "category": "AI지원",
+      "startDate": "2026-08-01",
+      "endDate": "2027-02-28",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "기업, 연구기관 컨소시엄",
+      "summary": "AI 기반 탄소중립 목표 달성을 위한 DX 플랫폼 개발 및 보급",
+      "link": "https://www.nipa.kr",
+      "image": "https://images.unsplash.com/photo-1516321165247-4aa89a48be55?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-04-2",
+      "name": "서울 AI 허브 인공지능 모델 성능 평가 및 벤치마킹 환경 제공",
+      "category": "AI지원",
+      "startDate": "2026-08-01",
+      "endDate": "상시",
+      "location": "서울 AI 허브",
+      "target": "AI 모델 개발 기업 및 연구자",
+      "summary": "AI 모델 성능 객관적 평가 및 벤치마킹을 위한 환경 제공",
+      "link": "https://seoulaihub.kr",
+      "image": "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-04-3",
+      "name": "K-Startup 초기 창업기업 AI 기반 PoC-to-Product 전환 지원",
+      "category": "AI지원",
+      "startDate": "2026-08-01",
+      "endDate": "2027-02-28",
+      "location": "K-Startup 창업진흥원",
+      "target": "AI 기술 기반 초기 창업기업",
+      "summary": "AI 기술 PoC를 제품으로 전환하기 위한 개발 및 사업화 지원",
+      "link": "https://www.k-startup.go.kr",
+      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-04-4",
+      "name": "중소벤처기업부 중소기업 제조현장 AI 기반 무인화/자동화 솔루션 도입 지원",
+      "category": "AI지원",
+      "startDate": "2026-08-01",
+      "endDate": "2027-02-28",
+      "location": "기업마당 (bizinfo.go.kr)",
+      "target": "중소 제조기업",
+      "summary": "AI 기반 제조 현장 무인화 및 자동화 솔루션 도입 지원",
+      "link": "https://www.bizinfo.go.kr",
+      "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-04-5",
+      "name": "과학기술정보통신부 차세대 AI 모델 신뢰성/윤리 평가 및 인증 프레임워크 개발",
+      "category": "AI지원",
+      "startDate": "2026-08-01",
+      "endDate": "2027-02-28",
+      "location": "과학기술정보통신부",
+      "target": "연구기관, 대학, 표준화 전문기관",
+      "summary": "차세대 AI 모델의 신뢰성, 윤리성 평가 및 인증 프레임워크 개발",
+      "link": "https://www.msit.go.kr",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-08-03"
+  "lastUpdated": "2026-08-04"
 }
