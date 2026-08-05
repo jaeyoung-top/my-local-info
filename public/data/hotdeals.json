@@ -1,6 +1,109 @@
 {
   "deals": [
     {
+      "id": "hdz_190109",
+      "title": "아이엠듀 골전도 블루투스 오픈형 이어폰",
+      "price": "18,900원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/05/thumb_35c8323b68705ec08532b1885da9f698.webp",
+      "category": "가전",
+      "site": "네이버",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/10173856394",
+      "publishedAt": "2026-08-05 10:50:06",
+      "likes": 8,
+      "fetchedAt": "2026-08-05T01:53:52.853Z",
+      "priceComparison": [
+        {
+          "site": "네이버",
+          "price": "18,900원"
+        },
+        {
+          "site": "11번가",
+          "price": "59,900원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_190108",
+      "title": "LEADJOY XENO Plus 무선 2.4G 게임패드 컨트롤러 세트 삼성카드",
+      "price": "33,880원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/05/thumb_6e2834c77fdb2cea6894bfa0ee89b18a.webp",
+      "category": "PC",
+      "site": "지마켓",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/10173853439",
+      "publishedAt": "2026-08-05 10:48:05",
+      "likes": 7,
+      "fetchedAt": "2026-08-05T01:53:52.853Z",
+      "priceComparison": [
+        {
+          "site": "지마켓",
+          "price": "33,880원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "05-19",
+            "price": 31500
+          },
+          {
+            "date": "05-26",
+            "price": 31500
+          },
+          {
+            "date": "06-02",
+            "price": 31500
+          },
+          {
+            "date": "06-09",
+            "price": 24500
+          },
+          {
+            "date": "06-16",
+            "price": 24500
+          },
+          {
+            "date": "06-23",
+            "price": 24500
+          },
+          {
+            "date": "06-30",
+            "price": 24500
+          },
+          {
+            "date": "07-07",
+            "price": 24500
+          },
+          {
+            "date": "07-14",
+            "price": 24500
+          },
+          {
+            "date": "07-21",
+            "price": 24500
+          },
+          {
+            "date": "07-28",
+            "price": 24500
+          },
+          {
+            "date": "08-04",
+            "price": 24500
+          }
+        ],
+        "minPrice": 24500,
+        "maxPrice": 31500
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
       "id": "hdz_190107",
       "title": "경북 노지 자두 중과 2kg",
       "price": "7,920원",
@@ -36664,190 +36767,7 @@
       "priceHistory": null,
       "postContent": null,
       "shopUrl": null
-    },
-    {
-      "id": "hdz_189505",
-      "title": "아이스 망고바 60g 20개",
-      "price": "14,880원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/08/04/thumb_9a7a94cf48599fed8d886b7635096e3e.webp",
-      "category": "식품",
-      "site": "지마켓",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=724646",
-      "publishedAt": "2026-08-04 12:10:28",
-      "likes": 29,
-      "fetchedAt": "2026-08-04T05:40:27.159Z",
-      "priceComparison": [
-        {
-          "site": "지마켓",
-          "price": "14,880원"
-        },
-        {
-          "site": "쿠팡",
-          "price": "18,000원"
-        },
-        {
-          "site": "11번가",
-          "price": "약 18,500원"
-        },
-        {
-          "site": "SSG.COM",
-          "price": "29,500원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "05-12",
-            "price": 15750
-          },
-          {
-            "date": "05-19",
-            "price": 15750
-          },
-          {
-            "date": "05-26",
-            "price": 15750
-          },
-          {
-            "date": "06-02",
-            "price": 16420
-          },
-          {
-            "date": "06-09",
-            "price": 16420
-          },
-          {
-            "date": "06-16",
-            "price": 16470
-          },
-          {
-            "date": "06-23",
-            "price": 16470
-          },
-          {
-            "date": "06-30",
-            "price": 16040
-          },
-          {
-            "date": "07-07",
-            "price": 15750
-          },
-          {
-            "date": "07-14",
-            "price": 16470
-          },
-          {
-            "date": "07-21",
-            "price": 16470
-          },
-          {
-            "date": "07-28",
-            "price": 16470
-          }
-        ],
-        "minPrice": 15750,
-        "maxPrice": 16470
-      },
-      "postContent": {
-        "text": "아이들 간식으로 주기 좋습니다.방학이라 간식 많이 필요하네요삼성, 비씨카드 결제 할인 받으세요.",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0804/20260804120714_WuhgQ9s48v.jpg",
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0804/20260804120717_XHF2Pcff0F.jpg"
-        ]
-      },
-      "shopUrl": "https://item.gmarket.co.kr/Item?goodscode=4811471013"
-    },
-    {
-      "id": "hdz_189504",
-      "title": "펩시제로슈거 라임향 310ml x 48캔",
-      "price": "19,640원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/08/04/thumb_f80bf74480ce140c2f0e967b5ff55e53.webp",
-      "category": "식품",
-      "site": "네이버",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=114&no=724647",
-      "publishedAt": "2026-08-04 12:10:13",
-      "likes": 18,
-      "fetchedAt": "2026-08-04T05:40:27.159Z",
-      "priceComparison": [
-        {
-          "site": "네이버",
-          "price": "19,640원"
-        },
-        {
-          "site": "11번가",
-          "price": "22,700원"
-        },
-        {
-          "site": "GS SHOP",
-          "price": "16,900원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "05-12",
-            "price": 11800
-          },
-          {
-            "date": "05-19",
-            "price": 11800
-          },
-          {
-            "date": "05-26",
-            "price": 13450
-          },
-          {
-            "date": "06-02",
-            "price": 15700
-          },
-          {
-            "date": "06-09",
-            "price": 15990
-          },
-          {
-            "date": "06-16",
-            "price": 17010
-          },
-          {
-            "date": "06-23",
-            "price": 17010
-          },
-          {
-            "date": "06-30",
-            "price": 16830
-          },
-          {
-            "date": "07-07",
-            "price": 16690
-          },
-          {
-            "date": "07-14",
-            "price": 13410
-          },
-          {
-            "date": "07-21",
-            "price": 10440
-          },
-          {
-            "date": "07-28",
-            "price": 8800
-          }
-        ],
-        "minPrice": 8800,
-        "maxPrice": 17010
-      },
-      "postContent": {
-        "text": "캔당 409원 아래 쿠폰받으시면 금액나오네요https://shopping.naver.com/festa/onsale/food/6a6aebcc52093b014c494932",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0804/900w_20260804120807_lv0NjMfkHz.jpg"
-        ]
-      },
-      "shopUrl": null
     }
   ],
-  "lastUpdated": "2026-08-05T01:46:47.674Z"
+  "lastUpdated": "2026-08-05T01:53:54.973Z"
 }

@@ -13,6 +13,18 @@
       "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1779432991songpa.JPG"
     },
     {
+      "name": "2026 송파 문화 예술의 도시 주요 행사",
+      "category": "문화",
+      "startDate": "2026-08-01",
+      "endDate": "2026-08-31",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "2026년 여름 송파구에서 열리는 해피 썸머타임 콘서트, 월드 플라멩코 페스티벌, 구립송파극단 정기공연, 호수동물아트전 등 주요 문화 예술 행사 소개.",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9041&aid=18075",
+      "id": "crawler-1785894560656-934",
+      "image": "https://picsum.photos/seed/560584/800/500"
+    },
+    {
       "name": "송파구 문화 예술 행사: 썸머타임 콘서트, 플라멩코 페스티벌 등",
       "category": "문화",
       "startDate": "2026-08-01",
@@ -4293,6 +4305,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "아동·장애인 범죄 피해자 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-08-05",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원",
+      "target": "성폭력, 아동학대 등 범죄 피해 아동 및 장애인",
+      "summary": "아동·장애인 범죄 피해자의 수사·재판상 소통을 돕는 진술조력인 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -10824,7 +10849,67 @@
       "summary": "차세대 AI 모델의 신뢰성, 윤리성 평가 및 인증 프레임워크 개발",
       "link": "https://www.msit.go.kr",
       "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-05-1",
+      "name": "NIPA AI 기반 시계열 데이터 이상 탐지 및 예측 시스템 개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-08-12",
+      "endDate": "2026-10-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI 기반 기술 보유 기업 및 연구기관",
+      "summary": "산업 및 금융 분야 시계열 데이터의 AI 기반 이상 탐지 및 예측 시스템 개발 지원",
+      "link": "https://www.nipa.kr/biz/ai-timeseries-anomaly-prediction-2026.html",
+      "image": "https://images.unsplash.com/photo-1488229297570-58520851e868?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-05-2",
+      "name": "서울 AI 허브 AI 기반 차세대 헬스케어 진단 및 예측 솔루션 개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-08-01",
+      "endDate": "2026-09-15",
+      "location": "서울 AI 허브",
+      "target": "AI 헬스케어 분야 스타트업 및 중소기업",
+      "summary": "AI를 활용한 차세대 헬스케어 진단·예측 솔루션 개발 및 사업화 지원",
+      "link": "https://seoulaihub.kr/program/ai-nextgen-healthcare-solution-2026",
+      "image": "https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-05-3",
+      "name": "K-Startup AI 기반 농업/축산업 스마트 혁신 스타트업 육성",
+      "category": "AI지원",
+      "startDate": "2026-08-05",
+      "endDate": "2026-09-30",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "농업/축산업 AI 혁신 분야 예비/초기 스타트업",
+      "summary": "AI 기술로 농업·축산업을 혁신할 스마트 스타트업 발굴 및 성장 지원",
+      "link": "https://www.k-startup.go.kr/web/biz_info/detail_ai_agritech_2026.do",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-05-4",
+      "name": "중소기업 AI 기반 산업 안전 및 작업자 위험 관리 솔루션 도입 지원",
+      "category": "AI지원",
+      "startDate": "2026-08-19",
+      "endDate": "상시",
+      "location": "기업마당 (중소벤처기업부 연계)",
+      "target": "산업 현장 보유 중소기업",
+      "summary": "AI 솔루션 도입을 통한 산업 현장 안전 강화 및 작업자 위험 관리 지원",
+      "link": "https://www.bizinfo.go.kr/web/smb/program/ai_industrial_safety_intro_2026.do",
+      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-05-5",
+      "name": "과학기술정보통신부 AI 기반 양자 컴퓨팅 융합 서비스 개발 원천기술 지원",
+      "category": "AI지원",
+      "startDate": "2026-08-08",
+      "endDate": "2026-11-30",
+      "location": "과학기술정보통신부",
+      "target": "양자 컴퓨팅 및 AI 융합 기술 연구기관",
+      "summary": "AI-양자 컴퓨팅 융합 서비스 개발을 위한 원천기술 연구 및 개발 지원",
+      "link": "https://www.msit.go.kr/web/msit/ai_quantum_fusion_coretech_2026.do",
+      "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-08-04"
+  "lastUpdated": "2026-08-05"
 }
