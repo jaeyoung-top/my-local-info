@@ -4318,6 +4318,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "admin",
       "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "범죄 피해 아동 및 장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "상시",
+      "location": "법무부, 경찰서, 검찰청, 법원",
+      "target": "범죄 피해 아동(만19세 미만) 및 장애인",
+      "summary": "범죄 피해 아동 및 장애인의 수사·재판 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1519340333755-56e9c1d04579?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -10909,7 +10922,67 @@
       "summary": "AI-양자 컴퓨팅 융합 서비스 개발을 위한 원천기술 연구 및 개발 지원",
       "link": "https://www.msit.go.kr/web/msit/ai_quantum_fusion_coretech_2026.do",
       "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-06-1",
+      "name": "NIPA 산업 AI 데이터 익명화 및 활용 기술 개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-08-06",
+      "endDate": "2026-12-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI 기술기업, 연구기관",
+      "summary": "산업 AI 데이터의 익명화 기술 개발 및 활용 상용화 지원",
+      "link": "https://www.nipa.kr/biz/2026_industrial_ai_data_anonymization.do",
+      "image": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-06-2",
+      "name": "서울 AI 허브 AI 기반 해외 콘텐츠 현지화 솔루션 개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-08-06",
+      "endDate": "2027-01-31",
+      "location": "서울 AI 허브",
+      "target": "AI 콘텐츠 스타트업, 중소기업",
+      "summary": "AI 활용 해외 콘텐츠 현지화 솔루션 개발 및 상용화 지원",
+      "link": "https://www.seoulaihub.kr/program/2026_global_localization_ai.do",
+      "image": "https://images.unsplash.com/photo-1526378800651-c32d170fe6f8?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-06-3",
+      "name": "K-Startup 에지 AI 기반 IoT 솔루션 스타트업 육성 프로그램",
+      "category": "AI지원",
+      "startDate": "2026-08-06",
+      "endDate": "2027-03-31",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "에지 AI/IoT 분야 초기 스타트업",
+      "summary": "에지 AI 기반 IoT 솔루션 개발 및 사업화 지원, 투자 연계",
+      "link": "https://www.k-startup.go.kr/biz/2026_edge_ai_iot.do",
+      "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-06-4",
+      "name": "과학기술정보통신부 인간 수준 인지능력 모방 AI 기술 개발",
+      "category": "AI지원",
+      "startDate": "2026-08-06",
+      "endDate": "2027-12-31",
+      "location": "과학기술정보통신부",
+      "target": "AI 연구기관, 대학, 기업",
+      "summary": "인간 수준의 인지 능력 모방 AI 핵심 기술 개발 및 실증 지원",
+      "link": "https://www.msit.go.kr/policy/ai_cognitive_tech_rd.do",
+      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-06-5",
+      "name": "중소벤처기업부 AI 생성물 지식재산권 관리 및 보호 솔루션 도입 지원",
+      "category": "AI지원",
+      "startDate": "2026-08-06",
+      "endDate": "상시",
+      "location": "중소벤처기업부 (기업마당)",
+      "target": "AI 활용 중소기업, 창작자",
+      "summary": "AI 생성 콘텐츠의 지식재산권 보호 및 관리 솔루션 도입 지원",
+      "link": "https://www.bizinfo.go.kr/sys/2026_ai_ip_protection.do",
+      "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-08-05"
+  "lastUpdated": "2026-08-06"
 }
