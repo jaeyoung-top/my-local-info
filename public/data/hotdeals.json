@@ -1,6 +1,300 @@
 {
   "deals": [
     {
+      "id": "hdz_191988",
+      "title": "다담 양념듬뿍 쌈장 570g, 2개",
+      "price": "4,120원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/08/thumb_a3b98ec076f89e93ccafaec470abeab4.webp",
+      "category": "식품",
+      "site": "네이버",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/10185788399",
+      "publishedAt": "2026-08-08 10:04:08",
+      "likes": 0,
+      "fetchedAt": "2026-08-08T01:05:00.681Z",
+      "priceComparison": [
+        {
+          "site": "네이버",
+          "price": "4,120원"
+        },
+        {
+          "site": "SSG.COM",
+          "price": "7,480원"
+        },
+        {
+          "site": "마켓컬리",
+          "price": "7,120원"
+        },
+        {
+          "site": "메가마트몰",
+          "price": "7,480원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "05-19",
+            "price": 15200
+          },
+          {
+            "date": "05-26",
+            "price": 15200
+          },
+          {
+            "date": "06-02",
+            "price": 12190
+          },
+          {
+            "date": "06-09",
+            "price": 12190
+          },
+          {
+            "date": "06-16",
+            "price": 12190
+          },
+          {
+            "date": "06-23",
+            "price": 12100
+          },
+          {
+            "date": "06-30",
+            "price": 12100
+          },
+          {
+            "date": "07-07",
+            "price": 14870
+          },
+          {
+            "date": "07-14",
+            "price": 10660
+          },
+          {
+            "date": "07-21",
+            "price": 10340
+          },
+          {
+            "date": "07-28",
+            "price": 10340
+          },
+          {
+            "date": "08-04",
+            "price": 10340
+          }
+        ],
+        "minPrice": 10340,
+        "maxPrice": 15200
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_191987",
+      "title": "멤버십 스파이더 남성 액티브 멀티 트렁크 9스타일",
+      "price": "10,440원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/08/thumb_284ed8cb43ef7d3352e595b658b2d945.webp",
+      "category": "의류",
+      "site": "네이버",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/10185790418",
+      "publishedAt": "2026-08-08 10:04:05",
+      "likes": 0,
+      "fetchedAt": "2026-08-08T01:05:00.681Z",
+      "priceComparison": [
+        {
+          "site": "네이버",
+          "price": "10,440원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_191986",
+      "title": "웅진 생차 녹차/호지차 500mL 20개",
+      "price": "11,410원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/08/thumb_d5eac8b01f52571440602db3c9edc8e7.webp",
+      "category": "식품",
+      "site": "네이버",
+      "source": "아카라이브",
+      "sourceColor": "#10B981",
+      "link": "https://arca.live/b/hotdeal/179283495?p=1",
+      "publishedAt": "2026-08-08 10:04:04",
+      "likes": 0,
+      "fetchedAt": "2026-08-08T01:05:00.681Z",
+      "priceComparison": [
+        {
+          "site": "네이버",
+          "price": "11,410원"
+        },
+        {
+          "site": "쿠팡",
+          "price": "15,720원"
+        },
+        {
+          "site": "11번가",
+          "price": "15,810원"
+        },
+        {
+          "site": "G마켓",
+          "price": "18,900원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "05-19",
+            "price": 16900
+          },
+          {
+            "date": "05-26",
+            "price": 15080
+          },
+          {
+            "date": "06-02",
+            "price": 16900
+          },
+          {
+            "date": "06-09",
+            "price": 16900
+          },
+          {
+            "date": "06-16",
+            "price": 16900
+          },
+          {
+            "date": "06-23",
+            "price": 16900
+          },
+          {
+            "date": "06-30",
+            "price": 16900
+          },
+          {
+            "date": "07-07",
+            "price": 16900
+          },
+          {
+            "date": "07-14",
+            "price": 16900
+          },
+          {
+            "date": "07-21",
+            "price": 16900
+          },
+          {
+            "date": "07-28",
+            "price": 16900
+          },
+          {
+            "date": "08-04",
+            "price": 16900
+          }
+        ],
+        "minPrice": 15080,
+        "maxPrice": 16900
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_191985",
+      "title": "팜스프링스 남성 반팔 카라티 7종",
+      "price": "6,900원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/08/thumb_6127c8a017a174aed84b2db0308102e3.webp",
+      "category": "의류",
+      "site": "패션플러스",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725655",
+      "publishedAt": "2026-08-08 10:02:16",
+      "likes": 2,
+      "fetchedAt": "2026-08-08T01:05:00.681Z",
+      "priceComparison": [
+        {
+          "site": "패션플러스",
+          "price": "6,900원"
+        },
+        {
+          "site": "GS SHOP",
+          "price": "9,900원"
+        },
+        {
+          "site": "SSF SHOP",
+          "price": "15,860원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "07-21",
+            "price": 12900
+          },
+          {
+            "date": "07-28",
+            "price": 7680
+          },
+          {
+            "date": "08-04",
+            "price": 7680
+          }
+        ],
+        "minPrice": 7680,
+        "maxPrice": 12900
+      },
+      "postContent": {
+        "text": "드라이쿨 소재의 기본 카라티라 여름에 출근용이나 평소 편하게 입기 좋습니다블랙, 네이비 등 7가지 색상 중 선택 가능하네요15% 쿠폰 적용하면 6,900원에 구매 가능합니다",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0808/900w_20260808095206_FWZDPzg3wm.jpg"
+        ]
+      },
+      "shopUrl": "https://www.fashionplus.co.kr/goods/detail/281286778"
+    },
+    {
+      "id": "hdz_191984",
+      "title": "지오다노 빈티지 가먼트다잉 무지 반팔티셔츠",
+      "price": "13,680원",
+      "image": "https://image.hotdeal.zip/images/2026/08/08/ba27dceda0b970164a9560fb78b5558f.jpg",
+      "category": "의류",
+      "site": "네이버",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725654",
+      "publishedAt": "2026-08-08 10:00:26",
+      "likes": 1,
+      "fetchedAt": "2026-08-08T01:05:00.681Z",
+      "priceComparison": [
+        {
+          "site": "네이버",
+          "price": "13,680원"
+        },
+        {
+          "site": "GS SHOP",
+          "price": "19,800원"
+        },
+        {
+          "site": "G마켓",
+          "price": "24,800원"
+        },
+        {
+          "site": "지오다노 공식 웹사이트",
+          "price": "15,000원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": {
+        "text": "유행타고 이젠 스테디 디자인인데 무난하게 입기 좋아보이네요 최대할인가 13,680원입니다",
+        "images": [
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0808/900w_20260808095732_fvqH6BVHYf.jpg",
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0808/900w_20260808095850_dVC7VhU70E.jpg",
+          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0808/900w_20260808095853_sGOgbtQkvo.jpg"
+        ]
+      },
+      "shopUrl": null
+    },
+    {
       "id": "hdz_191983",
       "title": "여름용 체크 반팔셔츠",
       "price": "17,010원",
@@ -28888,366 +29182,7 @@
         ]
       },
       "shopUrl": "https://s.lotteon.com/ig6BgLHIAEi"
-    },
-    {
-      "id": "hdz_191446",
-      "title": "듀록 흑돼지 삼겹살 500g 4팩",
-      "price": "20,930원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/08/07/thumb_58c08e31ba59ae5101e9cb4cd986685d.webp",
-      "category": "식품",
-      "site": "지마켓",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725430",
-      "publishedAt": "2026-08-07 10:46:14",
-      "likes": 28,
-      "fetchedAt": "2026-08-07T02:18:06.952Z",
-      "priceComparison": [
-        {
-          "site": "지마켓",
-          "price": "20,930원"
-        },
-        {
-          "site": "11번가",
-          "price": "31,400원"
-        },
-        {
-          "site": "도감푸드",
-          "price": "7,600원"
-        },
-        {
-          "site": "팔도감",
-          "price": "12,900원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": {
-        "text": "냉동 스페인산 흑돼지 500g 4팩입니다고기 좋아하시면 괜찮은듯 하네요한팩씩 해동해서 굽기 좋을것 같습니다",
-        "images": [
-          "https://cdn3.ppomppu.co.kr/zboard/data3/2026/0807/900w_20260807104442_hnxN694Pw7.jpg"
-        ]
-      },
-      "shopUrl": "https://m.gmarket.co.kr/vi/product/4817505057"
-    },
-    {
-      "id": "hdz_191445",
-      "title": "바리스타룰스 무라벨 커피 블랙 등 20개",
-      "price": "15,890원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/08/07/thumb_019321a343f576108fa7817fe719d39e.webp",
-      "category": "식품",
-      "site": "롯데온",
-      "source": "루리웹",
-      "sourceColor": "#3B82F6",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106203?page=1",
-      "publishedAt": "2026-08-07 10:45:19",
-      "likes": 11,
-      "fetchedAt": "2026-08-07T02:18:07.170Z",
-      "priceComparison": [
-        {
-          "site": "롯데온",
-          "price": "15,890원"
-        },
-        {
-          "site": "G마켓",
-          "price": "16,300원"
-        },
-        {
-          "site": "쿠팡",
-          "price": "19,400원"
-        },
-        {
-          "site": "11번가",
-          "price": "27,440원"
-        },
-        {
-          "site": "매일유업 공식몰",
-          "price": "22,900원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "05-19",
-            "price": 19240
-          },
-          {
-            "date": "05-26",
-            "price": 19240
-          },
-          {
-            "date": "06-02",
-            "price": 19240
-          },
-          {
-            "date": "06-09",
-            "price": 19240
-          },
-          {
-            "date": "06-16",
-            "price": 19240
-          },
-          {
-            "date": "06-23",
-            "price": 19240
-          },
-          {
-            "date": "06-30",
-            "price": 17240
-          },
-          {
-            "date": "07-07",
-            "price": 17240
-          },
-          {
-            "date": "07-14",
-            "price": 17110
-          },
-          {
-            "date": "07-21",
-            "price": 17110
-          },
-          {
-            "date": "07-28",
-            "price": 17240
-          },
-          {
-            "date": "08-04",
-            "price": 17240
-          }
-        ],
-        "minPrice": 17110,
-        "maxPrice": 19240
-      },
-      "postContent": {
-        "text": "오르조블랙/디카페인 기준으로 개당 794원 나옵니다 무라벨이라 재활용할때도 편해요",
-        "images": [
-          "https://i1.ruliweb.com/img/26/08/07/19fd9e42cad595be5.webp",
-          "https://i2.ruliweb.com/img/26/08/07/19fd9e42d53595be5.webp"
-        ]
-      },
-      "shopUrl": "https://dajooda.com/s/MbS7q1e"
-    },
-    {
-      "id": "hdz_191444",
-      "title": "너겟 49요금제 (5Mbps 무제한) 라이브 예고 ",
-      "price": "49,000원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/08/07/thumb_7a45a15109a602f45a03a0667b4fe758.webp",
-      "category": "기타",
-      "site": "유플러스 ",
-      "source": "개드립",
-      "sourceColor": "#DC2626",
-      "link": "https://www.dogdrip.net/717863739",
-      "publishedAt": "2026-08-07 10:45:04",
-      "likes": 35,
-      "fetchedAt": "2026-08-07T02:18:07.170Z",
-      "priceComparison": [
-        {
-          "site": "유플러스",
-          "price": "49,000원"
-        },
-        {
-          "site": "모요모두의요금제",
-          "price": "49,000원"
-        },
-        {
-          "site": "포켓",
-          "price": "49,000원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": {
-        "text": "5Mbps 무제한 요금제 찾으면 너겟 49요금제 한번 봐라.. 120g+5Mbps 무제한인데 12개월 Npay 2만이라 월 29,000원인 셈이다. 익시오 통화녹음도 되고 무약정이라 쓰다 다른거 좋은거 나옴 갈아타면 되고.. 오늘 가입하면 Npay 1만하고 유플몰 3만쿠폰 추가로 준다 이거 기존 너겟이용자는 안됨? 59쓰다가 쿠폰끝나서 옮겨야되는데지금 59 쓰고있으면 안될걸? 한번 채팅으로 물어보는게 제일 정확함",
-        "images": []
-      },
-      "shopUrl": "https://www.lguplus.com/live/player?sy_id=6a716eb3061b04780ed0c340&sy_type=broadcast"
-    },
-    {
-      "id": "hdz_191443",
-      "title": "하이트제로 350ml 72캔",
-      "price": "34,920원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/08/07/thumb_735f18ff6bbebfed9f08f8b61cea8319.webp",
-      "category": "식품",
-      "site": "공홈",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725428",
-      "publishedAt": "2026-08-07 10:44:29",
-      "likes": 13,
-      "fetchedAt": "2026-08-07T02:18:07.170Z",
-      "priceComparison": [
-        {
-          "site": "공홈",
-          "price": "34,920원"
-        },
-        {
-          "site": "쿠팡",
-          "price": "12,680원"
-        },
-        {
-          "site": "11번가",
-          "price": "13,900원"
-        },
-        {
-          "site": "코코메이트",
-          "price": "12,690원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "05-19",
-            "price": 13790
-          },
-          {
-            "date": "05-26",
-            "price": 14360
-          },
-          {
-            "date": "06-02",
-            "price": 14360
-          },
-          {
-            "date": "06-09",
-            "price": 14360
-          },
-          {
-            "date": "06-16",
-            "price": 13770
-          },
-          {
-            "date": "06-23",
-            "price": 14070
-          },
-          {
-            "date": "06-30",
-            "price": 14800
-          },
-          {
-            "date": "07-07",
-            "price": 14800
-          },
-          {
-            "date": "07-14",
-            "price": 14800
-          },
-          {
-            "date": "07-21",
-            "price": 14800
-          },
-          {
-            "date": "07-28",
-            "price": 15920
-          },
-          {
-            "date": "08-04",
-            "price": 15560
-          }
-        ],
-        "minPrice": 13770,
-        "maxPrice": 15920
-      },
-      "postContent": {
-        "text": "하이트제로 350ml 72캔 대용량구성입니다 알콜 칼로리 당류 제로네요 페이코>진로토닉쿠폰> 페이코결재",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0807/900w_20260807104229_VPavNghpIl.jpg",
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0807/900w_20260807104231_gfSE0YfAQc.jpg"
-        ]
-      },
-      "shopUrl": "https://www.jinrotonic.com/product-detail?productNo=127484146"
-    },
-    {
-      "id": "hdz_191442",
-      "title": "사리원 국내산 닭곰탕 600g 4팩",
-      "price": "13,900원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/08/07/thumb_2f4b6315b911297771649b4a13f6729d.webp",
-      "category": "식품",
-      "site": "토스쇼핑",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725429",
-      "publishedAt": "2026-08-07 10:44:13",
-      "likes": 7,
-      "fetchedAt": "2026-08-07T02:18:07.170Z",
-      "priceComparison": [
-        {
-          "site": "토스쇼핑",
-          "price": "13,900원"
-        },
-        {
-          "site": "11번가",
-          "price": "24,900원"
-        },
-        {
-          "site": "SSG.COM",
-          "price": "19,900원~"
-        },
-        {
-          "site": "8도감",
-          "price": "12,900원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "05-19",
-            "price": 14610
-          },
-          {
-            "date": "05-26",
-            "price": 13650
-          },
-          {
-            "date": "06-02",
-            "price": 13010
-          },
-          {
-            "date": "06-09",
-            "price": 13010
-          },
-          {
-            "date": "06-16",
-            "price": 13010
-          },
-          {
-            "date": "06-23",
-            "price": 14350
-          },
-          {
-            "date": "06-30",
-            "price": 15120
-          },
-          {
-            "date": "07-07",
-            "price": 13000
-          },
-          {
-            "date": "07-14",
-            "price": 13000
-          },
-          {
-            "date": "07-21",
-            "price": 13600
-          },
-          {
-            "date": "07-28",
-            "price": 13540
-          },
-          {
-            "date": "08-04",
-            "price": 13000
-          }
-        ],
-        "minPrice": 13000,
-        "maxPrice": 15120
-      },
-      "postContent": {
-        "text": "한 팩에 600g이라 그대로 데워 먹거나 밥을 넣어 닭죽으로 끓이기 좋은 구성입니다.총 4팩 13,900원이고 토스프라임 이용 시 903원 적립 가능합니다.",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0807/900w_20260807104228_3z3obkM3Jk.png"
-        ]
-      },
-      "shopUrl": "https://toss.shopping/t/722788169"
     }
   ],
-  "lastUpdated": "2026-08-08T00:58:38.645Z"
+  "lastUpdated": "2026-08-08T01:05:03.213Z"
 }
