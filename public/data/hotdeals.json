@@ -1,6 +1,195 @@
 {
   "deals": [
     {
+      "id": "hdz_192621",
+      "title": "다즐샵 일품 도시락 10종, 220g, 10개",
+      "price": "26,600원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/10/thumb_9772ec47795b72bbaf911cb9635559b3.webp",
+      "category": "식품",
+      "site": "토스쇼핑",
+      "source": "기타",
+      "sourceColor": "#888888",
+      "link": "https://toss.shopping/t/7981701",
+      "publishedAt": "2026-08-10 06:22:46",
+      "likes": 0,
+      "fetchedAt": "2026-08-09T21:22:49.054Z",
+      "priceComparison": [],
+      "priceHistory": null,
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_192620",
+      "title": "푸드센터 소갈비살, 200g, 5팩",
+      "price": "26,500원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/10/thumb_3e701bbc0cccdfd209731071c9b9f576.webp",
+      "category": "식품",
+      "site": "토스쇼핑",
+      "source": "기타",
+      "sourceColor": "#888888",
+      "link": "https://toss.shopping/t/1054843657",
+      "publishedAt": "2026-08-10 06:22:42",
+      "likes": 0,
+      "fetchedAt": "2026-08-09T21:22:49.054Z",
+      "priceComparison": [],
+      "priceHistory": null,
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_192619",
+      "title": "파이널 판타지 시리즈",
+      "price": null,
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/10/thumb_4e16192553e46cd25b88791ac2c1a146.webp",
+      "category": "게임",
+      "site": "스팀",
+      "source": "루리웹",
+      "sourceColor": "#3B82F6",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106253?page=1",
+      "publishedAt": "2026-08-10 04:00:17",
+      "likes": 50,
+      "fetchedAt": "2026-08-09T21:22:49.054Z",
+      "priceComparison": [],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "11-28",
+            "price": 29170
+          },
+          {
+            "date": "12-05",
+            "price": 29170
+          },
+          {
+            "date": "12-12",
+            "price": 28600
+          },
+          {
+            "date": "12-19",
+            "price": 28600
+          },
+          {
+            "date": "12-26",
+            "price": 28600
+          },
+          {
+            "date": "01-02",
+            "price": 28600
+          },
+          {
+            "date": "01-09",
+            "price": 28600
+          },
+          {
+            "date": "01-16",
+            "price": 28600
+          },
+          {
+            "date": "01-23",
+            "price": 28600
+          },
+          {
+            "date": "01-30",
+            "price": 28610
+          },
+          {
+            "date": "02-06",
+            "price": 28610
+          },
+          {
+            "date": "02-13",
+            "price": 28610
+          }
+        ],
+        "minPrice": 28600,
+        "maxPrice": 29170
+      },
+      "postContent": {
+        "text": "https://store.steampowered.com/search?term=final+fantasy 파이널 판타지 시리즈 세일하네요! 택틱스도 30% 세일입니다. 모두 즐겜하세요!",
+        "images": [
+          "https://i1.ruliweb.com/img/26/08/10/19fe7e28830b24a9.webp"
+        ]
+      },
+      "shopUrl": "https://store.steampowered.com/search?term=final"
+    },
+    {
+      "id": "hdz_192618",
+      "title": "롯데리아 메뉴 25~39% 할인",
+      "price": null,
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/10/thumb_2a1b2d0c9e628e01a98c05767c4e13ba.webp",
+      "category": "식품",
+      "site": "G마켓",
+      "source": "루리웹",
+      "sourceColor": "#3B82F6",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106252?page=1",
+      "publishedAt": "2026-08-10 03:45:18",
+      "likes": 112,
+      "fetchedAt": "2026-08-09T21:22:49.054Z",
+      "priceComparison": [],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "05-19",
+            "price": 9600
+          },
+          {
+            "date": "05-26",
+            "price": 9600
+          },
+          {
+            "date": "06-02",
+            "price": 9800
+          },
+          {
+            "date": "06-09",
+            "price": 9800
+          },
+          {
+            "date": "06-16",
+            "price": 9800
+          },
+          {
+            "date": "06-23",
+            "price": 9800
+          },
+          {
+            "date": "06-30",
+            "price": 9800
+          },
+          {
+            "date": "07-07",
+            "price": 9800
+          },
+          {
+            "date": "07-14",
+            "price": 9800
+          },
+          {
+            "date": "07-21",
+            "price": 9800
+          },
+          {
+            "date": "07-28",
+            "price": 9800
+          },
+          {
+            "date": "08-04",
+            "price": 9800
+          }
+        ],
+        "minPrice": 9600,
+        "maxPrice": 9800
+      },
+      "postContent": {
+        "text": "https://item.gmarket.co.kr/Item?goodsCode=4812426871 https://item.gmarket.co.kr/Item?goodsCode=4812433314 https://item.gmarket.co.kr/Item?goodsCode=4812431330 지마켓 https://itempage3.auction.co.kr/DetailView.aspx?itemno=F624178675 https://itempage3.auction.co.kr/DetailView.aspx?itemno=F624179868 https://itempage3.auction.co.kr/DetailView.aspx?itemno=F624181386 옥션",
+        "images": [
+          "https://i1.ruliweb.com/img/26/08/10/19fe7d3b78d1874ce.webp",
+          "https://i1.ruliweb.com/img/26/08/10/19fe7d3c5561874ce.webp"
+        ]
+      },
+      "shopUrl": "https://dajooda.com/s/MbS7q1e"
+    },
+    {
       "id": "hdz_192617",
       "title": "폭염도 잊게하는 책과 함께 즐거운 시간",
       "price": "3,900원~",
@@ -30749,169 +30938,7 @@
       },
       "postContent": null,
       "shopUrl": null
-    },
-    {
-      "id": "hdz_192083",
-      "title": "매일두유 고단백/고단백 검은콩 190ml 48팩",
-      "price": "25,930원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/08/08/thumb_2ca38ac8037f11ec0011fd71005c6e72.webp",
-      "category": "식품",
-      "site": "롯데온",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/10186520497",
-      "publishedAt": "2026-08-08 14:46:05",
-      "likes": 9,
-      "fetchedAt": "2026-08-08T06:36:28.327Z",
-      "priceComparison": [
-        {
-          "site": "롯데온",
-          "price": "25,930원"
-        },
-        {
-          "site": "오집가격",
-          "price": "30,156원"
-        },
-        {
-          "site": "동원몰",
-          "price": "38,950원"
-        },
-        {
-          "site": "11번가",
-          "price": "40,500원"
-        },
-        {
-          "site": "GS SHOP",
-          "price": "39,690원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_192082",
-      "title": "[두메산골] 국내산 냉장 닭 절단육 1kg x 2팩 닭볶음탕/찜닭/닭도리탕용",
-      "price": "12,270원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/08/08/thumb_4963dbd99b103648541a12504e8903d9.webp",
-      "category": "식품",
-      "site": "알리타임딜",
-      "source": "아카라이브",
-      "sourceColor": "#10B981",
-      "link": "https://arca.live/b/hotdeal/179302332?p=1",
-      "publishedAt": "2026-08-08 14:44:04",
-      "likes": 17,
-      "fetchedAt": "2026-08-08T06:36:28.327Z",
-      "priceComparison": [
-        {
-          "site": "알리타임딜",
-          "price": "12270원"
-        },
-        {
-          "site": "11번가",
-          "price": "15440원"
-        },
-        {
-          "site": "GS SHOP",
-          "price": "19900원"
-        },
-        {
-          "site": "우체국쇼핑",
-          "price": "13900원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_192081",
-      "title": "오뚜기 크러스트 피자 혼합 4판(페페로니디럭스2+시그니처익스트림2)",
-      "price": "20,930원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/08/08/thumb_7015a3e30c758642a52be908002465fb.webp",
-      "category": "식품",
-      "site": "지마켓",
-      "source": "아카라이브",
-      "sourceColor": "#10B981",
-      "link": "https://arca.live/b/hotdeal/179302166?p=1",
-      "publishedAt": "2026-08-08 14:42:05",
-      "likes": 26,
-      "fetchedAt": "2026-08-08T06:36:28.327Z",
-      "priceComparison": [
-        {
-          "site": "지마켓",
-          "price": "20,930원"
-        },
-        {
-          "site": "롯데온",
-          "price": "19,980원"
-        },
-        {
-          "site": "GS SHOP",
-          "price": "21,900원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_192080",
-      "title": "타미진스 린넨 블렌드 데님 셔츠",
-      "price": "53,116원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/08/08/thumb_c323d539667aba6f93cdbc9ed42b0a7d.webp",
-      "category": "의류",
-      "site": "H패션몰",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=725694",
-      "publishedAt": "2026-08-08 14:40:19",
-      "likes": 25,
-      "fetchedAt": "2026-08-08T06:36:28.327Z",
-      "priceComparison": [
-        {
-          "site": "H패션몰",
-          "price": "53,116원"
-        },
-        {
-          "site": "GS SHOP",
-          "price": "85,150원"
-        },
-        {
-          "site": "신세계몰",
-          "price": "100,900원"
-        },
-        {
-          "site": "G마켓",
-          "price": "189,000원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "07-28",
-            "price": 85140
-          },
-          {
-            "date": "08-04",
-            "price": 83450
-          }
-        ],
-        "minPrice": 83450,
-        "maxPrice": 85140
-      },
-      "postContent": {
-        "text": "쿠폰 15퍼+클리어런스 20퍼+15천 포인트 할인 적용하면 결제가 53116원 나와요페이코로 결제시 추가 5퍼 할인되서 50461원 나오네요",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0808/900w_20260808143929_nMQHSegSQ6.jpg",
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0808/900w_20260808143929_3B802nDm0l.jpg",
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0808/900w_20260808143930_8gQ7cuM7Gg.jpg",
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0808/900w_20260808143931_FEtjcrNrtn.jpg",
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0808/20260808143933_pi64LjO1wF.jpg"
-        ]
-      },
-      "shopUrl": "https://www.hfashionmall.com/product/GM0126040249167/detail"
     }
   ],
-  "lastUpdated": "2026-08-09T18:26:59.698Z"
+  "lastUpdated": "2026-08-09T21:22:51.106Z"
 }
