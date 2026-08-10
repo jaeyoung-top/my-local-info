@@ -1,6 +1,82 @@
 {
   "deals": [
     {
+      "id": "hdz_193292",
+      "title": "머거본] 술안주세트",
+      "price": "18,639원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/11/thumb_6aa1117e530915484eef8c5268a74f60.webp",
+      "category": "식품",
+      "site": "알리",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/10196525868",
+      "publishedAt": "2026-08-11 03:58:05",
+      "likes": 59,
+      "fetchedAt": "2026-08-10T21:33:08.659Z",
+      "priceComparison": [
+        {
+          "site": "알리",
+          "price": "18,639원"
+        },
+        {
+          "site": "11번가",
+          "price": "24,110원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "05-19",
+            "price": 20950
+          },
+          {
+            "date": "05-26",
+            "price": 23740
+          },
+          {
+            "date": "06-02",
+            "price": 23600
+          },
+          {
+            "date": "06-09",
+            "price": 23600
+          },
+          {
+            "date": "06-16",
+            "price": 25160
+          },
+          {
+            "date": "06-23",
+            "price": 25160
+          },
+          {
+            "date": "06-30",
+            "price": 22590
+          },
+          {
+            "date": "07-14",
+            "price": 22910
+          },
+          {
+            "date": "07-21",
+            "price": 23490
+          },
+          {
+            "date": "07-28",
+            "price": 23490
+          },
+          {
+            "date": "08-04",
+            "price": 24110
+          }
+        ],
+        "minPrice": 20950,
+        "maxPrice": 25160
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
       "id": "hdz_193291",
       "title": "[11번가] 맥심 모카골드/ 화이트골드 커피믹스 190T (T멤 필요)",
       "price": "20,560원",
@@ -34958,147 +35034,7 @@
       "priceHistory": null,
       "postContent": null,
       "shopUrl": null
-    },
-    {
-      "id": "hdz_192670",
-      "title": "미닛메이드 자몽에이드 탄산 355ml 24개",
-      "price": "10,930원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/08/10/thumb_395e44ce437573324293e8e47810c88b.webp",
-      "category": "식품",
-      "site": "쿠팡",
-      "source": "아카라이브",
-      "sourceColor": "#10B981",
-      "link": "https://arca.live/b/hotdeal/179463845?p=1",
-      "publishedAt": "2026-08-10 09:42:06",
-      "likes": 6,
-      "fetchedAt": "2026-08-10T01:03:47.392Z",
-      "priceComparison": [
-        {
-          "site": "쿠팡",
-          "price": "10,930원"
-        },
-        {
-          "site": "11번가",
-          "price": "14,390원"
-        },
-        {
-          "site": "SSG.COM",
-          "price": "18,540원"
-        },
-        {
-          "site": "예스24",
-          "price": "20,840원"
-        },
-        {
-          "site": "패션플러스",
-          "price": "21,020원"
-        },
-        {
-          "site": "홈플러스 추동몰",
-          "price": "25,180원"
-        },
-        {
-          "site": "동원몰",
-          "price": "17,400원"
-        },
-        {
-          "site": "GS SHOP",
-          "price": "18,400원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "2026-05-12",
-            "price": 13680
-          },
-          {
-            "date": "2026-05-15",
-            "price": 13280
-          },
-          {
-            "date": "2026-05-18",
-            "price": 13280
-          },
-          {
-            "date": "2026-05-21",
-            "price": 13380
-          },
-          {
-            "date": "2026-05-25",
-            "price": 13580
-          },
-          {
-            "date": "2026-05-28",
-            "price": 13680
-          },
-          {
-            "date": "2026-05-30",
-            "price": 10940
-          },
-          {
-            "date": "2026-06-04",
-            "price": 13580
-          },
-          {
-            "date": "2026-06-08",
-            "price": 13680
-          },
-          {
-            "date": "2026-06-11",
-            "price": 13580
-          },
-          {
-            "date": "2026-06-15",
-            "price": 10940
-          },
-          {
-            "date": "2026-06-19",
-            "price": 13580
-          },
-          {
-            "date": "2026-06-23",
-            "price": 13580
-          },
-          {
-            "date": "2026-07-04",
-            "price": 13280
-          },
-          {
-            "date": "2026-07-08",
-            "price": 13580
-          },
-          {
-            "date": "2026-07-15",
-            "price": 13580
-          },
-          {
-            "date": "2026-07-19",
-            "price": 13670
-          },
-          {
-            "date": "2026-07-28",
-            "price": 13670
-          },
-          {
-            "date": "2026-08-01",
-            "price": 13670
-          },
-          {
-            "date": "2026-08-04",
-            "price": 13670
-          },
-          {
-            "date": "2026-08-07",
-            "price": 13670
-          }
-        ],
-        "minPrice": 10940,
-        "maxPrice": 13680
-      },
-      "postContent": null,
-      "shopUrl": null
     }
   ],
-  "lastUpdated": "2026-08-10T18:43:46.522Z"
+  "lastUpdated": "2026-08-10T21:33:10.202Z"
 }
