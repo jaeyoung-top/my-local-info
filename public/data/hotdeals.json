@@ -1,6 +1,98 @@
 {
   "deals": [
     {
+      "id": "hdz_193959",
+      "title": "[카카오 톡딜] 산지직송 고당도 꿀수박 8~9kg (17,790원 / 무배)",
+      "price": "17,790원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/12/thumb_3acfca02eed9a1e236c3333e243298ab.webp",
+      "category": "생활용품",
+      "site": "카카오 톡딜",
+      "source": "퀘이사존",
+      "sourceColor": "#7C3AED",
+      "link": "https://quasarzone.com/bbs/qb_saleinfo/views/1977431",
+      "publishedAt": "2026-08-12 06:22:03",
+      "likes": 4,
+      "fetchedAt": "2026-08-11T21:36:23.660Z",
+      "priceComparison": [
+        {
+          "site": "카카오 톡딜",
+          "price": "17,790원"
+        },
+        {
+          "site": "11번가",
+          "price": "17,900원"
+        },
+        {
+          "site": "11번가",
+          "price": "28,500원"
+        },
+        {
+          "site": "GS SHOP",
+          "price": "22,300원"
+        },
+        {
+          "site": "식봄",
+          "price": "22,000원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "05-26",
+            "price": 20290
+          },
+          {
+            "date": "06-02",
+            "price": 20310
+          },
+          {
+            "date": "06-09",
+            "price": 20310
+          },
+          {
+            "date": "06-16",
+            "price": 20310
+          },
+          {
+            "date": "06-23",
+            "price": 21040
+          },
+          {
+            "date": "06-30",
+            "price": 21280
+          },
+          {
+            "date": "07-07",
+            "price": 21040
+          },
+          {
+            "date": "07-14",
+            "price": 20860
+          },
+          {
+            "date": "07-21",
+            "price": 20860
+          },
+          {
+            "date": "07-28",
+            "price": 21340
+          },
+          {
+            "date": "08-04",
+            "price": 21040
+          },
+          {
+            "date": "08-11",
+            "price": 21510
+          }
+        ],
+        "minPrice": 20290,
+        "maxPrice": 21510
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
       "id": "hdz_193958",
       "title": "게임 특가-디아블로4 합본 25% 할인 외",
       "price": null,
@@ -34432,106 +34524,7 @@
       },
       "postContent": null,
       "shopUrl": null
-    },
-    {
-      "id": "hdz_193344",
-      "title": "입큰 12.5 퍼퓸 파우더 선팩트 본품",
-      "price": "12,890원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/08/11/thumb_923721b3e825b2c36c2c421c3f01a139.webp",
-      "category": "화장품",
-      "site": "옥션",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=726238",
-      "publishedAt": "2026-08-11 09:18:18",
-      "likes": 9,
-      "fetchedAt": "2026-08-11T01:03:04.213Z",
-      "priceComparison": [
-        {
-          "site": "옥션",
-          "price": "12,890원"
-        },
-        {
-          "site": "11번가",
-          "price": "15,900원"
-        },
-        {
-          "site": "GS SHOP",
-          "price": "13,900원"
-        },
-        {
-          "site": "엠비몰",
-          "price": "21,900원"
-        },
-        {
-          "site": "LF몰",
-          "price": "16,900원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "05-19",
-            "price": 9520
-          },
-          {
-            "date": "05-26",
-            "price": 9520
-          },
-          {
-            "date": "06-02",
-            "price": 8920
-          },
-          {
-            "date": "06-09",
-            "price": 8920
-          },
-          {
-            "date": "06-16",
-            "price": 10110
-          },
-          {
-            "date": "06-23",
-            "price": 9520
-          },
-          {
-            "date": "06-30",
-            "price": 10110
-          },
-          {
-            "date": "07-07",
-            "price": 9520
-          },
-          {
-            "date": "07-14",
-            "price": 10110
-          },
-          {
-            "date": "07-21",
-            "price": 9520
-          },
-          {
-            "date": "07-28",
-            "price": 9520
-          },
-          {
-            "date": "08-04",
-            "price": 9600
-          }
-        ],
-        "minPrice": 8920,
-        "maxPrice": 10110
-      },
-      "postContent": {
-        "text": "선크림, 파우더 동시 메이크업 가능이라 수정 화장 쉽고보송하게 유지되서 여름에 쓰기 좋습니다사은품으로 클렌징 티슈 증정도 있습니다.",
-        "images": [
-          "https://cdn3.ppomppu.co.kr/zboard/data3/2026/0811/900w_20260811091659_Lgk6lxjRsq.png",
-          "https://cdn3.ppomppu.co.kr/zboard/data3/2026/0811/900w_20260811091704_ldJZVop4rM.png",
-          "https://cdn3.ppomppu.co.kr/zboard/data3/2026/0811/900w_20260811091706_AmHGOBRwhn.png"
-        ]
-      },
-      "shopUrl": "https://itempage3.auction.co.kr/DetailView.aspx?itemno=B733142677"
     }
   ],
-  "lastUpdated": "2026-08-11T18:49:52.832Z"
+  "lastUpdated": "2026-08-11T21:36:25.267Z"
 }
