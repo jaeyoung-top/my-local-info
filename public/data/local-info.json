@@ -13,6 +13,18 @@
       "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1779432991songpa.JPG"
     },
     {
+      "name": "2026 해피 썸머타임 콘서트 외 송파 문화 예술 행사",
+      "category": "행사",
+      "startDate": "2026-08-01",
+      "endDate": "2026-08-31",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "해피 썸머타임 콘서트, 월드 플라멩코 페스티벌, 구립송파극단 정기공연, 호수동물아트전 등 다채로운 송파구 문화 예술 행사.",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9041&aid=18075",
+      "id": "crawler-1786410305264-206",
+      "image": "https://picsum.photos/seed/431072/800/500"
+    },
+    {
       "name": "송파 문화예술 주요 공연 및 전시 소개",
       "category": "행사",
       "startDate": "2026-08-01",
@@ -23,18 +35,6 @@
       "link": "https://songpa.newstool.co.kr/./view.php?eid=9041&aid=18075",
       "id": "crawler-1786323986967-425",
       "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1784891814songpa.JPG"
-    },
-    {
-      "name": "2026 송파 문화 예술 주요 행사",
-      "category": "복합 문화 행사",
-      "startDate": "2026-08-01",
-      "endDate": "2026-08-31",
-      "location": "송파구 관내",
-      "target": "전체 구민",
-      "summary": "2026년 여름, 송파구에서 열리는 해피 썸머타임 콘서트, 월드 플라멩코 페스티벌, 구립송파극단 정기공연, 호수동물아트전 등 주요 문화 예술 행사 소개",
-      "link": "https://songpa.newstool.co.kr/./view.php?eid=9041&aid=18075",
-      "id": "crawler-1786237435832-116",
-      "image": "https://picsum.photos/seed/203964/800/500"
     },
     {
       "name": "해피 썸머타임 콘서트 & 월드 플라멩코 페스티벌",
@@ -4383,6 +4383,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
+    },
+    {
+      "id": "000025",
+      "name": "범죄 피해 아동 및 장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-08-11",
+      "endDate": "상시",
+      "location": "수사기관 또는 법원",
+      "target": "성폭력·아동학대·인신매매 피해 아동 및 장애인",
+      "summary": "만 19세 미만 아동, 의사소통 어려운 장애인 범죄 피해자의 수사·재판상 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1519340333755-56e9c1d04579?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -11274,7 +11287,67 @@
       "summary": "AI를 활용한 기후변화 예측, 적응 전략 및 탄소중립 기술 R&D 지원",
       "link": "https://www.msit.go.kr",
       "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-11-1",
+      "name": "NIPA AI 기반 공급망 탄소배출량 최적화 및 관리 솔루션 개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-08-11",
+      "endDate": "2026-12-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "중소·중견기업 및 솔루션 개발 기업",
+      "summary": "AI로 공급망 탄소배출량 데이터 분석 및 최적화 솔루션 개발, 도입 지원.",
+      "link": "https://www.nipa.kr/biz/index.html",
+      "image": "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-11-2",
+      "name": "서울 AI 허브 생성형 AI 기반 디지털 휴먼 및 콘텐츠 개발 전문인력 양성",
+      "category": "AI지원",
+      "startDate": "2026-09-01",
+      "endDate": "2027-02-28",
+      "location": "서울 AI 허브",
+      "target": "AI 개발자, 콘텐츠 기획자",
+      "summary": "생성형 AI 기술을 활용한 디지털 휴먼 및 콘텐츠 개발 전문인력 양성 교육.",
+      "link": "https://www.seoulaihub.kr/programs",
+      "image": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-11-3",
+      "name": "K-Startup AI 기반 도시 인프라 예측 및 최적화 솔루션 스타트업 액셀러레이션",
+      "category": "AI지원",
+      "startDate": "2026-08-15",
+      "endDate": "2027-03-31",
+      "location": "K-Startup 창업진흥원",
+      "target": "도시문제 해결 AI 스타트업",
+      "summary": "AI로 교통, 에너지 등 도시 인프라 예측·최적화 솔루션 스타트업 발굴 및 성장 지원.",
+      "link": "https://www.k-startup.go.kr/main.do",
+      "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-11-4",
+      "name": "중소벤처기업부 2026년 AI 기반 중소기업 지속가능경영 보고서 자동화 및 검증 지원",
+      "category": "AI지원",
+      "startDate": "2026-08-01",
+      "endDate": "2026-11-30",
+      "location": "중소벤처기업부",
+      "target": "ESG 보고 의무 대상 및 희망 중소·중견기업",
+      "summary": "AI로 ESG 데이터 수집, 분석, 보고서 자동화 및 검증을 지원하여 지속가능경영 역량 강화.",
+      "link": "https://www.bizinfo.go.kr/web/index.do",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-11-5",
+      "name": "과학기술정보통신부 AI 기반 복합 재난 예측 및 스마트 대응 시스템 개발 (산림/수계 특화)",
+      "category": "AI지원",
+      "startDate": "2026-09-01",
+      "endDate": "2027-12-31",
+      "location": "과학기술정보통신부",
+      "target": "연구기관, 대학, 관련 기술 기업 컨소시엄",
+      "summary": "AI로 산림 및 수계 복합 재난 예측 모델 개발 및 지능형 대응 시스템 실증.",
+      "link": "https://www.msit.go.kr/web/msitContents/contentsView.do?cateId=msit2111100000",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-08-10"
+  "lastUpdated": "2026-08-11"
 }
