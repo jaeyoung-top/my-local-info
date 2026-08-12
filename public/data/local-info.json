@@ -4396,6 +4396,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1519340333755-56e9c1d04579?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "피해아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-08-12",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청 등 수사기관이나 법원",
+      "target": "성폭력·아동학대·인신매매 등 범죄 피해 아동(만 19세 미만) 및 장애인",
+      "summary": "피해 아동 및 장애인 범죄 피해자의 수사·재판상 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -11347,7 +11360,67 @@
       "summary": "AI로 산림 및 수계 복합 재난 예측 모델 개발 및 지능형 대응 시스템 실증.",
       "link": "https://www.msit.go.kr/web/msitContents/contentsView.do?cateId=msit2111100000",
       "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-12-1",
+      "name": "NIPA 산업 데이터 기반 AI 서비스 품질 및 신뢰성 검증 환경 구축 지원 (2026)",
+      "category": "AI지원",
+      "startDate": "2026-03-01",
+      "endDate": "2026-11-30",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI 서비스 개발 및 데이터 활용 기업",
+      "summary": "AI 서비스의 품질과 신뢰성 검증을 위한 환경 구축 및 지원",
+      "link": "https://www.nipa.kr/main/index.html",
+      "image": "https://images.unsplash.com/photo-1516321165247-4aa89a48be55?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-12-2",
+      "name": "서울 AI 허브 AI 기반 복합 환경 인지 기술 스타트업 육성 및 실증 (2026)",
+      "category": "AI지원",
+      "startDate": "2026-04-15",
+      "endDate": "2026-10-31",
+      "location": "서울 AI 허브",
+      "target": "AI 기반 복합 환경 인지 기술 스타트업",
+      "summary": "멀티모달 AI 인지 기술 스타트업 발굴, 육성 및 실증 지원",
+      "link": "https://seoulaihub.kr/main",
+      "image": "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-12-3",
+      "name": "K-Startup 제조 현장 디지털 전환을 위한 AI 기반 솔루션 PoC 지원 (2026)",
+      "category": "AI지원",
+      "startDate": "2026-05-01",
+      "endDate": "2026-09-15",
+      "location": "K-Startup 창업진흥원",
+      "target": "제조 분야 AI 솔루션 스타트업",
+      "summary": "제조 현장 디지털 전환을 위한 AI 솔루션의 초기 PoC 지원",
+      "link": "https://www.k-startup.go.kr/web/main/index.do",
+      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-12-4",
+      "name": "기업마당 중소기업 디지털 전환을 위한 AI/빅데이터 기반 법률 및 규제 대응 컨설팅 (2026)",
+      "category": "AI지원",
+      "startDate": "2026-01-01",
+      "endDate": "상시",
+      "location": "기업마당 (중소벤처기업부)",
+      "target": "디지털 전환 중소기업",
+      "summary": "AI/빅데이터 관련 법률, 규제 및 컴플라이언스 대응 컨설팅 제공",
+      "link": "https://www.bizinfo.go.kr/web/main/index.do",
+      "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-12-5",
+      "name": "과학기술정보통신부 차세대 지능형 반도체 소자 및 응용 기술 개발 R&D (2026)",
+      "category": "AI지원",
+      "startDate": "2026-02-01",
+      "endDate": "2027-01-31",
+      "location": "과학기술정보통신부 (IITP)",
+      "target": "연구기관, 대학, 기업 컨소시엄",
+      "summary": "차세대 AI 반도체 핵심 소자 및 응용 기술 개발 연구 지원",
+      "link": "https://www.iitp.or.kr/main.it",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-08-11"
+  "lastUpdated": "2026-08-12"
 }
