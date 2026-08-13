@@ -1,6 +1,124 @@
 {
   "deals": [
     {
+      "id": "hdz_195117",
+      "title": "겟피X 스위치판 재판",
+      "price": "44,000원",
+      "image": null,
+      "category": "게임",
+      "site": "네이버",
+      "source": "루리웹",
+      "sourceColor": "#3B82F6",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106367?page=1",
+      "publishedAt": "2026-08-14 05:25:22",
+      "likes": 14,
+      "fetchedAt": "2026-08-13T21:35:48.954Z",
+      "priceComparison": [
+        {
+          "site": "네이버",
+          "price": "44,000원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": {
+        "text": "저번에 금새 품절나서 놓쳤었는데 다시 찍나보네요. 필요하신 분들 ㄱㄱ 뉴클리어클럽 https://m.smartstore.naver.com/nuclearclub/products/13650638855 애드몰 https://m.smartstore.naver.com/aidermall/products/13650701611",
+        "images": []
+      },
+      "shopUrl": "https://m.smartstore.naver.com/nuclearclub/products/13650638855"
+    },
+    {
+      "id": "hdz_195116",
+      "title": "5080 불칸 화이트",
+      "price": "2,750,000원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/14/thumb_18b7a7db20d116ed8c45f88d830a5598.webp",
+      "category": "PC",
+      "site": "지마켓",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/10208845223",
+      "publishedAt": "2026-08-14 04:34:06",
+      "likes": 51,
+      "fetchedAt": "2026-08-13T21:35:48.954Z",
+      "priceComparison": [
+        {
+          "site": "지마켓",
+          "price": "2,750,000원"
+        },
+        {
+          "site": "11번가",
+          "price": "2,750,000원"
+        },
+        {
+          "site": "중고나라",
+          "price": "2,650,000원"
+        },
+        {
+          "site": "중고나라",
+          "price": "2,700,000원"
+        },
+        {
+          "site": "중고나라",
+          "price": "2,800,000원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "05-26",
+            "price": 2430000
+          },
+          {
+            "date": "06-02",
+            "price": 2480000
+          },
+          {
+            "date": "06-09",
+            "price": 2490000
+          },
+          {
+            "date": "06-16",
+            "price": 2490000
+          },
+          {
+            "date": "06-23",
+            "price": 2490000
+          },
+          {
+            "date": "06-30",
+            "price": 2490000
+          },
+          {
+            "date": "07-07",
+            "price": 2490000
+          },
+          {
+            "date": "07-14",
+            "price": 2519000
+          },
+          {
+            "date": "07-21",
+            "price": 2510730
+          },
+          {
+            "date": "07-28",
+            "price": 2508900
+          },
+          {
+            "date": "08-04",
+            "price": 2499000
+          },
+          {
+            "date": "08-11",
+            "price": 2475480
+          }
+        ],
+        "minPrice": 2430000,
+        "maxPrice": 2519000
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
       "id": "hdz_195115",
       "title": "Deponia 재배포",
       "price": "무료",
@@ -33423,118 +33541,7 @@
         ]
       },
       "shopUrl": "https://item.gmarket.co.kr/Item?goodscode=4124836594"
-    },
-    {
-      "id": "hdz_194582",
-      "title": "쟈니베어 붙이는 아이스 쿨패치 쿨링시트, 30개, 1팩",
-      "price": "4,980원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/08/13/thumb_ba663200dc964b0cd07aab9331a4abad.webp",
-      "category": "의류",
-      "site": "토스쇼핑",
-      "source": "기타",
-      "sourceColor": "#888888",
-      "link": "https://toss.shopping/t/2398664863",
-      "publishedAt": "2026-08-13 09:00:14",
-      "likes": 11,
-      "fetchedAt": "2026-08-13T01:18:43.609Z",
-      "priceComparison": [
-        {
-          "site": "토스쇼핑",
-          "price": "4,980원"
-        },
-        {
-          "site": "GS SHOP",
-          "price": "9,800원"
-        },
-        {
-          "site": "11번가",
-          "price": "7,500원"
-        },
-        {
-          "site": "영이상점",
-          "price": "3,000원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "06-02",
-            "price": 5500
-          },
-          {
-            "date": "06-09",
-            "price": 5500
-          },
-          {
-            "date": "06-16",
-            "price": 5500
-          },
-          {
-            "date": "06-23",
-            "price": 5500
-          },
-          {
-            "date": "06-30",
-            "price": 5500
-          },
-          {
-            "date": "07-07",
-            "price": 5500
-          },
-          {
-            "date": "07-14",
-            "price": 5500
-          },
-          {
-            "date": "07-21",
-            "price": 5500
-          },
-          {
-            "date": "07-28",
-            "price": 5500
-          },
-          {
-            "date": "08-04",
-            "price": 5500
-          },
-          {
-            "date": "08-11",
-            "price": 5500
-          }
-        ],
-        "minPrice": 5500,
-        "maxPrice": 5500
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_194581",
-      "title": "파엠 만자천홍",
-      "price": null,
-      "image": null,
-      "category": "게임",
-      "site": "겜우리",
-      "source": "루리웹",
-      "sourceColor": "#3B82F6",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106330?page=1",
-      "publishedAt": "2026-08-13 09:00:12",
-      "likes": 33,
-      "fetchedAt": "2026-08-13T01:18:43.609Z",
-      "priceComparison": [],
-      "priceHistory": null,
-      "postContent": {
-        "text": "파이어 엠블렘 만자천홍 패키지 버전 예약 판매 일정 및 조기 구입 특전 안내 https://www.nintendo.com/kr/news/article/4spxehVRjCxNUAiupJuzap 메탈뱃지 - 오프라인 대원샵(용산 아이파크몰, 더 현대 대구, 현대프리미엄아울렛 송도점) 온라인 닌텐도 브랜드관(지/옥/십) 롯데홈 예사 등 아크릴 스탠드 - 이마트 APP(디지털그랩) SSG.COM 신세계라이브쇼핑 장패드 - 토이저러스몰 홀로그램 포토카드 5종 - 카카오톡 선물하기/톡딜 예판런 컬리 하이마트 온라인 오전 09시 부터 예판 시작 (직링크) (일반판 특전 : 메탈 뱃지) https://gamewoori.com/product/detail.html?product_no=19302 https://gamewoori.com/product/detail.html?product_no=19301 https://smartstore.naver.com/gamewoori/products/13719190958 https://smartstore.naver.com/gamewoori/products/13718879728 https://gametouchmall.com/product/detail.html?product_no=2254 https://gametouchmall.com/product/detail.html?product_no=2253 https://smartstore.naver.com/gametouchmall/products/13718443172 https://smartstore.naver.com/gametouchmall/products/13718342992 https://smartstore.naver.com/joycampstore/products/13718241034 https://www.bighornmall.co.kr/goods/goods_view.php?goodsNo=1000001140 https://smartstore.naver.com/bighorn1004/products/13718700785 https://smartstore.naver.com/bighorn1004/products/13718602052 https://smartstore.naver.com/nuclearclub/products/13718325167 https://smartstore.naver.com/nuclearclub/products/13718322621 https://smartstore.naver.com/aidermall/products/13718576387 https://smartstore.naver.com/aidermall/products/13718577554 https://smartstore.naver.com/raonato_game/products/13718366876 https://smartstore.naver.com/raonato_game/products/13718364200 https://gametechmall.com/product/detail.html?product_no=1243 https://gametechmall.com/product/detail.html?product_no=1244 https://smartstore.naver.com/techline/products/13718529283 https://smartstore.naver.com/techline/products/13718524638 https://playswitch.kr/product/detail.html?product_no=1188 https://playswitch.kr/product/detail.html?product_no=1187 https://smartstore.naver.com/playswitch/products/13718432184 https://smartstore.naver.com/playswitch/products/13718429689 https://www.lotteon.com/p/product/LO2746288347 https://www.lotteon.com/p/product/",
-        "images": [
-          "https://i1.ruliweb.com/img/26/08/13/19ff875bed5c444.webp",
-          "https://i2.ruliweb.com/img/26/08/13/19ff89ec8c0c444.webp",
-          "https://i1.ruliweb.com/img/26/08/13/19ff89f6bbcc444.webp",
-          "https://i1.ruliweb.com/img/26/08/13/19ff89fbd1dc444.webp",
-          "https://i2.ruliweb.com/img/26/08/13/19ff8a02166c444.webp"
-        ]
-      },
-      "shopUrl": "https://www.nintendo.com/kr/news/article/4spxehVRjCxNUAiupJuzap"
     }
   ],
-  "lastUpdated": "2026-08-13T18:51:33.747Z"
+  "lastUpdated": "2026-08-13T21:35:51.031Z"
 }
