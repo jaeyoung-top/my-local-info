@@ -13,6 +13,18 @@
       "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1779432991songpa.JPG"
     },
     {
+      "name": "2026 송파 문화 예술의 도시 주요 행사 (콘서트, 페스티벌 등)",
+      "category": "문화/공연/축제",
+      "startDate": "2026-08-01",
+      "endDate": "2026-08-31",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "송파구에서 열리는 2026 해피 썸머타임 콘서트, 월드 플라멩코 페스티벌, 구립송파극단 정기공연 등 주요 문화 예술 행사 정보.",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9041&aid=18075",
+      "id": "crawler-1786583677761-914",
+      "image": "https://picsum.photos/seed/728192/800/500"
+    },
+    {
       "name": "2026 해피 썸머타임 콘서트 외 송파 문화 예술 행사",
       "category": "행사",
       "startDate": "2026-08-01",
@@ -4409,6 +4421,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&q=80"
+    },
+    {
+      "id": "127000",
+      "name": "범죄 피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-08-13",
+      "endDate": "상시",
+      "location": "법무부",
+      "target": "범죄 피해 아동 또는 장애인",
+      "summary": "범죄 피해 아동·장애인의 수사·재판 소통을 돕는 진술조력인 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -11420,7 +11445,67 @@
       "summary": "차세대 AI 반도체 핵심 소자 및 응용 기술 개발 연구 지원",
       "link": "https://www.iitp.or.kr/main.it",
       "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-13-1",
+      "name": "NIPA 산업별 인공지능 디지털 전환 로드맵 수립 지원",
+      "category": "AI지원",
+      "startDate": "2026-08-13",
+      "endDate": "추후 공지",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "산업별 중소·중견기업 및 기관",
+      "summary": "각 산업에 특화된 AI 기반 디지털 전환 전략 및 로드맵 수립 지원",
+      "link": "https://www.nipa.kr",
+      "image": "https://images.unsplash.com/photo-1488229297570-58520851e868?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-13-2",
+      "name": "서울 AI 허브 AI 모델 양자 컴퓨팅 기반 최적화 연구 지원",
+      "category": "AI지원",
+      "startDate": "2026-08-13",
+      "endDate": "추후 공지",
+      "location": "서울 AI 허브",
+      "target": "AI 스타트업, 연구팀, 대학/연구기관",
+      "summary": "양자 컴퓨팅 기술을 활용한 AI 모델 경량화 및 성능 최적화 연구 지원",
+      "link": "https://www.seoulaihub.kr",
+      "image": "https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-13-3",
+      "name": "K-Startup AI 기술 기반 글로벌 창업기업 육성 및 해외 법인 설립 지원",
+      "category": "AI지원",
+      "startDate": "2026-08-13",
+      "endDate": "추후 공지",
+      "location": "K-Startup 창업진흥원",
+      "target": "AI 기반 기술 창업기업",
+      "summary": "AI 스타트업의 해외 시장 진출을 위한 육성 및 법인 설립 컨설팅 지원",
+      "link": "https://www.k-startup.go.kr",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-13-4",
+      "name": "중소기업 AI 기반 에너지 데이터 통합 및 최적화 시스템 구축 지원",
+      "category": "AI지원",
+      "startDate": "2026-08-13",
+      "endDate": "추후 공지",
+      "location": "기업마당 (중소벤처기업부)",
+      "target": "에너지 효율 개선 희망 중소기업",
+      "summary": "AI 기반 에너지 데이터 통합 분석 및 최적화 시스템 구축 비용 지원",
+      "link": "https://www.bizinfo.go.kr",
+      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-13-5",
+      "name": "과학기술정보통신부 AI 기반 인공지능 학습 데이터 보안 및 무결성 확보 기술 개발",
+      "category": "AI지원",
+      "startDate": "2026-08-13",
+      "endDate": "추후 공지",
+      "location": "과학기술정보통신부",
+      "target": "AI 데이터 관련 기업, 연구기관",
+      "summary": "AI 학습 데이터의 보안 및 무결성 강화를 위한 핵심 기술 개발 지원",
+      "link": "https://www.msit.go.kr",
+      "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-08-12"
+  "lastUpdated": "2026-08-13"
 }
