@@ -1,6 +1,440 @@
 {
   "deals": [
     {
+      "id": "hdz_195204",
+      "title": "네멤)신라면 20개",
+      "price": "11,750원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/14/thumb_2eb04812df3b92f6c1bc0c091a744fcb.webp",
+      "category": "식품",
+      "site": "네이버",
+      "source": "아카라이브",
+      "sourceColor": "#10B981",
+      "link": "https://arca.live/b/hotdeal/179861644?p=1",
+      "publishedAt": "2026-08-14 10:18:07",
+      "likes": 8,
+      "fetchedAt": "2026-08-14T01:19:31.443Z",
+      "priceComparison": [
+        {
+          "site": "네이버",
+          "price": "11,750원"
+        },
+        {
+          "site": "쿠팡",
+          "price": "14,930원"
+        },
+        {
+          "site": "SSG.COM",
+          "price": "17,950원"
+        },
+        {
+          "site": "글로벌푸드",
+          "price": "17,200원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "05-26",
+            "price": 14290
+          },
+          {
+            "date": "06-02",
+            "price": 14300
+          },
+          {
+            "date": "06-09",
+            "price": 14650
+          },
+          {
+            "date": "06-16",
+            "price": 14710
+          },
+          {
+            "date": "06-23",
+            "price": 14870
+          },
+          {
+            "date": "06-30",
+            "price": 14870
+          },
+          {
+            "date": "07-07",
+            "price": 14870
+          },
+          {
+            "date": "07-14",
+            "price": 14870
+          },
+          {
+            "date": "07-21",
+            "price": 14870
+          },
+          {
+            "date": "07-28",
+            "price": 14870
+          },
+          {
+            "date": "08-04",
+            "price": 14930
+          },
+          {
+            "date": "08-11",
+            "price": 11780
+          }
+        ],
+        "minPrice": 11780,
+        "maxPrice": 14930
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_195203",
+      "title": "얼려먹는 허쉬 초코바나나 85ML x 24개입",
+      "price": "16,716원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/14/thumb_c3d218c6688554d9fd328df50e6c31e7.webp",
+      "category": "식품",
+      "site": "오늘의집",
+      "source": "아카라이브",
+      "sourceColor": "#10B981",
+      "link": "https://arca.live/b/hotdeal/179861645?p=1",
+      "publishedAt": "2026-08-14 10:18:06",
+      "likes": 3,
+      "fetchedAt": "2026-08-14T01:19:31.443Z",
+      "priceComparison": [
+        {
+          "site": "오늘의집",
+          "price": "16,716원"
+        },
+        {
+          "site": "매일유업 공식몰",
+          "price": "24,900원"
+        },
+        {
+          "site": "SSG.com",
+          "price": "24,560원"
+        },
+        {
+          "site": "GS SHOP",
+          "price": "26,900원"
+        },
+        {
+          "site": "쿠팡(코스트코 상품)",
+          "price": "18,910원"
+        },
+        {
+          "site": "패션플러스",
+          "price": "27,400원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "05-26",
+            "price": 17550
+          },
+          {
+            "date": "06-02",
+            "price": 17200
+          },
+          {
+            "date": "06-09",
+            "price": 17200
+          },
+          {
+            "date": "06-16",
+            "price": 17200
+          },
+          {
+            "date": "06-23",
+            "price": 15420
+          },
+          {
+            "date": "06-30",
+            "price": 15420
+          },
+          {
+            "date": "07-07",
+            "price": 15420
+          },
+          {
+            "date": "07-14",
+            "price": 15420
+          },
+          {
+            "date": "07-21",
+            "price": 15400
+          },
+          {
+            "date": "07-28",
+            "price": 14590
+          },
+          {
+            "date": "08-04",
+            "price": 14590
+          },
+          {
+            "date": "08-11",
+            "price": 14590
+          }
+        ],
+        "minPrice": 14590,
+        "maxPrice": 17550
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_195202",
+      "title": "목우촌 주부9단 로스구이 250g, 4개",
+      "price": "8,500원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/14/thumb_c6022ece2f0ea60300f4008790449de9.webp",
+      "category": "식품",
+      "site": "네이버",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/10209408841",
+      "publishedAt": "2026-08-14 10:16:05",
+      "likes": 5,
+      "fetchedAt": "2026-08-14T01:19:31.443Z",
+      "priceComparison": [
+        {
+          "site": "네이버",
+          "price": "8,500원"
+        },
+        {
+          "site": "목우촌몰",
+          "price": "최저 9,900원(4개 기준)"
+        },
+        {
+          "site": "쿠팡",
+          "price": "7,440~8,980원(2개 기준)"
+        },
+        {
+          "site": "가격비교 사이트(예: 에누리)",
+          "price": "18,390원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "05-26",
+            "price": 11740
+          },
+          {
+            "date": "06-02",
+            "price": 11740
+          },
+          {
+            "date": "06-09",
+            "price": 11740
+          },
+          {
+            "date": "06-16",
+            "price": 11740
+          },
+          {
+            "date": "06-23",
+            "price": 11740
+          },
+          {
+            "date": "06-30",
+            "price": 11740
+          },
+          {
+            "date": "07-07",
+            "price": 11820
+          },
+          {
+            "date": "07-14",
+            "price": 13510
+          },
+          {
+            "date": "07-21",
+            "price": 11480
+          },
+          {
+            "date": "07-28",
+            "price": 13680
+          },
+          {
+            "date": "08-04",
+            "price": 11480
+          },
+          {
+            "date": "08-11",
+            "price": 12620
+          }
+        ],
+        "minPrice": 11480,
+        "maxPrice": 13680
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_195201",
+      "title": "풀무원 얇은피 꽉찬속 김치만두 (냉동), 400g, 4개",
+      "price": "9,980원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/14/thumb_3ac1ed80f2e009a7083ed5d11a4771b7.webp",
+      "category": "식품",
+      "site": "쿠팡",
+      "source": "아카라이브",
+      "sourceColor": "#10B981",
+      "link": "https://arca.live/b/hotdeal/179861240?p=1",
+      "publishedAt": "2026-08-14 10:12:06",
+      "likes": 8,
+      "fetchedAt": "2026-08-14T01:19:31.444Z",
+      "priceComparison": [
+        {
+          "site": "쿠팡",
+          "price": "9,980원"
+        },
+        {
+          "site": "SSG.COM",
+          "price": "8,980원"
+        },
+        {
+          "site": "이마트몰",
+          "price": "8,970원"
+        },
+        {
+          "site": "이마트 에브리데이",
+          "price": "8,980원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "2026-05-14",
+            "price": 16380
+          },
+          {
+            "date": "2026-05-17",
+            "price": 16380
+          },
+          {
+            "date": "2026-05-20",
+            "price": 16450
+          },
+          {
+            "date": "2026-05-23",
+            "price": 16450
+          },
+          {
+            "date": "2026-05-26",
+            "price": 16450
+          },
+          {
+            "date": "2026-05-28",
+            "price": 16450
+          },
+          {
+            "date": "2026-05-31",
+            "price": 16450
+          },
+          {
+            "date": "2026-06-04",
+            "price": 9980
+          },
+          {
+            "date": "2026-06-07",
+            "price": 9980
+          },
+          {
+            "date": "2026-06-08",
+            "price": 9980
+          },
+          {
+            "date": "2026-06-09",
+            "price": 15820
+          },
+          {
+            "date": "2026-06-13",
+            "price": 15820
+          },
+          {
+            "date": "2026-06-18",
+            "price": 16450
+          },
+          {
+            "date": "2026-06-21",
+            "price": 16450
+          },
+          {
+            "date": "2026-07-01",
+            "price": 9980
+          },
+          {
+            "date": "2026-07-06",
+            "price": 16450
+          },
+          {
+            "date": "2026-07-09",
+            "price": 16450
+          },
+          {
+            "date": "2026-07-13",
+            "price": 16450
+          },
+          {
+            "date": "2026-07-16",
+            "price": 16450
+          },
+          {
+            "date": "2026-07-20",
+            "price": 16450
+          },
+          {
+            "date": "2026-07-27",
+            "price": 16450
+          },
+          {
+            "date": "2026-07-30",
+            "price": 16450
+          },
+          {
+            "date": "2026-08-02",
+            "price": 9680
+          },
+          {
+            "date": "2026-08-05",
+            "price": 16450
+          },
+          {
+            "date": "2026-08-08",
+            "price": 16450
+          },
+          {
+            "date": "2026-08-11",
+            "price": 17420
+          }
+        ],
+        "minPrice": 9680,
+        "maxPrice": 17420
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_195200",
+      "title": "멤버십 주말배송 10% 쿠폰",
+      "price": "무료",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/14/thumb_d7d23f3024d459b506ac3b61cb57dfdc.webp",
+      "category": "생활용품",
+      "site": "네이버",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/10209398668",
+      "publishedAt": "2026-08-14 10:12:05",
+      "likes": 28,
+      "fetchedAt": "2026-08-14T01:19:31.444Z",
+      "priceComparison": [],
+      "priceHistory": null,
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
       "id": "hdz_195199",
       "title": "농심 신라면 선물용(120g X 20개)",
       "price": "11,750원",
@@ -34694,298 +35128,7 @@
         ]
       },
       "shopUrl": "https://kidikidi.elandmall.co.kr/i/item?itemNo=2606477885"
-    },
-    {
-      "id": "hdz_194688",
-      "title": "김설희 고기왕만두 700g 2봉",
-      "price": "8,980원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/08/13/thumb_da100cf7e77f600f271360ea7ef6f457.webp",
-      "category": "식품",
-      "site": "네이버",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=726765",
-      "publishedAt": "2026-08-13 11:06:35",
-      "likes": 26,
-      "fetchedAt": "2026-08-13T04:45:06.903Z",
-      "priceComparison": [
-        {
-          "site": "네이버",
-          "price": "8,980원"
-        },
-        {
-          "site": "11번가",
-          "price": "13,910원"
-        },
-        {
-          "site": "토박이마을",
-          "price": "36,900원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": {
-        "text": "2개 구매시 8,980원 나와요김치는 9,980원 나오네요참PD가 추천한 만두에요컬리 새벽배송 23시 전 주문 새벽도착 입니다",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0813/900w_20260813110418_oZLORL71hI.jpg"
-        ]
-      },
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_194687",
-      "title": "아미노리젠 코어 리포좀 아르기닌 3500 1,000mg 60정",
-      "price": "8,900원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/08/13/thumb_f1eadaa1b960b80fc699bb608654d780.webp",
-      "category": "식품",
-      "site": "롯데온",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/10204706794",
-      "publishedAt": "2026-08-13 11:06:05",
-      "likes": 13,
-      "fetchedAt": "2026-08-13T04:45:06.903Z",
-      "priceComparison": [
-        {
-          "site": "롯데온",
-          "price": "8,900원"
-        },
-        {
-          "site": "아미노리젠 공식몰(E4A)",
-          "price": "27,900원"
-        },
-        {
-          "site": "쿠팡",
-          "price": "21,900원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_194686",
-      "title": "펄사 X2A 유선 게이밍 마우스",
-      "price": "19,000원/2,500원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/08/13/thumb_a797e11b398f1fde13bd11d5926b8ade.webp",
-      "category": "게임",
-      "site": "지구인샵",
-      "source": "루리웹",
-      "sourceColor": "#3B82F6",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106345?page=1",
-      "publishedAt": "2026-08-13 11:05:23",
-      "likes": 50,
-      "fetchedAt": "2026-08-13T04:45:06.903Z",
-      "priceComparison": [
-        {
-          "site": "지구인샵",
-          "price": "19,000원/2,500원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "05-26",
-            "price": 44500
-          },
-          {
-            "date": "06-02",
-            "price": 44500
-          },
-          {
-            "date": "06-09",
-            "price": 44500
-          },
-          {
-            "date": "06-16",
-            "price": 44500
-          },
-          {
-            "date": "06-23",
-            "price": 44500
-          },
-          {
-            "date": "06-30",
-            "price": 44500
-          },
-          {
-            "date": "07-07",
-            "price": 29000
-          },
-          {
-            "date": "07-14",
-            "price": 28990
-          },
-          {
-            "date": "07-21",
-            "price": 29000
-          },
-          {
-            "date": "07-28",
-            "price": 29000
-          },
-          {
-            "date": "08-04",
-            "price": 28990
-          },
-          {
-            "date": "08-11",
-            "price": 29000
-          }
-        ],
-        "minPrice": 28990,
-        "maxPrice": 44500
-      },
-      "postContent": {
-        "text": "펄사 유선 양손잡이용입니다. PAW3395 / 옵티컬 스펙은 가격대비 나쁘지않네요.",
-        "images": [
-          "https://i3.ruliweb.com/img/26/08/13/19ff8dcffc4585558.webp",
-          "https://i1.ruliweb.com/img/26/08/13/19ff8dd0141585558.webp"
-        ]
-      },
-      "shopUrl": "https://jigooinshop.com/product/wiz020bt/4603"
-    },
-    {
-      "id": "hdz_194685",
-      "title": "걸어쓰는 3겹 훅 키친타올 250매 4개입",
-      "price": "9,900원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/08/13/thumb_0f2a2e565fc5c93d6af4e4411a26618d.webp",
-      "category": "생활용품",
-      "site": "GS샵",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=115&no=726763",
-      "publishedAt": "2026-08-13 11:04:17",
-      "likes": 18,
-      "fetchedAt": "2026-08-13T04:45:06.903Z",
-      "priceComparison": [
-        {
-          "site": "GS샵",
-          "price": "9,900원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "06-30",
-            "price": 15750
-          },
-          {
-            "date": "07-07",
-            "price": 15750
-          },
-          {
-            "date": "07-14",
-            "price": 15750
-          },
-          {
-            "date": "07-21",
-            "price": 17910
-          },
-          {
-            "date": "07-28",
-            "price": 19710
-          },
-          {
-            "date": "08-11",
-            "price": 17900
-          }
-        ],
-        "minPrice": 15750,
-        "maxPrice": 19710
-      },
-      "postContent": {
-        "text": "걸어서 쓰는 3겹 키친타올 250매 4개입 가격입니다유해화학 사용 안한 먼지 날림 최소화 제품이고걸 수 있는 후크 증정 포함이라 다양한 장소에서 사용 가능합니다",
-        "images": [
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0813/900w_20260813105008_LSTqroJGUg.jpg",
-          "https://cdn2.ppomppu.co.kr/zboard/data3/2026/0813/900w_20260813105011_FCZohgFDzY.jpg"
-        ]
-      },
-      "shopUrl": "https://www.gsshop.com/prd/prd.gs?prdid=1133335098"
-    },
-    {
-      "id": "hdz_194684",
-      "title": "올반 새우볶음밥 4개입",
-      "price": "7,180원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/08/13/thumb_92ba6bed257f42a38399648aad282705.webp",
-      "category": "식품",
-      "site": "네이버컬리",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/10204714948",
-      "publishedAt": "2026-08-13 11:04:13",
-      "likes": 32,
-      "fetchedAt": "2026-08-13T04:45:06.903Z",
-      "priceComparison": [
-        {
-          "site": "네이버컬리",
-          "price": "7,180원"
-        },
-        {
-          "site": "마켓컬리",
-          "price": "가격 미확인"
-        },
-        {
-          "site": "쿠차",
-          "price": "11,300원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "05-26",
-            "price": 18440
-          },
-          {
-            "date": "06-02",
-            "price": 18340
-          },
-          {
-            "date": "06-09",
-            "price": 17600
-          },
-          {
-            "date": "06-16",
-            "price": 19570
-          },
-          {
-            "date": "06-23",
-            "price": 19570
-          },
-          {
-            "date": "06-30",
-            "price": 18440
-          },
-          {
-            "date": "07-07",
-            "price": 17930
-          },
-          {
-            "date": "07-14",
-            "price": 21770
-          },
-          {
-            "date": "07-21",
-            "price": 19570
-          },
-          {
-            "date": "07-28",
-            "price": 18650
-          },
-          {
-            "date": "08-04",
-            "price": 18650
-          },
-          {
-            "date": "08-11",
-            "price": 18440
-          }
-        ],
-        "minPrice": 17600,
-        "maxPrice": 21770
-      },
-      "postContent": null,
-      "shopUrl": null
     }
   ],
-  "lastUpdated": "2026-08-14T01:11:01.127Z"
+  "lastUpdated": "2026-08-14T01:19:33.769Z"
 }
