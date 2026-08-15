@@ -1,6 +1,122 @@
 {
   "deals": [
     {
+      "id": "hdz_195633",
+      "title": "너구리 얼큰한맛 120g 10개",
+      "price": "7,400원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/15/thumb_fb19639f34d3d6d24f380c29a63e235d.webp",
+      "category": "식품",
+      "site": "쿠팡",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/10213858086",
+      "publishedAt": "2026-08-15 09:46:05",
+      "likes": 3,
+      "fetchedAt": "2026-08-15T00:50:13.060Z",
+      "priceComparison": [
+        {
+          "site": "쿠팡",
+          "price": "7,400원"
+        },
+        {
+          "site": "로우차트",
+          "price": "8,860원"
+        },
+        {
+          "site": "모두판다",
+          "price": "9,400원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "2026-06-03",
+            "price": 7950
+          },
+          {
+            "date": "2026-06-05",
+            "price": 7950
+          },
+          {
+            "date": "2026-06-08",
+            "price": 7950
+          },
+          {
+            "date": "2026-06-13",
+            "price": 7950
+          },
+          {
+            "date": "2026-06-17",
+            "price": 7950
+          },
+          {
+            "date": "2026-06-20",
+            "price": 9360
+          },
+          {
+            "date": "2026-07-06",
+            "price": 9400
+          },
+          {
+            "date": "2026-07-10",
+            "price": 9400
+          },
+          {
+            "date": "2026-07-14",
+            "price": 9400
+          },
+          {
+            "date": "2026-07-16",
+            "price": 7950
+          },
+          {
+            "date": "2026-07-18",
+            "price": 7950
+          },
+          {
+            "date": "2026-07-20",
+            "price": 7950
+          },
+          {
+            "date": "2026-07-21",
+            "price": 7950
+          },
+          {
+            "date": "2026-07-27",
+            "price": 7950
+          },
+          {
+            "date": "2026-07-29",
+            "price": 7950
+          },
+          {
+            "date": "2026-07-30",
+            "price": 8720
+          },
+          {
+            "date": "2026-08-02",
+            "price": 8270
+          },
+          {
+            "date": "2026-08-05",
+            "price": 9400
+          },
+          {
+            "date": "2026-08-08",
+            "price": 9400
+          },
+          {
+            "date": "2026-08-11",
+            "price": 9400
+          }
+        ],
+        "minPrice": 7950,
+        "maxPrice": 9400
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
       "id": "hdz_195632",
       "title": "듀이트리 하이 아미노 올 클렌징 밀크 본품 200ml + 리필 200ml 세트",
       "price": "9,700원",
@@ -33935,25 +34051,7 @@
         ]
       },
       "shopUrl": "https://store.steampowered.com/app/214340/Deponia/"
-    },
-    {
-      "id": "hdz_195112",
-      "title": "Deponia",
-      "price": "0원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/08/14/thumb_d2475b759d543f997928d3bdfed79a79.webp",
-      "category": "게임",
-      "site": "스팀",
-      "source": "아카라이브",
-      "sourceColor": "#10B981",
-      "link": "https://arca.live/b/hotdeal/179845605?p=1",
-      "publishedAt": "2026-08-14 02:04:06",
-      "likes": 18,
-      "fetchedAt": "2026-08-13T18:51:31.577Z",
-      "priceComparison": [],
-      "priceHistory": null,
-      "postContent": null,
-      "shopUrl": null
     }
   ],
-  "lastUpdated": "2026-08-15T00:43:31.418Z"
+  "lastUpdated": "2026-08-15T00:50:15.354Z"
 }
