@@ -1,6 +1,18 @@
 {
   "events": [
     {
+      "name": "송파 문화 예술의 도시: 썸머 콘서트, 플라멩코 페스티벌 등",
+      "category": "공연/축제/전시",
+      "startDate": "2026-08-01",
+      "endDate": "2026-08-31",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "해피 썸머타임 콘서트, 월드 플라멩코 페스티벌, 구립송파극단 정기공연, 호수동물아트전 등 다채로운 문화 예술 행사 소개",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9041&aid=18075",
+      "id": "crawler-1787013869990-676",
+      "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1784891814songpa.JPG"
+    },
+    {
       "name": "2026 송파 문화 예술의 도시 주요 공연 및 전시",
       "category": "문화 예술 행사",
       "startDate": "2026-08-01",
@@ -4500,6 +4512,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "범죄 피해 아동·장애인 진술조력 지원",
+      "category": "혜택",
+      "startDate": "2026-08-18",
+      "endDate": "상시",
+      "location": "법무부",
+      "target": "만 19세 미만 아동 및 범죄 피해 장애인",
+      "summary": "범죄 피해 아동·장애인의 수사·재판 시 의사소통을 돕는 진술조력인 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -11811,7 +11836,67 @@
       "summary": "AI 기반 데이터센터 에너지 효율 최적화 기술 개발 및 실증 지원",
       "link": "https://www.msit.go.kr/",
       "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-18-1",
+      "name": "서울 AI 허브 AI 기반 가상 실험실 및 기술 실증 협업 지원",
+      "category": "AI지원",
+      "startDate": "2026-08-01",
+      "endDate": "2026-12-31",
+      "location": "서울 AI 허브",
+      "target": "AI 스타트업 및 연구기관",
+      "summary": "AI 가상 실험 환경 제공 및 기술 실증을 위한 협업 플랫폼 지원",
+      "link": "https://seoulaihub.kr/program/virtual-lab-2026",
+      "image": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-18-2",
+      "name": "K-Startup AI 기반 해양/수산 데이터 활용 창업 스케일업",
+      "category": "AI지원",
+      "startDate": "2026-07-01",
+      "endDate": "2026-11-30",
+      "location": "창업진흥원",
+      "target": "해양/수산 분야 AI 기반 창업기업",
+      "summary": "해양/수산 데이터를 활용한 AI 창업기업의 비즈니스 모델 고도화 지원",
+      "link": "https://k-startup.go.kr/program/oceanai2026",
+      "image": "https://images.unsplash.com/photo-1526378800651-c32d170fe6f8?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-18-3",
+      "name": "NIPA AI 기반 SW 개발 생산성 향상 프레임워크 구축 지원",
+      "category": "AI지원",
+      "startDate": "2026-09-01",
+      "endDate": "2027-02-28",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "SW 개발 기업 및 연구기관",
+      "summary": "AI 기술을 활용한 소프트웨어 개발 생산성 향상 프레임워크 개발 및 보급 지원",
+      "link": "https://nipa.kr/ai-swdev-2026",
+      "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-18-4",
+      "name": "기업마당 AI 기반 중소기업 브랜드 평판 분석 및 마케팅 전략 지원",
+      "category": "AI지원",
+      "startDate": "2026-08-10",
+      "endDate": "2026-10-31",
+      "location": "기업마당 (중소벤처기업부)",
+      "target": "중소기업",
+      "summary": "AI로 중소기업 브랜드 평판 분석, 마케팅 전략 수립 및 실행 지원",
+      "link": "https://bizinfo.go.kr/program/ai-brand-2026",
+      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-18-5",
+      "name": "과학기술정보통신부 뉴로모픽 컴퓨팅 기반 AI 모델 경량화 및 효율화 기술 개발",
+      "category": "AI지원",
+      "startDate": "2026-09-15",
+      "endDate": "2027-03-31",
+      "location": "과학기술정보통신부",
+      "target": "연구기관, 대학, 기업 R&D 연구소",
+      "summary": "뉴로모픽 컴퓨팅 기반 저전력 고효율 AI 모델 및 최적화 핵심 기술 개발",
+      "link": "https://msit.go.kr/program/neuromorphic-ai-2026",
+      "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-08-17"
+  "lastUpdated": "2026-08-18"
 }
