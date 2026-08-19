@@ -4525,6 +4525,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-08-19",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청 등 수사기관이나 법원",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "만 19세 미만 아동, 의사소통이 어려운 장애인 범죄 피해자의 수사·재판상 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -11896,7 +11909,67 @@
       "summary": "뉴로모픽 컴퓨팅 기반 저전력 고효율 AI 모델 및 최적화 핵심 기술 개발",
       "link": "https://msit.go.kr/program/neuromorphic-ai-2026",
       "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-19-1",
+      "name": "NIPA 2026년 산업 특화 AI 데이터 분석 및 활용 지원 사업",
+      "category": "AI지원",
+      "startDate": "2026-08-01",
+      "endDate": "2026-12-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "산업 분야 기업 및 연구기관",
+      "summary": "산업 데이터를 AI로 분석하여 비즈니스 혁신 및 효율 향상 지원.",
+      "link": "https://www.nipa.kr",
+      "image": "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-19-2",
+      "name": "서울 AI 허브 AI 모델 데이터 개인정보보호 기술 개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-08-01",
+      "endDate": "2027-01-31",
+      "location": "서울 AI 허브",
+      "target": "AI 모델 개발 스타트업 및 연구팀",
+      "summary": "AI 모델 학습 및 서비스에 필요한 개인정보보호 기술 개발 지원.",
+      "link": "https://seoulaihub.kr",
+      "image": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-19-3",
+      "name": "K-Startup AI 기반 수출 선도 스타트업 지원",
+      "category": "AI지원",
+      "startDate": "2026-08-01",
+      "endDate": "2027-02-28",
+      "location": "K-Startup 창업진흥원",
+      "target": "AI 기반 수출 유망 스타트업",
+      "summary": "AI 기술 기반 서비스/제품의 글로벌 시장 진출 및 스케일업 지원.",
+      "link": "https://www.k-startup.go.kr",
+      "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-19-4",
+      "name": "기업마당 소상공인 디지털 전환 교육 및 컨설팅 지원",
+      "category": "AI지원",
+      "startDate": "2026-08-01",
+      "endDate": "상시",
+      "location": "기업마당 (중소벤처기업부 협력)",
+      "target": "소상공인",
+      "summary": "소상공인의 디지털 역량 강화를 위한 교육 및 맞춤형 컨설팅 제공.",
+      "link": "https://www.bizinfo.go.kr",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-19-5",
+      "name": "중소벤처기업부 AI 기반 중소기업 디지털 트윈 도입 컨설팅 및 파일럿 지원",
+      "category": "AI지원",
+      "startDate": "2026-08-01",
+      "endDate": "2026-12-31",
+      "location": "중소벤처기업부",
+      "target": "디지털 트윈 도입 희망 중소기업",
+      "summary": "AI 기반 디지털 트윈 구축 전략 컨설팅 및 초기 파일럿 프로젝트 지원.",
+      "link": "https://www.mss.go.kr",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-08-18"
+  "lastUpdated": "2026-08-19"
 }
