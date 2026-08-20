@@ -1,6 +1,18 @@
 {
   "events": [
     {
+      "name": "송파구 여름 주요 문화예술 행사 (콘서트, 페스티벌, 공연, 아트전)",
+      "category": "문화",
+      "startDate": "2026-08-01",
+      "endDate": "2026-08-31",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "2026년 여름 송파구에서 개최되는 해피 썸머타임 콘서트, 월드 플라멩코 페스티벌, 구립송파극단 정기공연, 호수동물아트전 등 주요 문화예술 행사 소개.",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9041&aid=18075",
+      "id": "crawler-1787186694647-375",
+      "image": "https://picsum.photos/seed/749460/800/500"
+    },
+    {
       "name": "송파 문화 예술의 도시: 썸머 콘서트, 플라멩코 페스티벌 등",
       "category": "공연/축제/전시",
       "startDate": "2026-08-01",
@@ -4538,6 +4550,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&q=80"
+    },
+    {
+      "id": "000025",
+      "name": "범죄 피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "아동·장애인 범죄 피해자의 수사·재판 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -11969,7 +11994,67 @@
       "summary": "AI 기반 디지털 트윈 구축 전략 컨설팅 및 초기 파일럿 프로젝트 지원.",
       "link": "https://www.mss.go.kr",
       "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-20-1",
+      "name": "NIPA AI 기반 산업 혁신 촉진 사업",
+      "category": "AI지원",
+      "startDate": "2026-08-20",
+      "endDate": "2026-10-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "중소·중견기업 및 스타트업",
+      "summary": "AI 기술을 활용한 산업 전반의 혁신 솔루션 개발 및 사업화 지원.",
+      "link": "https://www.nipa.kr/biz/view.nipa?bizid=20260801_AI_INNO",
+      "image": "https://images.unsplash.com/photo-1516321165247-4aa89a48be55?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-20-2",
+      "name": "서울 AI 허브 인공지능 모델 최적화 엣지 컴퓨팅 환경 구축 지원",
+      "category": "AI지원",
+      "startDate": "2026-08-10",
+      "endDate": "2027-02-28",
+      "location": "서울 AI 허브",
+      "target": "AI 스타트업, 연구팀",
+      "summary": "AI 모델 최적화 및 경량화를 위한 엣지 컴퓨팅 환경 구축 및 활용 지원.",
+      "link": "https://www.seoulaihub.kr/program/view.do?mid=10002&sn=4567",
+      "image": "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-20-3",
+      "name": "K-Startup AI 기반 신기술 분야 실증 테스트베드 연계 지원",
+      "category": "AI지원",
+      "startDate": "2026-08-01",
+      "endDate": "2026-12-31",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "AI 신기술 초기 스타트업",
+      "summary": "AI 신기술 스타트업의 아이디어 및 제품 실증을 위한 테스트베드 연계 및 검증 지원.",
+      "link": "https://www.k-startup.go.kr/biz/view.do?programSn=987654",
+      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-20-4",
+      "name": "중소벤처기업부 AI 기반 제조 공정 예측 및 품질 관리 솔루션 도입 지원",
+      "category": "AI지원",
+      "startDate": "2026-08-05",
+      "endDate": "2026-10-31",
+      "location": "기업마당 (bizinfo.go.kr)",
+      "target": "제조 중소기업",
+      "summary": "제조 현장 공정 예측 및 품질 관리를 위한 AI 솔루션 도입 비용 및 컨설팅 지원.",
+      "link": "https://www.bizinfo.go.kr/web/cmm/programView.do?progrmSe=N000&progrmSn=1234567",
+      "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-20-5",
+      "name": "과학기술정보통신부 차세대 AI 모델 활용 데이터 거버넌스 기술 개발 R&D",
+      "category": "AI지원",
+      "startDate": "2026-08-15",
+      "endDate": "2028-12-31",
+      "location": "과학기술정보통신부",
+      "target": "산학연 연구기관 및 기업",
+      "summary": "차세대 AI 모델의 효율적 활용을 위한 데이터 거버넌스 핵심 기술 개발 R&D 지원.",
+      "link": "https://www.msit.go.kr/sync_url.do?mode=search&page_idx=1&idx=2026AI_DG_RND",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-08-19"
+  "lastUpdated": "2026-08-20"
 }

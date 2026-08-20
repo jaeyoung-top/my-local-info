@@ -1,6 +1,428 @@
 {
   "deals": [
     {
+      "id": "hdz_198099",
+      "title": "자연은 더말린 제로 복숭아 음료, 500ml, 20개",
+      "price": "12,080원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/20/thumb_c80a2c7f528d8fa7911d4c05a58311da.webp",
+      "category": "식품",
+      "site": "쿠팡와우",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/10233884895",
+      "publishedAt": "2026-08-20 09:50:11",
+      "likes": 0,
+      "fetchedAt": "2026-08-20T00:50:13.027Z",
+      "priceComparison": [],
+      "priceHistory": null,
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_198098",
+      "title": "앤커 사운드코어 스페이스 Q45 노이즈캔슬링 무선헤드폰 A3040",
+      "price": "89,000원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/20/thumb_fa29cf64c9e7628580689a077aefa6ea.webp",
+      "category": "가전",
+      "site": "자사몰",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/10233879286",
+      "publishedAt": "2026-08-20 09:48:20",
+      "likes": 2,
+      "fetchedAt": "2026-08-20T00:50:13.027Z",
+      "priceComparison": [
+        {
+          "site": "자사몰",
+          "price": "89,000원"
+        },
+        {
+          "site": "쿠팡",
+          "price": "89,900원"
+        },
+        {
+          "site": "에누리 최저가",
+          "price": "134,900원"
+        },
+        {
+          "site": "SSG닷컴",
+          "price": "149,900원"
+        },
+        {
+          "site": "이벤트버스",
+          "price": "149,900원"
+        },
+        {
+          "site": "퓨처테리어",
+          "price": "179,900원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "06-02",
+            "price": 104900
+          },
+          {
+            "date": "06-09",
+            "price": 104000
+          },
+          {
+            "date": "06-16",
+            "price": 104000
+          },
+          {
+            "date": "06-23",
+            "price": 104000
+          },
+          {
+            "date": "06-30",
+            "price": 104000
+          },
+          {
+            "date": "07-07",
+            "price": 99900
+          },
+          {
+            "date": "07-14",
+            "price": 99900
+          },
+          {
+            "date": "07-21",
+            "price": 129000
+          },
+          {
+            "date": "07-28",
+            "price": 98870
+          },
+          {
+            "date": "08-04",
+            "price": 99900
+          },
+          {
+            "date": "08-11",
+            "price": 99900
+          },
+          {
+            "date": "08-18",
+            "price": 99900
+          }
+        ],
+        "minPrice": 98870,
+        "maxPrice": 129000
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_198097",
+      "title": "불스원 시그니처 500ml 1+1 카드할인",
+      "price": "24,900원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/20/thumb_c4872d3db25263da74d431aa0e3b122b.webp",
+      "category": "생활용품",
+      "site": "네이버",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/10233876505",
+      "publishedAt": "2026-08-20 09:48:11",
+      "likes": 0,
+      "fetchedAt": "2026-08-20T00:50:13.027Z",
+      "priceComparison": [
+        {
+          "site": "네이버",
+          "price": "24,900원"
+        },
+        {
+          "site": "불스원몰",
+          "price": "25,800원"
+        },
+        {
+          "site": "11번가",
+          "price": "36,900원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "06-02",
+            "price": 16330
+          },
+          {
+            "date": "06-09",
+            "price": 16830
+          },
+          {
+            "date": "06-16",
+            "price": 12890
+          },
+          {
+            "date": "06-23",
+            "price": 12790
+          },
+          {
+            "date": "06-30",
+            "price": 15840
+          },
+          {
+            "date": "07-07",
+            "price": 15840
+          },
+          {
+            "date": "07-14",
+            "price": 16720
+          },
+          {
+            "date": "07-21",
+            "price": 15890
+          },
+          {
+            "date": "07-28",
+            "price": 15890
+          },
+          {
+            "date": "08-04",
+            "price": 15890
+          },
+          {
+            "date": "08-11",
+            "price": 15890
+          },
+          {
+            "date": "08-18",
+            "price": 12400
+          }
+        ],
+        "minPrice": 12400,
+        "maxPrice": 16830
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_198096",
+      "title": "에어르 슬릭 무선청소기 + 클린스테이션 26년형",
+      "price": "163,163원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/20/thumb_79a3e5545fb3881a04a48c2a051be9cc.webp",
+      "category": "가전",
+      "site": "sk스토아",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://hotdeal.zip/ppomppu_view.php?url=view.php%3Fid%3Dppomppu%26page%3D1%26divpage%3D115%26no%3D728067",
+      "publishedAt": "2026-08-20 09:46:50",
+      "likes": 7,
+      "fetchedAt": "2026-08-20T00:50:13.027Z",
+      "priceComparison": [
+        {
+          "site": "sk스토아",
+          "price": "163,163원"
+        },
+        {
+          "site": "오늘의집",
+          "price": "259,000원"
+        },
+        {
+          "site": "YES24",
+          "price": "299,000원"
+        },
+        {
+          "site": "에어르 공식몰",
+          "price": "399,000원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "06-02",
+            "price": 249000
+          },
+          {
+            "date": "06-09",
+            "price": 249000
+          },
+          {
+            "date": "06-16",
+            "price": 249000
+          },
+          {
+            "date": "06-23",
+            "price": 249000
+          },
+          {
+            "date": "06-30",
+            "price": 238900
+          },
+          {
+            "date": "07-07",
+            "price": 238900
+          },
+          {
+            "date": "07-14",
+            "price": 238900
+          },
+          {
+            "date": "07-21",
+            "price": 209150
+          },
+          {
+            "date": "07-28",
+            "price": 211650
+          },
+          {
+            "date": "08-04",
+            "price": 238900
+          },
+          {
+            "date": "08-11",
+            "price": 190480
+          },
+          {
+            "date": "08-18",
+            "price": 238900
+          }
+        ],
+        "minPrice": 190480,
+        "maxPrice": 249000
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_198095",
+      "title": "자연은 더말린 제로 복숭아 음료 500ml 20개",
+      "price": "12,080원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/20/thumb_cf28d62db5fc83c37392b8d7562e0313.webp",
+      "category": "식품",
+      "site": "쿠팡",
+      "source": "아카라이브",
+      "sourceColor": "#10B981",
+      "link": "https://arca.live/b/hotdeal/180419178?p=1",
+      "publishedAt": "2026-08-20 09:46:15",
+      "likes": 2,
+      "fetchedAt": "2026-08-20T00:50:13.027Z",
+      "priceComparison": [
+        {
+          "site": "쿠팡",
+          "price": "12,080원"
+        },
+        {
+          "site": "11번가",
+          "price": "29,500원"
+        },
+        {
+          "site": "동원몰",
+          "price": "34,450원"
+        },
+        {
+          "site": "메이저커피",
+          "price": "24,800원"
+        },
+        {
+          "site": "오늘의집",
+          "price": "24,800원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "2026-05-21",
+            "price": 15400
+          },
+          {
+            "date": "2026-05-25",
+            "price": 15400
+          },
+          {
+            "date": "2026-05-28",
+            "price": 15400
+          },
+          {
+            "date": "2026-05-31",
+            "price": 15400
+          },
+          {
+            "date": "2026-06-03",
+            "price": 15400
+          },
+          {
+            "date": "2026-06-06",
+            "price": 13640
+          },
+          {
+            "date": "2026-06-11",
+            "price": 16900
+          },
+          {
+            "date": "2026-06-12",
+            "price": 16900
+          },
+          {
+            "date": "2026-06-18",
+            "price": 16900
+          },
+          {
+            "date": "2026-06-22",
+            "price": 16880
+          },
+          {
+            "date": "2026-06-24",
+            "price": 12820
+          },
+          {
+            "date": "2026-07-05",
+            "price": 16110
+          },
+          {
+            "date": "2026-07-09",
+            "price": 16110
+          },
+          {
+            "date": "2026-07-16",
+            "price": 16110
+          },
+          {
+            "date": "2026-07-20",
+            "price": 16110
+          },
+          {
+            "date": "2026-07-27",
+            "price": 15400
+          },
+          {
+            "date": "2026-07-30",
+            "price": 15400
+          },
+          {
+            "date": "2026-08-02",
+            "price": 15720
+          },
+          {
+            "date": "2026-08-05",
+            "price": 15730
+          },
+          {
+            "date": "2026-08-08",
+            "price": 15900
+          },
+          {
+            "date": "2026-08-11",
+            "price": 15900
+          },
+          {
+            "date": "2026-08-14",
+            "price": 15900
+          },
+          {
+            "date": "2026-08-18",
+            "price": 15720
+          }
+        ],
+        "minPrice": 12820,
+        "maxPrice": 16900
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
       "id": "hdz_198094",
       "title": "국내산 활 돌문어 당일조업 1kg 1-3미",
       "price": "18,420원",
@@ -11,8 +433,8 @@
       "sourceColor": "#4F46E5",
       "link": "https://hotdeal.zip/ppomppu_view.php?url=view.php%3Fid%3Dppomppu%26page%3D1%26divpage%3D115%26no%3D728066",
       "publishedAt": "2026-08-20 09:40:35",
-      "likes": 5,
-      "fetchedAt": "2026-08-20T00:42:52.563Z",
+      "likes": 8,
+      "fetchedAt": "2026-08-20T00:50:13.027Z",
       "priceComparison": [
         {
           "site": "G마켓",
@@ -54,8 +476,8 @@
       "sourceColor": "#FF8C00",
       "link": "https://www.fmkorea.com/10233847845",
       "publishedAt": "2026-08-20 09:38:12",
-      "likes": 21,
-      "fetchedAt": "2026-08-20T00:42:52.564Z",
+      "likes": 39,
+      "fetchedAt": "2026-08-20T00:50:13.027Z",
       "priceComparison": [
         {
           "site": "알리",
@@ -93,8 +515,8 @@
       "sourceColor": "#FF8C00",
       "link": "https://www.fmkorea.com/10233852319",
       "publishedAt": "2026-08-20 09:36:12",
-      "likes": 11,
-      "fetchedAt": "2026-08-20T00:42:52.564Z",
+      "likes": 18,
+      "fetchedAt": "2026-08-20T00:50:13.027Z",
       "priceComparison": [
         {
           "site": "지마켓",
@@ -185,8 +607,8 @@
       "sourceColor": "#FF8C00",
       "link": "https://www.fmkorea.com/10233846257",
       "publishedAt": "2026-08-20 09:34:22",
-      "likes": 3,
-      "fetchedAt": "2026-08-20T00:42:52.564Z",
+      "likes": 5,
+      "fetchedAt": "2026-08-20T00:50:13.027Z",
       "priceComparison": [
         {
           "site": "네이버",
@@ -281,8 +703,8 @@
       "sourceColor": "#10B981",
       "link": "https://arca.live/b/hotdeal/180418425?p=1",
       "publishedAt": "2026-08-20 09:34:16",
-      "likes": 13,
-      "fetchedAt": "2026-08-20T00:42:52.564Z",
+      "likes": 25,
+      "fetchedAt": "2026-08-20T00:50:13.027Z",
       "priceComparison": [
         {
           "site": "지마켓",
@@ -373,8 +795,8 @@
       "sourceColor": "#FF8C00",
       "link": "https://www.fmkorea.com/10233845953",
       "publishedAt": "2026-08-20 09:34:12",
-      "likes": 5,
-      "fetchedAt": "2026-08-20T00:42:52.564Z",
+      "likes": 10,
+      "fetchedAt": "2026-08-20T00:50:13.027Z",
       "priceComparison": [
         {
           "site": "지마켓",
@@ -469,8 +891,8 @@
       "sourceColor": "#FF8C00",
       "link": "https://www.fmkorea.com/10233833365",
       "publishedAt": "2026-08-20 09:32:11",
-      "likes": 5,
-      "fetchedAt": "2026-08-20T00:42:52.564Z",
+      "likes": 6,
+      "fetchedAt": "2026-08-20T00:50:13.027Z",
       "priceComparison": [
         {
           "site": "네이버",
@@ -565,8 +987,8 @@
       "sourceColor": "#4F46E5",
       "link": "https://hotdeal.zip/ppomppu_view.php?url=view.php%3Fid%3Dppomppu%26page%3D1%26divpage%3D115%26no%3D728063",
       "publishedAt": "2026-08-20 09:20:58",
-      "likes": 15,
-      "fetchedAt": "2026-08-20T00:42:52.564Z",
+      "likes": 16,
+      "fetchedAt": "2026-08-20T00:50:13.027Z",
       "priceComparison": [
         {
           "site": "지마켓",
@@ -620,8 +1042,8 @@
       "sourceColor": "#4F46E5",
       "link": "https://hotdeal.zip/ppomppu_view.php?url=view.php%3Fid%3Dppomppu%26page%3D1%26divpage%3D115%26no%3D728064",
       "publishedAt": "2026-08-20 09:20:41",
-      "likes": 32,
-      "fetchedAt": "2026-08-20T00:42:52.564Z",
+      "likes": 33,
+      "fetchedAt": "2026-08-20T00:50:13.027Z",
       "priceComparison": [
         {
           "site": "지마켓",
@@ -700,8 +1122,8 @@
       "sourceColor": "#10B981",
       "link": "https://arca.live/b/hotdeal/180417463?p=1",
       "publishedAt": "2026-08-20 09:20:16",
-      "likes": 24,
-      "fetchedAt": "2026-08-20T00:42:52.564Z",
+      "likes": 33,
+      "fetchedAt": "2026-08-20T00:50:13.027Z",
       "priceComparison": [
         {
           "site": "지마켓",
@@ -792,8 +1214,8 @@
       "sourceColor": "#7C3AED",
       "link": "https://quasarzone.com/bbs/qb_saleinfo/views/1980085",
       "publishedAt": "2026-08-20 09:18:09",
-      "likes": 28,
-      "fetchedAt": "2026-08-20T00:42:52.564Z",
+      "likes": 33,
+      "fetchedAt": "2026-08-20T00:50:13.027Z",
       "priceComparison": [
         {
           "site": "알리",
@@ -880,8 +1302,8 @@
       "sourceColor": "#4F46E5",
       "link": "https://hotdeal.zip/ppomppu_view.php?url=view.php%3Fid%3Dppomppu%26page%3D1%26divpage%3D115%26no%3D728062",
       "publishedAt": "2026-08-20 09:16:36",
-      "likes": 27,
-      "fetchedAt": "2026-08-20T00:42:52.564Z",
+      "likes": 31,
+      "fetchedAt": "2026-08-20T00:50:13.027Z",
       "priceComparison": [
         {
           "site": "카카오톡 쇼핑하기",
@@ -980,8 +1402,8 @@
       "sourceColor": "#FF8C00",
       "link": "https://www.fmkorea.com/10233804705",
       "publishedAt": "2026-08-20 09:16:10",
-      "likes": 3,
-      "fetchedAt": "2026-08-20T00:42:52.564Z",
+      "likes": 5,
+      "fetchedAt": "2026-08-20T00:50:13.027Z",
       "priceComparison": [
         {
           "site": "롯데온",
@@ -1068,8 +1490,8 @@
       "sourceColor": "#DC2626",
       "link": "https://www.dogdrip.net/720188135",
       "publishedAt": "2026-08-20 09:15:08",
-      "likes": 9,
-      "fetchedAt": "2026-08-20T00:42:52.564Z",
+      "likes": 10,
+      "fetchedAt": "2026-08-20T00:50:13.027Z",
       "priceComparison": [
         {
           "site": "G마켓",
@@ -1171,8 +1593,8 @@
       "sourceColor": "#7C3AED",
       "link": "https://quasarzone.com/bbs/qb_saleinfo/views/1980084",
       "publishedAt": "2026-08-20 09:14:10",
-      "likes": 21,
-      "fetchedAt": "2026-08-20T00:42:52.564Z",
+      "likes": 27,
+      "fetchedAt": "2026-08-20T00:50:13.027Z",
       "priceComparison": [
         {
           "site": "네이버",
@@ -1263,8 +1685,8 @@
       "sourceColor": "#4F46E5",
       "link": "https://hotdeal.zip/ppomppu_view.php?url=view.php%3Fid%3Dppomppu%26page%3D1%26divpage%3D115%26no%3D728061",
       "publishedAt": "2026-08-20 09:12:36",
-      "likes": 6,
-      "fetchedAt": "2026-08-20T00:42:52.564Z",
+      "likes": 7,
+      "fetchedAt": "2026-08-20T00:50:13.182Z",
       "priceComparison": [
         {
           "site": "G마켓",
@@ -1302,8 +1724,8 @@
       "sourceColor": "#DC2626",
       "link": "https://www.dogdrip.net/720186682",
       "publishedAt": "2026-08-20 09:10:08",
-      "likes": 15,
-      "fetchedAt": "2026-08-20T00:42:52.564Z",
+      "likes": 18,
+      "fetchedAt": "2026-08-20T00:50:13.182Z",
       "priceComparison": [
         {
           "site": "네이버쇼핑",
@@ -1405,8 +1827,8 @@
       "sourceColor": "#4F46E5",
       "link": "https://hotdeal.zip/ppomppu_view.php?url=view.php%3Fid%3Dppomppu%26page%3D1%26divpage%3D115%26no%3D728060",
       "publishedAt": "2026-08-20 09:06:36",
-      "likes": 10,
-      "fetchedAt": "2026-08-20T00:42:52.564Z",
+      "likes": 11,
+      "fetchedAt": "2026-08-20T00:50:13.182Z",
       "priceComparison": [
         {
           "site": "지마켓",
@@ -1498,7 +1920,7 @@
       "link": "https://hotdeal.zip/ppomppu_view.php?url=view.php%3Fid%3Dppomppu%26page%3D1%26divpage%3D115%26no%3D728058",
       "publishedAt": "2026-08-20 09:02:38",
       "likes": 9,
-      "fetchedAt": "2026-08-20T00:42:52.564Z",
+      "fetchedAt": "2026-08-20T00:50:13.182Z",
       "priceComparison": [
         {
           "site": "지마켓",
@@ -1581,8 +2003,8 @@
       "sourceColor": "#FF8C00",
       "link": "https://www.fmkorea.com/10233774802",
       "publishedAt": "2026-08-20 09:02:22",
-      "likes": 12,
-      "fetchedAt": "2026-08-20T00:42:52.564Z",
+      "likes": 15,
+      "fetchedAt": "2026-08-20T00:50:13.182Z",
       "priceComparison": [
         {
           "site": "지마켓",
@@ -1670,7 +2092,7 @@
       "link": "https://www.fmkorea.com/10233774992",
       "publishedAt": "2026-08-20 09:02:12",
       "likes": 9,
-      "fetchedAt": "2026-08-20T00:42:52.767Z",
+      "fetchedAt": "2026-08-20T00:50:13.182Z",
       "priceComparison": [
         {
           "site": "롯데온",
@@ -1773,8 +2195,8 @@
       "sourceColor": "#4F46E5",
       "link": "https://hotdeal.zip/ppomppu_view.php?url=view.php%3Fid%3Dppomppu%26page%3D1%26divpage%3D115%26no%3D728057",
       "publishedAt": "2026-08-20 09:00:48",
-      "likes": 28,
-      "fetchedAt": "2026-08-20T00:42:52.767Z",
+      "likes": 30,
+      "fetchedAt": "2026-08-20T00:50:13.182Z",
       "priceComparison": [
         {
           "site": "옥션",
@@ -1865,8 +2287,8 @@
       "sourceColor": "#10B981",
       "link": "https://arca.live/b/hotdeal/180416155?p=1",
       "publishedAt": "2026-08-20 09:00:18",
-      "likes": 66,
-      "fetchedAt": "2026-08-20T00:42:52.767Z",
+      "likes": 74,
+      "fetchedAt": "2026-08-20T00:50:13.182Z",
       "priceComparison": [],
       "priceHistory": null,
       "postContent": null,
@@ -1883,8 +2305,8 @@
       "sourceColor": "#888888",
       "link": "https://toss.shopping/t/80836103",
       "publishedAt": "2026-08-20 09:00:18",
-      "likes": 29,
-      "fetchedAt": "2026-08-20T00:42:52.767Z",
+      "likes": 30,
+      "fetchedAt": "2026-08-20T00:50:13.182Z",
       "priceComparison": [
         {
           "site": "토스쇼핑",
@@ -1914,8 +2336,8 @@
       "sourceColor": "#3B82F6",
       "link": "https://hotdeal.zip/ruliweb_view.php?url=https%3A%2F%2Fbbs.ruliweb.com%2Fmarket%2Fboard%2F1020%2Fread%2F106498%3Fpage%3D1",
       "publishedAt": "2026-08-20 09:00:14",
-      "likes": 42,
-      "fetchedAt": "2026-08-20T00:42:52.767Z",
+      "likes": 43,
+      "fetchedAt": "2026-08-20T00:50:13.182Z",
       "priceComparison": [],
       "priceHistory": null,
       "postContent": {
@@ -1936,7 +2358,7 @@
       "link": "https://toss.shopping/t/2463027951",
       "publishedAt": "2026-08-20 09:00:11",
       "likes": 15,
-      "fetchedAt": "2026-08-20T00:42:52.767Z",
+      "fetchedAt": "2026-08-20T00:50:13.182Z",
       "priceComparison": [
         {
           "site": "토스쇼핑",
@@ -2015,8 +2437,8 @@
       "sourceColor": "#4F46E5",
       "link": "https://hotdeal.zip/ppomppu_view.php?url=view.php%3Fid%3Dppomppu%26page%3D1%26divpage%3D115%26no%3D728055",
       "publishedAt": "2026-08-20 08:56:47",
-      "likes": 16,
-      "fetchedAt": "2026-08-20T00:42:52.767Z",
+      "likes": 17,
+      "fetchedAt": "2026-08-20T00:50:13.182Z",
       "priceComparison": [
         {
           "site": "지마켓",
@@ -2054,8 +2476,8 @@
       "sourceColor": "#4F46E5",
       "link": "https://hotdeal.zip/ppomppu_view.php?url=view.php%3Fid%3Dppomppu%26page%3D1%26divpage%3D115%26no%3D728056",
       "publishedAt": "2026-08-20 08:56:36",
-      "likes": 16,
-      "fetchedAt": "2026-08-20T00:42:52.767Z",
+      "likes": 20,
+      "fetchedAt": "2026-08-20T00:50:13.182Z",
       "priceComparison": [
         {
           "site": "쿠팡",
@@ -2102,8 +2524,8 @@
       "sourceColor": "#FF8C00",
       "link": "https://www.fmkorea.com/10233756174",
       "publishedAt": "2026-08-20 08:56:11",
-      "likes": 40,
-      "fetchedAt": "2026-08-20T00:42:52.767Z",
+      "likes": 44,
+      "fetchedAt": "2026-08-20T00:50:13.182Z",
       "priceComparison": [
         {
           "site": "알리",
@@ -2194,8 +2616,8 @@
       "sourceColor": "#3B82F6",
       "link": "https://hotdeal.zip/ruliweb_view.php?url=https%3A%2F%2Fbbs.ruliweb.com%2Fmarket%2Fboard%2F1020%2Fread%2F106496%3Fpage%3D1",
       "publishedAt": "2026-08-20 08:50:21",
-      "likes": 24,
-      "fetchedAt": "2026-08-20T00:42:52.767Z",
+      "likes": 25,
+      "fetchedAt": "2026-08-20T00:50:13.182Z",
       "priceComparison": [],
       "priceHistory": null,
       "postContent": null,
@@ -2212,8 +2634,8 @@
       "sourceColor": "#FF8C00",
       "link": "https://www.fmkorea.com/10233743311",
       "publishedAt": "2026-08-20 08:50:12",
-      "likes": 10,
-      "fetchedAt": "2026-08-20T00:42:52.767Z",
+      "likes": 11,
+      "fetchedAt": "2026-08-20T00:50:13.182Z",
       "priceComparison": [],
       "priceHistory": null,
       "postContent": null,
@@ -2230,8 +2652,8 @@
       "sourceColor": "#4F46E5",
       "link": "https://hotdeal.zip/ppomppu_view.php?url=view.php%3Fid%3Dppomppu%26page%3D1%26divpage%3D115%26no%3D728054",
       "publishedAt": "2026-08-20 08:48:43",
-      "likes": 31,
-      "fetchedAt": "2026-08-20T00:42:52.767Z",
+      "likes": 33,
+      "fetchedAt": "2026-08-20T00:50:13.182Z",
       "priceComparison": [
         {
           "site": "G마켓",
@@ -2327,7 +2749,7 @@
       "link": "https://www.fmkorea.com/10233739138",
       "publishedAt": "2026-08-20 08:48:13",
       "likes": 8,
-      "fetchedAt": "2026-08-20T00:42:52.767Z",
+      "fetchedAt": "2026-08-20T00:50:13.182Z",
       "priceComparison": [
         {
           "site": "쿠팡",
@@ -2478,8 +2900,8 @@
       "sourceColor": "#FF8C00",
       "link": "https://www.fmkorea.com/10233728451",
       "publishedAt": "2026-08-20 08:46:13",
-      "likes": 52,
-      "fetchedAt": "2026-08-20T00:42:52.767Z",
+      "likes": 56,
+      "fetchedAt": "2026-08-20T00:50:13.182Z",
       "priceComparison": [
         {
           "site": "알리",
@@ -2517,8 +2939,8 @@
       "sourceColor": "#3B82F6",
       "link": "https://hotdeal.zip/ruliweb_view.php?url=https%3A%2F%2Fbbs.ruliweb.com%2Fmarket%2Fboard%2F1020%2Fread%2F106495%3Fpage%3D1",
       "publishedAt": "2026-08-20 08:45:26",
-      "likes": 15,
-      "fetchedAt": "2026-08-20T00:42:52.767Z",
+      "likes": 16,
+      "fetchedAt": "2026-08-20T00:50:13.182Z",
       "priceComparison": [
         {
           "site": "스팀",
@@ -2602,7 +3024,7 @@
       "link": "https://arca.live/b/hotdeal/180415249?p=1",
       "publishedAt": "2026-08-20 08:42:25",
       "likes": 9,
-      "fetchedAt": "2026-08-20T00:42:52.767Z",
+      "fetchedAt": "2026-08-20T00:50:13.342Z",
       "priceComparison": [],
       "priceHistory": null,
       "postContent": null,
@@ -2620,7 +3042,7 @@
       "link": "https://quasarzone.com/bbs/qb_saleinfo/views/1980078",
       "publishedAt": "2026-08-20 08:42:11",
       "likes": 8,
-      "fetchedAt": "2026-08-20T00:42:52.767Z",
+      "fetchedAt": "2026-08-20T00:50:13.342Z",
       "priceComparison": [],
       "priceHistory": null,
       "postContent": null,
@@ -2638,7 +3060,7 @@
       "link": "https://arca.live/b/hotdeal/180415043?p=1",
       "publishedAt": "2026-08-20 08:40:24",
       "likes": 12,
-      "fetchedAt": "2026-08-20T00:42:52.767Z",
+      "fetchedAt": "2026-08-20T00:50:13.342Z",
       "priceComparison": [
         {
           "site": "쿠팡",
@@ -2798,7 +3220,7 @@
       "link": "https://arca.live/b/hotdeal/180415095?p=1",
       "publishedAt": "2026-08-20 08:40:17",
       "likes": 10,
-      "fetchedAt": "2026-08-20T00:42:52.767Z",
+      "fetchedAt": "2026-08-20T00:50:13.342Z",
       "priceComparison": [
         {
           "site": "쿠팡",
@@ -2841,8 +3263,8 @@
       "sourceColor": "#10B981",
       "link": "https://arca.live/b/hotdeal/180414947?p=1",
       "publishedAt": "2026-08-20 08:38:23",
-      "likes": 9,
-      "fetchedAt": "2026-08-20T00:42:52.767Z",
+      "likes": 10,
+      "fetchedAt": "2026-08-20T00:50:13.342Z",
       "priceComparison": [
         {
           "site": "쿠팡",
@@ -2898,7 +3320,7 @@
       "link": "https://arca.live/b/hotdeal/180414999?p=1",
       "publishedAt": "2026-08-20 08:38:16",
       "likes": 5,
-      "fetchedAt": "2026-08-20T00:42:53.051Z",
+      "fetchedAt": "2026-08-20T00:50:13.342Z",
       "priceComparison": [
         {
           "site": "쿠팡",
@@ -2946,7 +3368,7 @@
       "link": "https://arca.live/b/hotdeal/180414865?p=1",
       "publishedAt": "2026-08-20 08:36:23",
       "likes": 6,
-      "fetchedAt": "2026-08-20T00:42:53.051Z",
+      "fetchedAt": "2026-08-20T00:50:13.342Z",
       "priceComparison": [
         {
           "site": "쿠팡",
@@ -3105,8 +3527,8 @@
       "sourceColor": "#10B981",
       "link": "https://arca.live/b/hotdeal/180414901?p=1",
       "publishedAt": "2026-08-20 08:36:16",
-      "likes": 12,
-      "fetchedAt": "2026-08-20T00:42:53.051Z",
+      "likes": 13,
+      "fetchedAt": "2026-08-20T00:50:13.342Z",
       "priceComparison": [
         {
           "site": "쿠팡",
@@ -3241,8 +3663,8 @@
       "sourceColor": "#FF8C00",
       "link": "https://www.fmkorea.com/10233710938",
       "publishedAt": "2026-08-20 08:36:13",
-      "likes": 36,
-      "fetchedAt": "2026-08-20T00:42:53.051Z",
+      "likes": 38,
+      "fetchedAt": "2026-08-20T00:50:13.342Z",
       "priceComparison": [
         {
           "site": "쿠팡",
@@ -3293,8 +3715,8 @@
       "sourceColor": "#10B981",
       "link": "https://arca.live/b/hotdeal/180414594?p=1",
       "publishedAt": "2026-08-20 08:30:18",
-      "likes": 49,
-      "fetchedAt": "2026-08-20T00:42:53.051Z",
+      "likes": 51,
+      "fetchedAt": "2026-08-20T00:50:13.342Z",
       "priceComparison": [
         {
           "site": "지마켓",
@@ -3394,7 +3816,7 @@
       "link": "https://www.fmkorea.com/10233670432",
       "publishedAt": "2026-08-20 08:16:11",
       "likes": 20,
-      "fetchedAt": "2026-08-20T00:42:53.051Z",
+      "fetchedAt": "2026-08-20T00:50:13.342Z",
       "priceComparison": [
         {
           "site": "쿠팡와우",
@@ -3454,7 +3876,7 @@
       "link": "https://hotdeal.zip/ppomppu_view.php?url=view.php%3Fid%3Dppomppu%26page%3D1%26divpage%3D115%26no%3D728053",
       "publishedAt": "2026-08-20 08:14:38",
       "likes": 11,
-      "fetchedAt": "2026-08-20T00:42:53.051Z",
+      "fetchedAt": "2026-08-20T00:50:13.342Z",
       "priceComparison": [],
       "priceHistory": null,
       "postContent": {
@@ -3474,8 +3896,8 @@
       "sourceColor": "#10B981",
       "link": "https://arca.live/b/hotdeal/180413611?p=1",
       "publishedAt": "2026-08-20 08:08:17",
-      "likes": 89,
-      "fetchedAt": "2026-08-20T00:42:53.051Z",
+      "likes": 90,
+      "fetchedAt": "2026-08-20T00:50:13.342Z",
       "priceComparison": [
         {
           "site": "이마트",
@@ -3575,7 +3997,7 @@
       "link": "https://www.fmkorea.com/10233649317",
       "publishedAt": "2026-08-20 08:08:12",
       "likes": 48,
-      "fetchedAt": "2026-08-20T00:42:53.051Z",
+      "fetchedAt": "2026-08-20T00:50:13.342Z",
       "priceComparison": [
         {
           "site": "지마켓",
@@ -3671,7 +4093,7 @@
       "link": "https://www.fmkorea.com/10233647972",
       "publishedAt": "2026-08-20 08:04:10",
       "likes": 15,
-      "fetchedAt": "2026-08-20T00:42:53.051Z",
+      "fetchedAt": "2026-08-20T00:50:13.342Z",
       "priceComparison": [
         {
           "site": "쿠팡",
@@ -3783,7 +4205,7 @@
       "link": "https://toss.shopping/t/82720809",
       "publishedAt": "2026-08-20 08:00:19",
       "likes": 17,
-      "fetchedAt": "2026-08-20T00:42:53.051Z",
+      "fetchedAt": "2026-08-20T00:50:13.342Z",
       "priceComparison": [
         {
           "site": "토스쇼핑",
@@ -3875,7 +4297,7 @@
       "link": "https://toss.shopping/t/2617466899",
       "publishedAt": "2026-08-20 08:00:12",
       "likes": 8,
-      "fetchedAt": "2026-08-20T00:42:53.051Z",
+      "fetchedAt": "2026-08-20T00:50:13.342Z",
       "priceComparison": [
         {
           "site": "토스쇼핑",
@@ -3967,7 +4389,7 @@
       "link": "https://www.fmkorea.com/10233634269",
       "publishedAt": "2026-08-20 07:58:13",
       "likes": 17,
-      "fetchedAt": "2026-08-20T00:42:53.051Z",
+      "fetchedAt": "2026-08-20T00:50:13.342Z",
       "priceComparison": [
         {
           "site": "쿠팡와우",
@@ -4011,7 +4433,7 @@
       "link": "https://hotdeal.zip/ppomppu_view.php?url=view.php%3Fid%3Dppomppu%26page%3D1%26divpage%3D115%26no%3D728052",
       "publishedAt": "2026-08-20 07:52:47",
       "likes": 13,
-      "fetchedAt": "2026-08-20T00:42:53.051Z",
+      "fetchedAt": "2026-08-20T00:50:13.342Z",
       "priceComparison": [
         {
           "site": "G마켓",
@@ -4098,8 +4520,8 @@
       "sourceColor": "#4F46E5",
       "link": "https://hotdeal.zip/ppomppu_view.php?url=view.php%3Fid%3Dppomppu%26page%3D1%26divpage%3D115%26no%3D728051",
       "publishedAt": "2026-08-20 07:38:43",
-      "likes": 8,
-      "fetchedAt": "2026-08-20T00:42:53.051Z",
+      "likes": 9,
+      "fetchedAt": "2026-08-20T00:50:13.342Z",
       "priceComparison": [
         {
           "site": "오늘의집",
@@ -4187,7 +4609,7 @@
       "link": "https://hotdeal.zip/ruliweb_view.php?url=https%3A%2F%2Fbbs.ruliweb.com%2Fmarket%2Fboard%2F1020%2Fread%2F106494%3Fpage%3D1",
       "publishedAt": "2026-08-20 07:10:20",
       "likes": 96,
-      "fetchedAt": "2026-08-20T00:42:53.051Z",
+      "fetchedAt": "2026-08-20T00:50:13.471Z",
       "priceComparison": [
         {
           "site": "이마트",
@@ -4286,8 +4708,8 @@
       "sourceColor": "#10B981",
       "link": "https://arca.live/b/hotdeal/180411443?p=1",
       "publishedAt": "2026-08-20 07:10:17",
-      "likes": 307,
-      "fetchedAt": "2026-08-20T00:42:53.051Z",
+      "likes": 317,
+      "fetchedAt": "2026-08-20T00:50:13.471Z",
       "priceComparison": [],
       "priceHistory": null,
       "postContent": null,
@@ -4305,7 +4727,7 @@
       "link": "https://www.fmkorea.com/10233564219",
       "publishedAt": "2026-08-20 07:10:13",
       "likes": 35,
-      "fetchedAt": "2026-08-20T00:42:53.051Z",
+      "fetchedAt": "2026-08-20T00:50:13.471Z",
       "priceComparison": [
         {
           "site": "쿠팡와우",
@@ -4464,8 +4886,8 @@
       "sourceColor": "#888888",
       "link": "https://toss.shopping/t/481408289",
       "publishedAt": "2026-08-20 07:00:20",
-      "likes": 57,
-      "fetchedAt": "2026-08-20T00:42:53.051Z",
+      "likes": 60,
+      "fetchedAt": "2026-08-20T00:50:13.471Z",
       "priceComparison": [
         {
           "site": "토스쇼핑",
@@ -4557,7 +4979,7 @@
       "link": "https://toss.shopping/t/2634936417",
       "publishedAt": "2026-08-20 07:00:11",
       "likes": 33,
-      "fetchedAt": "2026-08-20T00:42:53.051Z",
+      "fetchedAt": "2026-08-20T00:50:13.471Z",
       "priceComparison": [
         {
           "site": "토스쇼핑",
@@ -36425,486 +36847,7 @@
       },
       "postContent": null,
       "shopUrl": null
-    },
-    {
-      "id": "hdz_197563",
-      "title": "어메이징 오트 언스위트 오리지널 190ml 48팩",
-      "price": "20,900원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/08/19/thumb_1a72c21d213fb9db4f75e2c4c02dbc5e.webp",
-      "category": "식품",
-      "site": "네이버",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/10229925997",
-      "publishedAt": "2026-08-19 11:12:25",
-      "likes": 8,
-      "fetchedAt": "2026-08-19T03:38:41.039Z",
-      "priceComparison": [
-        {
-          "site": "네이버",
-          "price": "20,900원"
-        },
-        {
-          "site": "매일다이렉트",
-          "price": "30,000원"
-        },
-        {
-          "site": "GS SHOP",
-          "price": "33,620원"
-        },
-        {
-          "site": "11번가",
-          "price": "33,600원"
-        },
-        {
-          "site": "SSG.COM",
-          "price": "32,950원"
-        },
-        {
-          "site": "동원몰",
-          "price": "32,380원"
-        },
-        {
-          "site": "29CM",
-          "price": "38,020원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "06-02",
-            "price": 25900
-          },
-          {
-            "date": "06-09",
-            "price": 26900
-          },
-          {
-            "date": "06-16",
-            "price": 26500
-          },
-          {
-            "date": "06-23",
-            "price": 25900
-          },
-          {
-            "date": "06-30",
-            "price": 24900
-          },
-          {
-            "date": "07-07",
-            "price": 24900
-          },
-          {
-            "date": "07-14",
-            "price": 26900
-          },
-          {
-            "date": "07-21",
-            "price": 26900
-          },
-          {
-            "date": "07-28",
-            "price": 27900
-          },
-          {
-            "date": "08-04",
-            "price": 26900
-          },
-          {
-            "date": "08-11",
-            "price": 24900
-          },
-          {
-            "date": "08-18",
-            "price": 24900
-          }
-        ],
-        "minPrice": 24900,
-        "maxPrice": 27900
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_197561",
-      "title": "스위치 2",
-      "price": "648,000원",
-      "image": null,
-      "category": "가전",
-      "site": "한국 닌텐도 공홈",
-      "source": "루리웹",
-      "sourceColor": "#3B82F6",
-      "link": "https://hotdeal.zip/ruliweb_view.php?url=https%3A%2F%2Fbbs.ruliweb.com%2Fmarket%2Fboard%2F1020%2Fread%2F106472%3Fpage%3D1",
-      "publishedAt": "2026-08-19 11:10:15",
-      "likes": 82,
-      "fetchedAt": "2026-08-19T03:38:41.039Z",
-      "priceComparison": [
-        {
-          "site": "한국 닌텐도 공홈",
-          "price": "648,000원"
-        },
-        {
-          "site": "쿠팡",
-          "price": "648,000원"
-        },
-        {
-          "site": "신세계TV쇼핑",
-          "price": "648,000원"
-        },
-        {
-          "site": "롯데하이마트",
-          "price": "648,000원"
-        },
-        {
-          "site": "G마켓",
-          "price": "648,000원"
-        },
-        {
-          "site": "게임터치몰",
-          "price": "648,000원"
-        },
-        {
-          "site": "겜우리",
-          "price": "648,000원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "06-02",
-            "price": 735640
-          },
-          {
-            "date": "06-09",
-            "price": 752910
-          },
-          {
-            "date": "06-16",
-            "price": 697800
-          },
-          {
-            "date": "06-23",
-            "price": 648000
-          },
-          {
-            "date": "06-30",
-            "price": 648000
-          },
-          {
-            "date": "07-07",
-            "price": 648000
-          },
-          {
-            "date": "07-14",
-            "price": 676000
-          },
-          {
-            "date": "07-21",
-            "price": 623000
-          },
-          {
-            "date": "07-28",
-            "price": 597310
-          },
-          {
-            "date": "08-04",
-            "price": 561000
-          },
-          {
-            "date": "08-11",
-            "price": 720700
-          },
-          {
-            "date": "08-18",
-            "price": 633000
-          }
-        ],
-        "minPrice": 561000,
-        "maxPrice": 752910
-      },
-      "postContent": {
-        "text": "",
-        "images": []
-      },
-      "shopUrl": "https://store.nintendo.co.kr/beeskb6aakor"
-    },
-    {
-      "id": "hdz_197560",
-      "title": "테슬라 3부 투인원 이너팬츠내장 허리포켓 경량 메쉬 러닝쇼츠",
-      "price": "13,530원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/08/19/thumb_94116e309e4cecc866b7bfcf6282614e.webp",
-      "category": "의류",
-      "site": "네이버",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://hotdeal.zip/ppomppu_view.php?url=view.php%3Fid%3Dppomppu%26page%3D1%26divpage%3D115%26no%3D727842",
-      "publishedAt": "2026-08-19 11:08:45",
-      "likes": 30,
-      "fetchedAt": "2026-08-19T03:38:41.039Z",
-      "priceComparison": [
-        {
-          "site": "네이버",
-          "price": "13,530원"
-        },
-        {
-          "site": "11번가",
-          "price": "13,280원"
-        },
-        {
-          "site": "GS SHOP",
-          "price": "13,650원"
-        },
-        {
-          "site": "에이더스 공식 스토어",
-          "price": "22,800원"
-        },
-        {
-          "site": "11번가",
-          "price": "15,500원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "06-02",
-            "price": 25234
-          },
-          {
-            "date": "06-09",
-            "price": 23992
-          },
-          {
-            "date": "06-16",
-            "price": 23992
-          },
-          {
-            "date": "06-23",
-            "price": 26920
-          },
-          {
-            "date": "06-30",
-            "price": 27797
-          },
-          {
-            "date": "07-07",
-            "price": 25749
-          },
-          {
-            "date": "07-14",
-            "price": 25749
-          },
-          {
-            "date": "07-21",
-            "price": 27212
-          },
-          {
-            "date": "07-28",
-            "price": 27797
-          },
-          {
-            "date": "08-04",
-            "price": 26334
-          },
-          {
-            "date": "08-11",
-            "price": 26334
-          },
-          {
-            "date": "08-18",
-            "price": 26334
-          }
-        ],
-        "minPrice": 23992,
-        "maxPrice": 27797
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_197559",
-      "title": "미스타셰프 버섯뚝배기불고기 400g 7팩",
-      "price": "24,180원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/08/19/thumb_d221f92c190b6b4fdf93e6a08b0f4349.webp",
-      "category": "식품",
-      "site": "지마켓",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://hotdeal.zip/ppomppu_view.php?url=view.php%3Fid%3Dppomppu%26page%3D1%26divpage%3D115%26no%3D727839",
-      "publishedAt": "2026-08-19 11:07:15",
-      "likes": 10,
-      "fetchedAt": "2026-08-19T03:38:41.039Z",
-      "priceComparison": [
-        {
-          "site": "지마켓",
-          "price": "24,180원"
-        },
-        {
-          "site": "GS SHOP",
-          "price": "29,900원"
-        },
-        {
-          "site": "GS SHOP",
-          "price": "6,900원"
-        },
-        {
-          "site": "서울식자재",
-          "price": "4,900원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "06-02",
-            "price": 22680
-          },
-          {
-            "date": "06-09",
-            "price": 23040
-          },
-          {
-            "date": "06-16",
-            "price": 21930
-          },
-          {
-            "date": "06-23",
-            "price": 22430
-          },
-          {
-            "date": "06-30",
-            "price": 22430
-          },
-          {
-            "date": "07-07",
-            "price": 25300
-          },
-          {
-            "date": "07-14",
-            "price": 22520
-          },
-          {
-            "date": "07-21",
-            "price": 27800
-          },
-          {
-            "date": "07-28",
-            "price": 23720
-          },
-          {
-            "date": "08-04",
-            "price": 26840
-          },
-          {
-            "date": "08-11",
-            "price": 25330
-          },
-          {
-            "date": "08-18",
-            "price": 23400
-          }
-        ],
-        "minPrice": 21930,
-        "maxPrice": 27800
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_197558",
-      "title": "락앤락 슬림핏 텀블러 스텐 400ml 1+1",
-      "price": "20,980원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/08/19/thumb_2100325f508f19483a6fd519f34b5188.webp",
-      "category": "생활용품",
-      "site": "지마켓",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://hotdeal.zip/ppomppu_view.php?url=view.php%3Fid%3Dppomppu%26page%3D1%26divpage%3D115%26no%3D727840",
-      "publishedAt": "2026-08-19 11:07:01",
-      "likes": 19,
-      "fetchedAt": "2026-08-19T03:38:41.039Z",
-      "priceComparison": [
-        {
-          "site": "지마켓",
-          "price": "20,980원"
-        },
-        {
-          "site": "GS SHOP",
-          "price": "32,020원"
-        },
-        {
-          "site": "LG전자 홈스타일",
-          "price": "가격 확인 필요"
-        },
-        {
-          "site": "콜론몰",
-          "price": "17,520원"
-        },
-        {
-          "site": "11번가",
-          "price": "18,800원"
-        },
-        {
-          "site": "전자랜드",
-          "price": "25,300원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "06-02",
-            "price": 25555
-          },
-          {
-            "date": "06-09",
-            "price": 24748
-          },
-          {
-            "date": "06-16",
-            "price": 27330
-          },
-          {
-            "date": "06-23",
-            "price": 28180
-          },
-          {
-            "date": "06-30",
-            "price": 27220
-          },
-          {
-            "date": "07-07",
-            "price": 25040
-          },
-          {
-            "date": "07-14",
-            "price": 26830
-          },
-          {
-            "date": "07-21",
-            "price": 22600
-          },
-          {
-            "date": "07-28",
-            "price": 24950
-          },
-          {
-            "date": "08-04",
-            "price": 24950
-          },
-          {
-            "date": "08-11",
-            "price": 24950
-          },
-          {
-            "date": "08-18",
-            "price": 22900
-          }
-        ],
-        "minPrice": 22600,
-        "maxPrice": 28180
-      },
-      "postContent": null,
-      "shopUrl": null
     }
   ],
-  "lastUpdated": "2026-08-20T00:42:58.642Z"
+  "lastUpdated": "2026-08-20T00:50:17.802Z"
 }
