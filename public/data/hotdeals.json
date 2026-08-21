@@ -1,6 +1,44 @@
 {
   "deals": [
     {
+      "id": "hdz_199216",
+      "title": "끌올 햇반 210g 36개 + 24개 총 60개 외",
+      "price": "46,357원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/22/thumb_ecd9a404cb0b99fce0785fe8d275f384.webp",
+      "category": "식품",
+      "site": "CJ더마켓",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://hotdeal.zip/ppomppu_view.php?url=view.php%3Fid%3Dppomppu%26page%3D1%26divpage%3D115%26no%3D728534",
+      "publishedAt": "2026-08-22 04:12:40",
+      "likes": 36,
+      "fetchedAt": "2026-08-21T21:15:04.449Z",
+      "priceComparison": [
+        {
+          "site": "CJ더마켓",
+          "price": "46,357원"
+        },
+        {
+          "site": "코스트코 코리아",
+          "price": "37,990원/배송비 포함"
+        },
+        {
+          "site": "G마켓",
+          "price": "40,600원/무료배송"
+        },
+        {
+          "site": "11번가",
+          "price": "가격 확인 필요"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": {
+        "text": "",
+        "images": []
+      },
+      "shopUrl": "https://m.cjthemarket.com/the/event/practical?mid1=bnr_bn1"
+    },
+    {
       "id": "hdz_199215",
       "title": "100gb 5mbps 4개월 통문무(1100/0)",
       "price": "1,100원",
@@ -36330,50 +36368,7 @@
       "priceHistory": null,
       "postContent": null,
       "shopUrl": null
-    },
-    {
-      "id": "hdz_198662",
-      "title": "두메산골 당일 손질 절단육 1kg+1kg",
-      "price": "11,876원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/08/21/thumb_51c8ab26f175334633be1941352deaa2.webp",
-      "category": "식품",
-      "site": "오늘의집",
-      "source": "아카라이브",
-      "sourceColor": "#10B981",
-      "link": "https://arca.live/b/hotdeal/180508585?p=1",
-      "publishedAt": "2026-08-21 00:46:13",
-      "likes": 59,
-      "fetchedAt": "2026-08-20T18:25:48.008Z",
-      "priceComparison": [
-        {
-          "site": "오늘의집",
-          "price": "11,876원"
-        },
-        {
-          "site": "롯데온",
-          "price": "11,900원"
-        },
-        {
-          "site": "SSG.COM",
-          "price": "12,838원"
-        },
-        {
-          "site": "11번가",
-          "price": "13,900원"
-        },
-        {
-          "site": "우체국쇼핑",
-          "price": "13,900원"
-        },
-        {
-          "site": "오아시스마켓",
-          "price": "14,900원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": null,
-      "shopUrl": null
     }
   ],
-  "lastUpdated": "2026-08-21T18:23:43.134Z"
+  "lastUpdated": "2026-08-21T21:15:05.419Z"
 }
