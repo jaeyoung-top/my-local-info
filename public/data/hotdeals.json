@@ -1,6 +1,45 @@
 {
   "deals": [
     {
+      "id": "hdz_198750",
+      "title": "코카콜라 190ml 30캔 + 닥터페퍼 350ml 24캔",
+      "price": "26,630원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/21/thumb_7d190e1c87ef24ebe1822bb74129a016.webp",
+      "category": "식품",
+      "site": "지마켓",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/10238004236",
+      "publishedAt": "2026-08-21 09:48:13",
+      "likes": 1,
+      "fetchedAt": "2026-08-21T00:53:21.233Z",
+      "priceComparison": [
+        {
+          "site": "지마켓",
+          "price": "26,630원"
+        },
+        {
+          "site": "옥션",
+          "price": "43,910원"
+        },
+        {
+          "site": "쿠팡",
+          "price": "33,500원"
+        },
+        {
+          "site": "SSG.COM",
+          "price": "약 41,550원"
+        },
+        {
+          "site": "글로리마켓",
+          "price": "39,100원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
       "id": "hdz_198749",
       "title": "지센 여름 아우터 클리어런스",
       "price": "13.600~",
@@ -35169,46 +35208,7 @@
       },
       "postContent": null,
       "shopUrl": null
-    },
-    {
-      "id": "hdz_198213",
-      "title": "데일리 부사사과 4kg 가정용 / 정품 실중량",
-      "price": "9,948원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/08/20/thumb_3d6df230e9a2baba85d7011c2057c8b7.webp",
-      "category": "식품",
-      "site": "오늘의집",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://hotdeal.zip/ppomppu_view.php?url=view.php%3Fid%3Dppomppu%26page%3D1%26divpage%3D115%26no%3D728116",
-      "publishedAt": "2026-08-20 11:36:36",
-      "likes": 8,
-      "fetchedAt": "2026-08-20T03:38:51.761Z",
-      "priceComparison": [
-        {
-          "site": "오늘의집",
-          "price": "9,948원"
-        },
-        {
-          "site": "11번가",
-          "price": "13,700원"
-        },
-        {
-          "site": "동원몰",
-          "price": "17,900원"
-        },
-        {
-          "site": "11번가",
-          "price": "16,900원"
-        },
-        {
-          "site": "동원몰",
-          "price": "24,900원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": null,
-      "shopUrl": null
     }
   ],
-  "lastUpdated": "2026-08-21T00:46:52.056Z"
+  "lastUpdated": "2026-08-21T00:53:22.463Z"
 }

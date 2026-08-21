@@ -1,6 +1,18 @@
 {
   "events": [
     {
+      "name": "송파구 문화 예술 특집: 썸머타임 콘서트, 플라멩코 페스티벌, 구립극단 공연 등",
+      "category": "행사",
+      "startDate": "2026-08-01",
+      "endDate": "2026-08-31",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "해피 썸머타임 콘서트, 월드 플라멩코 페스티벌, 구립송파극단 정기공연, 호수동물아트전 등 송파구의 주요 문화 예술 행사 정보",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9041&aid=18075",
+      "id": "crawler-1787273354878-853",
+      "image": "https://picsum.photos/seed/167731/800/500"
+    },
+    {
       "name": "송파구 여름 주요 문화예술 행사 (콘서트, 페스티벌, 공연, 아트전)",
       "category": "문화",
       "startDate": "2026-08-01",
@@ -4563,6 +4575,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "범죄 피해 아동 및 장애인 진술조력 지원",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "상시",
+      "location": "법무부",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "범죄 피해 아동 및 의사소통 어려운 장애인의 수사·재판 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1519340333755-56e9c1d04579?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -12054,7 +12079,67 @@
       "summary": "차세대 AI 모델의 효율적 활용을 위한 데이터 거버넌스 핵심 기술 개발 R&D 지원.",
       "link": "https://www.msit.go.kr/sync_url.do?mode=search&page_idx=1&idx=2026AI_DG_RND",
       "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-21-1",
+      "name": "NIPA 공공 데이터를 활용한 AI 기반 혁신 서비스 개발 및 실증",
+      "category": "AI지원",
+      "startDate": "2026-09-01",
+      "endDate": "2026-12-31",
+      "location": "NIPA (정보통신산업진흥원)",
+      "target": "공공 데이터 활용 스타트업/중소기업",
+      "summary": "공공 데이터를 연동하여 AI 기반 혁신 서비스 개발 및 실증 지원",
+      "link": "https://www.nipa.kr/program/view?id=AI_PublicData_Service_2026",
+      "image": "https://images.unsplash.com/photo-1488229297570-58520851e868?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-21-2",
+      "name": "서울 AI 허브 생성형 AI 기반 디지털 휴먼 서비스 개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-08-28",
+      "endDate": "2027-02-28",
+      "location": "서울 AI 허브",
+      "target": "생성형 AI 기술 보유 스타트업",
+      "summary": "디지털 휴먼 기술을 활용한 AI 서비스 개발 및 상용화 지원",
+      "link": "https://www.seoulaihub.kr/program/digitalhuman_service_2026",
+      "image": "https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-21-3",
+      "name": "K-Startup 지역 특화 AI 기반 문화·관광 서비스 창업 지원",
+      "category": "AI지원",
+      "startDate": "2026-09-01",
+      "endDate": "2027-01-31",
+      "location": "K-Startup 창업진흥원",
+      "target": "지역 문화/관광 분야 AI 스타트업",
+      "summary": "지역 문화·관광 활성화를 위한 AI 서비스 개발 및 사업화 지원",
+      "link": "https://www.k-startup.go.kr/program/view?id=RegionalCultureAI_2026",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-21-4",
+      "name": "중소기업 AI 기반 폐기물 자원화 및 스마트 환경 관리 솔루션 도입 지원",
+      "category": "AI지원",
+      "startDate": "2026-09-01",
+      "endDate": "2026-12-31",
+      "location": "중소벤처기업부 (디지털 전환 사업)",
+      "target": "환경 관리 개선 희망 중소기업",
+      "summary": "AI 활용 폐기물 자원화 및 환경 데이터 기반 스마트 관리 솔루션 도입 지원",
+      "link": "https://www.bizinfo.go.kr/program/view?id=SMB_AI_WasteMgmt_2026",
+      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-21-5",
+      "name": "과학기술정보통신부 AI 기반 법률/규제 준수 자동화 기술 개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-08-21",
+      "endDate": "2027-05-31",
+      "location": "과학기술정보통신부 (AI 관련 사업)",
+      "target": "법률/컴플라이언스 AI 기술 기업",
+      "summary": "AI 활용 법률 및 규제 준수 자동화 핵심 기술 개발 및 실증 지원",
+      "link": "https://www.msit.go.kr/program/view?id=AI_Law_Compliance_Tech_2026",
+      "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-08-20"
+  "lastUpdated": "2026-08-21"
 }
