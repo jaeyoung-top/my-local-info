@@ -1,6 +1,18 @@
 {
   "events": [
     {
+      "name": "2026 송파 여름 문화예술 축제",
+      "category": "행사",
+      "startDate": "2026-08-01",
+      "endDate": "2026-08-31",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "2026 해피 썸머타임 콘서트, 월드 플라멩코 페스티벌, 구립송파극단 정기공연, 호수동물아트전 등 송파구의 다양한 여름 문화예술 행사",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9041&aid=18075",
+      "id": "crawler-1787359504360-901",
+      "image": "https://picsum.photos/seed/951272/800/500"
+    },
+    {
       "name": "송파구 문화 예술 특집: 썸머타임 콘서트, 플라멩코 페스티벌, 구립극단 공연 등",
       "category": "행사",
       "startDate": "2026-08-01",
@@ -4588,6 +4600,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1519340333755-56e9c1d04579?w=800&q=80"
+    },
+    {
+      "id": "000025",
+      "name": "범죄피해 아동·장애인 진술조력 지원",
+      "category": "혜택",
+      "startDate": "2026-08-22",
+      "endDate": "상시",
+      "location": "법무부",
+      "target": "범죄 피해 아동(만 19세 미만) 및 장애인",
+      "summary": "만 19세 미만 아동, 장애인 범죄 피해자의 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -12139,7 +12164,67 @@
       "summary": "AI 활용 법률 및 규제 준수 자동화 핵심 기술 개발 및 실증 지원",
       "link": "https://www.msit.go.kr/program/view?id=AI_Law_Compliance_Tech_2026",
       "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-22-1",
+      "name": "NIPA 2026년 AI 기반 디지털 교육 콘텐츠 개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-08-15",
+      "endDate": "2026-10-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI/디지털 교육 콘텐츠 개발 기업",
+      "summary": "AI 기반 교육 콘텐츠 개발 및 상용화를 위한 R&D 및 사업화 지원",
+      "link": "https://www.nipa.kr/main/main.html",
+      "image": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-22-2",
+      "name": "서울 AI 허브 AI 기반 스마트 제조 솔루션 실증 지원",
+      "category": "AI지원",
+      "startDate": "2026-08-01",
+      "endDate": "2026-11-30",
+      "location": "서울 AI 허브",
+      "target": "AI 기반 제조 솔루션 개발 스타트업",
+      "summary": "스마트 제조 분야 AI 솔루션의 개발 및 현장 실증을 위한 지원",
+      "link": "https://www.seoulaihub.kr/",
+      "image": "https://images.unsplash.com/photo-1526378800651-c32d170fe6f8?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-22-3",
+      "name": "K-Startup 2026년 AI 기반 실감형 콘텐츠 스타트업 육성 프로그램",
+      "category": "AI지원",
+      "startDate": "2026-08-01",
+      "endDate": "2026-11-30",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "AI 기반 실감형 콘텐츠 분야 초기 창업기업",
+      "summary": "AI 기술을 활용한 실감형 콘텐츠 개발 스타트업 발굴 및 성장 지원",
+      "link": "https://www.k-startup.go.kr/",
+      "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-22-4",
+      "name": "중소벤처기업부 2026년 AI 기반 비대면 업무 환경 구축 지원",
+      "category": "AI지원",
+      "startDate": "2026-08-05",
+      "endDate": "2026-09-20",
+      "location": "중소벤처기업부 (기업마당)",
+      "target": "비대면 업무 환경 구축 희망 중소기업",
+      "summary": "중소기업의 효율적인 AI 기반 비대면 업무 시스템 도입 및 구축 지원",
+      "link": "https://www.bizinfo.go.kr/",
+      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-22-5",
+      "name": "과학기술정보통신부 2026년 AI 기반 사회적 가치 실현 기술 개발 및 확산 지원",
+      "category": "AI지원",
+      "startDate": "2026-08-10",
+      "endDate": "2026-11-30",
+      "location": "과학기술정보통신부",
+      "target": "사회문제 해결 AI 기술 개발 기업/연구기관",
+      "summary": "AI 기반 사회적 가치 창출 기술 개발 및 대국민 서비스 확산 지원",
+      "link": "https://www.msit.go.kr/",
+      "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-08-21"
+  "lastUpdated": "2026-08-22"
 }

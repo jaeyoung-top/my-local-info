@@ -1,6 +1,98 @@
 {
   "deals": [
     {
+      "id": "hdz_199258",
+      "title": "웅진 생차 녹차 500ml 20개 외 1종",
+      "price": "10,150원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/22/thumb_1488371f6f4d690597dae49c1acbf6a4.webp",
+      "category": "식품",
+      "site": "네이버",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/10242248930",
+      "publishedAt": "2026-08-22 09:46:11",
+      "likes": 0,
+      "fetchedAt": "2026-08-22T00:49:21.137Z",
+      "priceComparison": [
+        {
+          "site": "네이버",
+          "price": "10,150원"
+        },
+        {
+          "site": "쿠팡",
+          "price": "15,720원"
+        },
+        {
+          "site": "11번가",
+          "price": "26,500원"
+        },
+        {
+          "site": "G마켓",
+          "price": "18,900원"
+        },
+        {
+          "site": "롯데백화점·11번가",
+          "price": "16,400원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "06-02",
+            "price": 16900
+          },
+          {
+            "date": "06-09",
+            "price": 16900
+          },
+          {
+            "date": "06-16",
+            "price": 16900
+          },
+          {
+            "date": "06-23",
+            "price": 16900
+          },
+          {
+            "date": "06-30",
+            "price": 16900
+          },
+          {
+            "date": "07-07",
+            "price": 16900
+          },
+          {
+            "date": "07-14",
+            "price": 16900
+          },
+          {
+            "date": "07-21",
+            "price": 16900
+          },
+          {
+            "date": "07-28",
+            "price": 16900
+          },
+          {
+            "date": "08-04",
+            "price": 16900
+          },
+          {
+            "date": "08-11",
+            "price": 16900
+          },
+          {
+            "date": "08-18",
+            "price": 16900
+          }
+        ],
+        "minPrice": 16900,
+        "maxPrice": 16900
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
       "id": "hdz_199257",
       "title": "다이쇼 다타키 오이 소스, 150ml, 3개",
       "price": "6,730원",
@@ -37073,59 +37165,7 @@
       },
       "postContent": null,
       "shopUrl": null
-    },
-    {
-      "id": "hdz_198705",
-      "title": "오랄비 고탄력 초미세모 그린티 랜덤색상, 6개입, 2개",
-      "price": "9,900원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/08/21/thumb_0f5191f9a754820bba3905c7456449a4.webp",
-      "category": "생활용품",
-      "site": "쿠팡와우",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/10237820494",
-      "publishedAt": "2026-08-21 08:30:15",
-      "likes": 12,
-      "fetchedAt": "2026-08-21T00:46:46.897Z",
-      "priceComparison": [
-        {
-          "site": "쿠팡와우",
-          "price": "9,900원"
-        },
-        {
-          "site": "GS SHOP",
-          "price": "18,500원"
-        },
-        {
-          "site": "11번가",
-          "price": "20,300원"
-        },
-        {
-          "site": "동원몰",
-          "price": "25,700원"
-        },
-        {
-          "site": "SSF Shop",
-          "price": "22,410원"
-        },
-        {
-          "site": "롯데홈쇼핑",
-          "price": "16,200원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "2026-08-21",
-            "price": 9900
-          }
-        ],
-        "minPrice": 9900,
-        "maxPrice": 9900
-      },
-      "postContent": null,
-      "shopUrl": null
     }
   ],
-  "lastUpdated": "2026-08-22T00:43:05.710Z"
+  "lastUpdated": "2026-08-22T00:49:21.905Z"
 }
