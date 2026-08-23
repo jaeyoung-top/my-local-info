@@ -1,6 +1,333 @@
 {
   "deals": [
     {
+      "id": "hdz_199941",
+      "title": "커세어 벤젼스 DDR5 64GB 6400MHz CL42",
+      "price": "94,966엔",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/24/thumb_63f173d3506c07453389c26becddb712.webp",
+      "category": "PC",
+      "site": "아마존재팬",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/10250321437",
+      "publishedAt": "2026-08-24 05:10:13",
+      "likes": 59,
+      "fetchedAt": "2026-08-23T21:13:22.773Z",
+      "priceComparison": [
+        {
+          "site": "아마존재팬",
+          "price": "94,966엔"
+        },
+        {
+          "site": "Joshin web",
+          "price": "109,690엔"
+        },
+        {
+          "site": "도스파라",
+          "price": "124,800엔"
+        },
+        {
+          "site": "츠쿠모 파컴 Yahoo!점",
+          "price": "122,020엔"
+        },
+        {
+          "site": "가격닷컴 최저가",
+          "price": "109,690엔부터"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "06-02",
+            "price": 1298030
+          },
+          {
+            "date": "06-09",
+            "price": 1298030
+          },
+          {
+            "date": "06-16",
+            "price": 1298030
+          },
+          {
+            "date": "06-23",
+            "price": 1298030
+          },
+          {
+            "date": "06-30",
+            "price": 1298030
+          },
+          {
+            "date": "07-07",
+            "price": 1298030
+          },
+          {
+            "date": "07-14",
+            "price": 1298030
+          },
+          {
+            "date": "07-21",
+            "price": 1298030
+          },
+          {
+            "date": "07-28",
+            "price": 1298030
+          },
+          {
+            "date": "08-04",
+            "price": 1298030
+          },
+          {
+            "date": "08-11",
+            "price": 1298030
+          },
+          {
+            "date": "08-18",
+            "price": 1298030
+          }
+        ],
+        "minPrice": 1298030,
+        "maxPrice": 1298030
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_199940",
+      "title": "농심 감자깡 16개",
+      "price": "19,360원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/24/thumb_88b517dc1078f6f1e6b2282f7e4f746d.webp",
+      "category": "식품",
+      "site": "네이버",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://hotdeal.zip/ppomppu_view.php?url=view.php%3Fid%3Dppomppu%26page%3D1%26divpage%3D115%26no%3D728827",
+      "publishedAt": "2026-08-24 05:08:34",
+      "likes": 8,
+      "fetchedAt": "2026-08-23T21:13:22.773Z",
+      "priceComparison": [
+        {
+          "site": "네이버",
+          "price": "19,360원"
+        },
+        {
+          "site": "농심몰",
+          "price": "22,550원"
+        },
+        {
+          "site": "GS SHOP",
+          "price": "23,400원"
+        },
+        {
+          "site": "쿠팡",
+          "price": "20,120원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "06-02",
+            "price": 18080
+          },
+          {
+            "date": "06-09",
+            "price": 17470
+          },
+          {
+            "date": "06-16",
+            "price": 15413
+          },
+          {
+            "date": "06-23",
+            "price": 15413
+          },
+          {
+            "date": "06-30",
+            "price": 15413
+          },
+          {
+            "date": "07-07",
+            "price": 17620
+          },
+          {
+            "date": "07-14",
+            "price": 17620
+          },
+          {
+            "date": "07-21",
+            "price": 17620
+          },
+          {
+            "date": "07-28",
+            "price": 18180
+          },
+          {
+            "date": "08-04",
+            "price": 17620
+          },
+          {
+            "date": "08-11",
+            "price": 18670
+          },
+          {
+            "date": "08-18",
+            "price": 16305
+          }
+        ],
+        "minPrice": 15413,
+        "maxPrice": 18670
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_199939",
+      "title": "사세 매콤달콤닭강정 등",
+      "price": "6,630원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/24/thumb_b13bfb9153d3f6eba3014cec67a744f1.webp",
+      "category": "식품",
+      "site": "SK스토아",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/10250302255",
+      "publishedAt": "2026-08-24 04:38:13",
+      "likes": 37,
+      "fetchedAt": "2026-08-23T21:13:22.773Z",
+      "priceComparison": [
+        {
+          "site": "SK스토아",
+          "price": "6,630원"
+        },
+        {
+          "site": "비비수산",
+          "price": "4,900원"
+        },
+        {
+          "site": "식봄",
+          "price": "4,900원"
+        },
+        {
+          "site": "GS SHOP",
+          "price": "8,700원"
+        },
+        {
+          "site": "11번가",
+          "price": "20,710원"
+        },
+        {
+          "site": "11번가",
+          "price": "17,230원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_199938",
+      "title": "레트로이드 포켓 5 게임기 / 포켓 6 / 노바",
+      "price": "$140.83부터",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/24/thumb_0c2392b7cc079965005a120941cd33b7.webp",
+      "category": "가전",
+      "site": "알리",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/10250170954",
+      "publishedAt": "2026-08-24 03:42:17",
+      "likes": 39,
+      "fetchedAt": "2026-08-23T21:13:22.773Z",
+      "priceComparison": [
+        {
+          "site": "알리",
+          "price": "$140.83부터"
+        },
+        {
+          "site": "Retroid 공식몰",
+          "price": "$199.00부터"
+        },
+        {
+          "site": "Retroid 공식몰",
+          "price": "$244.00부터"
+        },
+        {
+          "site": "Retroid 공식몰",
+          "price": "$239.00부터"
+        },
+        {
+          "site": "Amazon",
+          "price": "$213.00부터"
+        },
+        {
+          "site": "Target",
+          "price": "$279.99"
+        },
+        {
+          "site": "DROIX",
+          "price": "€308.67부터"
+        },
+        {
+          "site": "DROIX",
+          "price": "€384.93부터"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "06-02",
+            "price": 291540
+          },
+          {
+            "date": "06-09",
+            "price": 291540
+          },
+          {
+            "date": "06-16",
+            "price": 308490
+          },
+          {
+            "date": "06-23",
+            "price": 308490
+          },
+          {
+            "date": "06-30",
+            "price": 308490
+          },
+          {
+            "date": "07-07",
+            "price": 308490
+          },
+          {
+            "date": "07-14",
+            "price": 349000
+          },
+          {
+            "date": "07-21",
+            "price": 349000
+          },
+          {
+            "date": "07-28",
+            "price": 349000
+          },
+          {
+            "date": "08-04",
+            "price": 349000
+          },
+          {
+            "date": "08-11",
+            "price": 339900
+          },
+          {
+            "date": "08-18",
+            "price": 339900
+          }
+        ],
+        "minPrice": 291540,
+        "maxPrice": 349000
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
       "id": "hdz_199937",
       "title": "에센코어 클레브 DDR5-6000 CL30 CRAS V RGB 화이트 32GB 신한 농협 우리",
       "price": "627,000원",
@@ -35274,387 +35601,7 @@
       "priceHistory": null,
       "postContent": null,
       "shopUrl": null
-    },
-    {
-      "id": "hdz_199419",
-      "title": "삼성 125.7cm(50인치) UHD 4K 1등급 비즈니스TV LH50BEFHLGFXKR 스탠드형",
-      "price": "507,770원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/08/22/thumb_9e25b61dac504dd180d242f9f36a8e41.webp",
-      "category": "가전",
-      "site": "네이버",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://hotdeal.zip/ppomppu_view.php?url=view.php%3Fid%3Dppomppu%26page%3D1%26divpage%3D115%26no%3D728600",
-      "publishedAt": "2026-08-22 16:00:35",
-      "likes": 57,
-      "fetchedAt": "2026-08-22T09:18:38.817Z",
-      "priceComparison": [
-        {
-          "site": "네이버",
-          "price": "507,770원"
-        },
-        {
-          "site": "롯데하이마트",
-          "price": "559,000원"
-        },
-        {
-          "site": "11번가",
-          "price": "569,000원"
-        },
-        {
-          "site": "예스24",
-          "price": "559,000원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "06-02",
-            "price": 514490
-          },
-          {
-            "date": "06-09",
-            "price": 512940
-          },
-          {
-            "date": "06-16",
-            "price": 517990
-          },
-          {
-            "date": "06-23",
-            "price": 517990
-          },
-          {
-            "date": "06-30",
-            "price": 517990
-          },
-          {
-            "date": "07-07",
-            "price": 517990
-          },
-          {
-            "date": "07-14",
-            "price": 533590
-          },
-          {
-            "date": "07-21",
-            "price": 533590
-          },
-          {
-            "date": "07-28",
-            "price": 533590
-          },
-          {
-            "date": "08-04",
-            "price": 537100
-          },
-          {
-            "date": "08-11",
-            "price": 523390
-          },
-          {
-            "date": "08-18",
-            "price": 533590
-          }
-        ],
-        "minPrice": 512940,
-        "maxPrice": 537100
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_199418",
-      "title": "통통 김말이튀김, 400g, 2팩",
-      "price": "7,900원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/08/22/thumb_9cc2131ea9ccba12aae2227645bbb374.webp",
-      "category": "식품",
-      "site": "토스쇼핑",
-      "source": "기타",
-      "sourceColor": "#888888",
-      "link": "https://toss.shopping/t/278870053",
-      "publishedAt": "2026-08-22 16:00:18",
-      "likes": 26,
-      "fetchedAt": "2026-08-22T09:18:38.817Z",
-      "priceComparison": [
-        {
-          "site": "토스쇼핑",
-          "price": "7,900원"
-        },
-        {
-          "site": "핫딜위키",
-          "price": "12,900원"
-        },
-        {
-          "site": "쿠팡",
-          "price": "7,490원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "06-02",
-            "price": 5470
-          },
-          {
-            "date": "06-09",
-            "price": 5470
-          },
-          {
-            "date": "06-16",
-            "price": 5470
-          },
-          {
-            "date": "06-23",
-            "price": 5470
-          },
-          {
-            "date": "06-30",
-            "price": 5470
-          },
-          {
-            "date": "07-07",
-            "price": 5470
-          },
-          {
-            "date": "07-14",
-            "price": 5470
-          },
-          {
-            "date": "07-21",
-            "price": 5470
-          },
-          {
-            "date": "07-28",
-            "price": 5200
-          },
-          {
-            "date": "08-04",
-            "price": 5200
-          },
-          {
-            "date": "08-11",
-            "price": 5200
-          },
-          {
-            "date": "08-18",
-            "price": 5200
-          }
-        ],
-        "minPrice": 5200,
-        "maxPrice": 5470
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_199417",
-      "title": "바르미김치 국내산 총각김치, 2kg, 1개",
-      "price": "8,900원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/08/22/thumb_8d63138e8c2bf524854a2e5bcc55414c.webp",
-      "category": "식품",
-      "site": "토스쇼핑",
-      "source": "기타",
-      "sourceColor": "#888888",
-      "link": "https://toss.shopping/t/104979207",
-      "publishedAt": "2026-08-22 16:00:13",
-      "likes": 4,
-      "fetchedAt": "2026-08-22T09:18:38.817Z",
-      "priceComparison": [
-        {
-          "site": "토스쇼핑",
-          "price": "8,900원"
-        },
-        {
-          "site": "온누리보물마켓",
-          "price": "17,900원"
-        },
-        {
-          "site": "11번가",
-          "price": "19,700원"
-        },
-        {
-          "site": "11번가",
-          "price": "9,550원"
-        },
-        {
-          "site": "스타푸드",
-          "price": "9,900원"
-        },
-        {
-          "site": "GS SHOP",
-          "price": "11,900원"
-        },
-        {
-          "site": "오아시스",
-          "price": "18,800원"
-        },
-        {
-          "site": "한국김치",
-          "price": "24,000원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "06-02",
-            "price": 15050
-          },
-          {
-            "date": "06-09",
-            "price": 15120
-          },
-          {
-            "date": "06-16",
-            "price": 14360
-          },
-          {
-            "date": "06-23",
-            "price": 15550
-          },
-          {
-            "date": "06-30",
-            "price": 15720
-          },
-          {
-            "date": "07-07",
-            "price": 13710
-          },
-          {
-            "date": "07-14",
-            "price": 13710
-          },
-          {
-            "date": "07-21",
-            "price": 13860
-          },
-          {
-            "date": "07-28",
-            "price": 12240
-          },
-          {
-            "date": "08-04",
-            "price": 12240
-          },
-          {
-            "date": "08-11",
-            "price": 11990
-          },
-          {
-            "date": "08-18",
-            "price": 12920
-          }
-        ],
-        "minPrice": 11990,
-        "maxPrice": 15720
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_199416",
-      "title": "가정용 참송이버섯 500g",
-      "price": "7,980원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/08/22/thumb_cbedfd0863344f93d83d4847efa400f3.webp",
-      "category": "식품",
-      "site": "롯데온",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://hotdeal.zip/ppomppu_view.php?url=view.php%3Fid%3Dppomppu%26page%3D1%26divpage%3D115%26no%3D728599",
-      "publishedAt": "2026-08-22 15:50:22",
-      "likes": 26,
-      "fetchedAt": "2026-08-22T09:18:38.817Z",
-      "priceComparison": [
-        {
-          "site": "롯데온",
-          "price": "7,980원"
-        },
-        {
-          "site": "오아시스마켓",
-          "price": "15,500원"
-        },
-        {
-          "site": "나주몰",
-          "price": "13,000원"
-        },
-        {
-          "site": "11번가",
-          "price": "19,800원"
-        },
-        {
-          "site": "김재원TV몰",
-          "price": "21,900원"
-        },
-        {
-          "site": "신세계몰",
-          "price": "29,940원"
-        },
-        {
-          "site": "풀무원샵",
-          "price": "34,900원"
-        },
-        {
-          "site": "스타스팜",
-          "price": "13,900원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "06-02",
-            "price": 25730
-          },
-          {
-            "date": "06-09",
-            "price": 25730
-          },
-          {
-            "date": "06-16",
-            "price": 24560
-          },
-          {
-            "date": "06-23",
-            "price": 26300
-          },
-          {
-            "date": "06-30",
-            "price": 26300
-          },
-          {
-            "date": "07-07",
-            "price": 26300
-          },
-          {
-            "date": "07-14",
-            "price": 14320
-          },
-          {
-            "date": "07-21",
-            "price": 13680
-          },
-          {
-            "date": "07-28",
-            "price": 13680
-          },
-          {
-            "date": "08-04",
-            "price": 13520
-          },
-          {
-            "date": "08-11",
-            "price": 13520
-          },
-          {
-            "date": "08-18",
-            "price": 13520
-          }
-        ],
-        "minPrice": 13520,
-        "maxPrice": 26300
-      },
-      "postContent": null,
-      "shopUrl": null
     }
   ],
-  "lastUpdated": "2026-08-23T18:16:24.720Z"
+  "lastUpdated": "2026-08-23T21:13:24.092Z"
 }
