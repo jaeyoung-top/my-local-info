@@ -1,6 +1,146 @@
 {
   "deals": [
     {
+      "id": "hdz_199613",
+      "title": "백설 저당 타르타르 소스, 250g, 2개",
+      "price": "6,980원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/23/thumb_1b89949cb50d1fe2e8bd23195de4ab68.webp",
+      "category": "식품",
+      "site": "쿠팡",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/10246455266",
+      "publishedAt": "2026-08-23 09:52:11",
+      "likes": 1,
+      "fetchedAt": "2026-08-23T00:52:55.926Z",
+      "priceComparison": [
+        {
+          "site": "쿠팡",
+          "price": "6,980원"
+        },
+        {
+          "site": "GS SHOP",
+          "price": "9,900원"
+        },
+        {
+          "site": "롯데마트 제타",
+          "price": "9,960원"
+        },
+        {
+          "site": "마켓컬리",
+          "price": "6,960원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "2026-08-23",
+            "price": 6980
+          }
+        ],
+        "minPrice": 6980,
+        "maxPrice": 6980
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_199612",
+      "title": "제주 삼다수 500ml 무라벨 40병",
+      "price": "13,890원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/23/thumb_c78e7e2d11316de6cb00726e6581874c.webp",
+      "category": "식품",
+      "site": "롯데온",
+      "source": "아카라이브",
+      "sourceColor": "#10B981",
+      "link": "https://arca.live/b/hotdeal/180752344?p=1",
+      "publishedAt": "2026-08-23 09:50:11",
+      "likes": 1,
+      "fetchedAt": "2026-08-23T00:52:55.926Z",
+      "priceComparison": [
+        {
+          "site": "롯데온",
+          "price": "13,890원"
+        },
+        {
+          "site": "11번가",
+          "price": "21,800원"
+        },
+        {
+          "site": "컬리",
+          "price": "19,200원"
+        },
+        {
+          "site": "GS SHOP",
+          "price": "19,900원"
+        },
+        {
+          "site": "신세계몰",
+          "price": "18,624원"
+        },
+        {
+          "site": "오늘의집",
+          "price": "19,200원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "06-02",
+            "price": 15330
+          },
+          {
+            "date": "06-09",
+            "price": 15330
+          },
+          {
+            "date": "06-16",
+            "price": 14750
+          },
+          {
+            "date": "06-23",
+            "price": 16910
+          },
+          {
+            "date": "06-30",
+            "price": 14750
+          },
+          {
+            "date": "07-07",
+            "price": 15450
+          },
+          {
+            "date": "07-14",
+            "price": 13500
+          },
+          {
+            "date": "07-21",
+            "price": 14270
+          },
+          {
+            "date": "07-28",
+            "price": 14270
+          },
+          {
+            "date": "08-04",
+            "price": 14440
+          },
+          {
+            "date": "08-11",
+            "price": 13300
+          },
+          {
+            "date": "08-18",
+            "price": 11900
+          }
+        ],
+        "minPrice": 11900,
+        "maxPrice": 16910
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
       "id": "hdz_199611",
       "title": "토레타 이온음료, 900ml, 12개",
       "price": "12,480원",
@@ -36810,179 +36950,7 @@
       },
       "postContent": null,
       "shopUrl": null
-    },
-    {
-      "id": "hdz_199088",
-      "title": "프로젝트엠 공용 코튼 이너 반팔티 3팩",
-      "price": "8,200원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/08/21/thumb_dce0e6d9ba71a31ae0fa07574aa3d8e9.webp",
-      "category": "의류",
-      "site": "옥션",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://hotdeal.zip/ppomppu_view.php?url=view.php%3Fid%3Dppomppu%26page%3D1%26divpage%3D115%26no%3D728483",
-      "publishedAt": "2026-08-21 19:10:30",
-      "likes": 15,
-      "fetchedAt": "2026-08-21T12:28:33.751Z",
-      "priceComparison": [
-        {
-          "site": "옥션",
-          "price": "8,200원"
-        },
-        {
-          "site": "GS SHOP",
-          "price": "10,580원"
-        },
-        {
-          "site": "굿웨어몰",
-          "price": "16,900원"
-        },
-        {
-          "site": "신세계몰",
-          "price": "25,500원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "06-02",
-            "price": 10010
-          },
-          {
-            "date": "06-09",
-            "price": 11260
-          },
-          {
-            "date": "06-16",
-            "price": 11260
-          },
-          {
-            "date": "06-23",
-            "price": 11260
-          },
-          {
-            "date": "06-30",
-            "price": 11260
-          },
-          {
-            "date": "07-07",
-            "price": 11260
-          },
-          {
-            "date": "07-14",
-            "price": 11260
-          },
-          {
-            "date": "07-21",
-            "price": 11260
-          },
-          {
-            "date": "07-28",
-            "price": 11260
-          },
-          {
-            "date": "08-04",
-            "price": 11260
-          },
-          {
-            "date": "08-11",
-            "price": 11260
-          },
-          {
-            "date": "08-18",
-            "price": 11260
-          }
-        ],
-        "minPrice": 10010,
-        "maxPrice": 11260
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_199087",
-      "title": "아이나비 VX3000 32GB 전방QHD 후방FHD 2채널 블랙박스(삼성월렛)",
-      "price": "161,080원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/08/21/thumb_44434fe36f9e6232fb9fc08150c4092b.webp",
-      "category": "기타",
-      "site": "롯데온",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/10239946749",
-      "publishedAt": "2026-08-21 19:10:13",
-      "likes": 27,
-      "fetchedAt": "2026-08-21T12:28:33.751Z",
-      "priceComparison": [
-        {
-          "site": "롯데온",
-          "price": "161,080원"
-        },
-        {
-          "site": "11번가",
-          "price": "199,000원"
-        },
-        {
-          "site": "아이나비 공식 쇼핑몰",
-          "price": "239,000원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "06-02",
-            "price": 191200
-          },
-          {
-            "date": "06-09",
-            "price": 191200
-          },
-          {
-            "date": "06-16",
-            "price": 207200
-          },
-          {
-            "date": "06-23",
-            "price": 207200
-          },
-          {
-            "date": "06-30",
-            "price": 207200
-          },
-          {
-            "date": "07-07",
-            "price": 207200
-          },
-          {
-            "date": "07-14",
-            "price": 207200
-          },
-          {
-            "date": "07-21",
-            "price": 207200
-          },
-          {
-            "date": "07-28",
-            "price": 199200
-          },
-          {
-            "date": "08-04",
-            "price": 199200
-          },
-          {
-            "date": "08-11",
-            "price": 199200
-          },
-          {
-            "date": "08-18",
-            "price": 209000
-          }
-        ],
-        "minPrice": 191200,
-        "maxPrice": 209000
-      },
-      "postContent": null,
-      "shopUrl": null
     }
   ],
-  "lastUpdated": "2026-08-23T00:47:18.483Z"
+  "lastUpdated": "2026-08-23T00:52:56.654Z"
 }
