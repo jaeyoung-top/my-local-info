@@ -1,6 +1,18 @@
 {
   "events": [
     {
+      "name": "송파 문화 예술 특집 (콘서트, 페스티벌, 공연 등)",
+      "category": "문화",
+      "startDate": "2026-08-01",
+      "endDate": "2026-08-31",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "2026 해피 썸머타임 콘서트, 월드 플라멩코 페스티벌, 구립송파극단 정기공연 등 송파의 주요 문화 예술 행사 소개",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9041&aid=18075",
+      "id": "crawler-1787532440609-202",
+      "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1784891814songpa.JPG"
+    },
+    {
       "name": "송파 문화 예술의 도시 주요 행사",
       "category": "문화/공연/축제",
       "startDate": "2026-08-01",
@@ -23,18 +35,6 @@
       "link": "https://songpa.newstool.co.kr/./view.php?eid=9041&aid=18075",
       "id": "crawler-1787359504360-901",
       "image": "https://picsum.photos/seed/951272/800/500"
-    },
-    {
-      "name": "송파구 문화 예술 특집: 썸머타임 콘서트, 플라멩코 페스티벌, 구립극단 공연 등",
-      "category": "행사",
-      "startDate": "2026-08-01",
-      "endDate": "2026-08-31",
-      "location": "송파구 관내",
-      "target": "전체 구민",
-      "summary": "해피 썸머타임 콘서트, 월드 플라멩코 페스티벌, 구립송파극단 정기공연, 호수동물아트전 등 송파구의 주요 문화 예술 행사 정보",
-      "link": "https://songpa.newstool.co.kr/./view.php?eid=9041&aid=18075",
-      "id": "crawler-1787273354878-853",
-      "image": "https://picsum.photos/seed/167731/800/500"
     },
     {
       "name": "송파구 여름 주요 문화예술 행사 (콘서트, 페스티벌, 공연, 아트전)",
@@ -4602,6 +4602,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1519340333755-56e9c1d04579?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "성폭력·아동학대 등 범죄 피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-08-24",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청 등 수사기관이나 법원",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "만 19세 미만 아동, 의사소통이 어려운 장애인 범죄 피해자의 수사·재판상 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -12249,7 +12262,67 @@
       "summary": "AI 비전 기술을 로봇 매니퓰레이션에 적용하는 핵심 원천기술 R&D 지원",
       "link": "https://www.msit.go.kr/ai_robotics/vision_manipulation",
       "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-24-1",
+      "name": "AI 기반 클라우드 네이티브 SW 개발 및 사업화 지원 프로그램",
+      "category": "AI지원",
+      "startDate": "2026-08-24",
+      "endDate": "2026-12-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI/SW 개발 기업, 스타트업",
+      "summary": "클라우드 네이티브 AI SW 기술 개발 및 시장 진출 지원",
+      "link": "https://www.nipa.kr",
+      "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-24-2",
+      "name": "서울 AI 허브 AI 기반 예술/문화 콘텐츠 혁신 기술 지원",
+      "category": "AI지원",
+      "startDate": "2026-08-24",
+      "endDate": "2026-11-30",
+      "location": "서울 AI 허브",
+      "target": "AI/콘텐츠 분야 스타트업 및 예술단체",
+      "summary": "AI 기술을 활용한 창의적 예술/문화 콘텐츠 개발 및 사업화 지원",
+      "link": "https://www.seoulaihub.kr",
+      "image": "https://images.unsplash.com/photo-1516321165247-4aa89a48be55?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-24-3",
+      "name": "K-Startup AI 기반 중소기업 상생형 DX 솔루션 개발 사업",
+      "category": "AI지원",
+      "startDate": "2026-08-24",
+      "endDate": "2027-02-28",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "AI 기술 기반 중소기업 및 스타트업",
+      "summary": "중소기업 상생을 위한 AI 기반 디지털 전환 솔루션 개발 및 적용 지원",
+      "link": "https://www.k-startup.go.kr",
+      "image": "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-24-4",
+      "name": "중소기업 AI 기반 스마트물류 시스템 도입 지원 사업",
+      "category": "AI지원",
+      "startDate": "2026-08-24",
+      "endDate": "2026-12-15",
+      "location": "중소벤처기업부 (기업마당)",
+      "target": "물류 효율화를 원하는 중소기업",
+      "summary": "AI 기반 스마트물류 시스템 도입 컨설팅, 구축 비용 지원",
+      "link": "https://www.bizinfo.go.kr",
+      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-24-5",
+      "name": "과기정통부 초거대 AI 데이터 주권/개인정보 보호 기술 개발 R&D",
+      "category": "AI지원",
+      "startDate": "2026-08-24",
+      "endDate": "2027-06-30",
+      "location": "과학기술정보통신부",
+      "target": "AI/데이터 보안 기술 개발 기업 및 연구기관",
+      "summary": "초거대 AI 시대의 데이터 주권 및 개인정보 보호 핵심 기술 개발",
+      "link": "https://www.msit.go.kr",
+      "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-08-23"
+  "lastUpdated": "2026-08-24"
 }

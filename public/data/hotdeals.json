@@ -1,6 +1,137 @@
 {
   "deals": [
     {
+      "id": "hdz_200003",
+      "title": "자연담 먹는샘물 2L, 12개",
+      "price": "5,400원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/24/thumb_56cf247be2cf9cbafa2dab44f5600280.webp",
+      "category": "식품",
+      "site": "네이버",
+      "source": "아카라이브",
+      "sourceColor": "#10B981",
+      "link": "https://arca.live/b/hotdeal/180851231?p=1",
+      "publishedAt": "2026-08-24 09:50:13",
+      "likes": 0,
+      "fetchedAt": "2026-08-24T00:51:44.780Z",
+      "priceComparison": [
+        {
+          "site": "네이버",
+          "price": "5,400원"
+        },
+        {
+          "site": "쿠팡",
+          "price": "5,890원"
+        },
+        {
+          "site": "쿠팡",
+          "price": "5,900원"
+        },
+        {
+          "site": "쿠팡",
+          "price": "7,550원"
+        },
+        {
+          "site": "이마트 에브리데이",
+          "price": "8,690원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_200002",
+      "title": "커세어 벤젠스 DDR5 64GB 램",
+      "price": "99,482엔",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/24/thumb_188552da389bc94ae5121e0f82c380d0.webp",
+      "category": "PC",
+      "site": "아마존",
+      "source": "루리웹",
+      "sourceColor": "#3B82F6",
+      "link": "https://hotdeal.zip/ruliweb_view.php?url=https%3A%2F%2Fbbs.ruliweb.com%2Fmarket%2Fboard%2F1020%2Fread%2F106589%3Fpage%3D1",
+      "publishedAt": "2026-08-24 09:45:54",
+      "likes": 23,
+      "fetchedAt": "2026-08-24T00:51:44.780Z",
+      "priceComparison": [
+        {
+          "site": "아마존",
+          "price": "99,482엔"
+        },
+        {
+          "site": "Joshin 웹",
+          "price": "164,830엔"
+        },
+        {
+          "site": "츠쿠모 PC Yahoo!점",
+          "price": "25,889엔"
+        },
+        {
+          "site": "테크노 런처 Yahoo!점",
+          "price": "47,600엔"
+        },
+        {
+          "site": "스리 스타 상사 Yahoo!점",
+          "price": "109,800엔"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "06-02",
+            "price": 1497940
+          },
+          {
+            "date": "06-09",
+            "price": 1493550
+          },
+          {
+            "date": "06-16",
+            "price": 1494960
+          },
+          {
+            "date": "06-23",
+            "price": 1494960
+          },
+          {
+            "date": "06-30",
+            "price": 1497960
+          },
+          {
+            "date": "07-07",
+            "price": 1478800
+          },
+          {
+            "date": "07-14",
+            "price": 1478820
+          },
+          {
+            "date": "07-21",
+            "price": 1870000
+          },
+          {
+            "date": "07-28",
+            "price": 1870000
+          },
+          {
+            "date": "08-04",
+            "price": 1849820
+          },
+          {
+            "date": "08-11",
+            "price": 1872470
+          },
+          {
+            "date": "08-18",
+            "price": 1872470
+          }
+        ],
+        "minPrice": 1478800,
+        "maxPrice": 1872470
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
       "id": "hdz_200001",
       "title": "새우탕 큰사발면 115g 6개",
       "price": "6,540원",
@@ -35428,89 +35559,7 @@
       "priceHistory": null,
       "postContent": null,
       "shopUrl": null
-    },
-    {
-      "id": "hdz_199485",
-      "title": "빙그레 베이컨칩 70g 3개+못말리는 신짱 120g 3개+콘칲 148g 4개",
-      "price": "15,930원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/08/22/thumb_7a5fa546ad93b7896779fddea0bc9e76.webp",
-      "category": "식품",
-      "site": "롯데온",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/10244114893",
-      "publishedAt": "2026-08-22 20:00:26",
-      "likes": 13,
-      "fetchedAt": "2026-08-22T12:20:43.882Z",
-      "priceComparison": [
-        {
-          "site": "롯데온",
-          "price": "15,930원"
-        },
-        {
-          "site": "SSG.COM",
-          "price": "17,460원"
-        },
-        {
-          "site": "11번가",
-          "price": "1,230원"
-        },
-        {
-          "site": "11번가",
-          "price": "1,750원"
-        },
-        {
-          "site": "쿠팡",
-          "price": "12,800원"
-        },
-        {
-          "site": "컬리",
-          "price": "1,480원"
-        },
-        {
-          "site": "롯데마트 제타",
-          "price": "990원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_199484",
-      "title": "데이그린 여성용 스판 나시 세트, 블랙, 1개 + 그레이, 1개 + 화이트, 1개, FREE PLUS, 3개",
-      "price": "8,830원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/08/22/thumb_239c997bda3a6be0469201bec72638f3.webp",
-      "category": "의류",
-      "site": "토스쇼핑",
-      "source": "기타",
-      "sourceColor": "#888888",
-      "link": "https://toss.shopping/t/154333773",
-      "publishedAt": "2026-08-22 20:00:18",
-      "likes": 9,
-      "fetchedAt": "2026-08-22T12:20:43.882Z",
-      "priceComparison": [
-        {
-          "site": "토스쇼핑",
-          "price": "8,830원"
-        },
-        {
-          "site": "쿠팡",
-          "price": "9,890원"
-        },
-        {
-          "site": "쿠팡",
-          "price": "12,940원"
-        },
-        {
-          "site": "핫딜위키 연계 판매정보",
-          "price": "9,790원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": null,
-      "shopUrl": null
     }
   ],
-  "lastUpdated": "2026-08-24T00:44:47.020Z"
+  "lastUpdated": "2026-08-24T00:51:45.752Z"
 }
