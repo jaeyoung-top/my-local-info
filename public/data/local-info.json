@@ -4615,6 +4615,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=800&q=80"
+    },
+    {
+      "id": "127000",
+      "name": "범죄 피해자 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-08-25",
+      "endDate": "상시",
+      "location": "법무부, 수사기관, 법원",
+      "target": "만 19세 미만 아동 및 장애인 범죄 피해자",
+      "summary": "아동·장애인 범죄피해자의 수사·재판 진술 조력",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -12322,7 +12335,67 @@
       "summary": "초거대 AI 시대의 데이터 주권 및 개인정보 보호 핵심 기술 개발",
       "link": "https://www.msit.go.kr",
       "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-25-1",
+      "name": "NIPA AI 기반 뇌-컴퓨터 인터페이스(BCI) 응용 기술 사업화 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-01",
+      "endDate": "2026-12-15",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "BCI 기술 보유 스타트업/기업",
+      "summary": "AI 기반 BCI 응용 기술의 사업화 및 시장 진출 촉진 지원",
+      "link": "https://www.nipa.kr",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-25-2",
+      "name": "서울 AI 허브 생성형 AI 기반 맞춤형 고객 경험 솔루션 실증 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-01",
+      "endDate": "2027-01-31",
+      "location": "서울 AI 허브",
+      "target": "생성형 AI 서비스 스타트업/기업",
+      "summary": "생성형 AI를 활용한 고객 경험 혁신 솔루션 개발 및 실증 지원",
+      "link": "https://seoulaihub.kr",
+      "image": "https://images.unsplash.com/photo-1488229297570-58520851e868?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-25-3",
+      "name": "K-Startup AI 기반 지속가능 에너지 효율화 기술 사업화 지원",
+      "category": "AI지원",
+      "startDate": "2026-05-10",
+      "endDate": "2026-11-20",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "에너지/AI 분야 창업기업",
+      "summary": "AI 활용 에너지 효율화 기술 개발 및 시장 적용을 위한 사업화 지원",
+      "link": "https://www.k-startup.go.kr",
+      "image": "https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-25-4",
+      "name": "중소기업 AI 기반 M&A 및 투자 유치 역량 강화 컨설팅",
+      "category": "AI지원",
+      "startDate": "2026-09-01",
+      "endDate": "2027-03-31",
+      "location": "기업마당 (중소벤처기업부)",
+      "target": "투자 유치 희망 중소기업",
+      "summary": "AI 기술 활용 기업의 M&A 및 투자 유치를 위한 전문 컨설팅 제공",
+      "link": "https://www.bizinfo.go.kr",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-25-5",
+      "name": "과학기술정보통신부 AI 기반 인문사회 데이터 융합 연구 지원",
+      "category": "AI지원",
+      "startDate": "2026-09-01",
+      "endDate": "2027-08-31",
+      "location": "과학기술정보통신부",
+      "target": "인문사회-AI 융합 연구팀",
+      "summary": "인문사회 데이터에 AI를 융합하여 새로운 연구 방법론 개발 지원",
+      "link": "https://www.msit.go.kr",
+      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-08-24"
+  "lastUpdated": "2026-08-25"
 }
