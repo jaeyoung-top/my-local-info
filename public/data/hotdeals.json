@@ -1,6 +1,460 @@
 {
   "deals": [
     {
+      "id": "hdz_201357",
+      "title": "메밀국수 1kg 국내산 메밀 함량 33%",
+      "price": "7,400원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/26/thumb_1cac00bd5cf7c73414f62ad0817fd7cc.webp",
+      "category": "식품",
+      "site": "G마켓",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://hotdeal.zip/ppomppu_view.php?url=view.php%3Fid%3Dppomppu%26page%3D1%26divpage%3D115%26no%3D729419",
+      "publishedAt": "2026-08-26 09:50:59",
+      "likes": 2,
+      "fetchedAt": "2026-08-26T00:52:19.213Z",
+      "priceComparison": [
+        {
+          "site": "G마켓",
+          "price": "7,400원"
+        },
+        {
+          "site": "11번가",
+          "price": "6,800원"
+        },
+        {
+          "site": "11번가",
+          "price": "6,500원"
+        },
+        {
+          "site": "우체국쇼핑",
+          "price": "6,000원"
+        },
+        {
+          "site": "봉평메밀팜",
+          "price": "9,500원"
+        },
+        {
+          "site": "GS SHOP",
+          "price": "9,000원"
+        },
+        {
+          "site": "마켓컬리",
+          "price": "6,370원"
+        },
+        {
+          "site": "SSG닷컴",
+          "price": "5,550원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "06-09",
+            "price": 6340
+          },
+          {
+            "date": "06-16",
+            "price": 7540
+          },
+          {
+            "date": "06-23",
+            "price": 7650
+          },
+          {
+            "date": "06-30",
+            "price": 7640
+          },
+          {
+            "date": "07-07",
+            "price": 7710
+          },
+          {
+            "date": "07-14",
+            "price": 7710
+          },
+          {
+            "date": "07-21",
+            "price": 7300
+          },
+          {
+            "date": "07-28",
+            "price": 7540
+          },
+          {
+            "date": "08-04",
+            "price": 7540
+          },
+          {
+            "date": "08-11",
+            "price": 7710
+          },
+          {
+            "date": "08-18",
+            "price": 7710
+          },
+          {
+            "date": "08-25",
+            "price": 7300
+          }
+        ],
+        "minPrice": 6340,
+        "maxPrice": 7710
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_201356",
+      "title": "핫/숯불 바베큐 쪽갈비 500g 2팩",
+      "price": "13,752원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/26/thumb_5f7436e15824b32ad4357b3f448af90d.webp",
+      "category": "식품",
+      "site": "오늘의집",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://hotdeal.zip/ppomppu_view.php?url=view.php%3Fid%3Dppomppu%26page%3D1%26divpage%3D115%26no%3D729420",
+      "publishedAt": "2026-08-26 09:50:36",
+      "likes": 2,
+      "fetchedAt": "2026-08-26T00:52:19.213Z",
+      "priceComparison": [
+        {
+          "site": "오늘의집",
+          "price": "13,752원"
+        },
+        {
+          "site": "G마켓",
+          "price": "14,560원"
+        },
+        {
+          "site": "옥션",
+          "price": "19,870원"
+        },
+        {
+          "site": "11번가",
+          "price": "19,880원"
+        },
+        {
+          "site": "동원몰",
+          "price": "15,800원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_201355",
+      "title": "아이시스8.0 생수 200ml 40펫",
+      "price": "8,510원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/26/thumb_bcbd1e9756d67902090a876a71db2061.webp",
+      "category": "식품",
+      "site": "롯데온",
+      "source": "루리웹",
+      "sourceColor": "#3B82F6",
+      "link": "https://hotdeal.zip/ruliweb_view.php?url=https%3A%2F%2Fbbs.ruliweb.com%2Fmarket%2Fboard%2F1020%2Fread%2F106651%3Fpage%3D1",
+      "publishedAt": "2026-08-26 09:50:29",
+      "likes": 1,
+      "fetchedAt": "2026-08-26T00:52:19.213Z",
+      "priceComparison": [
+        {
+          "site": "롯데온",
+          "price": "8,510원"
+        },
+        {
+          "site": "컬리",
+          "price": "12,100원"
+        },
+        {
+          "site": "11번가",
+          "price": "12,000원"
+        },
+        {
+          "site": "GS SHOP",
+          "price": "11,300원"
+        },
+        {
+          "site": "신세계몰",
+          "price": "13,870원"
+        },
+        {
+          "site": "신세계TV쇼핑",
+          "price": "12,300원"
+        }
+      ],
+      "priceHistory": null,
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_201354",
+      "title": "풀무원 샘물 생수 2L X 12병",
+      "price": "5,630원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/26/thumb_c1207eaafeee927bc6069a673d967059.webp",
+      "category": "식품",
+      "site": "롯데온",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/10258471778",
+      "publishedAt": "2026-08-26 09:50:18",
+      "likes": 2,
+      "fetchedAt": "2026-08-26T00:52:19.213Z",
+      "priceComparison": [
+        {
+          "site": "롯데온",
+          "price": "5,630원"
+        },
+        {
+          "site": "쿠팡",
+          "price": "6,490원"
+        },
+        {
+          "site": "11번가",
+          "price": "6,890원"
+        },
+        {
+          "site": "SSG.COM",
+          "price": "8,290원"
+        },
+        {
+          "site": "GS SHOP",
+          "price": "7,500원"
+        },
+        {
+          "site": "신세계몰",
+          "price": "7,700원"
+        },
+        {
+          "site": "예스24",
+          "price": "8,900원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "06-09",
+            "price": 5700
+          },
+          {
+            "date": "06-16",
+            "price": 5700
+          },
+          {
+            "date": "06-23",
+            "price": 5980
+          },
+          {
+            "date": "06-30",
+            "price": 6160
+          },
+          {
+            "date": "07-07",
+            "price": 5990
+          },
+          {
+            "date": "07-14",
+            "price": 5390
+          },
+          {
+            "date": "07-21",
+            "price": 5390
+          },
+          {
+            "date": "07-28",
+            "price": 5390
+          },
+          {
+            "date": "08-04",
+            "price": 5390
+          },
+          {
+            "date": "08-11",
+            "price": 5980
+          },
+          {
+            "date": "08-18",
+            "price": 5980
+          },
+          {
+            "date": "08-25",
+            "price": 5700
+          }
+        ],
+        "minPrice": 5390,
+        "maxPrice": 6160
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_201353",
+      "title": "코카콜라 제로, 300ml, 24개",
+      "price": "15,200원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/08/26/thumb_51047d6ed9a5929c2ef882c8b84e04c2.webp",
+      "category": "식품",
+      "site": "쿠팡",
+      "source": "아카라이브",
+      "sourceColor": "#10B981",
+      "link": "https://arca.live/b/hotdeal/181052963?p=1",
+      "publishedAt": "2026-08-26 09:50:15",
+      "likes": 0,
+      "fetchedAt": "2026-08-26T00:52:19.213Z",
+      "priceComparison": [
+        {
+          "site": "쿠팡",
+          "price": "15,200원"
+        },
+        {
+          "site": "갤러리아몰",
+          "price": "30,550원"
+        },
+        {
+          "site": "푸드스프링",
+          "price": "22,800원"
+        },
+        {
+          "site": "GS SHOP",
+          "price": "25,000원"
+        },
+        {
+          "site": "옥션",
+          "price": "27,900원"
+        },
+        {
+          "site": "11번가",
+          "price": "27,000원"
+        },
+        {
+          "site": "코스트코",
+          "price": "22,790원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "2026-06-08",
+            "price": 15990
+          },
+          {
+            "date": "2026-06-12",
+            "price": 14940
+          },
+          {
+            "date": "2026-06-19",
+            "price": 20210
+          },
+          {
+            "date": "2026-06-23",
+            "price": 20210
+          },
+          {
+            "date": "2026-06-27",
+            "price": 19960
+          },
+          {
+            "date": "2026-06-30",
+            "price": 15960
+          },
+          {
+            "date": "2026-07-02",
+            "price": 12460
+          },
+          {
+            "date": "2026-07-03",
+            "price": 12260
+          },
+          {
+            "date": "2026-07-04",
+            "price": 20210
+          },
+          {
+            "date": "2026-07-07",
+            "price": 20210
+          },
+          {
+            "date": "2026-07-08",
+            "price": 20210
+          },
+          {
+            "date": "2026-07-10",
+            "price": 20210
+          },
+          {
+            "date": "2026-07-13",
+            "price": 20000
+          },
+          {
+            "date": "2026-07-18",
+            "price": 17960
+          },
+          {
+            "date": "2026-07-19",
+            "price": 17960
+          },
+          {
+            "date": "2026-07-27",
+            "price": 19150
+          },
+          {
+            "date": "2026-07-28",
+            "price": 18910
+          },
+          {
+            "date": "2026-08-01",
+            "price": 20210
+          },
+          {
+            "date": "2026-08-03",
+            "price": 20210
+          },
+          {
+            "date": "2026-08-04",
+            "price": 19200
+          },
+          {
+            "date": "2026-08-08",
+            "price": 19200
+          },
+          {
+            "date": "2026-08-10",
+            "price": 19200
+          },
+          {
+            "date": "2026-08-13",
+            "price": 19200
+          },
+          {
+            "date": "2026-08-14",
+            "price": 14980
+          },
+          {
+            "date": "2026-08-17",
+            "price": 19200
+          },
+          {
+            "date": "2026-08-20",
+            "price": 19200
+          },
+          {
+            "date": "2026-08-21",
+            "price": 19040
+          },
+          {
+            "date": "2026-08-23",
+            "price": 19200
+          },
+          {
+            "date": "2026-08-25",
+            "price": 19200
+          }
+        ],
+        "minPrice": 12260,
+        "maxPrice": 20210
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
       "id": "hdz_201352",
       "title": "롯데웰푸드 아맛나 통팥 (냉동), 1개입, 70ml, 40개",
       "price": "10,840원",
@@ -35882,308 +36336,7 @@
       },
       "postContent": null,
       "shopUrl": null
-    },
-    {
-      "id": "hdz_200795",
-      "title": "국내산 서천 무조미 재래김 100장",
-      "price": "11,400원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/08/25/thumb_f8f1abae8cb53858fd6f36b0c7931f17.webp",
-      "category": "식품",
-      "site": "롯데온",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/10254869796",
-      "publishedAt": "2026-08-25 11:50:16",
-      "likes": 9,
-      "fetchedAt": "2026-08-25T03:40:51.398Z",
-      "priceComparison": [
-        {
-          "site": "롯데온",
-          "price": "11,400원"
-        },
-        {
-          "site": "11번가",
-          "price": "13,800원"
-        },
-        {
-          "site": "SSG.COM",
-          "price": "16,900원"
-        },
-        {
-          "site": "푸드스프링",
-          "price": "16,500원"
-        },
-        {
-          "site": "SSG.COM",
-          "price": "18,510원"
-        },
-        {
-          "site": "진도아리랑몰",
-          "price": "18,000원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "06-02",
-            "price": 13300
-          },
-          {
-            "date": "06-09",
-            "price": 13300
-          },
-          {
-            "date": "06-16",
-            "price": 13300
-          },
-          {
-            "date": "06-23",
-            "price": 13300
-          },
-          {
-            "date": "06-30",
-            "price": 13300
-          },
-          {
-            "date": "07-07",
-            "price": 12590
-          },
-          {
-            "date": "07-14",
-            "price": 12590
-          },
-          {
-            "date": "07-21",
-            "price": 12590
-          },
-          {
-            "date": "07-28",
-            "price": 12590
-          },
-          {
-            "date": "08-04",
-            "price": 12590
-          },
-          {
-            "date": "08-11",
-            "price": 12590
-          },
-          {
-            "date": "08-18",
-            "price": 12590
-          }
-        ],
-        "minPrice": 12590,
-        "maxPrice": 13300
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_200794",
-      "title": "비세척 햇꿀고구마 특상 3kg",
-      "price": "8,500원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/08/25/thumb_3505f06926f75b1e4b43229da5035cd2.webp",
-      "category": "식품",
-      "site": "롯데온",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://hotdeal.zip/ppomppu_view.php?url=view.php%3Fid%3Dppomppu%26page%3D1%26divpage%3D115%26no%3D729186",
-      "publishedAt": "2026-08-25 11:48:42",
-      "likes": 9,
-      "fetchedAt": "2026-08-25T03:40:51.398Z",
-      "priceComparison": [
-        {
-          "site": "롯데온",
-          "price": "8,500원"
-        },
-        {
-          "site": "오아시스마켓",
-          "price": "15,900원"
-        },
-        {
-          "site": "11번가",
-          "price": "12,900원"
-        },
-        {
-          "site": "해남미소",
-          "price": "12,500원"
-        },
-        {
-          "site": "로우스퀘어",
-          "price": "8,900원"
-        },
-        {
-          "site": "SSG.COM",
-          "price": "16,900원"
-        },
-        {
-          "site": "우체국쇼핑",
-          "price": "13,500원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "06-02",
-            "price": 11750
-          },
-          {
-            "date": "06-09",
-            "price": 11820
-          },
-          {
-            "date": "06-16",
-            "price": 11810
-          },
-          {
-            "date": "06-23",
-            "price": 11820
-          },
-          {
-            "date": "06-30",
-            "price": 11820
-          },
-          {
-            "date": "07-07",
-            "price": 11820
-          },
-          {
-            "date": "07-14",
-            "price": 11820
-          },
-          {
-            "date": "07-21",
-            "price": 11780
-          },
-          {
-            "date": "07-28",
-            "price": 11780
-          },
-          {
-            "date": "08-04",
-            "price": 11600
-          },
-          {
-            "date": "08-11",
-            "price": 11600
-          },
-          {
-            "date": "08-18",
-            "price": 11600
-          }
-        ],
-        "minPrice": 11600,
-        "maxPrice": 11820
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_200793",
-      "title": "닭터 닭가슴살 스테이크 4종 20봉",
-      "price": "19,900원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/08/25/thumb_2f5797a6b253f1e9ece75787454bf85d.webp",
-      "category": "식품",
-      "site": "네이버",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://hotdeal.zip/ppomppu_view.php?url=view.php%3Fid%3Dppomppu%26page%3D1%26divpage%3D115%26no%3D729185",
-      "publishedAt": "2026-08-25 11:46:45",
-      "likes": 21,
-      "fetchedAt": "2026-08-25T03:40:51.398Z",
-      "priceComparison": [
-        {
-          "site": "네이버",
-          "price": "19,900원"
-        },
-        {
-          "site": "닭고기몰",
-          "price": "24,900원"
-        },
-        {
-          "site": "우체국쇼핑",
-          "price": "25,800원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_200792",
-      "title": "메가MGC커피 팥빙 젤라또 파르페",
-      "price": "3,520원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/08/25/thumb_d85fa3335efa7a60b1f36f4140c7be52.webp",
-      "category": "식품",
-      "site": "네이버",
-      "source": "아카라이브",
-      "sourceColor": "#10B981",
-      "link": "https://arca.live/b/hotdeal/180957826?p=1",
-      "publishedAt": "2026-08-25 11:46:15",
-      "likes": 20,
-      "fetchedAt": "2026-08-25T03:40:51.398Z",
-      "priceComparison": [
-        {
-          "site": "네이버",
-          "price": "3,520원"
-        },
-        {
-          "site": "11번가",
-          "price": "3,390원"
-        },
-        {
-          "site": "G마켓",
-          "price": "3,520원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_200791",
-      "title": "더싱싱 햇 아오리사과 썸머킹 2kg",
-      "price": "7,400원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/08/25/thumb_38cc553c88f50c5cb22cd2677f9a1448.webp",
-      "category": "식품",
-      "site": "네이버",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/10254848050",
-      "publishedAt": "2026-08-25 11:44:20",
-      "likes": 20,
-      "fetchedAt": "2026-08-25T03:40:51.398Z",
-      "priceComparison": [
-        {
-          "site": "네이버",
-          "price": "7,400원"
-        },
-        {
-          "site": "오아시스마켓",
-          "price": "7,400원"
-        },
-        {
-          "site": "싱싱핫",
-          "price": "7,800원"
-        },
-        {
-          "site": "트렌드잇",
-          "price": "8,900원"
-        },
-        {
-          "site": "오아시스마켓",
-          "price": "11,500원"
-        },
-        {
-          "site": "홈플러스",
-          "price": "18,900원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": null,
-      "shopUrl": null
     }
   ],
-  "lastUpdated": "2026-08-26T00:45:19.612Z"
+  "lastUpdated": "2026-08-26T00:52:20.445Z"
 }

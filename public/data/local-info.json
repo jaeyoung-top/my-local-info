@@ -4628,6 +4628,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "admin",
       "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "범죄 피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-08-26",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원 등 수사기관",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "범죄 피해 아동 및 장애인의 수사·재판상 의사소통 중개 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -12395,7 +12408,67 @@
       "summary": "인문사회 데이터에 AI를 융합하여 새로운 연구 방법론 개발 지원",
       "link": "https://www.msit.go.kr",
       "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-26-1",
+      "name": "NIPA 산업현장 AI 신뢰성 확보 및 확산 지원사업",
+      "category": "AI지원",
+      "startDate": "2026-08-26",
+      "endDate": "상시",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "중소·중견기업, AI 솔루션 개발기업",
+      "summary": "산업 현장 AI 솔루션의 신뢰성 검증 및 안전한 적용을 지원하여 AI 확산을 촉진",
+      "link": "https://www.nipa.kr/main/index.jsp",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-26-2",
+      "name": "서울 AI 허브 AI 데이터셋 구축 및 품질 개선 지원",
+      "category": "AI지원",
+      "startDate": "2026-08-26",
+      "endDate": "상시",
+      "location": "서울 AI 허브",
+      "target": "AI 스타트업, 연구팀",
+      "summary": "AI 모델 개발에 필요한 고품질 학습 데이터셋 구축 및 관리 기술을 지원",
+      "link": "https://seoulaihub.kr/",
+      "image": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-26-3",
+      "name": "K-Startup AI 기반 HR/인재관리 솔루션 스타트업 육성",
+      "category": "AI지원",
+      "startDate": "2026-08-26",
+      "endDate": "2027-02-28",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "초기 AI 스타트업",
+      "summary": "AI 기반 인사(HR) 및 인재 관리 혁신 솔루션을 개발하는 스타트업 집중 육성",
+      "link": "https://www.k-startup.go.kr/main.do",
+      "image": "https://images.unsplash.com/photo-1526378800651-c32d170fe6f8?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-26-4",
+      "name": "중소벤처기업부 AI 기반 초개인화 제품/서비스 개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-08-26",
+      "endDate": "2026-12-31",
+      "location": "중소벤처기업부",
+      "target": "중소기업",
+      "summary": "AI 기술을 활용하여 고객 맞춤형 제품 및 서비스 개발을 지원하고 시장 적용 촉진",
+      "link": "https://www.bizinfo.go.kr/web/main/index.do",
+      "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-26-5",
+      "name": "과학기술정보통신부 AI 기반 문화유산 디지털 보존 및 활용 기술 개발",
+      "category": "AI지원",
+      "startDate": "2026-08-26",
+      "endDate": "2027-12-31",
+      "location": "과학기술정보통신부",
+      "target": "연구기관, 기업, 대학",
+      "summary": "AI를 활용하여 문화유산을 디지털로 보존하고 새로운 가치를 창출하는 기술 R&D 지원",
+      "link": "https://www.msit.go.kr/index.do",
+      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-08-25"
+  "lastUpdated": "2026-08-26"
 }
