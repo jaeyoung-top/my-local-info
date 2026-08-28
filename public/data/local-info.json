@@ -1,6 +1,30 @@
 {
   "events": [
     {
+      "name": "송파구문화예술회관 정기공연",
+      "category": "공연",
+      "startDate": "2026-09-01",
+      "endDate": "2026-09-30",
+      "location": "송파구문화예술회관",
+      "target": "전체 구민",
+      "summary": "문화예술의 도시 송파를 위한 송파구문화예술회관의 정기 공연 소식을 안내합니다.",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9048&aid=18222",
+      "id": "crawler-1787904648967-201",
+      "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1787465695songpa.JPG"
+    },
+    {
+      "name": "송파청년축제, 우리동네 축제, 달빛 속 문화유산 여행",
+      "category": "축제",
+      "startDate": "2026-09-01",
+      "endDate": "2026-09-30",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "송파구의 송파청년축제, 우리동네 축제 및 2026 달빛 속 문화유산 여행 등 다양한 문화 행사를 소개합니다.",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9048&aid=18223",
+      "id": "crawler-1787904646678-923",
+      "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1787464030songpa.JPG"
+    },
+    {
       "name": "송파 문화 예술 특집 (콘서트, 페스티벌, 공연 등)",
       "category": "문화",
       "startDate": "2026-08-01",
@@ -4654,6 +4678,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "admin",
       "image": "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=80"
+    },
+    {
+      "id": "000025",
+      "name": "범죄 피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-08-28",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청 등 수사기관이나 법원",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "범죄 피해 아동·장애인의 수사·재판상 의사소통 중개 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -12541,7 +12578,19 @@
       "summary": "AI 기술을 활용한 스마트 헬스케어 서비스 개발 및 현장 실증 지원",
       "link": "https://www.msit.go.kr/",
       "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-28-1",
+      "name": "K-Startup AI 기반 ESG 솔루션 스타트업 육성",
+      "category": "AI지원",
+      "startDate": "2026-02-15",
+      "endDate": "2026-03-31",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "AI 기반 ESG 솔루션 개발 스타트업",
+      "summary": "AI 기술로 ESG 문제 해결 및 지속가능성을 높이는 창업기업 육성 및 사업화 지원",
+      "link": "https://www.k-startup.go.kr/biz/2026/ai_esg_startup.do",
+      "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-08-27"
+  "lastUpdated": "2026-08-28"
 }
