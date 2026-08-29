@@ -1,6 +1,30 @@
 {
   "events": [
     {
+      "name": "송파구 9월 문화 캘린더",
+      "category": "문화",
+      "startDate": "2026-09-01",
+      "endDate": "2026-09-30",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "송파구 9월의 다양한 문화 행사, 공연, 전시 일정을 한눈에 볼 수 있는 캘린더입니다.",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9048&aid=18219",
+      "id": "crawler-1787979407561-60",
+      "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1787467502songpa.JPG"
+    },
+    {
+      "name": "송파, 축제의 현장",
+      "category": "축제",
+      "startDate": "2026-09-01",
+      "endDate": "2026-09-30",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "송파청년축제, 우리동네 축제, 달빛 속 문화유산 여행 등 송파구의 다양한 축제 정보를 제공합니다.",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9048&aid=18223",
+      "id": "crawler-1787979405665-98",
+      "image": "https://picsum.photos/seed/625636/800/500"
+    },
+    {
       "name": "송파구문화예술회관 정기공연",
       "category": "공연",
       "startDate": "2026-09-01",
@@ -97,18 +121,6 @@
       "image": "https://picsum.photos/seed/703432/800/500"
     },
     {
-      "name": "송파구 8월 문화 캘린더",
-      "category": "문화",
-      "startDate": "2026-08-01",
-      "endDate": "2026-08-31",
-      "location": "송파구 관내",
-      "target": "전체 구민",
-      "summary": "2026년 8월 송파구에서 진행되는 다양한 문화 행사 및 공연 일정을 총망라한 캘린더 정보",
-      "link": "https://songpa.newstool.co.kr/./view.php?eid=9041&aid=18071",
-      "id": "crawler-1785375838405-439",
-      "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1784895393songpa.JPG"
-    },
-    {
       "name": "8월 테마 포토이벤트: 인생 한 컷을 담아주세요",
       "category": "행사",
       "startDate": "2026-08-01",
@@ -131,18 +143,6 @@
       "link": "https://songpa.newstool.co.kr/./view.php?eid=9033&aid=17907",
       "id": "crawler-1784685173679-906",
       "image": "https://picsum.photos/seed/824588/800/500"
-    },
-    {
-      "name": "독자참여 포토이벤트: 8월 테마 '8.15.광복절' & '송파에서 즐기는 바캉스'",
-      "category": "행사",
-      "startDate": "2026-08-01",
-      "endDate": "2026-08-31",
-      "location": "온라인",
-      "target": "전체 구민",
-      "summary": "8월 광복절과 바캉스 테마로 송파에서의 소중한 순간을 담은 사진을 공모하는 독자 참여 이벤트",
-      "link": "https://songpa.newstool.co.kr/./view.php?eid=9033&aid=17907",
-      "id": "crawler-1784079728681-817",
-      "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1782221306songpa.JPG"
     }
   ],
   "benefits": [
@@ -4688,6 +4688,19 @@
       "location": "경찰서, 검찰청 등 수사기관이나 법원",
       "target": "범죄 피해 아동 및 장애인",
       "summary": "범죄 피해 아동·장애인의 수사·재판상 의사소통 중개 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
+    },
+    {
+      "id": "000025",
+      "name": "범죄 피해 아동·장애인 진술조력 지원",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "범죄 피해 아동·장애인의 수사·재판 소통 중개 지원",
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
@@ -12590,7 +12603,67 @@
       "summary": "AI 기술로 ESG 문제 해결 및 지속가능성을 높이는 창업기업 육성 및 사업화 지원",
       "link": "https://www.k-startup.go.kr/biz/2026/ai_esg_startup.do",
       "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-29-1",
+      "name": "NIPA AI 기반 초고성능 컴퓨팅 활용 기술 사업화 지원",
+      "category": "AI지원",
+      "startDate": "2026-08-29",
+      "endDate": "2026-12-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "초고성능 컴퓨팅 활용 AI 기술 보유 기업",
+      "summary": "AI 기술의 시장 출시를 위한 HPC 활용 및 사업화 지원",
+      "link": "https://www.nipa.kr",
+      "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-29-2",
+      "name": "서울 AI 허브 인공지능 기반 사회적 난제 해결 실증 프로젝트 2026",
+      "category": "AI지원",
+      "startDate": "2026-08-29",
+      "endDate": "2027-03-31",
+      "location": "서울 AI 허브",
+      "target": "사회문제 해결 목표 AI 스타트업/기업",
+      "summary": "사회적 난제 해결을 위한 AI 기술 실증 및 상용화 프로젝트 지원",
+      "link": "https://seoulaihub.kr",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-29-3",
+      "name": "K-Startup AI 기반 로컬 크리에이터 디지털 전환 사업화 지원 2026",
+      "category": "AI지원",
+      "startDate": "2026-08-29",
+      "endDate": "2027-02-28",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "AI 활용 로컬 크리에이터 및 소규모 기업",
+      "summary": "지역 기반 크리에이터의 AI 활용 디지털 전환 및 사업화 지원",
+      "link": "https://www.k-startup.go.kr",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-29-4",
+      "name": "중소벤처기업부 AI 기반 비제조업 중소기업 경영 혁신 바우처",
+      "category": "AI지원",
+      "startDate": "2026-08-29",
+      "endDate": "2026-12-15",
+      "location": "중소벤처기업부",
+      "target": "비제조업 중소기업 및 서비스업 분야",
+      "summary": "AI 솔루션 도입 통한 비제조업 중소기업 경영 혁신 바우처",
+      "link": "https://www.bizinfo.go.kr",
+      "image": "https://images.unsplash.com/photo-1488229297570-58520851e868?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-29-5",
+      "name": "과기정통부 차세대 AI 칩 생태계 조성을 위한 오픈소스 플랫폼 구축 R&D",
+      "category": "AI지원",
+      "startDate": "2026-08-29",
+      "endDate": "2028-12-31",
+      "location": "과학기술정보통신부",
+      "target": "AI 반도체 관련 기술 개발 및 생태계 조성 기업/연구기관",
+      "summary": "차세대 AI 칩 개발 환경의 오픈소스 플랫폼 구축 R&D 지원",
+      "link": "https://www.msit.go.kr",
+      "image": "https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-08-28"
+  "lastUpdated": "2026-08-29"
 }
