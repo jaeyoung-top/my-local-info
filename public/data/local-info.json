@@ -4717,6 +4717,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
+    },
+    {
+      "id": "127000",
+      "name": "범죄 피해 아동·장애인 진술조력 지원",
+      "category": "혜택",
+      "startDate": "2026-08-31",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "만 19세 미만 아동, 의사소통이 어려운 장애인 범죄 피해자의 수사·재판상 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -12736,7 +12749,67 @@
       "summary": "국가적 차원의 AI 데이터 표준화 및 상호운용성 확보를 위한 전략 연구 및 개발 지원",
       "link": "https://msit.go.kr",
       "image": "https://images.unsplash.com/photo-1526378800651-c32d170fe6f8?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-31-1",
+      "name": "AI 기반 미래예측 및 사회변화 대응 정책 연구 지원",
+      "category": "AI지원",
+      "startDate": "2026-08-31",
+      "endDate": "상시",
+      "location": "과학기술정보통신부",
+      "target": "AI 기반 정책 연구 기관 및 전문가 그룹",
+      "summary": "AI 기술을 활용한 미래 사회 변화 예측 및 효과적인 정책 수립을 위한 심층 연구 지원",
+      "link": "https://www.msit.go.kr/",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-31-2",
+      "name": "AI 융합 산업현장 데이터 통합 및 분석 솔루션 고도화",
+      "category": "AI지원",
+      "startDate": "2026-08-31",
+      "endDate": "상시",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "산업현장 데이터 활용 및 AI 솔루션 개발 기업",
+      "summary": "다양한 산업 현장의 데이터를 AI 기반으로 통합 분석하여 효율을 높이는 솔루션 개발 및 고도화 지원",
+      "link": "https://www.nipa.kr/main",
+      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-31-3",
+      "name": "인공지능 기반 사회적 약자 포용 서비스 실증 및 확산",
+      "category": "AI지원",
+      "startDate": "2026-08-31",
+      "endDate": "상시",
+      "location": "서울 AI 허브",
+      "target": "AI 기술 기반 사회적 약자 지원 서비스 개발 기업",
+      "summary": "고령층, 장애인 등 사회적 약자를 위한 AI 기반 서비스의 실증 및 보급 확산 지원",
+      "link": "https://www.seoulaihub.kr/",
+      "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-31-4",
+      "name": "AI·데이터 기반 지역 혁신 산업 고도화 창업 지원",
+      "category": "AI지원",
+      "startDate": "2026-08-31",
+      "endDate": "상시",
+      "location": "K-Startup 창업진흥원",
+      "target": "지역 특화 산업 AI·데이터 기반 창업기업",
+      "summary": "지역 경제 활성화를 위해 AI·데이터 기술을 활용한 혁신 산업 분야 창업 및 성장을 지원",
+      "link": "https://www.k-startup.go.kr/",
+      "image": "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-08-31-5",
+      "name": "AI·데이터 기반 중소기업 경영 리스크 관리 시스템 도입 지원",
+      "category": "AI지원",
+      "startDate": "2026-08-31",
+      "endDate": "상시",
+      "location": "중소벤처기업부",
+      "target": "AI 기반 리스크 관리 시스템 도입 희망 중소기업",
+      "summary": "중소기업의 경영, 생산, 공급망 리스크를 AI·데이터 기반으로 분석하고 관리하는 시스템 도입 지원",
+      "link": "https://www.mss.go.kr/",
+      "image": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-08-30"
+  "lastUpdated": "2026-08-31"
 }
