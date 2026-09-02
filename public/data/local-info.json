@@ -4647,6 +4647,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
+    },
+    {
+      "id": "000025",
+      "name": "범죄피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-09-02",
+      "endDate": "상시",
+      "location": "법무부",
+      "target": "성폭력·아동학대 등 범죄 피해 아동 및 장애인",
+      "summary": "범죄 피해 아동·장애인의 수사·재판 시 의사소통 및 진술 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1519340333755-56e9c1d04579?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -12774,7 +12787,67 @@
       "summary": "인공지능과 양자기술을 융합한 차세대 기술 연구개발을 지원하여 미래 경쟁력 강화",
       "link": "https://www.msit.go.kr",
       "image": "https://images.unsplash.com/photo-1516321165247-4aa89a48be55?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-02-1",
+      "name": "2026년 NIPA AI 기반 데이터 가치평가 및 비즈니스 모델 혁신 지원",
+      "category": "AI지원",
+      "startDate": "2026-09-01",
+      "endDate": "2026-11-30",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI·데이터 활용 기업 (중소·중견)",
+      "summary": "AI 기반 데이터 가치평가 및 신규 비즈니스 모델 발굴 지원",
+      "link": "https://www.nipa.kr/biz/program/ai_data_value_biz_2026.jsp",
+      "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-02-2",
+      "name": "2026년 서울 AI 허브 인공지능 기반 기후변화 대응 스타트업 액셀러레이션",
+      "category": "AI지원",
+      "startDate": "2026-09-02",
+      "endDate": "2027-02-28",
+      "location": "서울 AI 허브",
+      "target": "AI 기반 기후변화 대응 기술 스타트업",
+      "summary": "기후변화 대응 AI 스타트업 육성 및 시장 진출 가속화 지원",
+      "link": "https://www.seoulaihub.kr/program/climate_ai_accel_2026",
+      "image": "https://images.unsplash.com/photo-1516321165247-4aa89a48be55?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-02-3",
+      "name": "K-Startup 2026년 AI 융합 서비스 개발 인큐베이팅 프로그램",
+      "category": "AI지원",
+      "startDate": "2026-09-05",
+      "endDate": "2026-12-15",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "AI 융합 서비스 분야 초기 창업기업",
+      "summary": "AI 기술을 활용한 혁신 서비스 개발 및 사업화 집중 육성",
+      "link": "https://www.k-startup.go.kr/program/ai_service_incubating_2026",
+      "image": "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-02-4",
+      "name": "기업마당 2026년 중소기업 디지털 전환을 위한 빅데이터 플랫폼 활용 컨설팅",
+      "category": "AI지원",
+      "startDate": "2026-09-01",
+      "endDate": "상시",
+      "location": "기업마당 (중소벤처기업부)",
+      "target": "중소기업 (디지털 전환 희망 기업)",
+      "summary": "빅데이터 플랫폼 활용 및 데이터 기반 경영 혁신 컨설팅 제공",
+      "link": "https://www.bizinfo.go.kr/biz_data/bigdata_consulting_2026.jsp",
+      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-02-5",
+      "name": "과학기술정보통신부 2026년 차세대 디지털 트윈 핵심 기술 개발 및 실증",
+      "category": "AI지원",
+      "startDate": "2026-09-10",
+      "endDate": "2026-10-25",
+      "location": "과학기술정보통신부",
+      "target": "산학연 컨소시엄",
+      "summary": "차세대 디지털 트윈 기술 개발 및 다양한 산업 분야 실증 지원",
+      "link": "https://www.msit.go.kr/web/msipContents/contentsView.do?cateId=NT_110000000000000&artId=1717171",
+      "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-09-01"
+  "lastUpdated": "2026-09-02"
 }
