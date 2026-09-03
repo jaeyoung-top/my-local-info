@@ -1,6 +1,30 @@
 {
   "events": [
     {
+      "name": "인생 한 컷을 담아주세요 포토이벤트",
+      "category": "행사",
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-31",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "10월 한성백제문화제, 송파의 가을 등 가을 축제를 테마로 한 사진 공모 이벤트",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9048&aid=18226",
+      "id": "crawler-1788401818351-845",
+      "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1787462187songpa.JPG"
+    },
+    {
+      "name": "송파 축제의 현장",
+      "category": "축제",
+      "startDate": "2026-09-01",
+      "endDate": "2026-09-30",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "송파청년축제, 우리동네 축제, 2026 달빛 속 문화유산 여행 등 송파구의 다양한 축제 소식을 다룬 특집 기사",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9048&aid=18223",
+      "id": "crawler-1788401815901-748",
+      "image": "https://picsum.photos/seed/481080/800/500"
+    },
+    {
       "name": "송파구 9월 문화 캘린더",
       "category": "문화",
       "startDate": "2026-09-01",
@@ -11,18 +35,6 @@
       "link": "https://songpa.newstool.co.kr/./view.php?eid=9048&aid=18219",
       "id": "crawler-1787979407561-60",
       "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1787467502songpa.JPG"
-    },
-    {
-      "name": "송파, 축제의 현장",
-      "category": "축제",
-      "startDate": "2026-09-01",
-      "endDate": "2026-09-30",
-      "location": "송파구 관내",
-      "target": "전체 구민",
-      "summary": "송파청년축제, 우리동네 축제, 달빛 속 문화유산 여행 등 송파구의 다양한 축제 정보를 제공합니다.",
-      "link": "https://songpa.newstool.co.kr/./view.php?eid=9048&aid=18223",
-      "id": "crawler-1787979405665-98",
-      "image": "https://picsum.photos/seed/625636/800/500"
     },
     {
       "name": "송파구문화예술회관 정기공연",
@@ -4660,6 +4672,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1519340333755-56e9c1d04579?w=800&q=80"
+    },
+    {
+      "id": "127000",
+      "name": "범죄 피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-09-03",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원 등 수사기관",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "범죄 피해 아동, 장애인의 수사/재판상 진술 조력 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -12847,7 +12872,67 @@
       "summary": "차세대 디지털 트윈 기술 개발 및 다양한 산업 분야 실증 지원",
       "link": "https://www.msit.go.kr/web/msipContents/contentsView.do?cateId=NT_110000000000000&artId=1717171",
       "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-03-1",
+      "name": "정보통신산업진흥원 AI 기반 차세대 반도체 제조 공정 최적화 및 불량 예측 기술 개발",
+      "category": "AI지원",
+      "startDate": "2026-03-01",
+      "endDate": "2027-02-28",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "차세대 반도체 제조 AI 기술 개발 기업",
+      "summary": "AI 기반 차세대 반도체 제조 공정 최적화 및 불량 예측 기술 개발 지원",
+      "link": "https://www.nipa.kr/biz/nextgen_semicon_mfg_ai_2026",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-03-2",
+      "name": "서울 AI 허브 AI 기반 메타버스 환경 내 개인화 경험 기술 실증",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "2026-11-30",
+      "location": "서울 AI 허브",
+      "target": "메타버스/AI 융합 기술 스타트업",
+      "summary": "메타버스 내 개인별 맞춤 경험 제공을 위한 AI 기술 개발 및 실증 지원",
+      "link": "https://www.seoulaihub.kr/program/ai_metaverse_personalization_2026",
+      "image": "https://images.unsplash.com/photo-1488229297570-58520851e868?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-03-3",
+      "name": "K-Startup AI 기반 첨단 제조 공정 예측 및 품질 관리 솔루션 상용화",
+      "category": "AI지원",
+      "startDate": "2026-05-10",
+      "endDate": "2026-12-15",
+      "location": "K-Startup 창업진흥원",
+      "target": "AI 제조 혁신 스타트업",
+      "summary": "첨단 제조 공정 예측 및 품질 관리 AI 솔루션의 시장 상용화 지원",
+      "link": "https://www.k-startup.go.kr/program/ai_adv_mfg_commercial_2026",
+      "image": "https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-03-4",
+      "name": "기업마당 중소기업 AI 기반 비대면 교육·훈련 콘텐츠 개발 및 도입 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-01",
+      "endDate": "2026-10-31",
+      "location": "기업마당 (중소벤처기업부)",
+      "target": "비대면 교육/훈련 솔루션 개발 및 도입 희망 중소기업",
+      "summary": "AI 활용 비대면 교육 및 훈련 콘텐츠 개발 및 중소기업 내 도입 지원",
+      "link": "https://www.bizinfo.go.kr/support/ai_untact_edu_2026",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-03-5",
+      "name": "과학기술정보통신부 AI 기반 신개념 인공장기 및 생체모방 기술 개발",
+      "category": "AI지원",
+      "startDate": "2026-07-01",
+      "endDate": "2027-03-31",
+      "location": "과학기술정보통신부",
+      "target": "AI/바이오 융합 신기술 개발 연구기관 및 기업",
+      "summary": "인공장기 및 생체모방 기술 개발에 AI를 접목하여 의료 혁신 가속화",
+      "link": "https://www.msit.go.kr/policy/ai_bio_artificial_organ_2026",
+      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-09-02"
+  "lastUpdated": "2026-09-03"
 }
