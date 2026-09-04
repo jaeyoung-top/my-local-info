@@ -4685,6 +4685,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "admin",
       "image": "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=80"
+    },
+    {
+      "id": "000025",
+      "name": "범죄 피해 아동 및 장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원 등 수사기관",
+      "target": "만 19세 미만 아동 및 장애인 범죄 피해자",
+      "summary": "만 19세 미만 아동, 의사소통이 어려운 장애인 범죄 피해자의 수사·재판상 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1519340333755-56e9c1d04579?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -12932,7 +12945,67 @@
       "summary": "인공장기 및 생체모방 기술 개발에 AI를 접목하여 의료 혁신 가속화",
       "link": "https://www.msit.go.kr/policy/ai_bio_artificial_organ_2026",
       "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-04-1",
+      "name": "NIPA AI 기반 DX 전문기업 성장 바우처",
+      "category": "AI지원",
+      "startDate": "2026-09-01",
+      "endDate": "2026-12-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI·DX 전문 중소/중견기업",
+      "summary": "AI 기술 기반 DX 솔루션 개발 및 사업화를 위한 바우처 지원.",
+      "link": "https://www.nipa.kr/2026/bizinfo/PRG_AI_DX_0901",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-04-2",
+      "name": "서울 AI 허브 AI 리빙랩 실증 지원 사업",
+      "category": "AI지원",
+      "startDate": "2026-09-01",
+      "endDate": "2026-11-30",
+      "location": "서울 AI 허브",
+      "target": "AI 기술을 활용한 리빙랩 프로젝트 추진 스타트업",
+      "summary": "서울 시민 생활 문제 해결 AI 솔루션 리빙랩 실증 지원.",
+      "link": "https://www.seoulaihub.kr/program/2026/livinglab",
+      "image": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-04-3",
+      "name": "K-Startup AI 딥테크 인큐베이팅 프로그램",
+      "category": "AI지원",
+      "startDate": "2026-09-15",
+      "endDate": "2027-03-15",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "AI 딥테크 분야 초기 창업기업",
+      "summary": "AI 딥테크 스타트업을 위한 특화 보육 및 사업화 자금 지원.",
+      "link": "https://www.k-startup.go.kr/biz/2026/AI_DeepTech_Incubating",
+      "image": "https://images.unsplash.com/photo-1526378800651-c32d170fe6f8?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-04-4",
+      "name": "기업마당 디지털 전환 기술도입 매칭 지원",
+      "category": "AI지원",
+      "startDate": "2026-09-01",
+      "endDate": "상시",
+      "location": "기업마당 (중소벤처기업부)",
+      "target": "디지털 전환 솔루션 도입 희망 중소기업",
+      "summary": "AI·빅데이터 기반 디지털 전환 기술 공급기업과 도입기업 매칭 지원.",
+      "link": "https://www.bizinfo.go.kr/bizinfo/cmmn/program_digital_matching",
+      "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-04-5",
+      "name": "과학기술정보통신부 초고성능 AI 컴퓨팅 연구 지원",
+      "category": "AI지원",
+      "startDate": "2026-09-04",
+      "endDate": "2026-12-20",
+      "location": "과학기술정보통신부",
+      "target": "AI 연구개발 기관 및 기업",
+      "summary": "차세대 AI 모델 개발을 위한 고성능 컴퓨팅 자원 및 연구비 지원.",
+      "link": "https://www.msit.go.kr/bbs/2026/AI_HPC_Research",
+      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-09-03"
+  "lastUpdated": "2026-09-04"
 }
