@@ -4698,6 +4698,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1519340333755-56e9c1d04579?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "범죄 피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-09-05",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "범죄 피해 아동 및 장애인의 수사·재판 시 진술 중개 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -13005,7 +13018,67 @@
       "summary": "차세대 AI 모델 개발을 위한 고성능 컴퓨팅 자원 및 연구비 지원.",
       "link": "https://www.msit.go.kr/bbs/2026/AI_HPC_Research",
       "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-05-1",
+      "name": "NIPA AI 기반 분산에너지 시스템 최적화 및 거래 플랫폼 개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-03-01",
+      "endDate": "2026-12-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "분산에너지 관련 AI 기술 개발 기업",
+      "summary": "AI로 분산에너지 효율 극대화 및 거래 플랫폼 개발 지원",
+      "link": "https://www.nipa.kr",
+      "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-05-2",
+      "name": "K-Startup AI 기반 초실감 메타버스 교육 콘텐츠 창업 육성",
+      "category": "AI지원",
+      "startDate": "2026-04-15",
+      "endDate": "2027-02-28",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "AI·메타버스 융합 교육 콘텐츠 창업기업",
+      "summary": "AI 활용 초실감 교육 메타버스 콘텐츠 개발 및 사업화 지원",
+      "link": "https://www.k-startup.go.kr",
+      "image": "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-05-3",
+      "name": "서울 AI 허브 AI 기반 도시 환경 오염원 실시간 분석 및 예측 실증",
+      "category": "AI지원",
+      "startDate": "2026-06-01",
+      "endDate": "2027-01-31",
+      "location": "서울 AI 허브",
+      "target": "환경 AI 기술 스타트업, 중소기업",
+      "summary": "AI로 도시 오염원 분석 및 예측 솔루션 실증 및 고도화 지원",
+      "link": "https://www.seoulaihub.kr",
+      "image": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-05-4",
+      "name": "중소벤처기업부 AI 기반 수요 예측 최적화 생산 관리 시스템 도입 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-01",
+      "endDate": "2026-11-30",
+      "location": "중소벤처기업부",
+      "target": "제조업 중소기업",
+      "summary": "AI 기반 수요 예측을 통한 생산 관리 시스템 도입 지원",
+      "link": "https://www.bizinfo.go.kr",
+      "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-05-5",
+      "name": "과기정통부 AI 기반 뇌인지과학 융합 연구 및 사업화 지원",
+      "category": "AI지원",
+      "startDate": "2026-02-01",
+      "endDate": "2027-03-31",
+      "location": "과학기술정보통신부",
+      "target": "AI-뇌인지과학 융합 연구기관 및 기업",
+      "summary": "AI와 뇌인지과학 융합 기술 연구 및 상용화 지원",
+      "link": "https://www.msit.go.kr",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-09-04"
+  "lastUpdated": "2026-09-05"
 }
