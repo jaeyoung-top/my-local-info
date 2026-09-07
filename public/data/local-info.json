@@ -4724,6 +4724,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "admin",
       "image": "https://images.unsplash.com/photo-1604328698692-f76ea9498e76?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "성폭력·아동학대 피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원",
+      "target": "성폭력·아동학대·인신매매 피해 아동 및 장애인",
+      "summary": "만 19세 미만 아동, 장애인 범죄 피해자의 수사·재판상 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -13151,7 +13164,67 @@
       "summary": "AI를 활용한 신뢰성 높은 디지털 보증 및 신원 확인 기술 개발 지원.",
       "link": "https://www.msit.go.kr/web/ai_digital_id_2026.html",
       "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-07-1",
+      "name": "NIPA 2026년 AI 기반 SW 서비스 통합 플랫폼 구축 및 생태계 조성 지원",
+      "category": "AI지원",
+      "startDate": "2026-09-07",
+      "endDate": "2026-11-30",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI 기반 SW 개발 기업 및 컨소시엄",
+      "summary": "AI SW 서비스를 통합하고 상호운용성을 높이는 플랫폼 구축 및 생태계 활성화 지원",
+      "link": "https://www.nipa.kr",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-07-2",
+      "name": "서울 AI 허브 2026년 AI 모델 해석 가능성 및 투명성 확보 컨설팅 지원",
+      "category": "AI지원",
+      "startDate": "2026-09-07",
+      "endDate": "상시",
+      "location": "서울 AI 허브",
+      "target": "AI 스타트업",
+      "summary": "AI 모델의 해석 가능성(XAI) 및 투명성을 높이기 위한 기술 컨설팅 및 가이드 제공",
+      "link": "https://seoulaihub.kr",
+      "image": "https://images.unsplash.com/photo-1488229297570-58520851e868?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-07-3",
+      "name": "K-Startup 2026년 AI 에이전트 서비스 스타트업 육성 프로그램",
+      "category": "AI지원",
+      "startDate": "2026-09-07",
+      "endDate": "2026-10-31",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "AI 에이전트 기술 기반 스타트업",
+      "summary": "AI 에이전트 기술을 활용한 혁신 서비스 개발 및 사업화를 위한 멘토링 및 자금 지원",
+      "link": "https://www.k-startup.go.kr",
+      "image": "https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-07-4",
+      "name": "중소벤처기업부 2026년 중소기업 메타버스 비즈니스 환경 구축 지원",
+      "category": "AI지원",
+      "startDate": "2026-09-07",
+      "endDate": "2026-11-20",
+      "location": "중소벤처기업부 (기업마당)",
+      "target": "메타버스 활용을 희망하는 중소기업",
+      "summary": "중소기업의 메타버스 기반 비즈니스 환경 조성 및 서비스 도입을 위한 컨설팅 및 자금 지원",
+      "link": "https://www.bizinfo.go.kr",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-07-5",
+      "name": "과학기술정보통신부 2026년 AI 기반 초저지연 통신망 최적화 기술 개발",
+      "category": "AI지원",
+      "startDate": "2026-09-07",
+      "endDate": "2026-12-31",
+      "location": "과학기술정보통신부",
+      "target": "연구기관, 대학, 기업 컨소시엄",
+      "summary": "차세대 통신망의 초저지연 성능 확보를 위한 AI 기반 네트워크 최적화 기술 연구개발",
+      "link": "https://www.msit.go.kr",
+      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-09-06"
+  "lastUpdated": "2026-09-07"
 }
