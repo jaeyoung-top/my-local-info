@@ -13,16 +13,16 @@
       "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1787462187songpa.JPG"
     },
     {
-      "name": "송파 축제의 현장",
-      "category": "축제",
+      "name": "송파, 축제의 현장",
+      "category": "행사",
       "startDate": "2026-09-01",
       "endDate": "2026-09-30",
       "location": "송파구 관내",
       "target": "전체 구민",
-      "summary": "송파청년축제, 우리동네 축제, 2026 달빛 속 문화유산 여행 등 송파구의 다양한 축제 소식을 다룬 특집 기사",
+      "summary": "송파청년축제, 우리동네 축제, 달빛 속 문화유산 여행 등 송파구의 다양한 축제 현장을 소개합니다.",
       "link": "https://songpa.newstool.co.kr/./view.php?eid=9048&aid=18223",
-      "id": "crawler-1788401815901-748",
-      "image": "https://picsum.photos/seed/481080/800/500"
+      "id": "crawler-1788833868545-757",
+      "image": "https://picsum.photos/seed/625636/800/500"
     },
     {
       "name": "송파구 9월 문화 캘린더",
@@ -4737,6 +4737,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "피해 아동·장애인 진술조력 지원",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "상시",
+      "location": "수사기관 및 법원",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "범죄 피해 아동 및 장애인의 수사·재판 소통 중개 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -13224,7 +13237,67 @@
       "summary": "차세대 통신망의 초저지연 성능 확보를 위한 AI 기반 네트워크 최적화 기술 연구개발",
       "link": "https://www.msit.go.kr",
       "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-08-1",
+      "name": "2026년 NIPA AI 융합 산업 지능화 기반기술 개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-01",
+      "endDate": "2026-12-15",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI 기반 산업 지능화 기반기술 개발 기업 및 연구기관",
+      "summary": "산업 현장 적용을 위한 AI 융합 기반기술 연구개발 지원.",
+      "link": "https://www.nipa.kr/main/biz.html",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-08-2",
+      "name": "2026년 서울 AI 허브 인공지능 윤리 자율준수 솔루션 개발 및 적용 지원",
+      "category": "AI지원",
+      "startDate": "2026-08-01",
+      "endDate": "2026-10-31",
+      "location": "서울 AI 허브",
+      "target": "AI 윤리 자율준수 솔루션 개발 스타트업 및 중소기업",
+      "summary": "AI 윤리 관련 자율준수 솔루션 개발 및 실제 서비스 적용 지원.",
+      "link": "https://seoulaihub.kr/",
+      "image": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-08-3",
+      "name": "2026년 K-Startup AI 기반 멀티모달 데이터 처리 및 생성 기술 스타트업 육성",
+      "category": "AI지원",
+      "startDate": "2026-05-01",
+      "endDate": "2026-09-30",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "멀티모달 AI 데이터 처리 및 생성 기술 보유 초기 스타트업",
+      "summary": "멀티모달 데이터 기반 AI 기술 개발 스타트업 발굴 및 사업화 지원.",
+      "link": "https://www.k-startup.go.kr/",
+      "image": "https://images.unsplash.com/photo-1526378800651-c32d170fe6f8?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-08-4",
+      "name": "2026년 중소기업 AI 기반 로컬 서비스 고도화 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-01",
+      "endDate": "2026-11-30",
+      "location": "중소벤처기업부",
+      "target": "AI 기반 로컬 서비스 혁신을 희망하는 중소기업",
+      "summary": "AI 기술을 활용한 지역 기반 서비스의 품질 및 효율성 향상 지원.",
+      "link": "https://www.mss.go.kr/site/smba/ex/smba/main/main.do",
+      "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-08-5",
+      "name": "2026년 과학기술정보통신부 AI 모델 최적화를 위한 데이터셋 구축 및 관리 기술 개발",
+      "category": "AI지원",
+      "startDate": "2026-07-01",
+      "endDate": "2026-12-31",
+      "location": "과학기술정보통신부",
+      "target": "AI 모델 최적화용 데이터셋 기술 개발 연구기관 및 기업",
+      "summary": "AI 모델 성능 향상을 위한 데이터셋 구축 및 효율적 관리 기술 개발 지원.",
+      "link": "https://www.msit.go.kr/index.do",
+      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-09-07"
+  "lastUpdated": "2026-09-08"
 }
