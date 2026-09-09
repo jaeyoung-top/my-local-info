@@ -4750,6 +4750,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "admin",
       "image": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "피해아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-09-09",
+      "endDate": "상시",
+      "location": "수사기관 및 법원",
+      "target": "만 19세 미만 범죄피해 아동 및 장애인",
+      "summary": "범죄 피해 아동·장애인의 수사·재판 소통을 조력",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -13297,7 +13310,67 @@
       "summary": "AI 모델 성능 향상을 위한 데이터셋 구축 및 효율적 관리 기술 개발 지원.",
       "link": "https://www.msit.go.kr/index.do",
       "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-09-1",
+      "name": "NIPA AI 기반 금융 산업 특화 규제 준수 및 자동 심사 시스템 개발",
+      "category": "AI지원",
+      "startDate": "2026-09-01",
+      "endDate": "2028-08-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "금융 AI 솔루션 개발 기업 및 핀테크 스타트업",
+      "summary": "AI 기반 금융 규제 준수 및 내부 심사 자동화를 위한 솔루션 개발 지원",
+      "link": "https://www.nipa.kr/biz/ai-fintech-regtech26",
+      "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-09-2",
+      "name": "서울 AI 허브 AI 기반 메타버스 문화유산 실감 콘텐츠 개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-10-15",
+      "endDate": "2027-11-30",
+      "location": "서울 AI 허브",
+      "target": "AI 및 메타버스 문화유산 콘텐츠 스타트업",
+      "summary": "AI 기술을 활용한 메타버스 기반 문화유산 실감 콘텐츠 개발 및 상용화 지원",
+      "link": "https://www.seoulaihub.kr/support/ai-meta-heritage26",
+      "image": "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-09-3",
+      "name": "K-Startup AI 기반 인재 매칭 및 경력 전환 플랫폼 스타트업 육성",
+      "category": "AI지원",
+      "startDate": "2026-09-15",
+      "endDate": "2027-04-30",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "AI 기반 인재 매칭/경력 전환 플랫폼 스타트업",
+      "summary": "AI 기술로 인재 매칭 및 경력 전환을 돕는 플랫폼 스타트업 발굴 및 성장 지원",
+      "link": "https://www.k-startup.go.kr/공고/ai-talent-platform26",
+      "image": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-09-4",
+      "name": "중소벤처기업부 AI 기반 순환 경제형 비즈니스 모델 전환 지원",
+      "category": "AI지원",
+      "startDate": "2026-10-01",
+      "endDate": "2027-09-30",
+      "location": "중소벤처기업부 (기업마당)",
+      "target": "순환 경제 모델 도입 희망 중소기업",
+      "summary": "AI를 활용하여 자원 효율성 및 재활용을 높이는 순환 경제형 비즈니스 모델 전환 지원",
+      "link": "https://www.bizinfo.go.kr/공고/ai-circular-economy26",
+      "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-09-5",
+      "name": "과학기술정보통신부 개인 건강 데이터 AI 기반 통합 및 보안 기술 개발",
+      "category": "AI지원",
+      "startDate": "2026-11-01",
+      "endDate": "2029-10-31",
+      "location": "과학기술정보통신부",
+      "target": "의료/헬스케어 AI 및 데이터 보안 기술 개발 기업/연구기관",
+      "summary": "개인 건강 데이터의 AI 기반 통합, 분석 및 강화된 보안 기술 개발 지원",
+      "link": "https://www.msit.go.kr/사업/ai-health-security26",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-09-08"
+  "lastUpdated": "2026-09-09"
 }
