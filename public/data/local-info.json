@@ -13,6 +13,18 @@
       "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1787462187songpa.JPG"
     },
     {
+      "name": "송파구 주요 축제 및 문화유산 여행",
+      "category": "축제",
+      "startDate": "2026-09-01",
+      "endDate": "2026-09-30",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "송파청년축제, 우리동네 축제, 달빛 속 문화유산 여행 등 송파구의 다양한 축제 현장 소식",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9048&aid=18223",
+      "id": "crawler-1789092907742-518",
+      "image": "https://picsum.photos/seed/199228/800/500"
+    },
+    {
       "name": "송파, 축제의 현장",
       "category": "행사",
       "startDate": "2026-09-01",
@@ -4789,6 +4801,32 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
+    },
+    {
+      "id": "127000000023",
+      "name": "귀화·국적회복 신청 수수료 면제",
+      "category": "혜택",
+      "startDate": "2026-09-11",
+      "endDate": "상시",
+      "location": "지방출입국‧외국인관서",
+      "target": "귀화·국적회복 신청 수수료 면제 대상자",
+      "summary": "귀화허가, 국적회복 허가 신청 수수료 면제",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000023",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1553484771-371a605b060b?w=800&q=80"
+    },
+    {
+      "id": "000025",
+      "name": "범죄피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-09-11",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청 등 수사기관이나 법원",
+      "target": "범죄피해 아동(만19세 미만) 및 장애인",
+      "summary": "만19세 미만 아동, 의사소통 어려운 장애인 범죄피해자의 수사·재판 소통 중개 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1509822929063-6b6723e0e974?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -13458,5 +13496,5 @@
       "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-09-10"
+  "lastUpdated": "2026-09-11"
 }
