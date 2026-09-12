@@ -4827,6 +4827,32 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "admin",
       "image": "https://images.unsplash.com/photo-1509822929063-6b6723e0e974?w=800&q=80"
+    },
+    {
+      "id": "127000000023",
+      "name": "귀화 국적회복 신청 수수료 면제",
+      "category": "혜택",
+      "startDate": "2026-09-12",
+      "endDate": "상시",
+      "location": "지방출입국‧외국인관서",
+      "target": "특별공로자, 재난피해자, 장애인, 외국국적동포 등",
+      "summary": "귀화허가, 국적회복 허가 신청 수수료 면제",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000023",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1521791055366-0d553872952f?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "범죄 피해 아동 및 장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청 등 수사기관이나 법원",
+      "target": "범죄 피해 아동(만19세 미만) 및 장애인",
+      "summary": "만 19세 미만 아동, 의사소통 어려운 장애인 범죄 피해자 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1519340333755-56e9c1d04579?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -13494,7 +13520,67 @@
       "summary": "미래 AI 기술 트렌드를 반영한 혁신 아이디어 PoC (개념 증명) 자금 및 멘토링 지원",
       "link": "https://www.k-startup.go.kr/prog/aifuture_poc2026",
       "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-12-1",
+      "name": "정보통신산업진흥원 AI 기반 산업 데이터 거버넌스 및 활용 촉진 사업",
+      "category": "AI지원",
+      "startDate": "2026-09-01",
+      "endDate": "2026-12-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "산업 데이터 보유 기업, AI 솔루션 기업",
+      "summary": "산업 데이터의 표준화, 공유, 활용을 위한 AI 솔루션 개발 지원",
+      "link": "https://www.nipa.kr/biz/bizView.nipa?menuId=biz0100000000&bizId=BP20260901_001",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-12-2",
+      "name": "서울 AI 허브 AI 기반 K-콘텐츠 산업 특화 창업 육성 프로그램",
+      "category": "AI지원",
+      "startDate": "2026-09-15",
+      "endDate": "2027-08-31",
+      "location": "서울 AI 허브",
+      "target": "AI 기반 콘텐츠 스타트업, 예비창업가",
+      "summary": "인공지능 기술을 활용한 K-콘텐츠 분야 혁신 스타트업 발굴 및 육성 지원",
+      "link": "https://www.seoulaihub.kr/program/2026_kcontent_startup_program",
+      "image": "https://images.unsplash.com/photo-1488229297570-58520851e868?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-12-3",
+      "name": "K-Startup (창업진흥원) AI 딥테크 스타트업 해외 시장 검증 및 투자 유치 지원",
+      "category": "AI지원",
+      "startDate": "2026-08-01",
+      "endDate": "2027-07-31",
+      "location": "K-Startup 창업진흥원",
+      "target": "AI 딥테크 스타트업 (초기~도약 단계)",
+      "summary": "AI 딥테크 스타트업의 해외 시장 진출 및 투자 유치 지원",
+      "link": "https://www.k-startup.go.kr/biz/ai_deeptech_global_invest",
+      "image": "https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-12-4",
+      "name": "중소벤처기업부 AI 기반 탄소중립 경영 지원 및 ESG 데이터 플랫폼 구축",
+      "category": "AI지원",
+      "startDate": "2026-09-10",
+      "endDate": "2026-11-30",
+      "location": "중소벤처기업부 (기업마당)",
+      "target": "ESG 경영 도입 희망 중소기업",
+      "summary": "AI 기반 탄소중립 경영 및 ESG 데이터 플랫폼 구축을 지원",
+      "link": "https://www.bizinfo.go.kr/bizinfo/prog/retrieveSmbDsptBdgtProgDetail.do?menuId=biz01000&progId=P00000002131",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-12-5",
+      "name": "과학기술정보통신부 초거대 AI 기반 인과추론 및 설명가능 AI(XAI) 핵심기술 개발",
+      "category": "AI지원",
+      "startDate": "2026-10-01",
+      "endDate": "2029-09-30",
+      "location": "과학기술정보통신부",
+      "target": "연구기관, 기업, 대학 (컨소시엄)",
+      "summary": "초거대 AI의 인과추론 및 설명 가능성 확보를 위한 기술 개발 지원",
+      "link": "https://www.msit.go.kr/web/msitContents/contents.do?mId=MTQ5",
+      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-09-11"
+  "lastUpdated": "2026-09-12"
 }
