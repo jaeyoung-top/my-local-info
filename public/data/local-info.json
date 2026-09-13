@@ -4853,6 +4853,32 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1519340333755-56e9c1d04579?w=800&q=80"
+    },
+    {
+      "id": "127000000023",
+      "name": "귀화·국적회복 수수료 면제",
+      "category": "혜택",
+      "startDate": "2026-09-13",
+      "endDate": "상시",
+      "location": "지방출입국‧외국인관서",
+      "target": "특별공로자, 사할린동포 배우자, 특별재난지역 피해자, 장애인, 재외동포 등",
+      "summary": "귀화허가, 국적회복 허가 신청 수수료 면제",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000023",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "범죄 피해 아동/장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "상시",
+      "location": "법무부",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "범죄 피해 아동 및 의사소통 어려운 장애인의 수사·재판 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1519340333755-56e9c1d04579?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -13580,7 +13606,67 @@
       "summary": "초거대 AI의 인과추론 및 설명 가능성 확보를 위한 기술 개발 지원",
       "link": "https://www.msit.go.kr/web/msitContents/contents.do?mId=MTQ5",
       "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-13-1",
+      "name": "NIPA AI 기반 언어 장벽 해소를 위한 자동 통번역 기술 사업화 지원",
+      "category": "AI지원",
+      "startDate": "2026-09-13",
+      "endDate": "2026-11-30",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI 기반 언어 기술 스타트업 및 중소기업",
+      "summary": "AI 자동 통번역 기술 개발 및 국내외 시장 사업화 지원",
+      "link": "https://www.nipa.kr/biz/view.nipa?bizId=B0000000010",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-13-2",
+      "name": "서울 AI 허브 AI 기반 스마트 건설 현장 안전 관리 솔루션 실증 지원",
+      "category": "AI지원",
+      "startDate": "2026-09-13",
+      "endDate": "2026-11-30",
+      "location": "서울 AI 허브",
+      "target": "AI 기반 건설 안전 솔루션 스타트업",
+      "summary": "AI 기술을 활용한 건설 현장 안전 관리 솔루션 개발 및 실증 지원",
+      "link": "https://seoulaihub.kr/program/detail?id=P0000000020",
+      "image": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-13-3",
+      "name": "K-Startup AI 기반 첨단 센서 기술 융합 스타트업 액셀러레이팅",
+      "category": "AI지원",
+      "startDate": "2026-09-13",
+      "endDate": "2026-11-30",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "AI 및 첨단 센서 융합 기술 스타트업",
+      "summary": "첨단 센서와 AI 기술 융합 스타트업 발굴, 육성 및 투자 연계 지원",
+      "link": "https://www.k-startup.go.kr/biz/view.kstartup?pmsId=S0000000030",
+      "image": "https://images.unsplash.com/photo-1526378800651-c32d170fe6f8?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-13-4",
+      "name": "기업마당 중소기업 AI 기반 클라우드 비용 최적화 및 관리 솔루션 도입 지원",
+      "category": "AI지원",
+      "startDate": "2026-09-13",
+      "endDate": "2026-11-30",
+      "location": "기업마당",
+      "target": "클라우드 사용 중소기업",
+      "summary": "AI 기반 클라우드 자원 및 비용 효율적 관리 솔루션 도입 지원",
+      "link": "https://www.bizinfo.go.kr/sym/cmm/program/bizProgramDetail.do?progrmId=P0000000040",
+      "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-13-5",
+      "name": "과학기술정보통신부 AI 기반 양자 센싱 데이터 분석 및 활용 기술 개발",
+      "category": "AI지원",
+      "startDate": "2026-09-13",
+      "endDate": "2026-11-30",
+      "location": "과학기술정보통신부",
+      "target": "AI·양자 센싱 기술 연구기관 및 기업",
+      "summary": "AI를 활용한 양자 센싱 데이터 분석 및 신규 서비스 개발 원천기술 지원",
+      "link": "https://www.msit.go.kr/web/msitContents/contents.do?idx=120",
+      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-09-12"
+  "lastUpdated": "2026-09-13"
 }
