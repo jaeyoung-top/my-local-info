@@ -4879,6 +4879,32 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1519340333755-56e9c1d04579?w=800&q=80"
+    },
+    {
+      "id": "127000000023",
+      "name": "귀화 국적회복 수수료 면제",
+      "category": "혜택",
+      "startDate": "2026-09-14",
+      "endDate": "상시",
+      "location": "지방출입국‧외국인관서",
+      "target": "귀화/국적회복 신청 특별공로자, 재난피해자, 장애인 등",
+      "summary": "귀화허가, 국적회복 허가 신청 수수료 면제",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000023",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1553484771-371a605b060b?w=800&q=80"
+    },
+    {
+      "id": "127000",
+      "name": "범죄 피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청 등 수사기관 및 법원",
+      "target": "성폭력·아동학대·인신매매 등 범죄 피해 아동 및 장애인",
+      "summary": "범죄 피해 아동 및 장애인 수사·재판상 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -13666,7 +13692,67 @@
       "summary": "AI를 활용한 양자 센싱 데이터 분석 및 신규 서비스 개발 원천기술 지원",
       "link": "https://www.msit.go.kr/web/msitContents/contents.do?idx=120",
       "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-14-1",
+      "name": "정보통신산업진흥원 (NIPA) 산업현장 AI 기반 공정 혁신 시뮬레이션 지원",
+      "category": "AI지원",
+      "startDate": "2026-09-14",
+      "endDate": "2026-12-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "제조 중소·중견기업",
+      "summary": "AI 기반 디지털 트윈으로 제조 공정 최적화 및 생산성 향상 지원",
+      "link": "https://www.nipa.kr/main/index.html",
+      "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-14-2",
+      "name": "서울 AI 허브 AI 서비스 상용화 전 안전성 검증 지원",
+      "category": "AI지원",
+      "startDate": "2026-09-14",
+      "endDate": "2026-12-31",
+      "location": "서울 AI 허브",
+      "target": "AI 서비스 개발 스타트업",
+      "summary": "AI 서비스 상용화 전 잠재적 위험 및 안전성 검증 기술 지원",
+      "link": "https://seoulaihub.kr/",
+      "image": "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-14-3",
+      "name": "K-Startup 지역 특화 AI 문화·관광 콘텐츠 스타트업 액셀러레이션",
+      "category": "AI지원",
+      "startDate": "2026-09-14",
+      "endDate": "2026-12-31",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "지역 기반 AI 스타트업",
+      "summary": "지역 특화 문화·관광 콘텐츠에 AI 접목하여 사업화 지원",
+      "link": "https://www.k-startup.go.kr/",
+      "image": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-14-4",
+      "name": "중소기업 AI 기반 제조 탄소중립 DX 컨설팅 및 솔루션 개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-09-14",
+      "endDate": "2026-12-31",
+      "location": "기업마당 (중소벤처기업부)",
+      "target": "탄소중립 목표 중소 제조기업",
+      "summary": "AI 활용 탄소중립 제조 공정 DX 컨설팅 및 맞춤형 솔루션 개발 지원",
+      "link": "https://www.bizinfo.go.kr/",
+      "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-14-5",
+      "name": "과학기술정보통신부 AI 기반 초연결 네트워크 자율 운영 및 보안 기술 개발",
+      "category": "AI지원",
+      "startDate": "2026-09-14",
+      "endDate": "2026-12-31",
+      "location": "과학기술정보통신부",
+      "target": "연구기관, 통신사, 기업",
+      "summary": "AI로 초연결 네트워크의 자율 운영 및 지능형 보안 시스템 기술 개발",
+      "link": "https://www.msit.go.kr/",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-09-13"
+  "lastUpdated": "2026-09-14"
 }
