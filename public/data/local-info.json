@@ -4905,6 +4905,32 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "admin",
       "image": "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=80"
+    },
+    {
+      "id": "000023",
+      "name": "귀화허가, 국적회복허가 신청 수수료 면제",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "상시",
+      "location": "법무부",
+      "target": "특별공로자, 사할린동포 배우자, 재난피해자, 장애인, 외국국적동포 등",
+      "summary": "귀화 및 국적회복 허가 신청 수수료 면제",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000023",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "범죄 피해 아동 및 장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-09-15",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청 등 수사기관이나 법원",
+      "target": "범죄 피해 아동(만 19세 미만) 및 장애인",
+      "summary": "범죄 피해 아동 및 장애인의 수사·재판 소통 중개 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1519340333755-56e9c1d04579?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -13752,7 +13778,67 @@
       "summary": "AI로 초연결 네트워크의 자율 운영 및 지능형 보안 시스템 기술 개발",
       "link": "https://www.msit.go.kr/",
       "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-15-1",
+      "name": "NIPA AI 기반 산업 지능화 인프라 구축 지원",
+      "category": "AI지원",
+      "startDate": "2026-03-01",
+      "endDate": "2026-06-30",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "중소·중견기업 및 컨소시엄",
+      "summary": "산업 전반의 AI 활용을 위한 데이터/클라우드 인프라 구축 지원",
+      "link": "https://www.nipa.kr/main/main.do",
+      "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-15-2",
+      "name": "서울 AI 허브 시민 참여형 AI 리터러시 강화 프로그램",
+      "category": "AI지원",
+      "startDate": "2026-09-01",
+      "endDate": "상시",
+      "location": "서울 AI 허브",
+      "target": "서울 시민, 비전공 창업가",
+      "summary": "시민 대상 AI 이해도 증진 및 기본 활용 능력 교육 지원",
+      "link": "https://seoulaihub.kr/program/edu/",
+      "image": "https://images.unsplash.com/photo-1516321165247-4aa89a48be55?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-15-3",
+      "name": "K-Startup AI 기술 사업화 가속화 및 시장 진출 지원",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "2026-11-30",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "AI 기술 보유 초기 창업기업",
+      "summary": "AI 기반 제품/서비스의 상용화 및 국내외 시장 진출 가속화 지원",
+      "link": "https://www.k-startup.go.kr/web/contents/bizinfo-main.do",
+      "image": "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-15-4",
+      "name": "중소기업 AI 기반 디지털 전환 전략 수립 지원",
+      "category": "AI지원",
+      "startDate": "2026-05-01",
+      "endDate": "2026-10-31",
+      "location": "기업마당",
+      "target": "디지털 전환 희망 중소기업",
+      "summary": "AI 활용 디지털 전환을 위한 비즈니스 전략 및 로드맵 수립 지원",
+      "link": "https://www.bizinfo.go.kr/web/main/index.do",
+      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-15-5",
+      "name": "과학기술정보통신부 인공지능 기반 공공행정 혁신 모델 개발 및 실증",
+      "category": "AI지원",
+      "startDate": "2026-07-01",
+      "endDate": "2027-06-30",
+      "location": "과학기술정보통신부",
+      "target": "공공기관 및 AI 기술 기업 컨소시엄",
+      "summary": "AI 활용 공공행정 프로세스 효율화 및 혁신 모델 개발/실증",
+      "link": "https://www.msit.go.kr/index.do",
+      "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-09-14"
+  "lastUpdated": "2026-09-15"
 }
