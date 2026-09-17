@@ -4944,6 +4944,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "성폭력, 아동학대 등 범죄 피해 아동·장애인 진술조력 지원",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "상시",
+      "location": "법무부 (전국 수사·재판기관 연계)",
+      "target": "성폭력, 아동학대 등 범죄 피해 아동 및 장애인",
+      "summary": "범죄 피해 아동 및 장애인의 수사·재판상 의사소통을 중개·지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -13911,7 +13924,67 @@
       "summary": "국가 핵심 인프라의 AI 기반 자율 복원 및 변화에 적응하는 지능형 기술 개발",
       "link": "https://www.msit.go.kr/web/main/ai/infra_resilience.do",
       "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-17-1",
+      "name": "NIPA AI 기반 디지털 콘텐츠 위변조 판별 및 신뢰성 강화 기술 개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-09-01",
+      "endDate": "2027-08-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "디지털 콘텐츠 신뢰성 기술 개발 기업/기관",
+      "summary": "AI 활용 디지털 콘텐츠의 위변조 판별 및 신뢰성 확보 기술 개발을 지원합니다.",
+      "link": "https://www.nipa.kr",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-17-2",
+      "name": "서울 AI 허브 AI 기반 시민 주도형 서비스 혁신 디자인 실증 프로그램",
+      "category": "AI지원",
+      "startDate": "2026-10-01",
+      "endDate": "2027-09-30",
+      "location": "서울 AI 허브",
+      "target": "시민 참여형 AI 서비스 개발 스타트업 및 연구팀",
+      "summary": "AI 기술로 시민이 직접 참여하여 혁신적인 공공 서비스 디자인 및 실증을 지원합니다.",
+      "link": "https://www.seoulaihub.kr",
+      "image": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-17-3",
+      "name": "K-Startup AI 모델 온디바이스(On-device) 최적화 기술 상용화 지원",
+      "category": "AI지원",
+      "startDate": "2026-09-15",
+      "endDate": "2027-03-15",
+      "location": "K-Startup 창업진흥원",
+      "target": "온디바이스 AI 모델 기술 스타트업",
+      "summary": "경량화된 AI 모델의 온디바이스 구현 및 상용화를 위한 기술 및 사업화를 지원합니다.",
+      "link": "https://www.k-startup.go.kr",
+      "image": "https://images.unsplash.com/photo-1526378800651-c32d170fe6f8?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-17-4",
+      "name": "기업마당 AI 기반 중소기업 공급망 ESG 데이터 통합 및 분석 지원",
+      "category": "AI지원",
+      "startDate": "2026-11-01",
+      "endDate": "2027-10-31",
+      "location": "기업마당 (중소벤처기업부)",
+      "target": "ESG 경영 도입 희망 중소·중견기업",
+      "summary": "중소기업의 공급망 ESG 데이터를 AI로 통합하고 분석하는 솔루션 도입을 지원합니다.",
+      "link": "https://www.bizinfo.go.kr",
+      "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-17-5",
+      "name": "과학기술정보통신부 인공지능 기반 미세먼지 및 대기질 예측/제어 기술 개발 및 실증",
+      "category": "AI지원",
+      "startDate": "2026-09-01",
+      "endDate": "2028-08-31",
+      "location": "과학기술정보통신부",
+      "target": "미세먼지/대기질 AI 기술 개발 연구기관 및 기업",
+      "summary": "AI를 활용한 미세먼지 등 대기질 예측 및 제어 핵심 기술 개발 및 실증을 지원합니다.",
+      "link": "https://www.msit.go.kr",
+      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-09-16"
+  "lastUpdated": "2026-09-17"
 }
