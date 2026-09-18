@@ -1,6 +1,954 @@
 {
   "deals": [
     {
+      "id": "hdz_216294",
+      "title": "CGV 한가위 영화예매권",
+      "price": "9,730원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/09/18/cgv-9730-3069-cb5832b194ec67bd22ac8eb0ea1ceebe309c6139e8042fee94ea58d8e5da915c.webp",
+      "category": "기타",
+      "site": "옥션",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=735519",
+      "publishedAt": "2026-09-19 07:38:25",
+      "likes": 13,
+      "fetchedAt": "2026-09-18T22:55:43.458Z",
+      "priceComparison": [
+        {
+          "site": "옥션",
+          "price": "9,730원"
+        },
+        {
+          "site": "11번가",
+          "price": "13,000원"
+        },
+        {
+          "site": "11번가",
+          "price": "11,500원"
+        },
+        {
+          "site": "G마켓",
+          "price": "10,900원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "06-30",
+            "price": 13000
+          },
+          {
+            "date": "07-07",
+            "price": 13000
+          },
+          {
+            "date": "07-14",
+            "price": 13000
+          },
+          {
+            "date": "07-21",
+            "price": 13000
+          },
+          {
+            "date": "07-28",
+            "price": 13000
+          },
+          {
+            "date": "08-04",
+            "price": 13000
+          },
+          {
+            "date": "08-11",
+            "price": 13000
+          },
+          {
+            "date": "08-18",
+            "price": 13000
+          },
+          {
+            "date": "08-25",
+            "price": 13000
+          },
+          {
+            "date": "09-01",
+            "price": 13000
+          },
+          {
+            "date": "09-08",
+            "price": 13000
+          },
+          {
+            "date": "09-15",
+            "price": 13000
+          }
+        ],
+        "minPrice": 13000,
+        "maxPrice": 13000
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_216293",
+      "title": "코카콜라 제로제로, 350ml, 24개",
+      "price": "15,520원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/09/18/798d-c5e1d062aa4fbf97981286fe26bcf5719bc38c44442eb3b148517c9d8eaa1587.webp",
+      "category": "식품",
+      "site": "쿠팡와우",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/10350946958",
+      "publishedAt": "2026-09-19 07:38:13",
+      "likes": 8,
+      "fetchedAt": "2026-09-18T22:55:43.459Z",
+      "priceComparison": [
+        {
+          "site": "11번가",
+          "price": "28,200원"
+        },
+        {
+          "site": "SSG.COM",
+          "price": "20,560원"
+        },
+        {
+          "site": "마켓컬리",
+          "price": "19,400원"
+        },
+        {
+          "site": "G마켓",
+          "price": "31,630원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "2026-06-21",
+            "price": 20460
+          },
+          {
+            "date": "2026-07-04",
+            "price": 20460
+          },
+          {
+            "date": "2026-07-07",
+            "price": 20460
+          },
+          {
+            "date": "2026-07-13",
+            "price": 11830
+          },
+          {
+            "date": "2026-07-16",
+            "price": 17800
+          },
+          {
+            "date": "2026-07-17",
+            "price": 20460
+          },
+          {
+            "date": "2026-07-20",
+            "price": 20460
+          },
+          {
+            "date": "2026-07-27",
+            "price": 20460
+          },
+          {
+            "date": "2026-07-30",
+            "price": 20460
+          },
+          {
+            "date": "2026-08-02",
+            "price": 17480
+          },
+          {
+            "date": "2026-08-06",
+            "price": 20940
+          },
+          {
+            "date": "2026-08-09",
+            "price": 21600
+          },
+          {
+            "date": "2026-08-12",
+            "price": 20610
+          },
+          {
+            "date": "2026-08-15",
+            "price": 20610
+          },
+          {
+            "date": "2026-08-18",
+            "price": 20610
+          },
+          {
+            "date": "2026-08-21",
+            "price": 20610
+          },
+          {
+            "date": "2026-08-24",
+            "price": 19890
+          },
+          {
+            "date": "2026-08-27",
+            "price": 20520
+          },
+          {
+            "date": "2026-08-30",
+            "price": 19440
+          },
+          {
+            "date": "2026-09-03",
+            "price": 15490
+          },
+          {
+            "date": "2026-09-06",
+            "price": 19440
+          },
+          {
+            "date": "2026-09-09",
+            "price": 20100
+          },
+          {
+            "date": "2026-09-12",
+            "price": 19440
+          },
+          {
+            "date": "2026-09-15",
+            "price": 20180
+          },
+          {
+            "date": "2026-09-18",
+            "price": 19440
+          },
+          {
+            "date": "2026-09-19",
+            "price": 15520
+          }
+        ],
+        "minPrice": 11830,
+        "maxPrice": 21600
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_216292",
+      "title": "오레오 웨하스 스틱 초코, 510g, 1개",
+      "price": "10,390원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/09/18/dc7b-96b49a59a9d882e3f61f9e2ca681575271e6cbe5d875558d541980e1b7790e70.webp",
+      "category": "식품",
+      "site": "쿠팡와우",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/10350943726",
+      "publishedAt": "2026-09-19 07:36:12",
+      "likes": 11,
+      "fetchedAt": "2026-09-18T22:55:43.459Z",
+      "priceComparison": [
+        {
+          "site": "쿠아이템즈",
+          "price": "10,670원"
+        },
+        {
+          "site": "11번가",
+          "price": "32,500원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "2026-06-20",
+            "price": 10670
+          },
+          {
+            "date": "2026-06-23",
+            "price": 12720
+          },
+          {
+            "date": "2026-07-05",
+            "price": 12720
+          },
+          {
+            "date": "2026-07-09",
+            "price": 13080
+          },
+          {
+            "date": "2026-07-12",
+            "price": 13080
+          },
+          {
+            "date": "2026-07-16",
+            "price": 13080
+          },
+          {
+            "date": "2026-07-19",
+            "price": 13080
+          },
+          {
+            "date": "2026-07-27",
+            "price": 13080
+          },
+          {
+            "date": "2026-07-30",
+            "price": 13080
+          },
+          {
+            "date": "2026-08-02",
+            "price": 13080
+          },
+          {
+            "date": "2026-08-05",
+            "price": 13080
+          },
+          {
+            "date": "2026-08-08",
+            "price": 13080
+          },
+          {
+            "date": "2026-08-11",
+            "price": 13460
+          },
+          {
+            "date": "2026-08-14",
+            "price": 13080
+          },
+          {
+            "date": "2026-08-17",
+            "price": 13080
+          },
+          {
+            "date": "2026-08-20",
+            "price": 13080
+          },
+          {
+            "date": "2026-08-23",
+            "price": 13080
+          },
+          {
+            "date": "2026-08-27",
+            "price": 13080
+          },
+          {
+            "date": "2026-08-28",
+            "price": 10720
+          },
+          {
+            "date": "2026-08-30",
+            "price": 13080
+          },
+          {
+            "date": "2026-09-02",
+            "price": 12680
+          },
+          {
+            "date": "2026-09-05",
+            "price": 12680
+          },
+          {
+            "date": "2026-09-08",
+            "price": 12680
+          },
+          {
+            "date": "2026-09-11",
+            "price": 12680
+          },
+          {
+            "date": "2026-09-14",
+            "price": 12680
+          },
+          {
+            "date": "2026-09-17",
+            "price": 12680
+          },
+          {
+            "date": "2026-09-19",
+            "price": 10390
+          }
+        ],
+        "minPrice": 10390,
+        "maxPrice": 13460
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_216291",
+      "title": "오라틱스 잇몸유산균CMU 12박스",
+      "price": "299,000원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/09/18/h-cmu-12-299000-4490-100bcfdef8621cdab54cf4bab8703acaa1267a0b6a9dea489f13e6270774c964.webp",
+      "category": "식품",
+      "site": "H몰",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=735518",
+      "publishedAt": "2026-09-19 07:32:28",
+      "likes": 1,
+      "fetchedAt": "2026-09-18T22:55:43.459Z",
+      "priceComparison": [
+        {
+          "site": "H몰",
+          "price": "299,000원"
+        },
+        {
+          "site": "CJ온스타일",
+          "price": "329,000원"
+        },
+        {
+          "site": "GS SHOP",
+          "price": "348,000원"
+        },
+        {
+          "site": "11번가",
+          "price": "407,350원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "2026-07-22",
+            "price": 150490
+          },
+          {
+            "date": "2026-07-23",
+            "price": 150490
+          },
+          {
+            "date": "2026-07-24",
+            "price": 150490
+          },
+          {
+            "date": "2026-07-25",
+            "price": 150490
+          },
+          {
+            "date": "2026-07-26",
+            "price": 150490
+          },
+          {
+            "date": "2026-07-27",
+            "price": 150490
+          },
+          {
+            "date": "2026-07-29",
+            "price": 150490
+          },
+          {
+            "date": "2026-07-30",
+            "price": 150490
+          },
+          {
+            "date": "2026-07-31",
+            "price": 150490
+          },
+          {
+            "date": "2026-08-01",
+            "price": 150490
+          },
+          {
+            "date": "2026-08-02",
+            "price": 150490
+          },
+          {
+            "date": "2026-08-03",
+            "price": 150490
+          },
+          {
+            "date": "2026-08-04",
+            "price": 150490
+          },
+          {
+            "date": "2026-08-05",
+            "price": 150490
+          },
+          {
+            "date": "2026-08-06",
+            "price": 150490
+          },
+          {
+            "date": "2026-08-07",
+            "price": 150490
+          },
+          {
+            "date": "2026-08-08",
+            "price": 150490
+          },
+          {
+            "date": "2026-08-09",
+            "price": 150490
+          },
+          {
+            "date": "2026-08-10",
+            "price": 150490
+          },
+          {
+            "date": "2026-08-11",
+            "price": 150490
+          },
+          {
+            "date": "2026-08-12",
+            "price": 150490
+          },
+          {
+            "date": "2026-08-13",
+            "price": 150490
+          },
+          {
+            "date": "2026-08-14",
+            "price": 150490
+          },
+          {
+            "date": "2026-08-15",
+            "price": 148980
+          },
+          {
+            "date": "2026-08-16",
+            "price": 148980
+          },
+          {
+            "date": "2026-08-17",
+            "price": 150490
+          },
+          {
+            "date": "2026-08-18",
+            "price": 150490
+          },
+          {
+            "date": "2026-08-19",
+            "price": 158390
+          },
+          {
+            "date": "2026-08-20",
+            "price": 150490
+          },
+          {
+            "date": "2026-08-21",
+            "price": 150490
+          },
+          {
+            "date": "2026-08-22",
+            "price": 150490
+          },
+          {
+            "date": "2026-08-23",
+            "price": 150490
+          },
+          {
+            "date": "2026-08-24",
+            "price": 150490
+          },
+          {
+            "date": "2026-08-25",
+            "price": 150490
+          },
+          {
+            "date": "2026-08-26",
+            "price": 150490
+          },
+          {
+            "date": "2026-08-27",
+            "price": 150490
+          },
+          {
+            "date": "2026-08-28",
+            "price": 150490
+          },
+          {
+            "date": "2026-08-29",
+            "price": 150490
+          },
+          {
+            "date": "2026-08-30",
+            "price": 150490
+          },
+          {
+            "date": "2026-08-31",
+            "price": 150490
+          },
+          {
+            "date": "2026-09-01",
+            "price": 150490
+          },
+          {
+            "date": "2026-09-02",
+            "price": 150490
+          },
+          {
+            "date": "2026-09-03",
+            "price": 150490
+          },
+          {
+            "date": "2026-09-04",
+            "price": 153800
+          },
+          {
+            "date": "2026-09-05",
+            "price": 153800
+          },
+          {
+            "date": "2026-09-06",
+            "price": 153800
+          },
+          {
+            "date": "2026-09-07",
+            "price": 153800
+          },
+          {
+            "date": "2026-09-08",
+            "price": 153800
+          },
+          {
+            "date": "2026-09-09",
+            "price": 153800
+          },
+          {
+            "date": "2026-09-10",
+            "price": 153800
+          },
+          {
+            "date": "2026-09-11",
+            "price": 153800
+          },
+          {
+            "date": "2026-09-12",
+            "price": 153800
+          },
+          {
+            "date": "2026-09-13",
+            "price": 153800
+          },
+          {
+            "date": "2026-09-14",
+            "price": 153800
+          },
+          {
+            "date": "2026-09-15",
+            "price": 153800
+          },
+          {
+            "date": "2026-09-16",
+            "price": 149180
+          },
+          {
+            "date": "2026-09-17",
+            "price": 149180
+          },
+          {
+            "date": "2026-09-18",
+            "price": 149180
+          },
+          {
+            "date": "2026-09-19",
+            "price": 149180
+          }
+        ],
+        "minPrice": 148980,
+        "maxPrice": 158390
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_216290",
+      "title": "이롬 황성주 과채습관, 퍼플, 140ml, 24개",
+      "price": "9,900원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/09/18/140ml-24-9f6a-a3ec358f29fbb3de00a8a41dc1c8d7849a31d573ca4b9f523be4e947e4a17cea.webp",
+      "category": "식품",
+      "site": "토스쇼핑",
+      "source": "기타",
+      "sourceColor": "#888888",
+      "link": "https://toss.shopping/t/62755233",
+      "publishedAt": "2026-09-19 07:20:09",
+      "likes": 7,
+      "fetchedAt": "2026-09-18T22:55:43.459Z",
+      "priceComparison": [
+        {
+          "site": "토스쇼핑",
+          "price": "9,900원"
+        },
+        {
+          "site": "SSG.COM",
+          "price": "13,160원"
+        },
+        {
+          "site": "이롬 공식몰",
+          "price": "12,400원"
+        },
+        {
+          "site": "11번가",
+          "price": "18,000원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "06-30",
+            "price": 10900
+          },
+          {
+            "date": "07-07",
+            "price": 10900
+          },
+          {
+            "date": "07-14",
+            "price": 11400
+          },
+          {
+            "date": "07-21",
+            "price": 11400
+          },
+          {
+            "date": "07-28",
+            "price": 11400
+          },
+          {
+            "date": "08-04",
+            "price": 11400
+          },
+          {
+            "date": "08-11",
+            "price": 11400
+          },
+          {
+            "date": "08-18",
+            "price": 11400
+          },
+          {
+            "date": "08-25",
+            "price": 11400
+          },
+          {
+            "date": "09-01",
+            "price": 10710
+          },
+          {
+            "date": "09-08",
+            "price": 11400
+          },
+          {
+            "date": "09-15",
+            "price": 11400
+          }
+        ],
+        "minPrice": 10710,
+        "maxPrice": 11400
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_216289",
+      "title": "종근당건강 락토핏 코어맥스 60포, 5통 + 증정 락토핏 코어맥스, 30포 + 오늘비움, 1개",
+      "price": "55,986원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/09/18/60-5-30-1-b6ee-6298e5b6c6f5859a735ad3a6327f747f7dc77d8187b5ab5e982a8fdf73b71acb.webp",
+      "category": "식품",
+      "site": "토스쇼핑",
+      "source": "기타",
+      "sourceColor": "#888888",
+      "link": "https://toss.shopping/t/2329804315",
+      "publishedAt": "2026-09-19 07:20:07",
+      "likes": 4,
+      "fetchedAt": "2026-09-18T22:55:43.459Z",
+      "priceComparison": [
+        {
+          "site": "토스쇼핑",
+          "price": "55,986원"
+        },
+        {
+          "site": "패션플러스",
+          "price": "63,700원"
+        },
+        {
+          "site": "신세계몰",
+          "price": "52,900원"
+        },
+        {
+          "site": "11번가",
+          "price": "135,320원"
+        },
+        {
+          "site": "종근당건강몰",
+          "price": "101,000원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "2026-09-01",
+            "price": 14500
+          },
+          {
+            "date": "2026-09-02",
+            "price": 14500
+          },
+          {
+            "date": "2026-09-03",
+            "price": 14500
+          },
+          {
+            "date": "2026-09-04",
+            "price": 14500
+          },
+          {
+            "date": "2026-09-05",
+            "price": 14500
+          },
+          {
+            "date": "2026-09-06",
+            "price": 14500
+          },
+          {
+            "date": "2026-09-07",
+            "price": 14500
+          },
+          {
+            "date": "2026-09-08",
+            "price": 14500
+          },
+          {
+            "date": "2026-09-09",
+            "price": 14500
+          },
+          {
+            "date": "2026-09-10",
+            "price": 14500
+          },
+          {
+            "date": "2026-09-11",
+            "price": 14500
+          },
+          {
+            "date": "2026-09-12",
+            "price": 14500
+          },
+          {
+            "date": "2026-09-13",
+            "price": 14500
+          },
+          {
+            "date": "2026-09-14",
+            "price": 14500
+          },
+          {
+            "date": "2026-09-15",
+            "price": 19500
+          },
+          {
+            "date": "2026-09-16",
+            "price": 19500
+          },
+          {
+            "date": "2026-09-17",
+            "price": 19500
+          },
+          {
+            "date": "2026-09-18",
+            "price": 19500
+          },
+          {
+            "date": "2026-09-19",
+            "price": 19500
+          }
+        ],
+        "minPrice": 14500,
+        "maxPrice": 19500
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_216288",
+      "title": "전통시장 농축산물",
+      "price": "67,000원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/09/18/67-2-ee88-cf191cd25a1b22f02c7513541fd51766f264829262c7ab200b6c757b62f85e71.webp",
+      "category": "식품",
+      "site": "foodnuri.go.kr",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=735517",
+      "publishedAt": "2026-09-19 07:12:33",
+      "likes": 39,
+      "fetchedAt": "2026-09-18T22:55:43.459Z",
+      "priceComparison": [
+        {
+          "site": "foodnuri.go.kr",
+          "price": "67,000원"
+        },
+        {
+          "site": "우체국쇼핑 전통시장",
+          "price": "63,700원"
+        },
+        {
+          "site": "우체국쇼핑 전통시장",
+          "price": "69,000원"
+        },
+        {
+          "site": "온누리전통시장",
+          "price": "122,000원부터"
+        },
+        {
+          "site": "온누리전통시장",
+          "price": "43,900원부터"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "06-30",
+            "price": 24210
+          },
+          {
+            "date": "07-07",
+            "price": 24210
+          },
+          {
+            "date": "07-14",
+            "price": 24210
+          },
+          {
+            "date": "07-21",
+            "price": 24210
+          },
+          {
+            "date": "07-28",
+            "price": 24210
+          },
+          {
+            "date": "08-04",
+            "price": 24210
+          },
+          {
+            "date": "08-11",
+            "price": 24210
+          },
+          {
+            "date": "08-18",
+            "price": 24210
+          },
+          {
+            "date": "08-25",
+            "price": 24210
+          },
+          {
+            "date": "09-01",
+            "price": 24210
+          },
+          {
+            "date": "09-08",
+            "price": 24210
+          },
+          {
+            "date": "09-15",
+            "price": 24210
+          }
+        ],
+        "minPrice": 24210,
+        "maxPrice": 24210
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
       "id": "hdz_216286",
       "title": "[스팀] PAPERHEAD EP.0",
       "price": "0원",
@@ -79352,650 +80300,7 @@
       },
       "postContent": null,
       "shopUrl": null
-    },
-    {
-      "id": "hdz_215622",
-      "title": "추희자두 대과 3kg",
-      "price": "16,190원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/09/17/3kg-16190-71fd-f3c507d3b4d4f2ff40facddb61b45f8eb005a625aa9778ae431bd6cf278f3273.webp",
-      "category": "식품",
-      "site": "지마켓",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=735238",
-      "publishedAt": "2026-09-17 21:26:47",
-      "likes": 10,
-      "fetchedAt": "2026-09-17T13:58:21.508Z",
-      "priceComparison": [
-        {
-          "site": "지마켓",
-          "price": "16,190원"
-        },
-        {
-          "site": "GS SHOP",
-          "price": "35,500원"
-        },
-        {
-          "site": "11번가",
-          "price": "23,210원"
-        },
-        {
-          "site": "나마사이트",
-          "price": "29,000원"
-        },
-        {
-          "site": "8도감",
-          "price": "14,900원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "2026-09-15",
-            "price": 19900
-          },
-          {
-            "date": "2026-09-16",
-            "price": 19900
-          },
-          {
-            "date": "2026-09-17",
-            "price": 19900
-          }
-        ],
-        "minPrice": 19900,
-        "maxPrice": 19900
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_215621",
-      "title": "진주닮은쌀 임실농협쌀 26년산 햅쌀 해담미 10kg",
-      "price": "28,900원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/09/17/g-26-10kg-28900-3e5d-9ec0cbd07b54452137ccc0f62b60a0e2a5aac373b5b2d72e794b3cd062324e25.webp",
-      "category": "식품",
-      "site": "G마켓",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=735239",
-      "publishedAt": "2026-09-17 21:26:35",
-      "likes": 21,
-      "fetchedAt": "2026-09-17T13:58:21.508Z",
-      "priceComparison": [
-        {
-          "site": "G마켓",
-          "price": "28,900원"
-        },
-        {
-          "site": "11번가",
-          "price": "36,030원"
-        },
-        {
-          "site": "신세계쇼핑",
-          "price": "33,520원"
-        },
-        {
-          "site": "오늘의집",
-          "price": "29,856원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "09-08",
-            "price": 31430
-          },
-          {
-            "date": "09-15",
-            "price": 31020
-          }
-        ],
-        "minPrice": 31020,
-        "maxPrice": 31430
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_215620",
-      "title": "내장제거 찐보리굴비(대) 29cm내외 5팩",
-      "price": "32,790원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/09/17/29cm-5-32790-04b3-aec46d26cf78189dbdd6b11ea53ecf56d1455e9535d45e1ee84ed1bcca488127.webp",
-      "category": "식품",
-      "site": "롯데온",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=735237",
-      "publishedAt": "2026-09-17 21:22:31",
-      "likes": 31,
-      "fetchedAt": "2026-09-17T13:58:21.508Z",
-      "priceComparison": [
-        {
-          "site": "롯데온",
-          "price": "32,790원"
-        },
-        {
-          "site": "신세계몰",
-          "price": "46,410원"
-        },
-        {
-          "site": "GS SHOP",
-          "price": "59,500원"
-        },
-        {
-          "site": "GS SHOP",
-          "price": "55,000원"
-        },
-        {
-          "site": "GS SHOP",
-          "price": "52,000원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "2026-07-17",
-            "price": 57900
-          },
-          {
-            "date": "2026-07-19",
-            "price": 57900
-          },
-          {
-            "date": "2026-07-21",
-            "price": 57900
-          },
-          {
-            "date": "2026-07-23",
-            "price": 57900
-          },
-          {
-            "date": "2026-07-25",
-            "price": 57900
-          },
-          {
-            "date": "2026-07-27",
-            "price": 57900
-          },
-          {
-            "date": "2026-07-29",
-            "price": 63900
-          },
-          {
-            "date": "2026-07-31",
-            "price": 63900
-          },
-          {
-            "date": "2026-08-02",
-            "price": 63900
-          },
-          {
-            "date": "2026-08-04",
-            "price": 63900
-          },
-          {
-            "date": "2026-08-06",
-            "price": 63900
-          },
-          {
-            "date": "2026-08-08",
-            "price": 63900
-          },
-          {
-            "date": "2026-08-10",
-            "price": 63900
-          },
-          {
-            "date": "2026-08-12",
-            "price": 63900
-          },
-          {
-            "date": "2026-08-14",
-            "price": 63900
-          },
-          {
-            "date": "2026-08-16",
-            "price": 61900
-          },
-          {
-            "date": "2026-08-18",
-            "price": 63900
-          },
-          {
-            "date": "2026-08-22",
-            "price": 63900
-          },
-          {
-            "date": "2026-08-23",
-            "price": 63900
-          },
-          {
-            "date": "2026-08-25",
-            "price": 63900
-          },
-          {
-            "date": "2026-08-27",
-            "price": 63900
-          },
-          {
-            "date": "2026-08-29",
-            "price": 61200
-          },
-          {
-            "date": "2026-08-31",
-            "price": 61200
-          },
-          {
-            "date": "2026-09-02",
-            "price": 63900
-          },
-          {
-            "date": "2026-09-04",
-            "price": 63900
-          },
-          {
-            "date": "2026-09-06",
-            "price": 63900
-          },
-          {
-            "date": "2026-09-08",
-            "price": 63900
-          },
-          {
-            "date": "2026-09-10",
-            "price": 63900
-          },
-          {
-            "date": "2026-09-12",
-            "price": 63900
-          },
-          {
-            "date": "2026-09-13",
-            "price": 63900
-          },
-          {
-            "date": "2026-09-14",
-            "price": 63900
-          },
-          {
-            "date": "2026-09-16",
-            "price": 63900
-          }
-        ],
-        "minPrice": 57900,
-        "maxPrice": 63900
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_215619",
-      "title": "제주 황금향 로얄과 2.5kg 7~14과 선물세트",
-      "price": "21,860원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/09/17/g-25kg-714-21860-8a2c-8e9bf9c1091c328e6a5995e75e1a7c3423516714440ad288400504ef10bf3d8d.webp",
-      "category": "식품",
-      "site": "G마켓",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=735235",
-      "publishedAt": "2026-09-17 21:21:14",
-      "likes": 10,
-      "fetchedAt": "2026-09-17T13:58:21.508Z",
-      "priceComparison": [
-        {
-          "site": "G마켓",
-          "price": "21,860원"
-        },
-        {
-          "site": "옥션",
-          "price": "24,440원"
-        },
-        {
-          "site": "11번가",
-          "price": "26,880원"
-        },
-        {
-          "site": "이마트몰",
-          "price": "32,310원"
-        },
-        {
-          "site": "오아시스마켓",
-          "price": "31,800원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "2026-09-10",
-            "price": 16500
-          },
-          {
-            "date": "2026-09-11",
-            "price": 16500
-          },
-          {
-            "date": "2026-09-12",
-            "price": 16500
-          },
-          {
-            "date": "2026-09-13",
-            "price": 16500
-          },
-          {
-            "date": "2026-09-14",
-            "price": 16500
-          },
-          {
-            "date": "2026-09-15",
-            "price": 16500
-          },
-          {
-            "date": "2026-09-16",
-            "price": 16500
-          },
-          {
-            "date": "2026-09-17",
-            "price": 16500
-          }
-        ],
-        "minPrice": 16500,
-        "maxPrice": 16500
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_215618",
-      "title": "토일럿 욕실세정제 자작나무수액 500ml 3개",
-      "price": "44,000원",
-      "image": "https://image.hotdeal.zip/images/2026/09/17/500ml-3-50-44000-552c-e7f66d97a89cbefe244b75485a1adc47c50776213d0ee8cd209e0853e844ba53.jpg",
-      "category": "생활용품",
-      "site": "네이버 스마트스토어",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=735236",
-      "publishedAt": "2026-09-17 21:20:52",
-      "likes": 15,
-      "fetchedAt": "2026-09-17T13:58:21.508Z",
-      "priceComparison": [
-        {
-          "site": "네이버 스마트스토어",
-          "price": "44,000원"
-        },
-        {
-          "site": "세스코몰",
-          "price": "18,300원"
-        },
-        {
-          "site": "11번가",
-          "price": "22,240원"
-        },
-        {
-          "site": "11번가",
-          "price": "11,600원"
-        },
-        {
-          "site": "다이소몰",
-          "price": "1,500원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "06-30",
-            "price": 10800
-          },
-          {
-            "date": "07-07",
-            "price": 10640
-          },
-          {
-            "date": "07-14",
-            "price": 10640
-          },
-          {
-            "date": "07-21",
-            "price": 10680
-          },
-          {
-            "date": "07-28",
-            "price": 10680
-          },
-          {
-            "date": "08-04",
-            "price": 10680
-          },
-          {
-            "date": "08-11",
-            "price": 11400
-          },
-          {
-            "date": "08-18",
-            "price": 11400
-          },
-          {
-            "date": "08-25",
-            "price": 11400
-          },
-          {
-            "date": "09-01",
-            "price": 11050
-          },
-          {
-            "date": "09-08",
-            "price": 11050
-          },
-          {
-            "date": "09-15",
-            "price": 11050
-          }
-        ],
-        "minPrice": 10640,
-        "maxPrice": 11400
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_215617",
-      "title": "후숙 아보카도 대과 1kg 5-6개입",
-      "price": "8,900원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/09/17/1kg-5-6-8900-8d23-d5439db11432e7e8e95468068821ddad643055e477553aeac873edea699caac5.webp",
-      "category": "식품",
-      "site": "네이버 스마트스토어",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=735234",
-      "publishedAt": "2026-09-17 21:16:32",
-      "likes": 7,
-      "fetchedAt": "2026-09-17T13:58:21.508Z",
-      "priceComparison": [
-        {
-          "site": "네이버 스마트스토어",
-          "price": "8,900원"
-        },
-        {
-          "site": "8도감",
-          "price": "16,900원"
-        },
-        {
-          "site": "11번가",
-          "price": "12,090원부터"
-        },
-        {
-          "site": "GS SHOP",
-          "price": "10,900원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "2026-07-21",
-            "price": 11000
-          },
-          {
-            "date": "2026-07-23",
-            "price": 11000
-          },
-          {
-            "date": "2026-07-25",
-            "price": 11000
-          },
-          {
-            "date": "2026-07-27",
-            "price": 11000
-          },
-          {
-            "date": "2026-07-29",
-            "price": 9450
-          },
-          {
-            "date": "2026-07-30",
-            "price": 9450
-          },
-          {
-            "date": "2026-07-31",
-            "price": 9450
-          },
-          {
-            "date": "2026-08-01",
-            "price": 9450
-          },
-          {
-            "date": "2026-08-02",
-            "price": 9450
-          },
-          {
-            "date": "2026-08-03",
-            "price": 9450
-          },
-          {
-            "date": "2026-08-05",
-            "price": 9450
-          },
-          {
-            "date": "2026-08-07",
-            "price": 9450
-          },
-          {
-            "date": "2026-08-09",
-            "price": 9450
-          },
-          {
-            "date": "2026-08-11",
-            "price": 9450
-          },
-          {
-            "date": "2026-08-13",
-            "price": 9450
-          },
-          {
-            "date": "2026-08-15",
-            "price": 9450
-          },
-          {
-            "date": "2026-08-17",
-            "price": 9450
-          },
-          {
-            "date": "2026-08-19",
-            "price": 9450
-          },
-          {
-            "date": "2026-08-22",
-            "price": 9450
-          },
-          {
-            "date": "2026-08-23",
-            "price": 9450
-          },
-          {
-            "date": "2026-08-25",
-            "price": 9450
-          },
-          {
-            "date": "2026-08-27",
-            "price": 9450
-          },
-          {
-            "date": "2026-08-29",
-            "price": 9450
-          },
-          {
-            "date": "2026-08-31",
-            "price": 9450
-          },
-          {
-            "date": "2026-09-02",
-            "price": 11100
-          },
-          {
-            "date": "2026-09-04",
-            "price": 11100
-          },
-          {
-            "date": "2026-09-06",
-            "price": 11100
-          },
-          {
-            "date": "2026-09-08",
-            "price": 11100
-          },
-          {
-            "date": "2026-09-10",
-            "price": 11100
-          },
-          {
-            "date": "2026-09-12",
-            "price": 11100
-          },
-          {
-            "date": "2026-09-14",
-            "price": 11100
-          },
-          {
-            "date": "2026-09-16",
-            "price": 11100
-          },
-          {
-            "date": "2026-09-17",
-            "price": 11100
-          }
-        ],
-        "minPrice": 9450,
-        "maxPrice": 11100
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_215616",
-      "title": "((50%))Mercenaries Rebirth: Call of the Wild Lynx(유저한글)",
-      "price": "10,250원",
-      "image": "https://image.fmkorea.com/files/attach/new5/20260917/10346059277_1196365581_44df4e0c974cd379e1c1fc002efe839f.jpg",
-      "category": "게임",
-      "site": "스팀",
-      "source": "FM코리아",
-      "sourceColor": "#FF8C00",
-      "link": "https://www.fmkorea.com/10346059277",
-      "publishedAt": "2026-09-17 21:16:09",
-      "likes": 30,
-      "fetchedAt": "2026-09-17T13:58:21.508Z",
-      "priceComparison": [
-        {
-          "site": "스팀",
-          "price": "10,250원"
-        },
-        {
-          "site": "Target",
-          "price": "$69.99 (약 94,000원)"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": null,
-      "shopUrl": null
     }
   ],
-  "lastUpdated": "2026-09-18T20:28:16.293Z"
+  "lastUpdated": "2026-09-18T22:55:45.111Z"
 }
