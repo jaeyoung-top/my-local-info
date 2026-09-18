@@ -4957,6 +4957,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "범죄 피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-09-18",
+      "endDate": "상시",
+      "location": "법무부 및 수사·사법기관",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "아동, 의사소통 어려운 장애인 범죄 피해자의 수사·재판상 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -13984,7 +13997,67 @@
       "summary": "AI를 활용한 미세먼지 등 대기질 예측 및 제어 핵심 기술 개발 및 실증을 지원합니다.",
       "link": "https://www.msit.go.kr",
       "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-18-1",
+      "name": "정보통신산업진흥원 (NIPA) 2026년 산업 지능화 AI 솔루션 고도화 및 보급 지원",
+      "category": "AI지원",
+      "startDate": "2026-09-18",
+      "endDate": "2026-12-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI 솔루션 개발 중소·중견기업",
+      "summary": "산업 현장 맞춤형 AI 솔루션 고도화 및 전국 단위 보급 지원",
+      "link": "https://www.nipa.kr",
+      "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-18-2",
+      "name": "서울 AI 허브 2026년 AI 스타트업 기술 실증 및 검증 플랫폼 지원",
+      "category": "AI지원",
+      "startDate": "2026-09-18",
+      "endDate": "상시",
+      "location": "서울 AI 허브",
+      "target": "AI 기술 스타트업 및 예비창업가",
+      "summary": "AI 기술의 성능 검증 및 실제 환경 실증을 위한 통합 플랫폼 제공",
+      "link": "https://seoulaihub.kr",
+      "image": "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-18-3",
+      "name": "K-Startup 2026년 디지털 전환 선도 AI 창업기업 육성 프로그램",
+      "category": "AI지원",
+      "startDate": "2026-09-18",
+      "endDate": "2026-12-31",
+      "location": "K-Startup 창업진흥원",
+      "target": "AI 기반 디지털 전환 솔루션 보유 창업 3년 이내 기업",
+      "summary": "디지털 전환 시장을 선도할 AI 창업기업에 사업화 자금, 멘토링 지원",
+      "link": "https://www.k-startup.go.kr",
+      "image": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-18-4",
+      "name": "기업마당 2026년 AI 기반 소상공인 경영 디지털 고도화 사업",
+      "category": "AI지원",
+      "startDate": "2026-09-18",
+      "endDate": "2026-12-31",
+      "location": "기업마당 (중소벤처기업부)",
+      "target": "AI 기술 도입을 희망하는 소상공인 및 중소기업",
+      "summary": "AI 솔루션 도입을 통해 소상공인 경영 전반의 디지털 역량 강화",
+      "link": "https://www.bizinfo.go.kr",
+      "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-18-5",
+      "name": "과학기술정보통신부 2026년 차세대 AI 응용 기술 개발 및 실증",
+      "category": "AI지원",
+      "startDate": "2026-09-18",
+      "endDate": "2026-12-31",
+      "location": "과학기술정보통신부",
+      "target": "AI 관련 응용 기술 개발 기업, 연구기관",
+      "summary": "미래 산업을 이끌 차세대 AI 응용 기술 개발 및 현장 실증 지원",
+      "link": "https://www.msit.go.kr",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-09-17"
+  "lastUpdated": "2026-09-18"
 }
