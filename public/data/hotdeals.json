@@ -1,6 +1,628 @@
 {
   "deals": [
     {
+      "id": "hdz_216286",
+      "title": "[스팀] PAPERHEAD EP.0",
+      "price": "0원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/09/18/paperhead-ep0-1cc0-0a72e927066c41d58633ad322c8147c5e8b64b9609fc02a4aecf7b12e118e225.webp",
+      "category": "게임",
+      "site": "스팀",
+      "source": "퀘이사존",
+      "sourceColor": "#7C3AED",
+      "link": "https://quasarzone.com/bbs/qb_saleinfo/views/1987137",
+      "publishedAt": "2026-09-19 05:18:14",
+      "likes": 1,
+      "fetchedAt": "2026-09-18T20:28:13.370Z",
+      "priceComparison": [],
+      "priceHistory": null,
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_216285",
+      "title": "스위치2 스텔라 블레이드 스틸북 에디션",
+      "price": "8234엔",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/09/18/2-8234-b506-6f222635455b98e3a4096ba303b8285735478b338310b0d503cd4c777a0ce1ab.webp",
+      "category": "게임",
+      "site": "일본 아마존",
+      "source": "루리웹",
+      "sourceColor": "#3B82F6",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/107376",
+      "publishedAt": "2026-09-19 05:00:27",
+      "likes": 11,
+      "fetchedAt": "2026-09-18T20:28:13.370Z",
+      "priceComparison": [
+        {
+          "site": "일본 아마존",
+          "price": "8234엔"
+        },
+        {
+          "site": "빅카메라",
+          "price": "8980엔"
+        },
+        {
+          "site": "Play-Asia",
+          "price": "US$64.99"
+        },
+        {
+          "site": "Fnac",
+          "price": "69.99유로"
+        },
+        {
+          "site": "Cultura",
+          "price": "69.99유로"
+        },
+        {
+          "site": "Target",
+          "price": "US$69.99"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "2026-07-05",
+            "price": 773480
+          },
+          {
+            "date": "2026-07-06",
+            "price": 776660
+          },
+          {
+            "date": "2026-07-07",
+            "price": 776660
+          },
+          {
+            "date": "2026-07-08",
+            "price": 776660
+          },
+          {
+            "date": "2026-07-09",
+            "price": 770130
+          },
+          {
+            "date": "2026-07-10",
+            "price": 770130
+          },
+          {
+            "date": "2026-07-11",
+            "price": 770190
+          },
+          {
+            "date": "2026-07-12",
+            "price": 770190
+          },
+          {
+            "date": "2026-07-13",
+            "price": 770190
+          },
+          {
+            "date": "2026-07-14",
+            "price": 770480
+          },
+          {
+            "date": "2026-07-15",
+            "price": 770480
+          },
+          {
+            "date": "2026-07-16",
+            "price": 770120
+          },
+          {
+            "date": "2026-07-17",
+            "price": 770120
+          },
+          {
+            "date": "2026-07-18",
+            "price": 770340
+          },
+          {
+            "date": "2026-07-19",
+            "price": 770340
+          },
+          {
+            "date": "2026-07-20",
+            "price": 770340
+          },
+          {
+            "date": "2026-07-21",
+            "price": 770290
+          },
+          {
+            "date": "2026-07-22",
+            "price": 762110
+          },
+          {
+            "date": "2026-07-23",
+            "price": 761940
+          },
+          {
+            "date": "2026-07-24",
+            "price": 761940
+          },
+          {
+            "date": "2026-07-25",
+            "price": 761940
+          },
+          {
+            "date": "2026-07-26",
+            "price": 761940
+          },
+          {
+            "date": "2026-07-27",
+            "price": 761950
+          },
+          {
+            "date": "2026-07-28",
+            "price": 761930
+          },
+          {
+            "date": "2026-07-29",
+            "price": 761910
+          },
+          {
+            "date": "2026-07-30",
+            "price": 759640
+          },
+          {
+            "date": "2026-07-31",
+            "price": 759680
+          },
+          {
+            "date": "2026-08-01",
+            "price": 759800
+          },
+          {
+            "date": "2026-08-02",
+            "price": 763010
+          },
+          {
+            "date": "2026-08-03",
+            "price": 761290
+          },
+          {
+            "date": "2026-08-04",
+            "price": 761290
+          },
+          {
+            "date": "2026-08-05",
+            "price": 769830
+          },
+          {
+            "date": "2026-08-06",
+            "price": 761820
+          },
+          {
+            "date": "2026-08-07",
+            "price": 761820
+          },
+          {
+            "date": "2026-08-08",
+            "price": 761820
+          },
+          {
+            "date": "2026-08-09",
+            "price": 766920
+          },
+          {
+            "date": "2026-08-10",
+            "price": 761850
+          },
+          {
+            "date": "2026-08-11",
+            "price": 761850
+          },
+          {
+            "date": "2026-08-12",
+            "price": 761850
+          },
+          {
+            "date": "2026-08-13",
+            "price": 761740
+          },
+          {
+            "date": "2026-08-14",
+            "price": 761750
+          },
+          {
+            "date": "2026-08-15",
+            "price": 761750
+          },
+          {
+            "date": "2026-08-16",
+            "price": 761750
+          },
+          {
+            "date": "2026-08-17",
+            "price": 761750
+          },
+          {
+            "date": "2026-08-18",
+            "price": 715190
+          },
+          {
+            "date": "2026-08-19",
+            "price": 715170
+          },
+          {
+            "date": "2026-08-20",
+            "price": 715160
+          },
+          {
+            "date": "2026-08-21",
+            "price": 715110
+          },
+          {
+            "date": "2026-08-22",
+            "price": 715110
+          },
+          {
+            "date": "2026-08-23",
+            "price": 746210
+          },
+          {
+            "date": "2026-08-24",
+            "price": 762070
+          },
+          {
+            "date": "2026-08-25",
+            "price": 765080
+          },
+          {
+            "date": "2026-08-26",
+            "price": 761990
+          },
+          {
+            "date": "2026-08-27",
+            "price": 761990
+          },
+          {
+            "date": "2026-08-28",
+            "price": 762850
+          },
+          {
+            "date": "2026-08-29",
+            "price": 780000
+          },
+          {
+            "date": "2026-08-30",
+            "price": 714730
+          },
+          {
+            "date": "2026-08-31",
+            "price": 714000
+          },
+          {
+            "date": "2026-09-01",
+            "price": 714000
+          },
+          {
+            "date": "2026-09-02",
+            "price": 727870
+          },
+          {
+            "date": "2026-09-03",
+            "price": 727520
+          },
+          {
+            "date": "2026-09-04",
+            "price": 726630
+          },
+          {
+            "date": "2026-09-05",
+            "price": 725000
+          },
+          {
+            "date": "2026-09-06",
+            "price": 725000
+          },
+          {
+            "date": "2026-09-07",
+            "price": 713700
+          },
+          {
+            "date": "2026-09-08",
+            "price": 713500
+          },
+          {
+            "date": "2026-09-09",
+            "price": 713460
+          },
+          {
+            "date": "2026-09-10",
+            "price": 699970
+          },
+          {
+            "date": "2026-09-11",
+            "price": 699970
+          },
+          {
+            "date": "2026-09-12",
+            "price": 751660
+          },
+          {
+            "date": "2026-09-13",
+            "price": 750000
+          },
+          {
+            "date": "2026-09-14",
+            "price": 749150
+          },
+          {
+            "date": "2026-09-15",
+            "price": 745500
+          },
+          {
+            "date": "2026-09-16",
+            "price": 745500
+          },
+          {
+            "date": "2026-09-17",
+            "price": 745500
+          },
+          {
+            "date": "2026-09-18",
+            "price": 751320
+          },
+          {
+            "date": "2026-09-19",
+            "price": 754660
+          }
+        ],
+        "minPrice": 699970,
+        "maxPrice": 780000
+      },
+      "postContent": {
+        "text": "한국배송되고 배송비 1500엔 정도 나옵니다 저는 한국배송 가능한 게임 몇개 더 추가해서 무료배송으로 결제했습니다",
+        "images": [
+          "https://i3.ruliweb.com/img/26/09/19/1a0b6149ebaf78d.webp"
+        ]
+      },
+      "shopUrl": "https://www.amazon.co.jp/Stellar-Blade%E2%84%A2-%E3%82%B3%E3%83%B3%E3%83%97%E3%83%AA%E3%83%BC%E3%83%88%E3%82%B9%E3%83%81%E3%83%BC%E3%83%AB%E3%83%96%E3%83%83%E3%82%AF%C2%AE%E3%82%A8%E3%83%87%E3%82%A3%E3%82%B7%E3%83%A7%E3%83%B3-%E3%80%90%E5%90%8C%E6%A2%B1%E7%89%A9%E3%80%91%E3%82%B9%E3%83%81%E3%83%BC%E3%83%AB%E3%83%96%E3%83%83%E3%82%AF-Switch2/dp/B0HJG68ZK7/ref=sr_1_1?crid=TDUYJN3XV4LW&dib=eyJ2IjoiMSJ9.wbUAVccghmCcc64svEh4irmKxIYb_KgF-kauE4IB007GjHj071QN20LucGBJIEps.Jmfw1No6-9JIXlZ3j5ou1yFklGmgTpWko3Cumnp2BaI&dib_tag=se&keywords=stellar+blade+switch2&qid=1789760912&s=videogames&sprefix=Stellar+Blade%2Cvideogames%2C223&sr=1-1"
+    },
+    {
+      "id": "hdz_216284",
+      "title": "PAPERHEAD EP.0",
+      "price": "(무료)",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/09/18/paperhead-ep-0-6552-8e25e8f6631bf364e00ff4dc8d42e9fc554b786384df852de3367337db83b1c2.webp",
+      "category": "게임",
+      "site": "스팀",
+      "source": "루리웹",
+      "sourceColor": "#3B82F6",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/107375",
+      "publishedAt": "2026-09-19 03:30:32",
+      "likes": 29,
+      "fetchedAt": "2026-09-18T20:28:13.370Z",
+      "priceComparison": [],
+      "priceHistory": null,
+      "postContent": {
+        "text": "10월 9일에 정식 버전이 출시되면서 무료 프롤로그 버전의 스팀 상품 페이지가 삭제된다고 합니다. 9월 24일까지 라이브러리에 추가하면 상품 페이지가 사라져도 계정에 영구적으로 남게 되며, 언제든 원할 때 다운로드하고 플레이하실 수 있습니다.",
+        "images": [
+          "https://i3.ruliweb.com/img/26/09/19/1a0b5c33f14242da.webp",
+          "https://i2.ruliweb.com/img/26/09/19/1a0b5c340e0242da.webp"
+        ]
+      },
+      "shopUrl": "https://store.steampowered.com/app/3008200/PAPERHEAD_EP0/"
+    },
+    {
+      "id": "hdz_216283",
+      "title": "스퀘어 에닉스 TGS 세일 파판 등등...",
+      "price": null,
+      "image": "https://image.hotdeal.zip/thumbnails/2026/09/18/tgs-6707-d44ddbf8cc5cae19d9eb16dfac6c24cf355a8432628bfa4e9637ae4e767b4283.webp",
+      "category": "게임",
+      "site": "Green Man Gaming",
+      "source": "루리웹",
+      "sourceColor": "#3B82F6",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/107374",
+      "publishedAt": "2026-09-19 03:25:25",
+      "likes": 27,
+      "fetchedAt": "2026-09-18T20:28:13.370Z",
+      "priceComparison": [],
+      "priceHistory": null,
+      "postContent": {
+        "text": "XP회원 가격입니다. (구매이력) 엘리엇 모험 46,500원 파판7 리버스 16,100원 파판7 리메이크 인터그레이드 10,700원 ㄷㄷ 니어 오토마타 15,300원 https://www.greenmangaming.com/ko/publisher-sale/square-enix/ 택틱스 오우거 리본 15,900원 성검전설 15,300원 가격 좋은 게임 많네요!! 모두 즐겜하세요!!",
+        "images": [
+          "https://i3.ruliweb.com/img/26/09/19/1a0b5bff4efb24a9.webp",
+          "https://i2.ruliweb.com/img/26/09/19/1a0b5c01a0bb24a9.webp",
+          "https://i2.ruliweb.com/img/26/09/19/1a0b5c03bb3b24a9.webp"
+        ]
+      },
+      "shopUrl": "https://www.greenmangaming.com/ko/publisher-sale/square-enix/?tap_a=43334-dddb15&tap_s=420922-0dc569"
+    },
+    {
+      "id": "hdz_216282",
+      "title": "불스원 냄새제로 에어컨 필터 1+1",
+      "price": "14,510원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/09/18/518f-1a9af4e5619be3982c208315fe6d3c765d72e6e0f30546319fe59a32c54c7dfc.webp",
+      "category": "생활용품",
+      "site": "네이버",
+      "source": "FM코리아",
+      "sourceColor": "#FF8C00",
+      "link": "https://www.fmkorea.com/10350742288",
+      "publishedAt": "2026-09-19 03:20:13",
+      "likes": 19,
+      "fetchedAt": "2026-09-18T20:28:13.370Z",
+      "priceComparison": [
+        {
+          "site": "네이버",
+          "price": "14,510원"
+        },
+        {
+          "site": "불스원몰",
+          "price": "18,900원"
+        },
+        {
+          "site": "11번가",
+          "price": "23,940원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "2026-07-22",
+            "price": 21000
+          },
+          {
+            "date": "2026-07-23",
+            "price": 21000
+          },
+          {
+            "date": "2026-07-24",
+            "price": 21000
+          },
+          {
+            "date": "2026-07-25",
+            "price": 21000
+          },
+          {
+            "date": "2026-07-26",
+            "price": 21000
+          },
+          {
+            "date": "2026-07-27",
+            "price": 21000
+          },
+          {
+            "date": "2026-07-28",
+            "price": 21000
+          },
+          {
+            "date": "2026-07-29",
+            "price": 21000
+          },
+          {
+            "date": "2026-07-30",
+            "price": 21000
+          },
+          {
+            "date": "2026-08-01",
+            "price": 21000
+          },
+          {
+            "date": "2026-08-03",
+            "price": 21000
+          },
+          {
+            "date": "2026-08-05",
+            "price": 21000
+          },
+          {
+            "date": "2026-08-07",
+            "price": 21000
+          },
+          {
+            "date": "2026-08-09",
+            "price": 21000
+          },
+          {
+            "date": "2026-08-11",
+            "price": 21000
+          },
+          {
+            "date": "2026-08-13",
+            "price": 21000
+          },
+          {
+            "date": "2026-08-15",
+            "price": 21000
+          },
+          {
+            "date": "2026-08-17",
+            "price": 21000
+          },
+          {
+            "date": "2026-08-19",
+            "price": 21000
+          },
+          {
+            "date": "2026-08-21",
+            "price": 21000
+          },
+          {
+            "date": "2026-08-23",
+            "price": 21000
+          },
+          {
+            "date": "2026-08-25",
+            "price": 21000
+          },
+          {
+            "date": "2026-08-27",
+            "price": 21000
+          },
+          {
+            "date": "2026-08-29",
+            "price": 21000
+          },
+          {
+            "date": "2026-08-31",
+            "price": 21000
+          },
+          {
+            "date": "2026-09-02",
+            "price": 21000
+          },
+          {
+            "date": "2026-09-04",
+            "price": 21000
+          },
+          {
+            "date": "2026-09-06",
+            "price": 21000
+          },
+          {
+            "date": "2026-09-08",
+            "price": 21000
+          },
+          {
+            "date": "2026-09-10",
+            "price": 21000
+          },
+          {
+            "date": "2026-09-12",
+            "price": 21000
+          },
+          {
+            "date": "2026-09-14",
+            "price": 21000
+          },
+          {
+            "date": "2026-09-16",
+            "price": 23690
+          },
+          {
+            "date": "2026-09-18",
+            "price": 23690
+          },
+          {
+            "date": "2026-09-19",
+            "price": 23690
+          }
+        ],
+        "minPrice": 21000,
+        "maxPrice": 23690
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
+      "id": "hdz_216281",
+      "title": "메가커피",
+      "price": null,
+      "image": "https://image.hotdeal.zip/thumbnails/2026/09/18/22-30-f4fa-83c4ab1b08f99bbd1be61567d1c3d7415cf374bc6816e473d00906673d88af80.webp",
+      "category": "식품",
+      "site": "네이버",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=735515",
+      "publishedAt": "2026-09-19 03:08:33",
+      "likes": 49,
+      "fetchedAt": "2026-09-18T20:28:13.370Z",
+      "priceComparison": [],
+      "priceHistory": null,
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
       "id": "hdz_216280",
       "title": "2026-09-19 일일적립, 클릭 ",
       "price": "61원",
@@ -79373,934 +79995,7 @@
       "priceHistory": null,
       "postContent": null,
       "shopUrl": null
-    },
-    {
-      "id": "hdz_215615",
-      "title": "화로 증류식소주17도*6병 전통주 외",
-      "price": "21,910원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/09/17/17-6-21910-098a-e9fd3ab6f88f02c332e0b14bef066f97fadfaf882b2a35ee2fa6754e5a29d339.webp",
-      "category": "식품",
-      "site": "지마켓",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=735232",
-      "publishedAt": "2026-09-17 21:12:55",
-      "likes": 59,
-      "fetchedAt": "2026-09-17T13:58:21.508Z",
-      "priceComparison": [
-        {
-          "site": "지마켓",
-          "price": "21,910원"
-        },
-        {
-          "site": "팔도감",
-          "price": "28,800원"
-        },
-        {
-          "site": "키햐",
-          "price": "62,900원"
-        }
-      ],
-      "priceHistory": null,
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_215614",
-      "title": "블랙야크 루이 구스다운 롱다운자켓",
-      "price": "121,820원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/09/17/121820-1216-92c6db51897d209470b56d433fa41bcda54bd23018b55afcb6da362443ec39dc.webp",
-      "category": "의류",
-      "site": "롯데백화점",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=735233",
-      "publishedAt": "2026-09-17 21:12:34",
-      "likes": 39,
-      "fetchedAt": "2026-09-17T13:58:21.508Z",
-      "priceComparison": [
-        {
-          "site": "롯데백화점",
-          "price": "121,820원"
-        },
-        {
-          "site": "블랙야크 공식몰",
-          "price": "가격 확인 불가"
-        },
-        {
-          "site": "신세계몰",
-          "price": "146,601원"
-        },
-        {
-          "site": "SSG.COM",
-          "price": "107,100원"
-        },
-        {
-          "site": "11번가",
-          "price": "170,340원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "2026-08-13",
-            "price": 149000
-          },
-          {
-            "date": "2026-08-14",
-            "price": 149000
-          },
-          {
-            "date": "2026-08-15",
-            "price": 149000
-          },
-          {
-            "date": "2026-08-16",
-            "price": 149000
-          },
-          {
-            "date": "2026-08-17",
-            "price": 149000
-          },
-          {
-            "date": "2026-08-18",
-            "price": 149000
-          },
-          {
-            "date": "2026-08-19",
-            "price": 149000
-          },
-          {
-            "date": "2026-08-21",
-            "price": 134100
-          },
-          {
-            "date": "2026-08-22",
-            "price": 134100
-          },
-          {
-            "date": "2026-08-23",
-            "price": 134100
-          },
-          {
-            "date": "2026-08-24",
-            "price": 134100
-          },
-          {
-            "date": "2026-08-25",
-            "price": 134100
-          },
-          {
-            "date": "2026-08-26",
-            "price": 134100
-          },
-          {
-            "date": "2026-08-27",
-            "price": 149000
-          },
-          {
-            "date": "2026-08-28",
-            "price": 149000
-          },
-          {
-            "date": "2026-08-29",
-            "price": 149000
-          },
-          {
-            "date": "2026-08-30",
-            "price": 134100
-          },
-          {
-            "date": "2026-08-31",
-            "price": 134100
-          },
-          {
-            "date": "2026-09-01",
-            "price": 149000
-          },
-          {
-            "date": "2026-09-02",
-            "price": 149000
-          },
-          {
-            "date": "2026-09-03",
-            "price": 134100
-          },
-          {
-            "date": "2026-09-04",
-            "price": 134100
-          },
-          {
-            "date": "2026-09-05",
-            "price": 134100
-          },
-          {
-            "date": "2026-09-06",
-            "price": 134100
-          },
-          {
-            "date": "2026-09-07",
-            "price": 134100
-          },
-          {
-            "date": "2026-09-08",
-            "price": 134100
-          },
-          {
-            "date": "2026-09-09",
-            "price": 134100
-          },
-          {
-            "date": "2026-09-10",
-            "price": 134100
-          },
-          {
-            "date": "2026-09-11",
-            "price": 134100
-          },
-          {
-            "date": "2026-09-12",
-            "price": 134100
-          },
-          {
-            "date": "2026-09-13",
-            "price": 134100
-          },
-          {
-            "date": "2026-09-14",
-            "price": 384000
-          },
-          {
-            "date": "2026-09-15",
-            "price": 399000
-          },
-          {
-            "date": "2026-09-16",
-            "price": 199000
-          },
-          {
-            "date": "2026-09-17",
-            "price": 199000
-          }
-        ],
-        "minPrice": 134100,
-        "maxPrice": 399000
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_215612",
-      "title": "리틀프렌즈 워치톡 애플워치 보조배터리 1200mAh",
-      "price": "6,900원/3,500원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/09/17/1200mah-6900-3500-c07b-3c5c7f814719c13965340258037a640127bb72873baf6e1a10aef33fbcf8d460.webp",
-      "category": "가전",
-      "site": "switchs.co.kr",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=735230",
-      "publishedAt": "2026-09-17 21:08:53",
-      "likes": 38,
-      "fetchedAt": "2026-09-17T13:58:21.508Z",
-      "priceComparison": [
-        {
-          "site": "switchs.co.kr",
-          "price": "6,900원/3,500원"
-        },
-        {
-          "site": "푸름(Poom)",
-          "price": "27,900원"
-        },
-        {
-          "site": "11번가",
-          "price": "29,900원"
-        },
-        {
-          "site": "하이마트",
-          "price": "35,900원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "2026-07-20",
-            "price": 16500
-          },
-          {
-            "date": "2026-07-21",
-            "price": 16500
-          },
-          {
-            "date": "2026-07-22",
-            "price": 16500
-          },
-          {
-            "date": "2026-07-23",
-            "price": 16500
-          },
-          {
-            "date": "2026-07-24",
-            "price": 16500
-          },
-          {
-            "date": "2026-07-25",
-            "price": 16500
-          },
-          {
-            "date": "2026-07-26",
-            "price": 16500
-          },
-          {
-            "date": "2026-07-27",
-            "price": 16500
-          },
-          {
-            "date": "2026-07-28",
-            "price": 16500
-          },
-          {
-            "date": "2026-07-29",
-            "price": 16500
-          },
-          {
-            "date": "2026-07-30",
-            "price": 16500
-          },
-          {
-            "date": "2026-07-31",
-            "price": 16500
-          },
-          {
-            "date": "2026-08-01",
-            "price": 16500
-          },
-          {
-            "date": "2026-08-02",
-            "price": 16500
-          },
-          {
-            "date": "2026-08-03",
-            "price": 16500
-          },
-          {
-            "date": "2026-08-04",
-            "price": 16500
-          },
-          {
-            "date": "2026-08-05",
-            "price": 16500
-          },
-          {
-            "date": "2026-08-06",
-            "price": 16500
-          },
-          {
-            "date": "2026-08-07",
-            "price": 16500
-          },
-          {
-            "date": "2026-08-08",
-            "price": 16500
-          },
-          {
-            "date": "2026-08-09",
-            "price": 16500
-          },
-          {
-            "date": "2026-08-10",
-            "price": 16500
-          },
-          {
-            "date": "2026-08-11",
-            "price": 16500
-          },
-          {
-            "date": "2026-08-12",
-            "price": 16500
-          },
-          {
-            "date": "2026-08-13",
-            "price": 16500
-          },
-          {
-            "date": "2026-08-14",
-            "price": 16500
-          },
-          {
-            "date": "2026-08-15",
-            "price": 16500
-          },
-          {
-            "date": "2026-08-16",
-            "price": 16500
-          },
-          {
-            "date": "2026-08-17",
-            "price": 16500
-          },
-          {
-            "date": "2026-08-18",
-            "price": 16500
-          },
-          {
-            "date": "2026-08-19",
-            "price": 16500
-          },
-          {
-            "date": "2026-08-20",
-            "price": 16500
-          },
-          {
-            "date": "2026-08-21",
-            "price": 16500
-          },
-          {
-            "date": "2026-08-22",
-            "price": 16500
-          },
-          {
-            "date": "2026-08-23",
-            "price": 16500
-          },
-          {
-            "date": "2026-08-24",
-            "price": 16500
-          },
-          {
-            "date": "2026-08-25",
-            "price": 15670
-          },
-          {
-            "date": "2026-08-26",
-            "price": 15670
-          },
-          {
-            "date": "2026-08-27",
-            "price": 16500
-          },
-          {
-            "date": "2026-08-28",
-            "price": 16500
-          },
-          {
-            "date": "2026-08-29",
-            "price": 16500
-          },
-          {
-            "date": "2026-08-30",
-            "price": 16500
-          },
-          {
-            "date": "2026-08-31",
-            "price": 16500
-          },
-          {
-            "date": "2026-09-01",
-            "price": 16500
-          },
-          {
-            "date": "2026-09-02",
-            "price": 16500
-          },
-          {
-            "date": "2026-09-03",
-            "price": 16500
-          },
-          {
-            "date": "2026-09-04",
-            "price": 16500
-          },
-          {
-            "date": "2026-09-05",
-            "price": 16500
-          },
-          {
-            "date": "2026-09-06",
-            "price": 14900
-          },
-          {
-            "date": "2026-09-07",
-            "price": 16500
-          },
-          {
-            "date": "2026-09-08",
-            "price": 16500
-          },
-          {
-            "date": "2026-09-09",
-            "price": 16500
-          },
-          {
-            "date": "2026-09-10",
-            "price": 16500
-          },
-          {
-            "date": "2026-09-11",
-            "price": 16500
-          },
-          {
-            "date": "2026-09-12",
-            "price": 16500
-          },
-          {
-            "date": "2026-09-13",
-            "price": 16500
-          },
-          {
-            "date": "2026-09-14",
-            "price": 16500
-          },
-          {
-            "date": "2026-09-15",
-            "price": 16500
-          },
-          {
-            "date": "2026-09-16",
-            "price": 16500
-          },
-          {
-            "date": "2026-09-17",
-            "price": 16500
-          }
-        ],
-        "minPrice": 14900,
-        "maxPrice": 16500
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_215611",
-      "title": "추석특가 제철팜 혼합 과일 선물세트 4kg A형 메론",
-      "price": "47,200원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/09/17/4kg-a-47200-5f4e-ffbf1bf130b39cb1b6fd2f7d1ff49bf2c02df2530f313d5ea15751aca0f8bf47.webp",
-      "category": "식품",
-      "site": "쿠팡",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=735231",
-      "publishedAt": "2026-09-17 21:08:32",
-      "likes": 19,
-      "fetchedAt": "2026-09-17T13:58:21.508Z",
-      "priceComparison": [
-        {
-          "site": "신세계몰",
-          "price": "49,900원"
-        },
-        {
-          "site": "수플린",
-          "price": "88,900원"
-        },
-        {
-          "site": "총각네 기프트샵",
-          "price": "119,500원"
-        },
-        {
-          "site": "농협몰",
-          "price": "19,200원"
-        },
-        {
-          "site": "팜스토리",
-          "price": "17,900원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "2026-09-14",
-            "price": 47200
-          },
-          {
-            "date": "2026-09-17",
-            "price": 47200
-          }
-        ],
-        "minPrice": 47200,
-        "maxPrice": 47200
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_215610",
-      "title": "삼성 Mini LED TV 43인치 무빙스타일",
-      "price": "757,400원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/09/17/mini-led-tv-43-757400-0785-092c144f81d13edc49ce3aeb96596e4dde32df04de4764ec220e4771ee890b97.webp",
-      "category": "가전",
-      "site": "지마켓",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=735228",
-      "publishedAt": "2026-09-17 21:07:16",
-      "likes": 36,
-      "fetchedAt": "2026-09-17T13:58:21.508Z",
-      "priceComparison": [
-        {
-          "site": "지마켓",
-          "price": "757,400원"
-        },
-        {
-          "site": "삼성닷컴",
-          "price": "1,279,000원"
-        },
-        {
-          "site": "한국미스미",
-          "price": "833,000원"
-        },
-        {
-          "site": "11번가",
-          "price": "980,000원"
-        },
-        {
-          "site": "신세계몰",
-          "price": "705,870원"
-        },
-        {
-          "site": "GS SHOP",
-          "price": "620,000원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "06-30",
-            "price": 916340
-          },
-          {
-            "date": "07-07",
-            "price": 885460
-          },
-          {
-            "date": "07-14",
-            "price": 885460
-          },
-          {
-            "date": "07-21",
-            "price": 885460
-          },
-          {
-            "date": "07-28",
-            "price": 916340
-          },
-          {
-            "date": "08-04",
-            "price": 916340
-          },
-          {
-            "date": "08-11",
-            "price": 906900
-          },
-          {
-            "date": "08-18",
-            "price": 650000
-          },
-          {
-            "date": "08-25",
-            "price": 650000
-          },
-          {
-            "date": "09-01",
-            "price": 874784
-          },
-          {
-            "date": "09-08",
-            "price": 869510
-          },
-          {
-            "date": "09-15",
-            "price": 817630
-          }
-        ],
-        "minPrice": 650000,
-        "maxPrice": 916340
-      },
-      "postContent": null,
-      "shopUrl": null
-    },
-    {
-      "id": "hdz_215609",
-      "title": "하누소 갈비탕700g 3팩",
-      "price": "22,310원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/09/17/700g-3-22310-ef3c-d7c89d246aee768c9c14da3bbdbbdaddf65c78d0b6b154b5b0cd04875ed7c9ff.webp",
-      "category": "식품",
-      "site": "롯데온",
-      "source": "뽐뿌",
-      "sourceColor": "#4F46E5",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=735229",
-      "publishedAt": "2026-09-17 21:06:58",
-      "likes": 16,
-      "fetchedAt": "2026-09-17T13:58:21.508Z",
-      "priceComparison": [
-        {
-          "site": "롯데온",
-          "price": "22,310원"
-        },
-        {
-          "site": "하누소 공식몰",
-          "price": "43,200원"
-        },
-        {
-          "site": "오아시스마켓",
-          "price": "41,900원"
-        },
-        {
-          "site": "11번가",
-          "price": "45,400원"
-        },
-        {
-          "site": "GS SHOP",
-          "price": "46,400원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "2026-07-20",
-            "price": 45900
-          },
-          {
-            "date": "2026-07-21",
-            "price": 45900
-          },
-          {
-            "date": "2026-07-22",
-            "price": 45900
-          },
-          {
-            "date": "2026-07-23",
-            "price": 45900
-          },
-          {
-            "date": "2026-07-24",
-            "price": 45900
-          },
-          {
-            "date": "2026-07-25",
-            "price": 45900
-          },
-          {
-            "date": "2026-07-26",
-            "price": 45900
-          },
-          {
-            "date": "2026-07-27",
-            "price": 45900
-          },
-          {
-            "date": "2026-07-28",
-            "price": 45900
-          },
-          {
-            "date": "2026-07-29",
-            "price": 45900
-          },
-          {
-            "date": "2026-07-30",
-            "price": 45900
-          },
-          {
-            "date": "2026-07-31",
-            "price": 45900
-          },
-          {
-            "date": "2026-08-01",
-            "price": 45900
-          },
-          {
-            "date": "2026-08-02",
-            "price": 45900
-          },
-          {
-            "date": "2026-08-03",
-            "price": 45900
-          },
-          {
-            "date": "2026-08-04",
-            "price": 45900
-          },
-          {
-            "date": "2026-08-05",
-            "price": 45900
-          },
-          {
-            "date": "2026-08-06",
-            "price": 45900
-          },
-          {
-            "date": "2026-08-07",
-            "price": 45900
-          },
-          {
-            "date": "2026-08-08",
-            "price": 45900
-          },
-          {
-            "date": "2026-08-09",
-            "price": 45900
-          },
-          {
-            "date": "2026-08-10",
-            "price": 45900
-          },
-          {
-            "date": "2026-08-11",
-            "price": 45900
-          },
-          {
-            "date": "2026-08-12",
-            "price": 45900
-          },
-          {
-            "date": "2026-08-13",
-            "price": 45900
-          },
-          {
-            "date": "2026-08-14",
-            "price": 46100
-          },
-          {
-            "date": "2026-08-15",
-            "price": 45900
-          },
-          {
-            "date": "2026-08-16",
-            "price": 45900
-          },
-          {
-            "date": "2026-08-17",
-            "price": 45900
-          },
-          {
-            "date": "2026-08-18",
-            "price": 45900
-          },
-          {
-            "date": "2026-08-19",
-            "price": 45900
-          },
-          {
-            "date": "2026-08-20",
-            "price": 45900
-          },
-          {
-            "date": "2026-08-21",
-            "price": 45900
-          },
-          {
-            "date": "2026-08-22",
-            "price": 45900
-          },
-          {
-            "date": "2026-08-23",
-            "price": 45900
-          },
-          {
-            "date": "2026-08-24",
-            "price": 45900
-          },
-          {
-            "date": "2026-08-25",
-            "price": 45900
-          },
-          {
-            "date": "2026-08-26",
-            "price": 45900
-          },
-          {
-            "date": "2026-08-27",
-            "price": 45900
-          },
-          {
-            "date": "2026-08-28",
-            "price": 45900
-          },
-          {
-            "date": "2026-08-29",
-            "price": 45900
-          },
-          {
-            "date": "2026-08-30",
-            "price": 45900
-          },
-          {
-            "date": "2026-08-31",
-            "price": 45900
-          },
-          {
-            "date": "2026-09-01",
-            "price": 45900
-          },
-          {
-            "date": "2026-09-02",
-            "price": 45900
-          },
-          {
-            "date": "2026-09-03",
-            "price": 45900
-          },
-          {
-            "date": "2026-09-04",
-            "price": 45900
-          },
-          {
-            "date": "2026-09-05",
-            "price": 45900
-          },
-          {
-            "date": "2026-09-06",
-            "price": 45900
-          },
-          {
-            "date": "2026-09-07",
-            "price": 45900
-          },
-          {
-            "date": "2026-09-08",
-            "price": 45900
-          },
-          {
-            "date": "2026-09-09",
-            "price": 45900
-          },
-          {
-            "date": "2026-09-10",
-            "price": 45900
-          },
-          {
-            "date": "2026-09-11",
-            "price": 45900
-          },
-          {
-            "date": "2026-09-12",
-            "price": 45900
-          },
-          {
-            "date": "2026-09-13",
-            "price": 45900
-          },
-          {
-            "date": "2026-09-14",
-            "price": 45900
-          },
-          {
-            "date": "2026-09-15",
-            "price": 45900
-          },
-          {
-            "date": "2026-09-16",
-            "price": 45900
-          },
-          {
-            "date": "2026-09-17",
-            "price": 45900
-          }
-        ],
-        "minPrice": 45900,
-        "maxPrice": 46100
-      },
-      "postContent": null,
-      "shopUrl": null
     }
   ],
-  "lastUpdated": "2026-09-18T17:58:44.206Z"
+  "lastUpdated": "2026-09-18T20:28:16.293Z"
 }
