@@ -1,6 +1,94 @@
 {
   "deals": [
     {
+      "id": "hdz_216758",
+      "title": "춘천양념 닭갈비 600g 4팩",
+      "price": "16,900원",
+      "image": "https://image.hotdeal.zip/thumbnails/2026/09/20/600g-4-16900-5744-edc35ea2fad4b29f9883ab67cc9cdb5bc05d81afd2379b65d5be4619a25c88aa.webp",
+      "category": "식품",
+      "site": "지마켓",
+      "source": "뽐뿌",
+      "sourceColor": "#4F46E5",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=735704",
+      "publishedAt": "2026-09-20 11:36:37",
+      "likes": 0,
+      "fetchedAt": "2026-09-20T02:40:19.454Z",
+      "priceComparison": [
+        {
+          "site": "지마켓",
+          "price": "16,900원"
+        },
+        {
+          "site": "11번가",
+          "price": "23,800원"
+        },
+        {
+          "site": "GS SHOP",
+          "price": "20,900원"
+        },
+        {
+          "site": "동원몰",
+          "price": "29,340원"
+        }
+      ],
+      "priceHistory": {
+        "points": [
+          {
+            "date": "06-30",
+            "price": 16460
+          },
+          {
+            "date": "07-07",
+            "price": 15220
+          },
+          {
+            "date": "07-14",
+            "price": 16600
+          },
+          {
+            "date": "07-21",
+            "price": 16640
+          },
+          {
+            "date": "07-28",
+            "price": 16110
+          },
+          {
+            "date": "08-04",
+            "price": 15760
+          },
+          {
+            "date": "08-11",
+            "price": 16640
+          },
+          {
+            "date": "08-18",
+            "price": 15760
+          },
+          {
+            "date": "08-25",
+            "price": 13900
+          },
+          {
+            "date": "09-01",
+            "price": 12500
+          },
+          {
+            "date": "09-08",
+            "price": 12500
+          },
+          {
+            "date": "09-15",
+            "price": 12500
+          }
+        ],
+        "minPrice": 12500,
+        "maxPrice": 16640
+      },
+      "postContent": null,
+      "shopUrl": null
+    },
+    {
       "id": "hdz_216757",
       "title": "엑스트라버진 아보카도오일 250ml 2병 선물세트",
       "price": "19,810원/무료",
@@ -75541,99 +75629,7 @@
         ]
       },
       "shopUrl": "https://dajooda.com/s/MbS7q1e"
-    },
-    {
-      "id": "hdz_216228",
-      "title": "초정탄산수, 플레인, 350ml, 24캔",
-      "price": "11,900원",
-      "image": "https://image.hotdeal.zip/thumbnails/2026/09/18/350ml-24-bc36-452b5d8ff62ecc0fa7d7bde0971aac8869d20036bcf919746a4b8a4c4bcb8410.webp",
-      "category": "식품",
-      "site": "토스쇼핑",
-      "source": "기타",
-      "sourceColor": "#888888",
-      "link": "https://toss.shopping/t/82504319",
-      "publishedAt": "2026-09-18 23:10:16",
-      "likes": 8,
-      "fetchedAt": "2026-09-18T17:58:35.385Z",
-      "priceComparison": [
-        {
-          "site": "토스쇼핑",
-          "price": "11,900원"
-        },
-        {
-          "site": "GS SHOP",
-          "price": "14,900원"
-        },
-        {
-          "site": "동원몰",
-          "price": "13,900원"
-        },
-        {
-          "site": "글로리마켓",
-          "price": "13,900원"
-        },
-        {
-          "site": "11번가",
-          "price": "14,010원"
-        }
-      ],
-      "priceHistory": {
-        "points": [
-          {
-            "date": "06-30",
-            "price": 10630
-          },
-          {
-            "date": "07-07",
-            "price": 10630
-          },
-          {
-            "date": "07-14",
-            "price": 10630
-          },
-          {
-            "date": "07-21",
-            "price": 10630
-          },
-          {
-            "date": "07-28",
-            "price": 10630
-          },
-          {
-            "date": "08-04",
-            "price": 10630
-          },
-          {
-            "date": "08-11",
-            "price": 10630
-          },
-          {
-            "date": "08-18",
-            "price": 10630
-          },
-          {
-            "date": "08-25",
-            "price": 10630
-          },
-          {
-            "date": "09-01",
-            "price": 10630
-          },
-          {
-            "date": "09-08",
-            "price": 11900
-          },
-          {
-            "date": "09-15",
-            "price": 11900
-          }
-        ],
-        "minPrice": 10630,
-        "maxPrice": 11900
-      },
-      "postContent": null,
-      "shopUrl": null
     }
   ],
-  "lastUpdated": "2026-09-20T02:32:56.416Z"
+  "lastUpdated": "2026-09-20T02:40:22.069Z"
 }

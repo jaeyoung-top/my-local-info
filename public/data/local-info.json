@@ -13,6 +13,18 @@
       "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1787462187songpa.JPG"
     },
     {
+      "name": "송파 주요 축제 소식",
+      "category": "축제",
+      "startDate": "2026-09-01",
+      "endDate": "2026-09-30",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "송파청년축제, 우리동네 축제, 달빛 속 문화유산 여행 등 송파구의 다양한 축제 현장을 소개하는 특집 기사.",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9048&aid=18223",
+      "id": "crawler-1789871774925-731",
+      "image": "https://picsum.photos/seed/556839/800/500"
+    },
+    {
       "name": "송파구 주요 축제 및 문화유산 여행",
       "category": "축제",
       "startDate": "2026-09-01",
@@ -4983,6 +4995,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "admin",
       "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80"
+    },
+    {
+      "id": "000025",
+      "name": "피해 아동·장애인 진술조력 지원",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "상시",
+      "location": "법무부",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "만 19세 미만 아동, 의사소통 어려운 장애인 범죄 피해자 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "health",
+      "image": "https://images.unsplash.com/photo-1494390248081-4e521a5940db?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -14130,7 +14155,67 @@
       "summary": "인간 뇌 구조 모방 뉴로모픽 컴퓨팅 기반 차세대 AI 프로세서 핵심 기술 개발 지원",
       "link": "https://www.msit.go.kr/web/msitHome/msit/policy/ai/selectAiList.do",
       "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-20-1",
+      "name": "NIPA AI 기반 중소기업 해외 SaaS 전환 및 시장 진출 지원",
+      "category": "AI지원",
+      "startDate": "2026-09-01",
+      "endDate": "2026-12-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "해외 진출 희망 중소기업",
+      "summary": "AI 기반 SaaS 전환 및 해외 시장 진출 전략 수립 지원",
+      "link": "https://www.nipa.kr/ai-global-saas",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-20-2",
+      "name": "서울 AI 허브 AI 기반 스마트 제조 공정 혁신 기술 협력 플랫폼 운영",
+      "category": "AI지원",
+      "startDate": "2026-09-15",
+      "endDate": "상시",
+      "location": "서울 AI 허브",
+      "target": "AI 제조 솔루션 기업 및 제조 중소기업",
+      "summary": "AI 기반 제조 혁신 기술 협력을 위한 플랫폼 제공 및 운영",
+      "link": "https://www.seoulaihub.kr/smart-manufacturing-platform",
+      "image": "https://images.unsplash.com/photo-1488229297570-58520851e868?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-20-3",
+      "name": "K-Startup AI 기반 개인 맞춤형 학습 콘텐츠 스타트업 육성",
+      "category": "AI지원",
+      "startDate": "2026-09-10",
+      "endDate": "2027-08-31",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "AI 교육 콘텐츠 분야 초기 창업기업",
+      "summary": "AI 기반 개인 맞춤형 학습 콘텐츠 스타트업 발굴 및 사업화 지원",
+      "link": "https://www.k-startup.go.kr/ai-edutech-startup",
+      "image": "https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-20-4",
+      "name": "중소벤처기업부 AI 기반 패션/섬유 산업 디지털 전환 지원",
+      "category": "AI지원",
+      "startDate": "2026-09-05",
+      "endDate": "2027-02-28",
+      "location": "중소벤처기업부 (기업마당)",
+      "target": "패션/섬유 산업 중소기업",
+      "summary": "AI 기술 도입을 통한 패션/섬유 산업의 디지털 전환 지원",
+      "link": "https://www.bizinfo.go.kr/fashion-ai-dx",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-20-5",
+      "name": "과학기술정보통신부 AI 기반 차세대 뉴로모픽 컴퓨팅 기술 개발",
+      "category": "AI지원",
+      "startDate": "2026-09-20",
+      "endDate": "2028-12-31",
+      "location": "과학기술정보통신부",
+      "target": "뉴로모픽 컴퓨팅 기술 개발 기업 및 연구기관",
+      "summary": "AI 기반 차세대 뉴로모픽 컴퓨팅 원천 기술 연구개발 지원",
+      "link": "https://www.msit.go.kr/policy/ai_neuromorphic_tech",
+      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-09-19"
+  "lastUpdated": "2026-09-20"
 }
