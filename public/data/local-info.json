@@ -1,16 +1,16 @@
 {
   "events": [
     {
-      "name": "인생 한 컷을 담아주세요 포토이벤트",
+      "name": "독자참여 포토이벤트 - 인생 한 컷을 담아주세요",
       "category": "행사",
       "startDate": "2026-10-01",
       "endDate": "2026-10-31",
       "location": "송파구 관내",
       "target": "전체 구민",
-      "summary": "10월 한성백제문화제, 송파의 가을 등 가을 축제를 테마로 한 사진 공모 이벤트",
+      "summary": "한성백제문화제, 송파의 가을, 가을 축제를 테마로 진행되는 10월 독자 참여 포토 이벤트입니다.",
       "link": "https://songpa.newstool.co.kr/./view.php?eid=9048&aid=18226",
-      "id": "crawler-1788401818351-845",
-      "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1787462187songpa.JPG"
+      "id": "crawler-1790044631930-955",
+      "image": "https://picsum.photos/seed/619876/800/500"
     },
     {
       "name": "송파 주요 축제 소식",
@@ -5018,6 +5018,19 @@
       "location": "수사기관 및 법원",
       "target": "범죄 피해 아동 및 장애인",
       "summary": "범죄 피해 아동·장애인의 수사·재판 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
+    },
+    {
+      "id": "127000",
+      "name": "범죄 피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-09-22",
+      "endDate": "상시",
+      "location": "법무부",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "만 19세 미만 아동 및 장애인 범죄 피해자의 진술 조력 지원",
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
@@ -14288,7 +14301,67 @@
       "summary": "AI 기반 자동화된 사이버 위협 인텔리전스 기술 개발 및 확산",
       "link": "https://www.msit.go.kr",
       "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-22-1",
+      "name": "정보통신산업진흥원 AI 기반 데이터셋 품질 고도화 및 검증 플랫폼 구축 지원",
+      "category": "AI지원",
+      "startDate": "2026-09-22",
+      "endDate": "상시",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI 데이터셋 구축 기업 및 AI 솔루션 개발 기업",
+      "summary": "AI 모델 성능 향상을 위한 데이터셋 품질 관리 및 검증 환경 구축 지원",
+      "link": "https://www.nipa.kr",
+      "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-22-2",
+      "name": "서울 AI 허브 AI 기반 사용자 경험(UX) 분석 및 최적화 솔루션 개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-09-22",
+      "endDate": "상시",
+      "location": "서울 AI 허브",
+      "target": "AI 서비스 개발 스타트업 및 중소기업",
+      "summary": "AI 활용 사용자 데이터를 분석하여 서비스 UX를 최적화하는 솔루션 개발 지원",
+      "link": "https://seoulaihub.kr",
+      "image": "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-22-3",
+      "name": "K-Startup AI 기반 소규모 기업 맞춤형 경영 솔루션 개발 및 사업화 지원",
+      "category": "AI지원",
+      "startDate": "2026-09-22",
+      "endDate": "상시",
+      "location": "K-Startup 창업진흥원",
+      "target": "소규모 기업 대상 AI 기반 경영 솔루션 개발 스타트업",
+      "summary": "소기업 경영 효율성 증진을 위한 AI 기반 맞춤형 솔루션 개발 지원",
+      "link": "https://www.k-startup.go.kr",
+      "image": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-22-4",
+      "name": "기업마당 중소기업 AI 기반 지능형 품질 검사 및 불량 예측 시스템 도입 지원",
+      "category": "AI지원",
+      "startDate": "2026-09-22",
+      "endDate": "상시",
+      "location": "기업마당 (중소벤처기업부)",
+      "target": "제조 공정 보유 중소기업",
+      "summary": "AI를 활용하여 제조 공정의 품질 검사 및 불량률을 예측하는 시스템 도입 지원",
+      "link": "https://www.bizinfo.go.kr",
+      "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-22-5",
+      "name": "과학기술정보통신부 AI 기반 메타버스 연동 초고해상도 실감 콘텐츠 제작 기술 개발",
+      "category": "AI지원",
+      "startDate": "2026-09-22",
+      "endDate": "상시",
+      "location": "과학기술정보통신부",
+      "target": "메타버스/콘텐츠 개발 기업 및 연구기관",
+      "summary": "AI로 메타버스 환경에 최적화된 초고해상도 실감 콘텐츠 제작 기술 개발",
+      "link": "https://www.msit.go.kr",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-09-21"
+  "lastUpdated": "2026-09-22"
 }
