@@ -1,16 +1,28 @@
 {
   "events": [
     {
-      "name": "독자참여 포토이벤트 - 인생 한 컷을 담아주세요",
+      "name": "한성백제문화제 독자참여 그림이벤트",
       "category": "행사",
       "startDate": "2026-10-01",
       "endDate": "2026-10-31",
       "location": "송파구 관내",
       "target": "전체 구민",
-      "summary": "한성백제문화제, 송파의 가을, 가을 축제를 테마로 진행되는 10월 독자 참여 포토 이벤트입니다.",
+      "summary": "한성백제문화제를 주제로 송파구민이 함께 참여하는 그림 이벤트",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9048&aid=18225",
+      "id": "crawler-1790131008102-360",
+      "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1787462504songpa.JPG"
+    },
+    {
+      "name": "인생 한 컷을 담아주세요 10월 테마 포토이벤트",
+      "category": "행사",
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-31",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "한성백제문화제, 송파의 가을 등 10월 테마에 맞춰 진행되는 독자참여 포토 이벤트",
       "link": "https://songpa.newstool.co.kr/./view.php?eid=9048&aid=18226",
-      "id": "crawler-1790044631930-955",
-      "image": "https://picsum.photos/seed/619876/800/500"
+      "id": "crawler-1790131006368-869",
+      "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1787462187songpa.JPG"
     },
     {
       "name": "송파 주요 축제 소식",
@@ -5034,6 +5046,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "범죄 피해자 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-09-23",
+      "endDate": "상시",
+      "location": "법무부",
+      "target": "만 19세 미만 아동 또는 장애인 범죄 피해자",
+      "summary": "만 19세 미만 아동, 의사소통이 어려운 장애인 범죄 피해자의 수사·재판상 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -14361,7 +14386,67 @@
       "summary": "AI로 메타버스 환경에 최적화된 초고해상도 실감 콘텐츠 제작 기술 개발",
       "link": "https://www.msit.go.kr",
       "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-23-1",
+      "name": "NIPA AI 기반 바이오·제약 연구 데이터 통합 및 활용 지원",
+      "category": "AI지원",
+      "startDate": "2026-09-01",
+      "endDate": "2027-08-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "바이오·제약 분야 기업 및 연구기관",
+      "summary": "AI를 활용한 바이오·제약 연구 데이터 통합 및 분석 지원",
+      "link": "https://www.nipa.kr/biz/ai-bio-pharma-data",
+      "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-23-2",
+      "name": "서울 AI 허브 AI 기반 도시 데이터 공유 및 거버넌스 체계 구축 지원",
+      "category": "AI지원",
+      "startDate": "2026-10-01",
+      "endDate": "2027-09-30",
+      "location": "서울 AI 허브",
+      "target": "서울시 소재 AI 스타트업, 연구기관, 행정기관",
+      "summary": "AI 기반 도시 데이터의 효율적 공유 및 거버넌스 체계 구축 지원",
+      "link": "https://www.seoulaihub.kr/program/urban-data-governance",
+      "image": "https://images.unsplash.com/photo-1516321165247-4aa89a48be55?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-23-3",
+      "name": "K-Startup AI 기반 지속가능 제조 혁신 스타트업 육성 프로그램",
+      "category": "AI지원",
+      "startDate": "2026-09-15",
+      "endDate": "2027-03-14",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "AI 기반 지속가능 제조 분야 혁신 스타트업",
+      "summary": "AI 기술로 지속가능한 제조 혁신을 선도할 스타트업 발굴 및 육성",
+      "link": "https://www.k-startup.go.kr/biz/ai-sustainable-manufacturing",
+      "image": "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-23-4",
+      "name": "중소기업 AI 기반 비대면 서비스 수출 경쟁력 강화 지원",
+      "category": "AI지원",
+      "startDate": "2026-09-01",
+      "endDate": "2027-02-28",
+      "location": "기업마당 (중소벤처기업부)",
+      "target": "AI 활용 비대면 서비스 수출 희망 중소기업",
+      "summary": "AI 기술 도입을 통한 비대면 서비스의 해외 시장 진출 역량 강화 지원",
+      "link": "https://www.bizinfo.go.kr/export/ai-untact-service",
+      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-23-5",
+      "name": "과학기술정보통신부 AI 기반 미래형 농업 생산성 혁신 기술 개발 및 실증",
+      "category": "AI지원",
+      "startDate": "2026-09-01",
+      "endDate": "2027-12-31",
+      "location": "과학기술정보통신부",
+      "target": "AI 기반 농업 기술 개발 기업 및 연구기관",
+      "summary": "AI 활용 미래 농업 생산성 혁신 기술 R&D 및 현장 실증 지원",
+      "link": "https://www.msit.go.kr/ai-future-agriculture",
+      "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-09-22"
+  "lastUpdated": "2026-09-23"
 }
