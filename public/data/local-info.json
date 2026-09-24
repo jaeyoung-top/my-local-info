@@ -1,6 +1,18 @@
 {
   "events": [
     {
+      "name": "독자참여 포토이벤트: 인생 한 컷을 담아주세요",
+      "category": "행사",
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-31",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "10월 테마(한성백제문화제, 송파의 가을, 가을 축제)와 관련된 사진을 공유하는 독자참여 포토이벤트입니다.",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9048&aid=18226",
+      "id": "crawler-1790216743884-734",
+      "image": "https://picsum.photos/seed/201544/800/500"
+    },
+    {
       "name": "한성백제문화제 독자참여 그림이벤트",
       "category": "행사",
       "startDate": "2026-10-01",
@@ -11,18 +23,6 @@
       "link": "https://songpa.newstool.co.kr/./view.php?eid=9048&aid=18225",
       "id": "crawler-1790131008102-360",
       "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1787462504songpa.JPG"
-    },
-    {
-      "name": "인생 한 컷을 담아주세요 10월 테마 포토이벤트",
-      "category": "행사",
-      "startDate": "2026-10-01",
-      "endDate": "2026-10-31",
-      "location": "송파구 관내",
-      "target": "전체 구민",
-      "summary": "한성백제문화제, 송파의 가을 등 10월 테마에 맞춰 진행되는 독자참여 포토 이벤트",
-      "link": "https://songpa.newstool.co.kr/./view.php?eid=9048&aid=18226",
-      "id": "crawler-1790131006368-869",
-      "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1787462187songpa.JPG"
     },
     {
       "name": "송파 주요 축제 소식",
@@ -5059,6 +5059,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "범죄피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-09-24",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "만 19세 미만 아동, 의사소통 어려운 장애인 범죄 피해자의 수사·재판상 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1519340333755-56e9c1d04579?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -14446,7 +14459,67 @@
       "summary": "AI 활용 미래 농업 생산성 혁신 기술 R&D 및 현장 실증 지원",
       "link": "https://www.msit.go.kr/ai-future-agriculture",
       "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-24-1",
+      "name": "2026년 정보통신산업진흥원 AI 기반 산업 지능화 표준 데이터셋 구축 및 활용 사업",
+      "category": "AI지원",
+      "startDate": "2026-03-01",
+      "endDate": "2026-12-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI 솔루션 개발 기업, 산업계",
+      "summary": "산업 분야 AI 활용을 위한 표준 데이터셋 구축 및 확산 지원",
+      "link": "https://www.nipa.kr/biz/2026_ai_standard_dataset.html",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-24-2",
+      "name": "2026년 서울 AI 허브 시민 체감형 AI 공공 서비스 개발 및 실증 지원",
+      "category": "AI지원",
+      "startDate": "2026-04-15",
+      "endDate": "2026-11-30",
+      "location": "서울 AI 허브",
+      "target": "AI 스타트업, 중소기업, 연구기관",
+      "summary": "시민 삶의 질 향상을 위한 AI 기반 공공 서비스 개발 및 실증 지원",
+      "link": "https://www.seoulaihub.kr/program/ai_public_service_2026.html",
+      "image": "https://images.unsplash.com/photo-1488229297570-58520851e868?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-24-3",
+      "name": "2026년 K-Startup AI 기반 소부장 혁신 창업 경진대회 및 사업화 연계",
+      "category": "AI지원",
+      "startDate": "2026-05-10",
+      "endDate": "2026-10-20",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "예비창업가, 초기창업기업 (AI+소부장)",
+      "summary": "AI 기술 기반 소부장 분야 혁신 창업 아이디어 발굴 및 사업화 지원",
+      "link": "https://www.k-startup.go.kr/biz/2026_ai_soobujang_contest.do",
+      "image": "https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-24-4",
+      "name": "2026년 중소벤처기업부 AI·빅데이터 기반 전통 산업 디지털 전환 촉진 지원",
+      "category": "AI지원",
+      "startDate": "2026-02-01",
+      "endDate": "2026-12-15",
+      "location": "기업마당 (중소벤처기업부)",
+      "target": "전통산업 분야 중소기업",
+      "summary": "AI/빅데이터 활용 전통산업의 디지털 전환 솔루션 도입 및 컨설팅 지원",
+      "link": "https://www.bizinfo.go.kr/bizinfo/progrm/AI_trad_DX_2026.do",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-24-5",
+      "name": "2026년 과학기술정보통신부 양자 컴퓨팅 융합 AI 핵심기술 개발 및 사업화 지원",
+      "category": "AI지원",
+      "startDate": "2026-01-01",
+      "endDate": "2026-12-31",
+      "location": "과학기술정보통신부",
+      "target": "연구기관, 대학, 기업 (양자 AI 분야)",
+      "summary": "양자 컴퓨팅과 AI 융합을 통한 차세대 핵심기술 개발 및 상용화 촉진",
+      "link": "https://www.msit.go.kr/web/msit/AI_quantum_tech_2026.do",
+      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-09-23"
+  "lastUpdated": "2026-09-24"
 }
