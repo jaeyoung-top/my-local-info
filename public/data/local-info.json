@@ -25,28 +25,16 @@
       "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1787462504songpa.JPG"
     },
     {
-      "name": "송파 주요 축제 소식",
+      "name": "송파 주요 축제 및 문화유산 여행",
       "category": "축제",
       "startDate": "2026-09-01",
       "endDate": "2026-09-30",
       "location": "송파구 관내",
       "target": "전체 구민",
-      "summary": "송파청년축제, 우리동네 축제, 달빛 속 문화유산 여행 등 송파구의 다양한 축제 현장을 소개하는 특집 기사.",
+      "summary": "송파청년축제, 우리동네 축제, 2026 달빛 속 문화유산 여행 등 송파구의 주요 축제 및 문화 행사를 소개합니다.",
       "link": "https://songpa.newstool.co.kr/./view.php?eid=9048&aid=18223",
-      "id": "crawler-1789871774925-731",
-      "image": "https://picsum.photos/seed/556839/800/500"
-    },
-    {
-      "name": "송파구 주요 축제 및 문화유산 여행",
-      "category": "축제",
-      "startDate": "2026-09-01",
-      "endDate": "2026-09-30",
-      "location": "송파구 관내",
-      "target": "전체 구민",
-      "summary": "송파청년축제, 우리동네 축제, 달빛 속 문화유산 여행 등 송파구의 다양한 축제 현장 소식",
-      "link": "https://songpa.newstool.co.kr/./view.php?eid=9048&aid=18223",
-      "id": "crawler-1789092907742-518",
-      "image": "https://picsum.photos/seed/199228/800/500"
+      "id": "crawler-1790304187059-332",
+      "image": "https://picsum.photos/seed/551411/800/500"
     },
     {
       "name": "송파, 축제의 현장",
@@ -5069,6 +5057,19 @@
       "location": "경찰서, 검찰청, 법원",
       "target": "범죄 피해 아동 및 장애인",
       "summary": "만 19세 미만 아동, 의사소통 어려운 장애인 범죄 피해자의 수사·재판상 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1519340333755-56e9c1d04579?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "범죄피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-09-25",
+      "endDate": "상시",
+      "location": "법무부",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "만 19세 미만 아동, 장애인 범죄 피해자의 수사·재판상 소통 중개",
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1519340333755-56e9c1d04579?w=800&q=80"
@@ -14519,7 +14520,67 @@
       "summary": "양자 컴퓨팅과 AI 융합을 통한 차세대 핵심기술 개발 및 상용화 촉진",
       "link": "https://www.msit.go.kr/web/msit/AI_quantum_tech_2026.do",
       "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-25-1",
+      "name": "2026년 정보통신산업진흥원 AI 기반 SW 서비스 통합 플랫폼 구축 및 생태계 조성 지원",
+      "category": "AI지원",
+      "startDate": "2026-09-25",
+      "endDate": "2026-12-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI 기반 SW 개발 기업 및 컨소시엄",
+      "summary": "AI 기반 SW 서비스 개발 및 확산을 위한 통합 플랫폼 구축 및 생태계 조성 지원",
+      "link": "https://www.nipa.kr/main/main.do",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-25-2",
+      "name": "2026년 서울 AI 허브 AI 모델 해석 가능성 및 투명성 확보 컨설팅 지원",
+      "category": "AI지원",
+      "startDate": "2026-09-25",
+      "endDate": "2026-12-31",
+      "location": "서울 AI 허브",
+      "target": "AI 개발 기업 및 연구기관",
+      "summary": "AI 모델의 신뢰성 강화를 위한 해석 가능성 및 투명성 확보 컨설팅 제공",
+      "link": "https://seoulaihub.kr/",
+      "image": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-25-3",
+      "name": "2026년 K-Startup AI 에이전트 서비스 스타트업 육성 프로그램",
+      "category": "AI지원",
+      "startDate": "2026-09-25",
+      "endDate": "2027-03-31",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "AI 에이전트 서비스 분야 예비/초기 스타트업",
+      "summary": "AI 에이전트 서비스 기술 개발 및 사업화를 위한 스타트업 육성 및 지원",
+      "link": "https://www.k-startup.go.kr/",
+      "image": "https://images.unsplash.com/photo-1526378800651-c32d170fe6f8?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-25-4",
+      "name": "2026년 과학기술정보통신부 AI 기반 디지털 보증 및 신원 확인 기술 개발",
+      "category": "AI지원",
+      "startDate": "2026-09-25",
+      "endDate": "2027-06-30",
+      "location": "과학기술정보통신부",
+      "target": "AI, 보안 기술 개발 연구기관 및 기업",
+      "summary": "AI를 활용한 디지털 보증 및 신원 확인 기술 연구개발 지원",
+      "link": "https://www.msit.go.kr/index.do",
+      "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-09-25-5",
+      "name": "2026년 중소기업 AI 기반 서비스 로봇 도입 및 활용 컨설팅 지원 (기업마당)",
+      "category": "AI지원",
+      "startDate": "2026-09-25",
+      "endDate": "2026-12-31",
+      "location": "기업마당 (중소벤처기업부)",
+      "target": "AI 서비스 로봇 도입 희망 중소기업",
+      "summary": "중소기업의 AI 기반 서비스 로봇 도입 및 효율적 활용을 위한 컨설팅 지원",
+      "link": "https://www.bizinfo.go.kr/",
+      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-09-24"
+  "lastUpdated": "2026-09-25"
 }
