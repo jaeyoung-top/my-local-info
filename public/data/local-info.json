@@ -1,6 +1,30 @@
 {
   "events": [
     {
+      "name": "송파구 10월 문화 캘린더",
+      "category": "문화",
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-31",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "송파구에서 10월 한 달간 진행되는 다양한 문화, 공연, 행사 정보",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9054&aid=18313",
+      "id": "crawler-1790824779801-991",
+      "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1790129779songpa.JPG"
+    },
+    {
+      "name": "제26회 한성백제문화제",
+      "category": "축제",
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-31",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "찬란한 문화를 통해 깊은 울림을 선사하는 송파구의 대표적인 역사 문화 축제",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9054&aid=18319",
+      "id": "crawler-1790824777495-130",
+      "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1790123824songpa.JPG"
+    },
+    {
       "name": "독자참여 포토이벤트: 인생 한 컷을 담아주세요",
       "category": "행사",
       "startDate": "2026-10-01",
@@ -23,78 +47,6 @@
       "link": "https://songpa.newstool.co.kr/./view.php?eid=9048&aid=18225",
       "id": "crawler-1790131008102-360",
       "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1787462504songpa.JPG"
-    },
-    {
-      "name": "송파구 주요 축제 현장 소식",
-      "category": "축제",
-      "startDate": "2026-09-01",
-      "endDate": "2026-09-30",
-      "location": "송파구 관내",
-      "target": "전체 구민",
-      "summary": "송파청년축제, 우리동네 축제, 달빛 속 문화유산 여행 등 송파구의 다양한 축제 정보",
-      "link": "https://songpa.newstool.co.kr/./view.php?eid=9048&aid=18223",
-      "id": "crawler-1790477146664-223",
-      "image": "https://picsum.photos/seed/498235/800/500"
-    },
-    {
-      "name": "송파 주요 축제 및 문화유산 여행",
-      "category": "축제",
-      "startDate": "2026-09-01",
-      "endDate": "2026-09-30",
-      "location": "송파구 관내",
-      "target": "전체 구민",
-      "summary": "송파청년축제, 우리동네 축제, 2026 달빛 속 문화유산 여행 등 송파구의 주요 축제 및 문화 행사를 소개합니다.",
-      "link": "https://songpa.newstool.co.kr/./view.php?eid=9048&aid=18223",
-      "id": "crawler-1790304187059-332",
-      "image": "https://picsum.photos/seed/551411/800/500"
-    },
-    {
-      "name": "송파, 축제의 현장",
-      "category": "행사",
-      "startDate": "2026-09-01",
-      "endDate": "2026-09-30",
-      "location": "송파구 관내",
-      "target": "전체 구민",
-      "summary": "송파청년축제, 우리동네 축제, 달빛 속 문화유산 여행 등 송파구의 다양한 축제 현장을 소개합니다.",
-      "link": "https://songpa.newstool.co.kr/./view.php?eid=9048&aid=18223",
-      "id": "crawler-1788833868545-757",
-      "image": "https://picsum.photos/seed/625636/800/500"
-    },
-    {
-      "name": "송파구 9월 문화 캘린더",
-      "category": "문화",
-      "startDate": "2026-09-01",
-      "endDate": "2026-09-30",
-      "location": "송파구 관내",
-      "target": "전체 구민",
-      "summary": "송파구 9월의 다양한 문화 행사, 공연, 전시 일정을 한눈에 볼 수 있는 캘린더입니다.",
-      "link": "https://songpa.newstool.co.kr/./view.php?eid=9048&aid=18219",
-      "id": "crawler-1787979407561-60",
-      "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1787467502songpa.JPG"
-    },
-    {
-      "name": "송파구문화예술회관 정기공연",
-      "category": "공연",
-      "startDate": "2026-09-01",
-      "endDate": "2026-09-30",
-      "location": "송파구문화예술회관",
-      "target": "전체 구민",
-      "summary": "문화예술의 도시 송파를 위한 송파구문화예술회관의 정기 공연 소식을 안내합니다.",
-      "link": "https://songpa.newstool.co.kr/./view.php?eid=9048&aid=18222",
-      "id": "crawler-1787904648967-201",
-      "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1787465695songpa.JPG"
-    },
-    {
-      "name": "송파청년축제, 우리동네 축제, 달빛 속 문화유산 여행",
-      "category": "축제",
-      "startDate": "2026-09-01",
-      "endDate": "2026-09-30",
-      "location": "송파구 관내",
-      "target": "전체 구민",
-      "summary": "송파구의 송파청년축제, 우리동네 축제 및 2026 달빛 속 문화유산 여행 등 다양한 문화 행사를 소개합니다.",
-      "link": "https://songpa.newstool.co.kr/./view.php?eid=9048&aid=18223",
-      "id": "crawler-1787904646678-923",
-      "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1787464030songpa.JPG"
     }
   ],
   "benefits": [
@@ -5150,6 +5102,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&q=80"
+    },
+    {
+      "id": "000025",
+      "name": "범죄 피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "상시",
+      "location": "법무부",
+      "target": "만 19세 미만 아동 또는 장애인 범죄 피해자",
+      "summary": "아동 및 장애인 범죄 피해자의 수사·재판 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -14957,7 +14922,67 @@
       "summary": "AI 활용 국가 재난 예측 및 대응 시스템 기술 R&D 고도화",
       "link": "https://www.msit.go.kr/disastertech2026",
       "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-01-1",
+      "name": "AI 기반 지식재산(IP) 분석 및 전략 수립 자동화 솔루션 개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-10-01",
+      "endDate": "마감일 또는 상시",
+      "location": "NIPA (정보통신산업진흥원)",
+      "target": "AI 솔루션 개발 기업, 지식재산권 관리 희망 기업",
+      "summary": "AI 기반 지식재산 분석 및 전략 수립 자동화 솔루션 개발 지원.",
+      "link": "https://www.nipa.kr",
+      "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-01-2",
+      "name": "AI 기반 복합 센서 데이터 융합 및 실시간 분석 기술 실증 지원",
+      "category": "AI지원",
+      "startDate": "2026-10-01",
+      "endDate": "마감일 또는 상시",
+      "location": "서울 AI 허브",
+      "target": "복합 센서 데이터 활용 AI 스타트업, 연구팀",
+      "summary": "다양한 센서 데이터 융합 및 실시간 분석 AI 기술 실증 지원.",
+      "link": "https://seoulaihub.kr",
+      "image": "https://images.unsplash.com/photo-1516321165247-4aa89a48be55?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-01-3",
+      "name": "AI 기반 초기 스타트업 클라우드 크레딧 및 기술 멘토링 지원",
+      "category": "AI지원",
+      "startDate": "2026-10-01",
+      "endDate": "마감일 또는 상시",
+      "location": "K-Startup 창업진흥원",
+      "target": "초기 AI 스타트업",
+      "summary": "AI 스타트업의 클라우드 인프라 활용을 위한 크레딧 및 기술 멘토링 제공.",
+      "link": "https://www.k-startup.go.kr",
+      "image": "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-01-4",
+      "name": "AI 기반 소규모 유통점포 재고 관리 및 수요 예측 시스템 도입 지원",
+      "category": "AI지원",
+      "startDate": "2026-10-01",
+      "endDate": "마감일 또는 상시",
+      "location": "기업마당 (중소벤처기업부)",
+      "target": "소규모 유통점포, 소상공인",
+      "summary": "AI 기반 재고 관리 및 수요 예측 시스템 도입으로 소규모 유통점포 운영 효율화 지원.",
+      "link": "https://www.bizinfo.go.kr",
+      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-01-5",
+      "name": "AI 기반 디지털 치료제 유효성 검증 및 인허가 지원 연구",
+      "category": "AI지원",
+      "startDate": "2026-10-01",
+      "endDate": "마감일 또는 상시",
+      "location": "과학기술정보통신부",
+      "target": "디지털 치료제 개발 기업/연구기관",
+      "summary": "AI 기반 디지털 치료제의 유효성 검증 및 인허가 과정 지원 연구.",
+      "link": "https://www.msit.go.kr",
+      "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-09-30"
+  "lastUpdated": "2026-10-01"
 }
