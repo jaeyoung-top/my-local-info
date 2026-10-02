@@ -5115,6 +5115,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "범죄 피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-10-02",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청 등 수사기관이나 법원",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "범죄 피해 아동 및 장애인의 수사·재판 진술 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "admin",
+      "image": "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -14982,7 +14995,67 @@
       "summary": "AI 기반 디지털 치료제의 유효성 검증 및 인허가 과정 지원 연구.",
       "link": "https://www.msit.go.kr",
       "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-02-1",
+      "name": "과학기술정보통신부 2026년 AI 기반 미래 사회 변화 예측 및 대응 기술 개발",
+      "category": "AI지원",
+      "startDate": "2026-10-02",
+      "endDate": "2027-09-30",
+      "location": "과학기술정보통신부",
+      "target": "연구기관, 대학, 기업",
+      "summary": "AI로 사회 변화를 예측하고 선제적으로 대응하는 기술 연구 개발",
+      "link": "https://www.msit.go.kr",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-02-2",
+      "name": "NIPA 2026년 AI 모델 학습을 위한 합성 데이터 생성 및 활용 기술 개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-10-02",
+      "endDate": "2027-09-30",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI 개발 기업 및 데이터 솔루션 기업",
+      "summary": "개인정보 보호 및 데이터 부족 해결을 위한 합성 데이터 기술 개발 지원",
+      "link": "https://www.nipa.kr",
+      "image": "https://images.unsplash.com/photo-1488229297570-58520851e868?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-02-3",
+      "name": "K-Startup 2026년 AI 기반 혁신 아이디어 발굴 및 사업화 지원 프로그램",
+      "category": "AI지원",
+      "startDate": "2026-10-02",
+      "endDate": "2027-03-31",
+      "location": "K-Startup 창업진흥원",
+      "target": "예비창업가 및 초기 AI 스타트업",
+      "summary": "AI 기반 혁신적인 아이디어를 발굴하고 사업화하도록 지원",
+      "link": "https://www.k-startup.go.kr",
+      "image": "https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-02-4",
+      "name": "서울 AI 허브 2026년 AI 기술 수요-공급 기업 매칭 및 공동 프로젝트 지원",
+      "category": "AI지원",
+      "startDate": "2026-10-02",
+      "endDate": "2027-06-30",
+      "location": "서울 AI 허브",
+      "target": "AI 기술 수요 기업 및 AI 솔루션 공급 스타트업",
+      "summary": "AI 기술 도입 희망 기업과 AI 스타트업 간 매칭 및 공동 프로젝트 지원",
+      "link": "https://www.seoulaihub.kr",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-02-5",
+      "name": "중소벤처기업부 2026년 중소기업 AI 기반 비정형 데이터 분석 및 고객 가치 창출 지원",
+      "category": "AI지원",
+      "startDate": "2026-10-02",
+      "endDate": "2027-03-31",
+      "location": "중소벤처기업부",
+      "target": "AI 기반 고객 가치 창출 희망 중소기업",
+      "summary": "중소기업 비정형 데이터 분석을 통한 고객 맞춤형 가치 창출 지원",
+      "link": "https://www.mss.go.kr",
+      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-10-01"
+  "lastUpdated": "2026-10-02"
 }
