@@ -1,6 +1,18 @@
 {
   "events": [
     {
+      "name": "송파구 청년예술인 축제 THE IMPACT WITH",
+      "category": "축제",
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-31",
+      "location": "송파구 관내",
+      "target": "전체 구민",
+      "summary": "송파구 청년 예술인들의 열정과 재능을 선보이는 축제",
+      "link": "https://songpa.newstool.co.kr/./view.php?eid=9054&aid=18316",
+      "id": "crawler-1790996983446-742",
+      "image": "https://mbook.newstool.co.kr/enewspaper/upimages/songpa/1790127957songpa.JPG"
+    },
+    {
       "name": "송파구 10월 문화 캘린더",
       "category": "문화",
       "startDate": "2026-10-01",
@@ -5128,6 +5140,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "admin",
       "image": "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=80"
+    },
+    {
+      "id": "000025",
+      "name": "피해자 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "상시",
+      "location": "법무부",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "만 19세 미만 아동, 의사소통 어려운 장애인 범죄 피해자의 수사·재판 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -15057,5 +15082,5 @@
       "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-10-02"
+  "lastUpdated": "2026-10-03"
 }
