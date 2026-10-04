@@ -5153,6 +5153,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=800&q=80"
+    },
+    {
+      "id": "127000",
+      "name": "범죄 피해 아동·장애인 진술조력 지원",
+      "category": "혜택",
+      "startDate": "2026-10-04",
+      "endDate": "상시",
+      "location": "법무부 및 수사·사법기관",
+      "target": "만 19세 미만 아동 및 범죄 피해 장애인",
+      "summary": "범죄 피해 아동·장애인의 수사·재판 소통을 진술조력인이 중개 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -15080,7 +15093,67 @@
       "summary": "중소기업 비정형 데이터 분석을 통한 고객 맞춤형 가치 창출 지원",
       "link": "https://www.mss.go.kr",
       "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-04-1",
+      "name": "NIPA AI 기반 산업별 AI 윤리 및 책임성 확보 컨설팅 지원",
+      "category": "AI지원",
+      "startDate": "2026-10-04",
+      "endDate": "2026-12-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI 도입 및 개발 중소·중견기업",
+      "summary": "산업 특화 AI 윤리 가이드라인 및 책임성 확보 컨설팅 제공",
+      "link": "https://www.nipa.kr/main/index.html",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-04-2",
+      "name": "서울 AI 허브 인공지능 기술사업화를 위한 법률 및 특허 자문 지원",
+      "category": "AI지원",
+      "startDate": "2026-10-04",
+      "endDate": "상시",
+      "location": "서울 AI 허브",
+      "target": "AI 스타트업 및 기술 개발사",
+      "summary": "AI 기술 관련 법률, 특허 전략 수립 및 보호 자문 제공",
+      "link": "https://seoulaihub.kr/",
+      "image": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-04-3",
+      "name": "K-Startup AI 기반 비즈니스 기획 및 투자유치 전략 고도화 지원",
+      "category": "AI지원",
+      "startDate": "2026-10-04",
+      "endDate": "2026-12-15",
+      "location": "K-Startup 창업진흥원",
+      "target": "AI/디지털 기반 초기 창업기업",
+      "summary": "AI 도구 활용 사업 계획 및 투자 유치 IR 전략 수립 지원",
+      "link": "https://www.k-startup.go.kr/",
+      "image": "https://images.unsplash.com/photo-1526378800651-c32d170fe6f8?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-04-4",
+      "name": "기업마당 중소기업 AI 기반 신규 시장 분석 및 사업화 기회 발굴 지원",
+      "category": "AI지원",
+      "startDate": "2026-10-04",
+      "endDate": "2026-12-31",
+      "location": "기업마당 (중소벤처기업부)",
+      "target": "디지털 전환 희망 중소기업",
+      "summary": "AI 활용 시장 분석, 트렌드 예측으로 신사업 기회 발굴 지원",
+      "link": "https://www.bizinfo.go.kr/",
+      "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-04-5",
+      "name": "과학기술정보통신부 AI 모델 일반화 성능 향상 및 신뢰성 확보 원천기술 개발",
+      "category": "AI지원",
+      "startDate": "2026-10-04",
+      "endDate": "2028-09-30",
+      "location": "과학기술정보통신부",
+      "target": "산학연 AI R&D 연구기관",
+      "summary": "다양한 환경에서 AI 모델의 일반화 및 신뢰성 확보 기술 개발",
+      "link": "https://www.msit.go.kr/index.do",
+      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-10-03"
+  "lastUpdated": "2026-10-04"
 }
