@@ -5218,6 +5218,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
+    },
+    {
+      "id": "000025",
+      "name": "피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-10-09",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청 등 수사기관이나 법원",
+      "target": "성폭력·아동학대·인신매매 피해 아동 및 장애인",
+      "summary": "만 19세 미만 아동, 의사소통이 어려운 장애인 범죄 피해자의 수사·재판상 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -15433,7 +15446,67 @@
       "summary": "특정 산업 분야에 특화된 생성형 AI 모델 개발 및 산업 현장 활용 촉진.",
       "link": "https://www.msit.go.kr/",
       "image": "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-09-1",
+      "name": "NIPA AI 기반 초저전력 온디바이스(On-Device) AI 기술 개발 및 사업화 지원",
+      "category": "AI지원",
+      "startDate": "2026-03-01",
+      "endDate": "2026-12-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI 관련 중소·벤처기업 및 연구기관",
+      "summary": "초저전력 온디바이스 AI 기술 개발 및 상용화 지원",
+      "link": "https://www.nipa.kr/main/main.do",
+      "image": "https://images.unsplash.com/photo-1526378800651-c32d170fe6f8?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-09-2",
+      "name": "서울 AI 허브 AI 기반 도시 환경 인지 및 예측 기술 실증 지원",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "2026-11-30",
+      "location": "서울 AI 허브",
+      "target": "AI 기술 보유 스타트업 및 중소기업",
+      "summary": "도시 환경 데이터 기반 AI 인지 및 예측 기술 개발 및 실증 지원",
+      "link": "https://seoulaihub.kr/",
+      "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-09-3",
+      "name": "K-Startup AI 기반 B2B SaaS 솔루션 특화 창업 육성 프로그램",
+      "category": "AI지원",
+      "startDate": "2026-02-01",
+      "endDate": "2026-12-31",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "AI 기반 B2B SaaS 분야 예비/초기 창업기업",
+      "summary": "AI 기반 B2B SaaS 모델 개발 및 시장 진출을 위한 창업 육성",
+      "link": "https://www.k-startup.go.kr/",
+      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-09-4",
+      "name": "중소벤처기업부 AI 기반 비즈니스 모델 혁신을 위한 도전형 R&D 지원",
+      "category": "AI지원",
+      "startDate": "2026-05-01",
+      "endDate": "2027-04-30",
+      "location": "중소벤처기업부 (기업마당)",
+      "target": "AI 기술 활용 비즈니스 혁신 중소기업",
+      "summary": "AI를 활용한 비즈니스 모델 혁신을 위한 도전형 R&D 지원",
+      "link": "https://www.bizinfo.go.kr/web/main/index.do",
+      "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-09-5",
+      "name": "과학기술정보통신부 AI 기반 차세대 뉴로모픽 컴퓨팅 아키텍처 및 소프트웨어 플랫폼 개발",
+      "category": "AI지원",
+      "startDate": "2026-03-01",
+      "endDate": "2027-12-31",
+      "location": "과학기술정보통신부",
+      "target": "뉴로모픽 컴퓨팅 기술 개발 기업 및 연구기관",
+      "summary": "차세대 뉴로모픽 컴퓨팅 아키텍처 및 SW 플랫폼 핵심 기술 개발",
+      "link": "https://www.msit.go.kr/index.do",
+      "image": "https://images.unsplash.com/photo-1516321165247-4aa89a48be55?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-10-08"
+  "lastUpdated": "2026-10-09"
 }
