@@ -5231,6 +5231,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "범죄 피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-10-10",
+      "endDate": "상시",
+      "location": "법무부",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "만 19세 미만 아동, 의사소통이 어려운 장애인 범죄 피해자의 수사·재판상 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -15506,7 +15519,67 @@
       "summary": "차세대 뉴로모픽 컴퓨팅 아키텍처 및 SW 플랫폼 핵심 기술 개발",
       "link": "https://www.msit.go.kr/index.do",
       "image": "https://images.unsplash.com/photo-1516321165247-4aa89a48be55?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-10-1",
+      "name": "2026년 NIPA AI 기반 미래 인재 디지털 역량 강화 파트너십 프로그램",
+      "category": "AI지원",
+      "startDate": "2026-03-01",
+      "endDate": "2026-12-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "예비 디지털 인재, 교육기관, 기업",
+      "summary": "미래 산업을 위한 AI 기반 디지털 인재 육성 및 협력 생태계 구축 지원",
+      "link": "https://www.nipa.kr/main",
+      "image": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-10-2",
+      "name": "2026년 서울 AI 허브 인공지능 기반 공공 서비스 혁신 디자인 및 사용자 경험 실증",
+      "category": "AI지원",
+      "startDate": "2026-06-01",
+      "endDate": "2026-12-31",
+      "location": "서울 AI 허브",
+      "target": "공공기관, AI 서비스 개발 기업",
+      "summary": "AI 기반 공공 서비스의 혁신 디자인 및 사용자 중심 경험 실증 지원",
+      "link": "https://seoulaihub.kr/",
+      "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-10-3",
+      "name": "2026년 K-Startup AI 융합 서비스 창업 기업 기술 검증 및 투자 매칭 지원",
+      "category": "AI지원",
+      "startDate": "2026-05-01",
+      "endDate": "2026-11-30",
+      "location": "K-Startup 창업진흥원",
+      "target": "AI 융합 서비스 분야 초기 창업기업",
+      "summary": "AI 기술 기반 서비스의 시장성 및 기술성 검증, 투자 연계 지원",
+      "link": "https://www.k-startup.go.kr/",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-10-4",
+      "name": "2026년 기업마당 중소기업 AI 기반 클라우드 전환 컨설팅 및 구축 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-01",
+      "endDate": "2026-12-31",
+      "location": "기업마당 (중소벤처기업부)",
+      "target": "AI 기술 도입 희망 중소기업",
+      "summary": "AI 기반 클라우드 시스템 도입 및 전환을 위한 컨설팅 및 구축 지원",
+      "link": "https://www.bizinfo.go.kr/",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-10-5",
+      "name": "2026년 과학기술정보통신부 AI 기반 미래형 도시 인프라 예측 및 최적화 기술 개발",
+      "category": "AI지원",
+      "startDate": "2026-03-01",
+      "endDate": "2026-12-31",
+      "location": "과학기술정보통신부",
+      "target": "연구기관, 기업, 대학",
+      "summary": "AI를 활용한 미래 도시 인프라의 효율적 예측 및 최적화 기술 개발 지원",
+      "link": "https://www.msit.go.kr/",
+      "image": "https://images.unsplash.com/photo-1488229297570-58520851e868?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-10-09"
+  "lastUpdated": "2026-10-10"
 }
