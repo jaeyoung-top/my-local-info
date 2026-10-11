@@ -5244,6 +5244,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "성폭력·아동학대 피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-10-11",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원",
+      "target": "성폭력·아동학대·인신매매 등 범죄 피해 아동(만19세 미만) 및 장애인",
+      "summary": "범죄 피해 아동·장애인의 수사·재판 소통을 돕는 진술조력인 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -15579,7 +15592,67 @@
       "summary": "AI를 활용한 미래 도시 인프라의 효율적 예측 및 최적화 기술 개발 지원",
       "link": "https://www.msit.go.kr/",
       "image": "https://images.unsplash.com/photo-1488229297570-58520851e868?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-11-1",
+      "name": "NIPA AI 기반 초개인화 서비스 UX/UI 혁신 지원 사업",
+      "category": "AI지원",
+      "startDate": "2026-10-01",
+      "endDate": "2027-09-30",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI 기반 초개인화 서비스 개발 기업",
+      "summary": "AI 기반 초개인화 서비스의 사용자 경험 및 인터페이스 혁신 지원",
+      "link": "https://www.nipa.kr/biz/ai-uxui",
+      "image": "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-11-2",
+      "name": "서울 AI 허브 생성형 AI 기반 비즈니스 모델 재설계 컨설팅 지원",
+      "category": "AI지원",
+      "startDate": "2026-11-01",
+      "endDate": "2027-04-30",
+      "location": "서울 AI 허브",
+      "target": "생성형 AI 활용 희망 기업",
+      "summary": "생성형 AI를 활용한 비즈니스 모델 혁신 및 재설계 컨설팅 지원",
+      "link": "https://www.seoulaihub.kr/program/genai-bm-redesign",
+      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-11-3",
+      "name": "K-Startup AI 기반 취약계층 디지털 격차 해소 기술 상용화 지원",
+      "category": "AI지원",
+      "startDate": "2026-09-15",
+      "endDate": "2027-08-31",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "AI 기술 기반 사회적 기업",
+      "summary": "AI 기술로 취약계층 디지털 격차를 해소하는 솔루션 상용화 지원",
+      "link": "https://www.k-startup.go.kr/tech4all-commercialization",
+      "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-11-4",
+      "name": "중소벤처기업부 중소기업 제조현장 AI 기반 데이터 품질 관리 및 고도화 지원",
+      "category": "AI지원",
+      "startDate": "2026-10-20",
+      "endDate": "2027-07-31",
+      "location": "중소벤처기업부 (기업마당)",
+      "target": "제조 중소기업",
+      "summary": "제조 현장의 AI 데이터 품질 관리 및 활용 고도화를 위한 기술 및 컨설팅 지원",
+      "link": "https://www.bizinfo.go.kr/sme/manufact-aidata-qm",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-11-5",
+      "name": "과학기술정보통신부 초거대 AI 기반 환각(Hallucination) 현상 저감 기술 개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-12-01",
+      "endDate": "2028-11-30",
+      "location": "과학기술정보통신부",
+      "target": "초거대 AI 기술 개발 연구기관/기업",
+      "summary": "초거대 AI 모델의 환각 현상을 저감하는 핵심 기술 개발 및 실증 지원",
+      "link": "https://www.msit.go.kr/ai/hallucination-reduction",
+      "image": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-10-10"
+  "lastUpdated": "2026-10-11"
 }
