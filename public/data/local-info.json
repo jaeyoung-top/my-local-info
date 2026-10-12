@@ -5257,6 +5257,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "범죄피해 아동 및 장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-10-12",
+      "endDate": "상시",
+      "location": "법무부 및 수사/법원기관",
+      "target": "범죄피해 아동 및 장애인",
+      "summary": "범죄 피해 아동, 장애인의 수사·재판 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -15652,7 +15665,67 @@
       "summary": "초거대 AI 모델의 환각 현상을 저감하는 핵심 기술 개발 및 실증 지원",
       "link": "https://www.msit.go.kr/ai/hallucination-reduction",
       "image": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-12-1",
+      "name": "2026년 NIPA AI 기반 도시 에너지 소비 최적화 및 관리 솔루션 개발",
+      "category": "AI지원",
+      "startDate": "2026-02-01",
+      "endDate": "2026-11-30",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI 기반 도시 에너지 솔루션 개발 기업/연구기관",
+      "summary": "도시 에너지 데이터 분석 및 예측을 통한 AI 기반 에너지 소비 최적화 기술 개발 지원",
+      "link": "https://www.nipa.kr",
+      "image": "https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-12-2",
+      "name": "서울 AI 허브 생성형 AI 윤리 및 책임성 확보 기술 검증 지원 2026",
+      "category": "AI지원",
+      "startDate": "2026-03-15",
+      "endDate": "2026-12-15",
+      "location": "서울 AI 허브",
+      "target": "생성형 AI 윤리/책임성 기술 개발 스타트업/연구팀",
+      "summary": "생성형 AI의 윤리적 사용 및 책임성 확보를 위한 기술 검증 및 가이드라인 제시 지원",
+      "link": "https://seoulaihub.kr",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-12-3",
+      "name": "K-Startup AI 기반 중소기업 공급망 회복탄력성 강화 솔루션 창업 육성",
+      "category": "AI지원",
+      "startDate": "2026-01-20",
+      "endDate": "2026-10-31",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "AI 기반 공급망 솔루션 개발 스타트업",
+      "summary": "AI로 중소기업 공급망의 위험을 예측하고 복원력을 높이는 솔루션 개발 및 사업화 지원",
+      "link": "https://www.k-startup.go.kr",
+      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-12-4",
+      "name": "중소기업 AI 기반 농축산 스마트 환경 모니터링 및 생산성 향상 지원 (2026)",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "2026-09-30",
+      "location": "기업마당 (중소벤처기업부)",
+      "target": "농축산업 분야 AI 솔루션 도입 희망 중소기업",
+      "summary": "AI로 농축산 환경을 정밀 모니터링하고 생산성을 높이는 스마트 솔루션 도입 지원",
+      "link": "https://bizinfo.go.kr",
+      "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-12-5",
+      "name": "과학기술정보통신부 AI 기반 과학난제 해결을 위한 데이터 과학 플랫폼 구축",
+      "category": "AI지원",
+      "startDate": "2026-01-01",
+      "endDate": "2026-12-31",
+      "location": "과학기술정보통신부",
+      "target": "과학난제 해결 연구팀 및 AI 데이터 과학 기업",
+      "summary": "AI를 활용한 과학난제 해결 및 데이터 기반 연구를 위한 플랫폼 구축 및 활용 지원",
+      "link": "https://www.msit.go.kr",
+      "image": "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-10-11"
+  "lastUpdated": "2026-10-12"
 }
