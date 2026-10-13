@@ -5270,6 +5270,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&q=80"
+    },
+    {
+      "id": "000025",
+      "name": "범죄 피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-10-13",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원 등 수사기관",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "범죄 피해 아동·장애인의 수사·재판 시 의사소통 중개 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -15725,7 +15738,43 @@
       "summary": "AI를 활용한 과학난제 해결 및 데이터 기반 연구를 위한 플랫폼 구축 및 활용 지원",
       "link": "https://www.msit.go.kr",
       "image": "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-13-1",
+      "name": "정보통신산업진흥원 (NIPA) AI 기반 초개인화 서비스 UX/UI 혁신 지원 사업 (2026)",
+      "category": "AI지원",
+      "startDate": "2026-05-01",
+      "endDate": "2026-11-30",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI 기반 서비스 개발 기업 및 스타트업",
+      "summary": "AI 서비스의 사용자 경험/인터페이스 혁신 및 고도화 지원",
+      "link": "https://www.nipa.kr/",
+      "image": "https://images.unsplash.com/photo-1526378800651-c32d170fe6f8?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-13-2",
+      "name": "과학기술정보통신부 AI 오픈소스 핵심 기술 개발 및 커뮤니티 기여 지원 (2026)",
+      "category": "AI지원",
+      "startDate": "2026-01-01",
+      "endDate": "2026-12-31",
+      "location": "과학기술정보통신부",
+      "target": "AI 오픈소스 기술 개발 기업, 연구기관, 커뮤니티",
+      "summary": "AI 오픈소스 핵심 기술 개발 및 커뮤니티 활성화 기여 지원",
+      "link": "https://www.msit.go.kr/",
+      "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-13-3",
+      "name": "중소기업 디지털 역량 강화 바우처 지원 (2026)",
+      "category": "AI지원",
+      "startDate": "2026-02-01",
+      "endDate": "2026-10-31",
+      "location": "기업마당 (중소벤처기업부)",
+      "target": "디지털 전환을 희망하는 중소기업",
+      "summary": "디지털 솔루션 도입 및 활용을 위한 바우처 지원",
+      "link": "https://www.bizinfo.go.kr/",
+      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-10-12"
+  "lastUpdated": "2026-10-13"
 }
