@@ -5283,6 +5283,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
+    },
+    {
+      "id": "127000",
+      "name": "범죄 피해 아동·장애인 진술조력 지원",
+      "category": "혜택",
+      "startDate": "2026-10-14",
+      "endDate": "상시",
+      "location": "법무부",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "아동·장애인 범죄 피해자의 수사·재판 소통 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -15774,7 +15787,67 @@
       "summary": "디지털 솔루션 도입 및 활용을 위한 바우처 지원",
       "link": "https://www.bizinfo.go.kr/",
       "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-14-1",
+      "name": "NIPA 데이터 기반 AI 모델 라이프사이클 관리(MLOps) 기술 상용화 지원",
+      "category": "AI지원",
+      "startDate": "2026-09-01",
+      "endDate": "2027-08-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "MLOps 기술 개발 기업 및 AI 솔루션 기업",
+      "summary": "AI 모델 개발, 배포, 운영 효율화를 위한 MLOps 기술 상용화 지원",
+      "link": "https://www.nipa.kr",
+      "image": "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-14-2",
+      "name": "서울 AI 허브 초거대 언어모델(LLM) 기반 멀티모달 대화형 AI 기술 개발 및 실증",
+      "category": "AI지원",
+      "startDate": "2026-10-01",
+      "endDate": "2027-12-31",
+      "location": "서울 AI 허브",
+      "target": "LLM 및 멀티모달 대화형 AI 기술 개발 기업",
+      "summary": "초거대 언어모델과 멀티모달 융합 대화형 AI 개발 및 실증 지원",
+      "link": "https://www.seoulaihub.kr",
+      "image": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-14-3",
+      "name": "K-Startup AI 기반 탄소중립 기술 스타트업 글로벌 스케일업 지원",
+      "category": "AI지원",
+      "startDate": "2026-07-01",
+      "endDate": "2027-06-30",
+      "location": "K-Startup 창업진흥원",
+      "target": "AI 기반 탄소중립 기술 보유 스타트업",
+      "summary": "AI로 기후변화 및 탄소중립에 기여하는 스타트업의 해외 진출 및 성장 지원",
+      "link": "https://www.k-startup.go.kr",
+      "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-14-4",
+      "name": "과학기술정보통신부 AI 기반 엣지(Edge) 디바이스 최적화 및 보안 기술 개발",
+      "category": "AI지원",
+      "startDate": "2026-08-01",
+      "endDate": "2027-11-30",
+      "location": "과학기술정보통신부",
+      "target": "엣지 AI 및 보안 기술 연구기관/기업",
+      "summary": "엣지 환경에서 AI 성능 최적화와 동시에 보안을 강화하는 핵심 기술 개발",
+      "link": "https://www.msit.go.kr",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-14-5",
+      "name": "기업마당 AI·빅데이터 기반 중소기업 ESG 경영 도입 및 성과 관리 지원",
+      "category": "AI지원",
+      "startDate": "2026-06-01",
+      "endDate": "상시",
+      "location": "기업마당 (중소벤처기업부)",
+      "target": "ESG 경영 도입 및 고도화 희망 중소기업",
+      "summary": "AI·빅데이터로 중소기업의 ESG 전략 수립, 실행, 성과 측정 및 관리 지원",
+      "link": "https://www.bizinfo.go.kr",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-10-13"
+  "lastUpdated": "2026-10-14"
 }
