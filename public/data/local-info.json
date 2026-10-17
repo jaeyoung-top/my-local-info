@@ -5361,6 +5361,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/137100000217",
       "imageTheme": "education",
       "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "범죄 피해 아동·장애인 진술조력 지원",
+      "category": "혜택",
+      "startDate": "2026-10-17",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원 등",
+      "target": "성폭력 등 범죄 피해 아동(만19세 미만) 및 장애인",
+      "summary": "아동, 장애인 범죄 피해자의 수사·재판상 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -16032,7 +16045,67 @@
       "summary": "인간과 AI 로봇이 유기적으로 협력하는 시스템의 핵심 기술 개발 지원",
       "link": "https://www.msit.go.kr",
       "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-17-1",
+      "name": "정보통신산업진흥원 (NIPA) 2026년 AI 기반 초거대 복합 지식그래프 구축 및 활용 기술 개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-10-17",
+      "endDate": "마감일 또는 상시",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI 기술 연구기관 및 개발 기업",
+      "summary": "초거대 AI 기반 복합 지식그래프 구축 및 활용 핵심 기술 개발 지원",
+      "link": "https://www.nipa.kr/ai-knowledgegraph2026",
+      "image": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-17-2",
+      "name": "서울 AI 허브 2026년 AI 기반 몰입형 XR 콘텐츠 개발 스타트업 육성 프로그램",
+      "category": "AI지원",
+      "startDate": "2026-10-17",
+      "endDate": "마감일 또는 상시",
+      "location": "서울 AI 허브",
+      "target": "AI 기반 몰입형 XR 콘텐츠 스타트업",
+      "summary": "AI 기술을 활용한 몰입형 XR 콘텐츠 개발 스타트업 발굴 및 성장 지원",
+      "link": "https://www.seoulaihub.kr/program/xrai-content2026",
+      "image": "https://images.unsplash.com/photo-1526378800651-c32d170fe6f8?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-17-3",
+      "name": "K-Startup 2026년 AI 기반 합성 데이터 생성 및 활용 기술 창업 지원",
+      "category": "AI지원",
+      "startDate": "2026-10-17",
+      "endDate": "마감일 또는 상시",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "합성 데이터 기술 기반 스타트업",
+      "summary": "AI 기반 합성 데이터 생성 및 활용 기술 스타트업의 창업 및 사업화 지원",
+      "link": "https://www.k-startup.go.kr/syn-data-startup2026",
+      "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-17-4",
+      "name": "중소벤처기업부 2026년 중소기업 AI 기반 양자 컴퓨팅 데이터 분석 활용 지원",
+      "category": "AI지원",
+      "startDate": "2026-10-17",
+      "endDate": "마감일 또는 상시",
+      "location": "중소벤처기업부",
+      "target": "양자 컴퓨팅 데이터 활용 중소기업",
+      "summary": "AI를 활용한 양자 컴퓨팅 데이터 분석 및 비즈니스 활용을 지원",
+      "link": "https://www.bizinfo.go.kr/quantum-ai-data2026",
+      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-17-5",
+      "name": "과학기술정보통신부 2026년 AI 기반 자율 인공생명체(A-Life) 기술 개발 및 윤리 연구",
+      "category": "AI지원",
+      "startDate": "2026-10-17",
+      "endDate": "마감일 또는 상시",
+      "location": "과학기술정보통신부",
+      "target": "AI 기반 인공생명체 기술 연구기관",
+      "summary": "AI 기반 자율 인공생명체 핵심 기술 개발 및 관련 윤리 연구 지원",
+      "link": "https://www.msit.go.kr/ai-alife2026",
+      "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-10-16"
+  "lastUpdated": "2026-10-17"
 }
