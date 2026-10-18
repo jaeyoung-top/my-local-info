@@ -5374,6 +5374,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "아동·장애인 범죄피해자 진술조력 지원",
+      "category": "혜택",
+      "startDate": "2026-10-18",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원",
+      "target": "성폭력·아동학대 등 범죄 피해 아동 및 장애인",
+      "summary": "범죄 피해 아동/장애인의 수사·재판 진술 조력 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1519340333755-56e9c1d04579?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -16105,7 +16118,67 @@
       "summary": "AI 기반 자율 인공생명체 핵심 기술 개발 및 관련 윤리 연구 지원",
       "link": "https://www.msit.go.kr/ai-alife2026",
       "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-18-1",
+      "name": "2026년 NIPA 차세대 AI 기술 기반 서비스 실증 지원",
+      "category": "AI지원",
+      "startDate": "2026-03-01",
+      "endDate": "2026-11-30",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI 기술 보유 중소·중견기업",
+      "summary": "차세대 AI 기술을 활용한 신규 서비스의 실증 및 사업화 지원",
+      "link": "https://www.nipa.kr/ai/program_nextgen.html",
+      "image": "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-18-2",
+      "name": "서울 AI 허브 AI 특화 개방형 데이터 공유 플랫폼 지원",
+      "category": "AI지원",
+      "startDate": "2026-05-01",
+      "endDate": "2026-12-15",
+      "location": "서울 AI 허브",
+      "target": "AI 개발 스타트업 및 연구기관",
+      "summary": "AI 모델 개발 및 고도화를 위한 고품질 데이터 활용 및 공유 환경 제공",
+      "link": "https://seoulaihub.kr/data_platform_2026",
+      "image": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-18-3",
+      "name": "K-Startup AI 스타트업 초기 성장 촉진 바우처",
+      "category": "AI지원",
+      "startDate": "2026-04-01",
+      "endDate": "2026-10-31",
+      "location": "K-Startup (창업진흥원)",
+      "target": "업력 3년 이내 AI 기술 기반 스타트업",
+      "summary": "AI 스타트업의 기술 검증 및 초기 시장 진입을 위한 바우처 지원",
+      "link": "https://www.k-startup.go.kr/ai_voucher_2026",
+      "image": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-18-4",
+      "name": "중소벤처기업부 AI 기반 소상공인 디지털 경영 혁신 컨설팅",
+      "category": "AI지원",
+      "startDate": "2026-01-01",
+      "endDate": "상시",
+      "location": "중소벤처기업부 (기업마당)",
+      "target": "소상공인 및 초기 중소기업",
+      "summary": "AI 기반 맞춤형 경영 컨설팅 및 솔루션 도입을 통한 디지털 전환 지원",
+      "link": "https://www.bizinfo.go.kr/ai_digital_sme_2026",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-18-5",
+      "name": "과학기술정보통신부 초고성능 빅데이터 분석 인프라 활용 지원",
+      "category": "AI지원",
+      "startDate": "2026-02-15",
+      "endDate": "2026-12-20",
+      "location": "과학기술정보통신부",
+      "target": "AI·빅데이터 연구기관 및 기업",
+      "summary": "초고성능 빅데이터 분석을 위한 컴퓨팅 자원 및 전문 컨설팅 제공",
+      "link": "https://www.msit.go.kr/bigdata_infra_2026",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-10-17"
+  "lastUpdated": "2026-10-18"
 }
