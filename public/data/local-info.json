@@ -5387,6 +5387,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1519340333755-56e9c1d04579?w=800&q=80"
+    },
+    {
+      "id": "127000000025",
+      "name": "범죄 피해 아동·장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2026-10-19",
+      "endDate": "상시",
+      "location": "법무부",
+      "target": "만 19세 미만 아동 또는 장애인 범죄 피해자",
+      "summary": "범죄 피해 아동·장애인의 수사·재판상 의사소통 중개 지원",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -16178,7 +16191,67 @@
       "summary": "초고성능 빅데이터 분석을 위한 컴퓨팅 자원 및 전문 컨설팅 제공",
       "link": "https://www.msit.go.kr/bigdata_infra_2026",
       "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-19-1",
+      "name": "NIPA AI 모델 개발 및 윤리 확보 기술 지원",
+      "category": "AI지원",
+      "startDate": "2026-10-01",
+      "endDate": "2026-11-30",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "AI 기술 개발 기업 및 연구기관",
+      "summary": "AI 모델 개발 단계부터 윤리적 고려 및 확보 기술 지원",
+      "link": "https://www.nipa.kr",
+      "image": "https://images.unsplash.com/photo-1516321165247-4aa89a48be55?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-19-2",
+      "name": "서울 AI 허브 생성형 AI 스타트업 기술 고도화 지원",
+      "category": "AI지원",
+      "startDate": "2026-09-15",
+      "endDate": "2026-10-31",
+      "location": "서울 AI 허브",
+      "target": "생성형 AI 기술 기반 스타트업",
+      "summary": "생성형 AI 모델 및 서비스의 기술 고도화 및 사업화 컨설팅 지원",
+      "link": "https://seoulaihub.kr",
+      "image": "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-19-3",
+      "name": "K-Startup AI 반도체 스타트업 기술개발 지원",
+      "category": "AI지원",
+      "startDate": "2026-10-01",
+      "endDate": "2026-11-15",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "AI 반도체 분야 초기 창업기업",
+      "summary": "AI 반도체 핵심 기술 개발 및 상용화를 위한 자금 및 멘토링 지원",
+      "link": "https://www.k-startup.go.kr",
+      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-19-4",
+      "name": "중소기업 AI 기반 스마트 제조 데이터 활용 교육 및 컨설팅",
+      "category": "AI지원",
+      "startDate": "2026-10-07",
+      "endDate": "2026-11-20",
+      "location": "기업마당 (중소벤처기업부)",
+      "target": "중소 제조기업 임직원",
+      "summary": "AI 기반 제조 데이터 분석 및 활용 역량 강화 교육 및 맞춤형 컨설팅",
+      "link": "https://www.bizinfo.go.kr",
+      "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-19-5",
+      "name": "과학기술정보통신부 AI 기반 신약 개발 및 바이오 융합 연구 지원",
+      "category": "AI지원",
+      "startDate": "2026-09-01",
+      "endDate": "2026-10-31",
+      "location": "과학기술정보통신부",
+      "target": "제약·바이오 AI 연구기관 및 기업",
+      "summary": "AI를 활용한 신약 개발 및 바이오 분야 융합 기술 연구개발 지원",
+      "link": "https://www.msit.go.kr",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-10-18"
+  "lastUpdated": "2026-10-19"
 }
