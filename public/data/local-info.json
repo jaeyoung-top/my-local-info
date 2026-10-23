@@ -5439,6 +5439,19 @@
       "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
       "imageTheme": "children",
       "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
+    },
+    {
+      "id": "000025",
+      "name": "범죄 피해 아동 및 장애인 진술조력인 지원",
+      "category": "혜택",
+      "startDate": "2020-12-17",
+      "endDate": "상시",
+      "location": "경찰서, 검찰청, 법원",
+      "target": "범죄 피해 아동 및 장애인",
+      "summary": "만 19세 미만 아동, 의사소통 어려운 장애인 범죄 피해자의 수사·재판상 소통 중개",
+      "link": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/127000000025",
+      "imageTheme": "children",
+      "image": "https://images.unsplash.com/photo-1519340333755-56e9c1d04579?w=800&q=80"
     }
   ],
   "aiSupport": [
@@ -16470,7 +16483,67 @@
       "summary": "차세대 AI 반도체 기반 혁신 서비스 개발 및 실증 R&D 지원",
       "link": "https://www.msit.go.kr/index.do",
       "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-23-1",
+      "name": "NIPA 2026년 지역 특화 산업 AI 모델 도입 컨설팅 및 실증 지원",
+      "category": "AI지원",
+      "startDate": "2026-10-23",
+      "endDate": "2027-03-31",
+      "location": "정보통신산업진흥원 (NIPA)",
+      "target": "지역 중소기업 및 스타트업",
+      "summary": "지역 특화 산업에 AI 모델 도입 컨설팅 및 실증을 지원합니다.",
+      "link": "https://www.nipa.kr/main/index.html",
+      "image": "https://images.unsplash.com/photo-1516321165247-4aa89a48be55?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-23-2",
+      "name": "서울 AI 허브 2026년 AI 기반 도시 환경 소음 데이터 분석 및 솔루션 실증",
+      "category": "AI지원",
+      "startDate": "2026-10-23",
+      "endDate": "2027-03-15",
+      "location": "서울 AI 허브",
+      "target": "AI 스타트업 및 연구기관 (도시 환경 소음 솔루션)",
+      "summary": "도시 환경 소음 데이터 분석을 통한 AI 기반 솔루션 개발 및 실증 지원",
+      "link": "https://seoulaihub.kr/",
+      "image": "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-23-3",
+      "name": "K-Startup 2026년 AI 기반 비게임 엔터테인먼트 콘텐츠 창업 지원",
+      "category": "AI지원",
+      "startDate": "2026-10-23",
+      "endDate": "2027-01-31",
+      "location": "창업진흥원 (K-Startup)",
+      "target": "AI 기반 비게임 엔터테인먼트 스타트업",
+      "summary": "AI 기술을 활용한 비게임 엔터테인먼트 콘텐츠 창업 및 사업화 지원",
+      "link": "https://www.k-startup.go.kr/",
+      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-23-4",
+      "name": "기업마당 2026년 중소기업 AI 기반 직무 재설계 및 인력 양성 지원",
+      "category": "AI지원",
+      "startDate": "2026-10-23",
+      "endDate": "2027-04-30",
+      "location": "기업마당 (중소벤처기업부)",
+      "target": "AI 도입 희망 중소기업 및 재직자",
+      "summary": "AI 도입에 따른 직무 재설계 컨설팅 및 필요 인력 양성 교육 지원",
+      "link": "https://www.bizinfo.go.kr/",
+      "image": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=800&q=80"
+    },
+    {
+      "id": "ai-2026-10-23-5",
+      "name": "과학기술정보통신부 2026년 AI 모델 견고성 및 적대적 공격 방어 기술 개발",
+      "category": "AI지원",
+      "startDate": "2026-10-23",
+      "endDate": "2028-12-31",
+      "location": "과학기술정보통신부",
+      "target": "AI 모델 견고성/보안 기술 개발 기업/연구기관",
+      "summary": "AI 모델의 견고성 확보 및 적대적 공격 방어 원천기술 개발 지원",
+      "link": "https://www.msit.go.kr/",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80"
     }
   ],
-  "lastUpdated": "2026-10-22"
+  "lastUpdated": "2026-10-23"
 }
